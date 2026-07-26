@@ -85,12 +85,43 @@ export const Dashboard: React.FC = () => {
     return diff > 0 ? diff : 0;
   }, [profile?.exam_date]);
 
-  // Calculate overall readiness percentage
+  // Calculate Bayesian-adjusted readiness score
+  const READINESS_PRIOR_WEIGHT = 30;  // Conservative prior weight
+  const READINESS_PRIOR_RATE = 0.50;  // Assume 50% prior (no knowledge)
+
   const readinessPct = React.useMemo(() => {
     if (!attempts || attempts.length === 0) return 0;
-    const correctCount = attempts.filter(a => a.is_correct).length;
-    return Math.min(100, Math.round((correctCount / attempts.length) * 100));
-  }, [attempts]);
+
+    // Bayesian-adjusted overall accuracy
+    const totalCorrect = attempts.filter(a => a.is_correct).length;
+    const totalAnswered = attempts.length;
+    const bayesianEstimate =
+      (totalCorrect + READINESS_PRIOR_WEIGHT * READINESS_PRIOR_RATE) /
+      (totalAnswered + READINESS_PRIOR_WEIGHT);
+
+    // Category coverage bonus: up to +10% for attempting all 4 categories
+    const categoriesCovered = new Set(
+      attempts
+        .map(a => a.question_id)
+        .map(qId => questions.find(q => q.id === qId)?.category_id)
+        .filter(Boolean)
+    ).size;
+    const totalCategories = 4; // numerical, verbal, analytical, clerical
+    const coverageBonus = Math.min(categoriesCovered / totalCategories, 1) * 0.10;
+
+    // Difficulty bonus: harder questions contribute more
+    const avgDifficulty = attempts.reduce((sum, a) => {
+      const q = questions.find(q => q.id === a.question_id);
+      return sum + (q?.difficulty || 1);
+    }, 0) / Math.max(totalAnswered, 1);
+    const difficultyBonus = Math.max(0, (avgDifficulty - 1) / 2) * 0.05;
+
+    // Combine: base + coverage + difficulty, capped at 0-100%
+    const rawScore = bayesianEstimate + coverageBonus + difficultyBonus;
+    return Math.min(100, Math.max(0, Math.round(rawScore * 100)));
+  }, [attempts, questions]);
+
+
   // Celebrate streak milestones with sound
   const sound = useSound();
   const prevStreakRef = React.useRef(currentStreak);
