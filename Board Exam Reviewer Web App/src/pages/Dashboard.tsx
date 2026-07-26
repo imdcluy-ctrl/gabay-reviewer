@@ -17,6 +17,8 @@ import { useAchievements } from '../hooks/useAchievements';
 import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
+import { PredictiveScoreCard } from '../components/PredictiveScoreCard';
+import { calculatePredictiveScore } from '../lib/predictiveScore';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
@@ -120,6 +122,19 @@ export const Dashboard: React.FC = () => {
     const rawScore = bayesianEstimate + coverageBonus + difficultyBonus;
     return Math.min(100, Math.max(0, Math.round(rawScore * 100)));
   }, [attempts, questions]);
+  // Predictive CSE Score
+  const predictiveResult = React.useMemo(() => {
+    if (!attempts || !questions) return null;
+    const questionCategoryMap: Record<string, string> = {};
+    questions.forEach(q => { questionCategoryMap[q.id] = q.category_id; });
+    return calculatePredictiveScore(
+      attempts,
+      questionCategoryMap,
+      currentStreak,
+      daysToExam,
+      questions.length,
+    );
+  }, [attempts, questions, currentStreak, daysToExam]);
 
 
   // Celebrate streak milestones with sound
@@ -232,6 +247,11 @@ export const Dashboard: React.FC = () => {
             Resume Practice â†’
           </Button>
         </Card>
+
+        {/* SECTION 2.25: Predictive Score Card */}
+        {predictiveResult && predictiveResult.trend !== "insufficient_data" && (
+          <PredictiveScoreCard result={predictiveResult} />
+        )}
 
         {/* SECTION 2.5: Full Timed CSE Mock Simulation Launcher */}
         <Card className="mock-exam-launcher-card">
