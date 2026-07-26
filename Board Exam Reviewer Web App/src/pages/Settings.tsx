@@ -9,6 +9,7 @@ import { Card } from '../components/Card';
 import { Button } from '../components/Button';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { OfflineBanner } from '../components/OfflineBanner';
+import { useNotifications } from '../hooks/useNotifications';
 import './Settings.css';
 
 export const Settings: React.FC = () => {
@@ -21,6 +22,7 @@ export const Settings: React.FC = () => {
     return localStorage.getItem('gabay_reminder_time') || '19:00';
   });
 
+  const notif = useNotifications();
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const [soundEnabled, setSoundEnabled] = useState<boolean>(() => {
     try {
@@ -67,6 +69,14 @@ export const Settings: React.FC = () => {
     });
     showToast('Exam settings saved! ✓');
   };
+
+  // Auto-start reminder check on mount
+  React.useEffect(() => {
+    if (reminderTime) {
+      notif.startReminderCheck(reminderTime);
+    }
+    return () => notif.stopReminderCheck();
+  }, []);
 
   const handleSetReminder = async () => {
     localStorage.setItem('gabay_reminder_time', reminderTime);

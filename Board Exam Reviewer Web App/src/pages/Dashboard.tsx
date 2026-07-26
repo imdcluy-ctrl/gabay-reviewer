@@ -14,6 +14,7 @@ import { OfflineBanner } from '../components/OfflineBanner';
 import { SoundToggle } from '../components/SoundToggle';
 import { QOTDWidget } from '../components/QOTDWidget';
 import { useSound } from '../hooks/useSound';
+import { StreakCelebration } from '../components/StreakCelebration';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
@@ -99,6 +100,18 @@ export const Dashboard: React.FC = () => {
     prevStreakRef.current = currentStreak;
   }, [currentStreak]);
   const xp = useXP();
+  const [showStreakCelebration, setShowStreakCelebration] = React.useState(false);
+  const streakCelebRef = React.useRef(currentStreak);
+
+  // Detect streak milestone celebrations (separate from sound milestone)
+  React.useEffect(() => {
+    const milestones = [3, 7, 14, 21, 30, 60, 100];
+    const prev = streakCelebRef.current;
+    if (currentStreak > prev && currentStreak >= 3 && milestones.includes(currentStreak)) {
+      setShowStreakCelebration(true);
+    }
+    streakCelebRef.current = currentStreak;
+  }, [currentStreak]);
 
 
 
@@ -255,6 +268,12 @@ export const Dashboard: React.FC = () => {
         )}
       </main>
 
+      {showStreakCelebration && (
+        <StreakCelebration
+          streak={currentStreak}
+          onDismiss={() => setShowStreakCelebration(false)}
+        />
+      )}
       <FooterDisclaimer />
       <BottomNav />
     </div>

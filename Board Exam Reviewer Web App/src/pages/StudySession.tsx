@@ -21,6 +21,7 @@ import { SoundToggle } from '../components/SoundToggle';
 import { useSound } from '../hooks/useSound';
 import { useXP } from '../hooks/useXP';
 import { useQOTD } from '../hooks/useQOTD';
+import { useNotifications } from '../hooks/useNotifications';
 import { XP_VALUES } from '../lib/xp';
 import { XPNotification } from '../components/XPNotification';
 import { LevelUpModal } from '../components/LevelUpModal';
@@ -41,6 +42,7 @@ export const StudySession: React.FC = () => {
 
   const isQOTD = searchParams.get('session') === 'qotd';
   const qotd = useQOTD();
+  const notif = useNotifications();
 
   // Primer check (only for practice sessions)
   const [showPrimer, setShowPrimer] = useState<boolean>(false);
@@ -78,6 +80,16 @@ export const StudySession: React.FC = () => {
 
 
   } = useStudySession(categoryId, sessionType as 'practice' | 'review');
+
+  // Mark today as studied when reaching result state
+  const resultStateRef2 = React.useRef(state);
+  React.useEffect(() => {
+    if (state === 'result' && resultStateRef2.current !== 'result') {
+      notif.markStudiedToday();
+    }
+    resultStateRef2.current = state;
+  }, [state]);
+
 
   // Sound effects for study session
   const sound = useSound();
