@@ -14,6 +14,8 @@ export default defineConfig({
       telemetry: false,
     }),
     VitePWA({
+      // Build timestamp for cache busting
+      buildTimestamp: Date.now(),
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {

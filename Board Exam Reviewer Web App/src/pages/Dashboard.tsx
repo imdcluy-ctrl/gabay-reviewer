@@ -18,6 +18,7 @@ import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
 import { PredictiveScoreCard } from '../components/PredictiveScoreCard';
+import { MockExamLauncher } from '../components/MockExamLauncher';
 import { calculatePredictiveScore } from '../lib/predictiveScore';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
@@ -253,32 +254,8 @@ export const Dashboard: React.FC = () => {
           <PredictiveScoreCard result={predictiveResult} />
         )}
 
-        {/* SECTION 2.5: Full Timed CSE Mock Simulation Launcher */}
-        <Card className="mock-exam-launcher-card">
-          <div className="mock-launcher-header">
-            <span className="mock-icon">â±ï¸</span>
-            <div>
-              <h3 className="mock-title">Full Timed CSE Mock Simulation</h3>
-              <p className="mock-sub">Real Civil Service Exam conditions (170 items â€¢ 3h 10m timer).</p>
-            </div>
-          </div>
-          <div className="mock-btn-row">
-            <Button
-              variant="primary"
-              size="md"
-              onClick={() => navigate('/exam/cse-professional-v1')}
-            >
-              Professional (170 Items)
-            </Button>
-            <Button
-              variant="secondary"
-              size="md"
-              onClick={() => navigate('/exam/cse-subprofessional-v1')}
-            >
-              Sub-Pro (165 Items)
-            </Button>
-          </div>
-        </Card>
+        {/* SECTION 2.5: Mock Exam Launchers (Full + Mini with attempt tracking) */}
+        <MockExamLauncher />
 
         {/* SECTION 3: 4-Subject Quick Launcher Grid */}
         <div className="quick-launcher-section">

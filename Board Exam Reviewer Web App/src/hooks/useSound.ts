@@ -52,12 +52,28 @@ let audioCtx: AudioContext | null = null;
 
 function getAudioContext(): AudioContext {
   if (!audioCtx) {
-    audioCtx = new AudioContext();
-  }
-  if (audioCtx.state === 'suspended') {
-    audioCtx.resume();
+    // Create but don't resume yet - needs user gesture
+    audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
   }
   return audioCtx;
+}
+
+// Initialize on first user interaction
+function initOnGesture() {
+  if (audioCtx && audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
+  if (typeof document !== 'undefined') {
+    document.removeEventListener('click', initOnGesture);
+    document.removeEventListener('touchstart', initOnGesture);
+    document.removeEventListener('keydown', initOnGesture);
+  }
+}
+
+if (typeof document !== 'undefined') {
+  document.addEventListener('click', initOnGesture, { once: true });
+  document.addEventListener('touchstart', initOnGesture, { once: true });
+  document.addEventListener('keydown', initOnGesture, { once: true });
 }
 
 

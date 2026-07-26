@@ -1,0 +1,97 @@
+.mock-exam-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.mock-launcher-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1.5px solid var(--color-border);
+  transition: all var(--transition-base);
+}
+
+.mock-launcher-card:hover {
+  border-color: var(--color-brand-teal);
+  box-shadow: var(--shadow-md);
+}
+
+.mock-launcher-card.exhausted {
+  opacity: 0.75;
+  border-color: var(--color-incorrect);
+  background: var(--color-incorrect-bg);
+}
+
+.mock-launcher-card.mini-mock {
+  border-color: var(--color-brand-gold);
+}
+
+.mock-launcher-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.mock-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.mock-launcher-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.mock-name {
+  margin: 0;
+  font-size: var(--size-sm);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.mock-desc {
+  margin: 0;
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.mock-badge-new {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: white;
+  background: var(--color-incorrect);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.05em;
+}
+
+.mock-attempts-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg-secondary);
+  border-radius: var(--radius-md);
+}
+
+.mock-attempt-label {
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.mock-upgrade-hint {
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-brand-gold);
+}
+
+.mock-btn-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
