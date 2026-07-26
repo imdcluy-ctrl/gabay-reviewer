@@ -1,0 +1,119 @@
+.review-calendar-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+.rc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rc-title {
+  font-size: var(--size-sm);
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-brand-teal);
+}
+
+.rc-month {
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.rc-total-due {
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-incorrect);
+  text-align: center;
+  padding: var(--space-1) 0;
+}
+
+.rc-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.rc-day-header {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 4px 0;
+}
+
+.rc-day {
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  cursor: default;
+  position: relative;
+  transition: transform 0.15s;
+  background: var(--color-bg-secondary);
+}
+
+.rc-day:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.rc-day.empty {
+  background: transparent;
+}
+
+.rc-day.today {
+  border: 2px solid var(--color-brand-teal);
+  box-shadow: 0 0 0 2px rgba(13,115,119,0.15);
+}
+
+.rc-day.has-cards {
+  background: rgba(13,115,119,0.15);
+  font-weight: 700;
+}
+
+.rc-day.overdue {
+  background: rgba(244,63,94,0.2);
+  font-weight: 700;
+}
+
+.rc-day-num {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.rc-day-count {
+  font-size: 0.5rem;
+  font-weight: 800;
+  color: var(--color-brand-teal);
+  margin-top: -2px;
+}
+
+.rc-day.overdue .rc-day-count {
+  color: var(--color-incorrect);
+}
+
+.rc-review-btn {
+  width: 100%;
+  padding: var(--space-2) 0;
+  background: var(--color-brand-teal);
+  color: white;
+  border: none;
+  border-radius: var(--radius-lg);
+  font-size: var(--size-sm);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.rc-review-btn:hover {
+  background: var(--color-brand-teal-light);
+  transform: translateY(-1px);
+}

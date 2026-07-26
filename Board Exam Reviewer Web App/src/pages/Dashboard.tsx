@@ -20,6 +20,7 @@ import { StreakCelebration } from '../components/StreakCelebration';
 import { PredictiveScoreCard } from '../components/PredictiveScoreCard';
 import { MockExamLauncher } from '../components/MockExamLauncher';
 import { MasteryHeatmap } from '../components/MasteryHeatmap';
+import { ReviewCalendar } from '../components/ReviewCalendar';
 import { calculatePredictiveScore } from '../lib/predictiveScore';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
@@ -281,7 +282,10 @@ export const Dashboard: React.FC = () => {
         {/* SECTION 4: Pre-allocated Non-Intrusive Ad Slot */}
         <AdUnit slotId="7447186651" format="fluid" layoutKey="-fb+5w+4e-db+86" minHeight="90px" />
 
-                {/* SECTION 4.5: Mastery Heatmap */}
+                {/* SECTION 4.25: Spaced Review Calendar */}
+        <ReviewCalendar />
+
+        {/* SECTION 4.5: Mastery Heatmap */}
         {profile?.id && (
           <div className="quick-launcher-section">
             <h3 className="section-heading">Mastery Map</h3>
