@@ -13,6 +13,8 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { SoundToggle } from '../components/SoundToggle';
 import { QOTDWidget } from '../components/QOTDWidget';
+import { useAchievements } from '../hooks/useAchievements';
+import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
 import { useXP } from '../hooks/useXP';
@@ -100,6 +102,7 @@ export const Dashboard: React.FC = () => {
     prevStreakRef.current = currentStreak;
   }, [currentStreak]);
   const xp = useXP();
+  const achievements = useAchievements();
   const [showStreakCelebration, setShowStreakCelebration] = React.useState(false);
   const streakCelebRef = React.useRef(currentStreak);
 
@@ -268,6 +271,12 @@ export const Dashboard: React.FC = () => {
         )}
       </main>
 
+            {achievements.newAchievement && (
+        <AchievementToast
+          achievement={achievements.newAchievement}
+          onDismiss={achievements.dismissAchievement}
+        />
+      )}
       {showStreakCelebration && (
         <StreakCelebration
           streak={currentStreak}

@@ -18,6 +18,7 @@ import { Auth } from './pages/Auth';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { TermsOfService } from './pages/TermsOfService';
 import { AdminDashboard } from './pages/AdminDashboard';
+import { Achievements } from './pages/Achievements';
 import { QuickHelp } from './pages/QuickHelp';
 
 const MockExamSession = React.lazy(() => import('./pages/MockExamSession'));
@@ -121,6 +122,7 @@ export function App() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
         <Route path="/help" element={<QuickHelp />} />
+        <Route path="/achievements" element={<Achievements />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route
           path="/exam/history"

@@ -11,6 +11,7 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { PaywallBanner } from '../components/paywall/PaywallBanner';
 import { useEntitlement } from '../hooks/useEntitlement';
+import { useAchievements } from '../hooks/useAchievements';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
 import { SoundToggle } from '../components/SoundToggle';
@@ -21,6 +22,7 @@ export const Profile: React.FC = () => {
   const { profile } = useUserProfile();
   const { currentStreak } = useStreak();
   const xp = useXP();
+  const achievements = useAchievements();
 
   const { isPremium } = useEntitlement();
 
@@ -99,6 +101,21 @@ export const Profile: React.FC = () => {
               </div>
             </div>
             <span className="menu-arrow">→</span>
+          </Card>
+
+          <Card
+            variant="interactive"
+            className="menu-item-card"
+            onClick={() => navigate('/achievements')}
+          >
+            <div className="menu-item-left">
+              <span className="menu-icon">??</span>
+              <div className="menu-text">
+                <h4>Achievements <span className="menu-badge">{achievements.progress}/{achievements.total}</span></h4>
+                <p>Track your badges and progress</p>
+              </div>
+            </div>
+            <span className="menu-arrow">?</span>
           </Card>
 
           <Card

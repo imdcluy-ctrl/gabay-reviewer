@@ -169,3 +169,16 @@
   background: linear-gradient(135deg, rgba(245, 166, 35, 0.05), rgba(245, 166, 35, 0.02));
   animation: pulseGlow 2s ease-in-out infinite;
 }
+.menu-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--color-brand-gold);
+  background: rgba(245, 166, 35, 0.15);
+  padding: 1px 7px;
+  border-radius: var(--radius-full);
+  margin-left: var(--space-2);
+  vertical-align: middle;
+}
