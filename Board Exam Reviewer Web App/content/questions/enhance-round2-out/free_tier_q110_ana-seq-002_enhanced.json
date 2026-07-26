@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-002",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next: Z, Y, X, W, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "V"
+      },
+      {
+        "key": "B",
+        "text": "U"
+      },
+      {
+        "key": "C",
+        "text": "T"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a letter sequence. The letters are going somewhere. Try saying them out loud: Z, Y, X, W. What direction are they moving in the alphabet?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Each letter is the one right before it in the alphabet. So the pattern is just moving one step backward each time. What letter comes right before W?"
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Now",
+        "text": "If you go backward from W by one letter, you land on V. That's your next term. The other options skip letters, but this pattern doesn't skip."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Think of the alphabet in reverse: Z, Y, X, W, V, U, T, S... The sequence is simply reading it off one letter at a time. So after W comes V."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! V is the next letter because the sequence moves backward through the alphabet one step at a time: Z to Y, Y to X, X to W, and W to V. You nailed it.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "U is tempting if you think the pattern might skip a letter, but it doesn't. Going from W to U would mean skipping V. The pattern is a steady one-step backward, so V comes first, then U later.",
+        "trap_type": "step_size_error"
+      },
+      "C": {
+        "text": "T is three steps back from W, which is a much bigger jump than the pattern shows. It's easy to misread the sequence and think the steps are larger, but each move is just one letter backward.",
+        "trap_type": "step_size_error"
+      },
+      "D": {
+        "text": "S is four steps back from W. This might happen if you're guessing or if you think the pattern goes faster than it does. Remember, the sequence is simply the alphabet in reverse order, one letter at a time.",
+        "trap_type": "step_size_error"
+      }
+    },
+    "next_time_rule": "For any letter sequence, first figure out the step size. Say the alphabet forward or backward to check if it's moving one letter at a time or skipping. The step size stays constant throughout.",
+    "blueprint_id": "Reverse Alphabet Sequence",
+    "deconstruct_text": "Let's walk through this together. The sequence is Z, Y, X, W. If you look at the alphabet, Z comes first, then Y, then X, then W. Each time, we're moving one letter backward. So after W, the next letter backward is V. That's our answer. A quick way to check: just recite the alphabet in reverse order: Z, Y, X, W, V, U, T, S... See how it flows naturally? The pattern is just reading that list. The wrong answers—U, T, and S—all come from taking too big a step. They skip letters that should be there. So the mental trick here is simple: always check the step size. If the sequence goes Z to Y, that's one step back. If it went Z to X, that would be two steps. Once you know the step size, stick with it all the way through.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

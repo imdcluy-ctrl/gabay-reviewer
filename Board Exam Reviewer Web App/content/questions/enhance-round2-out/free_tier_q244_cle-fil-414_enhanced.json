@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-414",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "Which is the correct way to file 'The Bureau of Internal Revenue' in an alphabetical index?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bureau of Internal Revenue, The"
+      },
+      {
+        "key": "B",
+        "text": "The Bureau of Internal Revenue"
+      },
+      {
+        "key": "C",
+        "text": "Internal Revenue, Bureau of"
+      },
+      {
+        "key": "D",
+        "text": "Revenue, Bureau of Internal"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about how you'd look up a government agency in a phone book or filing cabinet. Would you search under 'The' or under the main name?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "In alphabetical filing, small words like 'The', 'A', and 'An' at the start of a name are ignored. They get moved to the end, separated by a comma."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "So for 'The Bureau of Internal Revenue', you take 'The' off the front, put it at the back with a comma, and file under the word that comes next."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct filing form is 'Bureau of Internal Revenue, The'. This way, you alphabetize by 'Bureau' — the real first word — not by 'The'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is exactly right. You moved 'The' to the end after a comma, so the name is filed under 'Bureau'. That's the standard rule for articles at the start of a name.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This keeps 'The' at the front, which is a common mistake. In filing, 'The' is considered a non-filing word, so it should not be the first thing you alphabetize by. Always drop it to the end.",
+        "trap_type": "article_not_ignored"
+      },
+      "C": {
+        "text": "This flips the words around too much. You might be thinking of how you'd file a person's last name first, but for organizations, you keep the natural order — just move the article. 'Internal Revenue, Bureau of' is not the correct form here.",
+        "trap_type": "improper_inversion"
+      },
+      "D": {
+        "text": "This is scrambled beyond recognition. It looks like you tried to invert the name but went too far. The rule is simple: keep the name in its natural order, and only move the article 'The' to the end.",
+        "trap_type": "improper_inversion"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. The name is 'The Bureau of Internal Revenue'. In alphabetical filing, small articles like 'The', 'A', and 'An' at the very beginning are treated as non-filing words. They don't help you find anything because almost no one looks up 'The' in a directory. So the trick is to move 'The' to the very end, separated by a comma. That gives you 'Bureau of Internal Revenue, The'. Now you alphabetize by 'Bureau' — the first real, meaningful word. Think of it like this: if you were flipping through a filing cabinet, you'd look under 'B' for Bureau, not under 'T' for The. That's the mental shortcut: always ask yourself, 'What word would I actually search for?' and file by that word instead.",
+    "next_time_rule": "When you see 'The', 'A', or 'An' at the start of a name, mentally cut it off and paste it at the end with a comma. File by the next real word.",
+    "blueprint_id": "B-2384",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

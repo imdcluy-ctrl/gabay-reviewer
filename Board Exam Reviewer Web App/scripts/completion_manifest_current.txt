@@ -1,0 +1,405 @@
+ver-gram-008 | Prepositional Idioms â€” Responsible For vs Responsible To | Fill in the blank with the correct preposition: 'The newly appointed director is
+ver-gram-007 | Vocabulary â€” Synonyms of Legal and Audit Terms | The auditor recommended that the municipal treasurer AMEND the financial report.
+ver-gram-006 | Parallel Structure â€” Parallel Gerund Phrases | Identify the sentence that maintains parallel structure.
+ver-gram-005 | Reading Comprehension â€” Identifying Main Idea | Read the passage: 'Public accountability requires civil servants to perform duti
+ver-gram-004 | Vocabulary â€” Synonyms of Administrative Directives | The Civil Service Commission issued a MANDATORY directive ordering all agencies 
+ver-gram-003 | Dangling Modifiers â€” Aligning Introductory Participle with Logical Subject | Identify the sentence that avoids a dangling modifier.
+ver-gram-002 | Pronoun Case â€” Object of Preposition | Select the sentence with the correct pronoun case for official communications.
+ver-gram-001 | Subject-Verb Agreement â€” Proximity Rule with Neither/Nor | Choose the sentence that adheres to standard Civil Service English grammar rules
+num-pct-004 | Numerical Ability â€” Combined Work Formula (1/A + 1/B = 1/T) | A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump 
+num-pct-003 | Numerical Ability â€” Algebraic Age Problems | A department secretary is currently twice as old as her assistant. Eight years a
+num-pct-002 | Numerical Ability â€” Simple Interest Formula (I = P r t) | A LGU cooperative deposited â‚±50,000 in a government savings account earning 6%
+num-pct-001 | Numerical Ability â€” Percentage Increase | A municipal health office received a budget increase from â‚±800,000 to â‚±1,000
+num-ratio-010 | Ratio and Proportion â€” vehicle fuel consumption proportion | An LGU inspection vehicle consumes 18 liters of gasoline to cover a distance of 
+num-ratio-009 | Ratio and Proportion â€” combining continued ratios (A:B and B:C to find A:C) | In an agency division, the ratio of permanent staff to casual staff is 4:3, and 
+num-ratio-008 | Ratio and Proportion â€” direct proportion supplies forecasting | A government printer uses 15 reams of paper to produce 600 training manuals. How
+num-ratio-007 | Ratio and Proportion â€” calculating difference between ratio shares | A â‚±90,000 community development grant is divided among three barangays A, B, a
+num-ratio-006 | Ratio and Proportion â€” inverse proportion manpower problems | A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days.
+num-ratio-005 | Ratio and Proportion â€” map scale proportional reasoning | On an official LGU land survey map, a scale of 2 centimeters represents an actua
+num-ratio-004 | Ratio and Proportion â€” simplifying ratios into lowest terms | A Provincial Capitol purchased 48 desktop computers and 32 printers for its fiel
+num-ratio-003 | Ratio and Proportion â€” dividing budget by population ratio | A disaster relief fund of â‚±120,000 is allocated to three barangays in proporti
+num-ratio-002 | Ratio and Proportion â€” finding unknown quantity in direct proportion | In a municipal health center, the ratio of registered nurses to medical technolo
+num-ratio-001 | Ratio and Proportion â€” dividing a total amount into parts based on a given ratio | A government office distributed â‚±45,000 among three employees in the ratio 2:3
+cle-fil-005 | Alphabetical Filing â€” Government Agency Indexing | Under standard government filing rules, how is the agency 'Department of Budget 
+cle-fil-004 | Clerical Accuracy â€” Code Verification and Transposition Detection | Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are th
+cle-fil-003 | Clerical Ability â€” Standard Spelling Verification | Which of the following words is correctly spelled?
+cle-fil-002 | Alphabetical Filing â€” Abbreviations (St. spelled as Saint) | According to standard filing rules, how should the business name 'St. Jude Medic
+cle-fil-001 | Alphabetical Filing â€” Prefix Surnames (De, De la, Del) | Arrange the following government employee names in correct alphabetical filing o
+gen-const-005 | 1987 Philippine Constitution â€” Article II Section 1 Sovereignty of the People | According to Article II Section 1 of the 1987 Constitution, the Philippines is a
+gen-const-004 | RA 6713 Section 8 â€” Disclosure of Assets and Liabilities (SALN) | What public document must all public officials and employees file under oath upo
+gen-const-003 | 1987 Philippine Constitution â€” Article VI Section 1 Legislative Department | Under the 1987 Philippine Constitution, legislative power is vested in the Congr
+gen-const-002 | RA 6713 Section 5(a) â€” Prompt Action on Letters and Requests | Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Of
+gen-const-001 | 1987 Philippine Constitution â€” Article III Section 1 Due Process Clause | According to Article III (Bill of Rights) of the 1987 Philippine Constitution, n
+ana-log-005 | Logical Reasoning â€” Necessary vs Sufficient Conditions | Rule: 'An applicant is granted an interview ONLY IF they pass the written examin
+ana-log-004 | Analytical Ability â€” Verbal Analogies (Workplace Association) | LAWYER is to COURT as CIVIL SERVANT is to __?
+ana-log-003 | Data Interpretation â€” Percentage Allocation Difference | An LGU allocated its â‚±10,000,000 budget as follows: Infrastructure 40%, Health
+ana-log-002 | Analytical Ability â€” Number Series Pattern Recognition | Find the next number in the series: 3, 7, 15, 31, 63, __?
+ana-log-001 | Logical Reasoning â€” Categorical Syllogism (Modus Ponens) | Premise 1: All department heads are career service eligible. Premise 2: Maria is
+num-ratio-011 | Direct Proportion — Unit Rate Method | A government office photocopier can produce 240 pages in 8 minutes. At the same 
+num-ratio-012 | Direct Proportion — Per-Unit Scaling | If 5 government employees can process 75 applications in 3 days, how many applic
+num-ratio-013 | Inverse Proportion — Workers vs Days | It takes 12 workers 8 days to complete a government building inspection project.
+num-ratio-014 | Part-to-Whole Ratio — Population Distribution | A barangay has a total population of 2,400 people. The ratio of adults to childr
+num-ratio-015 | Part-to-Whole Ratio — Department Staffing | A government office has 3 divisions: Administration, Finance, and Operations in 
+num-ratio-016 | Mixture Ratios — Bleach and Water Solution | A cleaning solution is made by mixing bleach and water in a ratio of 1:9. If you
+num-ratio-017 | Ratio — Difference Between Shares | A government agency received a budget of P240,000 divided among 3 departments in
+num-ratio-018 | Map Scale — Proportional Distance | On a government survey map, the scale is 1:50,000. If two barangays are 8 cm apa
+num-ratio-019 | Direct Proportion — Feeding Program | A recipe for a government feeding program requires 3 kg of rice for 12 children.
+num-ratio-020 | Combined Flow Rates | A hose can fill a 600-liter government water tank in 4 hours. Another hose can f
+num-ratio-021 | Direct Proportion — Procurement Ratio | In a government procurement, the ratio of office chairs to tables is 5:2. If the
+num-ratio-022 | Part-to-Whole — Scholarship Distribution | A government scholarship fund of P180,000 is divided among three students in the
+num-ratio-023 | Inverse Proportion — Road Project Manpower | If 8 civil engineers can complete a road project in 15 days, how many engineers 
+num-ratio-024 | Direct Proportion — Livelihood Ratio | The ratio of coconut oil to soap base in a livelihood production is 3:7. If 21 l
+num-ratio-025 | Part-to-Whole — Farm Land Allocation | A 50-hectare government farm is planted with corn and rice in the ratio 2:3. How
+num-ratio-026 | Inverse Proportion — Multi-Stage Work | A DPWH crew of 6 workers can finish a road repair in 24 days. After 6 days, 2 mo
+num-ratio-027 | Part-to-Whole — Bidding Proportions | In a government bidding process, the ratio of winning to losing bids is 1:5. If 
+num-ratio-028 | Ratio — Profit Share Difference | A 3:2:1 profit-sharing ratio is used for three government project partners. If t
+num-ratio-029 | Ratio — Finding from Difference | In a municipality, the ratio of male to female employees is 7:5. If there are 20
+num-ratio-030 | Simplifying Ratios — Flow Rates | A hose fills a tank at 30 liters per minute. Another hose fills at 50 liters per
+num-pct-005 | Percentage Increase — Salary Adjustment | A government employee's monthly salary was P25,000. She received a 12% salary in
+num-pct-006 | Percentage Decrease — Budget Reduction | A municipal office's budget of P800,000 was reduced by 15% due to austerity meas
+num-pct-007 | Simple Interest — Cooperative Deposit | A government cooperative deposited P100,000 in a bank that pays 4% simple intere
+num-pct-008 | Simple Interest — Finding Time | Maria invested P50,000 at 6% simple interest. How long will it take for her inve
+num-pct-009 | Discount Computation | A laptop originally priced at P45,000 is sold at a 20% discount. What is the sel
+num-pct-010 | Markup Computation | A store marks up an item by 25% from its cost of P2,400. What is the marked pric
+num-pct-011 | Percentage — Deduction Rate | A government employee's gross monthly salary is P30,000. Deductions amount to P7
+num-pct-012 | Percentage — Budget Allocation | A P2,000,000 infrastructure project has 35% for labor, 45% for materials, and th
+num-pct-013 | Profit Margin Computation | A fish vendor bought fish for P800 and sold it for P1,040. What is the percentag
+num-pct-014 | Percentage Increase — Population | A barangay's population increased from 3,000 to 3,600. What is the percentage in
+num-pct-015 | Simple Interest — Loan Repayment | A civil servant took a personal loan of P120,000 at 8% simple interest. Total to
+num-pct-016 | Finding Original Price After Discount | A jacket sold for P1,800 after a 10% discount. What was its original price?
+num-pct-017 | Finding Total from Percentage Portion | A government office spends 18% of its annual budget on electricity. If electrici
+num-pct-018 | Simple Interest — Finding Rate | A P50,000 investment grows to P56,000 after one year. What is the annual interes
+num-pct-019 | Compound Interest — Annual Compounding | P10,000 is placed in a time deposit earning 5% per year compounded annually. How
+num-pct-020 | Tax Computation — VAT | A high-value item costs P60,000. A 12% VAT is added. What is the total price inc
+num-pct-021 | Multi-Item Profit Margin | A street vendor bought 50 mangoes for P750 and sold each at P20. What is the per
+num-pct-022 | SSS/PhilHealth Contribution | A government employee contributes 9% of her P28,000 monthly salary to SSS/PhilHe
+num-pct-023 | Small Percentage Computation | What is 0.6% of P85,000?
+num-pct-024 | Percentage Increase — Material | Construction material price increased from P350/unit to P420/unit. Percentage in
+num-pct-025 | 15% Markup | A product's original price is P800. After a 15% markup, what is the new price?
+num-pct-026 | Budget Allocation — Personnel | A government agency's annual budget is P15,000,000. If 24% goes to personnel, ho
+num-pct-027 | Finding the Whole from a Part | If 35% of a number is 840, what is the number?
+num-pct-028 | Simple Interest — Annual Rate | A P5,000 investment earned P750 simple interest over 3 years. Annual rate?
+num-pct-029 | Asset Depreciation | A P1,200,000 building depreciates 8% per year. Value after 1 year?
+num-word-001 | Combined Work Formula | A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump 
+num-word-002 | Classic Age Puzzle | Maria is 24. She is twice as old as Ana was when Maria was as old as Ana is now.
+num-word-003 | Father-Son Age Problem | A father is 3 times as old as his son. In 12 years, he'll be twice as old. How o
+num-word-004 | Finding Individual Work Rate | Two employees can encode 1,500 forms in 6 hours together. Jose alone takes 10 ho
+num-word-005 | Average Speed Harmonic Mean | A car travels from City A to B at 60 km/h and returns at 40 km/h. Average speed 
+num-word-006 | Speed Difference Time Saved | A courier drives to an agency at 50 km/h, arrives 10AM. At 60 km/h would arrive 
+num-word-007 | Adding Bleach for Higher Concentration | A 20L disinfectant has 30% bleach. How many L of pure bleach to add for 50% blea
+num-word-008 | Two-Person Combined Work | Jose finishes a report in 5h, Pedro in 3h. Together, how long?
+num-word-009 | Opposite Direction Problem | Two municipal trucks leave depot in opposite directions: 40 km/h and 50 km/h. Wh
+num-word-010 | Catching Up Same Direction | A bus (80 km/h) overtakes a truck (60 km/h). Truck has 20 km head start. When do
+num-word-011 | Sum and Difference | The sum of two numbers is 48. The difference is 12. What are the numbers?
+num-word-012 | Fill and Drain Simultaneously | A pipe fills a tank in 8h. After 3h, a drain that empties in 12h is opened. How 
+num-word-013 | Average Speed Harmonic Mean 2 | A messenger travels at 30 km/h to an office and returns at 60 km/h. Average spee
+num-word-014 | Translating to Algebra | If 3 more than twice a number is 19, what is the number?
+num-word-015 | Two Numbers Relationship | A number is 4 less than twice another. Their sum is 38. What are they?
+num-word-016 | Simple Algebraic Translation | If 5 times a number increased by 7 is 52, what is the number?
+num-word-017 | Money Distribution | Ana and Maria have P2,500. Ana has P300 more than Maria. How much does Maria hav
+num-nseries-001 | Arithmetic Sequence | Find the next: 3, 7, 11, 15, 19, __
+num-nseries-002 | Geometric Sequence | Find the next: 2, 6, 18, 54, __
+num-nseries-003 | Fibonacci Sequence | Find the next: 1, 1, 2, 3, 5, 8, 13, __
+num-nseries-006 | Prime Numbers Sequence | Find the next: 2, 3, 5, 7, 11, 13, __
+num-nseries-016 | Arithmetic with Missing Term | Find the missing: 2, 5, 8, 11, ?, 17
+num-ops-001 | Order of Operations | Simplify: 15 + 6 x 3 - 4 / 2
+num-ops-002 | Fraction Addition/Subtraction | Compute: 3/4 + 2/3 - 1/2
+num-ops-003 | Exponent Computation | What is 2^5?
+num-ops-004 | Decimal to Fraction | Convert 0.75 to a fraction in simplest form.
+num-ops-005 | Parentheses and Multiplication | Simplify: 24 + (8 - 3) x 2
+num-ops-006 | Decimal Multiplication | What is 0.2 x 0.3?
+num-ops-007 | Approximate Multiplication | Estimate: 487 x 32 is approximately?
+num-ops-008 | Kilometers to Meters | Convert 2.5 km to meters.
+num-ops-009 | Mental Math Percentage | What is 25% of 360?
+num-ops-011 | Square Root | What is the value of sqrt(144)?
+num-ops-012 | Time Conversion | How many minutes are in 3.5 hours?
+num-ops-013 | MDAS Left to Right | Simplify: 48 / 6 x 2 + 4
+num-ops-014 | Fraction to Percentage | What is 3/5 as a percentage?
+ver-gram-009 | Subject-Verb Agreement — Collective Nouns | Choose the correct sentence:
+ver-gram-010 | Subject-Verb Agreement — Neither/Nor Proximity | Fill in the blank: 'Neither the manager nor the employees ___ satisfied with the
+ver-gram-011 | Pronoun Case — Object of Preposition | Select the correct sentence:
+ver-gram-012 | Dangling Modifiers — Identifying Correct Sentences | Which sentence does NOT contain a dangling modifier?
+ver-gram-013 | Parallel Structure — Gerund Phrases | Choose the sentence with correct parallel structure:
+num-ops-016 | LCM Computation | What is the LCM of 12 and 18?
+num-ops-017 | GCF Computation | What is the GCF of 24 and 36?
+num-ops-019 | MDAS Practice | Evaluate: 10 - 3 x 2 + 8 / 4
+num-ops-021 | Time Conversion Seconds | How many seconds are in 2 hours?
+num-ops-023 | Sum of First n Numbers | What is the sum of the first 10 positive integers? (1+2+...+10)
+num-ops-024 | Fraction to Decimal | What is 3/8 as a decimal?
+num-ops-025 | Exponents and Subtraction | Simplify: 5^2 - 3^2
+num-word-018 | Rectangle Perimeter Problem | A rectangle's length is twice its width. The perimeter is 54 meters. What is the
+num-word-019 | Two Numbers Relationship 2 | A number is 7 more than twice another. Their sum is 43. Find the larger number.
+num-word-020 | River Current Problem | A boat travels 30 km downstream in 2 hours. The return trip upstream takes 3 hou
+num-word-021 | Consecutive Integers | The sum of four consecutive integers is 74. What is the largest?
+num-word-022 | Age Problem Future vs Past | In 5 years, Jose will be 3 times as old as he was 7 years ago. How old is he now
+num-word-023 | Ratio Sum Problem | Two numbers are in ratio 3:5. Their sum is 64. Find the smaller number.
+num-word-024 | Dilution Problem | A 60-liter mixture is 40% acid. How much water must be added to make it 24% acid
+num-word-025 | Percentage with Removal | A class of 40 students has 60% girls. After some girls leave, girls become 50%. 
+ver-gram-015 | Subjunctive Mood — If I Were | Fill in the blank: 'If I ___ you, I would accept the promotion.'
+ver-gram-016 | Tense Consistency | Which sentence uses correct tense consistency?
+ver-gram-017 | Subject-Verb — Data (Plural) | Which is correct?
+ver-vocab-001 | Synonyms — Mitigate vs Alleviate | What is the synonym of 'MITIGATE'?
+ver-vocab-002 | Synonyms — Prudent | What is the synonym of 'PRUDENT'?
+ver-vocab-003 | Synonyms — Mandatory | What is the synonym of 'MANDATORY'?
+ver-vocab-004 | Antonyms — Amicable | What is the antonym of 'AMICABLE'?
+ver-vocab-005 | Vocabulary — Ubiquitous | What does 'UBIQUITOUS' mean?
+ver-vocab-006 | Synonyms — Adverse | What is the synonym of 'ADVERSE'?
+ver-vocab-007 | Vocabulary — Legal Terminology in Context | The auditor recommended that the municipal treasurer ___ the financial records.
+ver-vocab-008 | Vocabulary — Administrative Directives | The Civil Service Commission issued a MANDATORY directive. What does 'mandatory'
+ver-vocab-009 | Vocabulary — Disseminate | What is the synonym of 'DISSEMINATE'?
+ver-vocab-010 | Vocabulary — Legal Terms | What does 'LITIGIOUS' mean?
+ver-read-001 | Identifying Main Idea | Read: 'Public accountability requires that civil servants answer not only to the
+ver-read-002 | Supporting Details — RA 9003 | Passage: 'Republic Act No. 9003, also known as the Ecological Solid Waste Manage
+ver-read-003 | Inference — Traffic Congestion | Passage: 'Despite the city's efforts to improve traffic flow, congestion has wor
+ver-read-004 | Tone/Purpose — CSC Description | Passage: 'The Civil Service Commission (CSC) is the central personnel agency of 
+ver-vanal-001 | Workplace Associations | LAWYER is to COURT as CIVIL SERVANT is to ___?
+ver-vanal-002 | Tool-User Relationship | STETHOSCOPE is to DOCTOR as COMPUTER is to ___?
+ver-vanal-003 | Cause-Effect Relationship | TRAINING is to SKILL as PRACTICE is to ___?
+ver-vanal-004 | Part-Whole (Singular-Plural) | FILIPINO is to FILIPINOS as CITIZEN is to ___?
+ver-sent-001 | Prepositions — Committed To | Fill in: 'The government is committed ___ providing quality public service.'
+ver-sent-002 | Prepositions — Deadlines | Fill in: 'The applicant must submit all requirements ___ the deadline.'
+ver-sent-003 | Prepositions — Applies To | Fill in: 'The new policy applies ___ all government employees.'
+ver-sent-004 | Prepositions — Commended For | Fill in: 'The employee was commended ___ her outstanding performance.'
+ver-sent-005 | Transitional Words — Because vs Because Of | Choose the correct transitional word: 'The project was delayed ___ budget constr
+ana-log-006 | Categorical Syllogism — Modus Ponens | Premise 1: All department heads are career service eligible. Premise 2: Mr. Reye
+ana-log-007 | Conditional Logic — Affirming Consequent Fallacy | If it rains, the ground gets wet. The ground is wet. Therefore, it rained. This 
+ana-log-008 | Conditional Logic — Sufficient Conditions | Rule: 'Only citizens aged 18 and above may vote.' Juan is 20 years old and a cit
+ana-log-009 | Syllogisms — 'Some' Statements | All civil servants are government employees. Some government employees are engin
+ana-data-001 | Percentage Allocation Difference | An LGU allocated its P10,000,000 budget: Infrastructure 40%, Education 25%, Heal
+ana-pat-001 | Alphanumeric Patterns | What comes next in the pattern: 1A, 2B, 3C, 4D, ___?
+ana-seq-001 | Letter Sequence | What comes next: A, C, E, G, ___?
+ana-seq-002 | Reverse Alphabet Sequence | Find the next: Z, Y, X, W, ___?
+ana-seq-003 | Alphanumeric Pattern | Find the next: A1, C2, E3, G4, ___?
+cle-fil-006 | Surname Filing — Prefix Names | Arrange in correct filing order: 1. Maria Del Rosario 2. Juan De La Cruz 3. Ana 
+cle-clops-001 | Data Comparison — Transposition Detection | Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8491-X'. How ma
+cle-type-001 | Words Per Minute Calculation | An employee typed 450 words in 15 minutes. What is her words-per-minute (WPM) ra
+cle-type-002 | Error Rate Percentage | A data encoder made 8 errors in a 400-entry form. What is the error rate?
+gen-const-006 | Bill of Rights — Search and Seizure | According to Article III (Bill of Rights), what protects a person from unreasona
+gen-ra6713-001 | RA 6713 — SALN Requirement | Under RA 6713 (Code of Conduct), what document must public officials disclose th
+gen-govt-001 | CSC Mandate | Which government agency is the central personnel agency of the Philippine govern
+gen-curenv-001 | RA 9003 — Solid Waste Management | What law mandates the establishment of Materials Recovery Facilities (MRFs) in e
+gen-peace-001 | RA 9262 — VAWC | RA 9262 (Anti-Violence Against Women and their Children Act) protects:
+ver-gram-018 | Who vs Whom | Which sentence correctly uses 'who' vs 'whom'?
+ver-gram-019 | Subject-Verb — Prepositional Phrase Intervening | Choose the correct sentence with correct subject-verb agreement:
+ver-gram-020 | Subject-Verb — Every One Of | Fill in: 'Every one of the employees ___ to attend the seminar.'
+ver-gram-021 | Pronoun-Antecedent Agreement | Choose the sentence with correct pronoun-antecedent agreement:
+ver-gram-022 | Comma Splices — Correction | Which sentence avoids a comma splice?
+ver-gram-023 | Parallel Structure — Adjective Series | Choose the correct sentence with parallel structure:
+ver-gram-024 | Data as Plural | Which sentence is correct?
+ver-gram-025 | Prepositional Idioms — Capable Of | Choose the correct preposition: 'She is capable ___ handling the project.'
+ver-gram-026 | Subject-Verb — Neither/Nor Rule | Fill in: 'Neither the president nor the board members ___ in favor of the propos
+ver-gram-028 | Tense Consistency — Past Perfect | Fill in: 'By the time the manager arrived, the staff ___ the reports.'
+ver-gram-029 | Subjunctive Mood — Wishes | Which sentence uses the subjunctive mood correctly?
+ver-gram-030 | Subject-Verb — Collective Nouns 2 | Which sentence is grammatically correct?
+ver-gram-031 | Run-On Sentences | Choose the sentence that avoids a run-on:
+ver-gram-032 | Prepositional Idioms — Addressed To | Fill in the blank: 'The memo was addressed ___ the department heads.'
+ver-gram-035 | Tense Consistency — Sequence of Events | Which sentence uses correct tense?
+ver-vocab-011 | Vocabulary — Elucidate | What is the synonym of 'ELUCIDATE'?
+ver-vocab-012 | Vocabulary — Austere | What does 'AUSTERE' mean?
+ver-vocab-013 | Vocabulary — Pragmatic | What is the synonym of 'PRAGMATIC'?
+ver-vocab-014 | Vocabulary — Equitable | What does 'EQUITABLE' mean?
+ver-vocab-015 | Antonyms — Benevolent | What is the antonym of 'BENEVOLENT'?
+ver-vocab-016 | Vocabulary — Nefarious | What does 'NEFARIOUS' mean?
+ver-vocab-017 | Vocabulary — Vernacular | What is the meaning of 'VERNACULAR'?
+ver-vocab-018 | Vocabulary — Jurisdiction | What is the synonym for 'JURISDICTION'?
+ver-vocab-019 | Vocabulary — Transparency | What does 'TRANSPARENT' mean in a government context?
+ver-vocab-020 | Antonyms — Concise | What is the antonym of 'CONCISE'?
+ver-vocab-021 | Vocabulary — Mandate | What does 'MANDATE' mean?
+ver-vocab-022 | Vocabulary — Procurement | What is the synonym of 'PROCUREMENT'?
+ver-vocab-023 | Vocabulary — Subsidiary | What does 'SUBSIDIARY' mean?
+ver-vocab-024 | Vocabulary — Amendment | What does 'AMENDMENT' mean?
+ver-vocab-025 | Vocabulary — Allegation | What is the meaning of 'ALLEGATION'?
+ver-vocab-026 | Vocabulary — Consensus | What does 'CONSENSUS' mean?
+ver-vocab-027 | Vocabulary — Diligent | What is the synonym of 'DILIGENT'?
+ver-vocab-028 | Vocabulary — Compensatory | What does 'COMPENSATORY' mean?
+ver-vocab-029 | Vocabulary — Delegate | What does 'DELEGATE' mean as a verb?
+ver-vocab-030 | Vocabulary — Advocate | What does 'ADVOCATE' mean?
+ver-read-005 | Main Idea — Checks and Balances | Passage: 'The principle of check and balance ensures that no single branch of go
+ver-read-006 | Supporting Details — SALN Purpose | Passage: 'RA 6713 requires all public officials to file a Statement of Assets, L
+ver-read-007 | Vocabulary in Context — Fiscal Sustainability | Passage: 'While the city's revenue increased by 8% this year, its expenditures g
+ver-read-008 | Tone/Purpose — CSC Memorandum | Passage: 'The CSC Memorandum Circular No. 1 series of 2020 reiterates the prohib
+ver-read-009 | Inference — Community Participation | Passage: 'The success of the barangay Development Council depends largely on the
+ver-vanal-005 | Tool-User 2 | KEYBOARD is to TYPIST as STEERING WHEEL is to ___?
+ver-vanal-006 | Person-Place Relationship | PATIENT is to HOSPITAL as STUDENT is to ___?
+ver-vanal-007 | Cause-Effect 2 | SEED is to PLANT as EDUCATION is to ___?
+ver-vanal-008 | Instrument-Measure | SPEEDOMETER is to SPEED as THERMOMETER is to ___?
+ver-vanal-009 | Quantity-Unit | TIME is to HOURS as DISTANCE is to ___?
+ver-vanal-010 | Remedy-Problem | WATER is to THIRST as FOOD is to ___?
+ver-vanal-011 | Plan-Field | BUDGET is to FINANCE as CURRICULUM is to ___?
+ver-vanal-012 | Type-Category | CONTRACT is to AGREEMENT as LAW is to ___?
+ver-vanal-013 | Product-Material | CANDLE is to WAX as PAPER is to ___?
+ver-vanal-014 | Quality-Consequence | FRAGILE is to BREAK as PERMANENT is to ___?
+ver-vanal-015 | Official-Jurisdiction | GOVERNOR is to PROVINCE as MAYOR is to ___?
+ver-vanal-016 | Branch of Government | SUPREME COURT is to JUDICIARY as CONGRESS is to ___?
+ver-vanal-017 | Proof-Action | RECEIPT is to PURCHASE as DIPLOMA is to ___?
+ver-vanal-018 | Identifier-Meaning | FINGERPRINT is to IDENTITY as SIGNATURE is to ___?
+ver-vanal-019 | Cause-Effect 3 | RAIN is to FLOOD as NEGLIGENCE is to ___?
+ver-vanal-020 | Professional-Client | ATTORNEY is to CLIENT as DOCTOR is to ___?
+ver-sent-006 | Transitional Words — Provided That | Fill in: 'The project will proceed, ___ the budget is approved.'
+ver-sent-007 | Prepositions — Praised For | Fill in: 'The employee was praised ___ her dedication to public service.'
+ver-sent-008 | Prepositions — Intended To | Fill in: 'The new regulation is intended ___ improve service delivery.'
+ver-sent-009 | Prepositions — Accused Of | Fill in: 'The official was accused ___ misconduct.'
+ver-sent-010 | Prepositions — Concur With | Fill in: 'The manager concurred ___ the decision of the board.'
+ver-sent-011 | Prepositions — Cater To | Fill in: 'The program is designed to cater ___ the needs of senior citizens.'
+ver-sent-012 | Prepositions — Proficient In | Fill in: 'The applicant must be proficient ___ both English and Filipino.'
+ver-sent-013 | Prepositions — Consistent With | Fill in: 'The result is consistent ___ the initial findings.'
+ver-sent-014 | Prepositions — Tasked With | Fill in: 'The agency is tasked ___ implementing the new policy.'
+ver-sent-015 | Prepositions — Focus On | Fill in: 'The investigation will focus ___ the causes of the accident.'
+ana-log-011 | Logical Reasoning 1 | Logical reasoning question 1: All public servants must be honest. Juan is a publ
+ana-data-011 | Data Interpretation 1 | Data interpretation 1: A budget of P10M is allocated: Personnel 40%, Operations 
+ana-pat-011 | Pattern Recognition 1 | Pattern 1: What comes next? 1, 3, 6, 10, 15, ___
+ana-seq-011 | Sequence Series 1 | Sequence 1: Find the next: A, C, E, G, ___
+cle-fil-011 | Alphabetical Filing 1 | Filing 1: File correctly: Cruz, Dela Cruz, De la Cruz, Delos Cruz
+cle-code-011 | Spelling 1 | Spelling 1: Which word is correctly spelled?
+cle-clops-011 | Clerical Operations 1 | Clerical Ops 1: Original: ABC-1234-XYZ. Copy: ABC-1234-XYZ. Do they match?
+cle-type-011 | Typing Speed 1 | Typing 1: An employee typed 300 words in 10 minutes. WPM?
+gen-const-011 | Constitution 1 | Constitution 1: Which branch of government has the power of impeachment?
+gen-ra6713-011 | RA 6713 1 | RA 6713 1: What is the primary purpose of RA 6713?
+gen-govt-011 | Government Agency 1 | Government 1: Which agency handles government auditing?
+gen-curenv-011 | Environment 1 | Environment 1: Which law addresses solid waste management?
+gen-peace-011 | Human Rights 1 | Human Rights 1: RA 9262 addresses what?
+ver-gram-036 | Grammar 1 | Grammar 1: Choose the correct sentence.
+ver-vocab-031 | Vocabulary 1 | Vocabulary 1: What is the synonym of 'IMPARTIAL'?
+ver-read-011 | Reading Comprehension 1 | Reading 1: Passage: 'Transparency in government means that citizens have the rig
+num-ratio-100 | Gear Ratios — Mechanical Advantage | In a DPWH heavy equipment mechanism, a driving gear with 48 teeth is meshed with
+num-ratio-101 | Currency Exchange Proportional Scaling | An OFW in Dubai sends AED 2,500 back to the Philippines. If the exchange rate is
+num-ratio-102 | Map Scale — Area Scaling | On a DENR land map drawn to a scale of 1:20,000, a protected forest reserve meas
+num-ratio-103 | Part-to-Part Ratio Application Variant 3 | A municipal budget of ₱900 is allocated between Agriculture and Health in a rati
+num-pct-100 | Simple Interest & Savings Variant 1 | A Barangay Cooperative deposited ₱10,000 in a land bank account earning 4% simpl
+num-word-100 | Opposing Motion Distance Problem Variant 1 | Two DOH ambulances leave a central hospital at the same time traveling in opposi
+num-nseries-100 | Increasing Difference Series Variant 1 | Find the next number in the series: 3, 7, 15, 27, __?
+num-ops-100 | LCM Computation Variant 1 | Two Barangay patrol cars start their rounds from the municipal hall at the same 
+ver-gram-100 | Subjunctive Mood — Formal Executive Mandates | Choose the grammatically correct sentence for a formal administrative order: 'Th
+ver-gram-101 | Reported Speech Tense Shift Variant 1 | Identify the correct usage for official communication (Reported Speech Tense Shi
+ver-gram-102 | Misplaced Modifier Correction Variant 2 | Identify the correct usage for official communication (Misplaced Modifier Correc
+ver-gram-103 | Double Negative Elimination Variant 3 | Identify the correct usage for official communication (Double Negative Eliminati
+ver-gram-104 | Relative Pronoun — Who vs Whom Variant 4 | Identify the correct usage for official communication (Relative Pronoun — Who vs
+ver-gram-105 | Parallel Structure in Bulleted Memos Variant 5 | Identify the correct usage for official communication (Parallel Structure in Bul
+ver-gram-106 | Dangling Participle Correction Variant 6 | Identify the correct usage for official communication (Dangling Participle Corre
+ver-gram-107 | Subject-Verb Agreement — Neither/Nor Variant 7 | Identify the correct usage for official communication (Subject-Verb Agreement — 
+ver-gram-108 | Pronoun Case after Prepositions Variant 8 | Identify the correct usage for official communication (Pronoun Case after Prepos
+ver-gram-109 | Subjunctive Mood — Essential Demand Variant 9 | Identify the correct usage for official communication (Subjunctive Mood — Essent
+ver-gram-110 | Comparative vs Superlative Adjectives Variant 10 | Identify the correct usage for official communication (Comparative vs Superlativ
+ver-gram-111 | Active to Passive Conversion in Reports Variant 11 | Identify the correct usage for official communication (Active to Passive Convers
+ver-gram-112 | Tense Consistency across Clauses Variant 12 | Identify the correct usage for official communication (Tense Consistency across 
+ver-gram-113 | Conditionals — Third Conditional Structure Variant 13 | Identify the correct usage for official communication (Conditionals — Third Cond
+ver-gram-114 | Possessive Nouns before Gerunds Variant 14 | Identify the correct usage for official communication (Possessive Nouns before G
+ver-gram-115 | Restrictive vs Non-restrictive Clauses Variant 15 | Identify the correct usage for official communication (Restrictive vs Non-restri
+ver-gram-116 | Prepositional Phrase Interference Variant 16 | Identify the correct usage for official communication (Prepositional Phrase Inte
+ver-gram-117 | Collective Nouns — Singular Agreement Variant 17 | Identify the correct usage for official communication (Collective Nouns — Singul
+ver-gram-118 | Correlative Conjunctions Variant 18 | Identify the correct usage for official communication (Correlative Conjunctions)
+ver-gram-119 | Redundant Phrase Elimination Variant 19 | Identify the correct usage for official communication (Redundant Phrase Eliminat
+ver-gram-120 | Idiomatic Preposition — Conform TO vs WITH Variant 20 | Identify the correct usage for official communication (Idiomatic Preposition — C
+ver-gram-121 | Capitalization of Government Titles Variant 21 | Identify the correct usage for official communication (Capitalization of Governm
+ver-gram-122 | Hyphenation of Compound Modifiers Variant 22 | Identify the correct usage for official communication (Hyphenation of Compound M
+ver-gram-123 | Comma Splice Resolution Variant 23 | Identify the correct usage for official communication (Comma Splice Resolution):
+ver-gram-124 | Run-on Sentence Restructuring Variant 24 | Identify the correct usage for official communication (Run-on Sentence Restructu
+ver-gram-125 | Inverted Sentence Agreement Variant 25 | Identify the correct usage for official communication (Inverted Sentence Agreeme
+ver-gram-126 | Each/Every Singular Subject Rule Variant 26 | Identify the correct usage for official communication (Each/Every Singular Subje
+ver-gram-127 | Indefinite Pronouns Agreement Variant 27 | Identify the correct usage for official communication (Indefinite Pronouns Agree
+ver-gram-128 | Adverb Placement with Auxiliary Verbs Variant 28 | Identify the correct usage for official communication (Adverb Placement with Aux
+ver-gram-129 | Gerund vs Infinitive Complement Variant 29 | Identify the correct usage for official communication (Gerund vs Infinitive Comp
+ver-gram-130 | Double Comparative Avoidance Variant 30 | Identify the correct usage for official communication (Double Comparative Avoida
+ver-gram-131 | Direct vs Indirect Object Pronoun Variant 31 | Identify the correct usage for official communication (Direct vs Indirect Object
+ver-gram-132 | Elliptical Clause Subject Case Variant 32 | Identify the correct usage for official communication (Elliptical Clause Subject
+ver-gram-133 | Subjunctive Mood — Wish Formula Variant 33 | Identify the correct usage for official communication (Subjunctive Mood — Wish F
+ver-gram-134 | Past Perfect Sequence of Events Variant 34 | Identify the correct usage for official communication (Past Perfect Sequence of 
+ver-vocab-100 | Government Vocabulary — PROCUREMENT | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-101 | Government Vocabulary — PROMULGATE | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-102 | Government Vocabulary — JURISDICTION | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-103 | Government Vocabulary — STATUTORY | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-104 | Government Vocabulary — INDEMNIFY | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-105 | Government Vocabulary — EMOLUMENT | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-106 | Government Vocabulary — QUASHING | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-107 | Government Vocabulary — REQUISITION | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-108 | Government Vocabulary — RESCIND | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-vocab-109 | Government Vocabulary — MITIGATE | Choose the word closest in meaning to the underlined term: 'The Commission issue
+ver-read-100 | Policy Memo Analysis — Passage 1 | Read the passage: 'Under Memorandum Circular No. 14, all local government units 
+ver-vanal-100 | Workplace Function Analogy 1 | Complete the analogy: Civil Servant : Agency :: Judge : __?__
+ver-vanal-101 | Workplace Function Analogy 2 | Complete the analogy: Law : Legislature :: Ordinance : __?__
+ver-vanal-102 | Workplace Function Analogy 3 | Complete the analogy: Audit : COA :: Taxation : __?__
+ver-vanal-103 | Workplace Function Analogy 4 | Complete the analogy: Constitution : Supreme Law :: Statute : __?__
+ver-vanal-104 | Workplace Function Analogy 5 | Complete the analogy: Governor : Province :: Mayor : __?__
+ver-sent-100 | Administrative Collocation 1 | Fill in the blank to complete the administrative statement: 'The project manager
+ana-log-100 | Contrapositive Equivalence — Legal Mandate | Rule: 'If a municipality achieves a 95% revenue collection rate, then it is awar
+ana-log-101 | Multi-Premise Deductive Logic Variant 1 | Premise 1: All department heads are CSE Professional eligibles. Premise 2: Maria
+ana-data-100 | Bar Graph Rate of Growth Analysis Variant 1 | Data Table: Annual Health Office Expenditure: Year 2024: ₱10 Million Year 2025: 
+ana-pat-100 | Visual Rotation & Symbol Sequence Variant 1 | Sequence: A square rotates 90 degrees clockwise at each step: Step 1 (Top-Left d
+ana-seq-100 | Letter Position Sequence Variant 1 | Find the next letter in the sequence: A, C, E, G, __?
+cle-fil-100 | Alphabetical Filing Rule — Variant 1 | Arrange the following 4 official document records in correct alphabetical order:
+cle-code-100 | Commonly Confused Words — AFFECT | Choose the correctly spelled word to complete the sentence: 'The new tax policy 
+cle-code-101 | Commonly Confused Words — PRINCIPAL | Choose the correctly spelled word to complete the sentence: 'Mr. Santos is the _
+cle-code-102 | Commonly Confused Words — COUNCIL | Choose the correctly spelled word to complete the sentence: 'The city __ voted u
+cle-code-103 | Commonly Confused Words — ADVERSE | Choose the correctly spelled word to complete the sentence: 'Heavy rain had an _
+cle-clops-100 | Invoice Discrepancy Verification Variant 1 | A clerk is auditing a supplier invoice for 10 office chairs priced at ₱250 per u
+cle-type-100 | Words Per Minute (WPM) Calculation Variant 1 | A data entry clerk typed a 250-word government report in 5 minutes. What is the 
+gen-const-100 | 1987 Constitution Article II — State Declaration of Principles and State Policies | Under Article II of the 1987 Philippine Constitution, which principle guarantees
+gen-const-101 | 1987 Constitution Article IX — Constitutional Commissions (CSC, COMELEC, COA) | Under Article IX of the 1987 Philippine Constitution, which principle guarantees
+gen-const-102 | 1987 Constitution Article X — Local Government Autonomy | Under Article X of the 1987 Philippine Constitution, which principle guarantees 
+gen-const-103 | 1987 Constitution Article XI — Accountability of Public Officers | Under Article XI of the 1987 Philippine Constitution, which principle guarantees
+gen-ra6713-100 | RA 6713 Section Standard — SALN Filing | Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Of
+gen-ra6713-101 | RA 6713 Section Standard — Divestment Deadline | Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Of
+gen-ra6713-102 | RA 6713 Section Standard — Gift Ban | Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Of
+gen-ra6713-103 | RA 6713 Section Standard — Whistleblower Rights | Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Of
+gen-govt-100 | RA 7160 Local Government Code & Mandates Variant 1 | Which government body is constitutionally mandated to audit all accounts pertain
+gen-curenv-100 | Philippine Environmental Legislation Variant 1 | Under Republic Act No. 8749 (Philippine Clean Air Act of 1999), which government
+gen-peace-100 | Human Rights & Social Legislation Variant 1 | Under Republic Act No. 9344 (Juvenile Justice and Welfare Act of 2006), what is 
+num-ratio-200 | 3-Way Multi-Variable Budget Proportion Variant 1 | A provincial development grant of ₱900 is allocated among Education, Health, and
+num-pct-200 | Successive Discount Chain Variant 1 | A government agency purchased office laptops under a promotion offering a 10% tr
+num-word-200 | Pipe & Tank Combined Inflow Rate Variant 1 | A municipal water tank can be filled by Pipe A in 6 hours and by Pipe B in 12 ho
+num-ops-200 | Order of Operations (PEMDAS/MDAS) Variant 1 | Evaluate the expression following standard Order of Operations (PEMDAS/MDAS): 12
+ver-gram-200 | Conciseness & Wordiness Elimination Variant 1 | Which option expresses the administrative directive most CONCISELY and clearly w
+ver-vocab-200 | Statutory Legal Terms — ADJUDICATE | Choose the word or phrase closest in meaning to the underlined legal term: 'The 
+ver-vocab-201 | Statutory Legal Terms — PROMULGATION | Choose the word or phrase closest in meaning to the underlined legal term: 'The 
+ver-vocab-202 | Statutory Legal Terms — JURISPRUDENCE | Choose the word or phrase closest in meaning to the underlined legal term: 'The 
+ver-vocab-203 | Statutory Legal Terms — EXPROPRIATION | Choose the word or phrase closest in meaning to the underlined legal term: 'The 
+ver-vocab-204 | Statutory Legal Terms — SUBPOENA | Choose the word or phrase closest in meaning to the underlined legal term: 'The 
+ver-read-200 | Inference & Tone Analysis Passage 1 | Read the passage: 'While statutory compliance is mandatory, true civil service e
+ver-vanal-200 | Symbolic Representation Analogy 1 | Complete the analogy: Scales : Justice :: Olive Branch : __?__
+ver-vanal-201 | Symbolic Representation Analogy 2 | Complete the analogy: Gavel : Authority :: Scepter : __?__
+ver-vanal-202 | Symbolic Representation Analogy 3 | Complete the analogy: Anchor : Hope :: Dove : __?__
+ver-sent-200 | Complex Transitional Connectors 1 | Fill in the blank with the appropriate transition: 'The agency faced severe budg
+ana-log-200 | Seating Arrangement & Spatial Order Variant 1 | Five council members (A, B, C, D, E) sit in a row. C sits next to D. B sits at t
+ana-data-200 | Stacked Bar Distribution Variant 1 | Data Table: Municipal Waste Collection: Organic: 100 Tons Recyclable: 150 Tons T
+ana-pat-200 | 3D Rotation & Overlapping Figures Variant 1 | A 3D cube with different shaded symbols on each face is flipped forward once, th
+ana-seq-200 | Cyclic Alphanumeric Pattern Variant 1 | Find the next item in the series: A1, C3, E5, G7, __?
+cle-fil-200 | Alphanumeric Mixed Filing Rule Variant 1 | Under standard government filing rules, numbers written as digits (e.g., '5th Av
+cle-code-200 | Transposition Error Detection Variant 1 | Compare the Master Account Number with the Entry Record: Master: 8945-3201-9874 
+cle-clops-200 | Date Format Standard Verification Variant 1 | A passport application requires dates in ISO standard (YYYY-MM-DD). An applicant
+cle-type-200 | Net WPM Calculation with Penalty Variant 1 | In a 5-minute Civil Service typing exam, an applicant typed 300 total words with
+gen-const-200 | 1987 Constitution Structure — Article VI | Under the 1987 Philippine Constitution, which Article governs the powers, qualif
+gen-const-201 | 1987 Constitution Structure — Article VII | Under the 1987 Philippine Constitution, which Article governs the powers, qualif
+gen-const-202 | 1987 Constitution Structure — Article VIII | Under the 1987 Philippine Constitution, which Article governs the powers, qualif
+gen-const-203 | 1987 Constitution Structure — Article XI | Under the 1987 Philippine Constitution, which Article governs the powers, qualif
+gen-ra6713-200 | RA 6713 Norms of Conduct Case Scenario Variant 1 | A public officer consistently prioritizes processing official documents for rela
+gen-govt-200 | ASEAN Charter & Regional Integration Variant 1 | The Philippines is one of the 5 original founding member states of ASEAN (Associ
+gen-curenv-200 | RA 9003 Solid Waste Management Mandates Variant 1 | Under Republic Act No. 9003 (Ecological Solid Waste Management Act of 2000), whi
+gen-peace-200 | RA 7877 Anti-Sexual Harassment Workplace Rule Variant 1 | Under Republic Act No. 7877 (Anti-Sexual Harassment Act of 1995), sexual harassm
+num-ratio-300 | Disaster Relief Kit Allocation Ratio Variant 1 | A DSWD logistics hub packs 320 emergency relief packs containing Rice Kits and W
+num-pct-300 | Civil Service Salary Deduction & Net Pay Variant 1 | A government employee receives a monthly gross salary of ₱30,000. Mandatory mont
+num-word-300 | Procurement Furniture System Equation Variant 1 | A municipal hall bought office desks at ₱1,500 each and chairs at ₱500 each. The
+num-ops-300 | Civil Service Evaluation Average Score Variant 1 | A civil service applicant scored 80, 85, and 90 on three performance rating modu
+ver-gram-300 | Parallel Structure in Official Guidelines Variant 1 | Select the sentence that maintains proper parallel structure in official adminis
+ver-vocab-300 | Administrative Governance Jargon — BUREAUCRACY | Choose the word closest in meaning to the underlined term: 'The Civil Service Re
+ver-vocab-301 | Administrative Governance Jargon — DECENTRALIZATION | Choose the word closest in meaning to the underlined term: 'The Civil Service Re
+ver-vocab-302 | Administrative Governance Jargon — TRANSPARENCY | Choose the word closest in meaning to the underlined term: 'The Civil Service Re
+ver-vocab-303 | Administrative Governance Jargon — ACCOUNTABILITY | Choose the word closest in meaning to the underlined term: 'The Civil Service Re
+ver-vocab-304 | Administrative Governance Jargon — COMPLIANCE | Choose the word closest in meaning to the underlined term: 'The Civil Service Re
+ver-read-300 | Executive Summary Analysis Passage 1 | Read the passage: 'Executive Order No. 45 mandates all national government agenc
+ver-vanal-300 | Institutional Head Analogy 1 | Complete the analogy: Department : Secretary :: Bureau : __?__
+ver-vanal-301 | Institutional Head Analogy 2 | Complete the analogy: Province : Governor :: City : __?__
+ver-vanal-302 | Institutional Head Analogy 3 | Complete the analogy: Barangay : Captain :: Municipality : __?__
+ver-sent-300 | Official Workplace Prepositions 1 | Fill in the blank: 'The new guidelines were issued pursuant __ Section 4 of the 
+ana-log-300 | Workplace Compliance Conditional Logic Variant 1 | Rule: 'All government employees who complete 10 years of continuous service rece
+ana-data-300 | Municipal Sector Pie Chart Budget Share Variant 1 | Data: Municipal Annual Budget Distribution (Total: ₱50 Million): Infrastructure:
+ana-pat-300 | Matrix Shape Transformation Variant 1 | Matrix Pattern Rule: Across each row, the number of sides on the polygon increas
+ana-seq-300 | Alphanumeric Personnel Code Progression Variant 1 | Find the next item in the government personnel code series: EMP-010, EMP-020, EM
+cle-fil-300 | Government Agency Filing Rule Variant 1 | Under government indexing rules, official government agencies are filed first by
+cle-code-300 | Municipal Code Verification Variant 1 | Verify the matching between Region Code and Province: Code: NCR-039-MNL Record: 
+cle-clops-300 | Record Cross-Matching Verification Variant 1 | Cross-reference Form A with Form B: Form A Name: Santos, Maria Clara Form B Name
+cle-type-300 | Typing Accuracy Percentage Variant 1 | A court stenographer typed 400 total words with 8 typing errors. What is the ste
+gen-const-300 | Bill of Rights Search Warrant Requirements Variant 1 | Under Article III, Section 2 of the 1987 Philippine Constitution, a search warra
+gen-ra6713-300 | Nepotism Rules in Government Appointments Variant 1 | Under Civil Service Law and Rules, an appointment made in favor of a relative wi
+gen-govt-300 | Ombudsman Jurisdiction & Anti-Graft Rules Variant 1 | Under RA 6770 (The Ombudsman Act of 1989), the Office of the Ombudsman has prima
+gen-curenv-300 | RA 9729 Climate Change Commission Mandates Variant 1 | Under RA 9729, as amended by RA 10174 (People's Survival Fund Act), who chairs t
+gen-peace-300 | UDHR Article 1 Fundamental Freedom Principle Variant 1 | Article 1 of the Universal Declaration of Human Rights (UDHR) declares that 'All

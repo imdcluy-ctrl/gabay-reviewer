@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ana-pat-433",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "A sequence of shapes is shown: Step 1: a single line segment. Step 2: two line segments meeting at a point (an angle). Step 3: three line segments forming a triangle. Step 4: four line segments forming a quadrilateral. If the pattern continues, what is the shape at Step 6?",
+    "options": [
+      {
+        "key": "A",
+        "text": "hexagon"
+      },
+      {
+        "key": "A",
+        "text": "pentagon"
+      },
+      {
+        "key": "A",
+        "text": "heptagon"
+      },
+      {
+        "key": "D",
+        "text": "An octagon"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2181",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

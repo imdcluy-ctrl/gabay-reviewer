@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-012",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "How many minutes are in 3.5 hours?",
+    "options": [
+      {
+        "key": "A",
+        "text": "180"
+      },
+      {
+        "key": "B",
+        "text": "190"
+      },
+      {
+        "key": "C",
+        "text": "200"
+      },
+      {
+        "key": "D",
+        "text": "210"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Conversion Factor",
+        "text": "1 hour = 60 minutes. 'Yan ang basic conversion na dapat kabisado."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up",
+        "text": "Multiply 3.5 by 60. Ganito: 3.5 × 60."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "Hatiin: (3 × 60) + (0.5 × 60) = 180 + 30 = 210."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "So 3.5 hours = 210 minutes. Piliin ang D."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you converted only the 3 hours, forgetting the 0.5. Palagi mong i-check ang decimal.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "B": {
+        "text": "You might have chosen B because of a miscalculation. Double-check your arithmetic para sigurado.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "You might have chosen C because of a miscalculation. Double-check your arithmetic para sigurado.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "Correct. 3.5 × 60 = 210 minutes. Tumpak!",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Kapag oras to minuto, i-multiply sa 60. 'Yung .5 hour, 30 minutes agad. Tandaan para 'di ma-trap!",
+    "blueprint_id": "Time Conversion",
+    "deconstruct_text": "Alam mo ba na sa LGU, ang overtime pay ay kinocompute sa minuto? Kunwari, nag-overtime si Kagawad ng 3.5 oras. Kailangan mong malaman: ilang minuto 'yun? Ganito ang gawin:\n\n1 oras = 60 minuto. Multiply 3.5 × 60.\nBreak it down: 3 oras = 180 minuto, 0.5 oras = 30 minuto. Total = 210 minuto.\n\nSimple lang: 3.5 × 60 = 210. Tama!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

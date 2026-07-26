@@ -1,0 +1,55 @@
+id: ana-log-005
+subtopic: logical-reasoning
+category: analytical-ability
+difficulty: 3
+is_free: true
+language: en
+tags: ["conditional-logic", "policy-deduction"]
+estimated_seconds: 90
+question_text: "Rule: 'An applicant is granted an interview ONLY IF they pass the written examination and possess a bachelor's degree.'\nFact: Jose passed the written examination but does not possess a bachelor's degree.\nConclusion: Is Jose eligible for an interview?"
+options:
+  - key: A
+    text: "Yes, because passing the written exam is sufficient."
+  - key: B
+    text: "No, because both conditions must be satisfied."
+  - key: C
+    text: "Yes, if he submits an extension request."
+  - key: D
+    text: "Cannot be determined from the rule."
+correct: B
+blueprint_id: "Logical Reasoning — Necessary vs Sufficient Conditions"
+hint_ladder:
+  - rung: 1
+    title: "Analyze 'ONLY IF' Condition"
+    text: "'ONLY IF' introduces necessary conditions. BOTH conditions are required."
+  - rung: 2
+    title: "Check Requirements"
+    text: "Requirement 1: Pass written exam. Requirement 2: Bachelor's degree."
+  - rung: 3
+    title: "Evaluate Jose's Status"
+    text: "Jose has Requirement 1, but lacks Requirement 2."
+  - rung: 4
+    title: "Deduce Eligibility"
+    text: "Failing one necessary condition makes Jose ineligible (No)."
+deconstruct_text: |
+  'ONLY IF' establishes necessary conditions.
+  Interview -> Pass Exam AND Bachelor's Degree.
+  Since Jose lacks a bachelor's degree, the necessary condition is false.
+  Therefore, Jose is NOT eligible for an interview.
+choice_explanations:
+  A:
+    text: "Treats a necessary condition as sufficient."
+    trap_type: sufficiency_fallacy
+  B:
+    text: "Correct! 'ONLY IF' requires BOTH conditions to be true."
+    trap_type: null
+  C:
+    text: "Speculative exception not mentioned in the rule."
+    trap_type: speculative_error
+  D:
+    text: "Incorrect. The rule strictly determines eligibility."
+    trap_type: indecision_error
+next_time_rule: "In 'ONLY IF' rules, ALL listed conditions must be met for eligibility."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Analytical — Necessary & Sufficient Logic"

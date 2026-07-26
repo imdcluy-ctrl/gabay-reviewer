@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-007",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The employee was praised ___ her dedication to public service.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Common Preposition Pairings",
+        "text": "Sa English, may verb na fixed ang partner preposition. Ang 'praise' ay laging may 'for' kapag dahilan ang kasunod."
+      },
+      {
+        "rung": 2,
+        "title": "Remember the Reason",
+        "text": "Isipin mo: 'Pinuri for what?' Kapag dedication ang sagot, 'for' ang natural. 'With' ay gamit sa kasangkapan, 'on' sa araw, 'about' sa paksa."
+      },
+      {
+        "rung": 3,
+        "title": "Apply in LGU Context",
+        "text": "Si Kagawad Maria, pinuri for her dedication sa budget hearing. Kung 'with budget' ang sabihin mo, ibig sabihin gamit niya ang budget, mali."
+      },
+      {
+        "rung": 4,
+        "title": "Pick the Right One",
+        "text": "Kaya sa sentence, 'for' ang tamang sagot, Option A. Tandaan: praise for (dahilan), praise with (para sa tool)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'for' is the idiomatic preposition to indicate the reason for the praise.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen 'with' because you thought of praising accompanied by something, but here the blank needs the reason.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "You might have chosen 'about' because you associate it with topics, but 'praise for' is the correct expression for the reason.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen 'on' thinking of time or surface, but the sentence calls for the reason, so 'for' is needed.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Next time: 'Praise for' (reason), 'praise with' (tool). Ex: praised for work with award.",
+    "blueprint_id": "Prepositions — Praised For",
+    "deconstruct_text": "Sa LGU flag ceremony, pinuri ng Mayor si Kagawad Ana dahil sa kanyang dedication sa serbisyo. Ang tamang preposisyon ay 'for', gaya ng 'praised for her dedication.'\n\nAng 'with' ay ginagamit sa kasangkapan o kasama, hindi sa dahilan. 'About' naman ay para sa paksa, 'on' ay para sa araw o patong. Kaya sa sentence na ito, 'for' lang ang natural. Pag may dedication, laging 'praised for'.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

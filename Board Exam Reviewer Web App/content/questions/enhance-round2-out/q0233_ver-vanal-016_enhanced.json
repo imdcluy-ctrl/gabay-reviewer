@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-016",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "SUPREME COURT is to JUDICIARY as CONGRESS is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Executive"
+      },
+      {
+        "key": "B",
+        "text": "Legislative"
+      },
+      {
+        "key": "C",
+        "text": "Judicial"
+      },
+      {
+        "key": "D",
+        "text": "Constitutional"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tatlong Sangay",
+        "text": "Alam mo ba ang tatlong branch? Executive, Legislative, Judicial. Supreme Court nasa Judiciary. Congress sa'n kaya? Isip ka ng barangay."
+      },
+      {
+        "rung": 2,
+        "title": "Congress = Tagagawa ng Batas",
+        "text": "Sa Tagalog, legislative ay tagagawa ng batas. Ang Congress ang gumagawa ng batas, kaya Legislative branch siya. Parang Sangguniang Barangay."
+      },
+      {
+        "rung": 3,
+        "title": "Relasyon: Institution to Branch",
+        "text": "Ang pattern: Institution (Supreme Court, Congress) -> Branch (Judiciary, Legislative). Tandaan mo 'to para sa exam!"
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: Legislative",
+        "text": "Kaya sagot ay 'Legislative' dahil Congress ang legislative body, gaya ng Supreme Court sa judicial. Kaya mo 'yan!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought Congress executes laws, but that's the President's branch; trap: jurisdiction_misattribution.",
+        "trap_type": "jurisdiction_misattribution"
+      },
+      "B": {
+        "text": "Correct. Congress is the legislative branch, tasked with making laws under the Constitution.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you reversed the relationship, thinking Congress is judicial like courts, but it's not.",
+        "trap_type": "jurisdiction_misattribution"
+      },
+      "D": {
+        "text": "You might have chosen D because 'Constitutional' sounds official, but it's not a branch; trap: unqualified_generalization.",
+        "trap_type": "unqualified_generalization"
+      }
+    },
+    "next_time_rule": "Tatandaan: Executive = President, Legislative = Congress, Judicial = Supreme Court. Institution to branch ang relasyon.",
+    "blueprint_id": "Branch of Government",
+    "deconstruct_text": "Governing Rule: The 1987 Constitution structures the government into three branches: Legislative (Congress, Art. VI, Sec. 1), Executive (President), and Judicial (Supreme Court). Each institution belongs to its branch.\n\nIsipin mo, parang sa barangay: Si Kapitan (Executive) nagpapatupad ng ordinansa, pero ang Sangguniang Barangay (Legislative) ang gumagawa nito. Sa national level, Congress ang gumagawa ng batas, kaya Legislative branch.\n\nStep-by-step: 1. Supreme Court -> Judiciary. 2. Congress -> Legislative. 3. 'Legislative' ang tamang sagot. 4. 'Executive' at 'Judicial' ay ibang branch; 'Constitutional' ay hindi branch.\n\nWhy Distractors Fail: A (Executive) – akala mo Congress nag-e-execute, pero President 'yon. C (Judicial) – akala mo korte ang Congress. D (Constitutional) – hindi branch ang salitang 'yan.\n\n**Watch-Out Zone: jurisdiction_misattribution** in action. Mixing up branches? 'Constit...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

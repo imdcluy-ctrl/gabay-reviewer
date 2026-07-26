@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-405",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "If you are a permanent employee, then you receive a mid-year bonus. Maria received a mid-year bonus. Therefore, Maria is a permanent employee. This argument is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valid"
+      },
+      {
+        "key": "B",
+        "text": "Invalid because it commits the fallacy of denying the antecedent"
+      },
+      {
+        "key": "C",
+        "text": "Invalid because it commits the fallacy of affirming the consequent"
+      },
+      {
+        "key": "D",
+        "text": "Valid only if all employees receive a mid-year bonus"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about spotting a common logical pattern. Think of it like a detective checking whether a conclusion really follows from the clues given. The argument has a specific shape—let's figure out if that shape is airtight or has a hole."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule: In logic, if you have 'If P, then Q,' knowing that Q is true does NOT automatically mean P is true. Why? Because Q could happen for other reasons too. That's the key insight."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's map it out: P = 'permanent employee,' Q = 'receives mid-year bonus.' The argument says: If P then Q. Maria got Q. So Maria must be P. See the leap? It assumes only permanent employees get the bonus, but the original statement never said that."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Imagine a company where both permanent and contractual staff get a mid-year bonus. Maria could be contractual and still receive it. The argument's flaw is that it affirms the consequent (Q) and wrongly concludes the antecedent (P). That's the fallacy in action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one might feel tempting if you're thinking, 'Well, the logic seems straightforward.' But the argument has a hidden flaw. It assumes that receiving the bonus only happens if you're permanent, which the original statement never guarantees. So it's not valid.",
+        "trap_type": "validity_misjudgment"
+      },
+      "B": {
+        "text": "A smart guess if you mix up the two common fallacies. Denying the antecedent would look like: 'If P then Q. Not P. Therefore not Q.' That's a different pattern. Here, the argument does the opposite—it affirms Q, not denies P. So this isn't the right label.",
+        "trap_type": "fallacy_misidentification"
+      },
+      "C": {
+        "text": "Exactly right. The argument follows the pattern: If P then Q. Q. Therefore P. That's the classic fallacy of affirming the consequent. It's invalid because Q could be true for reasons other than P—like other employee types getting the bonus too.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one adds a new condition that wasn't in the original argument. Even if all employees get a bonus, the logical form is still flawed. The argument doesn't say 'only permanent employees get it,' so adding that assumption doesn't fix the underlying fallacy.",
+        "trap_type": "irrelevant_condition"
+      }
+    },
+    "deconstruct_text": "Let's break this down like a friendly logic puzzle. The argument has a simple structure: 'If you're permanent (P), then you get a bonus (Q). Maria got a bonus (Q). So Maria is permanent (P).' At first glance, it might seem reasonable, but here's the catch: the rule only tells us what happens if you're permanent—it doesn't say anything about what happens if you're not. Maria could be a contractual employee, a part-timer, or even a consultant who also gets a bonus. The argument wrongly assumes that the bonus is exclusive to permanent staff, which the original statement never claimed. This is a classic logical misstep called 'affirming the consequent.' The mental trick to remember: whenever you see 'If P then Q' and someone says 'Q, therefore P,' imagine a second door. Q is like a prize that could come from door P or door R or door S. You can't assume it came from door P just because that's one possibility. Always ask: 'Could Q be true for another reason?' If yes, the argument is invalid.",
+    "next_time_rule": "When you see 'If P then Q; Q; therefore P,' stop and think: 'Could Q happen without P?' If the answer is yes, you've spotted the fallacy of affirming the consequent. Always check for other possible causes before accepting the conclusion.",
+    "blueprint_id": "B-1748",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

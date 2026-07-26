@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-459",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "In a 3x3 matrix, each cell contains a symbol: circle, square, or triangle. The symbols are arranged such that the sum of the values of the symbols in each row and column is the same. If circle = 1, square = 2, and triangle = 3, and the matrix is: \nRow 1: circle, square, triangle \nRow 2: square, triangle, circle \nRow 3: triangle, circle, ? \nWhat symbol should replace the question mark?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Circle"
+      },
+      {
+        "key": "B",
+        "text": "Square"
+      },
+      {
+        "key": "C",
+        "text": "Triangle"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Symbol substitution pattern: A matrix where symbols translate to mathematical operations applied to adjacent cells (Scenario 89)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

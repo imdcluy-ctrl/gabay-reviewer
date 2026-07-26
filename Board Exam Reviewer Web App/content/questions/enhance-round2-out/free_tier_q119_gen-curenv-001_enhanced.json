@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-001",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "question_text": "What law mandates the establishment of Materials Recovery Facilities (MRFs) in every barangay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 9003 (Ecological Solid Waste Management Act)"
+      },
+      {
+        "key": "B",
+        "text": "RA 8749 (Clean Air Act)"
+      },
+      {
+        "key": "C",
+        "text": "RA 9275 (Clean Water Act)"
+      },
+      {
+        "key": "D",
+        "text": "PD 1586 (EIS)"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about what MRFs are for",
+        "text": "Materials Recovery Facilities are places where trash is sorted, recycled, and processed. So which law would most likely talk about managing garbage in your community?"
+      },
+      {
+        "rung": 2,
+        "title": "Match the law to its main focus",
+        "text": "Each environmental law has a specific job: one is for solid waste (garbage), one is for air pollution, one is for water quality, and one is for project impact assessments. Which one deals with trash?"
+      },
+      {
+        "rung": 3,
+        "title": "Look for the keyword 'solid waste'",
+        "text": "RA 9003 is officially called the Ecological Solid Waste Management Act. It specifically requires every barangay to set up an MRF under Section 32. The other laws don't mention solid waste at all."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the mismatches",
+        "text": "RA 8749 is about air, RA 9275 is about water, and PD 1586 is about environmental impact studies for big projects. Only RA 9003 covers garbage management and MRFs."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9003, the Ecological Solid Waste Management Act of 2000, is the law that requires every barangay to establish a Materials Recovery Facility. Section 32 makes this a clear mandate, so if you see MRFs in a question, think of this law first.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up because all these laws are environmental. But RA 8749, the Clean Air Act, focuses on air pollution from vehicles and factories, not on garbage. A smart student might pick this if they remember it's an environmental law but forget its specific focus.",
+        "trap_type": "environmental_law_confusion"
+      },
+      "C": {
+        "text": "RA 9275, the Clean Water Act, is all about keeping our rivers, lakes, and groundwater clean. It doesn't say anything about solid waste or MRFs. It's easy to confuse because water and waste both sound like 'environmental issues,' but they're handled by different laws.",
+        "trap_type": "environmental_law_confusion"
+      },
+      "D": {
+        "text": "PD 1586 established the Environmental Impact Statement (EIS) system, which requires big projects to assess their environmental effects before construction. It's not about everyday garbage management in barangays. This one is a bit of a stretch, but some students might pick it if they think MRFs need an environmental impact study.",
+        "trap_type": "environmental_law_confusion"
+      }
+    },
+    "next_time_rule": "When you see a question about environmental laws, use the 'One Job' rule: RA 9003 = garbage, RA 8749 = air, RA 9275 = water, PD 1586 = project impact. Each law has exactly one main job, so match the job to the question.",
+    "blueprint_id": "RA 9003 — Solid Waste Management",
+    "deconstruct_text": "Let's break this down in a way that sticks. The question asks which law requires every barangay to have a Materials Recovery Facility, or MRF. An MRF is basically a local recycling and waste sorting center. So right away, you know we're talking about garbage management.\n\nNow, look at the options. Each one is a major Philippine environmental law, but they all have different specialties. RA 9003 is the Ecological Solid Waste Management Act — its whole purpose is managing solid waste, from collection to disposal to recycling. Section 32 of this law explicitly says each barangay must establish an MRF. That's a direct match.\n\nThe other options are easy to mix up because they're all environmental laws. RA 8749 (Clean Air Act) deals with air pollution from vehicles and smokestacks. RA 9275 (Clean Water Act) protects water quality in rivers and lakes. PD 1586 requires environmental impact assessments for large projects. None of them mention solid waste or MRFs.\n\nHere's a mental trick to lock this in: think of each law as having one specific job. RA 9003's job is garbage. RA 8749's job is air. RA 9275's job is water. PD 1586's job is project reviews. When you see a question about MRFs, ask yourself: 'Which law's job is garbage?' That's RA 9003.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

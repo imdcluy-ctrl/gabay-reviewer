@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-024",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "The ratio of coconut oil to soap base in a livelihood production is 3:7. If 21 liters of soap base is used, how many liters of coconut oil are needed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This is a ratio problem. The ratio 3:7 tells you how the two ingredients relate to each other. You know the actual amount of one ingredient (soap base). Your job is to find the actual amount of the other (coconut oil)."
+      },
+      {
+        "rung": 2,
+        "title": "The one-part trick",
+        "text": "In any ratio, the numbers represent 'parts.' If 7 parts of soap base equals 21 liters, how many liters is just 1 part? That's the key to unlocking the whole problem."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the trick",
+        "text": "Divide the known amount (21 liters) by its ratio number (7) to find the value of one part. So 21 divided by 7 equals 3 liters per part. Now, coconut oil has 3 parts. Multiply 3 parts by 3 liters per part."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "You should get 9 liters. Check your work: does 9 liters of oil and 21 liters of base simplify back to 3:7? Yes, because 9 divided by 3 is 3, and 21 divided by 3 is 7. That confirms your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 liters. This is a common slip where someone sees the 3 for oil and the 7 for base and thinks, '3 times 2 is 6,' but that 2 comes from nowhere. The correct path is to find the value of one part first: 21 divided by 7 equals 3 liters per part. Then multiply by oil's 3 parts to get 9 liters.",
+        "trap_type": "wrong_multiplier_used"
+      },
+      "B": {
+        "text": "7 liters. This happens when you confuse the number of parts for base (7) with the amount of oil. You might think, 'Base is 7 parts, so oil is 7 liters,' but that ignores the per-part value. Each part is 3 liters, so oil's 3 parts equal 9 liters.",
+        "trap_type": "confused_part_count"
+      },
+      "C": {
+        "text": "8 liters. This is often a guess from adding the ratio numbers (3+7=10) and then subtracting from 21 (21-10=11) or some other random arithmetic. The reliable method is always: find one part, then multiply.",
+        "trap_type": "addition_subtraction_error"
+      },
+      "D": {
+        "text": "Correct! 9 liters. You found that 7 parts of base equals 21 liters, so 1 part is 3 liters. Oil has 3 parts, so 3 times 3 equals 9 liters. The ratio 9:21 simplifies perfectly to 3:7.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "In any ratio problem, first find the value of one part by dividing the known quantity by its ratio number. Then multiply that value by the other ratio number. One part is your golden key.",
+    "blueprint_id": "Direct Proportion — Livelihood Ratio",
+    "deconstruct_text": "Let's walk through this together. The ratio 3:7 tells us that for every 3 parts of coconut oil, we need 7 parts of soap base. Think of it like a recipe: the numbers are just the proportions, not the actual amounts. We know the actual amount of soap base is 21 liters, and that corresponds to the 7 in the ratio. So if 7 parts equals 21 liters, then 1 part is simply 21 divided by 7, which is 3 liters. Now, coconut oil has 3 parts, so we multiply 3 parts by 3 liters per part to get 9 liters. That's our answer. To double-check, we can simplify the ratio 9:21 by dividing both numbers by 3, and we get 3:7, which matches the original. The mental trick here is to always ask yourself: 'What is one part worth?' Once you know that, you can scale any part of the ratio to its actual amount.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

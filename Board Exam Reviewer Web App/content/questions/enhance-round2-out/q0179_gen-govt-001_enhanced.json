@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-001",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "question_text": "Which government agency is the central personnel agency of the Philippine government?",
+    "options": [
+      {
+        "key": "A",
+        "text": "COA"
+      },
+      {
+        "key": "B",
+        "text": "COMELEC"
+      },
+      {
+        "key": "C",
+        "text": "CSC"
+      },
+      {
+        "key": "D",
+        "text": "DILG"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang 'personnel'",
+        "text": "Ang tanong ay tungkol sa ahensiyang namamahala sa mga empleyado ng gobyerno, hindi sa pera o boto."
+      },
+      {
+        "rung": 2,
+        "title": "Tatlong Commission, Iba-iba",
+        "text": "May tatlong Constitutional Commission: CSC para sa tao, COA para sa pera, COMELEC para sa boto. Ang keyword: 'personnel' = tao."
+      },
+      {
+        "rung": 3,
+        "title": "Gamitin ang scenario",
+        "text": "Kunwari nasa barangay ka: COA nag-audit ng budget, COMELEC naghahanda ng eleksyon, DILG nagbabantay sa LGU. Sino humahawak ng hiring? CSC lang 'yan!"
+      },
+      {
+        "rung": 4,
+        "title": "CSC = Civil Service",
+        "text": "Ang sagot ay yung may 'Civil Service' sa pangalan. Sila ang nangangasiwa ng exam, appointment, at disiplina ng civil servants."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because COA is a constitutional commission, but it audits money, not personnel.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because COMELEC also a commission, but it handles elections, not civil service.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "C": {
+        "text": "Correct. CSC, the Civil Service Commission, is the central personnel agency managing government employees' careers.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because DILG oversees local governments, but it's a department, not a commission, and not for personnel.",
+        "trap_type": "agency_mandate_confusion"
+      }
+    },
+    "next_time_rule": "Pag 'central personnel agency,' isipin 'CSC'—Careers, Serbisyo, Civil servants. COA=Check, COMELEC=Count, DILG=Districts.",
+    "blueprint_id": "CSC Mandate",
+    "deconstruct_text": "Imagine nasa barangay hall ka, nag-aasikaso ng payroll ng mga kagawad. May magtatanong: 'Sino ba ang central personnel agency?' Syempre, ang iniisip mo ay sino nagma-manage ng tao—hindi pera, hindi boto, at hindi local government unit.\n\nAng CSC ang central personnel agency. Ito ay isa sa tatlong Constitutional Commissions: CSC = Careers at Serbisyo sibil; COA = Check ng Accounts; COMELEC = Count ng boto. DILG naman ay department para sa local government. Remember: personnel = tao, kaya CSC.\n\n**Watch-Out Zone: constitutional_commission_confusion** - Don't mix up COA/COMELEC with...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

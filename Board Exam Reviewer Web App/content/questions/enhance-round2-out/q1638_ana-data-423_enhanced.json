@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-423",
+    "category_id": "analytical-ability",
+    "subtopic_id": "data-interpretation",
+    "question_text": "Table 1: Tax Collection (in million pesos) by City\n| City | 2021 | 2022 |\n|------|------|------|\n| City A | 100 | 120 |\n| City B | 80 | 90 |\n| City C | 60 | 70 |\n\nTable 2: Population Density (persons per sq km) by City\n| City | Density |\n|------|---------|\n| City A | 2,000 |\n| City B | 1,500 |\n| City C | 1,000 |\n\nWhich city had the highest tax collection per capita in 2022? (Assume area is 1 sq km for simplicity.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "City A"
+      },
+      {
+        "key": "B",
+        "text": "City B"
+      },
+      {
+        "key": "C",
+        "text": "City C"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1983",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

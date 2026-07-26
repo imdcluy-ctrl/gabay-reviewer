@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-001",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "question_text": "RA 9262 (Anti-Violence Against Women and their Children Act) protects:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only married women"
+      },
+      {
+        "key": "B",
+        "text": "Women and their children"
+      },
+      {
+        "key": "C",
+        "text": "All family members"
+      },
+      {
+        "key": "D",
+        "text": "All citizens"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the title",
+        "text": "The name of the law is right there in the question. What does the title 'Anti-Violence Against Women and their Children Act' tell you about who it protects?"
+      },
+      {
+        "rung": 2,
+        "title": "Think about the words",
+        "text": "The law's title names two specific groups. It says 'Women' and 'their Children.' That's a big clue. It doesn't say 'all family members' or 'all citizens.'"
+      },
+      {
+        "rung": 3,
+        "title": "Consider who 'women' means",
+        "text": "The law doesn't say 'married women' only. It says 'women.' That includes women in a dating relationship, live-in partners, ex-wives, and former partners. So the protection is broader than just marriage."
+      },
+      {
+        "rung": 4,
+        "title": "Put it together",
+        "text": "So the law protects women (regardless of marital status) and their children (whether legitimate or not). That matches exactly one of the options. Which one says 'Women and their children'?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common misunderstanding. You might think a law about violence against women only applies to married women, but RA 9262 actually covers all women in intimate relationships — including girlfriends, live-in partners, and even former partners. The law uses the word 'women,' not 'wives.'",
+        "trap_type": "scope_limitation_error"
+      },
+      "B": {
+        "text": "Exactly right. The full title of the law is 'Anti-Violence Against Women and their Children Act.' So the protected groups are women (whether married, dating, or in a live-in arrangement) and their children (legitimate or illegitimate). The title itself gives you the answer.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "It's easy to assume a law about violence would protect all family members, but RA 9262 is specifically focused on women and their children. Other family members like male siblings, elderly parents, or uncles are not covered by this particular law. They have other laws protecting them.",
+        "trap_type": "overgeneralization_error"
+      },
+      "D": {
+        "text": "This is too broad. RA 9262 is a gender-specific law, not a general protection law for all citizens. It specifically targets violence against women and their children. Other laws like the Anti-Child Abuse Law or the General Welfare Clause cover other groups.",
+        "trap_type": "overgeneralization_error"
+      }
+    },
+    "next_time_rule": "When a question asks who a law protects, look at its official title first. The title of RA 9262 literally says 'Women and their Children' — that's your answer. The law's name is often the biggest clue.",
+    "blueprint_id": "RA 9262 — VAWC",
+    "deconstruct_text": "Let's walk through this together. The question asks who RA 9262 protects, and the law's full title is 'Anti-Violence Against Women and their Children Act.' That title is your best friend here. It names exactly two groups: women and their children. Now, 'women' here doesn't mean only married women — it includes girlfriends, live-in partners, ex-wives, and former partners. And 'their children' means the woman's children, whether legitimate or illegitimate. So the correct answer is 'Women and their children.' The other options either narrow it down too much (like 'only married women') or stretch it too wide (like 'all family members' or 'all citizens'). A quick trick for exam day: whenever you see a law question, read the full title of the law first. It often contains the answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

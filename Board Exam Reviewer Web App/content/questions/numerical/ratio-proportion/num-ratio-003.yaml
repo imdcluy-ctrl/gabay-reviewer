@@ -1,0 +1,55 @@
+id: num-ratio-003
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 1
+is_free: true
+language: en
+tags: ["budget-allocation", "barangay"]
+estimated_seconds: 75
+question_text: "A disaster relief fund of ₱120,000 is allocated to three barangays in proportion to their population ratio of 3:4:5. How much budget will the barangay with the smallest population receive?"
+options:
+  - key: A
+    text: "₱30,000"
+  - key: B
+    text: "₱40,000"
+  - key: C
+    text: "₱50,000"
+  - key: D
+    text: "₱60,000"
+correct: A
+blueprint_id: "Ratio and Proportion — dividing budget by population ratio"
+hint_ladder:
+  - rung: 1
+    title: "Sum the Ratio"
+    text: "Total parts = 3 + 4 + 5 = 12 parts."
+  - rung: 2
+    title: "Find One Part"
+    text: "₱120,000 ÷ 12 = ₱10,000 per ratio part."
+  - rung: 3
+    title: "Smallest Barangay Share"
+    text: "Smallest ratio = 3 parts."
+  - rung: 4
+    title: "Calculate Value"
+    text: "3 × ₱10,000 = ₱30,000."
+deconstruct_text: |
+  Ratio = 3 : 4 : 5
+  Total parts = 12
+  Value per part = ₱120,000 ÷ 12 = ₱10,000
+  Smallest share (3 parts) = 3 × ₱10,000 = ₱30,000
+choice_explanations:
+  A:
+    text: "Correct! Total parts = 12. ₱120,000 ÷ 12 = ₱10,000. Smallest = 3 × ₱10,000 = ₱30,000."
+    trap_type: null
+  B:
+    text: "This is the middle barangay share (4 parts × ₱10,000 = ₱40,000)."
+    trap_type: wrong_part
+  C:
+    text: "This is the largest barangay share (5 parts × ₱10,000 = ₱50,000)."
+    trap_type: wrong_part
+  D:
+    text: "Dividing ₱120,000 by 2."
+    trap_type: wrong_divisor
+next_time_rule: "Always check whether the question asks for the smallest, largest, or specific ratio part before picking your answer."
+status: live
+reviewed_by: null
+source_notes: "Barangay disaster relief allocation ratio problem"

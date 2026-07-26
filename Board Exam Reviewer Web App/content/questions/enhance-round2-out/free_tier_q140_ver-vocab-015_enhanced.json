@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-015",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'BENEVOLENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kind"
+      },
+      {
+        "key": "B",
+        "text": "Generous"
+      },
+      {
+        "key": "C",
+        "text": "Malevolent"
+      },
+      {
+        "key": "D",
+        "text": "Charitable"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, but more specifically, your ability to spot opposites. The word 'benevolent' describes someone who wishes good for others. Think about what the opposite of 'wishing good' would be."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's a simple trick: Latin roots are your best friend here. The prefix 'bene-' means good, while 'mal-' means bad. So benevolent = good-wishing, and its opposite would be bad-wishing. Can you spot which option has 'mal-' in it?"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Three of them describe positive traits like kindness, generosity, and charity. Those are all synonyms of benevolent, not antonyms. The only option that starts with a negative prefix is 'malevolent.' That's your opposite."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "You're almost there. Just remember: bene = good, mal = bad. Benevolent means good-wishing, so malevolent means evil-wishing. That's the direct antonym. The other three options are all positive words that mean the same thing as benevolent, not the opposite."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a synonym, not an antonym. 'Kind' means having a gentle and caring nature, which is very similar to being benevolent. It's an easy mistake if you rush and just pick a word you recognize, but the question specifically asks for the opposite meaning.",
+        "trap_type": "synonym_used"
+      },
+      "B": {
+        "text": "'Generous' is another synonym of benevolent. It describes someone who gives freely, which aligns with benevolence. If you picked this, you might have been thinking of words that are similar in meaning rather than opposite. Always double-check whether the question asks for a synonym or antonym.",
+        "trap_type": "synonym_used"
+      },
+      "C": {
+        "text": "Correct. 'Malevolent' is the direct antonym of 'benevolent.' The key difference is in the Latin roots: 'bene-' means good, while 'male-' means bad. So benevolent = good-wishing, and malevolent = evil-wishing. They are perfect opposites.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Charitable' is yet another synonym of benevolent. It means giving help to those in need, which is a form of benevolence. If you chose this, you might have been looking for a word with a similar positive meaning instead of the opposite. Remember to read the question carefully.",
+        "trap_type": "synonym_used"
+      }
+    },
+    "next_time_rule": "When you see a vocabulary question, first check if it asks for a synonym or antonym. Then use Latin roots as your shortcut: 'bene' = good, 'mal' = bad, 'pre' = before, 'post' = after. This trick works for many words and saves you time.",
+    "blueprint_id": "Antonyms — Benevolent",
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'benevolent' comes from two Latin parts: 'bene' meaning good, and 'volent' meaning wishing. So a benevolent person is someone who wishes good things for others. Now, the question asks for the antonym, which means the word with the opposite meaning. The opposite of wishing good is wishing bad, and that's exactly what 'malevolent' means. 'Male' comes from Latin for bad or evil. So malevolent = bad-wishing. The other three options—kind, generous, and charitable—are all positive traits that describe someone who is benevolent. They are synonyms, not antonyms. The trap here is that many students see a word they know and pick it without thinking about whether the question asks for a similar or opposite meaning. The mental trick to avoid this is simple: always check the prefix. Bene- and mal- are like two sides of a coin. Once you know that, you can answer this question in seconds.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

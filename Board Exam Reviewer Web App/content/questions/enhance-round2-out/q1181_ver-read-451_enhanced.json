@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-451",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: Republic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, aims to promote a high standard of ethics in the public service. The law requires all public officials and employees to submit a Statement of Assets, Liabilities, and Net Worth (SALN) every year. It also prohibits them from receiving gifts or favors from persons with whom they have official business. Furthermore, the law mandates the establishment of a system of incentives and rewards for exemplary behavior, as well as disciplinary measures for violations. The Civil Service Commission (CSC) is tasked with implementing and monitoring compliance with this law.\n\nWhat is the main idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 6713 requires the submission of SALN every year."
+      },
+      {
+        "key": "B",
+        "text": "RA 6713 sets ethical standards for public officials and employees, including SALN submission, gift prohibition, and a reward system."
+      },
+      {
+        "key": "C",
+        "text": "The CSC is the only agency responsible for RA 6713."
+      },
+      {
+        "key": "D",
+        "text": "Public officials can receive gifts as long as they report them."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1426",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

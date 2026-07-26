@@ -1,0 +1,48 @@
+{
+  "name": "gabay",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open",
+    "build": "tsc -b && vite build && npx tsx scripts/assertNoSecretsInBundle.ts",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test:unit": "npx tsx tests/userOwnedTables.test.ts && npx tsx tests/errorTags.test.ts && npx tsx tests/boxBreathing.test.ts && npx tsx tests/examChecklist.test.ts && npx tsx tests/entitlements.test.ts && npx tsx tests/analytics.mastery.test.ts && npx tsx tests/analytics.scatter.test.ts && npx tsx tests/analytics.stamina.test.ts && npx tsx tests/analytics.windows.test.ts && npx tsx tests/leitner.test.ts && npx tsx tests/migrations.test.ts && npx tsx tests/selection.test.ts && npx tsx tests/preflight.test.ts && npx tsx tests/accountLinking.test.ts && npx tsx tests/merge.test.ts && npx tsx tests/timer.test.ts && npx tsx tests/persistence.test.ts && npx tsx tests/palette.test.ts && npx tsx tests/syncCoalesce.test.ts && npx tsx tests/sessionStateMachine.test.ts && npx tsx tests/scoring.test.ts && npx tsx tests/pacing.test.ts && npx tsx tests/fatigue.test.ts && npx tsx tests/leitnerInjection.test.ts && npx tsx tests/readinessIndex.test.ts && npx tsx tests/retakeManager.test.ts && npx tsx tests/history.test.ts && npx tsx tests/accessibility.test.ts && npx tsx tests/deepAnalyticsPipeline.test.ts",
+    "exam:preflight": "npx tsx scripts/exam-preflight.ts",
+    "content:validate": "npx tsx scripts/validate-content.ts",
+    "content:seed": "npx tsx scripts/generate-seed.ts",
+    "content:generate": "npx tsx scripts/generate-ai-content.ts",
+    "test:lighthouse": "npx @lhci/cli autorun",
+    "test:a11y": "npx @axe-core/cli http://localhost:4173"
+  },
+  "dependencies": {
+    "@google/genai": "^2.12.0",
+    "@sentry/react": "^10.67.0",
+    "@sentry/vite-plugin": "^5.4.0",
+    "@supabase/supabase-js": "^2.110.7",
+    "@vercel/analytics": "^2.0.1",
+    "dexie": "^4.4.4",
+    "dexie-react-hooks": "^4.4.0",
+    "posthog-js": "^1.404.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1",
+    "uuid": "^14.0.1",
+    "vite-plugin-pwa": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^6.0.3",
+    "glob": "^13.0.6",
+    "js-yaml": "^5.2.1",
+    "oxlint": "^1.71.0",
+    "tsx": "^4.23.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}

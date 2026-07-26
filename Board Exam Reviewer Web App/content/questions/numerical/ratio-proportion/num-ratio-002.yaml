@@ -1,0 +1,54 @@
+id: num-ratio-002
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 1
+is_free: true
+language: en
+tags: ["direct-proportion", "health-center"]
+estimated_seconds: 60
+question_text: "In a municipal health center, the ratio of registered nurses to medical technologists is 5:2. If there are 35 registered nurses, how many medical technologists are employed?"
+options:
+  - key: A
+    text: "10"
+  - key: B
+    text: "14"
+  - key: C
+    text: "15"
+  - key: D
+    text: "20"
+correct: B
+blueprint_id: "Ratio and Proportion — finding unknown quantity in direct proportion"
+hint_ladder:
+  - rung: 1
+    title: "Identify Given Values"
+    text: "Ratio of Nurses : MedTechs is 5 : 2."
+  - rung: 2
+    title: "Find the Multiplier"
+    text: "If 5 parts = 35 nurses, how much is 1 part?"
+  - rung: 3
+    title: "Calculate One Part"
+    text: "35 ÷ 5 = 7 nurses per part."
+  - rung: 4
+    title: "Final Multiply"
+    text: "MedTechs = 2 parts × 7 = 14."
+deconstruct_text: |
+  Nurses : MedTechs = 5 : 2
+  5 parts = 35 nurses → 1 part = 35 ÷ 5 = 7
+  MedTechs = 2 parts = 2 × 7 = 14
+choice_explanations:
+  A:
+    text: "Dividing 35 by 3.5 or miscalculating 5 × 2."
+    trap_type: arithmetic_error
+  B:
+    text: "Correct! 5 parts = 35, so 1 part = 7. MedTechs = 2 parts × 7 = 14."
+    trap_type: null
+  C:
+    text: "Subtracting 20 from 35 instead of using ratio proportion."
+    trap_type: formula_misapplication
+  D:
+    text: "Calculating 35 minus 15."
+    trap_type: misread_keyword
+next_time_rule: "In direct proportion ratios (A:B = Given:X), divide the given quantity by its corresponding ratio number to find the multiplier."
+status: live
+reviewed_by: null
+source_notes: "Direct proportion health worker staffing problem"

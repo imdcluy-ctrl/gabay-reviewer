@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-002",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PRUDENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reckless"
+      },
+      {
+        "key": "B",
+        "text": "Cautious"
+      },
+      {
+        "key": "C",
+        "text": "Hasty"
+      },
+      {
+        "key": "D",
+        "text": "Careless"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a synonym question, so you're looking for a word that means the same thing as 'prudent.' Start by thinking about what 'prudent' really means in everyday life."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "A synonym is a word that shares the same core meaning. For 'prudent,' think of someone who thinks before they act and avoids unnecessary risks."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at each option. Ask yourself: does this word describe careful, thoughtful behavior? 'Reckless' and 'careless' clearly don't. 'Hasty' means rushing, which is the opposite of careful. Only one option fits."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Imagine a government official handling public funds. Would you want them to be reckless, hasty, careless, or cautious? That last one is exactly what 'prudent' means."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you're in a hurry and just think 'prudent' sounds like a strong action word. But 'reckless' means doing things without any thought for the consequences, which is the exact opposite of being prudent. A prudent person pauses and considers; a reckless person jumps in without looking.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "You've got it. 'Prudent' and 'cautious' are like twins in meaning. Both describe someone who is careful, thinks ahead, and avoids unnecessary risks. In the civil service, a prudent official is one who makes wise, well-considered decisions, especially when handling public resources.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "It's easy to mix up 'prudent' with 'prompt' or think that being careful means being fast. But 'hasty' actually means doing something too quickly, often leading to mistakes. Prudence is about taking the time to be careful, not about speed.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "This one can trick you because both words start with 'c' and have 'care' in them. But 'careless' means not paying attention or being negligent, which is the complete opposite of prudent. Remember: prudent = careful, not careless.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see a synonym question, first define the word in your own mind using a simple example. For 'prudent,' think of a 'prudent saver' who puts money aside for the future. Then look for the option that matches that careful, forward-thinking vibe. If an option sounds like the opposite, cross it out immediately.",
+    "blueprint_id": "Synonyms — Prudent",
+    "deconstruct_text": "Let's walk through this together. The word 'prudent' describes someone who is careful and thinks about the future before acting. Picture a person who looks both ways before crossing the street, or a manager who reviews a budget twice before approving a big expense. That's prudence.\n\nNow, let's test each option against that image:\n- Reckless: This person runs across the street without looking. Definitely not the same.\n- Cautious: This person checks carefully before moving. That matches our prudent person perfectly.\n- Hasty: This person rushes across without thinking things through. The opposite of careful.\n- Careless: This person doesn't pay attention at all. Again, the opposite.\n\nSo only 'cautious' shares the same core meaning. Here's a mental trick for next time: The 'Who vs. What' test. Ask yourself, 'Who would I trust with an important decision?' A prudent person? Yes. A cautious person? Yes. A reckless, hasty, or careless person? No way. That instantly tells you which words are synonyms and which are opposites.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

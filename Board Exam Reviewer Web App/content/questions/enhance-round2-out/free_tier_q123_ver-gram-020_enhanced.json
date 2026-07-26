@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-020",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'Every one of the employees ___ to attend the seminar.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "are required"
+      },
+      {
+        "key": "B",
+        "text": "is required"
+      },
+      {
+        "key": "C",
+        "text": "were required"
+      },
+      {
+        "key": "D",
+        "text": "have been required"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the True Subject",
+        "text": "Before you pick a verb, ask yourself: what is the actual subject of this sentence? It's not always the noun closest to the verb. Look past the phrase 'of the employees' and find the word that 'every' is really pointing to."
+      },
+      {
+        "rung": 2,
+        "title": "The 'Every' Rule",
+        "text": "Here's a simple rule that never fails: words like 'every', 'each', 'either', and 'neither' are always singular. They refer to one person or thing at a time, even when followed by 'of the...' So the verb must be singular too."
+      },
+      {
+        "rung": 3,
+        "title": "Check the Tense",
+        "text": "Now that you know the verb must be singular, look at the options. The sentence is in the present tense (there's no past time marker like 'yesterday'). Which singular verb is in the present tense? Only one fits."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow It Down",
+        "text": "You've ruled out 'are required', 'were required', and 'have been required' because they're all plural. The only singular option left is 'is required'. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake. Your brain sees 'employees' right before the blank and wants to match it with 'are'. But 'employees' is not the subject here — it's part of the phrase 'of the employees'. The real subject is 'Every one', which is singular. So 'are required' doesn't agree.",
+        "trap_type": "distracted_by_prepositional_phrase"
+      },
+      "B": {
+        "text": "Correct. 'Every one' is a singular indefinite pronoun, so it pairs with the singular verb 'is required'. The phrase 'of the employees' is just extra information — it doesn't change the subject's number. Well done for spotting that.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one has two problems. First, 'were' is plural, but 'Every one' is singular. Second, 'were' is past tense, but the sentence has no past time context. Even if you thought the sentence needed past tense, the singular form would be 'was required', not 'were required'.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "'Have been required' is plural and in the present perfect tense. The subject 'Every one' needs a singular verb, and the simple present tense 'is required' fits the sentence better. If you needed present perfect, the singular form would be 'has been required', but that still wouldn't be the best choice here.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "When you see 'every', 'each', 'either', or 'neither' at the start of a subject, mentally cross out any 'of the...' phrase that follows. The true subject is that one word, and it's always singular. Match your verb to that, not to the plural noun in the phrase.",
+    "blueprint_id": "Subject-Verb — Every One Of",
+    "deconstruct_text": "Let's walk through this together. The sentence is: 'Every one of the employees ___ to attend the seminar.' Your job is to pick the verb that fits.\n\nFirst, find the real subject. It's tempting to grab 'employees' because it's right next to the blank, but that's a trap. The subject is 'Every one'. The phrase 'of the employees' is just describing which 'every one' we're talking about. Think of it like this: if someone says 'a box of chocolates', the subject is 'box', not 'chocolates'. Same idea here.\n\nNow, 'Every one' is what we call an indefinite pronoun, and it's always singular. It refers to each individual person, not the group as a whole. So the verb must be singular too.\n\nLook at the options:\n- 'are required' is plural — doesn't match.\n- 'is required' is singular — matches.\n- 'were required' is plural and past tense — doesn't match.\n- 'have been required' is plural — doesn't match.\n\nOnly one option is singular and in the present tense: 'is required'. That's your answer.\n\nHere's a mental trick for next time: when you see 'every one of', 'each of', or 'either of', imagine a big red circle around the word 'every', 'each', or 'either'. That's your subject. Everything after 'of' is just background noise. Match your verb to the circled word, and you'll never get this wrong.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer ___ the financial records.",
+    "options": [
+      {
+        "key": "A",
+        "text": "amend"
+      },
+      {
+        "key": "B",
+        "text": "amends"
+      },
+      {
+        "key": "C",
+        "text": "amended"
+      },
+      {
+        "key": "D",
+        "text": "amending"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "The Secret Signal Phrase",
+        "text": "'Recommended that' is a subjunctive trigger. Think of it as a code that forces the next verb into its most basic form, no matter who does it."
+      },
+      {
+        "rung": 2,
+        "title": "Ignore the Subject",
+        "text": "Even though 'treasurer' seems third-person singular, the subjunctive doesn't care. It's like a blank form that says: no -s, no -ed, no -ing."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Plain Verb",
+        "text": "Among the choices, 'amend' is the only naked verb. The others have endings that break the subjunctive rule. Choose the one with zero add-ons."
+      },
+      {
+        "rung": 4,
+        "title": "Final Check: Subjunctive Test",
+        "text": "Replace 'recommended that' with 'suggest that' or 'demand that' – the verb should still be 'amend'. If it works, you have the right answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Recommended that' always takes the base verb form 'amend' due to the subjunctive mood.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because 'amends' matches singular 'treasurer', but subjunctive overrides subject-verb agreement.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "C": {
+        "text": "You might have chosen C thinking past tense is needed, but subjunctive ignores the main verb's tense.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D seeing an ongoing action, but subjunctive demands the simplest verb form, not -ing.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "After 'recommend that', 'suggest that', etc., use the base verb. No -s, -ed, -ing. Just the plain dictionary form.",
+    "blueprint_id": "Vocabulary — Legal Terminology in Context",
+    "deconstruct_text": "Isipin mo nasa loob ka ng barangay hall; pinag-uusapan ang budget report. Sabi ng auditor, 'I recommend that the treasurer amend the records.' Ang magic dito ay yung pariralang 'recommend that'.\n\n'Recommend that' ay subjunctive trigger — yung verb na susunod, kahit sino pa ang subject, base form lang. Kaya maski 'treasurer' parang singular, hindi pwedeng 'amends'; kahit past tense na 'recommended', hindi pwedeng 'amended'.\n\nTaglish Mnemonic: Isipin mo si Kuya na sobrang strict sa rules — kapag narinig niya 'recommend that', sasabihin niya, \"Base form lang, 'tol! Walang dagdag, walang bawas.\"",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

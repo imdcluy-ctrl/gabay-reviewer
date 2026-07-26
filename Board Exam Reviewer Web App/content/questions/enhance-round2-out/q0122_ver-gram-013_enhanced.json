@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-013",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence with correct parallel structure:",
+    "options": [
+      {
+        "key": "A",
+        "text": "She likes reading, to write, and painting."
+      },
+      {
+        "key": "B",
+        "text": "She likes to read, write, and to paint."
+      },
+      {
+        "key": "C",
+        "text": "She likes reading, writing, and painting."
+      },
+      {
+        "key": "D",
+        "text": "She likes to read, writing, and paint."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Kapag may listahan sa sentence, tingnan kung pare-pareho ang ending. Parang magkakapatid, dapat pare-pareho ng damit."
+      },
+      {
+        "rung": 2,
+        "title": "Dalawang Porma Lang",
+        "text": "Ang listahan ay pwedeng lahat -ing (gerund) o lahat to + verb (infinitive). Bawal maghalo ng dalawang uniform."
+      },
+      {
+        "rung": 3,
+        "title": "Check Bawat Option",
+        "text": "Option A: reading, to write, painting – may infinitive sa gitna. B: to read, write, to paint – may walang 'to'. D: to read, writing, paint – tatlo ..."
+      },
+      {
+        "rung": 4,
+        "title": "Ang Consistent Choice",
+        "text": "Option C lang ang pantay-pantay: reading, writing, painting. Lahat gerund, walang halo. Parang grocery list na lahat prutas, walang gulay."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because umpisang gerund, ending gerund, pero gitnang 'to write' ay infinitive. Bawal maghalo, parang party na may...",
+        "trap_type": "parallel_mix_gerund_infinitive"
+      },
+      "B": {
+        "text": "You might have chosen B because may 'to read' at 'to paint', pero 'write' walang 'to'. Dapat kung infinitive ang isa, infinitive lahat – ...",
+        "trap_type": "parallel_mix_infinitive_bare"
+      },
+      "C": {
+        "text": "Correct. Lahat gerunds (reading, writing, painting) — pare-parehong porma, parang terno. Walang halo, walang kulang.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because puro verb forms, pero to read (infinitive), writing (gerund), paint (bare) – tatlong magkakaibang anyo. H...",
+        "trap_type": "parallel_mix_three_forms"
+      }
+    },
+    "next_time_rule": "Rule: Sa listahan, pumili ng isang porma—lahat -ing o lahat to + verb. Huwag paghaluin, parang terno lang.",
+    "blueprint_id": "Parallel Structure — Gerund Phrases",
+    "deconstruct_text": "Isipin mo nagpaplano ka ng programa sa barangay: 'Gusto ko ng cooking, to dance, at singing.' Medyo magulo diba? Dahil hindi pare-pareho ang format. Iyan ang parallel structure — kapag listahan ng actions, dapat lahat iisang 'damit'.\n\nSa English, ang listahan pwedeng lahat -ing (gerund) o lahat to + verb (infinitive). Parang terno-terno lang. Bawal paghaluin, gaya ng A: reading (gerund), to write (infinitive), painting (gerund) — halo. B: to read, write (kulang ng to), to paint — inconsistent. D: ...\n\nC lang ang tamang-tama: reading, writing, painting — lahat gerund, pantay-pantay. Walang sablay, parang magkakapatid na naka-uniporme.\n\nMental trick: Habang nagbabasa sa exam, mabilis mong i-label bawat item: 'ing ba o to?' Kung hindi magkakatulad, alisin mo agad. Parang pagpili ng prutas sa palengke — dapat pare-pareho ang hitsura bago ilista.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

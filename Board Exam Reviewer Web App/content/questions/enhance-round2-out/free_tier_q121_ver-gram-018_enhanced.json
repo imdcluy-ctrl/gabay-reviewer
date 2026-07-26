@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-018",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence correctly uses 'who' vs 'whom'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Who did you see?"
+      },
+      {
+        "key": "B",
+        "text": "Whom did you see?"
+      },
+      {
+        "key": "C",
+        "text": "Who did you give it to?"
+      },
+      {
+        "key": "D",
+        "text": "Whom is responsible?"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is all about the difference between a subject and an object in a sentence. Think of 'who' as the doer of the action, and 'whom' as the receiver of the action."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's a simple trick that never fails: swap the word with 'he' or 'him'. If 'he' sounds right, use 'who'. If 'him' sounds right, use 'whom'. The 'm' in 'him' matches the 'm' in 'whom'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Try the he/him test on each option. For option A: 'Who did you see?' becomes 'You saw he'? That sounds wrong. 'You saw him' sounds right, so it should be 'whom'. For option B: 'Whom did you see?' becomes 'You saw him'? Yes, that's correct."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Only one option passes the he/him test perfectly. Option C fails because 'to he' is wrong (should be 'to him'). Option D fails because 'him is responsible' is wrong (should be 'he is responsible')."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake. In 'Who did you see?', the word 'who' is actually the object of the verb 'see'—it's the person being seen, not the one doing the seeing. If you rephrase it as 'You saw whom?', it becomes clear. The he/him test confirms this: 'You saw him' sounds right, so 'whom' is correct here.",
+        "trap_type": "pronoun_case_error"
+      },
+      "B": {
+        "text": "This is correct. 'Whom' is the object of the verb 'see'—it's the person receiving the action. The he/him test works beautifully: 'You saw him' matches perfectly with 'Whom did you see?'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "In everyday conversation, you'll hear 'Who did you give it to?' all the time, and many people consider it acceptable. But in formal writing and exams, the rule is clear: when a preposition is involved (like 'to'), you need the object form 'whom'. The he/him test shows why: 'You gave it to he' is wrong; 'You gave it to him' is right, so it should be 'whom'.",
+        "trap_type": "pronoun_case_error"
+      },
+      "D": {
+        "text": "This one flips the mistake. 'Whom' is the object form, but here it's being used as the subject of the verb 'is'. Think about it: would you say 'Him is responsible'? No, you'd say 'He is responsible'. So the correct form is 'Who is responsible?'.",
+        "trap_type": "pronoun_case_error"
+      }
+    },
+    "next_time_rule": "The he/him test is your best friend for who vs. whom. If 'he' fits, use 'who'. If 'him' fits, use 'whom'. The 'm' in 'him' matches the 'm' in 'whom'—a simple memory anchor that will save you every time.",
+    "blueprint_id": "Who vs Whom",
+    "deconstruct_text": "Let's walk through this together. The core idea is simple: 'who' is a subject pronoun (like 'he', 'she', 'they'), and 'whom' is an object pronoun (like 'him', 'her', 'them'). The trick is to swap the word with 'he' or 'him' and see which one sounds natural.\n\nFor option A: 'Who did you see?' If we replace 'who' with 'he', we get 'You saw he'? That sounds off. Replace it with 'him'—'You saw him'—that's perfect. So 'whom' is the right choice here. Option A is incorrect.\n\nFor option B: 'Whom did you see?' Replace 'whom' with 'him'—'You saw him'—sounds right. This one is correct.\n\nFor option C: 'Who did you give it to?' Replace 'who' with 'he'—'You gave it to he'? No. Replace with 'him'—'You gave it to him'—that's correct. So it should be 'whom'. Option C is incorrect.\n\nFor option D: 'Whom is responsible?' Replace 'whom' with 'him'—'Him is responsible'? That's clearly wrong. Replace with 'he'—'He is responsible'—that's right. So it should be 'who'. Option D is incorrect.\n\nThe mental framework: always ask yourself, 'Is this word the doer or the receiver of the action?' If it's the doer (the subject), use 'who'. If it's the receiver (the object), use 'whom'. The he/him test is just a quick way to check this without overthinking.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

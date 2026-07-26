@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-100",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "blueprint_id": "Human Rights & Social Legislation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 9344 (Juvenile Justice and Welfare Act of 2006), what is the minimum age of criminal responsibility in the Philippines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 years of age"
+      },
+      {
+        "key": "B",
+        "text": "18 years of age"
+      },
+      {
+        "key": "C",
+        "text": "12 years of age"
+      },
+      {
+        "key": "D",
+        "text": "9 years of age"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the law's purpose",
+        "text": "This law is about protecting children from the full force of the criminal justice system. So the minimum age should be one that reflects a child's capacity to understand their actions."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the key number",
+        "text": "RA 9344 sets a specific age threshold. Below that age, a child is considered too young to be criminally liable and instead goes through intervention programs."
+      },
+      {
+        "rung": 3,
+        "title": "Distinguish from other ages",
+        "text": "The age of majority in the Philippines is 18, but that's different from the minimum age of criminal responsibility. The law uses a lower number, one that's often debated but currently fixed."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow it down",
+        "text": "The correct answer is not 18 (age of majority), not 12 (a proposed but not enacted change), and not 9 (from the old law). It's the number that's been the standard since 2006."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9344 Section 6 clearly states that a child 15 years of age or under at the time of the offense is exempt from criminal liability. This means 15 is the minimum age of criminal responsibility. Children below this age undergo intervention programs instead of prosecution.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "It's easy to mix this up because 18 is the age of majority in the Philippines, when someone becomes a legal adult. But the question asks about criminal responsibility, not majority. RA 9344 sets a lower threshold at 15, recognizing that teenagers between 15 and 18 can still be held accountable, just with special protections.",
+        "trap_type": "age_of_majority_confusion"
+      },
+      "C": {
+        "text": "You might have heard recent news about proposals to lower the age to 12, and that can create confusion. But those are proposed amendments, not current law. Under RA 9344 as it stands, the minimum age is 15. The old Revised Penal Code did use 12, but that was replaced by this law in 2006.",
+        "trap_type": "proposed_bill_confusion"
+      },
+      "D": {
+        "text": "This one comes from an even older version of the law. Under the old Revised Penal Code, a child as young as 9 could be held criminally responsible if they acted with discernment. But RA 9344 completely changed that framework and set a uniform minimum age of 15, removing the discernment test for younger children.",
+        "trap_type": "repealed_law_threshold_error"
+      }
+    },
+    "next_time_rule": "Remember the '15-18 Rule': 15 is the age of criminal responsibility (the floor), 18 is the age of majority (the ceiling for special protections). If you see a question about RA 9344, lock in 15 first.",
+    "deconstruct_text": "Let's walk through this together. The key is to focus on what RA 9344 actually says, not what you might have heard in the news or remember from older laws.\n\nFirst, locate the specific provision. Section 6 of the Juvenile Justice and Welfare Act states that a child 15 years of age or under at the time of the offense is exempt from criminal liability. That's the clearest statement of the rule. If a child is 15 or younger, they cannot be prosecuted. Instead, they go through intervention programs designed to help them.\n\nNow, what does this mean for the minimum age of criminal responsibility? It means that once a child turns 15, they can potentially be held criminally liable. So 15 is the threshold. Below that, no criminal liability. At 15 and above, liability is possible, though with special procedures.\n\nHere's a mental trick to keep this straight: Think of it like a staircase. At age 9 and below, you're on the ground floor with no criminal responsibility at all. At age 15, you step onto the first landing where criminal responsibility begins. At age 18, you reach the top floor where you're treated as a full adult in the legal system. The question asks for the first landing, not the top floor.\n\nThe distractors each come from a different source of confusion. Option B (18) confuses criminal responsibility with the age of majority. Option C (12) comes from proposed amendments that haven't passed. Option D (9) comes from the old law that RA 9344 replaced. Only Option A (15) matches the current law as written.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

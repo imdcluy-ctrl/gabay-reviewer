@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-017",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government office spends 18% of its annual budget on electricity. If electricity costs P216,000 yearly, what is the total annual budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,100,000"
+      },
+      {
+        "key": "C",
+        "text": "P1,200,000"
+      },
+      {
+        "key": "D",
+        "text": "P1,300,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a 'part-to-whole' percentage problem. You know the part (P216,000) and the percentage (18%), and you need to find the whole (total budget). Think of it like this: if 18% of your budget equals P216,000, what would 100% be?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The golden rule for these problems: Part = Percentage (as a decimal) x Whole. So here, P216,000 = 0.18 x Total Budget. To find the Total, you just divide the Part by the decimal percentage."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Set up the equation: 0.18 x Budget = 216,000. Now solve for Budget by dividing both sides by 0.18: Budget = 216,000 / 0.18."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Now do the division: 216,000 divided by 0.18. A quick trick: multiply both numbers by 100 to make it easier. That gives you 21,600,000 divided by 18. What do you get? That's your total budget."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1,000,000 is a tempting wrong answer. It looks like you might have accidentally divided by 0.216 instead of 0.18. Or maybe you thought 18% was 0.216? A common slip. But remember, 18% as a decimal is 0.18, not 0.216. So the correct division is 216,000 / 0.18, not 216,000 / 0.216.",
+        "trap_type": "percentage_rate_error"
+      },
+      "B": {
+        "text": "P1,100,000 is a bit too low. If you check: 18% of 1,100,000 is only P198,000, which is less than the P216,000 spent. So the total budget must be larger than this. This answer might come from a small arithmetic mistake in the division, like rounding too early.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! P1,200,000 is the total annual budget. Because 18% of 1,200,000 is exactly P216,000. You got it right by dividing the part by the percentage: 216,000 / 0.18 = 1,200,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P1,300,000 is too high. If you check: 18% of 1,300,000 is P234,000, which is more than the P216,000 spent. So the budget can't be this big. This might happen if you accidentally divided by 0.166 (thinking 18% was 16.6%) or if you added instead of dividing.",
+        "trap_type": "percentage_rate_error"
+      }
+    },
+    "next_time_rule": "When you know the 'part' and the 'percentage,' find the 'whole' by dividing: Whole = Part / (Percentage as Decimal). For example, if P216,000 is 18% of the budget, just do 216,000 / 0.18. Always double-check by multiplying your answer by the percentage to see if you get back the part.",
+    "blueprint_id": "Finding Total from Percentage Portion",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The problem tells us that P216,000 represents 18% of the total budget. In math language, that means: 0.18 x Total Budget = 216,000. To find the Total Budget, we need to 'undo' the multiplication by 0.18. We do that by dividing: Total Budget = 216,000 / 0.18. Now, dividing by 0.18 might look tricky, but here's a mental shortcut: multiply both numbers by 100 to turn 0.18 into a whole number. So it becomes 21,600,000 / 18. Now, 18 goes into 21,600,000 how many times? Well, 18 x 1,200,000 = 21,600,000. So the total budget is P1,200,000. The key insight here is the 'part-to-whole' relationship. You have a piece of the pie (the electricity cost) and you know what fraction of the whole pie it represents (18%). To find the size of the whole pie, you divide the piece by the fraction.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

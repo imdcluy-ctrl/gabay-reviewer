@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-200",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "blueprint_id": "RA 7877 Anti-Sexual Harassment Workplace Rule Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 7877 (Anti-Sexual Harassment Act of 1995), sexual harassment is committed in a workplace when a person in authority demands sexual favors as a condition for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Employment, re-employment, or continued employment"
+      },
+      {
+        "key": "B",
+        "text": "Voluntary community membership"
+      },
+      {
+        "key": "C",
+        "text": "Private social media interactions"
+      },
+      {
+        "key": "D",
+        "text": "Personal hobby participation"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your knowledge of the specific conditions under which sexual harassment is defined in the workplace according to RA 7877. Think about the power dynamic at play here."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "RA 7877 focuses on situations where a person in authority uses their power to demand sexual favors in exchange for something work-related. The key word is 'condition' — what is the favor being conditioned on?"
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Now look at the options. Which one involves a direct work-related benefit or consequence that a boss or superior could control? Options B, C, and D are about personal or social activities, not professional ones."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The law specifically lists 'employment, re-employment, or continued employment' as the conditions. That means a superior can't say, 'Do this for me, or you're fired' or 'Do this, and I'll hire you.' That's the core of workplace sexual harassment under RA 7877."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is exactly what RA 7877 says. The law protects employees from being forced to grant sexual favors just to get a job, keep a job, or get rehired. It's about preventing bosses from using their power over someone's livelihood.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common wrong answer because it sounds like a situation where someone might feel pressured. But RA 7877 is specifically about workplace, education, or training environments. Voluntary community membership doesn't involve the same kind of employer-employee power dynamic that the law is designed to address.",
+        "trap_type": "out_of_scope_distractor"
+      },
+      "C": {
+        "text": "You might have picked this because harassment can happen online too. However, RA 7877 is the wrong law for that. Harassment through private social media interactions is covered by other laws like the Cybercrime Prevention Act or the Safe Spaces Act. This question is specifically about the workplace rule under RA 7877.",
+        "trap_type": "law_scope_confusion"
+      },
+      "D": {
+        "text": "This option is a distractor that's clearly outside the scope of the law. Personal hobbies are private activities that don't involve an authority figure using their power over your job. RA 7877 is about protecting people in professional or educational settings, not personal ones.",
+        "trap_type": "out_of_scope_distractor"
+      }
+    },
+    "next_time_rule": "When you see a question about RA 7877, remember the 'Job Leverage' rule: the law is about a person in authority using their power to demand sexual favors as a condition for something work-related — like getting hired, keeping your job, or getting promoted. If the option doesn't involve a work, education, or training benefit, it's not covered by this law.",
+    "deconstruct_text": "Let's break this down in a way that sticks. RA 7877, or the Anti-Sexual Harassment Act, is all about one thing: preventing people in positions of power from using that power to demand sexual favors. The law specifically says this happens when a boss, teacher, or trainer makes sexual favors a condition for something you need professionally or educationally.\n\nIn the workplace, the most basic thing your boss controls is your job itself. So the law says sexual harassment occurs when someone demands sexual favors as a condition for employment (getting hired), re-employment (getting hired again after leaving), or continued employment (keeping your job). Think of it as the 'your job is on the line' rule.\n\nNow, why are the other options wrong? Options B and D — voluntary community membership and personal hobby participation — are completely outside the workplace or educational setting. They don't involve the kind of authority relationship that RA 7877 is designed to regulate. Option C, private social media interactions, might involve harassment, but it's covered by different laws, not RA 7877.\n\nHere's a mental trick to use on exam day: When you see RA 7877, ask yourself, 'Is this about someone using their power over my job, my grades, or my training?' If the answer is no, that option is likely wrong. The law is laser-focused on protecting people in situations where they can't easily say no because their livelihood or education is at stake.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

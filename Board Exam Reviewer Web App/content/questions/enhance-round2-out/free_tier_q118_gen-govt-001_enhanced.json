@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-001",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "question_text": "Which government agency is the central personnel agency of the Philippine government?",
+    "options": [
+      {
+        "key": "A",
+        "text": "COA"
+      },
+      {
+        "key": "B",
+        "text": "COMELEC"
+      },
+      {
+        "key": "C",
+        "text": "CSC"
+      },
+      {
+        "key": "D",
+        "text": "DILG"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is about the structure of the Philippine government. Think about which agency is specifically in charge of the people who work for the government—the civil servants."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The Philippine Constitution created three constitutional commissions: CSC (personnel), COA (audit), and COMELEC (elections). Each has a distinct, non-overlapping mandate. The keyword here is 'personnel.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at each option and ask: 'Does this agency handle the hiring, promotion, or discipline of government employees?' COA checks financial records. COMELEC runs elections. DILG supervises local governments. Only one agency is all about the people working in government."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The answer is the agency whose name starts with 'Civil Service'—that's a big clue. It's the one that handles everything from entrance exams to retirement benefits for government employees."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "COA, or the Commission on Audit, is the government's accountant and auditor. It makes sure public funds are spent properly. A smart student might pick this because they remember COA is a constitutional commission, but they mix up its role. COA deals with money, not people.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "B": {
+        "text": "COMELEC, the Commission on Elections, is all about voting—registering voters, running elections, and counting ballots. It's another constitutional commission, so it's an easy mix-up if you're just memorizing names. But elections and personnel are completely different worlds.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "C": {
+        "text": "Correct! The Civil Service Commission (CSC) is the central personnel agency. Think of it as the HR department of the entire Philippine government. It hires, examines, promotes, and disciplines civil servants. This is its core constitutional mandate under Article IX-B.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "DILG, the Department of the Interior and Local Government, oversees local government units like provinces and cities, and handles peace and order. It's a department, not a constitutional commission, and its focus is on local governance, not on the careers of national government employees.",
+        "trap_type": "agency_mandate_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'central personnel agency,' immediately think 'CSC.' Use the memory trick: CSC = Careers, Service, and Civil servants. COA = Counting money. COMELEC = Counting votes. DILG = Districts and Local governance.",
+    "blueprint_id": "CSC Mandate",
+    "deconstruct_text": "The question asks for the central personnel agency. 'Personnel' is the key word—it means the people who work for the government. The Civil Service Commission (CSC) is the constitutional body created specifically to manage these people: their hiring, exams, promotions, and discipline. The other options are all important government bodies, but they have different jobs. COA audits government funds. COMELEC runs elections. DILG oversees local governments. So when you see 'personnel,' your mind should go straight to CSC. A quick mental trick: think of the three constitutional commissions as the 'Three Cs'—CSC (people), COA (money), COMELEC (votes). Each C has a distinct role, and only one is about personnel.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-018",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On a government survey map, the scale is 1:50,000. If two barangays are 8 cm apart on the map, what is the actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 km"
+      },
+      {
+        "key": "B",
+        "text": "3 km"
+      },
+      {
+        "key": "C",
+        "text": "4 km"
+      },
+      {
+        "key": "D",
+        "text": "5 km"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Scale 1:50,000: What It Means",
+        "text": "Kapag sinabing 1:50,000, ibig sabihin 1 cm sa mapa = 50,000 cm sa totoong mundo. Same unit pa rin—centimeter muna."
+      },
+      {
+        "rung": 2,
+        "title": "Multiply Lang, Kuha Mo!",
+        "text": "8 cm sa mapa? Multiply mo sa 50,000: 8 × 50,000 = 400,000 cm real distance. Simple arithmetic lang, huwag malito."
+      },
+      {
+        "rung": 3,
+        "title": "Kilometer Conversion: 100,000 cm = 1 km",
+        "text": "Dito madami nalilito. Tandaan: 100 cm = 1 m, 1,000 m = 1 km, so 100 × 1,000 = 100,000 cm per km. Yakagin: “centi‑kilo, 100k ang sagot!”"
+      },
+      {
+        "rung": 4,
+        "title": "Final Division: 400,000 ÷ 100,000",
+        "text": "400,000 cm ÷ 100,000 cm/km = 4 km. Kung lumitaw na 2, 3, o 5, check conversion mo. 4 km ang tamang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided by 200,000 instead of 100,000, or forgot to multiply by 50,000 entirely.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "B": {
+        "text": "You might have chosen B because you used an incorrect conversion like dividing by 133,333.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct. 8 cm × 50,000 = 400,000 cm ÷ 100,000 cm/km = 4 km.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you divided by 80,000 instead of 100,000, a common unit slip.",
+        "trap_type": "unit_conversion_trap"
+      }
+    },
+    "next_time_rule": "Real cm = map cm × scale; then ÷100,000 for km (kasi 100 cm/m × 1,000 m/km). Tandaan ang 100k rule para iwas mali!",
+    "blueprint_id": "Map Scale — Proportional Distance",
+    "deconstruct_text": "Imagine you're a barangay secretary plotting the distance between the daycare center and the health center on a map of Candon. The scale is 1:50,000, and the map shows 8 cm. So, 1 cm sa mapa = 50,000 cm sa lupa. Multiply 8 × 50,000 = 400,000 cm.\n\nNgayon, sa exam, marami ang madadale sa conversion sa kilometers. Dito papasok ang mental trick: “centi-kilo, 100k!” Bakit? Kasi 1 km = 100,000 cm. Divide 400,000 ÷ 100,000 = 4 km. Kung nakuha mo ang 2, 3, o 5, malamang maling conversion factor ginamit. Kaya tandaan:...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

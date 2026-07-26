@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-505",
+    "category_id": "general-information",
+    "subtopic_id": "current-events-environment",
+    "question_text": "Republic Act No. 9512, also known as the National Environmental Awareness and Education Act of 2008, mandates the integration of environmental education into school curricula. Which of the following is a key requirement of this law?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Environmental education shall be integrated into the curricula of all public and private schools, from elementary to tertiary levels, including non-formal education."
+      },
+      {
+        "key": "B",
+        "text": "Environmental education is optional and only required for science majors in college."
+      },
+      {
+        "key": "C",
+        "text": "Only public schools are required to integrate environmental education; private schools may choose to do so."
+      },
+      {
+        "key": "D",
+        "text": "Environmental education is limited to the elementary level only."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3374",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

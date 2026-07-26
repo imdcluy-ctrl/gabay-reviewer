@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-009",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'DISSEMINATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceal"
+      },
+      {
+        "key": "B",
+        "text": "Withhold"
+      },
+      {
+        "key": "C",
+        "text": "Spread"
+      },
+      {
+        "key": "D",
+        "text": "Collect"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Isipin mo ang isang guro na may dalang mga binhi. Itatago ba niya, ipunin, o ikakalat? The core meaning is scattering."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "'Disseminate' mula sa Latin na 'seminare'—maghasik ng binhi. Kaya it's about spreading seeds of info. The synonym must mean to scatter widely."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Tingnan ang choices. 'Conceal' at 'Withhold' ay pagtatago, 'Collect' ay pag-iipon. Only one means spreading."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Isipin ang barangay captain na nag-a-announce ng bagong curfew. Ipo-post niya sa lahat ng pader, ipaaalam sa bawat bahay—that's disseminating. So '..."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'dis-' made you think of removal, but 'disseminate' means to spread, not hide.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'withhold' sounds like holding back, but disseminate is releasing, not withholding.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Disseminate' means to spread widely, like scattering seeds of information.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'collect' is about gathering, but disseminate is the opposite—scattering.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "deconstruct_text": "Alam mo, sa ating barangay, noong nag-anunsyo ang kapitan ng bagong waste segregation rules, pinost niya sa bawat pader at binigay sa bawat bahay ang memo. That’s disseminating—scattering information para maabot ang lahat. The word comes from Latin 'seminare' (to sow...\n\nNgayon, tandaan mo: 'Disseminate' parang 'disseminate seeds'—spread. Pag may tanong sa exam, isipin ang magsasaka na naghahasik. Ang synonyms na 'conceal', 'withhold', 'collect' ay opposite—parang kinikimkim ang buto, hindi kinakalat. Only 'Spread' ang tama.",
+    "next_time_rule": "The 'Seed-Scatter' Test: See 'disseminate,' picture farmer sowing seeds. Avoid words meaning hide, hold, gather. Pick 'spread' or 'distribute'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

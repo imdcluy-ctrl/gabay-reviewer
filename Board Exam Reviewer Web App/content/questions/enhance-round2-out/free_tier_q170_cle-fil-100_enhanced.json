@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-100",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Alphabetical Filing Rule — Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Arrange the following 4 official document records in correct alphabetical order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. Dela Peña, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "4, 3, 2, 1"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think of the Whole Surname",
+        "text": "In filing, prefixes like De, Del, and Dela are considered part of the surname. So treat each name as one continuous word starting from the first letter of the prefix."
+      },
+      {
+        "rung": 2,
+        "title": "Compare Letter by Letter",
+        "text": "Start comparing from the very first letter of each surname. All four start with D, then e. The third letter is where differences appear. Which surname has a letter that comes earliest in the alphabet?"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the First Difference",
+        "text": "After De, De Castro has a C next. De la Cruz has an L (from la). Dela Peña has an L (from la). Del Rosario has an L (from l). Since C comes before L, De Castro is first. Now among the three with L, compare the next letters after the space or 'a'."
+      },
+      {
+        "rung": 4,
+        "title": "Nail the Order",
+        "text": "De Castro (3) is first. Then among the L group: De la Cruz has C after 'la', Dela Peña has P after 'la', Del Rosario has R after 'l'. Alphabetically: C, then P, then R. So the order is 3, 1, 4, 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The alphabetical order is De Castro (3), De la Cruz (1), Dela Peña (4), Del Rosario (2). You compared the surnames letter by letter, treating the prefixes as part of the name.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This order puts De la Cruz first, but that's a common slip. The key is to compare the third letter of each surname: De Castro has a C, while De la Cruz has an L. Since C comes before L, De Castro should come first. Always start comparing from the very beginning of the full surname, including the prefix.",
+        "trap_type": "prefix_letter_comparison_error"
+      },
+      "C": {
+        "text": "This order places Dela Peña before De la Cruz. But if you compare them letter by letter, both start with D-E-L-A, then De la Cruz has a C while Dela Peña has a P. Since C comes before P, De la Cruz should come before Dela Peña. It's easy to mix these up when you're rushing, so take a breath and compare each letter carefully.",
+        "trap_type": "letter_position_swap_error"
+      },
+      "D": {
+        "text": "This order is completely reversed. It starts with Dela Peña and ends with De Castro. Remember, alphabetical order means going from earliest to latest in the alphabet. De Castro, with its C early on, should be first, not last. A good trick is to write the surnames in a list and compare them pair by pair.",
+        "trap_type": "order_reversal_error"
+      }
+    },
+    "next_time_rule": "When filing names with prefixes like De, Del, or Dela, treat the whole string as one surname. Compare letter by letter from the very first character. The earliest differing letter determines the order.",
+    "deconstruct_text": "Let's work through this together. The trick with names like these is that prefixes such as De, Del, and Dela are not ignored—they're part of the surname. So we compare the entire surname as one continuous string.\n\nWrite them out as full surnames:\n- De Castro\n- De la Cruz\n- Dela Peña\n- Del Rosario\n\nNow, compare them letter by letter. All start with D, then e. The third letter is where things get interesting:\n- De Castro: after De, the next letter is C (from Castro).\n- De la Cruz: after De, there's a space, then l, then a, then C. But alphabetically, we compare the first differing letter. After De, De Castro has C, while De la Cruz has a space. In alphabetical order, a space is typically ignored, so we look at the next letter. Actually, let's simplify: compare the surnames as if they were written without spaces: DeCastro, DelaCruz, DelaPeña, DelRosario. Now it's clear:\n- DeCastro: D-E-C\n- DelaCruz: D-E-L\n- DelaPeña: D-E-L\n- DelRosario: D-E-L\n\nC comes before L, so De Castro is first. Among the three with L, compare the next letters:\n- DelaCruz: after Dela, next is C.\n- DelaPeña: after Dela, next is P.\n- DelRosario: after Del, next is R.\n\nC comes before P, and P comes before R. So the order is: De Castro, De la Cruz, Dela Peña, Del Rosario. That's 3, 1, 4, 2.\n\nA handy mental trick: Imagine you're sorting a list of words in a dictionary. You wouldn't skip the first few letters—you'd compare from the very start. Same here. Treat the prefix as part of the word and compare letter by letter until you find a difference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

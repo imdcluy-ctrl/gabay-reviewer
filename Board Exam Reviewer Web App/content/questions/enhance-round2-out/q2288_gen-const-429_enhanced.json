@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-429",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "A bill seeking to increase the penalty for illegal logging has been approved by both the House of Representatives and the Senate. However, the President vetoes the bill. Which of the following steps must Congress take to override the President's veto?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Congress must re-pass the bill by a two-thirds vote of all its members in both houses, voting separately."
+      },
+      {
+        "key": "B",
+        "text": "Congress must re-pass the bill by a majority vote of all its members in a joint session."
+      },
+      {
+        "key": "C",
+        "text": "Congress must re-pass the bill by a three-fourths vote of all its members in both houses, voting separately."
+      },
+      {
+        "key": "D",
+        "text": "Congress must re-pass the bill by a two-thirds vote of the members present in each house, voting separately."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Article VI: Legislative - The process of how a bill becomes a law in the Philippines (Scenario 29)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

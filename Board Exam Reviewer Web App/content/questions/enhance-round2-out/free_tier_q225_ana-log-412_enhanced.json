@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ana-log-412",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "The CSC claims that implementing flexible working hours in government offices improves employee productivity. Which of the following, if true, would most strengthen this claim?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A survey shows that 70% of employees prefer flexible hours."
+      },
+      {
+        "key": "B",
+        "text": "A study found that offices with flexible hours had a 15% increase in output."
+      },
+      {
+        "key": "C",
+        "text": "Some employees abuse flexible hours by coming in late."
+      },
+      {
+        "key": "D",
+        "text": "Flexible hours require additional administrative costs."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is about strengthening an argument. The claim says flexible hours cause better productivity. What kind of evidence would make you believe that cause-and-effect relationship is real?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "To strengthen a causal claim, you need direct evidence that the cause (flexible hours) actually leads to the effect (higher productivity). Look for something that shows a real-world connection between the two."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Imagine you're a manager deciding whether to adopt flexible hours. Which piece of information would most convince you that it actually boosts output? Not just that people like it, or that it has downsides, but that it works."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct answer directly shows that when flexible hours were used, productivity went up by a measurable amount. That's the strongest kind of support for a cause-and-effect claim."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common trap. It's easy to think that if most people prefer something, it must be good for productivity. But liking something and it actually working are two different things. Preference doesn't prove the claim.",
+        "trap_type": "preference_vs_evidence"
+      },
+      "B": {
+        "text": "This is the strongest evidence. It directly connects flexible hours to a measurable increase in output. This is exactly the kind of data that would convince a skeptic that the claim is true.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This actually weakens the claim by showing a downside. If some employees abuse the system, that could reduce productivity. A smart test-taker might pick this thinking it's a 'realistic' concern, but it doesn't strengthen the argument.",
+        "trap_type": "weakening_evidence"
+      },
+      "D": {
+        "text": "This is a potential drawback, but it doesn't address whether productivity improves. It's easy to get distracted by costs or logistics, but the question is specifically about strengthening the productivity claim, not evaluating feasibility.",
+        "trap_type": "irrelevant_drawback"
+      }
+    },
+    "deconstruct_text": "Let's break this down simply. The CSC is making a claim: flexible hours cause better productivity. To strengthen that claim, we need evidence that shows flexible hours actually lead to higher productivity. Option B gives us exactly that: a study showing a 15% increase in output in offices with flexible hours. That's direct, measurable support. Option A only tells us employees prefer it, which doesn't prove it works. Options C and D point out problems, which actually weaken the claim rather than strengthen it. The mental trick here is to ask yourself: 'What would convince a skeptic?' The answer is always direct evidence of the cause leading to the effect, not opinions, not drawbacks, not logistics.",
+    "next_time_rule": "To strengthen a cause-and-effect claim, look for direct evidence that the cause leads to the effect. Ignore preferences, drawbacks, or logistics unless they directly support the connection."
+  }
+]

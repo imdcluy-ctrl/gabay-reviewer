@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-026",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'CONSENSUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disagreement"
+      },
+      {
+        "key": "B",
+        "text": "Majority vote"
+      },
+      {
+        "key": "C",
+        "text": "General agreement"
+      },
+      {
+        "key": "D",
+        "text": "Debate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about group harmony. Think of a team that has talked things through and everyone is on the same page. What's that feeling called?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Consensus means a general agreement reached by a group. It's not about winning a vote or arguing—it's about finding common ground where everyone can say 'yes.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Imagine a family deciding where to eat. If everyone finally agrees on pizza, that's consensus. Now look at the options: which one captures that 'everyone agrees' idea?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The word 'consensus' comes from Latin roots meaning 'to feel together.' So the answer is the option that means 'feeling together' or 'general agreement.' That's option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you rush, but 'disagreement' is actually the opposite of consensus. It's like confusing 'hot' with 'cold.' A smart test-taker might pick this if they misread the question or think of consensus as something that happens after a fight. But consensus is the peaceful result, not the conflict itself.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Many people mix up 'consensus' with 'majority vote' because both involve group decisions. But here's the key difference: a majority vote only needs more than half to agree, while consensus aims for everyone to be on board. If you picked this, you're thinking along the right lines—group decision-making—but you need to zoom in on the 'general agreement' part.",
+        "trap_type": "distractor"
+      },
+      "C": {
+        "text": "Exactly right. 'General agreement' is the heart of consensus. It means the group has talked it through and reached a shared understanding. No one is forced to go along; everyone genuinely agrees. You've nailed it.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is a classic mix-up. A debate is a discussion where people argue different sides—it's the process that might lead to consensus, but it's not the agreement itself. If you chose this, you might be thinking of the word 'debate' as a synonym for 'discussion,' but consensus is the peaceful outcome, not the lively argument.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'consensus' comes from Latin: 'con-' meaning 'together' and 'sensus' meaning 'feeling' or 'thinking.' So literally, it means 'feeling together' or 'thinking as one.' That's your mental image: a group of people who have talked things through and arrived at a place where everyone genuinely agrees. It's not about winning a vote (that's majority rule) and it's not about arguing (that's debate). It's about harmony and shared understanding. So when you see 'consensus' on the exam, ask yourself: 'Are they all feeling together?' If yes, you're looking at general agreement. Here's a quick trick: think of the word 'consent'—both share the idea of everyone saying 'yes.' Consensus is just that, but for a whole group.",
+    "next_time_rule": "Consensus = 'feeling together.' When you see it, ask: 'Is everyone on the same page?' If yes, it's general agreement. Never confuse it with a vote or a debate.",
+    "blueprint_id": "Vocabulary — Consensus",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

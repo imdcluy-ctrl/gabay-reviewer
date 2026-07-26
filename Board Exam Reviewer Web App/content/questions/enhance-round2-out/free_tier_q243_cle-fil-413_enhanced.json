@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-413",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "How should you file the names 'Perez-Gomez, Luis' and 'Perez, Maria'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perez, Maria; Perez-Gomez, Luis"
+      },
+      {
+        "key": "B",
+        "text": "Perez-Gomez, Luis; Perez, Maria"
+      },
+      {
+        "key": "C",
+        "text": "Perez, Maria; Gomez, Luis Perez-"
+      },
+      {
+        "key": "D",
+        "text": "Perez-Gomez, Luis; Gomez, Maria Perez"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about how filing rules treat hyphenated last names. Are they considered one name or two separate names?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Hyphenated surnames are treated as a single unit. So 'Perez-Gomez' is one last name, not 'Perez' and 'Gomez' separately."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Now compare 'Perez' and 'Perez-Gomez' letter by letter. They start the same: P-e-r-e-z. After 'z', the name 'Perez' ends (which is like a space or nothing), while 'Perez-Gomez' continues with a hyphen. In alphabetical order, a space (end of name) comes before a hyphen."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "So 'Perez' comes first because it's shorter and ends before the hyphenated name continues. That means 'Perez, Maria' should be filed before 'Perez-Gomez, Luis'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the correct order. 'Perez' is a shorter surname that ends after the sixth letter, while 'Perez-Gomez' continues with a hyphen. Since a space (end of name) comes before a hyphen alphabetically, 'Perez' is filed first.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This puts 'Perez-Gomez' before 'Perez', but that's like putting 'Smith-Jones' before 'Smith'. The shorter name always comes first when they start the same way. A smart guess, but the hyphen doesn't give priority.",
+        "trap_type": "hyphenated_surname_priority"
+      },
+      "C": {
+        "text": "This splits the hyphenated surname into two separate names, filing 'Gomez' as the last name. That's a common mistake, but hyphenated names stay together as one unit. You wouldn't file 'Smith-Jones' under 'Jones'.",
+        "trap_type": "surname_splitting_error"
+      },
+      "D": {
+        "text": "This also breaks the hyphenated name apart and treats 'Gomez' as the surname for both people. Remember, 'Perez-Gomez' is a single last name, so it stays whole.",
+        "trap_type": "surname_splitting_error"
+      }
+    },
+    "deconstruct_text": "Let's walk through this filing problem step by step. First, remember the golden rule: hyphenated surnames are treated as one complete unit. So 'Perez-Gomez' is a single last name, not two separate names. Now, to file alphabetically, compare 'Perez' and 'Perez-Gomez' letter by letter. Both start with P-e-r-e-z. After the 'z', the name 'Perez' ends -- think of that as a space or nothing. Meanwhile, 'Perez-Gomez' continues with a hyphen. In alphabetical order, a space comes before a hyphen. That means 'Perez' is filed first. So the correct sequence is 'Perez, Maria' followed by 'Perez-Gomez, Luis'. The mental trick here is the 'Space Before Hyphen' rule: when two names start the same, the shorter one (ending in a space) always comes before the longer one with a hyphen.",
+    "next_time_rule": "Space Before Hyphen: When two surnames start with the same letters, the shorter one (ending with a space) comes before the longer hyphenated one. Hyphenated names stay whole.",
+    "blueprint_id": "B-2383",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

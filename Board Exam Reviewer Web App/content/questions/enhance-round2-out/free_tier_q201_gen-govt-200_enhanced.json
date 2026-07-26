@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-200",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "ASEAN Charter & Regional Integration Variant 1",
+    "difficulty_level": 2,
+    "question_text": "The Philippines is one of the 5 original founding member states of ASEAN (Association of Southeast Asian Nations). In what year was ASEAN established through the Bangkok Declaration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1967"
+      },
+      {
+        "key": "B",
+        "text": "1945"
+      },
+      {
+        "key": "C",
+        "text": "1987"
+      },
+      {
+        "key": "D",
+        "text": "1995"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about regional organizations",
+        "text": "ASEAN is a group of Southeast Asian countries that came together to promote peace and cooperation. The Philippines was one of the original five members. When do you think this alliance was formed?"
+      },
+      {
+        "rung": 2,
+        "title": "Narrow down the era",
+        "text": "ASEAN was founded during the Cold War, specifically in the 1960s. This was a time when many countries in Asia were forming alliances to strengthen their region. The exact year is 1967."
+      },
+      {
+        "rung": 3,
+        "title": "Connect the event to the year",
+        "text": "The Bangkok Declaration, signed by Indonesia, Malaysia, Philippines, Singapore, and Thailand, officially created ASEAN on August 8, 1967. The other options are years tied to other major events: 1945 (UN founding), 1987 (Philippine Constitution), and 1995 (WTO founding)."
+      },
+      {
+        "rung": 4,
+        "title": "You are almost there",
+        "text": "Only one of the options matches the year ASEAN was born. It is the same year that the five founding nations came together in Bangkok to sign the declaration."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Exactly right. ASEAN was founded on August 8, 1967, when the five original members signed the Bangkok Declaration. This marked the beginning of a regional partnership that has grown to include ten Southeast Asian nations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. 1945 is the year the United Nations was established after World War II. Since both ASEAN and the UN are international organizations, it is easy to confuse their founding years. But remember, ASEAN came later, in the 1960s.",
+        "trap_type": "un_founding_year_confusion"
+      },
+      "C": {
+        "text": "1987 is a very important year for the Philippines, but not for ASEAN. That is the year the current Philippine Constitution was ratified. It is a natural mistake to associate a significant Philippine event with ASEAN, but the organization was founded two decades earlier.",
+        "trap_type": "ph_constitution_year_confusion"
+      },
+      "D": {
+        "text": "1995 is the year the World Trade Organization (WTO) was created, replacing the General Agreement on Tariffs and Trade (GATT). While both ASEAN and the WTO deal with international cooperation, the WTO is a global trade body, not a regional alliance like ASEAN.",
+        "trap_type": "wto_founding_year_confusion"
+      }
+    },
+    "next_time_rule": "When asked about ASEAN's founding year, anchor it to the 1960s. Think of the 'Bangkok Declaration' and the five original members (Indonesia, Malaysia, Philippines, Singapore, Thailand). If you remember that ASEAN was born in the 60s, you can rule out the 40s, 80s, and 90s.",
+    "deconstruct_text": "Let us walk through this together. The question asks for the year ASEAN was established through the Bangkok Declaration. The key is to focus on the event itself: the founding of a regional organization in Southeast Asia. \n\nFirst, recall that ASEAN was formed by five countries: Indonesia, Malaysia, the Philippines, Singapore, and Thailand. They signed the Bangkok Declaration in 1967. That is your anchor. \n\nNow, look at the other options. 1945 is the year the United Nations was founded, which is a global organization, not a regional one. 1987 is the year the Philippine Constitution was ratified, a domestic event. 1995 is when the World Trade Organization was established, which is also global in scope. \n\nA helpful mental trick: Think of ASEAN as a '60s kid.' It was born in the 1960s, specifically 1967. If you remember that, you will never confuse it with the UN (1940s), the Philippine Constitution (1980s), or the WTO (1990s).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

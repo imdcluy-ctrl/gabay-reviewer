@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-023",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'SUBSIDIARY' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Primary"
+      },
+      {
+        "key": "B",
+        "text": "Main"
+      },
+      {
+        "key": "C",
+        "text": "Secondary"
+      },
+      {
+        "key": "D",
+        "text": "Independent"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about 'subsidiary' in hierarchy. Is it top, middle, or bottom? Visualize a barangay project—what role supports the main activity?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The prefix 'sub-' means under or below. So 'subsidiary' is subordinate, supporting the main thing. It's never the star."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options: 'Primary' at 'Main' ay top, 'Independent' ay solo. Alin ang 'less important'? Eliminate the opposites."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "In business, a subsidiary company is under a parent. Sa barangay, a subsidiary feeding program is support lang, secondary to the health center."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'Primary' sounds important, but the prefix 'sub-' means under, so subsidiary is secondary—this is an anto...",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'Main' feels like a strong match, pero 'sub-' indicates something lesser, not the chief—auto-opposite.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Subsidiary' means secondary in rank or importance, like a support office sa LGU na tumutulong sa mayor, not the head.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'Independent' seems plausible, but subsidiary means dependent on a larger entity, so it's the opposite.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "Kapag 'sub-' ang simula, isipin 'under' agad. Subsidiary = secondary. Lahat ng choices na 'primary', 'main', 'independent' ay opposite — auto-eliminate.",
+    "blueprint_id": "Vocabulary — Subsidiary",
+    "deconstruct_text": "Ganito ‘yan, parang sa palengke: may 'main' na ulam, tapos 'subsidiary' ingredients like paminta na pang-support lang, hindi bida. Ganon din ang word na 'subsidiary' — it means secondary or supporting, hindi primary.\n\nYung prefix na 'sub-' ay galing sa Latin na ibig sabihin 'under' o 'below'. Kaya kapag sinabing subsidiary, alala mo agad 'sa ilalim' ito. Sa LGU, ang subsidiary office ay tumutulong lamang sa mayor, hindi sila ang boss.\n\nSa exam, makikita mo ang mga choices na 'Primary', 'Main', at 'Independent' — lahat ‘yan kabaliktaran. Ang tamang sagot ay 'Secondary', yung nagpapahiwatig ng pagiging pangalawa o support. Gamitin mo ang 'sub- under' mindset para hindi ka ma-trap sa antonym confusion.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

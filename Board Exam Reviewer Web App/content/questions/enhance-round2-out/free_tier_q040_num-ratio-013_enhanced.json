@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-013",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "It takes 12 workers 8 days to complete a government building inspection project. How many days would it take 16 workers to complete the same project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About the Relationship",
+        "text": "When you add more workers to a job that stays the same size, do you expect it to take more days or fewer days? That's the key to figuring out whether this is a direct or inverse proportion problem."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Inverse Proportion",
+        "text": "For problems where the total amount of work is fixed, the number of workers times the number of days is always the same. So: (old workers) x (old days) = (new workers) x (new days)."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "The total work is 12 workers times 8 days, which equals 96 worker-days. Now, with 16 workers, you need to find the days: 16 x (days) = 96. What number times 16 gives you 96?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're solving 16 x D = 96. Divide 96 by 16. That's 6. So the answer is 6 days. Notice that 12 to 16 workers is a 4/3 increase, so the days should decrease by the opposite factor: 8 x (12/16) = 6."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common slip. You might have thought, 'More workers means half the time,' and halved 8 to get 4. But the workers didn't double—they went from 12 to 16, which is only a 4/3 increase. The correct decrease in days is 8 divided by (16/12), which gives 6, not 4.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "Exactly right. The total work stays the same at 12 x 8 = 96 worker-days. With 16 workers, you simply divide 96 by 16 to get 6 days. You correctly recognized that more workers mean fewer days, and you applied the inverse proportion formula perfectly.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one usually comes from mixing up direct and inverse proportion. If you mistakenly thought 'more workers, more days,' you might have multiplied 8 by 16/12 and gotten about 10.67, then rounded down. But since the work is fixed, adding workers should reduce the time, not increase it.",
+        "trap_type": "proportion_type_error"
+      },
+      "D": {
+        "text": "This is a classic case of doing the opposite operation. You might have multiplied 8 by 3 (thinking 16 is about 3 times 12) or just multiplied 12 by 2. The key insight: when workers increase, days decrease. So you should be dividing, not multiplying.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "For any 'workers and days' or 'machines and hours' problem where the total job is fixed, remember: more workers = fewer days. Use the formula: (old workers) x (old days) = (new workers) x (new days). It's always multiplication on both sides, then divide to find what's missing.",
+    "blueprint_id": "Inverse Proportion — Workers vs Days",
+    "deconstruct_text": "Let's walk through this step by step. The project requires a certain amount of total work. Think of it as 'worker-days'—the number of workers multiplied by the number of days they work. With 12 workers for 8 days, the total work is 12 x 8 = 96 worker-days. Now, if you have 16 workers, you want to know how many days (let's call it D) it will take to do the same 96 worker-days of work. So, 16 x D = 96. To find D, divide 96 by 16, which gives you 6. That's your answer: 6 days. The mental trick here is to always check whether the relationship is inverse (one goes up, the other goes down) or direct (both go up together). For fixed work, it's inverse. So when workers go from 12 to 16 (multiplying by 4/3), the days must go from 8 to something smaller—specifically, 8 divided by (16/12), which is 8 x (12/16) = 6.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

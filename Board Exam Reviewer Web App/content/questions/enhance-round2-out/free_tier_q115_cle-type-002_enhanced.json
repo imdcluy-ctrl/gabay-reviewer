@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-002",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "A data encoder made 8 errors in a 400-entry form. What is the error rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1%"
+      },
+      {
+        "key": "B",
+        "text": "2%"
+      },
+      {
+        "key": "C",
+        "text": "3%"
+      },
+      {
+        "key": "D",
+        "text": "4%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is all about finding a percentage. Think of it like this: you want to know what fraction of the total entries had errors, then turn that fraction into a percentage."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The simple formula is: (number of errors divided by total entries) times 100%. That gives you the error rate as a percentage."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Plug in the numbers: 8 errors divided by 400 entries equals 0.02. Now multiply 0.02 by 100% to get the percentage."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "0.02 times 100% is 2%. So the error rate is 2%. Look at the options and pick the one that matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "1% is a tempting choice if you accidentally move the decimal point the wrong way. You might have thought 8 divided by 400 is 0.01, but it's actually 0.02. A quick double-check: 1% of 400 is 4 errors, not 8.",
+        "trap_type": "decimal_shift_error"
+      },
+      "B": {
+        "text": "Correct! You've got it. 8 errors out of 400 entries gives 8/400 = 0.02, and 0.02 multiplied by 100% equals 2%. Well done.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "3% might seem plausible if you miscomputed the fraction. But 3% of 400 is 12 errors, not 8. So this one doesn't fit. The error rate is lower than that.",
+        "trap_type": "addition_error"
+      },
+      "D": {
+        "text": "4% is a common mistake if you think 8 is 4% of 400 without doing the math. But 4% of 400 is actually 16 errors. So 8 errors is half of that, which brings us back to 2%.",
+        "trap_type": "percentage_misconception"
+      }
+    },
+    "next_time_rule": "Here's a quick mental trick: whenever you see 'error rate' or any 'rate' as a percentage, just remember the formula: (part divided by whole) times 100. In this case, part is errors, whole is total entries. Divide first, then multiply by 100. That's it.",
+    "blueprint_id": "Error Rate Percentage",
+    "deconstruct_text": "Let's walk through this together. The question asks for the error rate, which is simply the percentage of entries that have errors. So first, we take the number of errors (8) and divide it by the total number of entries (400). That gives us 0.02. Now, to express that as a percentage, we multiply by 100%, which gives us 2%. So the answer is option B. A good way to check your work is to reverse it: 2% of 400 is 8, which matches the number of errors. That confirms you're on the right track. The mental framework here is simple: any time you need a rate or percentage, it's always 'part over whole, times 100.' Keep that in your back pocket for the exam.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

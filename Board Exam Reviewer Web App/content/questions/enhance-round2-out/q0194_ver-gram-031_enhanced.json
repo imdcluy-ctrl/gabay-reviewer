@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-031",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that avoids a run-on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The exam is difficult I need to study more."
+      },
+      {
+        "key": "B",
+        "text": "The exam is difficult, I need to study more."
+      },
+      {
+        "key": "C",
+        "text": "The exam is difficult, so I need to study more."
+      },
+      {
+        "key": "D",
+        "text": "The exam is difficult I need to study."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ang Run-On?",
+        "text": "Run-on yan pag dalawang buong pangungusap (independent clauses) ang pinagdugtong nang walang tamang connector. Isipin mong dalawang jeep na biglang..."
+      },
+      {
+        "rung": 2,
+        "title": "Kilalanin ang Clauses",
+        "text": "Sa bawat option, may dalawang kumpletong ideya: 'The exam is difficult' at 'I need to study more.' Parehong pwedeng tumayo mag-isa kaya kailangan n..."
+      },
+      {
+        "rung": 3,
+        "title": "Tamang Paraan ng Pag-connect",
+        "text": "Para iwas mali, gumamit ng comma kasama ng FANBOYS (For, And, Nor, But, Or, Yet, So), o kaya semicolon. Comma lang? Hindi sapat—comma splice ang ta..."
+      },
+      {
+        "rung": 4,
+        "title": "Suriin Bawat Option",
+        "text": "A at D walang comma, run-on talaga. B may comma pero walang connector, comma splice. C lang ang may comma at 'so'—tamang connective na nagpapakita ..."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you missed that two complete thoughts need a conjunction, resulting in a fused run-on.",
+        "trap_type": "run_on_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you thought a comma alone could connect sentences, but it's a comma splice error.",
+        "trap_type": "comma_splice_error"
+      },
+      "C": {
+        "text": "Correct. This uses a comma and the conjunction 'so,' properly linking cause and effect.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you didn't notice the missing punctuation, which makes it a run-on just like A.",
+        "trap_type": "run_on_error"
+      }
+    },
+    "next_time_rule": "When joining two complete sentences, use comma + FANBOYS (For, And, Nor, But, Or, Yet, So) or a semicolon. Never just a comma.",
+    "blueprint_id": "Run-On Sentences",
+    "deconstruct_text": "Alam niyo, sa barangay meeting, sinabi ng kapitan: 'The budget is approved we will build a new health center.' Run-on yan, kasi dalawang buong ideya na walang connector. Parang nilagay sa iisang plato ang adobo at kanin na hindi halo—puwede naman pero mas maganda may...\n\nAng secret: Pag dalawang independent clause, kailangan ng comma + FANBOYS (like 'so') o semicolon. Yung comma lang, kulang—parang nag-utos ka ng 'Tuloy' pero walang kilos.\n\nTandaan: 'Comma lang, bitin; may FANBOYS, panalo!' Isipin na ang comma ay pause, pero ang FANBOYS ang tagapag-ugnay. Kaya sa exam, hanapin ang comma+connector, lalo na kung may cause-effect ang mensahe.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

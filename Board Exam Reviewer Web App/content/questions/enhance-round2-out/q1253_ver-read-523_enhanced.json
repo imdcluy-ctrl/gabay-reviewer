@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-523",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: The Public-Private Partnership (PPP) Guidelines of the Philippines, issued by the National Economic and Development Authority (NEDA), provide the framework for collaboration between the government and private sector in infrastructure projects. The guidelines outline the selection process for private partners, which includes a competitive bidding process to ensure transparency and fairness. They also specify the risk-sharing mechanisms, where the private partner typically assumes construction and operational risks, while the government provides guarantees and subsidies when necessary. The guidelines require that all PPP projects undergo a rigorous feasibility study and obtain approval from the NEDA Board. Additionally, projects must adhere to environmental and social safeguards. The goal is to leverage private sector efficiency and capital to deliver public infrastructure such as roads, airports, and hospitals.\n\nQuestion: Which of the following can be inferred from the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The private sector is always more efficient than the government in delivering infrastructure."
+      },
+      {
+        "key": "B",
+        "text": "The NEDA Board has the final say on whether a PPP project proceeds."
+      },
+      {
+        "key": "C",
+        "text": "Environmental safeguards are optional for PPP projects."
+      },
+      {
+        "key": "D",
+        "text": "The government bears no financial risk in PPP projects."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1498",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

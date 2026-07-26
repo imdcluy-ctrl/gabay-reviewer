@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-003",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A father is 3 times as old as his son. In 12 years, he'll be twice as old. How old is the son now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define Variables",
+        "text": "I-assign ang letra: edad ni Totoy = x, edad ni Mang Lito = 3x."
+      },
+      {
+        "rung": 2,
+        "title": "Express Future Ages",
+        "text": "After 12 years: Totoy = x+12, Mang Lito = 3x+12. Relationship: 3x+12 = 2(x+12)."
+      },
+      {
+        "rung": 3,
+        "title": "Solve the Equation",
+        "text": "3x+12 = 2x+24 → 3x-2x = 24-12 → x=12. Kaya Totoy ay 12 years old."
+      },
+      {
+        "rung": 4,
+        "title": "Verify",
+        "text": "Kung x=12, Mang Lito 36. In 12 yrs, Totoy 24, Mang Lito 48. 48=2×24. Tama!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you set up 3x+12=2x, forgetting to add 12 years to the son's age first.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. Solving 3x+12=2(x+12) gives x=12.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you made an arithmetic error solving 3x+12=2x+24, getting 14 instead of 12.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you misapplied the 'twice' condition, perhaps doubling the father's age incorrectly.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "I-add ang future years sa pareho bago i-apply ang 'times as old' relationship. Wag kalimutan ang pagtanda ng anak!",
+    "blueprint_id": "Father-Son Age Problem",
+    "deconstruct_text": "Para mas madali, gawin nating halimbawa si Mang Lito, isang jeepney driver, at ang kanyang anak na si Totoy. Ngayon, ang edad ni Mang Lito ay 3x ng edad ni Totoy (totoy's age = x). Sa loob ng 12 taon, pareho silang tatanda—si Totoy magiging x+12, si Mang Lito magigin...\n\nAng kondisyon: sa hinaharap, ang edad ni Mang Lito ay doble ng kay Totoy. Equation: 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24. I-solve: ilipat ang 2x sa kaliwa at 12 sa kanan: 3x - 2x = 24 - 12 → x = 12.\n\nKaya si Totoy ay 12 years old na ngayon. Check: kung x=12, si Mang Lito 36. Pagdating ng 12 years, si Totoy 24, si Mang Lito 48. Tama, 48 = 2 × 24. Kaya sagot: 12.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

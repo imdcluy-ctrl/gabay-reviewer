@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-300",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Municipal Sector Pie Chart Budget Share Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Data: Municipal Annual Budget Distribution (Total: ₱50 Million):\nInfrastructure: 40%\nEducation: 30%\nHealth: 20%\nAdministration: 10%\n\nHow much money in Pesos is allocated to Infrastructure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱20 Million"
+      },
+      {
+        "key": "B",
+        "text": "₱15 Million"
+      },
+      {
+        "key": "C",
+        "text": "₱10 Million"
+      },
+      {
+        "key": "D",
+        "text": "₱25 Million"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a straightforward percentage-of-a-whole problem. The key is to match the correct percentage to the sector being asked. Infrastructure gets 40% of the total budget."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "To find a percentage of a total, use this formula: Amount = Total x (Percentage / 100). Here, the total is 50 million, and the percentage for Infrastructure is 40."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Plug the numbers into the formula: 50,000,000 x (40 / 100). That simplifies to 50,000,000 x 0.40. Now you just need to do the multiplication."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "50,000,000 x 0.40 is the same as 50,000,000 x 4 / 10. Think of it as 50,000,000 divided by 10 (which is 5,000,000), then multiplied by 4. That gives you 20,000,000, or 20 million pesos."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Infrastructure gets 40% of the 50 million peso budget. When you calculate 40% of 50 million, you get exactly 20 million pesos. This is the right match between the percentage and the sector.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is the amount for Education, not Infrastructure. It's a common slip—you see 30% and think of it first, or you might confuse which sector has which percentage. Always double-check the label next to the number.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "C": {
+        "text": "This is the Health budget, which is 20% of the total. It's easy to mix up the percentages when you're reading quickly, especially since 20% and 40% sound similar. Train yourself to match the sector name to its exact number.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "D": {
+        "text": "This answer doesn't match any of the given percentages. It looks like you might have added 40% and 10% together, or made a calculation error. Remember, each sector has its own separate share—you don't combine them unless the question asks for a total.",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "When a question gives you a list of percentages for different categories, immediately underline or mentally tag the exact percentage for the category being asked. Then use the formula: Amount = Total x (Percentage / 100). This prevents mix-ups and keeps your calculation clean.",
+    "deconstruct_text": "Let's walk through this together. The question gives you a total budget of 50 million pesos and breaks it down into four sectors with their percentages. You're asked specifically about Infrastructure, which gets 40%.\n\nNow, the core skill here is converting a percentage into an actual amount. The universal trick is to think of \"percent\" as \"per hundred.\" So 40% means 40 out of every 100 parts of the total. To find 40% of 50 million, you multiply: 50,000,000 x 0.40.\n\nHere's a mental shortcut that works great under time pressure: instead of multiplying by 0.40 directly, think of it as 40% = 4/10. So 50,000,000 divided by 10 is 5,000,000, and then multiplied by 4 gives you 20,000,000. That's 20 million pesos.\n\nNotice how the wrong answers each come from a specific kind of mistake. Option B (15 million) is what you'd get if you used 30% instead—that's Education's share. Option C (10 million) comes from using 20%, which is Health's budget. Option D (25 million) doesn't match any single sector—it might come from adding percentages or a miscalculation.\n\nThe key takeaway? Always verify that you're using the right percentage for the right category. The math itself is simple once you have the correct numbers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

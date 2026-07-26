@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-002",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A LGU cooperative deposited ₱50,000 in a government savings account earning 6% simple annual interest. How much total interest will the account earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱3,000"
+      },
+      {
+        "key": "B",
+        "text": "₱6,000"
+      },
+      {
+        "key": "C",
+        "text": "₱9,000"
+      },
+      {
+        "key": "D",
+        "text": "₱59,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about what simple interest really means",
+        "text": "Simple interest means the bank pays you the same amount every year, based only on your original deposit. It doesn't grow or compound. So the question is really asking: how much does the bank pay each year, and how many years do we count?"
+      },
+      {
+        "rung": 2,
+        "title": "The one formula you need",
+        "text": "There's a classic formula for this: Interest = Principal x Rate x Time. The principal is your starting amount, the rate is the percentage written as a decimal, and time is in years. Just plug in the numbers."
+      },
+      {
+        "rung": 3,
+        "title": "Convert the percentage first",
+        "text": "Before you multiply, always turn the percent into a decimal. Six percent means 6 out of 100, which is 0.06. If you use 6 instead of 0.06, your answer will be 100 times too big. So start with 50,000 times 0.06."
+      },
+      {
+        "rung": 4,
+        "title": "Now finish the calculation",
+        "text": "50,000 times 0.06 gives you 3,000. That's the interest for just one year. But the question asks for three years, so multiply 3,000 by 3. What do you get? That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the interest earned in just one year. It's easy to stop too early after multiplying the principal by the rate, but the question clearly asks for the total after three full years. You need to multiply that yearly amount by 3.",
+        "trap_type": "missing_time_factor"
+      },
+      "B": {
+        "text": "This might happen if you accidentally used 2 years instead of 3, or if you multiplied 3,000 by 2 instead of 3. It's a small slip, but under time pressure, it's common to miscount. Always double-check the number of years in the problem.",
+        "trap_type": "time_calculation_error"
+      },
+      "C": {
+        "text": "Correct. You multiplied the principal by the rate to get the yearly interest, then multiplied by the number of years. That's exactly how simple interest works.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This is the total balance in the account after three years, not just the interest. The question specifically asks for the total interest earned, so you should not add back the original 50,000. If you see an answer that looks like the principal plus something, pause and reread the question.",
+        "trap_type": "balance_vs_interest_confusion"
+      }
+    },
+    "next_time_rule": "For simple interest, always ask yourself: 'Am I finding just the interest, or the total balance?' If it's just interest, use I = P x r x t. If it's the total, add P at the end.",
+    "blueprint_id": "Numerical Ability — Simple Interest Formula (I = P r t)",
+    "deconstruct_text": "Let's walk through this together. The cooperative deposited 50,000 pesos, and the account earns 6% simple interest each year. Simple interest means the bank pays you the same amount every year based on your original deposit. So first, find out how much that yearly payment is. Take 6% of 50,000. Remember, 6% as a decimal is 0.06. Multiply: 50,000 times 0.06 equals 3,000. That's the interest for one year. Now, the question asks for the total after three years, so multiply 3,000 by 3. That gives you 9,000 pesos. That's your answer. A quick mental trick: whenever you see 'simple interest,' think 'same amount each year.' Just find the yearly interest and multiply by the number of years. Don't overcomplicate it.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

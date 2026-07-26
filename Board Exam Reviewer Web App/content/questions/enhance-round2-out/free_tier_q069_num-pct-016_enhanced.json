@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-016",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A jacket sold for P1,800 after a 10% discount. What was its original price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,900"
+      },
+      {
+        "key": "B",
+        "text": "P1,950"
+      },
+      {
+        "key": "C",
+        "text": "P2,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,100"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about what a 10% discount actually means. It doesn't mean you subtract 10% from the final price. Instead, it means the final price is 90% of something else. What is that something else?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's the golden rule for discount problems: Selling Price = Original Price times (1 minus the discount rate). So if the discount is 10%, the selling price is 90% of the original. Write that as an equation."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Let the original price be x. You know that 90% of x equals P1,800. In math terms, that's 0.90 times x = 1,800. Now, to find x, you just need to get it alone on one side."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "To solve 0.90x = 1,800, divide both sides by 0.90. So x = 1,800 divided by 0.90. What number do you get? That's the original price."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1,900. This is a very common mistake. It looks like someone tried to add 10% of the selling price (P180) to the selling price, getting P1,980, then maybe rounded down. But the discount is 10% of the original price, not 10% of the selling price. That's a crucial difference.",
+        "trap_type": "discount_on_selling_price"
+      },
+      "B": {
+        "text": "P1,950. This doesn't come from a clear logical path, which is a clue it's likely a guess or a simple arithmetic slip. If you're tempted by this, it's a sign to slow down and set up the equation properly rather than trying to do it all in your head.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! You recognized that the P1,800 selling price represents 90% of the original. By dividing P1,800 by 0.90, you get the original price of P2,000. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P2,100. This is another common trap. It might come from adding 10% of the selling price (P180) to get P1,980, then adding a bit more to reach a round number. Or it could be from incorrectly dividing by 0.857 instead of 0.90. The key is to remember the base: the discount is on the original, higher price.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "When you see 'after a discount,' remember: the final price is a percentage of the original. To find the original, divide the final price by the percentage you actually paid (as a decimal). Never just add the discount percentage back to the final price.",
+    "blueprint_id": "Finding Original Price After Discount",
+    "deconstruct_text": "Let's walk through this together. The jacket is sold for P1,800 after a 10% discount. That means the P1,800 is not the full price; it's the price after 10% was taken off. So the P1,800 represents 90% of the original price (because 100% - 10% = 90%).\n\nNow, we can set up a simple equation: 90% of the original price equals P1,800. In math terms: 0.90 x Original = 1,800.\n\nTo find the original, we just need to undo the multiplication by 0.90. We do that by dividing: Original = 1,800 / 0.90.\n\nThink of it this way: if 90% of something is 1,800, then 1% of that something is 1,800 divided by 90, which is 20. And 100% of that something is 20 times 100, which is 2,000. So the original price is P2,000.\n\nHere's a mental trick for next time: Instead of adding, always divide. The formula is: Original Price = Sale Price / (1 - Discount Rate). For a 10% discount, that's Sale Price / 0.90. This works every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

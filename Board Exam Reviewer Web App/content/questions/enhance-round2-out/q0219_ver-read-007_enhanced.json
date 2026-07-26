@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-007",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'While the city's revenue increased by 8% this year, its expenditures grew by 12%. This raised concerns about fiscal sustainability among local officials.' What does 'fiscal sustainability' refer to?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ability to maintain financial health"
+      },
+      {
+        "key": "B",
+        "text": "Increasing taxes"
+      },
+      {
+        "key": "C",
+        "text": "Reducing services"
+      },
+      {
+        "key": "D",
+        "text": "Hiring more staff"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kunin ang Konteksto",
+        "text": "Kita lumaki 8%, gastos 12% — ibig sabihin, mas malaki ang labas kaysa pasok. Parang sari-sari store na lugi kung puro utang."
+      },
+      {
+        "rung": 2,
+        "title": "Ano ang 'Fiscal'?",
+        "text": "Pera ng gobyerno — kita at gastos. Hindi negosyo, kundi pampublikong pondo. Isaalang-alang kung sustainable ang daloy."
+      },
+      {
+        "rung": 3,
+        "title": "Ano ang 'Sustainability'?",
+        "text": "Kayang ituloy nang hindi nauubos. Parang bigas sa bahay — dapat hindi maubos agad. Long-term ang tingin, hindi lang ngayon."
+      },
+      {
+        "rung": 4,
+        "title": "Tanggalin ang Maling Pagpipilian",
+        "text": "B, C, D ay mga aksyong posibleng gawin, pero hindi depinisyon. Ang fiscal sustainability mismo ay kakayahang mapanatili ang pinansiyal na kalusugan."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Fiscal sustainability means the government's long-term ability to keep its finances healthy and balanced.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because increasing taxes is a step to fix poor fiscal health, confusing the action with the definition of the term.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "You might have chosen C because reducing services is a way to cut spending, not the meaning of fiscal sustainability itself.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because 'sustainability' sounded like growth, but hiring more staff makes spending worse, the opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Kapag tinanong ang ibig sabihin, huwag pumili ng solusyon o aksyon—bumalik sa depinisyon ng termino. Fiscal sustainability = matibay na kalusugang pinansiyal.",
+    "blueprint_id": "Vocabulary in Context — Fiscal Sustainability",
+    "deconstruct_text": "Habang nagmeeting ang mga kagawad ng Barangay San Isidro tungkol sa budget, napansin ni Kapitan Lanie na ang kita mula sa palengke ay tumaas ng 8%, pero ang gastos sa streetlights at flood control ay lumundag ng 12%.<br/><br/>Nag-alaala ang SK chair: 'Ano nga ba ang ...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

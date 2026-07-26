@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer AMEND the financial report. What is the synonym for AMEND?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Discard"
+      },
+      {
+        "key": "B",
+        "text": "Alter"
+      },
+      {
+        "key": "C",
+        "text": "Approve"
+      },
+      {
+        "key": "D",
+        "text": "Publish"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Get the Big Picture",
+        "text": "An auditor's job is to find mistakes or areas for improvement. So when they recommend amending a report, they're not asking for something drastic or unrelated. Focus on what makes sense in that context."
+      },
+      {
+        "rung": 2,
+        "title": "The Core Meaning",
+        "text": "The word 'amend' is all about making changes to fix or improve something. It's not about destroying, accepting, or distributing. Keep that simple idea in mind: change for the better."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option Against That Idea",
+        "text": "Ask yourself for each option: Does this mean 'change to improve'? Discard means throw away—too extreme. Approve means say it's okay—opposite of change. Publish means make public—different action entirely. Only one option fits."
+      },
+      {
+        "rung": 4,
+        "title": "You're Almost There",
+        "text": "The only option that means 'to change or modify' is 'alter.' That's your synonym. Think of amending a document: you alter it to make it better."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Discard means to throw away completely. That's way too extreme. When you amend something, you keep it and improve it, not toss it in the trash. A smart student might pick this if they think 'amend' means 'fix by replacing,' but it's really about adjusting, not discarding.",
+        "trap_type": "extreme_meaning_error"
+      },
+      "B": {
+        "text": "Correct! Alter means to change or modify, which is exactly what amend means. Think of amending a document: you're making edits to improve it, not starting from scratch.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Approve means to accept something as it is. That's the opposite of amending. If the auditor wanted approval, they wouldn't recommend changes. This is a classic trap where you confuse 'making it better' with 'saying it's okay.'",
+        "trap_type": "antonym_error"
+      },
+      "D": {
+        "text": "Publish means to make something public. That's a completely different action. You can amend a report before publishing it, but the two words aren't synonyms. This trap catches students who skim the sentence and think about what happens to reports in general.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "When you see 'amend' in a sentence, think 'alter for the better.' It's always about making changes to improve or correct something, never about discarding, approving, or publishing.",
+    "blueprint_id": "Vocabulary — Synonyms of Legal and Audit Terms",
+    "deconstruct_text": "Let's walk through this together. The sentence tells us the auditor recommended that the treasurer amend the financial report. An auditor's job is to find errors or areas for improvement, so they're asking for changes. The word 'amend' specifically means to make changes that correct or improve something. Now look at the options: 'Discard' means to throw away, which is too drastic. 'Approve' means to accept, which is the opposite of making changes. 'Publish' means to release to the public, which is unrelated. Only 'Alter' means to change or modify, matching the meaning of amend. Here's a mental trick: think of the word 'amendment' in the Constitution. An amendment doesn't throw out the whole Constitution or just approve it—it changes a specific part to make it better. Same idea here.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

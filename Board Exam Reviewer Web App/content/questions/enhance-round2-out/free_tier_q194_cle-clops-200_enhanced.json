@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-200",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Date Format Standard Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A passport application requires dates in ISO standard (YYYY-MM-DD). An applicant submitted their birthdate as '04/09/1998' in US format (MM/DD/YYYY). How should this date be reformatted for the official database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1998-04-09"
+      },
+      {
+        "key": "B",
+        "text": "1998-09-04"
+      },
+      {
+        "key": "C",
+        "text": "09-04-1998"
+      },
+      {
+        "key": "D",
+        "text": "1998-04-98"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is all about knowing the order of parts in a date. The US format puts month first, then day, then year. The ISO format flips that around. Take a breath and think about what each part of the original date actually represents."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "ISO format always goes from the biggest time unit to the smallest: Year first, then Month, then Day. So it's YYYY-MM-DD, no exceptions. Remember it as 'Year-Month-Day' or 'Big to Small.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Your original is 04/09/1998. In US format, the first two digits are the month (04 = April), the next two are the day (09 = the 9th), and the last four are the year (1998). Now just rearrange them into the ISO order: year first, then month, then day."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "So you take 1998, then 04, then 09, and connect them with hyphens. That gives you 1998-04-09. Now look at the options—only one matches that exact sequence."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is correct. You recognized that the US format 04/09/1998 means April 9, 1998, and you rearranged it into the ISO standard of YYYY-MM-DD, giving you 1998-04-09. Well done.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one swaps the month and day, giving you 1998-09-04. It's a very common slip—you might have assumed the original was in European format (DD/MM/YYYY) where the day comes first. But the problem clearly says it's US format (MM/DD/YYYY), so 04 is the month and 09 is the day. Keep the order straight by remembering the clue in the problem itself.",
+        "trap_type": "month_day_transposition_error"
+      },
+      "C": {
+        "text": "This keeps the original order of day, month, year (09-04-1998) and just changes the separators. But ISO format demands the year first. Think of it like sorting files—you want the biggest category (year) first, then narrower ones. This option has the right pieces but in the wrong sequence.",
+        "trap_type": "non_iso_format_error"
+      },
+      "D": {
+        "text": "This one has '98' as the day, which doesn't make sense—there's no 98th day of any month. It looks like someone took the last two digits of the year and stuck them in the day slot. Always double-check that your day and month values are valid numbers (days 1-31, months 1-12).",
+        "trap_type": "syntax_formatting_error"
+      }
+    },
+    "next_time_rule": "When converting dates, always identify the original format first, then rearrange from biggest time unit to smallest: Year, then Month, then Day. Think 'Big to Small' and you'll never get lost.",
+    "deconstruct_text": "Let's walk through this together. The original date is 04/09/1998, and we're told it's in US format, which means MM/DD/YYYY. So the month is 04 (April), the day is 09 (the 9th), and the year is 1998. Now, the target format is ISO, which is YYYY-MM-DD. That's year first, then month, then day. So we take 1998, then 04, then 09, and join them with hyphens: 1998-04-09. That's option A. A good mental trick here is to think of dates like nesting dolls—the year is the biggest doll, then the month, then the day. ISO always goes from biggest to smallest. So when you see any date, just ask yourself: 'What's the biggest unit here?' Put that first, and work your way down.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

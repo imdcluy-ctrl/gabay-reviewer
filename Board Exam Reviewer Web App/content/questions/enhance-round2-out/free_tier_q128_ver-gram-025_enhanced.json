@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-025",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct preposition: 'She is capable ___ handling the project.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "of"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question tests your knowledge of fixed preposition pairs in English. Some words always travel with a specific partner preposition."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The adjective 'capable' is always followed by the preposition 'of' in standard English. Think of it as a set phrase: 'capable of'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Read the sentence with each option in your head. Does 'capable to handling' sound right? 'Capable in handling'? 'Capable at handling'? Only one will feel natural to a native speaker."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The correct phrase is 'capable of handling'. The preposition 'of' is the only one that completes this idiomatic expression correctly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "If you chose 'to', you might be thinking of phrases like 'able to' or 'ready to', which use 'to'. But 'capable' is different — it always pairs with 'of'. A smart guess, but not the right one here.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "'In' might feel right if you're thinking of being skilled 'in' something, like 'skilled in project management'. But 'capable' doesn't work that way — it demands 'of'.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Exactly right. 'Capable of' is the standard, fixed expression in English. You've got it.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'At' is tempting if you're thinking of 'good at' or 'excellent at'. But 'capable' follows its own rule — it always takes 'of', not 'at'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "When you see 'capable', immediately think 'of'. It's a fixed pair — like 'interested in', 'good at', or 'afraid of'. Memorize these common adjective-preposition partnerships and they'll never trip you up.",
+    "blueprint_id": "Prepositional Idioms — Capable Of",
+    "deconstruct_text": "This is a classic case of a fixed prepositional idiom. In English, certain adjectives are married to specific prepositions — they always go together. 'Capable' is one of them, and its partner is always 'of'. You can think of it this way: when someone is capable, they are 'full of' ability, so 'of' makes sense. The other options — 'to', 'in', 'at' — are common prepositions that pair with other adjectives (like 'able to', 'skilled in', 'good at'), but they don't work with 'capable'. The trick is to treat these as vocabulary items: learn the whole phrase, not just the adjective. So instead of memorizing 'capable' alone, memorize 'capable of'. That way, when you see the blank, your brain will automatically supply the right preposition.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

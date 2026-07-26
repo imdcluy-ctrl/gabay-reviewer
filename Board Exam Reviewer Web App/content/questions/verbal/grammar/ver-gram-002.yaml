@@ -1,0 +1,55 @@
+id: ver-gram-002
+subtopic: grammar-correct-usage
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["pronoun-case", "government-correspondence"]
+estimated_seconds: 60
+question_text: "Select the sentence with the correct pronoun case for official communications."
+options:
+  - key: A
+    text: "Between you and I, the regional director will approve the budget proposal."
+  - key: B
+    text: "Between you and me, the regional director will approve the budget proposal."
+  - key: C
+    text: "The division chief awarded the commendation to he and his team."
+  - key: D
+    text: "Him and the auditor inspected the procurement records yesterday."
+correct: B
+blueprint_id: "Pronoun Case — Object of Preposition"
+hint_ladder:
+  - rung: 1
+    title: "Identify Preposition"
+    text: "Find the preposition in the introductory phrase."
+  - rung: 2
+    title: "Recall Preposition Rule"
+    text: "'Between' is a preposition and takes objective pronouns (me, him, her, us, them)."
+  - rung: 3
+    title: "Test Pronoun Pair"
+    text: "'Between you and me' uses objective case 'me'."
+  - rung: 4
+    title: "Confirm Correct Choice"
+    text: "Option B is correct because 'I' is nominative, while 'me' is objective."
+deconstruct_text: |
+  Prepositions always require pronouns in the objective case.
+  'Between' is a preposition -> requires 'you and me' (objective), NOT 'you and I' (nominative).
+  In C, 'to' takes objective 'him' ('to him and his team').
+  In D, subject position requires nominative 'He and the auditor'.
+choice_explanations:
+  A:
+    text: "Common hypercorrection. 'I' is nominative; preposition 'between' requires objective 'me'."
+    trap_type: hypercorrection_error
+  B:
+    text: "Correct! 'Me' is in objective case following the preposition 'between'."
+    trap_type: null
+  C:
+    text: "Preposition 'to' requires objective pronoun 'him', not nominative 'he'."
+    trap_type: pronoun_case_error
+  D:
+    text: "Subject of sentence requires nominative 'He', not objective 'Him'."
+    trap_type: subject_pronoun_error
+next_time_rule: "Prepositions (between, to, for, with) always take objective pronouns (me, him, her)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE English Grammar Specification — Pronoun Case"

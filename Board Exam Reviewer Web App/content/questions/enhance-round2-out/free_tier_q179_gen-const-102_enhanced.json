@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-102",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article X — Local Government Autonomy",
+    "difficulty_level": 2,
+    "question_text": "Under Article X of the 1987 Philippine Constitution, which principle guarantees that 'autonomy to local government units'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Local Autonomy"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This question is testing your knowledge of a specific constitutional principle. Think about what Article X of the 1987 Constitution is all about — it's the article that deals with local governments."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the simple rule",
+        "text": "Article X, Section 2 contains a clear, direct statement: 'The local government units shall enjoy local autonomy.' This is the core principle that gives provinces, cities, municipalities, and barangays the power to govern themselves."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule to this problem",
+        "text": "The question asks for the principle that guarantees autonomy to LGUs. Since Article X explicitly says LGUs 'shall enjoy local autonomy,' the principle is literally named in the text. Look for the option that matches this exact phrase."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly there",
+        "text": "The answer is the principle that directly mirrors the constitutional language. It's not an executive action, a court power, or a congressional privilege — it's the fundamental concept that lets LGUs run their own affairs."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article X, Section 2 of the 1987 Constitution states: 'The local government units shall enjoy local autonomy.' This principle means LGUs have the power to self-govern and manage their own affairs within the framework of national law.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. You might have chosen this if you thought about how presidents issue executive orders that affect local governments. But an Executive Order is a presidential directive, not a constitutional principle. Local autonomy is a permanent guarantee in the Constitution, not something that depends on an executive act.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. This is a common mix-up if you're thinking about how courts have discretion in interpreting laws. But Judicial Discretion refers to the power of judges to make decisions in court cases. It has nothing to do with the autonomy of local government units.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. You might have picked this if you confused 'franchise' with 'autonomy' or thought about Congress granting powers. But a Legislative Franchise is a special privilege Congress gives to operate a public utility (like a bus company or TV station). It's unrelated to local government self-governance.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'Article X' and 'local government' in a question, immediately think: 'Local Autonomy = self-governance for LGUs.' The Constitution literally says it in Section 2. If an option sounds like an executive, judicial, or legislative power, it's probably wrong.",
+    "deconstruct_text": "Let me walk you through how to think about this question, the way I'd explain it to a friend over coffee.\n\nFirst, the question is asking for the principle under Article X that guarantees autonomy to local government units. The key here is to remember what Article X is actually about — it's the article dedicated entirely to Local Government. So right away, you know the answer has to be something directly related to how LGUs operate.\n\nNow, here's the simple part: Article X, Section 2 says, 'The local government units shall enjoy local autonomy.' That's it. The principle is literally called 'Local Autonomy.' It's the constitutional promise that provinces, cities, municipalities, and barangays can govern themselves, create their own revenue sources, and manage local affairs — as long as they stay within national laws.\n\nLet's look at why the other options don't fit. 'Executive Order' might sound familiar because presidents issue them, but that's a temporary directive, not a constitutional principle. 'Judicial Discretion' is about court powers, not local governance. And 'Legislative Franchise' is a special permit from Congress for public utilities — completely unrelated.\n\nHere's a mental trick to lock this in: Think of Article X as the 'Local Government Chapter' of the Constitution. The very first thing it does is declare that LGUs have 'local autonomy.' So whenever you see a question about Article X and autonomy, your brain should automatically go to 'Local Autonomy' as the answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

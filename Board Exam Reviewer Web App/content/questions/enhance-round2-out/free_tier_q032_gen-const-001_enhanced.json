@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-001",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article III (Bill of Rights) of the 1987 Philippine Constitution, no person shall be deprived of life, liberty, or property without __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "due process of law"
+      },
+      {
+        "key": "B",
+        "text": "presidential approval"
+      },
+      {
+        "key": "C",
+        "text": "written authorization"
+      },
+      {
+        "key": "D",
+        "text": "judicial warrant"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the Bill of Rights",
+        "text": "This question is testing your memory of the very first section of Article III. It's one of the most famous lines in the entire Constitution."
+      },
+      {
+        "rung": 2,
+        "title": "The core idea is fairness",
+        "text": "The Constitution wants to make sure the government can't just take away your life, freedom, or belongings on a whim. There has to be a fair, legal process first. What's that process called?"
+      },
+      {
+        "rung": 3,
+        "title": "Match the exact phrase",
+        "text": "The exact wording is: 'No person shall be deprived of life, liberty, or property without ___ of law.' The missing word is a two-word legal term that means 'fair procedures.'"
+      },
+      {
+        "rung": 4,
+        "title": "It's not a person or a piece of paper",
+        "text": "The answer isn't about getting permission from the President, a judge, or a government office. It's a fundamental legal principle. Look for the option that sounds like a standard legal guarantee."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is the exact wording from Article III, Section 1. It's the Due Process Clause, and it's the Constitution's way of saying the government must follow fair and established rules before it can take away your life, liberty, or property.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. You might think that because the President is the highest official, their approval is needed for everything important. But the Bill of Rights is about protecting you from the government, not about getting permission from one branch of it. Due process is a judicial and legal concept, not an executive privilege.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "This sounds official, but it's too vague. 'Written authorization' could mean a permit or a signed form, but it's not the specific, powerful legal guarantee in the Bill of Rights. The Constitution uses a precise, time-honored phrase here, not a general administrative term.",
+        "trap_type": "administrative_distractor"
+      },
+      "D": {
+        "text": "This is a very smart trap. You know the Bill of Rights talks about warrants, so it's easy to pick this. But warrants are for a different section. Section 2 requires a 'judicial warrant' for searches and seizures. Section 1 is the broader, more fundamental guarantee of 'due process' for your life, liberty, and property. Remember: Section 1 is the big umbrella; Section 2 is a specific rule under it.",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'deprived of life, liberty, or property,' your brain should instantly shout 'Due Process!' It's the Constitution's golden rule for fairness. Think of it as the government's promise to play by the book before it takes anything from you.",
+    "blueprint_id": "1987 Philippine Constitution — Article III Section 1 Due Process Clause",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The question is asking for the exact phrase that completes one of the most important sentences in the Philippine Constitution. First, you need to know you're in Article III, the Bill of Rights. This is the part of the Constitution that lists your fundamental protections against the government. The very first section is the big one. It's the foundation. It says the government can't just take away your life, your freedom, or your property without a fair and legal process. That process has a specific name: 'due process of law.' It's a two-word phrase that carries a ton of weight. Now, let's look at why the other options are wrong. Option B, 'presidential approval,' is a tempting mix-up because we often think of the President as having the final say. But the Bill of Rights is about legal and judicial safeguards, not executive permission. Option C, 'written authorization,' sounds official but is too generic. The Constitution uses precise legal language, not vague administrative terms. Option D, 'judicial warrant,' is the trickiest. You're right that warrants are in the Bill of Rights, but they're in Section 2, which is about searches and seizures. Section 1 is the broader, more fundamental guarantee. A good mental trick is to remember: 'Section 1 is for your whole life; Section 2 is for your house and things.' So, when you see 'deprived of life, liberty, or property,' your mind should immediately go to 'due process.' It's the Constitution's way of saying, 'Hold on, government, you have to follow the rules first.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

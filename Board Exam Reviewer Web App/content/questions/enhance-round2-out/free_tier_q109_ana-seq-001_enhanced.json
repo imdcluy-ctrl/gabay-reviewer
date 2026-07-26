@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-001",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "What comes next: A, C, E, G, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "I"
+      },
+      {
+        "key": "C",
+        "text": "J"
+      },
+      {
+        "key": "D",
+        "text": "K"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look for the Gap",
+        "text": "Start by noticing how many letters are skipped between each pair. From A to C, what letter is missing? From C to E? From E to G? See a pattern in the gaps?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "When the gap between letters is consistent, that's your pattern. Here, each step skips exactly one letter. So after G, you skip one letter and land on the next."
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Here",
+        "text": "After G, the next letter is H. But remember, we skip one letter each time. So skip H, and the letter after that is I. That's your answer."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The sequence is every other letter of the alphabet starting from A: A, C, E, G, I. Option B is I. The others either land on the skipped letter or skip too many."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a natural first guess because H comes right after G. But the pattern doesn't take the very next letter—it skips one each time. H is the letter that gets skipped, not the one we land on.",
+        "trap_type": "consecutive_letter_error"
+      },
+      "B": {
+        "text": "That's it. The pattern skips one letter between each term: A (skip B) to C (skip D) to E (skip F) to G (skip H) to I. You've spotted the rhythm.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "J is two letters away from G (H and I are both skipped). That's one skip too many. The pattern only skips a single letter each time, not two.",
+        "trap_type": "double_skip_error"
+      },
+      "D": {
+        "text": "K is three letters past G, which means skipping H, I, and J. That's way too many skips for a pattern that only jumps over one letter at a time.",
+        "trap_type": "triple_skip_error"
+      }
+    },
+    "next_time_rule": "For letter sequences, find the constant gap between terms. If each step skips one letter (like A to C), the pattern is +2 positions in the alphabet. Think of it as 'every other letter.'",
+    "blueprint_id": "Letter Sequence",
+    "deconstruct_text": "Let's walk through this together. The sequence is A, C, E, G, and we need the next one. A simple trick is to assign each letter a number: A is 1, B is 2, C is 3, and so on. So A=1, C=3, E=5, G=7. Notice the jump? Each time we add 2: 1 to 3, 3 to 5, 5 to 7. So the next number is 7+2=9, and the 9th letter of the alphabet is I. Another way to see it: the sequence is just every other letter starting from A. A, skip B, C, skip D, E, skip F, G, skip H, I. That's the pattern. The mental trick here is to always check the gap between terms. If the gap is consistent, you've cracked the code. In this case, a gap of +2 means you're picking every other letter.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

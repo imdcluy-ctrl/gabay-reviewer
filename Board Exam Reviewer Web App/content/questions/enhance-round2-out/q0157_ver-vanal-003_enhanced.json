@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-003",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "TRAINING is to SKILL as PRACTICE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Theory"
+      },
+      {
+        "key": "B",
+        "text": "Mastery"
+      },
+      {
+        "key": "C",
+        "text": "Book"
+      },
+      {
+        "key": "D",
+        "text": "Exam"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Relationship",
+        "text": "Tignan ang pares: TRAINING (proseso) → SKILL (resulta). I-apply sa PRACTICE: anong resulta?"
+      },
+      {
+        "rung": 2,
+        "title": "Ano ang Direktang Resulta?",
+        "text": "Ang PRACTICE ay paulit-ulit na paggawa. Hindi ito teorya, libro, o exam. Ang direktang bunga? Kahusayan o MASTERY."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminahin ang Maling Choices",
+        "text": "A (Theory) ay bago mag-practice. C (Book) gamit lang. D (Exam) sukatan. Lahat hindi resulta. Kaya MASTERY na lang."
+      },
+      {
+        "rung": 4,
+        "title": "Confident ka na?",
+        "text": "Kapag nag-practice ka ng gitara araw-araw, mastery sa kanta ang makukuha mo, hindi libro o exam. Practice leads to mastery—simple!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because theory is something you study before practicing, but it's not what practice directly creates.",
+        "trap_type": "false_cause_fallacy"
+      },
+      "B": {
+        "text": "Correct. Practice naturally leads to mastery, mirroring how training leads to skill.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because books can guide practice, but they are tools, not the outcome of practice.",
+        "trap_type": "associated_object"
+      },
+      "D": {
+        "text": "You might have chosen D because practice helps you prepare for exams, but the real outcome is mastery, not just a test.",
+        "trap_type": "confused_with_test"
+      }
+    },
+    "next_time_rule": "Sa analogies, tanungin: 'Ano ang direktang resulta ng first word?' PRACTICE produces MASTERY, kagaya ng TRAINING produces SKILL.",
+    "blueprint_id": "Cause-Effect Relationship",
+    "deconstruct_text": "Alalahanin natin ang pagluluto ng adobo ni Lola. Ang TRAINING niya—sabi ng recipe, nanood sa YouTube—ito ang nagbigay ng SKILL. Pero ang PRACTICE, paulit-ulit na pagluluto tuwing Linggo, ang nagbunga ng MASTERY. Yung adobo niya, laging perfect ang timpla, hindi na ka...\n\nKaya sa analogy: TRAINING is to SKILL (cause to outcome) as PRACTICE is to MASTERY. Ganun din sa exam: pag nag-PRACTICE ka ng Civil Service reviewer, ang diretso mong makukuha ay MASTERY, hindi lang libro o exam score. Mental trick: Isipin mo ang first word ay 'makin...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

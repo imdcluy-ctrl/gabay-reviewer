@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-455",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "A cube net is shown below. The faces have the following symbols: top face has a circle, bottom face has a triangle, left face has a square, right face has a cross, front face has a star, back face has a heart. Which of the following cubes can be formed from this net? (Assume the net is folded inward.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A cube with circle on top, star on front, cross on right"
+      },
+      {
+        "key": "B",
+        "text": "A cube with triangle on top, heart on front, square on right"
+      },
+      {
+        "key": "C",
+        "text": "A cube with star on top, circle on front, heart on right"
+      },
+      {
+        "key": "D",
+        "text": "A cube with square on top, cross on front, triangle on right"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Cube folding: Determining which 3D cube can be formed from a 2D net with distinct symbols on each face (Scenario 85)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

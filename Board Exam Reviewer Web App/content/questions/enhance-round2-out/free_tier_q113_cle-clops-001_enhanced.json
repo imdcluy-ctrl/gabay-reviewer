@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-001",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8491-X'. How many characters differ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Get Your Bearings",
+        "text": "This is a classic data comparison problem. The key is to slow down and compare the two codes character by character, just like you would when proofreading a document or checking a serial number. Don't just glance at them—line them up mentally."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "When comparing two strings, you need to check each position independently. A swap of two digits (a transposition) counts as two separate differences because two characters have changed places. Think of it like two people swapping seats—two seats are now occupied by different people."
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Here",
+        "text": "Write the codes one above the other: Original: PH-2026-8941-X, Copy: PH-2026-8491-X. Now compare each character starting from the left. The first eight characters (PH-2026-) are identical. Then you hit '8941' versus '8491'. Compare the 9th character: 9 vs 4. Compare the 10th: 4 vs 9. The 11th: 1 vs 1 (same). The rest (-X) are identical. How many positions have different characters?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You've identified that the '9' and '4' are swapped. That means two positions—the 9th and 10th characters—are different. So the total number of differing characters is exactly two."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Choosing 0 means you think the codes are identical. But look closely: the original has '8941' while the copy has '8491'. The digits 9 and 4 have been swapped, so there are definitely differences. This is a common mistake when you read too quickly and your brain fills in what it expects to see.",
+        "trap_type": "overlooked_difference"
+      },
+      "B": {
+        "text": "It's very tempting to pick 1 because you notice the digits are swapped and think of it as one 'error.' But a swap involves two characters changing places—each one is a separate difference. The 9 became a 4, and the 4 became a 9. That's two changes, not one. This is the most common trap in transposition problems.",
+        "trap_type": "transposition_count_error"
+      },
+      "C": {
+        "text": "Correct! The digits 9 and 4 are swapped between the two codes, which means two characters are different. You carefully compared each position and counted accurately.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "3 is too many. Only two characters differ—the 9 and the 4 that swapped places. All other characters (including the other digits, letters, and hyphens) are exactly the same. You might have accidentally counted an extra difference by misaligning the codes.",
+        "trap_type": "overcount_error"
+      }
+    },
+    "next_time_rule": "When comparing codes, always align them character by character. Remember: a transposition (swap) of two digits counts as two differences, not one. Each character that changes is a separate difference.",
+    "blueprint_id": "Data Comparison — Transposition Detection",
+    "deconstruct_text": "Let's walk through this together. The original code is PH-2026-8941-X and the copy is PH-2026-8491-X. If you write them directly above each other, you can compare each position:\n\nOriginal: P H - 2 0 2 6 - 8 9 4 1 - X\nCopy:    P H - 2 0 2 6 - 8 4 9 1 - X\n\nNow check each position from left to right. The first eight characters (P, H, -, 2, 0, 2, 6, -) are identical in both codes. Then we get to the group '8941' versus '8491'. Let's compare those four positions:\n- Position 9: original has '9', copy has '4' — different\n- Position 10: original has '4', copy has '9' — different\n- Position 11: original has '1', copy has '1' — same\n- The remaining characters (- and X) are also the same.\n\nSo there are exactly two positions where the characters differ: position 9 and position 10. The answer is 2.\n\nHere's a mental trick for next time: When you spot a swap like this, immediately think 'two differences.' A transposition is like two people swapping seats—two seats now have different occupants. Count each changed character separately, not as one 'error.' This will save you from the most common trap in data comparison questions.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

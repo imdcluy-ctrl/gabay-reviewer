@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-013",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PRAGMATIC'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Idealistic"
+      },
+      {
+        "key": "B",
+        "text": "Theoretical"
+      },
+      {
+        "key": "C",
+        "text": "Practical"
+      },
+      {
+        "key": "D",
+        "text": "Unrealistic"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, specifically your ability to recognize a synonym. A synonym is a word that means the same or nearly the same as another word. Think about what 'pragmatic' really means in everyday conversation."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's a simple rule: 'Pragmatic' describes someone who focuses on what works in the real world, not on abstract ideas or perfect ideals. It's about being sensible and results-oriented."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now, look at the options. Which one matches that 'what works in the real world' idea? 'Idealistic' is about perfect visions. 'Theoretical' is about ideas, not action. 'Unrealistic' is the opposite of sensible. Only one option fits."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Think of a 'pragmatic' person as someone who chooses the most effective solution, even if it's not perfect. The synonym you're looking for starts with 'P' and is all about getting things done. It's 'practical'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common trap. 'Idealistic' sounds like a sophisticated word, and it's easy to mix up with 'pragmatic'. But they are opposites. An idealist dreams of how things should be; a pragmatist deals with how things actually are. If you picked this, you might have been thinking of a word that sounds similar but has a very different meaning.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "This is another antonym trap. 'Theoretical' deals with concepts and possibilities, not real-world application. A pragmatist is all about application. If you chose this, you might have been drawn to the 'academic' feel of the word, but remember: pragmatic is about doing, not just thinking.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Practical' is the perfect synonym. Both words describe a focus on what is useful, effective, and realistic. A pragmatic solution is a practical one. Great job spotting the match.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This is a direct antonym. 'Unrealistic' means not grounded in reality, while 'pragmatic' is deeply grounded in reality. If you chose this, you might have been thinking of the opposite meaning by mistake. It's a good reminder to always read the question carefully and think about what the word means, not what it doesn't mean.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down. The word 'pragmatic' is all about being practical and realistic. A pragmatic person doesn't get lost in big dreams or abstract theories; they focus on what actually works in the real world. So, when you see a synonym question, your first job is to define the word in your own simple terms. Here, 'pragmatic' equals 'practical'. Now, look at the wrong answers. 'Idealistic' is about pursuing perfect ideals, which is the opposite of practical. 'Theoretical' is about ideas, not action. 'Unrealistic' is the direct opposite of realistic. All three are antonyms. The only option that matches the core meaning is 'practical'. Here's a mental trick for next time: think of the 'P' connection. 'Pragmatic' and 'Practical' both start with 'P' and both point to the same thing: getting real results. If you can link them by that first letter, you'll never confuse them with their opposites.",
+    "next_time_rule": "The 'P' Rule: 'Pragmatic' and 'Practical' both start with 'P' and both mean focusing on what works. If you see 'pragmatic', immediately think 'practical'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

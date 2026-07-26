@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-007",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A 20L disinfectant has 30% bleach. How many L of pure bleach to add for 50% bleach?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 L"
+      },
+      {
+        "key": "B",
+        "text": "6 L"
+      },
+      {
+        "key": "C",
+        "text": "8 L"
+      },
+      {
+        "key": "D",
+        "text": "10 L"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Current Bleach",
+        "text": "Currently, 30% of 20 L is bleach: 0.30 × 20 = 6 L of pure bleach."
+      },
+      {
+        "rung": 2,
+        "title": "Let x=added bleach",
+        "text": "After adding x L of pure bleach, total bleach = 6 + x, total volume = 20 + x. We want (6+x)/(20+x) = 0.50."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Multiply both sides by (20+x): 6+x = 10 + 0.5x → subtract 0.5x: 0.5x = 4 → x = 8."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "You need to add 8 L of pure bleach. Check: (6+8)/(20+8) = 14/28 = 0.50. Option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you took 20% of 20L, forgetting the volume increase and ignoring the existing bleach.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because you simply added the current bleach amount (6L) without accounting for the new total volume.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "Correct. Adding 8L of pure bleach yields 14L bleach in 28L total, exactly 50% concentration.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you took 50% of 20L as 10L and added that, ignoring the existing bleach.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** For mixture problems, set up (pure amount)/(total volume) = target concentration. Let x be the added pure substance.",
+    "blueprint_id": "Adding Bleach for Higher Concentration",
+    "deconstruct_text": "Sa barangay health center, si Kuya Jun ay naghahanda ng mas matapang na bleach solution (50%) mula sa 20L na 30% bleach. Kailangan niyang malaman kung ilang litro ng pure bleach ang idadagdag.\n\nUnahin ang kasalukuyang bleach: 30% ng 20L = 6L pure bleach. Hayaan ang idadagdag na pure bleach ay x liters. Pagkatapos magdagdag, ang kabuuang bleach = 6 + x, at kabuuang volume = 20 + x.\n\nGamitin ang desired concentration: (6 + x) / (20 + x) = 0.50. I-multiply both sides by (20+x): 6 + x = 10 + 0.5x. I-subtract ang 0.5x: 0.5x = 4. x = 8 liters. Kaya 8L ang kailangan.\n\n**Watch-Out Zone: wrong base %** in action: using 20L as base ignores added volume.\n\n**Mental Trick (Pinoy Style):** 'Pagdagdag ng pure substance, tandaan ang (Original + Add) / (Total + Add). Parang paglalagay ng asukal sa kapeng walang halo—mag-iiba ang tamis at dami!'",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

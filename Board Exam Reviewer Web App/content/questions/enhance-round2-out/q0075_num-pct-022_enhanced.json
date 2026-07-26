@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-022",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee contributes 9% of her P28,000 monthly salary to SSS/PhilHealth. How much is her monthly contribution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P2,250"
+      },
+      {
+        "key": "B",
+        "text": "P2,400"
+      },
+      {
+        "key": "C",
+        "text": "P2,520"
+      },
+      {
+        "key": "D",
+        "text": "P2,600"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang percentage",
+        "text": "Alamin: 9% ng P28,000 ang kontribusyon. 'Of' ay multiplication."
+      },
+      {
+        "rung": 2,
+        "title": "Gawing decimal ang 9%",
+        "text": "9% = 9/100 = 0.09. Tandaan: percent means per 100."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply ang decimal sa sweldo",
+        "text": "0.09 × P28,000. Pwede mong i-compute mentally: 9 × 28 = 252, tapos lalagyan ng decimal: 2,520."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: P2,520",
+        "text": "0.09 × 28,000 = 2,520. Kaya P2,520 ang buwanang kontribusyon."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 9% ng P25,000 ay P2,250 (maling base), hindi P28,000.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because ginamit mo ang 8% (o 9% ng maling figure) na nagbigay ng P2,400, imbes na 9% ng P28,000.",
+        "trap_type": "percent_vs_percentage_point"
+      },
+      "C": {
+        "text": "Correct. 9% of P28,000 is P2,520, dahil 0.09 × 28,000 = 2,520.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because nagdagdag ka ng P80 dahil sa maling multiply o rounding, pero 9% ng P28,000 ay P2,520 lang.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Tandaan: Para makuha ang percent ng sweldo, gawing decimal at i-multiply. 9% ng P28,000 = 0.09 × 28,000 = P2,520.",
+    "blueprint_id": "SSS/PhilHealth Contribution",
+    "deconstruct_text": "Si Kuya Jun, JO sa City Hall, may sweldong P28,000 at awtomatikong binabawasan ng 9% para sa SSS/PhilHealth. Paano nga ba i-compute ang monthly contribution niya?\n\nUna, gawing decimal ang 9%: 9% = 0.09. Tandaan, 'of' means multiply.\n\nI-multiply: 0.09 × P28,000 = P2,520. Yan ang kontribusyon.\n\n**Watch-Out Zone: wrong_base_percentage** in action. Huwag gamitin P25K; base ay P28K.\n\nKaya kapag may choices na P2,250 o P2,400, alam mong may maling base o rate. Tiwala lang sa tamang formula!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

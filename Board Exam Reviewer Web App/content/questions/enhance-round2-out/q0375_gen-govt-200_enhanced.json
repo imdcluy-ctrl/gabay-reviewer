@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-200",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "ASEAN Charter & Regional Integration Variant 1",
+    "difficulty_level": 2,
+    "question_text": "The Philippines is one of the 5 original founding member states of ASEAN (Association of Southeast Asian Nations). In what year was ASEAN established through the Bangkok Declaration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1967"
+      },
+      {
+        "key": "B",
+        "text": "1945"
+      },
+      {
+        "key": "C",
+        "text": "1987"
+      },
+      {
+        "key": "D",
+        "text": "1995"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

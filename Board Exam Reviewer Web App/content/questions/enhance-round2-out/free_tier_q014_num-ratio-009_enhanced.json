@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-009",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In an agency division, the ratio of permanent staff to casual staff is 4:3, and the ratio of casual staff to job order staff is 6:5. What is the ratio of permanent staff to job order staff?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:5"
+      },
+      {
+        "key": "B",
+        "text": "8:5"
+      },
+      {
+        "key": "C",
+        "text": "6:5"
+      },
+      {
+        "key": "D",
+        "text": "12:5"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Bridge",
+        "text": "You have two ratios that share a common group: casual staff. Think of casual staff as the bridge connecting permanent and job order staff. Your task is to find the direct link between permanent and job order."
+      },
+      {
+        "rung": 2,
+        "title": "The Matching Rule",
+        "text": "When you have A:B and B:C, you can't just grab numbers from each ratio. You need to make the 'B' values the same in both ratios first. This is like making sure you're comparing apples to apples."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Common Number",
+        "text": "In the first ratio, casual staff is represented by 3. In the second, it's 6. The smallest number that both 3 and 6 can become is 6. So multiply the first ratio by 2 to turn 3 into 6. What does that do to the permanent staff number?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "After scaling, you have permanent:casual = 8:6 and casual:job order = 6:5. Now that casual is 6 in both, you can combine them into one big ratio: permanent:casual:job order = 8:6:5. The direct ratio of permanent to job order is simply the first and last numbers."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very natural mistake. You saw 4 from the first ratio and 5 from the second, and your brain wanted to connect them directly. But the casual staff numbers are different (3 vs. 6), so you're comparing apples to oranges. You have to equalize the casual staff first before you can link permanent and job order.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "This is correct. By making the casual staff the same number in both ratios (6), you get permanent:casual = 8:6 and casual:job order = 6:5. Now you can see the direct relationship: for every 8 permanent staff, there are 5 job order staff.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "It's easy to grab the second ratio and think that's the answer, especially under time pressure. But 6:5 is the ratio of casual to job order, not permanent to job order. The question is asking for a different connection.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "This one comes from a creative but incorrect shortcut. You might have multiplied 4 and 3 from the first ratio to get 12, then paired it with 5 from the second. But ratios don't work that way. The correct approach is to scale the first ratio so the common term matches, not to multiply the parts within a single ratio.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "When connecting two ratios that share a common term, always equalize that common term first. Think of it as finding a common language so the two ratios can talk to each other. The LCM of the common term's values is your key.",
+    "blueprint_id": "Ratio and Proportion — combining continued ratios (A:B and B:C to find A:C)",
+    "deconstruct_text": "Let's walk through this step by step. We have two ratios: permanent to casual is 4:3, and casual to job order is 6:5. The casual staff is our bridge, but it's represented by different numbers (3 and 6). We need to make them the same.\n\nThe smallest number that both 3 and 6 can become is 6. So we multiply the first ratio by 2: 4:3 becomes 8:6. Now we have permanent:casual = 8:6 and casual:job order = 6:5. Since casual is now 6 in both, we can combine them into one big picture: permanent:casual:job order = 8:6:5.\n\nFrom here, the ratio of permanent to job order is simply the first and last numbers: 8:5.\n\nHere's a mental trick for next time: when you see A:B and B:C, always ask yourself 'What's the smallest number that can represent B in both ratios?' That's your LCM. Scale the first ratio to match, then read off A:C directly. It's like tuning two instruments to the same pitch before playing them together.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

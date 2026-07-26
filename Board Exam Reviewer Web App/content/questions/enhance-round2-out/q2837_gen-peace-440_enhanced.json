@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-440",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "The Indigenous People's Mandatory Representative (IPMR) of a municipality invokes the Indigenous Peoples Rights Act (IPRA) to stop a mining company from operating within an ancestral domain without the consent of the Indigenous Cultural Community (ICC). Which of the following best supports the IPMR's action?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The IPRA grants the ICC ownership of all mineral resources within their ancestral domain."
+      },
+      {
+        "key": "B",
+        "text": "The IPRA requires free, prior, and informed consent (FPIC) from the ICC before any project within ancestral domains."
+      },
+      {
+        "key": "C",
+        "text": "The IPRA gives the IPMR absolute veto power over any government project in the area."
+      },
+      {
+        "key": "D",
+        "text": "The IPRA allows the ICC to unilaterally cancel any existing mining permits."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3422",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

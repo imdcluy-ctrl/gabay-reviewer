@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-014",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "If 3 more than twice a number is 19, what is the number?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "I-translate sa math",
+        "text": "Let x = number of eggs. 'Twice' means 2x, '3 more than' means +3, 'is 19' means =19."
+      },
+      {
+        "rung": 2,
+        "title": "Buuin ang equation",
+        "text": "Equation: 2x + 3 = 19."
+      },
+      {
+        "rung": 3,
+        "title": "Subtract muna!",
+        "text": "Ibawas ang 3 sa magkabilang panig: 2x = 19 - 3 = 16."
+      },
+      {
+        "rung": 4,
+        "title": "Divide to get x",
+        "text": "Hatiin ang 2x = 16 sa 2. x = 8 itlog."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided 19 by 2 first, then subtracted 3, getting 6.5 and rounding down.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you mistakenly used 5 instead of 3, doing (19-5)/2 = 7.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. 2x+3=19 → 2x=16 → x=8. Exactly 8 eggs!",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you read '3 more' as '1 more,' doing (19-1)/2 = 9.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Kapag may 'more than,' unahin ang addition. Translation: 'twice' = 2x, 'more than' = +, 'is' =. Solve equation.",
+    "blueprint_id": "Translating to Algebra",
+    "deconstruct_text": "Alam mo 'yung feeling pag bumibili ng itlog sa palengke tapos nagbigay ng bugtong si Aling Nena? Ganito 'yan: Hayaan mong x ang bilang ng itlog.\n\n'Twice the number' o doble ng bilang ay 2x. Tapos '3 more than' ibig sabihin ay dinadagdagan ng 3, kaya 2x + 3. Ang sabi, 'is 19', kaya equation: 2x + 3 = 19.\n\nSolve natin: Ibawas ang 3 sa magkabilang panig — 2x = 16. Saka divide both sides by 2: x = 8. Ibig sabihin, 8 itlog ang binili mo.\n\nI-check: Doble ng 8 ay 16, dagdagan ng 3 ay 19. Sakto!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

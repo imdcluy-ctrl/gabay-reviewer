@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read the passage: 'Public accountability requires civil servants to perform duties with utmost integrity, efficiency, and dedication. Transparency in transactions ensures citizens maintain trust in government institutions.' What is the main idea of this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should receive higher salaries to maintain integrity."
+      },
+      {
+        "key": "B",
+        "text": "Public trust relies on accountable and transparent government service."
+      },
+      {
+        "key": "C",
+        "text": "Government transactions must be kept confidential to avoid public scrutiny."
+      },
+      {
+        "key": "D",
+        "text": "Efficiency is more important than integrity in public administration."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This passage has two sentences. Read them carefully and ask: what is the single big idea they both point to?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The main idea of a passage must cover the key points of every sentence. If an option only matches one sentence but ignores the other, it's too narrow."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "The first sentence talks about accountability and integrity. The second talks about transparency and trust. What connects them? Both are about building or keeping public trust."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Now look at the options. One directly says that public trust depends on accountability and transparency. The others either add something not in the passage or contradict it. Which one fits both sentences perfectly?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one might seem reasonable at first glance, but the passage never mentions salaries at all. It's a classic trap where your brain fills in an assumption that isn't there. Stick strictly to what the text actually says.",
+        "trap_type": "unstated_premise_error"
+      },
+      "B": {
+        "text": "Exactly right. This option perfectly captures the heart of both sentences: accountability and transparency working together to build public trust. It doesn't add anything extra or contradict the passage.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is the opposite of what the passage says. The text clearly states that transparency builds trust, meaning openness, not secrecy. If you picked this, you might have misread 'transparency' as something negative, but it's actually about being open and honest.",
+        "trap_type": "contradiction_error"
+      },
+      "D": {
+        "text": "This one creates a false choice between efficiency and integrity. The passage actually lists them together as equally important parts of accountability. The text never says one matters more than the other.",
+        "trap_type": "false_dichotomy_error"
+      }
+    },
+    "next_time_rule": "When hunting for the main idea, ask yourself: 'Does this option cover every sentence in the passage without adding anything new?' If it ignores a sentence or adds an assumption, it's not the main idea.",
+    "blueprint_id": "Reading Comprehension — Identifying Main Idea",
+    "deconstruct_text": "Let's break this down together. The passage gives you two connected ideas. First, accountability in civil service means acting with integrity, efficiency, and dedication. Second, transparency in how things are done helps citizens trust the government. Notice how both ideas lead to the same destination: public trust. That's your main idea. Now look at the options. Option A brings up salaries, which is a complete invention. Option C says the opposite of what the passage says about transparency. Option D pits efficiency against integrity, but the passage treats them as partners. Only Option B ties everything together neatly: public trust comes from accountability and transparency. A simple mental trick for next time: imagine you're explaining the passage to a friend in one sentence. That sentence is your main idea. If your sentence sounds like Option B, you've got it.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

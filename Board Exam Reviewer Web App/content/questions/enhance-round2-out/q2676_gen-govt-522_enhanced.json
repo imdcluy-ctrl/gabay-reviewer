@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-522",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-government",
+    "question_text": "Mara passed the Civil Service Exam and is now applying for a government position. She wants to know which type of eligibility she needs for a supervisory role that involves policy formulation. Which of the following correctly describes the difference between Sub-Professional and Professional eligibility?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sub-Professional eligibility qualifies one for all first-level positions, while Professional eligibility is required for second-level positions involving supervision and policy-making."
+      },
+      {
+        "key": "B",
+        "text": "Both eligibilities allow appointment to any position in the government, regardless of level."
+      },
+      {
+        "key": "C",
+        "text": "Professional eligibility is only for positions in the national government, while Sub-Professional is for local government units."
+      },
+      {
+        "key": "D",
+        "text": "Sub-Professional eligibility is for positions requiring a bachelor's degree, while Professional eligibility is for those with a master's degree."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3261",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

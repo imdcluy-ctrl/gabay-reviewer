@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-001",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long if both pumps work together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.4 hours"
+      },
+      {
+        "key": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "key": "C",
+        "text": "5.0 hours"
+      },
+      {
+        "key": "D",
+        "text": "10.0 hours"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alamin ang rate ng bawat pump",
+        "text": "Rate = bahagi ng trabaho kada oras. Pump A: 1/4, Pump B: 1/6. Parang dalawang gripo na sabay binubuksan."
+      },
+      {
+        "rung": 2,
+        "title": "Pagsamahin ang rates (add fractions)",
+        "text": "1/4 + 1/6 = 3/12 + 2/12 = 5/12. Ibig sabihin, 5/12 ng tangke ang napupuno nila sa isang oras."
+      },
+      {
+        "rung": 3,
+        "title": "Kunin ang oras sa pamamagitan ng reciprocal",
+        "text": "Oras = 1 / (combined rate) = 1 / (5/12) = 12/5 = 2.4 oras. Tandaan: I-flip mo lang ang fraction."
+      },
+      {
+        "rung": 4,
+        "title": "Iwasan ang mga distractor traps!",
+        "text": "Huwag i-average (C), i-half ang average (B), o i-add ang oras (D). Laging rate muna bago oras."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Combined rate = 1/4+1/6=5/12 per hour, so time = 12/5 = 2.4 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you averaged the times and halved again, giving 2.5, but work rates don't add that way.",
+        "trap_type": "average_of_times_fallacy"
+      },
+      "C": {
+        "text": "You might have chosen C because you averaged 4 and 6 to get 5, but combined work uses harmonic mean, not arithmetic.",
+        "trap_type": "average_of_times_fallacy"
+      },
+      "D": {
+        "text": "You might have chosen D because you added times (4+6=10), thinking together takes longer, but combined rates make it faster.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "Sa work problems, kunin ang rate (trabaho/ oras), i-add, tapos i-reciprocal. 'Wag mag-average o mag-add ng oras!",
+    "blueprint_id": "Combined Work Formula",
+    "deconstruct_text": "Isipin mo ‘yung water reservoir ng barangay, ‘yung malaking tangke sa plaza. Kapag si Pump A lang, 4 oras bago mapuno. Si Pump B naman, 6 oras. Kapag pinagsabay mo sila, parang dalawang kaibigang nagtutulungan – mas mabilis ‘di ba? Ang tanong: ilang oras kung sabay?\n\nUna, kunin natin ang rate. Rate = parte ng trabaho kada oras. Si A: 1/4 ng tangke kada oras. Si B: 1/6 ng tangke. Kapag pinagsama: 1/4 + 1/6 = 5/12 ng tangke ang napupuno nila sa isang oras. So mas mabilis.\n\nAng oras na kailangan para mapuno ng buo ay ang reciprocal ng combined rate: 12/5 = 2.4 oras. Kaya ang sagot ay 2.4 oras.\n\n**Watch-Out Zone: average_of_times_fallacy** in action. Maling average: (4+6)/2=5, kala...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

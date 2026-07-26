@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-nseries-002",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "question_text": "Find the next: 2, 6, 18, 54, __",
+    "options": [
+      {
+        "key": "A",
+        "text": "108"
+      },
+      {
+        "key": "B",
+        "text": "144"
+      },
+      {
+        "key": "C",
+        "text": "162"
+      },
+      {
+        "key": "D",
+        "text": "216"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Ratio",
+        "text": "Dividin mo ang kasunod sa nauna: 6 ÷ 2 = 3. Pareho ba sa ibang terms? Check mo 18 ÷ 6, 54 ÷ 18."
+      },
+      {
+        "rung": 2,
+        "title": "Geometric 'To, Bes!",
+        "text": "Oo, pare-pareho 3. Geometric sequence ito na may common ratio r = 3. Kada hakbang, multiply by 3."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply Lang",
+        "text": "Para sa susunod na term, i-multiply mo ang huling given (54) sa ratio (3): 54 × 3 = ?"
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 162",
+        "text": "54 × 3 = 162. Kaya piliin ang C. 'Wag padadaya sa ibang multiplier gaya ng 2 o 4."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you multiplied 54 by 2, thinking the pattern is doubling instead of tripling.",
+        "trap_type": "sequence_pattern_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because you added 90 to 54, mistaking the multiplicative pattern for an additive one.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct. 54 times 3 gives 162.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you multiplied 54 by 4, confusing the ratio with the term's position.",
+        "trap_type": "sequence_pattern_inversion"
+      }
+    },
+    "next_time_rule": "Key Takeaway: Sa geometric sequence, hanapin ang common ratio sa pag-divide ng magkasunod. Tapos multiply lang sa last term para sa next.",
+    "blueprint_id": "Geometric Sequence",
+    "deconstruct_text": "Si Aling Nena sa palengke ay nagtitinda ng bigas. Lunes, 2 kilo; Martes, 6; Miyerkules, 18; Huwebes, 54. Pansinin: bawat araw, triple ang dami kumpara kahapon. Ibayong tawag dito: geometric sequence na may common ratio r = 3.\n\nPara malaman ang susunod sa Biyernes, i-multiply ang huling term (54) sa ratio (3): 54 × 3 = 162. Kaya ang sagot ay 162, letrang C.\n\nMental Trick: \"'Pag nakakita ka ng seryeng parang nagmu-multiply, hanapin mo ang ratio, bes! Divide mo lang ang kasunod sa nauna—6 ÷ 2 = 3, 18 ÷ 6 = 3—at sunod-sunod na 'yan. Multiply lang nang multiply para sa susunod!\" (Taglish memory hook)\n\nMga maling akala: 108 (akala mo ×2), 144 (nagdagdag ng 90 imbes na multiply), 216 (×4 naman). Ang sikreto: hanapin muna ang totoong common ratio bago sumagot.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

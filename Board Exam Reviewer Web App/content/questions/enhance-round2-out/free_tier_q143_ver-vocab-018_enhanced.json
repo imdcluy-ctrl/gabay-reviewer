@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-018",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym for 'JURISDICTION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Authority"
+      },
+      {
+        "key": "B",
+        "text": "Weakness"
+      },
+      {
+        "key": "C",
+        "text": "Limitation"
+      },
+      {
+        "key": "D",
+        "text": "Uncertainty"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the root",
+        "text": "Jurisdiction comes from Latin words meaning 'to speak the law.' Picture a judge in a courtroom—what does that judge have the power to do?"
+      },
+      {
+        "rung": 2,
+        "title": "The core idea",
+        "text": "Jurisdiction is all about having the official power or right to make decisions, especially legal ones. It's not about being weak or limited."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the opposites",
+        "text": "Three of these options are negative ideas—weakness, limitation, uncertainty. Jurisdiction is a positive concept about having control and power. Which option matches that positive idea?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "If a court has jurisdiction over a case, it has the authority to hear it. Authority is the direct synonym you're looking for."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Jurisdiction means the official authority to make legal decisions and judgments. 'Authority' is a perfect synonym—think of a judge having the authority to preside over a case.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Not quite. 'Weakness' is actually the opposite of jurisdiction. Jurisdiction is about having power and control, not lacking it. A smart test-taker might pick this if they misread the question as asking for an antonym instead of a synonym.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Close but not right. 'Limitation' is something that restricts jurisdiction, not a synonym for it. For example, a court might have jurisdiction only over certain types of cases—that limitation defines the scope, but it's not the same as jurisdiction itself.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Not correct. 'Uncertainty' is unrelated to jurisdiction. In fact, jurisdiction provides clarity by establishing who has the power to decide something. If you picked this, you might have been thinking of a different word entirely.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "When you see 'jurisdiction,' immediately think 'authority.' Use the judge test: if a judge has jurisdiction over a case, they have the authority to hear it. If an option means the opposite of power or control, it's not a synonym.",
+    "blueprint_id": "Vocabulary — Jurisdiction",
+    "deconstruct_text": "Let's break this down in a way that sticks. Jurisdiction comes from Latin roots: 'juris' meaning law, and 'dictio' meaning to say or declare. So literally, it means 'to speak the law.' That's why we use it to describe the official power someone has to make legal decisions. Now, look at the options. Authority is the only one that captures that sense of power and control. Weakness is the direct opposite—if you have jurisdiction, you're not weak. Limitation is something that might restrict jurisdiction, but it's not the same thing. And uncertainty? That's just a different concept entirely. Here's a mental trick for next time: whenever you see 'jurisdiction,' picture a judge in a courtroom. That judge has the authority to hear cases, make rulings, and deliver judgments. That authority is jurisdiction. So the synonym is always going to be about power, control, or official right—never about weakness, restriction, or doubt.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-001",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "An employee typed 450 words in 15 minutes. What is her words-per-minute (WPM) rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "28"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a rate problem. You're being asked how many words the employee types in one minute. Think of it as splitting the total work evenly across each minute."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "To find a rate per minute, divide the total amount by the total minutes. The formula is: Rate = Total Words divided by Total Minutes."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Plug in the numbers: 450 words divided by 15 minutes. You can simplify by dividing both numbers by 5 first: 90 divided by 3. Or just do the division directly."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "450 divided by 15 equals 30. To double-check, multiply 30 by 15. Does it give you 450? Yes. So the answer is the option that says 30."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you misread the time as 18 minutes instead of 15, since 450 divided by 18 is 25. Or maybe you divided by a different number by accident. The key is to always double-check your division by multiplying back: 25 times 15 is only 375, not 450.",
+        "trap_type": "division_error"
+      },
+      "B": {
+        "text": "28 feels like a plausible middle ground, but it doesn't come from a clean division of 450 by any whole number. You might have rounded down from 450 divided by 16 (which is about 28.125), or just guessed. Trust the math: 28 times 15 is 420, which is short by 30 words.",
+        "trap_type": "rounding_error"
+      },
+      "C": {
+        "text": "Correct! 450 words divided by 15 minutes gives exactly 30 words per minute. You can verify by multiplying: 30 times 15 equals 450. Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 is too high. If the employee typed 35 words per minute, in 15 minutes she would have typed 525 words (35 times 15), which is 75 words more than the given total. This mistake might come from dividing 450 by 13 (which is about 34.6) and rounding up, or from accidentally adding instead of dividing.",
+        "trap_type": "division_error"
+      }
+    },
+    "next_time_rule": "When finding a rate per minute, always divide the total by the number of minutes. Then do a quick sanity check: multiply your answer by the minutes to see if you get back to the total. If it doesn't match, you know something's off.",
+    "blueprint_id": "Words Per Minute Calculation",
+    "deconstruct_text": "Let's walk through this together. The question gives us two key numbers: 450 total words and 15 total minutes. We want to know how many words are typed in just one minute. That's the definition of a rate: something per unit of time. So we divide: 450 divided by 15. If you're not comfortable with that division, try breaking it down. Both 450 and 15 are divisible by 5, so divide each by 5: you get 90 and 3. Now 90 divided by 3 is much easier: it's 30. Or you can think of it as: 15 times what number equals 450? 15 times 30 is 450, so the answer is 30. That's option C. A great mental trick for rate problems like this is to ask yourself: 'If I multiply my answer by the time, do I get back the total?' If yes, you're golden. If no, you've made a mistake somewhere.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

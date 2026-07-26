@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-004",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FILIPINO is to FILIPINOS as CITIZEN is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Country"
+      },
+      {
+        "key": "B",
+        "text": "Nationality"
+      },
+      {
+        "key": "C",
+        "text": "Citizens"
+      },
+      {
+        "key": "D",
+        "text": "People"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano'ng nagbago?",
+        "text": "Sa unang pares, FILIPINO ay naging FILIPINOS. From isa to marami. Iyon ang clue: singular to plural."
+      },
+      {
+        "rung": 2,
+        "title": "Simple lang ang rule",
+        "text": "Kapag singular to plural, madalas magdagdag ng 's'. Kaya ang tanong: Ano ang plural ng 'citizen'?"
+      },
+      {
+        "rung": 3,
+        "title": "Subukan mong i-apply",
+        "text": "Dagdagan ng 's' ang CITIZEN. Anong salita ang makukuha? Siguradong nasa choices iyan."
+      },
+      {
+        "rung": 4,
+        "title": "Malapit na ang sagot",
+        "text": "Ang plural ng 'citizen' ay 'citizens'. Hanapin mo ang eksaktong match. Iwasan ang mga kasing-kahulugan o related na salita."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you linked citizen to country, which is a place, not the plural. The pattern is about word form, not asso...",
+        "trap_type": "semantic_shift_trap"
+      },
+      "B": {
+        "text": "You might have chosen B because nationality relates to citizenship, but it's an abstract concept, not the plural. Focus on the exact word...",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "Correct. 'Citizens' is the plural of 'citizen', just as 'Filipinos' is the plural of 'Filipino'. The relationship is a simple singular-to...",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'people' is a group term, but it's not the specific plural of 'citizen'. The analogy looks for the exact ...",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "In singular-plural analogies, ask: 'Ano ang direct plural ng noun?' Ignore related ideas. The answer is always the precise plural form.",
+    "blueprint_id": "Part-Whole (Singular-Plural)",
+    "deconstruct_text": "Okay, tingnan natin ito nang mas malapit. Sa unang pares, FILIPINO (isang tao) nagiging FILIPINOS (maraming tao). Pattern: singular to plural. Sa ikalawang pares, CITIZEN (singular) – ano ang plural? Syempre, 'citizens'!\n\nIto ay parang sa isang palengke: isang 'suki' (regular customer) ay nagiging 'mga suki' (many regulars). Hindi mo sasabihing 'palengke' o 'tiangge' – kasi nasa lugar, hindi sa bilang ng tao. Dito, 'citizens' lang talaga ang tamang plural. Kaya ang sagot ay C.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

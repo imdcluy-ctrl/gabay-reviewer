@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-011",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ELUCIDATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confuse"
+      },
+      {
+        "key": "B",
+        "text": "Complicate"
+      },
+      {
+        "key": "C",
+        "text": "Clarify"
+      },
+      {
+        "key": "D",
+        "text": "Obscure"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, specifically your ability to find a word that means the same as 'elucidate'. Don't overthink it—just focus on what each word means."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "A synonym is a word that shares the same or nearly the same meaning as another word. So you're looking for the option that matches 'elucidate' in meaning, not one that is opposite or unrelated."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Think about the core meaning of 'elucidate': it means to make something clear or to explain. Now look at the options. Which one also means to make clear? 'Clarify' is the one that fits perfectly."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Here's a trick: 'elucidate' contains the word 'lucid,' which means clear. So 'elucidate' = to make lucid or clear. The only option that means 'to make clear' is 'clarify.' The others—confuse, complicate, obscure—all mean the opposite."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to see why someone might pick 'confuse' if they misread the word or thought it sounded similar. But 'confuse' means to make unclear or cause bewilderment, which is the exact opposite of what 'elucidate' does. This is a classic trap where the brain reaches for a word that feels familiar but is actually an antonym.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Complicate' might seem like a reasonable choice if you think 'elucidate' involves a complex process. But it actually means to make something more difficult or intricate, which is the reverse of making it clear. This trap catches students who confuse the act of explaining with the act of adding complexity.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Clarify' is a direct synonym of 'elucidate.' Both words mean to make something clear, understandable, or free from confusion. If you remember that 'lucid' means clear, you'll never miss this one.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Obscure' is another antonym trap. It means to hide, make vague, or keep from being understood. A student might pick this if they confuse 'elucidate' with words like 'elude' (to escape) or if they just guess based on sound. But remember: 'elucidate' is about bringing light, not darkness.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see an unfamiliar word, break it into parts. 'Elucidate' comes from 'e-' (out) and 'lucid' (clear). So it literally means 'to bring clarity out.' Look for answer choices that share that idea of making things clear or explaining. If an option means the opposite—like confuse or obscure—it's a trap.",
+    "blueprint_id": "Vocabulary — Elucidate",
+    "deconstruct_text": "Let's walk through this together. The word 'elucidate' might look intimidating at first, but it's actually built from a very simple root. The core is 'lucid,' which means clear or easy to understand. Think of someone who is 'lucid'—they speak clearly and make sense. Now add the prefix 'e-,' which means 'out' or 'thoroughly.' So 'elucidate' literally means to bring clarity out, or to make something clear. Now look at the options. 'Confuse' means to make unclear—that's the opposite. 'Complicate' means to make more complex—also the opposite. 'Obscure' means to hide or make vague—again, the opposite. Only 'clarify' matches the meaning of making something clear. Here's a mental trick for next time: whenever you see a word with 'lucid' in it, think 'clear.' Then ask yourself: does this option help make things clear, or does it do the opposite? That simple test will guide you to the right answer every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

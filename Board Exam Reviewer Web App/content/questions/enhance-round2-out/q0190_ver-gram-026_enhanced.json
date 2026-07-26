@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-026",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'Neither the president nor the board members ___ in favor of the proposal.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This sentence uses the 'neither...nor' pairing. The verb doesn't just follow the first subject—it agrees with the subject closest to it."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "With 'neither...nor', the verb agrees with the subject nearest to it. Isipin mo parang mas pinapakinggan ng verb 'yung pinakamalapit na subject."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Subjects: 'the president' (singular) and 'the board members' (plural). Ang verb malapit sa 'board members', kaya plural dapat."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Options: 'is', 'was', 'has been' are singular. Only 'are' is plural. Match sa plural 'board members'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'president' is singular, but 'neither...nor' makes the verb agree with the nearer plural 'board members'.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Are' agrees with the plural 'board members' nearest the verb, per the 'neither...nor' rule.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'was' is a verb, but it's singular and past tense—the verb must be plural present to agree with 'board me...",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "D": {
+        "text": "You might have chosen D because 'has been' sounds formal, but it's singular and perfect tense; the sentence needs a simple plural present...",
+        "trap_type": "subject_verb_agreement_misled"
+      }
+    },
+    "next_time_rule": "For 'neither...nor' or 'either...or', the verb agrees with the nearest subject. Ignore the other subject—it's the malapit, not malayo.",
+    "blueprint_id": "Subject-Verb — Neither/Nor Rule",
+    "deconstruct_text": "Imagine a barangay budget meeting: 'Neither the captain nor the councilors ___ in favor.' The blank verb needs to match the subject right next to it. Ganito ang turo ni Ate: huwag kang magpa-pressure sa unang subject.\n\nWith 'neither...nor', the verb agrees with the subject closest to it. Dito, 'councilors' (plural) ang malapit, kaya plural verb. Options: 'is' (singular), 'are' (plural), 'was' (past singular), 'has been' (present perfect singular). 'Are' lang ang plural.\n\nMental trick: Isipin ang verb bilang batang makulit na sumusunod lang sa pinakamalapit na tao—hindi sa nasa dulo ng 'neither...nor'. Kaya sagot: 'are'. Pag nakasimba ka ng ganitong tanong, yung pinakamalapit lang ang paniwalaan.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

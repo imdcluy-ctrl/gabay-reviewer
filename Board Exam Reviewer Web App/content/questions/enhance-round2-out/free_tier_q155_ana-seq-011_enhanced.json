@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-011",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Sequence 1: Find the next: A, C, E, G, ___",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "I"
+      },
+      {
+        "key": "C",
+        "text": "J"
+      },
+      {
+        "key": "D",
+        "text": "K"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the gaps",
+        "text": "Notice how each letter jumps to the next. Is it moving one step at a time, or skipping some letters along the way?"
+      },
+      {
+        "rung": 2,
+        "title": "The skip rule",
+        "text": "From A to C, you skip B. From C to E, you skip D. From E to G, you skip F. So every time, you're moving two letters forward in the alphabet. That's your pattern."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the pattern",
+        "text": "Start at G. If you move two letters forward, you go to H (that's one), then to I (that's two). So the next letter in the sequence is I."
+      },
+      {
+        "rung": 4,
+        "title": "You've got it",
+        "text": "The pattern is consistent: add 2 each time. G plus 2 gives you I. That's option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "H is the very next letter after G, so it's a natural guess if you think the sequence just goes one by one. But look again: A to C skipped B, C to E skipped D, so the pattern actually skips one letter each time. H would only be correct if the pattern were +1, not +2.",
+        "trap_type": "skip_interval_error"
+      },
+      "B": {
+        "text": "Correct. The pattern adds 2 each time: A (1) to C (3), C to E (5), E to G (7), and G (7) to I (9). You're skipping one letter consistently, so I is the next logical term.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "J is three letters after G (G to H is 1, H to I is 2, I to J is 3). That would mean the pattern changed to +3, but the sequence has been steadily adding 2 the whole time. Stick with the consistent skip.",
+        "trap_type": "skip_interval_error"
+      },
+      "D": {
+        "text": "K is four letters after G. That's a +4 jump, which is much bigger than the +2 pattern we've seen. It's easy to miscount when you're rushing, but always double-check the gap between the first few terms to find the real rhythm.",
+        "trap_type": "skip_interval_error"
+      }
+    },
+    "next_time_rule": "For letter sequences, find the skip interval by comparing the first two terms. Count the letters you pass over: A to C skips B, so the interval is +2. Then just keep adding that same number. A quick trick: assign numbers to letters (A=1, B=2, etc.) and treat it like a number pattern.",
+    "blueprint_id": "Sequence Series 1",
+    "deconstruct_text": "Let's walk through this together. The sequence is A, C, E, G. The first thing to notice is that these aren't consecutive letters. A to C jumps over B, C to E jumps over D, and E to G jumps over F. So every step moves two letters forward in the alphabet. That's a consistent +2 pattern. Now, starting from G (the 7th letter), add 2: that brings you to the 9th letter, which is I. So the next term is I. A quick mental trick for these problems: assign each letter a number (A=1, B=2, C=3, and so on). Then the sequence becomes 1, 3, 5, 7. It's just odd numbers! The next odd number after 7 is 9, which is I. This number trick works for any letter sequence and makes spotting the pattern much faster under time pressure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

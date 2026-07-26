@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-nseries-001",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "question_text": "Find the next: 3, 7, 11, 15, 19, __",
+    "options": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "22"
+      },
+      {
+        "key": "C",
+        "text": "23"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Common Difference",
+        "text": "Hanapin ang difference: 7-3=4, 11-7=4, 15-11=4, 19-15=4. Pare-pareho ang 4, kaya 'yan ang common difference."
+      },
+      {
+        "rung": 2,
+        "title": "Arithmetic Sequence",
+        "text": "Kapag constant ang difference, arithmetic sequence 'yan. Ang formula: a_n = a_1 + (n-1)d, pero mas madali, add lang ang d sa huli."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Next Term",
+        "text": "Huling term ay 19. I-add ang common difference: 19 + 4 = ?. Simple lang, parang pagbilang ng steps."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "19 + 4 = 23. Kaya ang sagot ay 23, na nasa Option C. Tama, guaranteed!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen 21 because you added 2 instead of 4, but the real difference is 4.",
+        "trap_type": "wrong_common_difference"
+      },
+      "B": {
+        "text": "You might have chosen 22 because you mistakenly added 3 to 19, but the constant addition is 4.",
+        "trap_type": "addition_error"
+      },
+      "C": {
+        "text": "Correct. The constant addition of 4 makes the next term 23 (19+4).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen 24 because you added 5, thinking the pattern changed, but it's always +4.",
+        "trap_type": "addition_error"
+      }
+    },
+    "next_time_rule": "Next time: Una, hanapin ang common difference. Kung pare-pareho, arithmetic sequence — add mo lang 'yun sa huling term para makuha ang susunod. Simple!",
+    "blueprint_id": "Arithmetic Sequence",
+    "deconstruct_text": "Si Barangay Tanod Rolly, consistent mag-ipon. Monday, ₱3; Tuesday, ₱7; Wednesday, ₱11; Thursday, ₱15; Friday, ₱19. Pansinin mo, laging dagdag na ₱4 bawat araw. Ibig sabihin, arithmetic sequence ito na may common difference na 4.\n\nPara malaman ang savings sa Saturday, i-add mo lang ang common difference sa huling halaga: ₱19 + ₱4 = ₱23. Kaya ang sagot ay ₱23. Ang dali, 'di ba? Parang pagbilang ng hakbang, step by step lang.\n\nKapag nakakita ka ng sequence na pare-pareho ang dagdag o bawas, arithmetic 'yan. Huwag ka nang maguluhan sa ibang pattern. Siguradong tama ang sagot mo kung mag-add ka lang ng difference sa huling term.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

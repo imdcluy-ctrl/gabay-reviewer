@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-200",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Seating Arrangement & Spatial Order Variant 1",
+    "difficulty_level": 3,
+    "question_text": "Five council members (A, B, C, D, E) sit in a row. C sits next to D. B sits at the extreme left end. E sits next to B. A sits at the extreme right end. Who sits in the EXACT MIDDLE position?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D (or C depending on arrangement)"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "E"
+      },
+      {
+        "key": "D",
+        "text": "A"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a classic seating arrangement puzzle. The key is to start by locking in the positions that are absolutely certain before worrying about the flexible ones. Think of it like building a house: you need a solid foundation first."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Always place the fixed endpoints first. Here, B is at the extreme left and A is at the extreme right. That gives you two solid anchors. Then, use the 'next to' clues to fill in the seats adjacent to those anchors."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "With B at position 1 and A at position 5, ask: who must sit next to B? That's E, so E goes to position 2. Now, positions 3 and 4 are left for C and D. The clue 'C sits next to D' is automatically true if they take these two spots. So the middle seat (position 3) is either C or D."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You've placed everyone except the order of C and D in the middle two seats. The exact middle of a 5-seat row is position 3. Since we don't know whether C or D is in that spot, the correct answer must acknowledge both possibilities. Look for the option that says 'D or C.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is correct. The full arrangement is B - E - (C or D) - (D or C) - A. The middle seat, position 3, is occupied by either C or D, so saying 'D (or C depending on arrangement)' perfectly captures the situation. Well done for recognizing that the puzzle doesn't give us enough info to pin down the exact person, only the pair.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "B is at the extreme left end, seat 1, not the middle. It's easy to glance at a list and assume the first name mentioned is in the center, but the problem clearly states B is at the left end. A good trick: whenever you see 'extreme left' or 'extreme right,' immediately mark those seats as taken and move on.",
+        "trap_type": "extreme_end_confusion"
+      },
+      "C": {
+        "text": "E sits next to B, but since B is at the far left, E ends up in seat 2, not the middle. This mistake often happens when someone forgets that 'next to B' means the seat immediately beside B, which is seat 2, not seat 3. Always double-check adjacency clues after placing the ends.",
+        "trap_type": "adjacent_position_error"
+      },
+      "D": {
+        "text": "A is at the extreme right end, seat 5, not the middle. This is the mirror image of the B trap. It's tempting to think 'A is important, so A must be in the middle,' but the problem explicitly puts A at the right end. Trust the given clues over your assumptions.",
+        "trap_type": "extreme_end_confusion"
+      }
+    },
+    "next_time_rule": "In seating puzzles, always lock down the fixed ends first. Then, use 'next to' clues to fill adjacent seats. The middle position reveals itself only after you've placed everything else. If a clue leaves two possibilities, the correct answer will often acknowledge that ambiguity.",
+    "deconstruct_text": "Let's walk through this step by step, like we're arranging chairs for a meeting. We have five seats in a row, numbered 1 (leftmost) to 5 (rightmost). First, the problem gives us two solid anchors: B sits at the extreme left end, so B is in seat 1. A sits at the extreme right end, so A is in seat 5. Now, E sits next to B. Since B is at the very end, the only seat next to B is seat 2. So E goes there. That leaves seats 3 and 4 for C and D. The clue says C sits next to D, which is automatically true if they take these two adjacent seats. We don't know if the order is C then D, or D then C, but either way, the middle seat of the row (position 3) is occupied by one of them. So the person in the exact middle is either C or D. The mental trick here is what I call the 'Anchor and Adjacent' method: fix the unmovable pieces first, then let the flexible clues fill in the gaps. This prevents you from getting lost in hypothetical arrangements.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

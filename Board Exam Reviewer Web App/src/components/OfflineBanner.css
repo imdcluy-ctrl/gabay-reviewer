@@ -1,0 +1,25 @@
+.offline-banner {
+  background-color: var(--color-brand-gold);
+  color: #1A1D23;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--size-xs);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: var(--shadow-sm);
+  animation: slideDown 200ms ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

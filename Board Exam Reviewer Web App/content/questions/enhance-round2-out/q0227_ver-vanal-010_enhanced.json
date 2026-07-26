@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-010",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "WATER is to THIRST as FOOD is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hunger"
+      },
+      {
+        "key": "B",
+        "text": "Taste"
+      },
+      {
+        "key": "C",
+        "text": "Cook"
+      },
+      {
+        "key": "D",
+        "text": "Eat"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Relasyon: Remedyo-Prob",
+        "text": "Tubig ay panlaban sa uhaw. Ang pattern ay 'remedy : problem'. Ano ang problemang sinosolve ng pagkain?"
+      },
+      {
+        "rung": 2,
+        "title": "Gutom ang sagot",
+        "text": "Pagkain ay sagot sa gutom. Parallel lang: WATER : THIRST, FOOD : HUNGER. Isipin mo laging basic need."
+      },
+      {
+        "rung": 3,
+        "title": "Distractor Check",
+        "text": "I-check ang choices: Taste (sensory lang), Cook (aksyon), Eat (aksyon). Wala silang 'problem' na niremedyuhan. Hunger lang ang tugma."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "Tamang sagot: Hunger. Kumpirmado: Tubig–Uhaw :: Pagkain–Gutom. Remedyo sa problema, basic survival needs."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Food satisfies hunger, just as water quenches thirst—the remedy-to-problem relationship holds.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because 'Taste' is associated with food, but it’s not the problem that food solves; it’s a sensory quality.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "You might have chosen C because 'Cook' relates to food preparation, but the analogy asks for the need, not an action.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "D": {
+        "text": "You might have chosen D because 'Eat' is the act of consuming food, but the analogy requires the need that food remedies.",
+        "trap_type": "literal_meaning_misinterpretation"
+      }
+    },
+    "next_time_rule": "Kapag analogy, hanapin ang 'remedy : problem' pattern. Tubig sa uhaw; pagkain sa gutom. Alalahanin ang basic need.",
+    "blueprint_id": "Remedy-Problem",
+    "deconstruct_text": "Isipin mo sa local na scenario: mainit na araw sa palengke, bumili ka ng ice-cold buko juice—ayun, panlaban sa uhaw. Parang ganyan din ang pagkain: kapag gutom ka, hahanap ka ng kanin at ulam. Pareho silang remedyo sa problema.\n\nKaya sa analogy, WATER:THIRST ay remedy:problem. FOOD:HUNGER din. Ang choices na Taste, Cook, Eat—mga katangian o aksyon lang 'yan, hindi ang core need. Kaya A ang sagot.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

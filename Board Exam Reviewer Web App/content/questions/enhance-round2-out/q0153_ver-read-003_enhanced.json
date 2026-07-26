@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-003",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'Despite the city's efforts to improve traffic flow, congestion has worsened over the past year. The number of registered vehicles increased by 15%, while road capacity grew by only 3%.' What can be inferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Traffic will improve next year."
+      },
+      {
+        "key": "B",
+        "text": "Road capacity increased faster than vehicles."
+      },
+      {
+        "key": "C",
+        "text": "Vehicle growth outpaced road infrastructure."
+      },
+      {
+        "key": "D",
+        "text": "The city did nothing about traffic."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Key Numbers",
+        "text": "Look at the two percentages in the passage. One is about vehicles, the other about road capacity. Which one is bigger?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Inferences",
+        "text": "An inference is a logical conclusion based on facts given. You don't guess or predict the future. You just connect the dots from what's already there."
+      },
+      {
+        "rung": 3,
+        "title": "Connect the Dots",
+        "text": "Vehicles up 15%, roads up 3% means more cars, little extra space. So what does that tell you about vehicle vs. road growth?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The correct answer is the one that says vehicles grew faster than roads could keep up. Look for the option that matches that idea exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you assumed the effort would eventually pay off, but future predictions aren't inferences from given data.",
+        "trap_type": "unsupported_prediction"
+      },
+      "B": {
+        "text": "You might have chosen B because you flipped the numbers, but 15% growth in vehicles is clearly larger than 3% in road capacity.",
+        "trap_type": "reversed_comparison"
+      },
+      "C": {
+        "text": "Correct. Vehicle growth of 15% outpaced the small 3% increase in road capacity, leading to worse congestion.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you missed the phrase 'despite the city's efforts,' which shows they did take action.",
+        "trap_type": "contradicts_explicit_text"
+      }
+    },
+    "next_time_rule": "Sa inference, facts lang gamitin. Walang hula. Tanong: 'Alin ang mas mabilis?' dito. Pagkumpara, sagot agad.",
+    "blueprint_id": "Inference — Traffic Congestion",
+    "deconstruct_text": "Tara! Isipin mo sa EDSA: sasakyan dumami 15%, pero kalsada lumawak lang 3%. Mas marami ang sasakyan kaysa dagdag na kalsada. Kaya tamang inference: **C: Vehicle growth outpaced road infrastructure**.\n\nWag malito: A—future? Wala tayong data; B—baligtad numbers; D—may 'despite the city's efforts' naman. Mental trick: 'Alin ang mas mabilis?' Dito, sasakyan ang mas mabilis dumami, kalsada mabagal, kaya outpace. Easy!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

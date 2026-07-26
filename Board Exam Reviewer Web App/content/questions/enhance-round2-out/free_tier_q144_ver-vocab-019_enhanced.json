@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-019",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'TRANSPARENT' mean in a government context?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secretive"
+      },
+      {
+        "key": "B",
+        "text": "Hidden"
+      },
+      {
+        "key": "C",
+        "text": "Open and accountable"
+      },
+      {
+        "key": "D",
+        "text": "Confusing"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Word",
+        "text": "Think of a clear glass window. You can see right through it, nothing is blocked or hidden. That's the literal meaning of 'transparent'—and the figurative meaning works the same way."
+      },
+      {
+        "rung": 2,
+        "title": "The Government Twist",
+        "text": "When we talk about government being transparent, we mean that citizens can see what's happening. Decisions are made in the open, information is shared, and officials can be held responsible."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Opposites",
+        "text": "Three of these options are actually the opposite of transparent. Look for words that mean 'hidden,' 'unclear,' or 'closed off.' Once you eliminate those, only one option remains."
+      },
+      {
+        "rung": 4,
+        "title": "The Final Clue",
+        "text": "The correct answer combines two ideas: being open (so people can see what's happening) and being accountable (so people can ask questions and expect honest answers)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a classic trap—it's the exact opposite of transparent. If you chose this, you might have mixed up the word with something like 'covert' or 'undercover.' Remember, transparent means letting light through, not keeping things in the dark.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Another easy mix-up. 'Hidden' is the opposite of what transparent means. It's like confusing a clear window with a locked door. In government, transparency is about making information visible, not concealing it.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Exactly right. In government, transparency means that operations are open for everyone to see, and officials are answerable for their actions. Think of it as 'sunshine in government'—nothing is kept in the shadows.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is tricky because 'confusing' might seem related to 'not clear,' but transparent actually means the opposite—crystal clear and easy to understand. If something is transparent, there's no confusion at all.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'transparent' in a government context, immediately think 'open and accountable.' A simple mental shortcut: transparent = see-through, so in government it means citizens can see what's happening and hold officials responsible.",
+    "blueprint_id": "Vocabulary — Transparency",
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'transparent' literally means you can see through something—like clear glass or clean water. Now, apply that image to government. A transparent government is one where citizens can 'see through' the operations: decisions are made openly, information is available, and officials are accountable for their actions. That's why option C, 'Open and accountable,' is the perfect match. The other three options—secretive, hidden, and confusing—are all the opposite. They describe a government that keeps things in the dark, which is the exact opposite of transparency. Here's a mental trick to lock this in: whenever you hear 'transparency' in a government or business context, picture a glass house. Everything inside is visible, nothing is hidden, and anyone can look in and ask questions. That's the core idea.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

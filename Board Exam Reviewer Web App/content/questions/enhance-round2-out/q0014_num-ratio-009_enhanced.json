@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-009",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In an agency division, the ratio of permanent staff to casual staff is 4:3, and the ratio of casual staff to job order staff is 6:5. What is the ratio of permanent staff to job order staff?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:5"
+      },
+      {
+        "key": "B",
+        "text": "8:5"
+      },
+      {
+        "key": "C",
+        "text": "6:5"
+      },
+      {
+        "key": "D",
+        "text": "12:5"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang tulay",
+        "text": "Sa problemang ito, ang casual staff ang nag-uugnay sa permanent at job order. Pero 3 vs 6 sila, kaya hindi puwedeng diretso i-compare."
+      },
+      {
+        "rung": 2,
+        "title": "Parehong bilang ng casual",
+        "text": "Gamitin ang LCM ng 3 at 6 (na 6) para magkapantay ang bahagi ng casual sa dalawang ratio. I-multiply ang unang ratio para maging 6 ang casual."
+      },
+      {
+        "rung": 3,
+        "title": "I-scale ang ratio",
+        "text": "Ang 4:3, i-multiply sa 2: magiging 8:6. Ngayon, 8:6 at 6:5 na ang dalawa—pareho nang 6 ang casual."
+      },
+      {
+        "rung": 4,
+        "title": "Buuin ang buong ratio",
+        "text": "Kapag 8:6:5 na, diretso nang makita ang permanent sa job order: 8:5. 'Yan ang sagot!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you directly paired 4 from the first ratio with 5 from the second, forgetting to match the casual staff c...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. By scaling the first ratio to make casual 6, you get permanent:job order = 8:5.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you mistakenly used the casual-to-job-order ratio instead of finding the bridge to permanent staff.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you multiplied the parts of the first ratio (4 and 3) incorrectly to get 12, then paired with 5.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "When linking two ratios sharing a term, equalize that term's number using its LCM. I-scale, pagkatapos, diretso na ang A:C.",
+    "blueprint_id": "Ratio and Proportion — combining continued ratios (A:B and B:C to find A:C)",
+    "deconstruct_text": "Sa barangay LGU, may tatlong klase ng utility workers: permanent, casual, at job order. Ang ratio ng permanent sa casual ay 4:3, at casual sa job order ay 6:5. Ang casual ang tulay, pero ang representasyon nito ay 3 at 6—magkaiba.\n\nPara pantayin, hanapin ang LCM ng 3 at 6, na 6. I-scale ang unang ratio: 4:3 × 2 = 8:6. Ngayon, permanent:casual = 8:6 at casual:job order = 6:5.\n\nKapag pinagsama, permanent:casual:job order = 8:6:5. Diretsong ratio ng permanent sa job order: 8:5. Tamang sagot: B.\n\nMental trick: 'I-match si B, 'wag malito! Hanapin LCM, i-scale, diretso A:C!' Parang tuning ng dalawang gitara bago mag-duet.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

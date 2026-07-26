@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-004",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FILIPINO is to FILIPINOS as CITIZEN is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Country"
+      },
+      {
+        "key": "B",
+        "text": "Nationality"
+      },
+      {
+        "key": "C",
+        "text": "Citizens"
+      },
+      {
+        "key": "D",
+        "text": "People"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Look at the first pair: FILIPINO and FILIPINOS. What changed between them? One is talking about a single person, the other about a group. That's your clue."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "In analogies like this, the relationship is often about form: singular noun to its plural noun. So ask yourself: what is the plural of 'citizen'?"
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Here",
+        "text": "If FILIPINO becomes FILIPINOS (by adding an 's'), then CITIZEN should follow the same pattern. What word do you get when you make 'citizen' plural?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The plural of 'citizen' is simply 'citizens' — just add an 's'. Now check the options. Only one matches that exact plural form. The others are related ideas, but not the direct plural."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Country is a place, not the plural of citizen. It's easy to think of citizenship and country as linked, but the analogy is about the word form itself, not the concept. A citizen lives in a country, but 'country' isn't the plural of 'citizen'.",
+        "trap_type": "location_confusion"
+      },
+      "B": {
+        "text": "Nationality is an abstract idea, like being Filipino or American. While a citizen has a nationality, the word 'nationality' doesn't follow the singular-to-plural pattern. This trap pulls you toward a related concept instead of the correct word form.",
+        "trap_type": "abstract_concept"
+      },
+      "C": {
+        "text": "Correct! Citizens is the plural of citizen, just as Filipinos is the plural of Filipino. The relationship is a clean singular-to-plural match, and no other option fits that pattern.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "People is a collective noun that refers to a group in general, but it's not the specific plural of 'citizen'. You might think 'citizens are people,' but the analogy asks for the exact plural form, not a synonym or broader term.",
+        "trap_type": "collective_noun"
+      }
+    },
+    "next_time_rule": "In singular-plural analogies, focus on the exact word form. Ask: 'What is the direct plural of this noun?' Ignore related ideas like locations, concepts, or broader terms. The answer is always the precise plural.",
+    "blueprint_id": "Part-Whole (Singular-Plural)",
+    "deconstruct_text": "Let's break this down in a way that sticks. The first pair gives us a clear relationship: FILIPINO (one person) becomes FILIPINOS (more than one person). That's a singular-to-plural shift. Now apply the same logic to the second pair. Start with CITIZEN (singular). To make it plural, you add an 's' — giving you 'citizens'. That's option C. The other options are tempting because they're all connected to the idea of citizenship. Country is where a citizen belongs. Nationality is what a citizen has. People is a general term for a group. But none of them are the plural form of the word 'citizen'. The trick here is to stay focused on the grammatical relationship, not the broader meaning. Think of it like a matching game: if the first pair changes by adding an 's', the second pair must do the same.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

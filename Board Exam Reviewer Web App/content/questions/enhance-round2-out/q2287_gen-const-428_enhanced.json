@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-428",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "Maria is a 38-year-old natural-born Filipino citizen who has been a resident of the Philippines for her entire life. She holds a bachelor's degree in political science and has worked as a legislative aide for 10 years. She wants to run for Senator in the upcoming national elections. Which of the following statements about her qualifications is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is qualified because she meets all the constitutional requirements: natural-born citizen, at least 35 years old, able to read and write, and a resident for at least 2 years."
+      },
+      {
+        "key": "B",
+        "text": "Maria is not qualified because she lacks the required 5 years of residency in the Philippines immediately preceding the election."
+      },
+      {
+        "key": "C",
+        "text": "Maria is not qualified because she is only 38 years old, and the minimum age for Senators is 40."
+      },
+      {
+        "key": "D",
+        "text": "Maria is qualified only if she has been a resident of the district she intends to represent for at least 1 year."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Article VI: Legislative - Qualifications and term limits for Senators (Scenario 28)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

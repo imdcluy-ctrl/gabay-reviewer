@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-021",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence with correct pronoun-antecedent agreement:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every employee must submit their report."
+      },
+      {
+        "key": "B",
+        "text": "Every employee must submit his or her report."
+      },
+      {
+        "key": "C",
+        "text": "Every employee must submit its report."
+      },
+      {
+        "key": "D",
+        "text": "Every employee must submit our report."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing pronoun-antecedent agreement. The key is to first find the antecedent — the word the pronoun refers to — and then check if the pronoun matches it in number (singular or plural) and person (first, second, or third)."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's the simple rule: A pronoun must agree with its antecedent in both number and person. If the antecedent is singular, the pronoun must be singular. If it's third person, the pronoun must be third person. Words like 'every,' 'each,' and 'either' are always singular."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the antecedent 'Every employee.' The word 'every' makes this singular — it's talking about one employee at a time, not employees as a group. So the pronoun needs to be singular and third person. Now scan each option: which pronoun fits that description?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "You're looking for a singular, third-person pronoun that can refer to a person of any gender. 'Their' is plural. 'Its' is for objects. 'Our' is first person. That leaves only one option — the one that uses 'his or her,' which is the standard formal way to refer to a singular person when you don't know their gender."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one feels natural in everyday conversation, and that's exactly why it's tempting. In casual speech, we often use 'their' for a single person to avoid saying 'his or her.' But in formal writing — and on the Civil Service Exam — 'their' is considered plural. Since 'Every employee' is singular, 'their' doesn't agree. The exam wants the grammatically correct formal choice, not the colloquial one.",
+        "trap_type": "singular_they_informal_usage"
+      },
+      "B": {
+        "text": "This is the correct choice. 'His or her' is a singular, third-person pronoun that agrees perfectly with the singular antecedent 'Every employee.' It's the standard formal way to refer to a person of unspecified gender. Think of it as the safe, textbook-correct option that never fails on grammar tests.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "It's easy to see why someone might pick this — 'its' is singular, and you know you need a singular pronoun. But here's the catch: 'its' is reserved for objects, animals, or things without gender. Using 'its' for a person sounds dehumanizing, like referring to an employee as if they were a tool or a machine. People always get 'his,' 'her,' or 'his or her.'",
+        "trap_type": "dehumanizing_pronoun"
+      },
+      "D": {
+        "text": "This one might slip past you if you're reading quickly. 'Our' is a first-person pronoun — it includes the speaker. But the sentence is talking about 'every employee' in the third person. You can't switch from talking about 'them' to including 'us' without breaking the agreement. Keep the person consistent: third person with third person.",
+        "trap_type": "person_shift_error"
+      }
+    },
+    "next_time_rule": "When you see 'every,' 'each,' 'either,' or 'neither,' your brain should immediately shout 'SINGULAR.' Then ask yourself: is the pronoun singular, third person, and appropriate for a person? If it checks all three boxes, you're good.",
+    "blueprint_id": "Pronoun-Antecedent Agreement",
+    "deconstruct_text": "Let me walk you through how to think about this one, step by step.\n\nFirst, find the antecedent — that's the word the pronoun is replacing. Here, it's 'Every employee.' The word 'every' is a signal: it makes the noun singular, even though it might feel like it refers to a group. Think of it this way: 'every employee' means each individual employee, one at a time. So the pronoun needs to be singular.\n\nNow, what kind of singular pronoun? It has to be third person, because we're talking about the employee, not ourselves or the person we're speaking to. And since an employee could be male or female, we need a gender-neutral option.\n\nLet's test each option:\n- Option A: 'their' is plural. Even though we use it informally for one person, the exam wants formal correctness.\n- Option B: 'his or her' is singular, third person, and covers all genders. This is the textbook answer.\n- Option C: 'its' is singular but for non-human things. An employee is a person, so this doesn't work.\n- Option D: 'our' is first person plural. It shifts the perspective from 'the employee' to 'us,' which breaks the agreement.\n\nHere's a mental trick to lock this in: imagine the sentence as 'Each individual employee must submit [blank] report.' Now it's clearer that you need a singular pronoun. The only singular, person-appropriate option is 'his or her.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

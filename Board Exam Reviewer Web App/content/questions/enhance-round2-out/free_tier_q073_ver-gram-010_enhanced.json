@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-010",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'Neither the manager nor the employees ___ satisfied with the new policy.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This sentence uses a special pairing: 'neither...nor'. When you see this structure, there's a simple rule about which noun the verb should match."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "With 'neither...nor' (and also 'either...or'), the verb agrees with the noun that is closer to it. Think of it as the verb being polite and looking at the nearest neighbor."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the two nouns: 'the manager' and 'the employees'. Which one is right before the blank? It's 'employees'. So the verb must match 'employees'."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "'Employees' is plural, so you need a plural verb in the present tense. Among the options, only one word fits that description. Which one is it?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake. It's tempting to pick 'is' because 'manager' is singular and it's the first subject you see. But the rule is about proximity, not order. The verb looks at the closer noun, which is 'employees' (plural), so 'is' doesn't work here.",
+        "trap_type": "proximity_rule_violation"
+      },
+      "B": {
+        "text": "Perfect choice. 'Are' is the plural present tense verb that matches 'employees', the noun closest to the blank. You've correctly applied the proximity rule.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one has two problems. First, 'was' is singular, but the closer noun 'employees' is plural. Second, the sentence is in the present tense (the policy is currently causing dissatisfaction), so a past tense verb like 'was' doesn't fit the time frame.",
+        "trap_type": "tense_and_number_error"
+      },
+      "D": {
+        "text": "'Has been' is singular and in the present perfect tense. The closer noun 'employees' is plural, so you'd need 'have been' instead. Also, the simple present tense 'are' is more natural here since the sentence describes a current state.",
+        "trap_type": "tense_and_number_error"
+      }
+    },
+    "next_time_rule": "For 'neither...nor' and 'either...or', the verb always agrees with the subject closest to it. Just ask yourself: 'Which noun is right next to the verb?' That's your guide.",
+    "blueprint_id": "Subject-Verb Agreement — Neither/Nor Proximity",
+    "deconstruct_text": "Let's walk through this together. The sentence uses 'neither...nor', which is a special structure that connects two subjects. The key rule here is the proximity rule: the verb agrees with the subject that is closer to it, not the first one mentioned.\n\nIn this sentence, the two subjects are 'the manager' (singular) and 'the employees' (plural). The blank comes right after 'employees', so 'employees' is the closer noun. Since 'employees' is plural, we need a plural verb. The sentence is in the present tense (it's talking about how they feel right now), so the correct plural verb is 'are'.\n\nHere's a mental trick to remember this: Imagine the verb is a friendly neighbor who only talks to the person standing closest to the door. In this case, 'employees' is standing right next to the verb, so the verb says 'are' to match them.\n\nAnother way to think about it: If the sentence were reversed to 'Neither the employees nor the manager...', then 'manager' would be closer, and you'd use 'is'. Try it: 'Neither the employees nor the manager is satisfied.' See how that sounds natural? That's the proximity rule in action.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

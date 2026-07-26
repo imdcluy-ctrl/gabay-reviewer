@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-438",
+    "category_id": "general-information",
+    "subtopic_id": "current-events-environment",
+    "question_text": "Under the Paris Agreement, what is the Philippines' commitment to reduce greenhouse gas emissions as part of its Nationally Determined Contribution (NDC)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A 75% reduction in emissions by 2030 relative to a business-as-usual scenario, conditional on international support"
+      },
+      {
+        "key": "B",
+        "text": "A 50% reduction in emissions by 2050 relative to 1990 levels"
+      },
+      {
+        "key": "C",
+        "text": "A complete phase-out of coal-fired power plants by 2040"
+      },
+      {
+        "key": "D",
+        "text": "A 25% reduction in emissions by 2025 relative to 2010 levels"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3307",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

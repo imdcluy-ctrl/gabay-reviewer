@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-020",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "ATTORNEY is to CLIENT as DOCTOR is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hospital"
+      },
+      {
+        "key": "B",
+        "text": "Medicine"
+      },
+      {
+        "key": "C",
+        "text": "Patient"
+      },
+      {
+        "key": "D",
+        "text": "Nurse"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tingnan ang relasyon sa unang pares",
+        "text": "Ang ATTORNEY ay profesional na nagbibigay ng legal na serbisyo sa CLIENT. Kaya ang relasyon: profesional → kliyente."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang katumbas para sa DOCTOR",
+        "text": "Ang DOCTOR ay profesional sa medisina. Sino ang tumatanggap ng kanyang serbisyo? Hindi lugar, gamit, o kasamahan."
+      },
+      {
+        "rung": 3,
+        "title": "Alalahanin ang tamang termino",
+        "text": "Ang taong tumatanggap ng medikal na serbisyo ay tinatawag na PASYENTE. Ito ang katumbas ng 'client' sa abogado."
+      },
+      {
+        "rung": 4,
+        "title": "Isipin tulad ng pagpili sa CSE",
+        "text": "Sa exam, tandaan: sa analogies, hanapin ang parehong relasyon. Atty: client, Doktor: pasyente. Kaya sagot ay PATIENT."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because iniisip mo na sa ospital nagtatrabaho ang doktor, pero hindi ito ang relasyon na professional-client.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "B": {
+        "text": "You might have chosen B because gamot ang ginagamit ng doktor, pero hindi ito ang taong tumatanggap ng serbisyo.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "Correct. Pasyente ang tamang salita dahil ito ang taong tumatanggap ng serbisyo mula sa doktor.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because nurse ay katrabaho ng doktor, pero hindi siya ang pasyente.",
+        "trap_type": "philippine_usage_trap"
+      }
+    },
+    "next_time_rule": "Key Takeaway: Sa professional-client analogies, hanapin ang receiver ng serbisyo, hindi ang lugar, gamit, o katrabaho.",
+    "blueprint_id": "Professional-Client",
+    "deconstruct_text": "Isipin mo si Atty. Reyes sa barangay hall. Siya ay abogado na nagbibigay ng legal advice kay Mang Juan, ang kanyang kliyente. Ang relasyon: profesional → taong tumatanggap ng serbisyo.\n\nGanoon din sa health center: si Dra. Santos, ang doktor. Sino ang taong tatanggap ng kanyang medikal na serbisyo? Hindi ang ospital, gamot, o nars—kundi ang pasyente, katulad ni Aling Maria na nagpapakonsulta.\n\nKaya sa analogy, ATTORNEY : CLIENT, ang katumbas ng DOCTOR ay PATIENT. Iwasan ang mga distractor na lugar, gamit, o katrabaho.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

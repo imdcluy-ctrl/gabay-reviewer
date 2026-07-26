@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your knowledge of common preposition pairs in English. Some words just naturally go together with certain prepositions, and 'responsible' is one of them."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Think of it this way: You are responsible FOR a task or duty, but you are responsible TO a person or authority. The key is figuring out what comes after the blank."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Look at what follows the blank: 'overseeing the regional operations.' Is that a person you report to, or is it a job or duty you need to handle? It's clearly a task."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Since 'overseeing operations' is a duty, not a person, the correct preposition is 'for.' You are responsible for overseeing operations."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Responsible for' is the natural pairing when talking about a duty or task. You're responsible for your work, for a project, or for overseeing operations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one might sound okay at first, but 'responsible with' isn't a standard English expression. We don't say we're 'responsible with' something. The correct word for tasks is always 'for.'",
+        "trap_type": "non_standard_idiom"
+      },
+      "C": {
+        "text": "This is a very common trap. 'Responsible to' is correct, but only when you're talking about a person or authority you answer to, like a boss or a board. Since the sentence talks about a task (overseeing operations), 'for' is the right choice.",
+        "trap_type": "idiom_target_confusion"
+      },
+      "D": {
+        "text": "'Responsible in' might feel like it fits because we talk about being 'in charge,' but it's not the correct preposition here. The standard pairing for a duty is 'responsible for.'",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "Remember the 'For vs. To' test: If it's a task or duty, use 'for.' If it's a person or authority, use 'to.'",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The word 'responsible' is like a key that only fits two locks: 'for' and 'to.' The trick is knowing which lock to use. Think of it as a simple question: Is the thing after the blank a job you need to do, or a person you report to? In this sentence, 'overseeing the regional operations' is clearly a job or duty. So you use 'for.' If the sentence said 'responsible to the board of directors,' then 'to' would be correct because the board is a group of people. The mental shortcut here is the 'For vs. To' test. When you see 'responsible' in a sentence, pause and ask yourself: 'Am I responsible for a task, or responsible to a person?' That one second of reflection will save you every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

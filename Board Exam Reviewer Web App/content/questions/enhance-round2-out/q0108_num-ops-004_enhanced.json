@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-004",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Convert 0.75 to a fraction in simplest form.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "3/4"
+      },
+      {
+        "key": "D",
+        "text": "7/10"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isulat bilang fraction na may denominator 100",
+        "text": "Ang 0.75 ay 'pitumpu't limang hundredths', kaya 75/100."
+      },
+      {
+        "rung": 2,
+        "title": "I-simplify ang fraction",
+        "text": "Hanapin ang GCD ng 75 at 100, which is 25. Hatiin ang numerator at denominator sa 25."
+      },
+      {
+        "rung": 3,
+        "title": "Gawin ang division",
+        "text": "75 ÷ 25 = 3, 100 ÷ 25 = 4, kaya 3/4 ang simpleng fraction."
+      },
+      {
+        "rung": 4,
+        "title": "I-check ang sagot",
+        "text": "3/4 ay simplest form dahil 3 at 4 walang common factor maliban sa 1. Tama ang option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because naisip mong 0.25 pero 0.75 ito, na-misread mo lang.",
+        "trap_type": "decimal_misreading"
+      },
+      "B": {
+        "text": "You might have chosen B because tinantiya mo 0.75 as 0.5 kaya 1/2, but the exact conversion is 3/4.",
+        "trap_type": "decimal_rounding_error"
+      },
+      "C": {
+        "text": "Correct. 0.75 = 75/100 = 3/4 after dividing numerator and denominator by 25.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 7/10 = 0.7, pinaikli mo lang ang decimal without proper conversion.",
+        "trap_type": "decimal_to_fraction_misconversion"
+      }
+    },
+    "next_time_rule": "Para maging fraction ang decimal, isulat sa denominator na 10, 100, 1000, tapos i-simplify gamit ang GCD. Tandaan: 0.75=3/4, 0.5=1/2, 0.25=1/4.",
+    "blueprint_id": "Decimal to Fraction",
+    "deconstruct_text": "Sa palengke, bumili si Aling Nena ng 0.75 kilo ng bigas para sa kanyang biko. Ang decimal na 0.75 ay katumbas ng 75/100—pitumpu't limang hundredths. I-divide ang numerator at denominator sa kanilang greatest common divisor (GCD) na 25: 75÷25=3 at 100÷25=4, kaya ang f...\n\nAng mga maling sagot ay galing sa common mistakes. Ang 1/4 ay 0.25, baka namisread. Ang 1/2 ay 0.5, baka tinantya lang. Ang 7/10 ay 0.7, maling conversion dahil ginamit lamang ang digit na 7.\n\n**Watch-Out Zone: decimal_misreading** andali kang malito sa 0.25. Tiyakin place value.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

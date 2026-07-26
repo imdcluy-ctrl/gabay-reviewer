@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-010",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A bus (80 km/h) overtakes a truck (60 km/h). Truck has 20 km head start. When does bus catch up?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5h"
+      },
+      {
+        "key": "B",
+        "text": "1h"
+      },
+      {
+        "key": "C",
+        "text": "1.5h"
+      },
+      {
+        "key": "D",
+        "text": "2h"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Relative Speed",
+        "text": "Parehong direksyon kaya bawas: 80 km/h - 60 km/h = 20 km/h. Ito ang bilis ng paglapit ng bus sa truck."
+      },
+      {
+        "rung": 2,
+        "title": "Catch-Up Formula",
+        "text": "Gamitin: Oras = head start / relative speed. Dito, 20 km / 20 km/h = 1 oras."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Time",
+        "text": "20 ÷ 20 = 1. Kaya sagot ay 1 oras. Tignan kung may option na 1h, yun ang B."
+      },
+      {
+        "rung": 4,
+        "title": "Avoid Miscalculations",
+        "text": "Huwag pagsamahin ang bilis (80+60) dahil magkaiba 'yon. Bawas dapat. At huwag gamitin ang 60 lang na bilis ng truck."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you added the speeds (80+60=140) then divided 20/140≈0.14h, rounding to 0.5.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. Relative speed 20 km/h, time = 20/20 = 1 hour.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you divided 20 km by 60 km/h = 1/3 hr, then mistakenly tripled it, confusing part and whole.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you subtracted speeds as 10 km/h (80-60=10) then 20/10=2h, misapplying operations.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** Catch-up time = head start distance / (faster speed - slower speed). Always subtract same-direction speeds.",
+    "blueprint_id": "Catching Up Same Direction",
+    "deconstruct_text": "Nasa NLEX ka, pauwi galing Pampanga. May bus na 80 km/h sa likod mo at truck na 60 km/h sa unahan, 20 km ang pagitan. Tuwing oras, lalapit ang bus ng 20 km sa truck (80-60). Kaya’t sa loob ng 1 oras, magkakatabi sila—saktong 1 hour ang sagot.\n\nMadalas magkamali: idinadagdag ang 80+60 kaya 140 km/h, mali ‘yan. O kaya’y ginagamit ang 60 km/h lang (20/60≈0.33 oras) na parang nakatigil ang bus. Hindi ganun; subtract dapat ang bilis dahil pareho silang direksyon.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

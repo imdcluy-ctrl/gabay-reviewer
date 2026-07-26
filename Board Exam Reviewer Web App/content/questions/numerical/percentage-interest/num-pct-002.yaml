@@ -1,0 +1,55 @@
+id: num-pct-002
+subtopic: percentage-interest
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["simple-interest", "lgu-loans"]
+estimated_seconds: 75
+question_text: "A LGU cooperative deposited ₱50,000 in a government savings account earning 6% simple annual interest. How much total interest will the account earn after 3 years?"
+options:
+  - key: A
+    text: "₱3,000"
+  - key: B
+    text: "₱6,000"
+  - key: C
+    text: "₱9,000"
+  - key: D
+    text: "₱59,000"
+correct: C
+blueprint_id: "Numerical Ability — Simple Interest Formula (I = P r t)"
+hint_ladder:
+  - rung: 1
+    title: "Recall Simple Interest Formula"
+    text: "Simple Interest (I) = Principal (P) × Rate (r) × Time (t)."
+  - rung: 2
+    title: "Convert Rate to Decimal"
+    text: "6% = 0.06."
+  - rung: 3
+    title: "Multiply Principal and Rate"
+    text: "₱50,000 × 0.06 = ₱3,000 interest per year."
+  - rung: 4
+    title: "Multiply by Years"
+    text: "₱3,000 per year × 3 years = ₱9,000."
+deconstruct_text: |
+  Principal (P) = ₱50,000
+  Rate (r) = 6% = 0.06
+  Time (t) = 3 years
+  Interest (I) = P × r × t = 50,000 × 0.06 × 3 = 3,000 × 3 = ₱9,000
+choice_explanations:
+  A:
+    text: "Interest for 1 year only (₱50,000 × 0.06 = ₱3,000)."
+    trap_type: missing_time_factor
+  B:
+    text: "Interest for 2 years only (₱3,000 × 2)."
+    trap_type: time_calculation_error
+  C:
+    text: "Correct! Simple Interest I = 50,000 × 0.06 × 3 = ₱9,000."
+    trap_type: null
+  D:
+    text: "Total balance (Principal + Interest = ₱59,000), not interest earned."
+    trap_type: balance_vs_interest_confusion
+next_time_rule: "Simple Interest formula I = P × r × t calculates interest only; add P if total balance is requested."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Simple Interest"

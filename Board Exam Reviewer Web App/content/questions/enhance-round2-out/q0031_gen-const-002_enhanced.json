@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-002",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), within how many working days must public officials respond to letters and requests sent by the public?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 working days"
+      },
+      {
+        "key": "B",
+        "text": "10 working days"
+      },
+      {
+        "key": "C",
+        "text": "15 working days"
+      },
+      {
+        "key": "D",
+        "text": "30 working days"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "Recall RA 6713 Section 5 on duties of public officials. The law sets a clear timeframe for responding to public letters and requests."
+      },
+      {
+        "rung": 2,
+        "title": "Section 5(a) Deadline",
+        "text": "Section 5(a) explicitly says 'within fifteen (15) working days from receipt.' That's the exact rule. No memorization needed beyond this line."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Distractors",
+        "text": "Options A (5 days) and D (30 days) are from other laws or sections of RA 6713. ARTA gives 3-7 days; SALN filing is 30 days. Option B is not in RA 6..."
+      },
+      {
+        "rung": 4,
+        "title": "Lock in the Answer",
+        "text": "15 working days. Memorize: 'Letters = 15 days under Sec. 5(a).' The other options are clever traps but legally incorrect."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because narinig mo sa ARTA law na 3-7 days, pero RA 6713's reply sa letters ay 15 working days, hindi 5.",
+        "trap_type": "arta_timeframe_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 10 working days often appear in admin cases, but RA 6713 says 15 for letters – no 10-day rule exists.",
+        "trap_type": "timeframe_error"
+      },
+      "C": {
+        "text": "Correct. RA 6713 Section 5(a) states: reply within 15 working days from receipt of letters or communications.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you confused the SALN filing deadline (30 working days) with the reply deadline (15 working days).",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "Tatak sa isip: '15 pang-reply, 30 pang-SALN.' Sa exam, pag RA 6713 letters, auto-15 working days.",
+    "blueprint_id": "RA 6713 Section 5(a) — Prompt Action on Letters and Requests",
+    "deconstruct_text": "Imagine nasa barangay hall ka, a resident sends a letter humihingi ng tulong. Under RA 6713, the official must reply within 15 working days—strict 'yan. This duty applies to all public employees.\n\nSection 5(a) verbatim: '...shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.' Kaya walang paliguy-ligoy.\n\nHuwag malito sa 30 working days ng SALN filing o sa mas mabilis na ARTA. RA 6713 lang ang may 15-day rule for reply. 'Pag exam, laging balikan ang Section 5(a).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

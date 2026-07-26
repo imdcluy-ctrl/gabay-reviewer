@@ -1,0 +1,57 @@
+id: cle-fil-001
+subtopic: alphabetical-filing
+category: clerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["filing-rules", "alphabetical-order"]
+estimated_seconds: 60
+question_text: "Arrange the following government employee names in correct alphabetical filing order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. De Leon, Pedro"
+options:
+  - key: A
+    text: "3, 1, 4, 2"
+  - key: B
+    text: "1, 2, 3, 4"
+  - key: C
+    text: "3, 4, 1, 2"
+  - key: D
+    text: "2, 3, 1, 4"
+correct: A
+blueprint_id: "Alphabetical Filing — Prefix Surnames (De, De la, Del)"
+hint_ladder:
+  - rung: 1
+    title: "Recall Filing Rules for Prefixes"
+    text: "Foreign prefixes (De, De la, Del) are filed as a single unit or letter by letter."
+  - rung: 2
+    title: "Compare First Letters"
+    text: "De Castro (De C...), De la Cruz (De l...), De Leon (De L...), Del Rosario (Del R...)."
+  - rung: 3
+    title: "Sort Letter by Letter"
+    text: "De C... comes first (3), then De l... (1), then De L... (4), then Del R... (2)."
+  - rung: 4
+    title: "Select Correct Sequence"
+    text: "Sequence is 3, 1, 4, 2."
+deconstruct_text: |
+  Standard Filing Rules treat prefixes letter-by-letter:
+  1. De Castro, Ana (D-E-C...) -> #3
+  2. De la Cruz, Juan (D-E-L-A-C...) -> #1
+  3. De Leon, Pedro (D-E-L-E...) -> #4
+  4. Del Rosario, Maria (D-E-L-R...) -> #2
+  Order: 3, 1, 4, 2.
+choice_explanations:
+  A:
+    text: "Correct! Alphabetical order letter by letter: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2)."
+    trap_type: null
+  B:
+    text: "Unsorted sequence as presented."
+    trap_type: unsorted_error
+  C:
+    text: "Swapping De la Cruz and De Leon."
+    trap_type: letter_sequence_error
+  D:
+    text: "Placing Del Rosario first."
+    trap_type: prefix_sorting_error
+next_time_rule: "File names with prefixes (De, De la, Del) letter by letter from left to right."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Filing Rules Specification"

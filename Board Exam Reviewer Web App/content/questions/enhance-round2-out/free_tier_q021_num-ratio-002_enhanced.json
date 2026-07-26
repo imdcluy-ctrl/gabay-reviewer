@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-002",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipal health center, the ratio of registered nurses to medical technologists is 5:2. If there are 35 registered nurses, how many medical technologists are employed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a classic ratio problem. You know the ratio of nurses to medtechs (5:2) and the actual number of nurses (35). Your job is to find the actual number of medtechs. Think of the ratio as a recipe: for every 5 nurses, you need 2 medtechs."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Part",
+        "text": "The ratio 5:2 means the whole group is divided into 5 + 2 = 7 equal parts. But here, you're only given the number of nurses, which corresponds to 5 of those parts. So if 5 parts equal 35, what does 1 part equal? Divide 35 by 5."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate One Part",
+        "text": "35 divided by 5 is 7. So each 'part' in the ratio represents 7 people. This is your key to unlocking the rest of the problem."
+      },
+      {
+        "rung": 4,
+        "title": "Find the Medtechs",
+        "text": "Medtechs correspond to 2 parts in the ratio. Since one part is 7, two parts are 2 times 7. That gives you 14. Look for 14 among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This answer might come from a few places. Maybe you divided 35 by 3.5 by mistake, or you thought 5 times 2 equals 10 and subtracted that from 35. The key is to remember that the ratio tells you the relationship between the groups, not a number to multiply or subtract directly. Always find the value of one part first.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Correct! You found that 5 parts equal 35 nurses, so one part is 7. Medtechs get 2 parts, so 2 times 7 equals 14. Well done.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one is tricky. You might have subtracted 20 from 35, thinking the difference between the ratio numbers (5 minus 2 equals 3) somehow applies. But ratios are about multiplication and division, not subtraction. Stick with finding the value of one part.",
+        "trap_type": "formula_misapplication"
+      },
+      "D": {
+        "text": "This answer suggests you used 4 parts instead of 2. Maybe you confused the medtechs' share with another number, or you calculated 35 divided by 7 (which is 5) and then multiplied by 4. Remember, the medtechs' part in the ratio is 2, not 4. Always double-check which ratio number belongs to which group.",
+        "trap_type": "wrong_part_multiplier"
+      }
+    },
+    "next_time_rule": "In any direct ratio problem, your first move is always to find the value of one 'part' by dividing the known quantity by its corresponding ratio number. Then multiply that value by the other ratio number to get your answer.",
+    "blueprint_id": "Ratio and Proportion — finding unknown quantity in direct proportion",
+    "deconstruct_text": "Let's walk through this together. The ratio of nurses to medtechs is 5:2. Think of it like a recipe: for every 5 nurses, you need 2 medtechs. We know there are 35 nurses. So the question is: how many medtechs do we need to keep that same ratio? Here's the simple trick: find out what one 'part' of the ratio is worth. Since 5 parts equal 35 nurses, one part is 35 divided by 5, which is 7. That means each part in the ratio represents 7 people. Medtechs get 2 parts, so we multiply 2 by 7 to get 14. The answer is 14. The mental framework here is 'Find the Unit Part.' Whenever you see a ratio and one actual quantity, your first step is always to divide that quantity by its ratio number to find the value of a single part. Then multiply that value by the other ratio number. It's that straightforward.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

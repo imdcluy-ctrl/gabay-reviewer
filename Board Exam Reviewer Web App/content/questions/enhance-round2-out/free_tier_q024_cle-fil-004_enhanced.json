@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-004",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are they identical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, they are completely identical."
+      },
+      {
+        "key": "B",
+        "text": "No, the digits 41 and 14 are transposed."
+      },
+      {
+        "key": "C",
+        "text": "No, the prefix is different."
+      },
+      {
+        "key": "D",
+        "text": "No, the checksum letter is different."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the Big Picture",
+        "text": "This is a test of your attention to detail. When comparing codes, your eyes can play tricks on you. Take a breath and look at the two codes side by side. Do they look exactly the same at first glance?"
+      },
+      {
+        "rung": 2,
+        "title": "Break It Into Chunks",
+        "text": "Instead of reading the whole code at once, split it into parts: the prefix (PH-2026-), the number group (8941 vs 8914), and the suffix (-X). Compare each chunk separately. Which chunk looks different?"
+      },
+      {
+        "rung": 3,
+        "title": "Focus on the Number Group",
+        "text": "The prefix and suffix are identical in both codes. The difference is hiding in the middle four digits. Look closely at '8941' and '8914'. Can you see how the last two digits have swapped places?"
+      },
+      {
+        "rung": 4,
+        "title": "Name the Error",
+        "text": "The original ends with '41', but the copy ends with '14'. This is a classic transposition error where two adjacent digits are swapped. Now look at the options and pick the one that describes this exact mistake."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to glance at these codes and think they're the same, especially under time pressure. But look closer at the middle part: '8941' versus '8914'. The last two digits are swapped. This is a common oversight when we scan too quickly.",
+        "trap_type": "oversight_error"
+      },
+      "B": {
+        "text": "You've got it right. The codes are not identical because the digits '41' in the original have been transposed to '14' in the copy. This is exactly the kind of detail-oriented catch that the clerical ability test rewards.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a tempting mistake if you're not reading carefully. Both codes start with 'PH-2026-', so the prefix is actually the same. The difference is in the number group, not the prefix. Always check each part before jumping to conclusions.",
+        "trap_type": "wrong_location_error"
+      },
+      "D": {
+        "text": "It's easy to assume the letter at the end might be different, but both codes end with '-X'. The checksum letter is identical. The real difference is hiding in the middle digits, not at the end.",
+        "trap_type": "wrong_location_error"
+      }
+    },
+    "next_time_rule": "When comparing codes, use the 'Chunk-and-Scan' method: break the code into 3-4 logical parts, compare each part separately, and look specifically for swapped digits or transposed characters.",
+    "blueprint_id": "Clerical Accuracy — Code Verification and Transposition Detection",
+    "deconstruct_text": "Let me walk you through how to tackle this kind of problem calmly and accurately. The key is to avoid letting your eyes skim over the code too quickly. Start by dividing the code into three natural chunks: the prefix 'PH-2026-', the number group '8941' (original) versus '8914' (copy), and the suffix '-X'. Compare each chunk one at a time. The prefix matches perfectly. The suffix matches perfectly. But when you look at the number group, you'll notice something: the original has '41' at the end, while the copy has '14'. Those two digits have been swapped, or transposed. That's the only difference. So the codes are not identical, and the correct answer is the one that identifies this transposition. Here's a mental trick for next time: when comparing codes, read them backwards. It forces your brain to process each character individually instead of guessing the next one, making transpositions much easier to spot.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

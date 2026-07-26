@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-018",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym for 'JURISDICTION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Authority"
+      },
+      {
+        "key": "B",
+        "text": "Weakness"
+      },
+      {
+        "key": "C",
+        "text": "Limitation"
+      },
+      {
+        "key": "D",
+        "text": "Uncertainty"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Balikan ang Latin roots",
+        "text": "Jurisdiction hango sa 'juris' (law) at 'dictio' (to speak). Kaya kapag may nag-jurisdiction, may authority siyang magsalita tungkol sa batas."
+      },
+      {
+        "rung": 2,
+        "title": "Isipin ang Kapitan ng Barangay",
+        "text": "Sa barangay, si Kapitan ang may jurisdiction sa away. Ibig sabihin, siya ang may authority na mag-mediate. Ito ang core — official power, hindi wea..."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the opposites",
+        "text": "Tatlo sa choices ay negative (weakness, limitation, uncertainty). Jurisdiction ay positive at tungkol sa kapangyarihan. Alin ang positive?"
+      },
+      {
+        "rung": 4,
+        "title": "Diretso sa authority",
+        "text": "Kapag sinabing may jurisdiction ang korte, ibig sabihin may authority ito. Diretso na — authority ang kahulugan. 'Yan ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Jurisdiction means official power or right, and 'authority' is its direct synonym—parang Kapitan sa barangay na may jurisdiction...",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you mistook jurisdiction for its antonym. Weakness is the opposite of authority.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "You might have chosen C because limitation seems related to legal boundaries, but jurisdiction is the power itself, not its restriction.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "D": {
+        "text": "You might have chosen D because uncertainty sounds like a formal term, but jurisdiction means clear, established authority, not doubt.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "Jurisdiction = authority. Isipin si Kapitan o judge na may kapangyarihan. Hindi ito weakness, limit, o uncertainty. Sa exam, diretso authority agad.",
+    "blueprint_id": "Vocabulary — Jurisdiction",
+    "deconstruct_text": "Isipin mo si Kapitan ng barangay. May nagreklamong away magkapitbahay. Sabi ni Kap, 'Ako ang may jurisdiction dito.' Ibig sabihin, siya ang may authority na mag-mediate at magdesisyon. Parang mini-judge sa barangay level.\n\nJurisdiction galing sa Latin: 'juris' (law) at 'dictio' (to speak). Literal na 'to speak the law.' Kaya kahit saan gamitin, laging tungkol sa official power or right. Hindi ito weakness, limitation, o uncertainty.\n\nMental Trick: Isipin si 'Huwes Juris'—'yung diction niya, may authority! Kaya kapag nakita mo ang jurisdiction, diretso authority. Weakness ay kabaligtaran (antonym), limitation ay restriction lang, at uncertainty—malayong malayo. Sa choices, Authority ang sagot.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,142 @@
+/* HighYieldReferenceView.css */
+
+.high-yield-view-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4, 1rem);
+  width: 100%;
+}
+
+.hy-filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hy-search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--radius-md, 0.5rem);
+  border: 1px solid var(--color-border, #cbd5e1);
+  background-color: var(--color-bg-card, #ffffff);
+  color: var(--color-text-main, #0f172a);
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.hy-category-pills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.hy-category-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.hy-pill {
+  padding: 6px 14px;
+  border-radius: var(--radius-full, 9999px);
+  border: 1px solid var(--color-border, #cbd5e1);
+  background-color: var(--color-bg-secondary, #f8fafc);
+  color: #334155;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.hy-pill.active {
+  background-color: var(--color-brand-teal, #0d7377);
+  color: #ffffff !important;
+  border-color: var(--color-brand-teal, #0d7377);
+}
+
+.hy-section-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 0.75rem);
+}
+
+.hy-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+  padding-bottom: 8px;
+}
+
+.hy-header-title-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hy-sec-icon {
+  font-size: 1.3rem;
+}
+
+.hy-header-title-box h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-brand-teal, #0d7377);
+}
+
+.hy-topics-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hy-topic-card {
+  padding: 12px 14px;
+  background-color: var(--color-bg-secondary, #f8fafc);
+  border: 1px solid var(--color-border, #cbd5e1);
+  border-radius: var(--radius-md, 0.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hy-topic-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f172a !important;
+}
+
+.hy-formulas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hy-formula-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  background-color: #ffffff;
+  border-left: 3px solid var(--color-brand-teal, #0d7377);
+  border-radius: 4px;
+}
+
+.hy-formula-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-brand-teal, #0d7377);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hy-formula-rule {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #0f172a !important;
+  line-height: 1.5;
+}

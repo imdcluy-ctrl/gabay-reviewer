@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-004",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "What public document must all public officials and employees file under oath upon assumption of office and on or before April 30 of every year thereafter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement of Assets, Liabilities, and Net Worth (SALN)"
+      },
+      {
+        "key": "B",
+        "text": "Personal Data Sheet (PDS)"
+      },
+      {
+        "key": "C",
+        "text": "Individual Performance Commitment and Review (IPCR)"
+      },
+      {
+        "key": "D",
+        "text": "Certificate of Eligibility"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about financial transparency",
+        "text": "This question is about a key anti-corruption measure. The law wants public officials to regularly declare their wealth under oath. Which document is all about money and property?"
+      },
+      {
+        "rung": 2,
+        "title": "Look for the annual deadline",
+        "text": "The clue is 'on or before April 30 of every year.' This is a fixed, recurring filing date. Which of these documents has a yearly deadline tied to it?"
+      },
+      {
+        "rung": 3,
+        "title": "Remember the acronym",
+        "text": "This document is so important it's known by its four-letter acronym. It starts with S and ends with N. It stands for everything you own, owe, and are worth."
+      },
+      {
+        "rung": 4,
+        "title": "Match the description exactly",
+        "text": "The document must be filed under oath, upon assuming office, and every year by April 30. That's the SALN. The other options are filed at different times or for different purposes."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 8 requires all public officials and employees to file a SALN under oath upon assumption of office and on or before April 30 every year. This is the government's way of promoting transparency and preventing corruption.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "The Personal Data Sheet is a common HR document, so it's easy to confuse. But it's filed when you first enter government or get promoted, not every year by April 30. It also doesn't require a sworn financial disclosure.",
+        "trap_type": "form_confusion"
+      },
+      "C": {
+        "text": "The IPCR sounds official, but it's a performance evaluation tool used semi-annually by supervisors. It has nothing to do with declaring assets or taking an oath. It's about work targets, not wealth.",
+        "trap_type": "form_confusion"
+      },
+      "D": {
+        "text": "A Certificate of Eligibility is a one-time document proving you passed an exam or meet qualifications. It's not filed annually, and it doesn't require a sworn statement about your finances.",
+        "trap_type": "document_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'filed under oath' and 'April 30' together, your mind should immediately go to SALN. It's the only document that combines a sworn financial disclosure with a fixed annual deadline.",
+    "blueprint_id": "RA 6713 Section 8 — Disclosure of Assets and Liabilities (SALN)",
+    "deconstruct_text": "Let's walk through this together. The question gives you two big clues: 'under oath' and 'on or before April 30 of every year.' These are the fingerprints of the SALN. Under RA 6713, the Code of Conduct for public officials, Section 8 specifically requires a Statement of Assets, Liabilities, and Net Worth to be filed upon assuming office and then every year by April 30. It's a sworn document, meaning you can be penalized for lying on it. Now, look at the other options. The Personal Data Sheet (PDS) is filed when you enter or change positions in government, not annually. The IPCR is a performance review tool used by supervisors every six months. And a Certificate of Eligibility is a one-time credential proving you passed an exam. None of them involve an annual sworn financial disclosure. So the trick here is to connect 'under oath' and 'April 30' directly to the SALN. That's your mental shortcut.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

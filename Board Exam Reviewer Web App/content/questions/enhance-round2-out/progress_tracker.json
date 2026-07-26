@@ -1,0 +1,1227 @@
+{
+  "free_tier_q002_ver-gram-007.json": {
+    "status": "completed",
+    "question_id": "ver-gram-007",
+    "timestamp": "2026-07-24 14:47:34"
+  },
+  "free_tier_q001_ver-gram-008.json": {
+    "status": "completed",
+    "question_id": "ver-gram-008",
+    "timestamp": "2026-07-24 14:49:11"
+  },
+  "free_tier_q001_ver-gram-008_ENHANCED.json": {
+    "status": "completed",
+    "question_id": "ver-gram-008",
+    "timestamp": "2026-07-24 14:49:19"
+  },
+  "free_tier_q003_ver-gram-006.json": {
+    "status": "completed",
+    "question_id": "ver-gram-006",
+    "timestamp": "2026-07-24 14:49:30"
+  },
+  "free_tier_q004_ver-gram-005.json": {
+    "status": "completed",
+    "question_id": "ver-gram-005",
+    "timestamp": "2026-07-24 14:49:39"
+  },
+  "free_tier_q005_ver-gram-004.json": {
+    "status": "completed",
+    "question_id": "ver-gram-004",
+    "timestamp": "2026-07-24 14:49:50"
+  },
+  "free_tier_q006_ver-gram-003.json": {
+    "status": "completed",
+    "question_id": "ver-gram-003",
+    "timestamp": "2026-07-24 14:50:00"
+  },
+  "free_tier_q007_ver-gram-002.json": {
+    "status": "completed",
+    "question_id": "ver-gram-002",
+    "timestamp": "2026-07-24 14:50:11"
+  },
+  "free_tier_q008_ver-gram-001.json": {
+    "status": "completed",
+    "question_id": "ver-gram-001",
+    "timestamp": "2026-07-24 14:50:20"
+  },
+  "free_tier_q009_num-pct-004.json": {
+    "status": "completed",
+    "question_id": "num-pct-004",
+    "timestamp": "2026-07-24 14:50:30"
+  },
+  "free_tier_q010_num-pct-003.json": {
+    "status": "completed",
+    "question_id": "num-pct-003",
+    "timestamp": "2026-07-24 14:50:40"
+  },
+  "free_tier_q011_num-pct-002.json": {
+    "status": "completed",
+    "question_id": "num-pct-002",
+    "timestamp": "2026-07-24 14:50:50"
+  },
+  "free_tier_q012_num-pct-001.json": {
+    "status": "completed",
+    "question_id": "num-pct-001",
+    "timestamp": "2026-07-24 14:50:58"
+  },
+  "free_tier_q013_num-ratio-010.json": {
+    "status": "completed",
+    "question_id": "num-ratio-010",
+    "timestamp": "2026-07-24 14:51:08"
+  },
+  "free_tier_q014_num-ratio-009.json": {
+    "status": "completed",
+    "question_id": "num-ratio-009",
+    "timestamp": "2026-07-24 14:51:18"
+  },
+  "free_tier_q015_num-ratio-008.json": {
+    "status": "completed",
+    "question_id": "num-ratio-008",
+    "timestamp": "2026-07-24 14:51:28"
+  },
+  "free_tier_q016_num-ratio-007.json": {
+    "status": "completed",
+    "question_id": "num-ratio-007",
+    "timestamp": "2026-07-24 14:51:38"
+  },
+  "free_tier_q017_num-ratio-006.json": {
+    "status": "completed",
+    "question_id": "num-ratio-006",
+    "timestamp": "2026-07-24 14:51:46"
+  },
+  "free_tier_q018_num-ratio-005.json": {
+    "status": "completed",
+    "question_id": "num-ratio-005",
+    "timestamp": "2026-07-24 14:51:58"
+  },
+  "free_tier_q019_num-ratio-004.json": {
+    "status": "completed",
+    "question_id": "num-ratio-004",
+    "timestamp": "2026-07-24 14:52:08"
+  },
+  "free_tier_q020_num-ratio-003.json": {
+    "status": "completed",
+    "question_id": "num-ratio-003",
+    "timestamp": "2026-07-24 14:52:17"
+  },
+  "free_tier_q021_num-ratio-002.json": {
+    "status": "completed",
+    "question_id": "num-ratio-002",
+    "timestamp": "2026-07-24 14:52:27"
+  },
+  "free_tier_q022_num-ratio-001.json": {
+    "status": "completed",
+    "question_id": "num-ratio-001",
+    "timestamp": "2026-07-24 14:52:35"
+  },
+  "free_tier_q023_cle-fil-005.json": {
+    "status": "completed",
+    "question_id": "cle-fil-005",
+    "timestamp": "2026-07-24 14:52:45"
+  },
+  "free_tier_q024_cle-fil-004.json": {
+    "status": "completed",
+    "question_id": "cle-fil-004",
+    "timestamp": "2026-07-24 14:53:07"
+  },
+  "free_tier_q025_cle-fil-003.json": {
+    "status": "completed",
+    "question_id": "cle-fil-003",
+    "timestamp": "2026-07-24 14:53:16"
+  },
+  "free_tier_q026_cle-fil-002.json": {
+    "status": "completed",
+    "question_id": "cle-fil-002",
+    "timestamp": "2026-07-24 14:53:27"
+  },
+  "free_tier_q027_cle-fil-001.json": {
+    "status": "completed",
+    "question_id": "cle-fil-001",
+    "timestamp": "2026-07-24 14:53:40"
+  },
+  "free_tier_q028_gen-const-005.json": {
+    "status": "completed",
+    "question_id": "gen-const-005",
+    "timestamp": "2026-07-24 14:53:51"
+  },
+  "free_tier_q029_gen-const-004.json": {
+    "status": "completed",
+    "question_id": "gen-const-004",
+    "timestamp": "2026-07-24 14:54:01"
+  },
+  "free_tier_q030_gen-const-003.json": {
+    "status": "completed",
+    "question_id": "gen-const-003",
+    "timestamp": "2026-07-24 14:54:10"
+  },
+  "free_tier_q031_gen-const-002.json": {
+    "status": "completed",
+    "question_id": "gen-const-002",
+    "timestamp": "2026-07-24 14:54:23"
+  },
+  "free_tier_q032_gen-const-001.json": {
+    "status": "completed",
+    "question_id": "gen-const-001",
+    "timestamp": "2026-07-24 14:54:35"
+  },
+  "free_tier_q033_ana-log-005.json": {
+    "status": "completed",
+    "question_id": "ana-log-005",
+    "timestamp": "2026-07-24 14:54:46"
+  },
+  "free_tier_q034_ana-log-004.json": {
+    "status": "completed",
+    "question_id": "ana-log-004",
+    "timestamp": "2026-07-24 14:54:55"
+  },
+  "free_tier_q035_ana-log-003.json": {
+    "status": "completed",
+    "question_id": "ana-log-003",
+    "timestamp": "2026-07-24 14:55:05"
+  },
+  "free_tier_q036_ana-log-002.json": {
+    "status": "completed",
+    "question_id": "ana-log-002",
+    "timestamp": "2026-07-24 14:55:16"
+  },
+  "free_tier_q037_ana-log-001.json": {
+    "status": "completed",
+    "question_id": "ana-log-001",
+    "timestamp": "2026-07-24 14:55:25"
+  },
+  "free_tier_q038_num-ratio-011.json": {
+    "status": "completed",
+    "question_id": "num-ratio-011",
+    "timestamp": "2026-07-24 14:55:34"
+  },
+  "free_tier_q039_num-ratio-012.json": {
+    "status": "completed",
+    "question_id": "num-ratio-012",
+    "timestamp": "2026-07-24 14:55:43"
+  },
+  "free_tier_q040_num-ratio-013.json": {
+    "status": "completed",
+    "question_id": "num-ratio-013",
+    "timestamp": "2026-07-24 14:55:54"
+  },
+  "free_tier_q041_num-ratio-014.json": {
+    "status": "completed",
+    "question_id": "num-ratio-014",
+    "timestamp": "2026-07-24 14:56:03"
+  },
+  "free_tier_q042_num-ratio-015.json": {
+    "status": "completed",
+    "question_id": "num-ratio-015",
+    "timestamp": "2026-07-24 14:56:12"
+  },
+  "free_tier_q043_num-ratio-016.json": {
+    "status": "completed",
+    "question_id": "num-ratio-016",
+    "timestamp": "2026-07-24 14:56:20"
+  },
+  "free_tier_q044_num-ratio-017.json": {
+    "status": "completed",
+    "question_id": "num-ratio-017",
+    "timestamp": "2026-07-24 14:56:29"
+  },
+  "free_tier_q045_num-ratio-018.json": {
+    "status": "completed",
+    "question_id": "num-ratio-018",
+    "timestamp": "2026-07-24 14:56:39"
+  },
+  "free_tier_q046_num-ratio-019.json": {
+    "status": "completed",
+    "question_id": "num-ratio-019",
+    "timestamp": "2026-07-24 14:56:48"
+  },
+  "free_tier_q047_num-ratio-020.json": {
+    "status": "completed",
+    "question_id": "num-ratio-020",
+    "timestamp": "2026-07-24 14:57:00"
+  },
+  "free_tier_q048_num-ratio-021.json": {
+    "status": "completed",
+    "question_id": "num-ratio-021",
+    "timestamp": "2026-07-24 14:57:11"
+  },
+  "free_tier_q049_num-ratio-022.json": {
+    "status": "completed",
+    "question_id": "num-ratio-022",
+    "timestamp": "2026-07-24 14:57:19"
+  },
+  "free_tier_q050_num-ratio-023.json": {
+    "status": "completed",
+    "question_id": "num-ratio-023",
+    "timestamp": "2026-07-24 14:57:32"
+  },
+  "free_tier_q051_num-ratio-024.json": {
+    "status": "completed",
+    "question_id": "num-ratio-024",
+    "timestamp": "2026-07-24 14:57:41"
+  },
+  "free_tier_q052_num-ratio-025.json": {
+    "status": "completed",
+    "question_id": "num-ratio-025",
+    "timestamp": "2026-07-24 14:57:50"
+  },
+  "free_tier_q053_num-ratio-026.json": {
+    "status": "completed",
+    "question_id": "num-ratio-026",
+    "timestamp": "2026-07-24 14:58:01"
+  },
+  "free_tier_q054_num-ratio-027.json": {
+    "status": "completed",
+    "question_id": "num-ratio-027",
+    "timestamp": "2026-07-24 14:58:11"
+  },
+  "free_tier_q055_num-ratio-028.json": {
+    "status": "completed",
+    "question_id": "num-ratio-028",
+    "timestamp": "2026-07-24 14:58:22"
+  },
+  "free_tier_q056_num-ratio-029.json": {
+    "status": "completed",
+    "question_id": "num-ratio-029",
+    "timestamp": "2026-07-24 14:58:30"
+  },
+  "free_tier_q057_num-ratio-030.json": {
+    "status": "completed",
+    "question_id": "num-ratio-030",
+    "timestamp": "2026-07-24 14:58:38"
+  },
+  "free_tier_q058_num-pct-005.json": {
+    "status": "completed",
+    "question_id": "num-pct-005",
+    "timestamp": "2026-07-24 14:58:47"
+  },
+  "free_tier_q059_num-pct-006.json": {
+    "status": "completed",
+    "question_id": "num-pct-006",
+    "timestamp": "2026-07-24 14:58:57"
+  },
+  "free_tier_q060_num-pct-007.json": {
+    "status": "completed",
+    "question_id": "num-pct-007",
+    "timestamp": "2026-07-24 14:59:05"
+  },
+  "free_tier_q061_num-pct-008.json": {
+    "status": "completed",
+    "question_id": "num-pct-008",
+    "timestamp": "2026-07-24 14:59:15"
+  },
+  "free_tier_q062_num-pct-009.json": {
+    "status": "completed",
+    "question_id": "num-pct-009",
+    "timestamp": "2026-07-24 14:59:24"
+  },
+  "free_tier_q063_num-pct-010.json": {
+    "status": "completed",
+    "question_id": "num-pct-010",
+    "timestamp": "2026-07-24 14:59:33"
+  },
+  "free_tier_q064_num-pct-011.json": {
+    "status": "completed",
+    "question_id": "num-pct-011",
+    "timestamp": "2026-07-24 14:59:44"
+  },
+  "free_tier_q065_num-pct-012.json": {
+    "status": "completed",
+    "question_id": "num-pct-012",
+    "timestamp": "2026-07-24 14:59:54"
+  },
+  "free_tier_q066_num-pct-013.json": {
+    "status": "completed",
+    "question_id": "num-pct-013",
+    "timestamp": "2026-07-24 15:00:03"
+  },
+  "free_tier_q067_num-pct-014.json": {
+    "status": "completed",
+    "question_id": "num-pct-014",
+    "timestamp": "2026-07-24 15:00:13"
+  },
+  "free_tier_q068_num-pct-015.json": {
+    "status": "completed",
+    "question_id": "num-pct-015",
+    "timestamp": "2026-07-24 15:00:23"
+  },
+  "free_tier_q069_num-pct-016.json": {
+    "status": "completed",
+    "question_id": "num-pct-016",
+    "timestamp": "2026-07-24 15:00:34"
+  },
+  "free_tier_q070_num-pct-017.json": {
+    "status": "completed",
+    "question_id": "num-pct-017",
+    "timestamp": "2026-07-24 15:00:45"
+  },
+  "free_tier_q071_num-pct-018.json": {
+    "status": "completed",
+    "question_id": "num-pct-018",
+    "timestamp": "2026-07-24 15:00:55"
+  },
+  "free_tier_q072_ver-gram-009.json": {
+    "status": "completed",
+    "question_id": "ver-gram-009",
+    "timestamp": "2026-07-24 15:01:05"
+  },
+  "free_tier_q073_ver-gram-010.json": {
+    "status": "completed",
+    "question_id": "ver-gram-010",
+    "timestamp": "2026-07-24 15:01:16"
+  },
+  "free_tier_q074_ver-gram-011.json": {
+    "status": "completed",
+    "question_id": "ver-gram-011",
+    "timestamp": "2026-07-24 15:01:28"
+  },
+  "free_tier_q075_ver-gram-012.json": {
+    "status": "completed",
+    "question_id": "ver-gram-012",
+    "timestamp": "2026-07-24 15:01:38"
+  },
+  "free_tier_q076_ver-gram-013.json": {
+    "status": "completed",
+    "question_id": "ver-gram-013",
+    "timestamp": "2026-07-24 15:01:49"
+  },
+  "free_tier_q077_ver-gram-015.json": {
+    "status": "completed",
+    "question_id": "ver-gram-015",
+    "timestamp": "2026-07-24 15:02:00"
+  },
+  "free_tier_q078_ver-gram-016.json": {
+    "status": "completed",
+    "question_id": "ver-gram-016",
+    "timestamp": "2026-07-24 15:02:09"
+  },
+  "free_tier_q079_ver-gram-017.json": {
+    "status": "completed",
+    "question_id": "ver-gram-017",
+    "timestamp": "2026-07-24 15:02:22"
+  },
+  "free_tier_q080_ver-vocab-001.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-001",
+    "timestamp": "2026-07-24 15:02:33"
+  },
+  "free_tier_q081_ver-vocab-002.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-002",
+    "timestamp": "2026-07-24 15:02:44"
+  },
+  "free_tier_q082_ver-vocab-003.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-003",
+    "timestamp": "2026-07-24 15:02:53"
+  },
+  "free_tier_q083_ver-vocab-004.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-004",
+    "timestamp": "2026-07-24 15:03:04"
+  },
+  "free_tier_q084_ver-vocab-005.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-005",
+    "timestamp": "2026-07-24 15:03:13"
+  },
+  "free_tier_q085_ver-vocab-006.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-006",
+    "timestamp": "2026-07-24 15:03:23"
+  },
+  "free_tier_q086_ver-vocab-007.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-007",
+    "timestamp": "2026-07-24 15:03:34"
+  },
+  "free_tier_q087_ver-vocab-008.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-008",
+    "timestamp": "2026-07-24 15:03:43"
+  },
+  "free_tier_q088_ver-vocab-009.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-009",
+    "timestamp": "2026-07-24 15:03:52"
+  },
+  "free_tier_q089_ver-vocab-010.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-010",
+    "timestamp": "2026-07-24 15:04:04"
+  },
+  "free_tier_q090_ver-read-001.json": {
+    "status": "completed",
+    "question_id": "ver-read-001",
+    "timestamp": "2026-07-24 15:04:13"
+  },
+  "free_tier_q091_ver-read-002.json": {
+    "status": "completed",
+    "question_id": "ver-read-002",
+    "timestamp": "2026-07-24 15:04:22"
+  },
+  "free_tier_q092_ver-read-003.json": {
+    "status": "completed",
+    "question_id": "ver-read-003",
+    "timestamp": "2026-07-24 15:04:31"
+  },
+  "free_tier_q093_ver-read-004.json": {
+    "status": "completed",
+    "question_id": "ver-read-004",
+    "timestamp": "2026-07-24 15:04:41"
+  },
+  "free_tier_q094_ver-vanal-001.json": {
+    "status": "completed",
+    "question_id": "ver-vanal-001",
+    "timestamp": "2026-07-24 15:04:52"
+  },
+  "free_tier_q095_ver-vanal-002.json": {
+    "status": "completed",
+    "question_id": "ver-vanal-002",
+    "timestamp": "2026-07-24 15:05:00"
+  },
+  "free_tier_q096_ver-vanal-003.json": {
+    "status": "completed",
+    "question_id": "ver-vanal-003",
+    "timestamp": "2026-07-24 15:05:08"
+  },
+  "free_tier_q097_ver-vanal-004.json": {
+    "status": "completed",
+    "question_id": "ver-vanal-004",
+    "timestamp": "2026-07-24 15:05:17"
+  },
+  "free_tier_q098_ver-sent-001.json": {
+    "status": "completed",
+    "question_id": "ver-sent-001",
+    "timestamp": "2026-07-24 15:05:26"
+  },
+  "free_tier_q099_ver-sent-002.json": {
+    "status": "completed",
+    "question_id": "ver-sent-002",
+    "timestamp": "2026-07-24 15:05:35"
+  },
+  "free_tier_q100_ver-sent-003.json": {
+    "status": "completed",
+    "question_id": "ver-sent-003",
+    "timestamp": "2026-07-24 15:05:47"
+  },
+  "free_tier_q101_ver-sent-004.json": {
+    "status": "completed",
+    "question_id": "ver-sent-004",
+    "timestamp": "2026-07-24 15:05:58"
+  },
+  "free_tier_q102_ver-sent-005.json": {
+    "status": "completed",
+    "question_id": "ver-sent-005",
+    "timestamp": "2026-07-24 15:06:08"
+  },
+  "free_tier_q103_ana-log-006.json": {
+    "status": "completed",
+    "question_id": "ana-log-006",
+    "timestamp": "2026-07-24 15:06:19"
+  },
+  "free_tier_q104_ana-log-007.json": {
+    "status": "completed",
+    "question_id": "ana-log-007",
+    "timestamp": "2026-07-24 15:06:29"
+  },
+  "free_tier_q105_ana-log-008.json": {
+    "status": "completed",
+    "question_id": "ana-log-008",
+    "timestamp": "2026-07-24 15:06:39"
+  },
+  "free_tier_q106_ana-log-009.json": {
+    "status": "completed",
+    "question_id": "ana-log-009",
+    "timestamp": "2026-07-24 15:06:49"
+  },
+  "free_tier_q107_ana-data-001.json": {
+    "status": "completed",
+    "question_id": "ana-data-001",
+    "timestamp": "2026-07-24 15:06:58"
+  },
+  "free_tier_q108_ana-pat-001.json": {
+    "status": "completed",
+    "question_id": "ana-pat-001",
+    "timestamp": "2026-07-24 15:07:07"
+  },
+  "free_tier_q109_ana-seq-001.json": {
+    "status": "completed",
+    "question_id": "ana-seq-001",
+    "timestamp": "2026-07-24 15:07:15"
+  },
+  "free_tier_q110_ana-seq-002.json": {
+    "status": "completed",
+    "question_id": "ana-seq-002",
+    "timestamp": "2026-07-24 15:07:24"
+  },
+  "free_tier_q111_ana-seq-003.json": {
+    "status": "completed",
+    "question_id": "ana-seq-003",
+    "timestamp": "2026-07-24 15:07:34"
+  },
+  "free_tier_q112_cle-fil-006.json": {
+    "status": "completed",
+    "question_id": "cle-fil-006",
+    "timestamp": "2026-07-24 15:07:46"
+  },
+  "free_tier_q113_cle-clops-001.json": {
+    "status": "completed",
+    "question_id": "cle-clops-001",
+    "timestamp": "2026-07-24 15:07:57"
+  },
+  "free_tier_q114_cle-type-001.json": {
+    "status": "completed",
+    "question_id": "cle-type-001",
+    "timestamp": "2026-07-24 15:08:06"
+  },
+  "free_tier_q115_cle-type-002.json": {
+    "status": "completed",
+    "question_id": "cle-type-002",
+    "timestamp": "2026-07-24 15:08:14"
+  },
+  "free_tier_q116_gen-const-006.json": {
+    "status": "completed",
+    "question_id": "gen-const-006",
+    "timestamp": "2026-07-24 15:08:26"
+  },
+  "free_tier_q117_gen-ra6713-001.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-001",
+    "timestamp": "2026-07-24 15:08:39"
+  },
+  "free_tier_q118_gen-govt-001.json": {
+    "status": "completed",
+    "question_id": "gen-govt-001",
+    "timestamp": "2026-07-24 15:08:48"
+  },
+  "free_tier_q119_gen-curenv-001.json": {
+    "status": "completed",
+    "question_id": "gen-curenv-001",
+    "timestamp": "2026-07-24 15:08:59"
+  },
+  "free_tier_q120_gen-peace-001.json": {
+    "status": "completed",
+    "question_id": "gen-peace-001",
+    "timestamp": "2026-07-24 15:09:08"
+  },
+  "free_tier_q121_ver-gram-018.json": {
+    "status": "completed",
+    "question_id": "ver-gram-018",
+    "timestamp": "2026-07-24 15:09:17"
+  },
+  "free_tier_q122_ver-gram-019.json": {
+    "status": "completed",
+    "question_id": "ver-gram-019",
+    "timestamp": "2026-07-24 15:09:28"
+  },
+  "free_tier_q123_ver-gram-020.json": {
+    "status": "completed",
+    "question_id": "ver-gram-020",
+    "timestamp": "2026-07-24 15:09:38"
+  },
+  "free_tier_q124_ver-gram-021.json": {
+    "status": "completed",
+    "question_id": "ver-gram-021",
+    "timestamp": "2026-07-24 15:09:50"
+  },
+  "free_tier_q125_ver-gram-022.json": {
+    "status": "completed",
+    "question_id": "ver-gram-022",
+    "timestamp": "2026-07-24 15:10:01"
+  },
+  "free_tier_q126_ver-gram-023.json": {
+    "status": "completed",
+    "question_id": "ver-gram-023",
+    "timestamp": "2026-07-24 15:10:12"
+  },
+  "free_tier_q127_ver-gram-024.json": {
+    "status": "completed",
+    "question_id": "ver-gram-024",
+    "timestamp": "2026-07-24 15:10:20"
+  },
+  "free_tier_q128_ver-gram-025.json": {
+    "status": "completed",
+    "question_id": "ver-gram-025",
+    "timestamp": "2026-07-24 15:10:28"
+  },
+  "free_tier_q129_ver-gram-026.json": {
+    "status": "completed",
+    "question_id": "ver-gram-026",
+    "timestamp": "2026-07-24 15:10:37"
+  },
+  "free_tier_q130_ver-gram-028.json": {
+    "status": "completed",
+    "question_id": "ver-gram-028",
+    "timestamp": "2026-07-24 15:10:48"
+  },
+  "free_tier_q131_ver-gram-029.json": {
+    "status": "completed",
+    "question_id": "ver-gram-029",
+    "timestamp": "2026-07-24 15:10:59"
+  },
+  "free_tier_q132_ver-gram-030.json": {
+    "status": "completed",
+    "question_id": "ver-gram-030",
+    "timestamp": "2026-07-24 15:11:07"
+  },
+  "free_tier_q133_ver-gram-031.json": {
+    "status": "completed",
+    "question_id": "ver-gram-031",
+    "timestamp": "2026-07-24 15:11:16"
+  },
+  "free_tier_q134_ver-gram-032.json": {
+    "status": "completed",
+    "question_id": "ver-gram-032",
+    "timestamp": "2026-07-24 15:11:25"
+  },
+  "free_tier_q135_ver-gram-035.json": {
+    "status": "completed",
+    "question_id": "ver-gram-035",
+    "timestamp": "2026-07-24 15:11:35"
+  },
+  "free_tier_q136_ver-vocab-011.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-011",
+    "timestamp": "2026-07-24 15:11:57"
+  },
+  "free_tier_q137_ver-vocab-012.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-012",
+    "timestamp": "2026-07-24 15:12:06"
+  },
+  "free_tier_q138_ver-vocab-013.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-013",
+    "timestamp": "2026-07-24 15:12:26"
+  },
+  "free_tier_q139_ver-vocab-014.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-014",
+    "timestamp": "2026-07-24 15:12:34"
+  },
+  "free_tier_q140_ver-vocab-015.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-015",
+    "timestamp": "2026-07-24 15:12:43"
+  },
+  "free_tier_q141_ver-vocab-016.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-016",
+    "timestamp": "2026-07-24 15:12:54"
+  },
+  "free_tier_q142_ver-vocab-017.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-017",
+    "timestamp": "2026-07-24 15:13:14"
+  },
+  "free_tier_q143_ver-vocab-018.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-018",
+    "timestamp": "2026-07-24 15:13:32"
+  },
+  "free_tier_q144_ver-vocab-019.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-019",
+    "timestamp": "2026-07-24 15:13:41"
+  },
+  "free_tier_q145_ver-vocab-020.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-020",
+    "timestamp": "2026-07-24 15:13:51"
+  },
+  "free_tier_q146_ver-vocab-021.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-021",
+    "timestamp": "2026-07-24 15:13:59"
+  },
+  "free_tier_q147_ver-vocab-022.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-022",
+    "timestamp": "2026-07-24 15:14:28"
+  },
+  "free_tier_q148_ver-vocab-023.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-023",
+    "timestamp": "2026-07-24 15:14:37"
+  },
+  "free_tier_q149_ver-vocab-024.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-024",
+    "timestamp": "2026-07-24 15:14:48"
+  },
+  "free_tier_q150_ver-vocab-025.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-025",
+    "timestamp": "2026-07-24 15:14:57"
+  },
+  "free_tier_q151_ver-vocab-026.json": {
+    "status": "completed",
+    "question_id": "ver-vocab-026",
+    "timestamp": "2026-07-24 15:15:06"
+  },
+  "free_tier_q152_ana-log-011.json": {
+    "status": "completed",
+    "question_id": "ana-log-011",
+    "timestamp": "2026-07-24 15:15:14"
+  },
+  "free_tier_q153_ana-data-011.json": {
+    "status": "completed",
+    "question_id": "ana-data-011",
+    "timestamp": "2026-07-24 15:15:23"
+  },
+  "free_tier_q154_ana-pat-011.json": {
+    "status": "completed",
+    "question_id": "ana-pat-011",
+    "timestamp": "2026-07-24 15:15:31"
+  },
+  "free_tier_q155_ana-seq-011.json": {
+    "status": "completed",
+    "question_id": "ana-seq-011",
+    "timestamp": "2026-07-24 15:15:40"
+  },
+  "free_tier_q156_cle-fil-011.json": {
+    "status": "completed",
+    "question_id": "cle-fil-011",
+    "timestamp": "2026-07-24 15:15:50"
+  },
+  "free_tier_q157_cle-code-011.json": {
+    "status": "completed",
+    "question_id": "cle-code-011",
+    "timestamp": "2026-07-24 15:16:00"
+  },
+  "free_tier_q158_cle-clops-011.json": {
+    "status": "completed",
+    "question_id": "cle-clops-011",
+    "timestamp": "2026-07-24 15:16:08"
+  },
+  "free_tier_q159_cle-type-011.json": {
+    "status": "completed",
+    "question_id": "cle-type-011",
+    "timestamp": "2026-07-24 15:16:15"
+  },
+  "free_tier_q160_gen-const-011.json": {
+    "status": "completed",
+    "question_id": "gen-const-011",
+    "timestamp": "2026-07-24 15:16:23"
+  },
+  "free_tier_q161_gen-ra6713-011.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-011",
+    "timestamp": "2026-07-24 15:16:31"
+  },
+  "free_tier_q162_gen-govt-011.json": {
+    "status": "completed",
+    "question_id": "gen-govt-011",
+    "timestamp": "2026-07-24 15:16:39"
+  },
+  "free_tier_q163_gen-curenv-011.json": {
+    "status": "completed",
+    "question_id": "gen-curenv-011",
+    "timestamp": "2026-07-24 15:16:48"
+  },
+  "free_tier_q164_gen-peace-011.json": {
+    "status": "completed",
+    "question_id": "gen-peace-011",
+    "timestamp": "2026-07-24 15:16:57"
+  },
+  "free_tier_q165_ana-log-100.json": {
+    "status": "completed",
+    "question_id": "ana-log-100",
+    "timestamp": "2026-07-24 15:17:07"
+  },
+  "free_tier_q166_ana-log-101.json": {
+    "status": "completed",
+    "question_id": "ana-log-101",
+    "timestamp": "2026-07-24 15:17:16"
+  },
+  "free_tier_q167_ana-data-100.json": {
+    "status": "completed",
+    "question_id": "ana-data-100",
+    "timestamp": "2026-07-24 15:17:24"
+  },
+  "free_tier_q168_ana-pat-100.json": {
+    "status": "completed",
+    "question_id": "ana-pat-100",
+    "timestamp": "2026-07-24 15:17:33"
+  },
+  "free_tier_q169_ana-seq-100.json": {
+    "status": "completed",
+    "question_id": "ana-seq-100",
+    "timestamp": "2026-07-24 15:17:42"
+  },
+  "free_tier_q170_cle-fil-100.json": {
+    "status": "completed",
+    "question_id": "cle-fil-100",
+    "timestamp": "2026-07-24 15:17:54"
+  },
+  "free_tier_q171_cle-code-100.json": {
+    "status": "completed",
+    "question_id": "cle-code-100",
+    "timestamp": "2026-07-24 15:18:31"
+  },
+  "free_tier_q172_cle-code-101.json": {
+    "status": "completed",
+    "question_id": "cle-code-101",
+    "timestamp": "2026-07-24 15:18:40"
+  },
+  "free_tier_q173_cle-code-102.json": {
+    "status": "completed",
+    "question_id": "cle-code-102",
+    "timestamp": "2026-07-24 15:18:50"
+  },
+  "free_tier_q174_cle-code-103.json": {
+    "status": "completed",
+    "question_id": "cle-code-103",
+    "timestamp": "2026-07-24 15:19:12"
+  },
+  "free_tier_q175_cle-clops-100.json": {
+    "status": "completed",
+    "question_id": "cle-clops-100",
+    "timestamp": "2026-07-24 15:19:21"
+  },
+  "free_tier_q176_cle-type-100.json": {
+    "status": "completed",
+    "question_id": "cle-type-100",
+    "timestamp": "2026-07-24 15:19:29"
+  },
+  "free_tier_q177_gen-const-100.json": {
+    "status": "completed",
+    "question_id": "gen-const-100",
+    "timestamp": "2026-07-24 15:19:38"
+  },
+  "free_tier_q178_gen-const-101.json": {
+    "status": "completed",
+    "question_id": "gen-const-101",
+    "timestamp": "2026-07-24 15:19:48"
+  },
+  "free_tier_q179_gen-const-102.json": {
+    "status": "completed",
+    "question_id": "gen-const-102",
+    "timestamp": "2026-07-24 15:19:57"
+  },
+  "free_tier_q180_gen-const-103.json": {
+    "status": "completed",
+    "question_id": "gen-const-103",
+    "timestamp": "2026-07-24 15:20:06"
+  },
+  "free_tier_q181_gen-ra6713-100.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-100",
+    "timestamp": "2026-07-24 15:20:17"
+  },
+  "free_tier_q182_gen-ra6713-101.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-101",
+    "timestamp": "2026-07-24 15:20:25"
+  },
+  "free_tier_q183_gen-ra6713-102.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-102",
+    "timestamp": "2026-07-24 15:20:36"
+  },
+  "free_tier_q184_gen-ra6713-103.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-103",
+    "timestamp": "2026-07-24 15:20:44"
+  },
+  "free_tier_q185_gen-govt-100.json": {
+    "status": "completed",
+    "question_id": "gen-govt-100",
+    "timestamp": "2026-07-24 15:20:53"
+  },
+  "free_tier_q186_gen-curenv-100.json": {
+    "status": "completed",
+    "question_id": "gen-curenv-100",
+    "timestamp": "2026-07-24 15:21:02"
+  },
+  "free_tier_q187_gen-peace-100.json": {
+    "status": "completed",
+    "question_id": "gen-peace-100",
+    "timestamp": "2026-07-24 15:21:12"
+  },
+  "free_tier_q188_ana-log-200.json": {
+    "status": "completed",
+    "question_id": "ana-log-200",
+    "timestamp": "2026-07-24 15:21:22"
+  },
+  "free_tier_q189_ana-data-200.json": {
+    "status": "completed",
+    "question_id": "ana-data-200",
+    "timestamp": "2026-07-24 15:21:41"
+  },
+  "free_tier_q190_ana-pat-200.json": {
+    "status": "completed",
+    "question_id": "ana-pat-200",
+    "timestamp": "2026-07-24 15:21:50"
+  },
+  "free_tier_q191_ana-seq-200.json": {
+    "status": "completed",
+    "question_id": "ana-seq-200",
+    "timestamp": "2026-07-24 15:21:59"
+  },
+  "free_tier_q192_cle-fil-200.json": {
+    "status": "completed",
+    "question_id": "cle-fil-200",
+    "timestamp": "2026-07-24 15:22:14"
+  },
+  "free_tier_q193_cle-code-200.json": {
+    "status": "completed",
+    "question_id": "cle-code-200",
+    "timestamp": "2026-07-24 15:22:22"
+  },
+  "free_tier_q194_cle-clops-200.json": {
+    "status": "completed",
+    "question_id": "cle-clops-200",
+    "timestamp": "2026-07-24 15:22:32"
+  },
+  "free_tier_q195_cle-type-200.json": {
+    "status": "completed",
+    "question_id": "cle-type-200",
+    "timestamp": "2026-07-24 15:22:40"
+  },
+  "free_tier_q196_gen-const-200.json": {
+    "status": "completed",
+    "question_id": "gen-const-200",
+    "timestamp": "2026-07-24 15:22:49"
+  },
+  "free_tier_q197_gen-const-201.json": {
+    "status": "completed",
+    "question_id": "gen-const-201",
+    "timestamp": "2026-07-24 15:22:58"
+  },
+  "free_tier_q198_gen-const-202.json": {
+    "status": "completed",
+    "question_id": "gen-const-202",
+    "timestamp": "2026-07-24 15:23:07"
+  },
+  "free_tier_q199_gen-const-203.json": {
+    "status": "completed",
+    "question_id": "gen-const-203",
+    "timestamp": "2026-07-24 15:23:25"
+  },
+  "free_tier_q200_gen-ra6713-200.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-200",
+    "timestamp": "2026-07-24 15:23:35"
+  },
+  "free_tier_q201_gen-govt-200.json": {
+    "status": "completed",
+    "question_id": "gen-govt-200",
+    "timestamp": "2026-07-24 15:23:44"
+  },
+  "free_tier_q202_gen-curenv-200.json": {
+    "status": "completed",
+    "question_id": "gen-curenv-200",
+    "timestamp": "2026-07-24 15:23:52"
+  },
+  "free_tier_q203_gen-peace-200.json": {
+    "status": "completed",
+    "question_id": "gen-peace-200",
+    "timestamp": "2026-07-24 15:24:03"
+  },
+  "free_tier_q204_ana-log-300.json": {
+    "status": "completed",
+    "question_id": "ana-log-300",
+    "timestamp": "2026-07-24 15:24:13"
+  },
+  "free_tier_q205_ana-data-300.json": {
+    "status": "completed",
+    "question_id": "ana-data-300",
+    "timestamp": "2026-07-24 15:24:32"
+  },
+  "free_tier_q206_ana-pat-300.json": {
+    "status": "completed",
+    "question_id": "ana-pat-300",
+    "timestamp": "2026-07-24 15:24:40"
+  },
+  "free_tier_q207_ana-seq-300.json": {
+    "status": "completed",
+    "question_id": "ana-seq-300",
+    "timestamp": "2026-07-24 15:24:48"
+  },
+  "free_tier_q208_cle-fil-300.json": {
+    "status": "completed",
+    "question_id": "cle-fil-300",
+    "timestamp": "2026-07-24 15:24:57"
+  },
+  "free_tier_q209_cle-code-300.json": {
+    "status": "completed",
+    "question_id": "cle-code-300",
+    "timestamp": "2026-07-24 15:25:05"
+  },
+  "free_tier_q210_cle-clops-300.json": {
+    "status": "completed",
+    "question_id": "cle-clops-300",
+    "timestamp": "2026-07-24 15:25:23"
+  },
+  "free_tier_q211_cle-type-300.json": {
+    "status": "completed",
+    "question_id": "cle-type-300",
+    "timestamp": "2026-07-24 15:25:31"
+  },
+  "free_tier_q212_gen-const-300.json": {
+    "status": "completed",
+    "question_id": "gen-const-300",
+    "timestamp": "2026-07-24 15:25:43"
+  },
+  "free_tier_q213_gen-ra6713-300.json": {
+    "status": "completed",
+    "question_id": "gen-ra6713-300",
+    "timestamp": "2026-07-24 15:25:53"
+  },
+  "free_tier_q214_ana-log-401.json": {
+    "status": "completed",
+    "question_id": "ana-log-401",
+    "timestamp": "2026-07-24 15:26:03"
+  },
+  "free_tier_q215_ana-log-402.json": {
+    "status": "completed",
+    "question_id": "ana-log-402",
+    "timestamp": "2026-07-24 15:26:13"
+  },
+  "free_tier_q216_ana-log-403.json": {
+    "status": "completed",
+    "question_id": "ana-log-403",
+    "timestamp": "2026-07-24 15:26:22"
+  },
+  "free_tier_q217_ana-log-404.json": {
+    "status": "completed",
+    "question_id": "ana-log-404",
+    "timestamp": "2026-07-24 15:26:34"
+  },
+  "free_tier_q218_ana-log-405.json": {
+    "status": "completed",
+    "question_id": "ana-log-405",
+    "timestamp": "2026-07-24 15:26:44"
+  },
+  "free_tier_q219_ana-log-406.json": {
+    "status": "completed",
+    "question_id": "ana-log-406",
+    "timestamp": "2026-07-24 15:26:53"
+  },
+  "free_tier_q220_ana-log-407.json": {
+    "status": "completed",
+    "question_id": "ana-log-407",
+    "timestamp": "2026-07-24 15:27:02"
+  },
+  "free_tier_q221_ana-log-408.json": {
+    "status": "completed",
+    "question_id": "ana-log-408",
+    "timestamp": "2026-07-24 15:27:11"
+  },
+  "free_tier_q222_ana-log-409.json": {
+    "status": "completed",
+    "question_id": "ana-log-409",
+    "timestamp": "2026-07-24 15:27:19"
+  },
+  "free_tier_q223_ana-log-410.json": {
+    "status": "completed",
+    "question_id": "ana-log-410",
+    "timestamp": "2026-07-24 15:27:29"
+  },
+  "free_tier_q224_ana-log-411.json": {
+    "status": "completed",
+    "question_id": "ana-log-411",
+    "timestamp": "2026-07-24 15:27:39"
+  },
+  "free_tier_q225_ana-log-412.json": {
+    "status": "completed",
+    "question_id": "ana-log-412",
+    "timestamp": "2026-07-24 15:27:47"
+  },
+  "free_tier_q226_ana-log-413.json": {
+    "status": "completed",
+    "question_id": "ana-log-413",
+    "timestamp": "2026-07-24 15:27:56"
+  },
+  "free_tier_q227_ana-log-414.json": {
+    "status": "completed",
+    "question_id": "ana-log-414",
+    "timestamp": "2026-07-24 15:28:03"
+  },
+  "free_tier_q228_ana-log-415.json": {
+    "status": "completed",
+    "question_id": "ana-log-415",
+    "timestamp": "2026-07-24 15:28:12"
+  },
+  "free_tier_q229_ana-log-416.json": {
+    "status": "completed",
+    "question_id": "ana-log-416",
+    "timestamp": "2026-07-24 15:28:22"
+  },
+  "free_tier_q230_ana-log-417.json": {
+    "status": "completed",
+    "question_id": "ana-log-417",
+    "timestamp": "2026-07-24 15:28:31"
+  },
+  "free_tier_q231_cle-fil-401.json": {
+    "status": "completed",
+    "question_id": "cle-fil-401",
+    "timestamp": "2026-07-24 15:28:41"
+  },
+  "free_tier_q232_cle-fil-402.json": {
+    "status": "completed",
+    "question_id": "cle-fil-402",
+    "timestamp": "2026-07-24 15:28:49"
+  },
+  "free_tier_q233_cle-fil-403.json": {
+    "status": "completed",
+    "question_id": "cle-fil-403",
+    "timestamp": "2026-07-24 15:28:58"
+  },
+  "free_tier_q234_cle-fil-404.json": {
+    "status": "completed",
+    "question_id": "cle-fil-404",
+    "timestamp": "2026-07-24 15:29:08"
+  },
+  "free_tier_q235_cle-fil-405.json": {
+    "status": "completed",
+    "question_id": "cle-fil-405",
+    "timestamp": "2026-07-24 15:29:15"
+  },
+  "free_tier_q236_cle-fil-406.json": {
+    "status": "completed",
+    "question_id": "cle-fil-406",
+    "timestamp": "2026-07-24 15:29:25"
+  },
+  "free_tier_q237_cle-fil-407.json": {
+    "status": "completed",
+    "question_id": "cle-fil-407",
+    "timestamp": "2026-07-24 15:29:32"
+  },
+  "free_tier_q238_cle-fil-408.json": {
+    "status": "completed",
+    "question_id": "cle-fil-408",
+    "timestamp": "2026-07-24 15:29:39"
+  },
+  "free_tier_q239_cle-fil-409.json": {
+    "status": "completed",
+    "question_id": "cle-fil-409",
+    "timestamp": "2026-07-24 15:29:50"
+  },
+  "free_tier_q240_cle-fil-410.json": {
+    "status": "completed",
+    "question_id": "cle-fil-410",
+    "timestamp": "2026-07-24 15:30:01"
+  },
+  "free_tier_q241_cle-fil-411.json": {
+    "status": "completed",
+    "question_id": "cle-fil-411",
+    "timestamp": "2026-07-24 15:30:13"
+  },
+  "free_tier_q242_cle-fil-412.json": {
+    "status": "completed",
+    "question_id": "cle-fil-412",
+    "timestamp": "2026-07-24 15:30:22"
+  },
+  "free_tier_q243_cle-fil-413.json": {
+    "status": "completed",
+    "question_id": "cle-fil-413",
+    "timestamp": "2026-07-24 15:30:30"
+  },
+  "free_tier_q244_cle-fil-414.json": {
+    "status": "completed",
+    "question_id": "cle-fil-414",
+    "timestamp": "2026-07-24 15:30:38"
+  }
+}

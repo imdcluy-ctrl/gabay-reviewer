@@ -1,0 +1,62 @@
+id: num-pct-003
+subtopic: word-problems-algebra
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["age-problem", "algebra"]
+estimated_seconds: 90
+question_text: "A department secretary is currently twice as old as her assistant. Eight years ago, the sum of their ages was 38. How old is the secretary now?"
+options:
+  - key: A
+    text: "18 years old"
+  - key: B
+    text: "24 years old"
+  - key: C
+    text: "36 years old"
+  - key: D
+    text: "40 years old"
+correct: C
+blueprint_id: "Numerical Ability — Algebraic Age Problems"
+hint_ladder:
+  - rung: 1
+    title: "Assign Variables"
+    text: "Let Assistant's age now = x. Then Secretary's age now = 2x."
+  - rung: 2
+    title: "Express Ages 8 Years Ago"
+    text: "Assistant 8 yrs ago = x - 8. Secretary 8 yrs ago = 2x - 8."
+  - rung: 3
+    title: "Set Up Equation"
+    text: "(x - 8) + (2x - 8) = 38 -> 3x - 16 = 38."
+  - rung: 4
+    title: "Solve for x and Secretary's Age"
+    text: "3x = 54 -> x = 18 (Assistant). Secretary = 2x = 36."
+deconstruct_text: |
+  Let x = Assistant's age now
+  Secretary's age now = 2x
+
+  8 years ago:
+  Assistant = x - 8
+  Secretary = 2x - 8
+  Sum = (x - 8) + (2x - 8) = 38
+  3x - 16 = 38
+  3x = 54 -> x = 18
+
+  Secretary's age now = 2 × 18 = 36 years old
+choice_explanations:
+  A:
+    text: "This is the Assistant's age now (18), not the Secretary's age."
+    trap_type: wrong_variable_target
+  B:
+    text: "Miscalculating 3x = 48."
+    trap_type: calculation_error
+  C:
+    text: "Correct! Assistant = 18, Secretary = 2(18) = 36."
+    trap_type: null
+  D:
+    text: "Adding 8 years to sum instead of subtracting from both."
+    trap_type: equation_setup_error
+next_time_rule: "Remember to subtract the past years from BOTH people when setting up age equations."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Age Algebra Problem"

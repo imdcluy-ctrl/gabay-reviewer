@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-499",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "A local government unit in Mindanao passes an ordinance that restricts the right to freedom of assembly for certain groups, citing public safety. A resident challenges the ordinance, arguing it violates the Universal Declaration of Human Rights (UDHR). Under Philippine law, which statement best describes the legal effect of the UDHR in this situation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The UDHR is directly enforceable as law in the Philippines, so the ordinance is automatically void."
+      },
+      {
+        "key": "B",
+        "text": "The UDHR is not a treaty and has no binding effect, but it may be used as a guide for interpreting Philippine laws and policies."
+      },
+      {
+        "key": "C",
+        "text": "The UDHR is a treaty ratified by the Philippines, so it has the force of law and overrides the ordinance."
+      },
+      {
+        "key": "D",
+        "text": "The UDHR is a customary international law that automatically prevails over any local ordinance."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3481",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

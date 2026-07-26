@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-010",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The manager concurred ___ the decision of the board.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom Pattern ni Concur",
+        "text": "Ang 'concur' ay laging may 'with' kapag sumasang-ayon sa tao o desisyon. Halimbawa: 'I concur with the plan.'"
+      },
+      {
+        "rung": 2,
+        "title": "Barangay Scenario",
+        "text": "Isipin si Kapitan na sumang-ayon sa council decision. 'Barangay captain concurred with the decision of the council.'"
+      },
+      {
+        "rung": 3,
+        "title": "Preposition Meanings",
+        "text": "WITH for agreement; IN for participation (concur in the activity); ON for specific point (concur on the date)."
+      },
+      {
+        "rung": 4,
+        "title": "Correct Answer",
+        "text": "So, the blank must be 'with'. Option B ang tama."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'agree to' is common, but 'concur' does not use 'to' for agreement.",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "Correct. 'Concur with' is the fixed idiomatic expression for agreeing with a decision or person.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'in' seems logical, but 'concur in' means to take part, not to agree.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'on' is used with specific topics, but the whole decision needs 'with'.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Remember: 'Concur with' a person/decision; 'concur in' an action; 'concur on' a specific point. Use 'with' for agreement.",
+    "blueprint_id": "Prepositions — Concur With",
+    "deconstruct_text": "Oh, this is a classic common error, pero 'wag mag-alala! I-breakdown natin 'to Ate/Kuya style. The verb 'concur' means to agree, but the preposition you pair it with changes everything.\n\n**Watch-Out Zone: preposition_misuse in action.** Many confuse 'agree to' with 'concur ...\n\nImagine our barangay captain, Kap. Tomy, listening to the council: 'Kap. Tomy concurred with the decision of the barangay council.' That's the correct usage! WITH shows full agreement.\n\nMental Trick: 'Kung agree WITH someone, gamitin ang WITH. Parang chika: \"I concur with you, mare!\" IN naman for joining an action, ON for specific point. Dali 'di ba?'\n\nNow, each distractor tries to sneak in. 'To' is from 'agree to', but not for 'concur'. 'In' means participation, not agreement—like 'concur in the fiesta preparations'. 'On' is for narrow points, like 'concur on the budget allocation.' But the whole decision? That's ...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-010",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'LITIGIOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Peaceful"
+      },
+      {
+        "key": "B",
+        "text": "Settlement-prone"
+      },
+      {
+        "key": "C",
+        "text": "Tending to sue"
+      },
+      {
+        "key": "D",
+        "text": "Arbitration"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about legal disputes. Think of the word 'litigation' — that's the formal term for a lawsuit. So 'litigious' describes someone who loves to get into legal battles."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The suffix '-ous' means 'full of' or 'characterized by.' So 'litigious' literally means 'full of lawsuits' or 'prone to suing.' Look for the option that captures that eagerness to take someone to court."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now scan the choices. One option is the direct opposite — peaceful. Another sounds like it might be about resolving disputes, but actually means avoiding court. One is a noun, not an adjective. Only one option matches the idea of being lawsuit-happy."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Imagine a neighbor who sues over every little thing — a tree branch, a loud party, a fence that's one inch over the line. That neighbor is litigious. Which option best describes that behavior?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you only glanced at the word and thought it sounded like 'lithe' or 'lenient.' But 'peaceful' is actually the exact opposite of litigious. A litigious person is the opposite of peaceful — they're ready to drag you to court over any disagreement. This trap catches students who guess based on a vague sound similarity rather than the word's actual meaning.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "This is a clever trap. You might know that 'litigious' relates to legal matters and think it means someone who settles disputes. But here's the twist: 'settlement-prone' means avoiding court by reaching agreements out of court. A litigious person does the opposite — they rush to file a lawsuit. This option catches students who confuse 'going to court' with 'resolving disputes.'",
+        "trap_type": "distractor"
+      },
+      "C": {
+        "text": "Exactly right. 'Litigious' means having a tendency to take legal action, especially to sue. Think of it as 'lawsuit-happy.' It describes someone who is quick to turn disagreements into court cases rather than working things out informally.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is tricky because 'arbitration' is indeed a legal term — it's a way to resolve disputes outside of court. But there are two problems here. First, 'litigious' is an adjective (describing a person), while 'arbitration' is a noun (a process). Second, arbitration is about avoiding lawsuits, while litigious is about starting them. This trap catches students who know the word is related to law but don't know the specific meaning.",
+        "trap_type": "partial_answer_error"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'litigious' comes from the same root as 'litigation,' which is the formal word for a lawsuit. So when you see 'litigious,' think 'lawsuit-happy.' It describes someone who is quick to sue — the kind of person who turns every disagreement into a court case.\n\nNow let's test each option against that core meaning. Option A, 'peaceful,' is the opposite — a peaceful person avoids conflict, not starts lawsuits. Option B, 'settlement-prone,' sounds like it might be related, but it actually means the opposite too. Someone who is settlement-prone wants to resolve things out of court, not in it. Option D, 'arbitration,' is a noun describing a specific dispute resolution process, not an adjective describing a person's tendency.\n\nOnly option C, 'tending to sue,' captures the exact meaning. Here's a mental trick to lock this in: The word 'litigious' contains 'sue' if you squint — 'litig-' sounds like 'sue' with a 'lit' in front. Or remember the phrase 'litigious litigator' — a litigator is a lawyer who handles lawsuits, and a litigious person is one who constantly needs their services.",
+    "next_time_rule": "When you see a word ending in '-ous' that relates to law, think 'full of that legal action.' Litigious = full of lawsuits = prone to suing. If you forget, just remember: 'litigation' is a lawsuit, so 'litigious' means lawsuit-happy.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

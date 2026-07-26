@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-001",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The government is committed ___ providing quality public service.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question tests your knowledge of common adjective-preposition pairings in English. Some words just naturally go together, and 'committed' is one of them."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The adjective 'committed' is always followed by the preposition 'to'. Think of it like a fixed partnership: whenever you see 'committed', expect 'to' to come next."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now plug that rule into the sentence. The phrase should read 'committed to providing'. Say it out loud—doesn't it sound natural and complete? That's your ear confirming the rule."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Only one option creates a correct and idiomatic expression with 'committed'. It's the same preposition you'd use in 'committed to a cause' or 'committed to excellence'. That option is 'to'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen 'on' because it sounds vaguely familiar—maybe you've heard 'commit a crime on someone' or 'focused on'. But 'committed on' isn't a standard pairing in English. It's a common trap: mixing up prepositions that work with similar words like 'focused' (which does take 'on').",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "'Committed in' might feel right if you're thinking of phrases like 'involved in' or 'interested in'. But 'committed' is different—it demands 'to'. This is a classic case of applying a pattern from one word to another that doesn't follow it.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Correct. 'Committed to' is the standard, idiomatic pairing in English. It means being dedicated or pledged to something. The phrase 'committed to providing' flows naturally and is grammatically sound.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have picked 'for' because it appears in legal phrases like 'committed for trial' or 'committed for evaluation'. But those are different contexts. When 'committed' is followed by a gerund (a verb ending in -ing used as a noun), the only correct preposition is 'to'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "Think of 'committed' as having a built-in partner: 'to'. Whenever you see 'committed', your brain should automatically reach for 'to'. Memorize it as a fixed pair, like 'interested in' or 'capable of'.",
+    "blueprint_id": "Prepositions — Committed To",
+    "deconstruct_text": "Let's break this down in a way that sticks. The key is recognizing that certain adjectives in English have a 'best friend' preposition—a word they almost always hang out with. 'Committed' is best friends with 'to'. So when you see 'committed', your first instinct should be to look for 'to' next. In this sentence, the blank comes right after 'committed' and before 'providing'. The natural, correct flow is 'committed to providing'. Try saying the other options out loud: 'committed on providing' feels clunky, 'committed in providing' sounds off, and 'committed for providing' is just not how we say it in English. Your ear can be a powerful tool here. If it doesn't sound right when you say it, it probably isn't. The mental trick? Think of 'committed to' as a single unit, like a compound word. Once you lock that in, you'll never second-guess this type of question again.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-024",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "The ratio of coconut oil to soap base in a livelihood production is 3:7. If 21 liters of soap base is used, how many liters of coconut oil are needed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ba ang ratio?",
+        "text": "Ang 3:7 ay relasyon ng dalawang sangkap. Alam mo ang actual na 21 liters ng soap base (7 parts). Hanapin ang actual na coconut oil (3 parts)."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang isang part",
+        "text": "Kung 7 parts = 21 liters, magkano ang 1 part? I-divide: 21 ÷ 7 = 3 liters per part. Ito ang pinakaimportanteng hakbang."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply para sa oil",
+        "text": "Ngayong 1 part = 3 liters, ang oil ay may 3 parts. I-multiply: 3 parts × 3 liters = 9 liters. Parang 3×3 lang 'yan!"
+      },
+      {
+        "rung": 4,
+        "title": "I-check kung tama",
+        "text": "Gawing simple ang 9:21—i-divide pareho sa 3: 9÷3=3, 21÷3=7. Bumalik sa 3:7! Palaging i-check para sigurado."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because nag-multiply ka ng 3 by 2 to get 6, pero walang basis ang 2. Dapat unahin ang one part: 21÷7=3, then 3×3=9.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because nalito ka sa part number ng base (7) bilang sagot. Pero hindi 7 liters ang oil—ang 7 ay parts ng base. On...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "You might have chosen C because nag-add ka ng 3+7=10, tapos nag-subtract o nag-magic. Walang shortcut—always find the value of one part m...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "Correct. 21 liters ng base ay 7 parts, kaya 1 part = 3 liters. Then 3 parts ng oil x 3 = 9 liters. The ratio 9:21 simplifies to 3:7.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Sa kahit anong ratio problem, hanapin muna ang value ng one part: divide the known amount by its ratio number, then multiply. 'One part muna bago lahat!'",
+    "blueprint_id": "Direct Proportion — Livelihood Ratio",
+    "deconstruct_text": "Si Aling Nena ng Barangay Masagana ay may negosyong homemade dishwashing liquid. Ang recipe niya: 3 parts coconut oil sa 7 parts soap base. One day, nagamit niya ang 21 liters ng soap base. Ilang liters ng coconut oil ang dapat niyang ihalo?\n\nAng ratio 3:7 ay nagsasabi na sa bawat 3 bahagi ng oil, may 7 bahagi ng base. Ang actual na 21 liters ng base ay tumutugma sa 7 parts. Kaya, 1 part = 21÷7 = 3 liters. Ang oil ay may 3 parts, kaya 3×3 = 9 liters ang kailangan.\n\nCheck: Ang 9:21 ay nagiging 3:7 kapag dinivide sa 3. Kaya tama! Mental trick: 'Hanapin muna ang halaga ng isang part—iyan ang susi sa lahat ng ratio problems!'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

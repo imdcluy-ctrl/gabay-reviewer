@@ -1,0 +1,54 @@
+id: ver-gram-006
+subtopic: grammar-correct-usage
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["parallelism", "official-writing"]
+estimated_seconds: 60
+question_text: "Identify the sentence that maintains parallel structure."
+options:
+  - key: A
+    text: "The new administrative officer likes organizing files, drafting letters, and to answer phone inquiries."
+  - key: B
+    text: "The new administrative officer likes organizing files, drafting letters, and answering phone inquiries."
+  - key: C
+    text: "The new administrative officer likes to organize files, drafting letters, and answering phone inquiries."
+  - key: D
+    text: "The new administrative officer likes file organization, drafting letters, and to answer phone inquiries."
+correct: B
+blueprint_id: "Parallel Structure — Parallel Gerund Phrases"
+hint_ladder:
+  - rung: 1
+    title: "Identify List Items"
+    text: "The sentence lists three duties: organizing, drafting, answering."
+  - rung: 2
+    title: "Check Verb Forms"
+    text: "All items in a list must use the same grammatical form (all gerunds -ing or all infinitives to...)."
+  - rung: 3
+    title: "Compare Sentence B"
+    text: "Sentence B uses three gerunds: organizing, drafting, answering."
+  - rung: 4
+    title: "Confirm Parallelism"
+    text: "Sentence B is parallel because all listed actions end in -ing."
+deconstruct_text: |
+  Parallelism requires items in a series to share identical grammatical structure.
+  Option B uses parallel gerunds: organizing, drafting, answering.
+  Option A mixes gerunds with infinitive 'to answer'.
+choice_explanations:
+  A:
+    text: "Breaks parallelism by mixing gerunds (organizing, drafting) with an infinitive (to answer)."
+    trap_type: faulty_parallelism
+  B:
+    text: "Correct! Uses parallel gerund phrases (organizing, drafting, answering)."
+    trap_type: null
+  C:
+    text: "Breaks parallelism by starting with infinitive 'to organize' followed by gerunds."
+    trap_type: faulty_parallelism
+  D:
+    text: "Mixes noun phrase (file organization), gerund (drafting), and infinitive (to answer)."
+    trap_type: faulty_parallelism
+next_time_rule: "Keep items in a series grammatically uniform (all -ing verbs or all to... infinitives)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Verbal Ability — Parallelism"

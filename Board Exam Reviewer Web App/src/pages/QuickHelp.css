@@ -1,0 +1,153 @@
+.quick-help-layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-help-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.help-tabs-header {
+  display: flex;
+  gap: 0.75rem;
+  background-color: var(--color-bg-card);
+  padding: 6px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: var(--radius-lg);
+  border: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--size-sm);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.tab-btn.active {
+  background-color: var(--color-brand-teal);
+  color: #FFFFFF;
+}
+
+.help-hero-card {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.accordion-item {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color 150ms ease;
+}
+
+.accordion-item.open {
+  border-color: var(--color-brand-teal);
+}
+
+.accordion-trigger {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: var(--size-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.accordion-content {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  font-size: var(--size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 0.25rem;
+}
+
+.accordion-content ol {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.accordion-content li {
+  margin-bottom: 0.25rem;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.feedback-subtitle {
+  font-size: var(--size-sm);
+  color: var(--color-text-secondary);
+  margin-top: -0.5rem;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feedback-select,
+.feedback-input,
+.feedback-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: var(--size-sm);
+}
+
+.feedback-select:focus,
+.feedback-input:focus,
+.feedback-textarea:focus {
+  outline: none;
+  border-color: var(--color-brand-teal);
+}
+
+.feedback-success-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  padding: 2rem 1rem;
+}
+
+.feedback-success-box span {
+  font-size: 3rem;
+}

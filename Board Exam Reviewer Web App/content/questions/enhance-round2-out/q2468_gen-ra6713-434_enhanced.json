@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-434",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "A government employee, Maria, accepted a bribe to expedite a business permit. She was charged under RA 3019 (Anti-Graft and Corrupt Practices Act) and also administratively under RA 6713. Which of the following best distinguishes the two laws in this scenario?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 6713 covers ethical breaches like accepting gifts, while RA 3019 covers corrupt practices like bribery."
+      },
+      {
+        "key": "B",
+        "text": "RA 3019 covers ethical breaches like conflict of interest, while RA 6713 covers corrupt practices like bribery."
+      },
+      {
+        "key": "C",
+        "text": "Both laws cover the same acts, so Maria can only be charged under one."
+      },
+      {
+        "key": "D",
+        "text": "RA 6713 only applies to appointed officials, while RA 3019 applies to all."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3053",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-001",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange the following government employee names in correct alphabetical filing order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. De Leon, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "2, 3, 1, 4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About How Filing Treats Prefixes",
+        "text": "In official filing systems, prefixes like 'De', 'De la', and 'Del' are not ignored or separated. They are treated as part of the surname itself. So you're not sorting by 'Cruz' or 'Rosario' alone, but by the whole thing: 'De la Cruz', 'Del Rosario', and so on."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule: Compare Letter by Letter",
+        "text": "When sorting, imagine you're comparing each name character by character from left to right, ignoring spaces and capitalization. All four names start with 'D-e-'. So look at the fourth character: for De Castro it's 'C', for De la Cruz it's 'l', for De Leon it's 'L', and for Del Rosario it's 'l' (since 'Del' is D-e-l)."
+      },
+      {
+        "rung": 3,
+        "title": "Sort the First Letters That Differ",
+        "text": "The fourth character is the first point of difference. 'C' comes before 'l' and 'L', so De Castro is first. Now among the remaining three, compare the fifth character: De la Cruz has 'a' (after the space), De Leon has 'e', and Del Rosario has 'R'. 'a' comes before 'e', and 'e' comes before 'R'. So De la Cruz is second, De Leon is third, and Del Rosario is last."
+      },
+      {
+        "rung": 4,
+        "title": "Map the Order Back to Numbers",
+        "text": "So the correct alphabetical sequence is: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). That gives you 3, 1, 4, 2. Look at the options and see which one matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is exactly right. When you file the names letter by letter, treating the prefixes as part of the surname, the order is De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). The sequence 3, 1, 4, 2 is correct.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This just lists the names in the order they were given, which is not sorted at all. It's a common mistake when you're in a hurry and assume the list is already in order. Always check the first letters carefully.",
+        "trap_type": "unsorted_error"
+      },
+      "C": {
+        "text": "This sequence puts De Leon (4) before De la Cruz (1). But if you compare 'De la' and 'De L' character by character, the fifth character is 'a' for De la Cruz and 'e' for De Leon. Since 'a' comes before 'e', De la Cruz should come first. This is a subtle trap where the space and lowercase letters can trick you.",
+        "trap_type": "letter_sequence_error"
+      },
+      "D": {
+        "text": "Starting with Del Rosario (2) is a mistake because 'Del R' begins with 'R' after the prefix, and 'R' comes after 'C', 'l', and 'L' from the other names. Del Rosario should be last. This often happens when someone sorts by the main surname only, ignoring the prefix.",
+        "trap_type": "prefix_sorting_error"
+      }
+    },
+    "next_time_rule": "When filing names with prefixes like De, De la, or Del, imagine writing the whole surname as one word (e.g., 'Delacruz') and sort letter by letter. The prefix is part of the name, not separate.",
+    "blueprint_id": "Alphabetical Filing — Prefix Surnames (De, De la, Del)",
+    "deconstruct_text": "Let's work through this together. The key idea is that in official filing, prefixes like 'De', 'De la', and 'Del' are considered part of the surname. So you're not sorting by 'Cruz' or 'Rosario' alone, but by the full name as a single unit.\n\nStart by comparing all four names character by character from the beginning. They all start with 'D' and 'e', so the first two letters are the same. The third letter is also the same: a space for 'De la Cruz', 'De Castro', and 'De Leon', and 'l' for 'Del Rosario'. But wait, we need to compare carefully.\n\nActually, let's look at the fourth character. For 'De Castro', the fourth character is 'C'. For 'De la Cruz', it's 'l' (lowercase L). For 'De Leon', it's 'L' (uppercase). For 'Del Rosario', the fourth character is 'l' (since 'Del' is D-e-l). In standard filing, we ignore case, so 'C' comes before 'l' and 'L'. That makes De Castro the first name.\n\nNow among the remaining three, compare the fifth character. 'De la Cruz' has 'a' (after the space), 'De Leon' has 'e', and 'Del Rosario' has 'R'. 'a' comes before 'e', and 'e' comes before 'R'. So the order is: De la Cruz, then De Leon, then Del Rosario.\n\nPutting it all together: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). The sequence is 3, 1, 4, 2.\n\nHere's a mental trick for next time: Imagine writing each surname as one continuous word without spaces or capitalization. So 'De la Cruz' becomes 'delacruz', 'Del Rosario' becomes 'delrosario', and so on. Then sort those words alphabetically. It makes the comparison much easier and faster.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

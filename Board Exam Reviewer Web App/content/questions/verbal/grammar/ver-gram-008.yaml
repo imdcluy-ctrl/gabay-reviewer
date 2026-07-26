@@ -1,0 +1,55 @@
+id: ver-gram-008
+subtopic: grammar-correct-usage
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["idiomatic-usage", "prepositions"]
+estimated_seconds: 60
+question_text: "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'"
+options:
+  - key: A
+    text: "for"
+  - key: B
+    text: "with"
+  - key: C
+    text: "to"
+  - key: D
+    text: "in"
+correct: A
+blueprint_id: "Prepositional Idioms — Responsible For vs Responsible To"
+hint_ladder:
+  - rung: 1
+    title: "Identify Idiomatic Expression"
+    text: "The adjective 'responsible' takes different prepositions depending on context."
+  - rung: 2
+    title: "Distinguish Targets"
+    text: "Responsible TO a person/superior vs responsible FOR a task/duty."
+  - rung: 3
+    title: "Check Target in Sentence"
+    text: "'Overseeing regional operations' is a task/duty."
+  - rung: 4
+    title: "Select Preposition"
+    text: "Tasks require 'responsible FOR'."
+deconstruct_text: |
+  Idiomatic Preposition Rule:
+  - Responsible FOR + task/duty/action.
+  - Responsible TO + authority figure/person (e.g. responsible to the President).
+  Since 'overseeing operations' is a duty -> use 'responsible for'.
+choice_explanations:
+  A:
+    text: "Correct! Responsible FOR is used with tasks or duties."
+    trap_type: null
+  B:
+    text: "Incorrect idiom. Responsible with is not standard English."
+    trap_type: non_standard_idiom
+  C:
+    text: "Responsible TO is used when referring to a superior or authority (e.g. responsible to the Secretary)."
+    trap_type: idiom_target_confusion
+  D:
+    text: "Incorrect preposition choice."
+    trap_type: wrong_preposition
+next_time_rule: "Use 'responsible FOR' with duties/tasks, and 'responsible TO' with authority figures."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE English Idiomatic Prepositions"

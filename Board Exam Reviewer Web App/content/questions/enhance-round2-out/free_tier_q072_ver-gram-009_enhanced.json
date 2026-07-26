@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-009",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct sentence:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided on the matter."
+      },
+      {
+        "key": "B",
+        "text": "The committee has decided on the matter."
+      },
+      {
+        "key": "C",
+        "text": "The committee are deciding on the matter."
+      },
+      {
+        "key": "D",
+        "text": "The committee were deciding on the matter."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is about subject-verb agreement with a special kind of noun. Think about what 'committee' represents: is it one thing or many things?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In American English, which the CSC exam follows, collective nouns like 'committee', 'team', and 'family' are treated as singular. That means they pair with singular verbs like 'has', 'is', or 'was'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at each option and check if the verb matches a singular subject. Options A, C, and D all use plural verbs ('have', 'are', 'were'). Only one option uses a singular verb."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Option B uses 'has' with 'committee'. That's the singular verb you're looking for. The other options treat 'committee' as if it were plural, which is the trap here."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one uses 'have', which is a plural verb. It's easy to fall for this if you think of the committee as many people making a decision together. But in US English, 'committee' is treated as a single unit, so it needs the singular 'has'. Think of it this way: the committee acts as one body, not as separate individuals.",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "B": {
+        "text": "This is correct. 'Committee' is a collective noun, and in American English, it's treated as singular. So 'has' is the right verb to use. The committee acts as one unit, and that's why the singular form fits perfectly.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This uses 'are', a plural verb. You might pick this if you're thinking about the individual members of the committee. But remember, in the CSC exam, collective nouns are singular. The correct form would be 'The committee is deciding'.",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "D": {
+        "text": "This uses 'were', a plural past tense verb. It's a similar trap as the others: you might be thinking of the members as separate people. But 'committee' is singular, so it should be 'was' instead of 'were'. The correct sentence would be 'The committee was deciding'.",
+        "trap_type": "collective_noun_plural_verb"
+      }
+    },
+    "next_time_rule": "When you see a collective noun like 'committee', 'team', 'staff', or 'family', ask yourself: 'Is this group acting as one unit?' If yes, use a singular verb (has, is, was). On the CSC exam, always treat collective nouns as singular unless the sentence clearly separates the members (e.g., 'The committee are divided in their opinions').",
+    "blueprint_id": "Subject-Verb Agreement — Collective Nouns",
+    "deconstruct_text": "Let's walk through this together. The subject of the sentence is 'committee', which is a collective noun. That means it refers to a group of people acting as a single unit. In American English, which is the standard for Philippine exams, collective nouns are treated as singular. So the verb must be singular too.\n\nNow, look at the verbs in each option:\n- 'have' is plural\n- 'has' is singular\n- 'are' is plural\n- 'were' is plural\n\nOnly option B uses a singular verb ('has') with the singular subject 'committee'. That's why it's correct.\n\nHere's a mental trick to remember this: Imagine the committee as a single person making a decision. You wouldn't say 'The person have decided,' right? You'd say 'The person has decided.' The same logic applies to 'committee' in US English. Treat it as one unit, and you'll never go wrong.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

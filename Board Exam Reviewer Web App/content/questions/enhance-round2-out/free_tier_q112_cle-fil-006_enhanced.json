@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-006",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange in correct filing order:\n1. Maria Del Rosario\n2. Juan De La Cruz\n3. Ana Dela Cruz\n4. Pedro De los Santos",
+    "options": [
+      {
+        "key": "A",
+        "text": "2,3,1,4"
+      },
+      {
+        "key": "B",
+        "text": "3,2,4,1"
+      },
+      {
+        "key": "C",
+        "text": "1,2,3,4"
+      },
+      {
+        "key": "D",
+        "text": "3,2,1,4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Look closely at the surnames. Notice how some have two parts like 'De La Cruz' while others have one like 'Dela Cruz'. In Philippine filing, these prefixes are not separate words—they're part of the surname itself."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule for Prefixes",
+        "text": "Treat the entire multi-word surname as one single unit. So 'De La Cruz' becomes 'DeLaCruz', 'Dela Cruz' becomes 'DelaCruz', and so on. Now alphabetize these combined names letter by letter, ignoring spaces and capitalization."
+      },
+      {
+        "rung": 3,
+        "title": "Compare Letter by Letter",
+        "text": "Write them out as one word: DeLaCruz, DelaCruz, DelRosario, DelosSantos. Now compare: 'DeLaCruz' vs 'DelaCruz'—they match up to 'De', then 'L' vs 'l' (same when ignoring case), then 'a' vs 'a'. Next, 'DeLaCruz' has a space that becomes nothing, while 'DelaCruz' has 'C'. Since nothing comes before 'C', 'DeLaCruz' comes first."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "So the order is: De La Cruz (Juan, #2), Dela Cruz (Ana, #3), Del Rosario (Maria, #1), De los Santos (Pedro, #4). That gives you the sequence 2, 3, 1, 4. Which option matches that?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You've nailed the filing order. The surnames alphabetize as: De La Cruz (Juan, #2), Dela Cruz (Ana, #3), Del Rosario (Maria, #1), De los Santos (Pedro, #4). No need to break ties by first name since all surnames are different. Great job recognizing that prefixes are part of the surname.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This order puts Dela Cruz before De La Cruz, which is a common slip. It's easy to think 'Dela' comes before 'De La' because it looks shorter, but when you compare letter by letter ignoring spaces, 'De La' (DeLa) comes before 'Dela' because after 'De', the next character in 'De La' is 'L' (or nothing if you treat the space as a separator), while in 'Dela' it's 'l'. Since we ignore case and spaces, they're almost identical, but the space in 'De La' makes it file before 'Dela' in standard rules. Next time, write them as one word to see the difference clearly.",
+        "trap_type": "prefix_treatment_error"
+      },
+      "C": {
+        "text": "This order starts with Del Rosario first, which suggests you might have ignored the prefixes entirely and filed by the second part of the surname (like 'Rosario' before 'Cruz'). It's a natural mistake—our brains want to simplify things. But remember, in Philippine filing, 'Del', 'De La', 'Dela', and 'De los' are all part of the surname. Treat them as one unit, and you'll get the right order.",
+        "trap_type": "prefix_ignored_error"
+      },
+      "D": {
+        "text": "This order has two issues: it puts Dela Cruz before De La Cruz (same trap as option B), and while it correctly places Del Rosario before De los Santos, the reversal of the first two names makes the whole sequence wrong. The key is to compare 'De La' and 'Dela' carefully—they look similar but file differently because of the space. Write them as 'DeLaCruz' and 'DelaCruz' to see the difference.",
+        "trap_type": "prefix_treatment_error"
+      }
+    },
+    "next_time_rule": "When filing Spanish-style surnames with prefixes like De, Del, De La, or Dela, treat the entire multi-word surname as one unit. Write it as a single word (ignoring spaces and capitalization), then alphabetize letter by letter. This trick works every time.",
+    "blueprint_id": "Surname Filing — Prefix Names",
+    "deconstruct_text": "Let's walk through this together. We have four names with Spanish-style surnames: Maria Del Rosario, Juan De La Cruz, Ana Dela Cruz, and Pedro De los Santos. The key rule in Philippine filing is that prefixes like 'Del', 'De La', 'Dela', and 'De los' are part of the surname—not separate words. So we treat each surname as one unit. Write them out as single words: DeLaCruz, DelaCruz, DelRosario, DelosSantos. Now alphabetize them letter by letter, ignoring case. Compare 'DeLaCruz' and 'DelaCruz': they match up to 'De', then 'L' vs 'l' (same when ignoring case), then 'a' vs 'a'. Next, 'DeLaCruz' has a space that becomes nothing, while 'DelaCruz' has 'C'. Since nothing comes before 'C' in alphabetical order, 'DeLaCruz' comes first. So the order is: De La Cruz (Juan, #2), Dela Cruz (Ana, #3), Del Rosario (Maria, #1), De los Santos (Pedro, #4). That gives us 2, 3, 1, 4, which is option A. The mental trick here is to always compress the surname into one word before comparing. It eliminates confusion and saves time under exam pressure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

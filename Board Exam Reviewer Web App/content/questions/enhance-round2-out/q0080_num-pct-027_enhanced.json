@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-027",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "If 35% of a number is 840, what is the number?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2,200"
+      },
+      {
+        "key": "B",
+        "text": "2,300"
+      },
+      {
+        "key": "C",
+        "text": "2,400"
+      },
+      {
+        "key": "D",
+        "text": "2,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Gawing equation ang problema",
+        "text": "Hayaan N ang kabuuan. Mula sa '35% ng N ay 840', isulat: 0.35 × N = 840. Parang pagbibilang ng paninda sa palengke."
+      },
+      {
+        "rung": 2,
+        "title": "I-divide para ma-isolate si N",
+        "text": "Hatiin ang 840 sa 0.35. Tandaan, 0.35 = 35/100, kaya 840 ÷ 0.35 = 840 × (100/35)."
+      },
+      {
+        "rung": 3,
+        "title": "I-compute ang division",
+        "text": "840/35 = 24 (madali 'yan, 35×24 = 840). Kaya 24 × 100 = 2,400. Yan na ang sagot!"
+      },
+      {
+        "rung": 4,
+        "title": "I-verify ang sagot",
+        "text": "35% ng 2,400 = 0.35 × 2,400 = 840. Tugma! Kaya kumpiyansa kang 2,400 ang tamang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because after getting N = 840/0.35 = 2,400, you erroneously deducted 200 thinking of a discount.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because after dividing 840 by 0.35 you miscalculated 840/35 as 23 instead of 24, giving 2,300.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. By solving 0.35N = 840, we get N = 840 / 0.35 = 2,400.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you misread the percentage and computed 35% of 2,500 = 875, overlooking that 875 ≠ 840.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "To find the whole from a part: whole = part ÷ (% as decimal). Example: 840 ÷ 0.35 = 2,400. Remember: huwag mag-multiply!",
+    "blueprint_id": "Finding the Whole from a Part",
+    "deconstruct_text": "Isipin mo, Ate/Kuya, nag-ipon ka ng pera mula sa iyong sari-sari store. Sinabi ni Tindera Aling Nena na ang 35% ng total na kita niyo ngayong linggo ay 840 pesos. Para malaman ang kabuuang kita, gamitin ang equation: part = % × whole. Dito, 840 = 0.35 × N.\n\nNgayon, para i-solve ang N, hatiin ang 840 sa 0.35. Tandaan: 0.35 = 35/100. So, 840 ÷ 0.35 = 840 × (100/35). 840/35 = 24, then 24 × 100 = 2,400. Kaya ang kabuuang kita ay 2,400 pesos. Panalo!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

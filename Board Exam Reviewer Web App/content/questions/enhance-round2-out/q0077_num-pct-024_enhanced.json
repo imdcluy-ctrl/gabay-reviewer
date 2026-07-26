@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-024",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "Construction material price increased from P350/unit to P420/unit. Percentage increase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "18%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": "25%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang increase",
+        "text": "I-subtract ang original sa new: P420 - P350 = P70."
+      },
+      {
+        "rung": 2,
+        "title": "Gamitin ang formula",
+        "text": "Percentage increase = (increase ÷ original) × 100. Dito, 70 ÷ 350."
+      },
+      {
+        "rung": 3,
+        "title": "I-simplify ang fraction",
+        "text": "70/350 = 1/5 = 0.2. Multiply by 100% kaya 20%."
+      },
+      {
+        "rung": 4,
+        "title": "I-double check",
+        "text": "Tama ba? 20% ng 350 ay 70, kaya 350+70=420. Sakto!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used the new price (P420) as the base, giving ~16.7% and rounding down.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because of a miscalculation: P70/P350 as 0.18 instead of 0.2.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "Correct. The increase P70 divided by original P350 is 0.2, or 20%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used the new price as base and overestimated, rounding up to 25%.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Tandaan: % increase = (new - original) / original × 100. Laging original ang base, hindi new.",
+    "blueprint_id": "Percentage Increase — Material",
+    "deconstruct_text": "Isipin mong nasa hardware ka sa barangay ninyo. Ang isang sako ng semento ay dating P350, pero ngayon P420 na. Kailangan mong kalkulahin ang porsyento ng dagdag para sa budget ng proyekto mo.\n\nUnang hakbang: kunin ang actual na itinaas: P420 - P350 = P70. Ito ang halagang dinagdag.\n\nIkalawa, hatiin ang increase sa orihinal na presyo: 70 / 350 = 0.2 o 1/5.\n\nHuli, i-multiply sa 100%: 0.2 × 100% = 20%. Kaya 20% ang itinaas.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

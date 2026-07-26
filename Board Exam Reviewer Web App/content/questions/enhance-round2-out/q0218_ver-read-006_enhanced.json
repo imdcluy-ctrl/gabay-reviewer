@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-006",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'RA 6713 requires all public officials to file a Statement of Assets, Liabilities, and Net Worth (SALN). This ensures transparency and accountability in government service.' What is the purpose of the SALN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To increase taxes"
+      },
+      {
+        "key": "B",
+        "text": "To ensure transparency and accountability"
+      },
+      {
+        "key": "C",
+        "text": "To evaluate job performance"
+      },
+      {
+        "key": "D",
+        "text": "To determine promotions"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Purpose sa Passage",
+        "text": "Sabi sa passage: ‘This ensures transparency and accountability.’ Ang ‘This’ ay tumutukoy sa SALN. Kaya ‘yan mismo ang purpose."
+      },
+      {
+        "rung": 2,
+        "title": "Kilalanin ang Key Phrase",
+        "text": "Ang pariralang ‘ensures transparency and accountability’ ang direktang sagot sa tanong. Huwag nang lumayo."
+      },
+      {
+        "rung": 3,
+        "title": "Tanggalin ang Hindi Nabanggit",
+        "text": "Ang pagtaas ng tax, job performance, o promotions ay wala sa passage. Huwag mag-imbento."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Right Answer",
+        "text": "Tama! ‘To ensure transparency and accountability.’ Ulit-ulitin: SALN = transparency at accountability, hindi tax o promotion."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought financial disclosure leads to higher taxes, but the passage doesn’t mention taxes.",
+        "trap_type": "unsupported_association"
+      },
+      "B": {
+        "text": "Correct. The passage explicitly states that SALN ensures transparency and accountability.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you linked SALN to evaluating work, but performance evaluation is not mentioned.",
+        "trap_type": "unsupported_inference"
+      },
+      "D": {
+        "text": "You might have chosen D because you assumed SALN helps with promotions, but the passage only speaks of transparency.",
+        "trap_type": "unsupported_inference"
+      }
+    },
+    "next_time_rule": "Kapag may passage, kunin ang direktang sagot. SALN = ‘ensures transparency and accountability,’ hindi tax, performance, o promotions. Quote from the text!",
+    "blueprint_id": "Supporting Details — SALN Purpose",
+    "deconstruct_text": "Basahin ang passage: Sinasabi na ang SALN ay requirement sa RA 6713. Ang susunod na pangungusap, ‘This ensures transparency and accountability.’ Ang salitang ‘This’ ay tumutukoy sa pag-file ng SALN. Kaya ang layunin ng SALN ay upang masiguro ang transparency at accou...\n\nIsipin mo si Kapitan ng Barangay Masagana. Nag-file siya ng SALN para ipakita sa mga tao kung ano ang kanyang ari-arian at pagkakautang. Ito ay para maging malinaw at walang duda sa serbisyo. Parang resibo sa palengke — lahat nakalista. Kaya ang sagot, ‘to ensure tra...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

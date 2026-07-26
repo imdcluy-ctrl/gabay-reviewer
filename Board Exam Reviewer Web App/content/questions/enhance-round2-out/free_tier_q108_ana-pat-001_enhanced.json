@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-001",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "question_text": "What comes next in the pattern: 1A, 2B, 3C, 4D, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5D"
+      },
+      {
+        "key": "B",
+        "text": "5E"
+      },
+      {
+        "key": "C",
+        "text": "6E"
+      },
+      {
+        "key": "D",
+        "text": "4E"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the Numbers First",
+        "text": "Notice how the numbers change from one term to the next: 1, then 2, then 3, then 4. What's the simple pattern here? Think about what comes after 4."
+      },
+      {
+        "rung": 2,
+        "title": "Now Look at the Letters",
+        "text": "The letters follow their own pattern: A, then B, then C, then D. They're moving forward in the alphabet one step at a time. What letter comes after D?"
+      },
+      {
+        "rung": 3,
+        "title": "Put Them Together",
+        "text": "You've got two separate patterns running side by side. The next term needs the next number in the number pattern paired with the next letter in the letter pattern. Combine what you found in rungs 1 and 2."
+      },
+      {
+        "rung": 4,
+        "title": "Check Your Answer Against the Options",
+        "text": "Your answer should be a number that's one more than 4, paired with a letter that's one step after D. Look at the choices and see which one matches that combination exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one gets the number right — 5 is the correct next number. But the letter stays at D, which doesn't follow the pattern. The letters are advancing too: A to B to C to D, so the next should be E. It's easy to focus on just the numbers and forget the letters are moving too.",
+        "trap_type": "letter_stagnation"
+      },
+      "B": {
+        "text": "This is the one. Both parts of the pattern move forward by one step: the number goes from 4 to 5, and the letter goes from D to E. Simple and clean.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The letter E is correct here, but the number jumped from 4 to 6, skipping 5 entirely. It's a common mistake to accidentally advance the number by two instead of one, especially when you're rushing. Each step only moves one forward.",
+        "trap_type": "double_number_increment"
+      },
+      "D": {
+        "text": "The letter E is right, but the number stayed at 4 instead of moving to 5. This might happen if you thought the number was just a label that doesn't change, or if you got distracted by the letter pattern. The number pattern is just as important as the letter pattern.",
+        "trap_type": "number_stagnation"
+      }
+    },
+    "next_time_rule": "When you see alphanumeric patterns, treat the numbers and letters as two separate trains running on parallel tracks. Each track moves independently, so check both before picking your answer. One step at a time for each.",
+    "blueprint_id": "Alphanumeric Patterns",
+    "deconstruct_text": "Let's walk through this pattern together. Each term has two parts: a number and a letter. The numbers go 1, 2, 3, 4 — that's just counting up by one each time. So the next number should be 5. The letters go A, B, C, D — that's the alphabet moving forward one letter at a time. So the next letter should be E. Put them together and you get 5E. That's option B. The trick is to see that both parts are changing independently. A good mental framework is to imagine two separate lists: one for numbers (1, 2, 3, 4, 5...) and one for letters (A, B, C, D, E...). The pattern just pairs them up in order. Once you see that, it's hard to get wrong.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

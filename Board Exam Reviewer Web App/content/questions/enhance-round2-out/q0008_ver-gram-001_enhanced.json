@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-001",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that adheres to standard Civil Service English grammar rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided to postpone the administrative hearing."
+      },
+      {
+        "key": "B",
+        "text": "Neither the supervisor nor the employees was aware of the memo."
+      },
+      {
+        "key": "C",
+        "text": "Neither the supervisor nor the employees were aware of the memo."
+      },
+      {
+        "key": "D",
+        "text": "The list of approved applicants were posted on the bulletin board."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Tunay na Subject",
+        "text": "Sa bawat pangungusap, tanungin mo: sino o ano talaga ang gumagawa ng aksyon? Huwag magpalinlang sa extra words."
+      },
+      {
+        "rung": 2,
+        "title": "Ang Rule sa 'Neither/Nor'",
+        "text": "Kapag may 'neither...nor' o 'either...or', tandaan: ang verb dapat tugma sa subject na pinakamalapit. Yung unang subject, dedma muna."
+      },
+      {
+        "rung": 3,
+        "title": "Subukan ang Pinakamalapit na Subject",
+        "text": "Sa B at C, ang pinakamalapit na subject sa verb ay 'employees' (plural). Kaya dapat plural din ang verb—'were', hindi 'was'."
+      },
+      {
+        "rung": 4,
+        "title": "Hulihin ang mga Mapanlinlang na Salita",
+        "text": "Sa ibang pangungusap: A—'committee' ay iisang grupo, D—'list' singular kahit may 'of applicants'. Iisang sagot lang ang sumusunod sa lahat ng rules."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'committee' seems plural, but it's a single unit needing 'has'.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "You might have chosen B because 'supervisor' is singular, but 'employees' is nearer, so 'were' is needed.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "C": {
+        "text": "Correct.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'applicants' is plural and close, but the real subject is 'list', needing 'was'.",
+        "trap_type": "subject_verb_agreement_misled"
+      }
+    },
+    "next_time_rule": "Sa 'neither/nor' o 'either/or', ang verb sumusunod sa pinakamalapit na subject. Also, ingat sa phrases na sumisingit, gaya ng 'of the applicants'.",
+    "blueprint_id": "Subject-Verb Agreement — Proximity Rule with Neither/Nor",
+    "deconstruct_text": "Let’s analyze using a typical barangay hall scenario. The Lupon Tagapamayapa committee (a single body) has decided on a case schedule. So 'has decided' is correct, not 'have decided'.\n\nNow, imagine the City Administrator and employees did not know about a new memo. Applying the 'neither...nor' rule: the verb agrees with the subject nearest it. Since 'employees' is plural and closer, we say 'were aware', not 'was aware'.\n\nHence B is wrong, C is correct. For D, picture a bulletin board at your LGU listing approved applicants. The real subject is 'list', not 'applicants'. The phrase 'of approved applicants' is just a description. So 'was posted' is right.\n\nOnly C follows all rules. Taglish memory hook: Kapag 'neither/nor', isipin mo yung katabi ng verb—siya lang ang pinapansin, yung isa deadma na. At 'yung mga 'of' phrases, laging check sino talaga ang boss na subject.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

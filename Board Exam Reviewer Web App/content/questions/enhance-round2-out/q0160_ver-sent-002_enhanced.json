@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-002",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The applicant must submit all requirements ___ the deadline.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "by"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About Time Prepositions",
+        "text": "This question tests which preposition fits before 'deadline'. Each preposition has a specific time job."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "'By' means on or before. 'On' is for days, 'in' for months/years, 'at' for clock times. That's the rule."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option in the Sentence",
+        "text": "Say: 'submit on the deadline'—sounds forced on exact day. 'submit by' means before or on. That's the fit."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The word 'deadline' itself tells you it's a cutoff, not a specific day or time. So 'by' is the natural choice."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'on' works for specific days like Monday, but a deadline demands 'by' meaning on or before.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "You might have chosen B because 'in' is for months, but 'in the deadline' is ungrammatical. Use 'by'.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Correct. 'By the deadline' is the standard phrase meaning submit on or before that date. It's the natural preposition for cutoffs.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'at' is for exact times like 5 PM, but deadline isn't a clock time. Use 'by'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "deconstruct_text": "Isipin mong nag-apply ka ng Civil Service Exam, at hinihingi 'by the deadline.' Kapag ang deadline ay August 15, puwedeng isubmit ng maaga, basta hindi lalampas. Parang sa kuryente, 'by due date' ang palugit.\n\nDeadline ang tawag sa cutoff, hindi specific day. 'On' para sa exact day, 'in' for months, 'at' for clock time. Kaya 'by' lang ang natural.\n\n**Watch-Out Zone: wrong_preposition** in action. Use 'by' for deadlines, not 'on' or 'at'.",
+    "next_time_rule": "When you see 'deadline,' think 'by'—it's the only preposition meaning on or before. 'On' for days, 'in' for months, 'at' for times.",
+    "blueprint_id": "Prepositions — Deadlines",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

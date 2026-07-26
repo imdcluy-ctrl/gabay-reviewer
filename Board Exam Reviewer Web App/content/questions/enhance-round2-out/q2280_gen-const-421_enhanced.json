@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-421",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "A student is asked to identify the components of the Philippine national territory as defined by the 1987 Constitution. Which of the following correctly lists the components?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippine archipelago, all other territories over which the Philippines has sovereignty or jurisdiction, and the terrestrial, fluvial, and aerial domains."
+      },
+      {
+        "key": "B",
+        "text": "Only the islands that were part of the Philippines at the time of the 1898 Treaty of Paris."
+      },
+      {
+        "key": "C",
+        "text": "The archipelago and the waters within the baselines, but not the airspace."
+      },
+      {
+        "key": "D",
+        "text": "The land mass of Luzon, Visayas, and Mindanao, and the internal waters only."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2855",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

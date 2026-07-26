@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read the passage: 'Public accountability requires civil servants to perform duties with utmost integrity, efficiency, and dedication. Transparency in transactions ensures citizens maintain trust in government institutions.' What is the main idea of this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should receive higher salaries to maintain integrity."
+      },
+      {
+        "key": "B",
+        "text": "Public trust relies on accountable and transparent government service."
+      },
+      {
+        "key": "C",
+        "text": "Government transactions must be kept confidential to avoid public scrutiny."
+      },
+      {
+        "key": "D",
+        "text": "Efficiency is more important than integrity in public administration."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Basahin at Tandaan ang Dalawang Ideya",
+        "text": "Unang sentence: accountability = integrity + efficiency + dedication. Pangalawa: transparency = trust. Saan nagtatagpo ang dalawa? Pareho silang na..."
+      },
+      {
+        "rung": 2,
+        "title": "Main Idea = Sampol ng Buong Passage",
+        "text": "Ang tamang sagot dapat kaya i-cover ang buong passage, walang dagdag na hindi nabanggit. Kung may isang detalye lang ang nabanggit, 'di ito ang mai..."
+      },
+      {
+        "rung": 3,
+        "title": "Gamitin ang Barangay Scenario",
+        "text": "Isipin mo si Kapitan na nagpapaliwanag ng budget—kung bukas siya, nagtitiwala ang tao. Gano'n din dito: accountability + transparency = public trust."
+      },
+      {
+        "rung": 4,
+        "title": "Hanapin ang Kumpletong Pahayag",
+        "text": "Alin sa mga opsyon ang nagsasabing ang tiwala ng publiko ay nakasalalay sa accountability at transparency? 'Yan lang ang tumutugma sa dalawang sent..."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you assumed accountability leads to higher pay, but the passage never mentions salaries. Stick to what is...",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "Correct. This option neatly ties both sentences together: public trust hinges on accountability and transparency, exactly what the passag...",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you misinterpreted 'transparency' as secrecy, but it actually means openness. The passage says transparen...",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "D": {
+        "text": "You might have chosen D because you thought efficiency outweighs integrity, but the passage lists them equally under accountability. No p...",
+        "trap_type": "false_cause_fallacy"
+      }
+    },
+    "next_time_rule": "Kapag main idea, i-visualize mo: 'Kaya ba ng isang opsyon na i-explain ang buong passage sa kaibigan?' Kung may nakaligtaan o dinagdag, hindi 'yan ang tama.",
+    "blueprint_id": "Reading Comprehension — Identifying Main Idea",
+    "deconstruct_text": "Okay, tara, himayin natin 'to. 'Yung passage may dalawang magkadugtong na ideya. Una: accountability sa civil service—meaning kailangan may integrity, efficiency, at dedication. Pangalawa: ang transparency o pagiging bukas sa mga transaksyon ang nagpapanatili ng tiwa...\n\nIsipin mo na lang sa barangay—si Kapitan nag-present ng budget, ipinakita bawat gastos. Dahil naging transparent siya, tumaas ang tiwala ng tao. Dito sa passage, ganun din: accountability at transparency, pareho ang ending—public trust.\n\nNgayon, tingnan natin ang options. 'Yung A biglang nagdala ng suweldo, wala naman 'yan sa passage. C naman, binaligtad ang transparency—akala yata confidential dapat, pero kabaliktaran ang sinasabi. D naman gumawa ng away between efficiency at integrity, pero sa pass...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

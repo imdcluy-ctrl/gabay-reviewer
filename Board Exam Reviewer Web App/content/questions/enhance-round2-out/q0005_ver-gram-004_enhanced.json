@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive ordering all agencies to update their personnel records. What is the closest synonym for MANDATORY?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Compulsory"
+      },
+      {
+        "key": "C",
+        "text": "Advisory"
+      },
+      {
+        "key": "D",
+        "text": "Temporary"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang context",
+        "text": "Ang sentence may 'ordering'—ibig sabihin hindi request kundi utos. Parang barangay captain na nag-mandatory meeting—walang absent."
+      },
+      {
+        "rung": 2,
+        "title": "Root word isipin",
+        "text": "Mandatory galing sa 'mandate'—official na command. Pag may mandate, may choice ba? Wala, kailangan sumunod agad."
+      },
+      {
+        "rung": 3,
+        "title": "Alisin ang kabaligtaran",
+        "text": "Dalwa sa choices ay nagpapahiwatig ng choice o suggestion. Kung mandatory ay 'walang choice,' alin ang mga 'yon? Ekis agad."
+      },
+      {
+        "rung": 4,
+        "title": "Perfect match na",
+        "text": "Dalawang naiwan: isa tungkol sa oras, isa tungkol sa requirement. Ang mandatory ay requirement, kaya alin ang bagay?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because optional ay kabaligtaran ng mandatory, at kapag nagmamadali, ito ang unang napipili.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Compulsory means required by authority, just like a mandatory barangay cleanup—walang kawala.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because advisory sounds official like a memo, but it only gives advice, not orders—ibig sabihin, suggestion lang.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because temporary relates to time, but mandatory is about requirement—trap na nagpapa-isip na nauugnay pero hindi.",
+        "trap_type": "literal_meaning_misinterpretation"
+      }
+    },
+    "next_time_rule": "Pag hinalinhan mo ng 'sapilitan' at tugma, mandatory 'yan. Go-to synonyms: compulsory, obligatory, required.",
+    "blueprint_id": "Vocabulary — Synonyms of Administrative Directives",
+    "deconstruct_text": "Kuya here! Isipin mo sa barangay: kapag si Kapitan nag-utos ng mandatory clean-up, lahat dapat sumunod—walang palusot. Ganyan ang 'mandatory' sa CSC: 'ordering' ang keyword. Ibig sabihin, sapilitan, required by law.\n\nNgayon, sa choices: Optional means may choice—so kabaligtaran. Advisory naman ay paalala lang, hindi utos. Temporary ay tungkol sa tagal, hindi requirement. Kaya ang tugmang-tugma ay Compulsory.\n\nMental trick: Pag may 'MUST' o 'MANDATORY', isipin mong 'SAPILITAN'—walang kawala, kaya Compulsory ang sagot. Compulsory, obligatory, required—magkakapatid 'yan!\n\n**Watch-Out Zone: synonym_antonym_inversion** in action. Opposite si Optional—watch out!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

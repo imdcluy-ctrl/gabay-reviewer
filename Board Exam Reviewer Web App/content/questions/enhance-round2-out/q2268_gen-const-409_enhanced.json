@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-409",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "A bill seeking to increase the penalty for illegal logging has been approved by both the House of Representatives and the Senate. However, the President vetoes the bill. According to Article VI of the 1987 Constitution, what must happen for the bill to become a law despite the President's veto?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The bill is automatically returned to the house of origin and becomes law after 30 days if not acted upon."
+      },
+      {
+        "key": "B",
+        "text": "The bill must be re-passed by each house with a two-thirds vote of all its members."
+      },
+      {
+        "key": "C",
+        "text": "The bill must be approved by a majority vote in a joint session of Congress."
+      },
+      {
+        "key": "D",
+        "text": "The bill must be approved by the Supreme Court through a petition for certiorari."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2843",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

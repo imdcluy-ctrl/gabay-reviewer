@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-001",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MITIGATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intensify"
+      },
+      {
+        "key": "B",
+        "text": "Aggravate"
+      },
+      {
+        "key": "C",
+        "text": "Alleviate"
+      },
+      {
+        "key": "D",
+        "text": "Complicate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ba ang 'mitigate'?",
+        "text": "Sa balita, 'mitigating measures' laban sa bagyo—ibig sabihin, pampabawas ng pinsala. Ang ibig sabihin: to lessen or lighten."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym = kapareho ng ibig sabihin",
+        "text": "Ang hinahanap ay salitang pare-pareho ang kahulugan: 'bawasan ang bigat o hirap.' 'Yan ang itutok mo."
+      },
+      {
+        "rung": 3,
+        "title": "Tanggalin ang mali",
+        "text": "Intensify at Aggravate parehong 'palalain.' Complicate ibig sabihin 'guluhin.' I-cross out na agad—sila'y kabaligtaran."
+      },
+      {
+        "rung": 4,
+        "title": "Isipin ang doktor",
+        "text": "Kapag may sakit, ang gamot ay para i-alleviate ang pain—pinagaan. Same ng mitigate. Kaya C ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'intensify' sounds like strong action, but it means to make stronger—the opposite of mitigate.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'aggravate' is often paired with 'mitigate' in legal terms, but aggravate means to worsen, not lessen.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. Alleviate and mitigate both mean to make something less severe, sharing the idea of easing a burden.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because mitigating might involve steps, but 'complicate' means to make tangled, not to reduce severity.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "When looking for a synonym of 'mitigate,' remember 'ibsan'—to lessen. If a choice means to worsen, cross it out. Focus on lightening the load.",
+    "blueprint_id": "Synonyms — Mitigate vs Alleviate",
+    "deconstruct_text": "Imagine you're in a barangay after a typhoon. The LGU distributes relief goods to mitigate the hunger of affected families. 'Mitigate' means to lessen the suffering—parang pagbawas ng bigat ng problema. In tagalog, 'ibsan' o 'pawiin.'\n\nNow, options: Intensify and Aggravate mean to make stronger or worse—parang dinadagdagan ang hirap. Complicate means to make gulo. Only Alleviate does the same: pinagagaan ang pasanin. Kaya ang sagot ay C.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

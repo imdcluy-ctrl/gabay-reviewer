@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-300",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Government Agency Filing Rule Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under government indexing rules, official government agencies are filed first by the sovereign name 'Philippines', followed by department, then bureau. How should 'Department of Agriculture' be formally indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Philippines, Agriculture (Department of)"
+      },
+      {
+        "key": "B",
+        "text": "Department of Agriculture, Philippines"
+      },
+      {
+        "key": "C",
+        "text": "Agriculture Department, Philippines"
+      },
+      {
+        "key": "D",
+        "text": "Philippines, Department of Agriculture"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the Big Picture",
+        "text": "Think about how the government organizes its files. What's the very first thing they'd sort by when filing any agency? It's the country itself."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule of Government Filing",
+        "text": "For any government agency, the indexing order is always: Country Name first, then the Distinctive Keyword (the main subject), and finally the Generic Words (like 'Department of') tucked at the end in parentheses."
+      },
+      {
+        "rung": 3,
+        "title": "Pick Out the Pieces",
+        "text": "Look at 'Department of Agriculture'. The country is 'Philippines'. The distinctive keyword is 'Agriculture' (that's the core subject). The generic words are 'Department of' (these get moved to the end). Now arrange them in the right order."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Put it together: start with 'Philippines', then the keyword 'Agriculture', then the generic part in parentheses as '(Department of)'. That gives you 'Philippines, Agriculture (Department of)'. See which option matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is exactly right. The government filing rule says you lead with the country name 'Philippines', then the distinctive keyword 'Agriculture', and finally the generic words 'Department of' placed in parentheses at the end. So 'Philippines, Agriculture (Department of)' is the formal way to index it.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one puts 'Department of Agriculture' first and 'Philippines' last. A smart guess if you're thinking alphabetically by department name, but government rules require the country name to come first as the top-level filing category. The sovereign name always leads.",
+        "trap_type": "country_prefix_omission"
+      },
+      "C": {
+        "text": "Here, 'Agriculture Department' comes before 'Philippines', which flips the required order. Also, 'Department' isn't properly moved to parentheses at the end. It's easy to think the keyword should go first, but in government filing, the country name takes priority.",
+        "trap_type": "improper_transposition"
+      },
+      "D": {
+        "text": "This keeps 'Department of Agriculture' intact without moving the generic words to parentheses. It's tempting to leave it as is because that's how we say it in conversation, but filing rules require 'Department of' to be transposed to the end so the distinctive keyword 'Agriculture' comes second.",
+        "trap_type": "untransposed_generic_word_error"
+      }
+    },
+    "next_time_rule": "For government agency indexing, always start with the country name, then the distinctive keyword, and put generic words like 'Department of' or 'Bureau of' in parentheses at the end. Think: Country, Keyword, (Generic).",
+    "deconstruct_text": "Let's walk through this step by step. The rule for government agency filing is straightforward: you always start with the sovereign name 'Philippines', then the distinctive keyword that identifies the department, and finally the generic words placed in parentheses at the end. So for 'Department of Agriculture', you first pull out 'Philippines' as the country. Next, you identify the distinctive keyword, which is 'Agriculture' (that's the core subject of the department). Then you take the generic words 'Department of' and move them to the end in parentheses. Putting it all together gives you 'Philippines, Agriculture (Department of)'. A quick mental trick: think of it like addressing a letter to the government. You start with the country, then the specific office, and finally the type of office. This way, everything stays organized by country first, then by subject, making it easy to find any agency in a filing system.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

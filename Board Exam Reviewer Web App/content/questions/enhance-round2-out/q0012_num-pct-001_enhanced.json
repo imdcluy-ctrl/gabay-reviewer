@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-001",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal health office received a budget increase from ₱800,000 to ₱1,000,000. What was the percentage increase in its budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "80%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang actual na dagdag",
+        "text": "Compute the difference: new minus old. Dito, ₱1,000,000 - ₱800,000 = ₱200,000. Yun ang basehan ng percent."
+      },
+      {
+        "rung": 2,
+        "title": "Original ang base, hindi ang bago",
+        "text": "Sa percent increase, lagi mong gamiting base ay yung original na halaga, hindi yung bago. Mali ang mag-base sa 1M."
+      },
+      {
+        "rung": 3,
+        "title": "Gawing fraction ang dagdag sa original",
+        "text": "I-divide ang 200,000 sa 800,000. Simpleng fraction: 1/4. Pag isipin mo, ilang beses pumapasok ang 200k sa 800k?"
+      },
+      {
+        "rung": 4,
+        "title": "I-convert ang fraction sa percent",
+        "text": "Multiply ang fraction sa 100. 1/4 × 100 = 25%. Kaya ang sagot ay 25%. Tandaan: 'Dagdag ÷ Original × 100'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided the increase by the new budget (200k/1M=20%) instead of the original 800k. Always use the sta...",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "Correct. The increase is ₱200,000, original is ₱800,000, so fraction is 1/4 or 25%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you miscalculated the fraction; 200k/800k simplifies to 1/4, not 3/10. Double-check your division.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you divided old by new (800k/1M=80%), which gives the ratio, not the percentage increase.",
+        "trap_type": "ratio_confusion"
+      }
+    },
+    "next_time_rule": "For percentage increase, always use the formula: (Change / Original) x 100. The original number is your anchor.",
+    "blueprint_id": "Numerical Ability — Percentage Increase",
+    "deconstruct_text": "Let's imagine your barangay health center's budget jumped from ₱800,000 to ₱1,000,000. What's the percent increase? Una, kunin mo yung actual na dagdag: 200,000. Next, tandaan mo: ang basehan ay yung original, ha? Hindi yung bago. So i-divide mo yung 200,000 sa 800,0...\n\n**Watch-Out Zone: wrong_base_percentage** in action. Pag ginamit mo yung bagong budget ...\n\nMultiply 1/4 by 100 = 25%. Simple, diba? Kaya next time, remember: 'Dagdag ÷ Original × 100'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

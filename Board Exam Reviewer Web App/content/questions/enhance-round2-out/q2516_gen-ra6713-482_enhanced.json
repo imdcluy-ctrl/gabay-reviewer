@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-482",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "Mara is a city planning officer whose brother owns a construction company that recently bid on a city infrastructure project. Mara was not part of the bidding committee, but she has access to the sealed bids. Which of the following best describes a conflict of interest under RA 6713?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mara's brother bidding on a project is automatically a conflict of interest regardless of Mara's role."
+      },
+      {
+        "key": "B",
+        "text": "A conflict of interest exists only if Mara actually uses her access to influence the bidding outcome."
+      },
+      {
+        "key": "C",
+        "text": "A conflict of interest arises because Mara's family relationship and her position could compromise her objectivity, even if she does not act on it."
+      },
+      {
+        "key": "D",
+        "text": "There is no conflict of interest because Mara is not on the bidding committee."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3101",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

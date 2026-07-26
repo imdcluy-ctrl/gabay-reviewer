@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-417",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A citizen claims: 'The bidding is open and transparent.' Which of the following is the correct negation of this claim?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The bidding is not open or not transparent."
+      },
+      {
+        "key": "B",
+        "text": "The bidding is not open and not transparent."
+      },
+      {
+        "key": "C",
+        "text": "The bidding is open but not transparent."
+      },
+      {
+        "key": "D",
+        "text": "The bidding is not open but transparent."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what it really means to say something is NOT true. If someone claims two things are both true at the same time, what would it take for that claim to be false?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's a simple rule: when you negate a statement with 'and', the 'and' changes to 'or', and you flip both parts. So 'A and B' becomes 'not A or not B'."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "In this case, the claim has two parts: 'open' and 'transparent'. To negate it, you need to say that at least one of those parts is false. Which option says that?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct answer uses 'or' between the two negated parts. If the bidding fails on either openness or transparency, the original claim is false. Look for the option that captures this 'at least one is false' idea."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is exactly right. To negate 'open and transparent', you need to say that at least one of those qualities is missing. That's why 'not open or not transparent' is the correct logical opposite. It covers all the ways the original claim could be false.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mistake. It says the bidding is neither open nor transparent, which is actually a much stronger claim than the negation. The original claim is false even if just one quality is missing, not necessarily both. This option would be the negation of 'open or transparent', not 'open and transparent'.",
+        "trap_type": "de_morgan_misapplication"
+      },
+      "C": {
+        "text": "This only covers one specific way the claim could be false: when the bidding is open but not transparent. But what if it's not open at all? That would also make the original claim false, but this option doesn't include that scenario. A proper negation must cover all possible ways the claim fails.",
+        "trap_type": "partial_negation"
+      },
+      "D": {
+        "text": "Like option C, this only describes one specific situation where the claim is false: when the bidding is not open but is transparent. It misses the other possibilities, like when it's not transparent at all. The correct negation needs to be broader than just one case.",
+        "trap_type": "partial_negation"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The citizen claims two things are both true: the bidding is open AND it is transparent. For this claim to be false, you only need to show that at least one of those things isn't true. Think of it like a promise: 'I will bring cake and ice cream.' If I show up with no cake, I broke the promise. If I show up with no ice cream, I broke it. If I show up with neither, I definitely broke it. The promise fails if either item is missing. That's the key insight: 'and' statements fail when at least one part fails. So the negation is 'not open OR not transparent'.\n\nHere's a mental trick to lock this in: When you see 'and', think 'both'. When you negate it, think 'either one fails'. The 'and' magically becomes 'or' when you negate. Practice this with everyday examples: 'I am tall and handsome' becomes 'I am not tall or not handsome.' 'The exam is easy and short' becomes 'The exam is not easy or not short.' This 'and-to-or' flip is your instant shortcut.",
+    "next_time_rule": "To negate an 'and' statement, flip it to 'or' and negate each part. Remember: 'both true' becomes 'at least one is false'. The 'and' always turns into 'or' when you negate.",
+    "blueprint_id": "B-1780",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-013",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence with correct parallel structure:",
+    "options": [
+      {
+        "key": "A",
+        "text": "She likes reading, to write, and painting."
+      },
+      {
+        "key": "B",
+        "text": "She likes to read, write, and to paint."
+      },
+      {
+        "key": "C",
+        "text": "She likes reading, writing, and painting."
+      },
+      {
+        "key": "D",
+        "text": "She likes to read, writing, and paint."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "When you see a list of three things in a sentence, ask yourself: are they all dressed the same way grammatically? That's the core idea of parallel structure."
+      },
+      {
+        "rung": 2,
+        "title": "The Two Main Uniforms",
+        "text": "In English, items in a list usually wear one of two uniforms: the gerund uniform (words ending in -ing like reading) or the infinitive uniform (to + verb like to read). Mixing uniforms is the mistake."
+      },
+      {
+        "rung": 3,
+        "title": "Check Each Option's Uniform",
+        "text": "Look at each option and label each item. Option A has reading (gerund), to write (infinitive), painting (gerund) — a mix. Option B has to read, write (bare infinitive missing 'to'), to paint — inconsistent. Option D has to read, writing, paint — three different forms. Only Option C has all three in the same gerund uniform."
+      },
+      {
+        "rung": 4,
+        "title": "The Consistent Choice",
+        "text": "Option C is the only one where all three items are gerunds: reading, writing, painting. That's perfect parallel structure."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one trips up a lot of students because it starts and ends with gerunds (reading, painting), but the middle item (to write) is an infinitive. It's like wearing sneakers, then a dress shoe, then a sneaker again — the rhythm breaks. Always check every item in the list, not just the first and last.",
+        "trap_type": "parallel_mix_gerund_infinitive"
+      },
+      "B": {
+        "text": "This looks close but isn't quite right. You have 'to read' and 'to paint' as infinitives, but 'write' in the middle is a bare infinitive without the 'to.' The rule is simple: if you use 'to' for one, use it for all. Think of it like a chain — if one link is missing, the whole thing falls apart.",
+        "trap_type": "parallel_mix_infinitive_bare"
+      },
+      "C": {
+        "text": "This is the one. All three items are gerunds: reading, writing, painting. They match perfectly, like three identical puzzle pieces. No mixing, no missing parts — just clean, balanced structure.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This is the wild card — it has three different forms in one list: an infinitive (to read), a gerund (writing), and a bare infinitive (paint). It's like trying to mix oil, water, and sand. When you see three different forms, you know immediately it's wrong.",
+        "trap_type": "parallel_mix_three_forms"
+      }
+    },
+    "next_time_rule": "The 'One Uniform' Rule: When listing items, pick one form — either all gerunds (-ing) or all infinitives (to + verb) — and stick with it for every single item. Never mix and match.",
+    "blueprint_id": "Parallel Structure — Gerund Phrases",
+    "deconstruct_text": "Let's walk through this together. The key idea is parallel structure — when you list things, they need to be in the same grammatical form. Think of it like a marching band: every member should be playing the same instrument, or at least wearing the same uniform. Here, the two main uniforms are gerunds (words ending in -ing like reading) and infinitives (to + verb like to read). Now, look at each option. Option A gives us reading (gerund), to write (infinitive), painting (gerund) — a mix, so it's out. Option B has to read, write (missing the 'to'), to paint — inconsistent, so it's out. Option D throws in to read (infinitive), writing (gerund), paint (bare infinitive) — three different forms, definitely out. That leaves Option C: reading, writing, painting — all gerunds, perfectly matched. The mental trick here is to quickly label each item in your head as you read: gerund or infinitive? If they don't all match, eliminate the option. It's that simple.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

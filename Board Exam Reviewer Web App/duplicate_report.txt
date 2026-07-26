@@ -1,0 +1,396 @@
+Total questions: 2077
+Template leaks (50): num-word-200, num-word-201, num-word-202, num-word-203, num-word-204, num-word-205, num-word-206, num-word-207, num-word-208, num-word-209, num-word-210, num-word-211, num-word-212, num-word-213, num-word-214, num-word-215, num-word-216, num-word-217, num-word-218, num-word-219, num-word-220, num-word-221, num-word-222, num-word-223, num-word-224, num-word-300, num-word-301, num-word-302, num-word-303, num-word-304, num-word-305, num-word-306, num-word-307, num-word-308, num-word-309, num-word-310, num-word-311, num-word-312, num-word-313, num-word-314, num-word-315, num-word-316, num-word-317, num-word-318, num-word-319, num-word-320, num-word-321, num-word-322, num-word-323, num-word-324
+
+Generic step by step hints (127): num-pct-022, num-pct-025, num-pct-026, num-pct-029, num-nseries-012, num-nseries-014, num-nseries-017, num-ops-003, num-ops-007, num-ops-008, num-ops-009, num-ops-011, num-ops-013, num-ops-014, num-ops-020, num-ops-021, num-ops-024, num-ops-025, num-nseries-019, num-nseries-020, num-nseries-022, num-nseries-024, ver-gram-014, ver-gram-015, ver-gram-016, ver-gram-017, ver-vocab-001, ver-vocab-002, ver-vocab-003, ver-vocab-004, ver-vocab-005, ver-vocab-006, ver-vocab-007, ver-vocab-008, ver-vocab-009, ver-vocab-010, ver-read-001, ver-read-002, ver-read-003, ver-read-004, ver-vanal-001, ver-vanal-002, ver-vanal-003, ver-vanal-004, ver-sent-001, ver-sent-002, ver-sent-003, ver-sent-004, ver-sent-005, ana-log-006, ana-log-007, ana-log-008, ana-log-009, ana-data-001, ana-pat-001, ana-seq-001, ana-seq-002, cle-code-001, cle-type-001, cle-type-002, gen-const-006, gen-ra6713-001, gen-govt-001, gen-curenv-001, gen-peace-001, ver-gram-020, ver-gram-021, ver-gram-022, ver-gram-023, ver-gram-024, ver-gram-025, ver-gram-026, ver-gram-027, ver-gram-028, ver-gram-029, ver-gram-030, ver-gram-031, ver-gram-032, ver-gram-033, ver-gram-035, ver-vocab-012, ver-vocab-013, ver-vocab-014, ver-vocab-015, ver-vocab-016, ver-vocab-017, ver-vocab-018, ver-vocab-019, ver-vocab-020, ver-vocab-021, ver-vocab-022, ver-vocab-023, ver-vocab-024, ver-vocab-025, ver-vocab-026, ver-vocab-027, ver-vocab-028, ver-vocab-029, ver-vocab-030, ver-read-006, ver-read-008, ver-read-009, ver-vanal-006, ver-vanal-007, ver-vanal-008, ver-vanal-009, ver-vanal-010, ver-vanal-011, ver-vanal-012, ver-vanal-013, ver-vanal-014, ver-vanal-015, ver-vanal-016, ver-vanal-017, ver-vanal-018, ver-vanal-019, ver-vanal-020, ver-sent-006, ver-sent-007, ver-sent-008, ver-sent-009, ver-sent-010, ver-sent-011, ver-sent-012, ver-sent-013, ver-sent-014, ver-sent-015
+
+Duplication Groups:
+
+[2 copies] - Stem: which of the following words is correctly spelled
+  IDs: cle-fil-003, cle-code-001
+
+[14 copies] - Stem: find the next # # # # # __
+  IDs: num-nseries-001, num-nseries-004, num-nseries-005, num-nseries-007, num-nseries-008, num-nseries-010, num-nseries-011, num-nseries-012, num-nseries-014, num-nseries-020, num-nseries-021, num-nseries-022, num-nseries-023, num-nseries-024
+
+[3 copies] - Stem: find the next # # # # __
+  IDs: num-nseries-002, num-nseries-009, num-nseries-018
+
+[4 copies] - Stem: find the next # # # # # # # __
+  IDs: num-nseries-003, num-nseries-015, num-nseries-017, num-nseries-019
+
+[2 copies] - Stem: find the next # # # # # # __
+  IDs: num-nseries-006, num-nseries-013
+
+[2 copies] - Stem: find the missing # # # # # #
+  IDs: num-nseries-016, num-nseries-025
+
+[4 copies] - Stem: simplify # # x # # #
+  IDs: num-ops-001, num-ops-010, num-ops-015, num-ops-022
+
+[2 copies] - Stem: convert # to a fraction in simplest form#
+  IDs: num-ops-004, num-ops-018
+
+[2 copies] - Stem: what is # of #
+  IDs: num-ops-009, num-ops-020
+
+[4 copies] - Stem: choose the correct sentence
+  IDs: ver-gram-009, ver-gram-014, ver-gram-027, ver-gram-034
+
+[2 copies] - Stem: which sentence is correct
+  IDs: ver-gram-024, ver-gram-033
+
+[26 copies] - Stem: logical reasoning question # all public servants must be honest# juan is a public servant# what follows
+  IDs: ana-log-011, ana-log-012, ana-log-013, ana-log-014, ana-log-015, ana-log-016, ana-log-017, ana-log-018, ana-log-019, ana-log-020, ana-log-021, ana-log-022, ana-log-023, ana-log-024, ana-log-025, ana-log-026, ana-log-027, ana-log-028, ana-log-029, ana-log-030, ana-log-031, ana-log-032, ana-log-033, ana-log-034, ana-log-035, ana-log-036
+
+[29 copies] - Stem: data interpretation # a budget of p#m is allocated personnel ## operations ## equipment ## training ## how much for equipment
+  IDs: ana-data-011, ana-data-012, ana-data-013, ana-data-014, ana-data-015, ana-data-016, ana-data-017, ana-data-018, ana-data-019, ana-data-020, ana-data-021, ana-data-022, ana-data-023, ana-data-024, ana-data-025, ana-data-026, ana-data-027, ana-data-028, ana-data-029, ana-data-030, ana-data-031, ana-data-032, ana-data-033, ana-data-034, ana-data-035, ana-data-036, ana-data-037, ana-data-038, ana-data-039
+
+[19 copies] - Stem: pattern # what comes next # # # # # ___
+  IDs: ana-pat-011, ana-pat-012, ana-pat-013, ana-pat-014, ana-pat-015, ana-pat-016, ana-pat-017, ana-pat-018, ana-pat-019, ana-pat-020, ana-pat-021, ana-pat-022, ana-pat-023, ana-pat-024, ana-pat-025, ana-pat-026, ana-pat-027, ana-pat-028, ana-pat-029
+
+[17 copies] - Stem: sequence # find the next a# c# e# g# ___
+  IDs: ana-seq-011, ana-seq-012, ana-seq-013, ana-seq-014, ana-seq-015, ana-seq-016, ana-seq-017, ana-seq-018, ana-seq-019, ana-seq-020, ana-seq-021, ana-seq-022, ana-seq-023, ana-seq-024, ana-seq-025, ana-seq-026, ana-seq-027
+
+[19 copies] - Stem: filing # file correctly cruz# dela cruz# de la cruz# delos cruz
+  IDs: cle-fil-011, cle-fil-012, cle-fil-013, cle-fil-014, cle-fil-015, cle-fil-016, cle-fil-017, cle-fil-018, cle-fil-019, cle-fil-020, cle-fil-021, cle-fil-022, cle-fil-023, cle-fil-024, cle-fil-025, cle-fil-026, cle-fil-027, cle-fil-028, cle-fil-029
+
+[19 copies] - Stem: spelling # which word is correctly spelled
+  IDs: cle-code-011, cle-code-012, cle-code-013, cle-code-014, cle-code-015, cle-code-016, cle-code-017, cle-code-018, cle-code-019, cle-code-020, cle-code-021, cle-code-022, cle-code-023, cle-code-024, cle-code-025, cle-code-026, cle-code-027, cle-code-028, cle-code-029
+
+[19 copies] - Stem: clerical ops # original abc#xyz# copy abc#xyz# do they match
+  IDs: cle-clops-011, cle-clops-012, cle-clops-013, cle-clops-014, cle-clops-015, cle-clops-016, cle-clops-017, cle-clops-018, cle-clops-019, cle-clops-020, cle-clops-021, cle-clops-022, cle-clops-023, cle-clops-024, cle-clops-025, cle-clops-026, cle-clops-027, cle-clops-028, cle-clops-029
+
+[12 copies] - Stem: typing # an employee typed # words in # minutes# wpm
+  IDs: cle-type-011, cle-type-012, cle-type-013, cle-type-014, cle-type-015, cle-type-016, cle-type-017, cle-type-018, cle-type-019, cle-type-020, cle-type-021, cle-type-022
+
+[19 copies] - Stem: constitution # which branch of government has the power of impeachment
+  IDs: gen-const-011, gen-const-012, gen-const-013, gen-const-014, gen-const-015, gen-const-016, gen-const-017, gen-const-018, gen-const-019, gen-const-020, gen-const-021, gen-const-022, gen-const-023, gen-const-024, gen-const-025, gen-const-026, gen-const-027, gen-const-028, gen-const-029
+
+[19 copies] - Stem: ra # # what is the primary purpose of ra #
+  IDs: gen-ra6713-011, gen-ra6713-012, gen-ra6713-013, gen-ra6713-014, gen-ra6713-015, gen-ra6713-016, gen-ra6713-017, gen-ra6713-018, gen-ra6713-019, gen-ra6713-020, gen-ra6713-021, gen-ra6713-022, gen-ra6713-023, gen-ra6713-024, gen-ra6713-025, gen-ra6713-026, gen-ra6713-027, gen-ra6713-028, gen-ra6713-029
+
+[14 copies] - Stem: government # which agency handles government auditing
+  IDs: gen-govt-011, gen-govt-012, gen-govt-013, gen-govt-014, gen-govt-015, gen-govt-016, gen-govt-017, gen-govt-018, gen-govt-019, gen-govt-020, gen-govt-021, gen-govt-022, gen-govt-023, gen-govt-024
+
+[9 copies] - Stem: environment # which law addresses solid waste management
+  IDs: gen-curenv-011, gen-curenv-012, gen-curenv-013, gen-curenv-014, gen-curenv-015, gen-curenv-016, gen-curenv-017, gen-curenv-018, gen-curenv-019
+
+[9 copies] - Stem: human rights # ra # addresses what
+  IDs: gen-peace-011, gen-peace-012, gen-peace-013, gen-peace-014, gen-peace-015, gen-peace-016, gen-peace-017, gen-peace-018, gen-peace-019
+
+[26 copies] - Stem: grammar # choose the correct sentence#
+  IDs: ver-gram-036, ver-gram-037, ver-gram-038, ver-gram-039, ver-gram-040, ver-gram-041, ver-gram-042, ver-gram-043, ver-gram-044, ver-gram-045, ver-gram-046, ver-gram-047, ver-gram-048, ver-gram-049, ver-gram-050, ver-gram-051, ver-gram-052, ver-gram-053, ver-gram-054, ver-gram-055, ver-gram-056, ver-gram-057, ver-gram-058, ver-gram-059, ver-gram-060, ver-gram-061
+
+[20 copies] - Stem: vocabulary # what is the synonym of impartial
+  IDs: ver-vocab-031, ver-vocab-032, ver-vocab-033, ver-vocab-034, ver-vocab-035, ver-vocab-036, ver-vocab-037, ver-vocab-038, ver-vocab-039, ver-vocab-040, ver-vocab-041, ver-vocab-042, ver-vocab-043, ver-vocab-044, ver-vocab-045, ver-vocab-046, ver-vocab-047, ver-vocab-048, ver-vocab-049, ver-vocab-050
+
+[26 copies] - Stem: reading # passage transparency in government means that citizens have the right to access information about government operations and decisions# what is the main idea
+  IDs: ver-read-011, ver-read-012, ver-read-013, ver-read-014, ver-read-015, ver-read-016, ver-read-017, ver-read-018, ver-read-019, ver-read-020, ver-read-021, ver-read-022, ver-read-023, ver-read-024, ver-read-025, ver-read-026, ver-read-027, ver-read-028, ver-read-029, ver-read-030, ver-read-031, ver-read-032, ver-read-033, ver-read-034, ver-read-035, ver-read-036
+
+[15 copies] - Stem: a municipal budget of # is allocated between agriculture and health in a ratio of ## what is the difference between the agriculture budget and the health budget
+  IDs: num-ratio-103, num-ratio-104, num-ratio-105, num-ratio-106, num-ratio-107, num-ratio-108, num-ratio-109, num-ratio-110, num-ratio-111, num-ratio-112, num-ratio-113, num-ratio-114, num-ratio-115, num-ratio-116, num-ratio-117
+
+[25 copies] - Stem: a barangay cooperative deposited # in a land bank account earning # simple interest per year# what will be the total amount in the account after # years
+  IDs: num-pct-100, num-pct-101, num-pct-102, num-pct-103, num-pct-104, num-pct-105, num-pct-106, num-pct-107, num-pct-108, num-pct-109, num-pct-110, num-pct-111, num-pct-112, num-pct-113, num-pct-114, num-pct-115, num-pct-116, num-pct-117, num-pct-118, num-pct-119, num-pct-120, num-pct-121, num-pct-122, num-pct-123, num-pct-124
+
+[25 copies] - Stem: two doh ambulances leave a central hospital at the same time traveling in opposite directions along a highway# one travels at # kmh and the other at # kmh# how many hours will it take for them to be # km apart
+  IDs: num-word-100, num-word-101, num-word-102, num-word-103, num-word-104, num-word-105, num-word-106, num-word-107, num-word-108, num-word-109, num-word-110, num-word-111, num-word-112, num-word-113, num-word-114, num-word-115, num-word-116, num-word-117, num-word-118, num-word-119, num-word-120, num-word-121, num-word-122, num-word-123, num-word-124
+
+[75 copies] - Stem: find the next number in the series # # # # __
+  IDs: num-nseries-100, num-nseries-101, num-nseries-102, num-nseries-103, num-nseries-104, num-nseries-105, num-nseries-106, num-nseries-107, num-nseries-108, num-nseries-109, num-nseries-110, num-nseries-111, num-nseries-112, num-nseries-113, num-nseries-114, num-nseries-115, num-nseries-116, num-nseries-117, num-nseries-118, num-nseries-119, num-nseries-120, num-nseries-121, num-nseries-122, num-nseries-123, num-nseries-124, num-nseries-200, num-nseries-201, num-nseries-202, num-nseries-203, num-nseries-204, num-nseries-205, num-nseries-206, num-nseries-207, num-nseries-208, num-nseries-209, num-nseries-210, num-nseries-211, num-nseries-212, num-nseries-213, num-nseries-214, num-nseries-215, num-nseries-216, num-nseries-217, num-nseries-218, num-nseries-219, num-nseries-220, num-nseries-221, num-nseries-222, num-nseries-223, num-nseries-224, num-nseries-300, num-nseries-301, num-nseries-302, num-nseries-303, num-nseries-304, num-nseries-305, num-nseries-306, num-nseries-307, num-nseries-308, num-nseries-309, num-nseries-310, num-nseries-311, num-nseries-312, num-nseries-313, num-nseries-314, num-nseries-315, num-nseries-316, num-nseries-317, num-nseries-318, num-nseries-319, num-nseries-320, num-nseries-321, num-nseries-322, num-nseries-323, num-nseries-324
+
+[25 copies] - Stem: two barangay patrol cars start their rounds from the municipal hall at the same time# car a completes a round every # minutes# and car b completes a round every # minutes# after how many minutes will both cars meet at the municipal hall again
+  IDs: num-ops-100, num-ops-101, num-ops-102, num-ops-103, num-ops-104, num-ops-105, num-ops-106, num-ops-107, num-ops-108, num-ops-109, num-ops-110, num-ops-111, num-ops-112, num-ops-113, num-ops-114, num-ops-115, num-ops-116, num-ops-117, num-ops-118, num-ops-119, num-ops-120, num-ops-121, num-ops-122, num-ops-123, num-ops-124
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to uprocurementu the existing guidelines#
+  IDs: ver-vocab-100, ver-vocab-110, ver-vocab-120
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to upromulgateu the existing guidelines#
+  IDs: ver-vocab-101, ver-vocab-111, ver-vocab-121
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to ujurisdictionu the existing guidelines#
+  IDs: ver-vocab-102, ver-vocab-112, ver-vocab-122
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to ustatutoryu the existing guidelines#
+  IDs: ver-vocab-103, ver-vocab-113, ver-vocab-123
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to uindemnifyu the existing guidelines#
+  IDs: ver-vocab-104, ver-vocab-114, ver-vocab-124
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to uemolumentu the existing guidelines#
+  IDs: ver-vocab-105, ver-vocab-115, ver-vocab-125
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to uquashingu the existing guidelines#
+  IDs: ver-vocab-106, ver-vocab-116, ver-vocab-126
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to urequisitionu the existing guidelines#
+  IDs: ver-vocab-107, ver-vocab-117, ver-vocab-127
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to urescindu the existing guidelines#
+  IDs: ver-vocab-108, ver-vocab-118, ver-vocab-128
+
+[3 copies] - Stem: choose the word closest in meaning to the underlined term the commission issued an administrative directive to umitigateu the existing guidelines#
+  IDs: ver-vocab-109, ver-vocab-119, ver-vocab-129
+
+[30 copies] - Stem: read the passage under memorandum circular no# # all local government units are instructed to establish a dedicated disaster risk reduction management office drrmo to ensure rapid emergency response during typhoon seasons# what is the main objective of circular no# #
+  IDs: ver-read-100, ver-read-101, ver-read-102, ver-read-103, ver-read-104, ver-read-105, ver-read-106, ver-read-107, ver-read-108, ver-read-109, ver-read-110, ver-read-111, ver-read-112, ver-read-113, ver-read-114, ver-read-115, ver-read-116, ver-read-117, ver-read-118, ver-read-119, ver-read-120, ver-read-121, ver-read-122, ver-read-123, ver-read-124, ver-read-125, ver-read-126, ver-read-127, ver-read-128, ver-read-129
+
+[4 copies] - Stem: complete the analogy civil servant agency judge ____
+  IDs: ver-vanal-100, ver-vanal-105, ver-vanal-110, ver-vanal-115
+
+[4 copies] - Stem: complete the analogy law legislature ordinance ____
+  IDs: ver-vanal-101, ver-vanal-106, ver-vanal-111, ver-vanal-116
+
+[4 copies] - Stem: complete the analogy audit coa taxation ____
+  IDs: ver-vanal-102, ver-vanal-107, ver-vanal-112, ver-vanal-117
+
+[4 copies] - Stem: complete the analogy constitution supreme law statute ____
+  IDs: ver-vanal-103, ver-vanal-108, ver-vanal-113, ver-vanal-118
+
+[4 copies] - Stem: complete the analogy governor province mayor ____
+  IDs: ver-vanal-104, ver-vanal-109, ver-vanal-114, ver-vanal-119
+
+[15 copies] - Stem: fill in the blank to complete the administrative statement the project manager ensured that all civil works were executed in accordance __ approved engineering standards#
+  IDs: ver-sent-100, ver-sent-101, ver-sent-102, ver-sent-103, ver-sent-104, ver-sent-105, ver-sent-106, ver-sent-107, ver-sent-108, ver-sent-109, ver-sent-110, ver-sent-111, ver-sent-112, ver-sent-113, ver-sent-114
+
+[29 copies] - Stem: premise # all department heads are cse professional eligibles# premise # maria is a department head# conclusion which statement must be true
+  IDs: ana-log-101, ana-log-102, ana-log-103, ana-log-104, ana-log-105, ana-log-106, ana-log-107, ana-log-108, ana-log-109, ana-log-110, ana-log-111, ana-log-112, ana-log-113, ana-log-114, ana-log-115, ana-log-116, ana-log-117, ana-log-118, ana-log-119, ana-log-120, ana-log-121, ana-log-122, ana-log-123, ana-log-124, ana-log-125, ana-log-126, ana-log-127, ana-log-128, ana-log-129
+
+[30 copies] - Stem: data table annual health office expenditure year # # million year # # million what is the percentage increase in expenditure from # to #
+  IDs: ana-data-100, ana-data-101, ana-data-102, ana-data-103, ana-data-104, ana-data-105, ana-data-106, ana-data-107, ana-data-108, ana-data-109, ana-data-110, ana-data-111, ana-data-112, ana-data-113, ana-data-114, ana-data-115, ana-data-116, ana-data-117, ana-data-118, ana-data-119, ana-data-120, ana-data-121, ana-data-122, ana-data-123, ana-data-124, ana-data-125, ana-data-126, ana-data-127, ana-data-128, ana-data-129
+
+[20 copies] - Stem: sequence a square rotates # degrees clockwise at each step step # topleft dot# step # topright dot# step # bottomright dot# where will the dot be in step #
+  IDs: ana-pat-100, ana-pat-101, ana-pat-102, ana-pat-103, ana-pat-104, ana-pat-105, ana-pat-106, ana-pat-107, ana-pat-108, ana-pat-109, ana-pat-110, ana-pat-111, ana-pat-112, ana-pat-113, ana-pat-114, ana-pat-115, ana-pat-116, ana-pat-117, ana-pat-118, ana-pat-119
+
+[20 copies] - Stem: find the next letter in the sequence a# c# e# g# __
+  IDs: ana-seq-100, ana-seq-101, ana-seq-102, ana-seq-103, ana-seq-104, ana-seq-105, ana-seq-106, ana-seq-107, ana-seq-108, ana-seq-109, ana-seq-110, ana-seq-111, ana-seq-112, ana-seq-113, ana-seq-114, ana-seq-115, ana-seq-116, ana-seq-117, ana-seq-118, ana-seq-119
+
+[20 copies] - Stem: arrange the following # official document records in correct alphabetical order # de la cruz# juan # del rosario# maria # de castro# ana # dela pea# pedro
+  IDs: cle-fil-100, cle-fil-101, cle-fil-102, cle-fil-103, cle-fil-104, cle-fil-105, cle-fil-106, cle-fil-107, cle-fil-108, cle-fil-109, cle-fil-110, cle-fil-111, cle-fil-112, cle-fil-113, cle-fil-114, cle-fil-115, cle-fil-116, cle-fil-117, cle-fil-118, cle-fil-119
+
+[5 copies] - Stem: choose the correctly spelled word to complete the sentence the new tax policy will directly __ small business owners#
+  IDs: cle-code-100, cle-code-104, cle-code-108, cle-code-112, cle-code-116
+
+[5 copies] - Stem: choose the correctly spelled word to complete the sentence mr# santos is the __ architect of the municipal urban plan#
+  IDs: cle-code-101, cle-code-105, cle-code-109, cle-code-113, cle-code-117
+
+[5 copies] - Stem: choose the correctly spelled word to complete the sentence the city __ voted unanimously to pass the ordinance#
+  IDs: cle-code-102, cle-code-106, cle-code-110, cle-code-114, cle-code-118
+
+[5 copies] - Stem: choose the correctly spelled word to complete the sentence heavy rain had an __ effect on the road construction schedule#
+  IDs: cle-code-103, cle-code-107, cle-code-111, cle-code-115, cle-code-119
+
+[20 copies] - Stem: a clerk is auditing a supplier invoice for # office chairs priced at # per unit# the invoice total lists # what is the variance between the invoice total and the actual computed total
+  IDs: cle-clops-100, cle-clops-101, cle-clops-102, cle-clops-103, cle-clops-104, cle-clops-105, cle-clops-106, cle-clops-107, cle-clops-108, cle-clops-109, cle-clops-110, cle-clops-111, cle-clops-112, cle-clops-113, cle-clops-114, cle-clops-115, cle-clops-116, cle-clops-117, cle-clops-118, cle-clops-119
+
+[15 copies] - Stem: a data entry clerk typed a #word government report in # minutes# what is the clerks gross typing speed in words per minute wpm
+  IDs: cle-type-100, cle-type-101, cle-type-102, cle-type-103, cle-type-104, cle-type-105, cle-type-106, cle-type-107, cle-type-108, cle-type-109, cle-type-110, cle-type-111, cle-type-112, cle-type-113, cle-type-114
+
+[5 copies] - Stem: under article ii of the # philippine constitution# which principle guarantees that renunciation of war as an instrument of national policy
+  IDs: gen-const-100, gen-const-104, gen-const-108, gen-const-112, gen-const-116
+
+[5 copies] - Stem: under article ix of the # philippine constitution# which principle guarantees that independent constitutional body
+  IDs: gen-const-101, gen-const-105, gen-const-109, gen-const-113, gen-const-117
+
+[5 copies] - Stem: under article x of the # philippine constitution# which principle guarantees that autonomy to local government units
+  IDs: gen-const-102, gen-const-106, gen-const-110, gen-const-114, gen-const-118
+
+[5 copies] - Stem: under article xi of the # philippine constitution# which principle guarantees that public office is a public trust
+  IDs: gen-const-103, gen-const-107, gen-const-111, gen-const-115, gen-const-119
+
+[5 copies] - Stem: under republic act no# # code of conduct and ethical standards for public officials and employees# what is the statutory requirement regarding statement of assets# liabilities# and net worth saln
+  IDs: gen-ra6713-100, gen-ra6713-104, gen-ra6713-108, gen-ra6713-112, gen-ra6713-116
+
+[5 copies] - Stem: under republic act no# # code of conduct and ethical standards for public officials and employees# what is the statutory requirement regarding divestment of business interests
+  IDs: gen-ra6713-101, gen-ra6713-105, gen-ra6713-109, gen-ra6713-113, gen-ra6713-117
+
+[5 copies] - Stem: under republic act no# # code of conduct and ethical standards for public officials and employees# what is the statutory requirement regarding prohibition on accepting gifts
+  IDs: gen-ra6713-102, gen-ra6713-106, gen-ra6713-110, gen-ra6713-114, gen-ra6713-118
+
+[5 copies] - Stem: under republic act no# # code of conduct and ethical standards for public officials and employees# what is the statutory requirement regarding whistleblower protections
+  IDs: gen-ra6713-103, gen-ra6713-107, gen-ra6713-111, gen-ra6713-115, gen-ra6713-119
+
+[15 copies] - Stem: which government body is constitutionally mandated to audit all accounts pertaining to the revenue and expenditures of government agencies coa# csc# comelec
+  IDs: gen-govt-100, gen-govt-101, gen-govt-102, gen-govt-103, gen-govt-104, gen-govt-105, gen-govt-106, gen-govt-107, gen-govt-108, gen-govt-109, gen-govt-110, gen-govt-111, gen-govt-112, gen-govt-113, gen-govt-114
+
+[10 copies] - Stem: under republic act no# # philippine clean air act of ## which government agency leads the implementation of air quality management policies nationwide
+  IDs: gen-curenv-100, gen-curenv-101, gen-curenv-102, gen-curenv-103, gen-curenv-104, gen-curenv-105, gen-curenv-106, gen-curenv-107, gen-curenv-108, gen-curenv-109
+
+[10 copies] - Stem: under republic act no# # juvenile justice and welfare act of ## what is the minimum age of criminal responsibility in the philippines
+  IDs: gen-peace-100, gen-peace-101, gen-peace-102, gen-peace-103, gen-peace-104, gen-peace-105, gen-peace-106, gen-peace-107, gen-peace-108, gen-peace-109
+
+[20 copies] - Stem: a provincial development grant of # is allocated among education# health# and infrastructure in the ratio ### what is the share allocated to infrastructure
+  IDs: num-ratio-200, num-ratio-201, num-ratio-202, num-ratio-203, num-ratio-204, num-ratio-205, num-ratio-206, num-ratio-207, num-ratio-208, num-ratio-209, num-ratio-210, num-ratio-211, num-ratio-212, num-ratio-213, num-ratio-214, num-ratio-215, num-ratio-216, num-ratio-217, num-ratio-218, num-ratio-219
+
+[25 copies] - Stem: a government agency purchased office laptops under a promotion offering a # trade discount followed by an additional # cash promptpayment discount# if the original catalog price per unit is # what is the final net price per unit
+  IDs: num-pct-200, num-pct-201, num-pct-202, num-pct-203, num-pct-204, num-pct-205, num-pct-206, num-pct-207, num-pct-208, num-pct-209, num-pct-210, num-pct-211, num-pct-212, num-pct-213, num-pct-214, num-pct-215, num-pct-216, num-pct-217, num-pct-218, num-pct-219, num-pct-220, num-pct-221, num-pct-222, num-pct-223, num-pct-224
+
+[25 copies] - Stem: a municipal water tank can be filled by pipe a in # hours and by pipe b in # hours# how many hours will it take to fill the tank if both pipes are opened simultaneously
+  IDs: num-word-200, num-word-201, num-word-202, num-word-203, num-word-204, num-word-205, num-word-206, num-word-207, num-word-208, num-word-209, num-word-210, num-word-211, num-word-212, num-word-213, num-word-214, num-word-215, num-word-216, num-word-217, num-word-218, num-word-219, num-word-220, num-word-221, num-word-222, num-word-223, num-word-224
+
+[25 copies] - Stem: evaluate the expression following standard order of operations pemdasmdas # # # __
+  IDs: num-ops-200, num-ops-201, num-ops-202, num-ops-203, num-ops-204, num-ops-205, num-ops-206, num-ops-207, num-ops-208, num-ops-209, num-ops-210, num-ops-211, num-ops-212, num-ops-213, num-ops-214, num-ops-215, num-ops-216, num-ops-217, num-ops-218, num-ops-219, num-ops-220, num-ops-221, num-ops-222, num-ops-223, num-ops-224
+
+[35 copies] - Stem: which option expresses the administrative directive most concisely and clearly without redundant wordiness
+  IDs: ver-gram-200, ver-gram-201, ver-gram-202, ver-gram-203, ver-gram-204, ver-gram-205, ver-gram-206, ver-gram-207, ver-gram-208, ver-gram-209, ver-gram-210, ver-gram-211, ver-gram-212, ver-gram-213, ver-gram-214, ver-gram-215, ver-gram-216, ver-gram-217, ver-gram-218, ver-gram-219, ver-gram-220, ver-gram-221, ver-gram-222, ver-gram-223, ver-gram-224, ver-gram-225, ver-gram-226, ver-gram-227, ver-gram-228, ver-gram-229, ver-gram-230, ver-gram-231, ver-gram-232, ver-gram-233, ver-gram-234
+
+[6 copies] - Stem: choose the word or phrase closest in meaning to the underlined legal term the ombudsman has the constitutional authority to uadjudicateu administrative complaints filed against public officers#
+  IDs: ver-vocab-200, ver-vocab-205, ver-vocab-210, ver-vocab-215, ver-vocab-220, ver-vocab-225
+
+[6 copies] - Stem: choose the word or phrase closest in meaning to the underlined legal term the ombudsman has the constitutional authority to upromulgationu administrative complaints filed against public officers#
+  IDs: ver-vocab-201, ver-vocab-206, ver-vocab-211, ver-vocab-216, ver-vocab-221, ver-vocab-226
+
+[6 copies] - Stem: choose the word or phrase closest in meaning to the underlined legal term the ombudsman has the constitutional authority to ujurisprudenceu administrative complaints filed against public officers#
+  IDs: ver-vocab-202, ver-vocab-207, ver-vocab-212, ver-vocab-217, ver-vocab-222, ver-vocab-227
+
+[6 copies] - Stem: choose the word or phrase closest in meaning to the underlined legal term the ombudsman has the constitutional authority to uexpropriationu administrative complaints filed against public officers#
+  IDs: ver-vocab-203, ver-vocab-208, ver-vocab-213, ver-vocab-218, ver-vocab-223, ver-vocab-228
+
+[6 copies] - Stem: choose the word or phrase closest in meaning to the underlined legal term the ombudsman has the constitutional authority to usubpoenau administrative complaints filed against public officers#
+  IDs: ver-vocab-204, ver-vocab-209, ver-vocab-214, ver-vocab-219, ver-vocab-224, ver-vocab-229
+
+[30 copies] - Stem: read the passage while statutory compliance is mandatory# true civil service excellence requires empathy towards the public# bureaucratic efficiency without human compassion creates administrative alienation# what can be inferred about the authors viewpoint
+  IDs: ver-read-200, ver-read-201, ver-read-202, ver-read-203, ver-read-204, ver-read-205, ver-read-206, ver-read-207, ver-read-208, ver-read-209, ver-read-210, ver-read-211, ver-read-212, ver-read-213, ver-read-214, ver-read-215, ver-read-216, ver-read-217, ver-read-218, ver-read-219, ver-read-220, ver-read-221, ver-read-222, ver-read-223, ver-read-224, ver-read-225, ver-read-226, ver-read-227, ver-read-228, ver-read-229
+
+[7 copies] - Stem: complete the analogy scales justice olive branch ____
+  IDs: ver-vanal-200, ver-vanal-203, ver-vanal-206, ver-vanal-209, ver-vanal-212, ver-vanal-215, ver-vanal-218
+
+[7 copies] - Stem: complete the analogy gavel authority scepter ____
+  IDs: ver-vanal-201, ver-vanal-204, ver-vanal-207, ver-vanal-210, ver-vanal-213, ver-vanal-216, ver-vanal-219
+
+[6 copies] - Stem: complete the analogy anchor hope dove ____
+  IDs: ver-vanal-202, ver-vanal-205, ver-vanal-208, ver-vanal-211, ver-vanal-214, ver-vanal-217
+
+[15 copies] - Stem: fill in the blank with the appropriate transition the agency faced severe budget cuts __# it managed to achieve all its annual performance targets#
+  IDs: ver-sent-200, ver-sent-201, ver-sent-202, ver-sent-203, ver-sent-204, ver-sent-205, ver-sent-206, ver-sent-207, ver-sent-208, ver-sent-209, ver-sent-210, ver-sent-211, ver-sent-212, ver-sent-213, ver-sent-214
+
+[30 copies] - Stem: five council members a# b# c# d# e sit in a row# c sits next to d# b sits at the extreme left end# e sits next to b# a sits at the extreme right end# who sits in the exact middle position
+  IDs: ana-log-200, ana-log-201, ana-log-202, ana-log-203, ana-log-204, ana-log-205, ana-log-206, ana-log-207, ana-log-208, ana-log-209, ana-log-210, ana-log-211, ana-log-212, ana-log-213, ana-log-214, ana-log-215, ana-log-216, ana-log-217, ana-log-218, ana-log-219, ana-log-220, ana-log-221, ana-log-222, ana-log-223, ana-log-224, ana-log-225, ana-log-226, ana-log-227, ana-log-228, ana-log-229
+
+[30 copies] - Stem: data table municipal waste collection organic # tons recyclable # tons total # tons what percentage of total waste collected is organic
+  IDs: ana-data-200, ana-data-201, ana-data-202, ana-data-203, ana-data-204, ana-data-205, ana-data-206, ana-data-207, ana-data-208, ana-data-209, ana-data-210, ana-data-211, ana-data-212, ana-data-213, ana-data-214, ana-data-215, ana-data-216, ana-data-217, ana-data-218, ana-data-219, ana-data-220, ana-data-221, ana-data-222, ana-data-223, ana-data-224, ana-data-225, ana-data-226, ana-data-227, ana-data-228, ana-data-229
+
+[20 copies] - Stem: a #d cube with different shaded symbols on each face is flipped forward once# then turned # degrees right# which face is now facing up
+  IDs: ana-pat-200, ana-pat-201, ana-pat-202, ana-pat-203, ana-pat-204, ana-pat-205, ana-pat-206, ana-pat-207, ana-pat-208, ana-pat-209, ana-pat-210, ana-pat-211, ana-pat-212, ana-pat-213, ana-pat-214, ana-pat-215, ana-pat-216, ana-pat-217, ana-pat-218, ana-pat-219
+
+[20 copies] - Stem: find the next item in the series a# c# e# g# __
+  IDs: ana-seq-200, ana-seq-201, ana-seq-202, ana-seq-203, ana-seq-204, ana-seq-205, ana-seq-206, ana-seq-207, ana-seq-208, ana-seq-209, ana-seq-210, ana-seq-211, ana-seq-212, ana-seq-213, ana-seq-214, ana-seq-215, ana-seq-216, ana-seq-217, ana-seq-218, ana-seq-219
+
+[20 copies] - Stem: under standard government filing rules# numbers written as digits e#g# #th avenue are filed as if spelled out in words# arrange these # file folders in proper alphabetical order # #th avenue bakery # fifth street laundry # #th street pharmacy # five star catering
+  IDs: cle-fil-200, cle-fil-201, cle-fil-202, cle-fil-203, cle-fil-204, cle-fil-205, cle-fil-206, cle-fil-207, cle-fil-208, cle-fil-209, cle-fil-210, cle-fil-211, cle-fil-212, cle-fil-213, cle-fil-214, cle-fil-215, cle-fil-216, cle-fil-217, cle-fil-218, cle-fil-219
+
+[20 copies] - Stem: compare the master account number with the entry record master ### entry ### is there an error in the entry record
+  IDs: cle-code-200, cle-code-201, cle-code-202, cle-code-203, cle-code-204, cle-code-205, cle-code-206, cle-code-207, cle-code-208, cle-code-209, cle-code-210, cle-code-211, cle-code-212, cle-code-213, cle-code-214, cle-code-215, cle-code-216, cle-code-217, cle-code-218, cle-code-219
+
+[20 copies] - Stem: a passport application requires dates in iso standard yyyymmdd# an applicant submitted their birthdate as ### in us format mmddyyyy# how should this date be reformatted for the official database
+  IDs: cle-clops-200, cle-clops-201, cle-clops-202, cle-clops-203, cle-clops-204, cle-clops-205, cle-clops-206, cle-clops-207, cle-clops-208, cle-clops-209, cle-clops-210, cle-clops-211, cle-clops-212, cle-clops-213, cle-clops-214, cle-clops-215, cle-clops-216, cle-clops-217, cle-clops-218, cle-clops-219
+
+[15 copies] - Stem: in a #minute civil service typing exam# an applicant typed # total words with # uncorrected errors# what is the applicants net typing speed in words per minute net wpm
+  IDs: cle-type-200, cle-type-201, cle-type-202, cle-type-203, cle-type-204, cle-type-205, cle-type-206, cle-type-207, cle-type-208, cle-type-209, cle-type-210, cle-type-211, cle-type-212, cle-type-213, cle-type-214
+
+[5 copies] - Stem: under the # philippine constitution# which article governs the powers# qualifications# and organization of the legislative department senate and house of representatives
+  IDs: gen-const-200, gen-const-204, gen-const-208, gen-const-212, gen-const-216
+
+[5 copies] - Stem: under the # philippine constitution# which article governs the powers# qualifications# and organization of the executive department president and cabinet
+  IDs: gen-const-201, gen-const-205, gen-const-209, gen-const-213, gen-const-217
+
+[5 copies] - Stem: under the # philippine constitution# which article governs the powers# qualifications# and organization of the judicial department supreme court and lower courts
+  IDs: gen-const-202, gen-const-206, gen-const-210, gen-const-214, gen-const-218
+
+[5 copies] - Stem: under the # philippine constitution# which article governs the powers# qualifications# and organization of the impeachment of constitutional officers
+  IDs: gen-const-203, gen-const-207, gen-const-211, gen-const-215, gen-const-219
+
+[20 copies] - Stem: a public officer consistently prioritizes processing official documents for relatives ahead of other citizens waiting in line# which norm of conduct under ra # is violated
+  IDs: gen-ra6713-200, gen-ra6713-201, gen-ra6713-202, gen-ra6713-203, gen-ra6713-204, gen-ra6713-205, gen-ra6713-206, gen-ra6713-207, gen-ra6713-208, gen-ra6713-209, gen-ra6713-210, gen-ra6713-211, gen-ra6713-212, gen-ra6713-213, gen-ra6713-214, gen-ra6713-215, gen-ra6713-216, gen-ra6713-217, gen-ra6713-218, gen-ra6713-219
+
+[15 copies] - Stem: the philippines is one of the # original founding member states of asean association of southeast asian nations# in what year was asean established through the bangkok declaration
+  IDs: gen-govt-200, gen-govt-201, gen-govt-202, gen-govt-203, gen-govt-204, gen-govt-205, gen-govt-206, gen-govt-207, gen-govt-208, gen-govt-209, gen-govt-210, gen-govt-211, gen-govt-212, gen-govt-213, gen-govt-214
+
+[10 copies] - Stem: under republic act no# # ecological solid waste management act of ## which level of government is primarily responsible for waste segregation and collection at the household level
+  IDs: gen-curenv-200, gen-curenv-201, gen-curenv-202, gen-curenv-203, gen-curenv-204, gen-curenv-205, gen-curenv-206, gen-curenv-207, gen-curenv-208, gen-curenv-209
+
+[10 copies] - Stem: under republic act no# # antisexual harassment act of ## sexual harassment is committed in a workplace when a person in authority demands sexual favors as a condition for
+  IDs: gen-peace-200, gen-peace-201, gen-peace-202, gen-peace-203, gen-peace-204, gen-peace-205, gen-peace-206, gen-peace-207, gen-peace-208, gen-peace-209
+
+[20 copies] - Stem: a dswd logistics hub packs # emergency relief packs containing rice kits and water kits in the ratio of ## how many rice kits were packed
+  IDs: num-ratio-300, num-ratio-301, num-ratio-302, num-ratio-303, num-ratio-304, num-ratio-305, num-ratio-306, num-ratio-307, num-ratio-308, num-ratio-309, num-ratio-310, num-ratio-311, num-ratio-312, num-ratio-313, num-ratio-314, num-ratio-315, num-ratio-316, num-ratio-317, num-ratio-318, num-ratio-319
+
+[25 copies] - Stem: a government employee receives a monthly gross salary of # mandatory monthly deductions consist of # for gsis and # for philhealth# what is the employees net monthly takehome pay after these deductions
+  IDs: num-pct-300, num-pct-301, num-pct-302, num-pct-303, num-pct-304, num-pct-305, num-pct-306, num-pct-307, num-pct-308, num-pct-309, num-pct-310, num-pct-311, num-pct-312, num-pct-313, num-pct-314, num-pct-315, num-pct-316, num-pct-317, num-pct-318, num-pct-319, num-pct-320, num-pct-321, num-pct-322, num-pct-323, num-pct-324
+
+[25 copies] - Stem: a municipal hall bought office desks at # each and chairs at # each# the office ordered twice as many chairs as desks# if the total procurement invoice was # how many desks were purchased
+  IDs: num-word-300, num-word-301, num-word-302, num-word-303, num-word-304, num-word-305, num-word-306, num-word-307, num-word-308, num-word-309, num-word-310, num-word-311, num-word-312, num-word-313, num-word-314, num-word-315, num-word-316, num-word-317, num-word-318, num-word-319, num-word-320, num-word-321, num-word-322, num-word-323, num-word-324
+
+[25 copies] - Stem: a civil service applicant scored # # and # on three performance rating modules# what is the applicants average score
+  IDs: num-ops-300, num-ops-301, num-ops-302, num-ops-303, num-ops-304, num-ops-305, num-ops-306, num-ops-307, num-ops-308, num-ops-309, num-ops-310, num-ops-311, num-ops-312, num-ops-313, num-ops-314, num-ops-315, num-ops-316, num-ops-317, num-ops-318, num-ops-319, num-ops-320, num-ops-321, num-ops-322, num-ops-323, num-ops-324
+
+[35 copies] - Stem: select the sentence that maintains proper parallel structure in official administrative writing
+  IDs: ver-gram-300, ver-gram-301, ver-gram-302, ver-gram-303, ver-gram-304, ver-gram-305, ver-gram-306, ver-gram-307, ver-gram-308, ver-gram-309, ver-gram-310, ver-gram-311, ver-gram-312, ver-gram-313, ver-gram-314, ver-gram-315, ver-gram-316, ver-gram-317, ver-gram-318, ver-gram-319, ver-gram-320, ver-gram-321, ver-gram-322, ver-gram-323, ver-gram-324, ver-gram-325, ver-gram-326, ver-gram-327, ver-gram-328, ver-gram-329, ver-gram-330, ver-gram-331, ver-gram-332, ver-gram-333, ver-gram-334
+
+[6 copies] - Stem: choose the word closest in meaning to the underlined term the civil service reform act aims to enhance ubureaucracyu across all municipal offices#
+  IDs: ver-vocab-300, ver-vocab-305, ver-vocab-310, ver-vocab-315, ver-vocab-320, ver-vocab-325
+
+[6 copies] - Stem: choose the word closest in meaning to the underlined term the civil service reform act aims to enhance udecentralizationu across all municipal offices#
+  IDs: ver-vocab-301, ver-vocab-306, ver-vocab-311, ver-vocab-316, ver-vocab-321, ver-vocab-326
+
+[6 copies] - Stem: choose the word closest in meaning to the underlined term the civil service reform act aims to enhance utransparencyu across all municipal offices#
+  IDs: ver-vocab-302, ver-vocab-307, ver-vocab-312, ver-vocab-317, ver-vocab-322, ver-vocab-327
+
+[6 copies] - Stem: choose the word closest in meaning to the underlined term the civil service reform act aims to enhance uaccountabilityu across all municipal offices#
+  IDs: ver-vocab-303, ver-vocab-308, ver-vocab-313, ver-vocab-318, ver-vocab-323, ver-vocab-328
+
+[6 copies] - Stem: choose the word closest in meaning to the underlined term the civil service reform act aims to enhance ucomplianceu across all municipal offices#
+  IDs: ver-vocab-304, ver-vocab-309, ver-vocab-314, ver-vocab-319, ver-vocab-324, ver-vocab-329
+
+[30 copies] - Stem: read the passage executive order no# # mandates all national government agencies to digitize # of frontline public transactions by the end of fy # agencies failing to meet the digital transition deadline will face a # reduction in discretionary operating budgets# what is the consequence for agencies that fail to digitize by fy #
+  IDs: ver-read-300, ver-read-301, ver-read-302, ver-read-303, ver-read-304, ver-read-305, ver-read-306, ver-read-307, ver-read-308, ver-read-309, ver-read-310, ver-read-311, ver-read-312, ver-read-313, ver-read-314, ver-read-315, ver-read-316, ver-read-317, ver-read-318, ver-read-319, ver-read-320, ver-read-321, ver-read-322, ver-read-323, ver-read-324, ver-read-325, ver-read-326, ver-read-327, ver-read-328, ver-read-329
+
+[7 copies] - Stem: complete the analogy department secretary bureau ____
+  IDs: ver-vanal-300, ver-vanal-303, ver-vanal-306, ver-vanal-309, ver-vanal-312, ver-vanal-315, ver-vanal-318
+
+[7 copies] - Stem: complete the analogy province governor city ____
+  IDs: ver-vanal-301, ver-vanal-304, ver-vanal-307, ver-vanal-310, ver-vanal-313, ver-vanal-316, ver-vanal-319
+
+[6 copies] - Stem: complete the analogy barangay captain municipality ____
+  IDs: ver-vanal-302, ver-vanal-305, ver-vanal-308, ver-vanal-311, ver-vanal-314, ver-vanal-317
+
+[15 copies] - Stem: fill in the blank the new guidelines were issued pursuant __ section # of the administrative code#
+  IDs: ver-sent-300, ver-sent-301, ver-sent-302, ver-sent-303, ver-sent-304, ver-sent-305, ver-sent-306, ver-sent-307, ver-sent-308, ver-sent-309, ver-sent-310, ver-sent-311, ver-sent-312, ver-sent-313, ver-sent-314
+
+[30 copies] - Stem: rule all government employees who complete # years of continuous service receive a loyalty award# fact juan is a government employee# but he did not receive a loyalty award# which conclusion must be true
+  IDs: ana-log-300, ana-log-301, ana-log-302, ana-log-303, ana-log-304, ana-log-305, ana-log-306, ana-log-307, ana-log-308, ana-log-309, ana-log-310, ana-log-311, ana-log-312, ana-log-313, ana-log-314, ana-log-315, ana-log-316, ana-log-317, ana-log-318, ana-log-319, ana-log-320, ana-log-321, ana-log-322, ana-log-323, ana-log-324, ana-log-325, ana-log-326, ana-log-327, ana-log-328, ana-log-329
+
+[30 copies] - Stem: data municipal annual budget distribution total # million infrastructure # education # health # administration # how much money in pesos is allocated to infrastructure
+  IDs: ana-data-300, ana-data-301, ana-data-302, ana-data-303, ana-data-304, ana-data-305, ana-data-306, ana-data-307, ana-data-308, ana-data-309, ana-data-310, ana-data-311, ana-data-312, ana-data-313, ana-data-314, ana-data-315, ana-data-316, ana-data-317, ana-data-318, ana-data-319, ana-data-320, ana-data-321, ana-data-322, ana-data-323, ana-data-324, ana-data-325, ana-data-326, ana-data-327, ana-data-328, ana-data-329
+
+[20 copies] - Stem: matrix pattern rule across each row# the number of sides on the polygon increases by # triangle square pentagon# in row # square pentagon __
+  IDs: ana-pat-300, ana-pat-301, ana-pat-302, ana-pat-303, ana-pat-304, ana-pat-305, ana-pat-306, ana-pat-307, ana-pat-308, ana-pat-309, ana-pat-310, ana-pat-311, ana-pat-312, ana-pat-313, ana-pat-314, ana-pat-315, ana-pat-316, ana-pat-317, ana-pat-318, ana-pat-319
+
+[20 copies] - Stem: find the next item in the government personnel code series emp# emp# emp# emp# __
+  IDs: ana-seq-300, ana-seq-301, ana-seq-302, ana-seq-303, ana-seq-304, ana-seq-305, ana-seq-306, ana-seq-307, ana-seq-308, ana-seq-309, ana-seq-310, ana-seq-311, ana-seq-312, ana-seq-313, ana-seq-314, ana-seq-315, ana-seq-316, ana-seq-317, ana-seq-318, ana-seq-319
+
+[20 copies] - Stem: under government indexing rules# official government agencies are filed first by the sovereign name philippines# followed by department# then bureau# how should department of agriculture be formally indexed
+  IDs: cle-fil-300, cle-fil-301, cle-fil-302, cle-fil-303, cle-fil-304, cle-fil-305, cle-fil-306, cle-fil-307, cle-fil-308, cle-fil-309, cle-fil-310, cle-fil-311, cle-fil-312, cle-fil-313, cle-fil-314, cle-fil-315, cle-fil-316, cle-fil-317, cle-fil-318, cle-fil-319
+
+[20 copies] - Stem: verify the matching between region code and province code ncr#mnl record ncr#mln is there a mismatch
+  IDs: cle-code-300, cle-code-301, cle-code-302, cle-code-303, cle-code-304, cle-code-305, cle-code-306, cle-code-307, cle-code-308, cle-code-309, cle-code-310, cle-code-311, cle-code-312, cle-code-313, cle-code-314, cle-code-315, cle-code-316, cle-code-317, cle-code-318, cle-code-319
+
+[20 copies] - Stem: crossreference form a with form b form a name santos# maria clara form b name santos# maria clara form a tax id ### form b tax id ### is there a discrepancy between the records
+  IDs: cle-clops-300, cle-clops-301, cle-clops-302, cle-clops-303, cle-clops-304, cle-clops-305, cle-clops-306, cle-clops-307, cle-clops-308, cle-clops-309, cle-clops-310, cle-clops-311, cle-clops-312, cle-clops-313, cle-clops-314, cle-clops-315, cle-clops-316, cle-clops-317, cle-clops-318, cle-clops-319
+
+[15 copies] - Stem: a court stenographer typed # total words with # typing errors# what is the stenographers typing accuracy percentage
+  IDs: cle-type-300, cle-type-301, cle-type-302, cle-type-303, cle-type-304, cle-type-305, cle-type-306, cle-type-307, cle-type-308, cle-type-309, cle-type-310, cle-type-311, cle-type-312, cle-type-313, cle-type-314
+
+[20 copies] - Stem: under article iii# section # of the # philippine constitution# a search warrant or warrant of arrest can only be issued upon a finding of probable cause determined personally by
+  IDs: gen-const-300, gen-const-301, gen-const-302, gen-const-303, gen-const-304, gen-const-305, gen-const-306, gen-const-307, gen-const-308, gen-const-309, gen-const-310, gen-const-311, gen-const-312, gen-const-313, gen-const-314, gen-const-315, gen-const-316, gen-const-317, gen-const-318, gen-const-319
+
+[20 copies] - Stem: under civil service law and rules# an appointment made in favor of a relative within which degree of consanguinity or affinity is prohibited under nepotism rules
+  IDs: gen-ra6713-300, gen-ra6713-301, gen-ra6713-302, gen-ra6713-303, gen-ra6713-304, gen-ra6713-305, gen-ra6713-306, gen-ra6713-307, gen-ra6713-308, gen-ra6713-309, gen-ra6713-310, gen-ra6713-311, gen-ra6713-312, gen-ra6713-313, gen-ra6713-314, gen-ra6713-315, gen-ra6713-316, gen-ra6713-317, gen-ra6713-318, gen-ra6713-319
+
+[15 copies] - Stem: under ra # the ombudsman act of ## the office of the ombudsman has primary jurisdiction to investigate administrative offences committed by
+  IDs: gen-govt-300, gen-govt-301, gen-govt-302, gen-govt-303, gen-govt-304, gen-govt-305, gen-govt-306, gen-govt-307, gen-govt-308, gen-govt-309, gen-govt-310, gen-govt-311, gen-govt-312, gen-govt-313, gen-govt-314
+
+[10 copies] - Stem: under republic act no# # climate change act of ## who serves as the chairperson of the climate change commission ccc
+  IDs: gen-curenv-300, gen-curenv-301, gen-curenv-302, gen-curenv-303, gen-curenv-304, gen-curenv-305, gen-curenv-306, gen-curenv-307, gen-curenv-308, gen-curenv-309
+
+[10 copies] - Stem: article # of the universal declaration of human rights udhr declares that all human beings are born free and equal in#
+  IDs: gen-peace-300, gen-peace-301, gen-peace-302, gen-peace-303, gen-peace-304, gen-peace-305, gen-peace-306, gen-peace-307, gen-peace-308, gen-peace-309

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-200",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Transposition Error Detection Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Compare the Master Account Number with the Entry Record:\nMaster: 8945-3201-9874\nEntry:  8945-3021-9874\n\nIs there an error in the Entry Record?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, digits '2' and '0' are transposed (3021 vs 3201)."
+      },
+      {
+        "key": "B",
+        "text": "No, both entries match perfectly."
+      },
+      {
+        "key": "C",
+        "text": "Yes, the last 4 digits do not match."
+      },
+      {
+        "key": "D",
+        "text": "Yes, the first 4 digits do not match."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the first group",
+        "text": "Look at the first four digits of each number: '8945' in both. They are exactly the same, so no error there. Move on to the next group."
+      },
+      {
+        "rung": 2,
+        "title": "Now check the second group",
+        "text": "Compare '3201' (Master) with '3021' (Entry). These are different. The question is: what kind of difference is it? Are digits swapped, or is something else going on?"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the swap",
+        "text": "In the Master, the order is 3-2-0-1. In the Entry, it's 3-0-2-1. Notice how the '2' and '0' have traded places? That's a classic transposition error, where two adjacent digits get flipped."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the rest",
+        "text": "The last group '9874' is identical in both. So the only mistake is in the second group, and it's exactly the swap of '2' and '0'. You've found it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The digits '2' and '0' were swapped in the middle group: Master has '3201', Entry has '3021'. The other groups match perfectly, so this is the only error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option says there's no error, but the second group clearly differs. It's easy to miss a small swap like this when you're reading quickly, especially if you just glance at the numbers. The trick is to compare each group one at a time, digit by digit.",
+        "trap_type": "omitted_error_detection"
+      },
+      "C": {
+        "text": "This option points to the last group, but '9874' is the same in both records. The error is actually in the second group. A smart guess, but the wrong location.",
+        "trap_type": "false_location_error"
+      },
+      "D": {
+        "text": "This option points to the first group, but '8945' is identical in both. The error is in the second group. It's common to misplace where the difference lies when you're under time pressure.",
+        "trap_type": "false_location_error"
+      }
+    },
+    "next_time_rule": "The Group-and-Scan Method: Break long numbers into small chunks (like 4 digits each). Compare each chunk one at a time, left to right. If a chunk differs, look for swapped adjacent digits first—that's the most common clerical error.",
+    "deconstruct_text": "Let's walk through this together. We have two account numbers to compare. The best way to tackle this is to break them into smaller, manageable pieces. Think of it like checking a list of items—you wouldn't scan the whole thing at once.\n\nFirst, look at the first group: Master says '8945', Entry says '8945'. They match. No problem there.\n\nSecond group: Master says '3201', Entry says '3021'. These are different. Now, instead of panicking, let's see what changed. In the Master, the digits go 3, 2, 0, 1. In the Entry, they go 3, 0, 2, 1. The '2' and the '0' have swapped places. That's a transposition error—a very common mistake when someone types quickly.\n\nThird group: Master says '9874', Entry says '9874'. They match.\n\nSo the only error is in the second group, and it's a swap of '2' and '0'. Option A is the correct choice.\n\nHere's a mental trick for next time: When comparing long numbers, use your finger or a pen to guide your eyes. Go group by group, and if you find a mismatch, immediately check if it's a simple swap of two digits. That saves you from re-reading the whole thing.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-019",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct sentence with correct subject-verb agreement:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The quality of the reports are excellent."
+      },
+      {
+        "key": "B",
+        "text": "The quality of the reports is excellent."
+      },
+      {
+        "key": "C",
+        "text": "The quality of the reports were excellent."
+      },
+      {
+        "key": "D",
+        "text": "The quality of the reports have been excellent."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Real Subject",
+        "text": "Before you pick a verb, you need to find the actual subject of the sentence. It's the thing that is 'excellent' here. Is it the 'quality' or the 'reports'? Think about what the sentence is really describing."
+      },
+      {
+        "rung": 2,
+        "title": "The Prepositional Phrase Trick",
+        "text": "Here's a simple rule that will save you on many exam questions: when you see a phrase starting with 'of', 'in', 'on', 'at', 'for', 'with', or 'by', the noun inside that phrase is almost never the subject. The subject is always outside that phrase. So 'of the reports' is just extra information—the subject is 'quality'."
+      },
+      {
+        "rung": 3,
+        "title": "Match the Number",
+        "text": "Now that you know the subject is 'quality', ask yourself: is 'quality' singular or plural? Words like 'quality', 'information', 'advice', and 'knowledge' are uncountable and always singular. So the verb must be singular too. Look for singular verb forms like 'is', 'was', or 'has'."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the Plural Verbs",
+        "text": "Scan the options and cross out any verb that is plural: 'are', 'were', and 'have been' are all plural forms. Only one option uses a singular verb. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common trap. The word 'reports' is right next to the verb, so it's tempting to match them. But 'reports' is inside the phrase 'of the reports', which is just describing the quality. The real subject is 'quality', which is singular, so it needs the singular verb 'is', not 'are'.",
+        "trap_type": "subject_verb_error"
+      },
+      "B": {
+        "text": "Perfect. The subject 'quality' is singular, and the verb 'is' is singular. The phrase 'of the reports' is just extra information that doesn't change the agreement. You've correctly ignored the prepositional phrase and matched the subject with the right verb.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The verb 'were' is plural, but 'quality' is singular. Even if you were thinking of past tense, the correct singular form would be 'was'. But more importantly, the sentence is talking about a current state, so present tense 'is' is the right choice here.",
+        "trap_type": "subject_verb_error"
+      },
+      "D": {
+        "text": "The verb phrase 'have been' is plural, but 'quality' is singular. The correct singular form would be 'has been'. Also, the present perfect tense ('has been' or 'have been') isn't needed here because the sentence is simply describing the quality right now, not an action that started in the past.",
+        "trap_type": "subject_verb_error"
+      }
+    },
+    "next_time_rule": "When you see a noun followed by 'of' and another noun, mentally put parentheses around the 'of' phrase. The subject is always the noun before the 'of'. Ask yourself: 'What is excellent?' The answer is 'quality', not 'reports'. That simple question will guide you to the right verb every time.",
+    "blueprint_id": "Subject-Verb — Prepositional Phrase Intervening",
+    "deconstruct_text": "Let's walk through this together. The sentence is about something being excellent. What is excellent? The 'quality' of the reports. So 'quality' is the subject. Now, 'quality' is an uncountable noun—you can't have 'qualities' in this context—so it's always singular. That means the verb must be singular too. Look at the options: 'are' (A), 'is' (B), 'were' (C), and 'have been' (D). Only 'is' is singular and present tense, which matches the current state of the quality. The other options are all plural forms. The trick here is that 'reports' is plural and sits right before the verb, so your brain might want to match them. But remember: words like 'of', 'in', 'for', 'with', and 'by' introduce prepositional phrases that act like adjectives—they describe the subject but never change its number. So ignore 'of the reports' when deciding the verb. The mental shortcut is simple: cross out any prepositional phrase in your mind, then match the subject and verb. Here, crossing out 'of the reports' leaves you with 'The quality is excellent.' That's your answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

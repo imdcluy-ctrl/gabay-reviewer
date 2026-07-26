@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-029",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipality, the ratio of male to female employees is 7:5. If there are 20 more male employees than female employees, how many female employees are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "55"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Terms of Parts",
+        "text": "This is a ratio problem where the difference between the two groups is given. The ratio 7:5 means for every 7 male employees, there are 5 female employees. The key is to figure out how many employees each 'part' of the ratio represents."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Difference in Parts",
+        "text": "The difference in the ratio is 7 minus 5, which equals 2 parts. The problem tells us that this 2-part difference corresponds to 20 actual employees. So, if 2 parts equal 20, what does 1 part equal?"
+      },
+      {
+        "rung": 3,
+        "title": "Calculate the Value of One Part",
+        "text": "If 2 parts = 20 employees, then 1 part = 20 divided by 2, which is 10 employees. Now that you know the value of a single part, you can find the number of female employees by multiplying their ratio share by this value."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for Female Employees",
+        "text": "Female employees correspond to 5 parts in the ratio. Since 1 part equals 10 employees, the number of female employees is 5 times 10, which equals 50. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "40. This is a common trap. You might have mistakenly thought that the difference of 20 employees directly applies to the female share, so you set 5 parts equal to 20. That gives 1 part as 4, and 5 parts as 20? No, that doesn't work. The correct approach is to use the difference in ratio parts (2 parts) to find the value of 1 part, not the female share directly.",
+        "trap_type": "ratio_part_misassignment"
+      },
+      "B": {
+        "text": "45. This answer doesn't come from a clean logical path. It might be a simple arithmetic slip, like accidentally subtracting 5 from the correct answer of 50, or miscomputing 5 times 9. The correct calculation gives a nice round number because the ratio parts divide evenly into the difference.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "50. Correct. The difference in ratio parts is 2 (7 minus 5), which equals the actual difference of 20 employees. So 1 part equals 10 employees. Female employees are 5 parts, so 5 times 10 equals 50.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "55. This might come from correctly finding that 1 part equals 10, but then adding an extra 5 to the female share (5 times 10 plus 5). Or perhaps you misread the ratio as 7:5.5. Stick to the method: find the value of 1 part from the difference, then multiply by the correct ratio number.",
+        "trap_type": "extra_addition_error"
+      }
+    },
+    "next_time_rule": "When a ratio and a difference are given, always find the value of one ratio part by dividing the actual difference by the difference in ratio parts. Then multiply by the part you need.",
+    "blueprint_id": "Ratio — Finding from Difference",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. Think of the ratio 7:5 as saying 'for every 7 male employees, there are 5 female employees.' The difference in their numbers is 20, and that difference comes from the 2 extra parts the males have (7 parts minus 5 parts). So, if 2 parts equal 20 employees, then 1 part must be 10 employees. Now, female employees get 5 of these parts, so 5 times 10 gives you 50. The mental trick here is to always focus on the 'gap' in the ratio—that's your key to unlocking the value of a single part. Once you have that, the rest is simple multiplication.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

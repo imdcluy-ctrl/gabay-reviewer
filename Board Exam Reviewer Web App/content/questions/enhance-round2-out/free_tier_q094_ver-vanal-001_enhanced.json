@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-001",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "LAWYER is to COURT as CIVIL SERVANT is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Office"
+      },
+      {
+        "key": "B",
+        "text": "Agency"
+      },
+      {
+        "key": "C",
+        "text": "Courtroom"
+      },
+      {
+        "key": "D",
+        "text": "Judge"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Core Connection",
+        "text": "Think about the relationship between the first pair: a lawyer and a court. What kind of link are they sharing? Is it a person and their tool, their workplace, or something else?"
+      },
+      {
+        "rung": 2,
+        "title": "Name the Relationship",
+        "text": "That's right, a lawyer works in a court. So the relationship is 'professional to their specific workplace.' Now, what is the specific workplace for a civil servant? Not just any place, but the official term for where they serve the public."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option Against the Rule",
+        "text": "Let's check each choice. 'Office' is a place, but is it the specific workplace for a civil servant? 'Courtroom' is a place, but is it where a civil servant works? 'Judge' is a person, not a place. Only one option fits the 'specific workplace' rule perfectly."
+      },
+      {
+        "rung": 4,
+        "title": "Narrowing It Down",
+        "text": "A civil servant's workplace is a government 'agency.' An 'office' is too broad—many people work in offices. A 'courtroom' is only for legal professionals. A 'judge' is a person, breaking the workplace pattern. So the answer must be the one that matches 'court' in specificity."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very understandable mistake. 'Office' feels right because many civil servants do work in an office. But the trap here is that 'office' is too general. A lawyer could also work in an office, but the analogy pairs them with 'court'—a very specific type of workplace. For a civil servant, the specific term is 'agency,' not just any office.",
+        "trap_type": "too_general"
+      },
+      "B": {
+        "text": "Exactly right. The relationship is 'professional to their specific workplace.' A lawyer's specific workplace is a court, and a civil servant's specific workplace is a government agency. It's a perfect parallel.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a clever trap. You might think, 'A courtroom is a place where a lawyer works, so I need a specific place for a civil servant.' But a courtroom is actually a part of a court, and it's only for lawyers and judges. A civil servant doesn't work in a courtroom. The analogy needs the general workplace, not a sub-location.",
+        "trap_type": "false_parallel"
+      },
+      "D": {
+        "text": "This one mixes up categories. A judge is a person, not a place. The first pair linked a person (lawyer) to a place (court). To keep the relationship the same, the second pair must also link a person (civil servant) to a place. Choosing another person breaks the pattern.",
+        "trap_type": "category_error_person_vs_place"
+      }
+    },
+    "next_time_rule": "In analogies, first name the relationship (e.g., person-to-workplace, tool-to-user). Then, find the answer that keeps that exact relationship, not one that's too broad, too narrow, or from a different category.",
+    "blueprint_id": "Workplace Associations",
+    "deconstruct_text": "Let's break this down. The first pair is 'LAWYER is to COURT.' Ask yourself: what is the connection? A lawyer works in a court. So it's a 'professional to their specific workplace' relationship.\n\nNow, apply that exact same relationship to 'CIVIL SERVANT.' A civil servant works in a... what? The most accurate and specific term is a government 'agency.'\n\nLet's see why the other options don't fit:\n- 'Office' is too broad. A lawyer could have an office, but we don't say 'lawyer is to office.' We say 'lawyer is to court.' So we need the specific workplace for a civil servant.\n- 'Courtroom' is too narrow. It's a specific part of a court, not the general workplace. Plus, civil servants don't work there.\n- 'Judge' is a person. That changes the relationship from person-to-place to person-to-person, which breaks the pattern.\n\nSo the answer is 'Agency.'\n\nHere's a mental trick for next time: When you see an analogy, think of it as a formula. If A is to B, then C is to D. The relationship between A and B must be identical to the relationship between C and D. If you can name that relationship in a simple sentence (like 'works in'), you're halfway there.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,106 @@
+.error-breakdown-card {
+  background: var(--color-bg-card, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.breakdown-header {
+  margin-bottom: 1.25rem;
+}
+
+.breakdown-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0 0 0.25rem 0;
+}
+
+.breakdown-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0;
+}
+
+.breakdown-tags-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tag-breakdown-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-md, 8px);
+  background: var(--color-bg-secondary, #f8fafc);
+  border: 1px solid var(--color-border, #e2e8f0);
+}
+
+.tag-label-col {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.tag-emoji {
+  font-size: 1.1rem;
+}
+
+.tag-title-en {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-text-primary, #0f172a);
+}
+
+.tag-title-tl {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary, #64748b);
+}
+
+.tag-bar-col {
+  flex-grow: 1;
+}
+
+.bar-track {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: var(--radius-full, 9999px);
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: var(--color-brand-teal, #0d7377);
+  border-radius: var(--radius-full, 9999px);
+  transition: width 0.3s ease;
+}
+
+.tag-stat-col {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 110px;
+  justify-content: flex-end;
+}
+
+.count-badge {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary, #64748b);
+  background: #e2e8f0;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.pct-val {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-brand-teal, #0d7377);
+}

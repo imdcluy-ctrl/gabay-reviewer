@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-004",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "What public document must all public officials and employees file under oath upon assumption of office and on or before April 30 of every year thereafter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement of Assets, Liabilities, and Net Worth (SALN)"
+      },
+      {
+        "key": "B",
+        "text": "Personal Data Sheet (PDS)"
+      },
+      {
+        "key": "C",
+        "text": "Individual Performance Commitment and Review (IPCR)"
+      },
+      {
+        "key": "D",
+        "text": "Certificate of Eligibility"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about financial transparency",
+        "text": "This question targets a key anti-corruption measure. Think of the document that lists your assets, liabilities, and net worth."
+      },
+      {
+        "rung": 2,
+        "title": "Look for the annual deadline",
+        "text": "The clue is 'every year by April 30.' Only one document has this fixed, recurring deadline."
+      },
+      {
+        "rung": 3,
+        "title": "Remember the acronym",
+        "text": "This four-letter acronym starts with S and ends with N. It summarizes your financial status under oath."
+      },
+      {
+        "rung": 4,
+        "title": "Match the description exactly",
+        "text": "Only SALN requires oath, assumption filing, and yearly update. Others have different timelines or purposes."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. RA 6713 Sec. 8 requires SALN under oath upon assumption and by April 30 yearly to promote transparency.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because PDS is a familiar HR form, but it's not an annual sworn financial disclosure.",
+        "trap_type": "form_confusion"
+      },
+      "C": {
+        "text": "You might have chosen C because IPCR is an official document, but it measures work performance, not wealth.",
+        "trap_type": "form_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because a certificate sounds like proof, but it's a one-time document, not filed every year.",
+        "trap_type": "document_confusion"
+      }
+    },
+    "next_time_rule": "Key signal: 'under oath' and 'April 30' point directly to SALN—no other form has that combination.",
+    "blueprint_id": "RA 6713 Section 8 — Disclosure of Assets and Liabilities (SALN)",
+    "deconstruct_text": "Picture this: You're a newly elected Barangay Kagawad. On your first day in office, you must submit a sworn statement of all your ari-arian (assets) and utang (liabilities). That's the SALN under RA 6713 Section 8.\n\nThen every year, on or before April 30, you update it. Kahit maraming trabaho o may paputok sa fiesta, dapat i-file yan! The SALN is your sworn financial report, required para maiwasan ang corruption.\n\nNow, bakit hindi PDS? The Personal Data Sheet is just a basic info form—walang oath, walang annual deadline. Ang IPCR? Performance review 'yan, hindi naka-focus sa pera.\n\nCertificate of Eligibility? One-time proof lang ng exam, hindi annual. So 'pag nakita mo 'under oath' at 'April 30,' SALN agad ang isagot mo.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

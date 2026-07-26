@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-002",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'Republic Act No. 9003, also known as the Ecological Solid Waste Management Act, mandates the establishment of Materials Recovery Facilities (MRFs) in every barangay. The law aims to reduce waste through segregation, recycling, and composting.' What is the purpose of RA 9003?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To build more landfills"
+      },
+      {
+        "key": "B",
+        "text": "To reduce waste through proper management"
+      },
+      {
+        "key": "C",
+        "text": "To ban all plastic use"
+      },
+      {
+        "key": "D",
+        "text": "To fine littering offenders"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a reading comprehension question. The answer is sitting right there in the passage. You just need to find the sentence that tells you the law's goal."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "When a passage says 'aims to' or 'purpose is,' whatever follows is the main goal. That's your target. Ignore any extra details like methods or examples."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the passage again. It says 'The law aims to reduce waste through segregation, recycling, and composting.' The key part is 'reduce waste.' Now check which option matches that."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Option B says 'to reduce waste through proper management.' That's almost word-for-word what the passage says. The other options talk about landfills, banning plastic, or fines—none of which are mentioned as the law's purpose."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you think about waste management in general, but the passage is clear: the law wants to reduce waste, not create more places to dump it. Building landfills is the opposite of what RA 9003 is trying to do.",
+        "trap_type": "opposite_of_purpose"
+      },
+      "B": {
+        "text": "This is correct. The passage directly states that the law 'aims to reduce waste through segregation, recycling, and composting.' Proper management covers all those methods, so this option perfectly captures the purpose.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have picked this because you associate environmental laws with banning plastic, but the passage never mentions banning anything. It's about managing waste, not prohibiting specific materials. Always stick to what the text actually says.",
+        "trap_type": "unmentioned_detail"
+      },
+      "D": {
+        "text": "Fines and penalties are common in many laws, but they aren't mentioned here. The passage focuses on establishing MRFs and reducing waste, not punishing litterers. Don't add information that isn't in the text.",
+        "trap_type": "unmentioned_detail"
+      }
+    },
+    "next_time_rule": "When asked for the purpose of a law or policy, scan for signal phrases like 'aims to,' 'purpose is,' or 'goal is.' Whatever follows is your answer. Ignore methods, examples, or unrelated details.",
+    "blueprint_id": "Supporting Details — RA 9003",
+    "deconstruct_text": "Here's how to crack this one quickly. First, find the sentence that tells you the law's purpose. In the passage, it's right there: 'The law aims to reduce waste through segregation, recycling, and composting.' The phrase 'aims to' is your clue—it signals the main goal. Now, look at the options. Option A talks about building more landfills, which is the opposite of reducing waste. Option C mentions banning plastic, but the passage doesn't say anything about that. Option D brings up fines for littering, which also isn't in the text. Only Option B matches the stated purpose: 'to reduce waste through proper management.' The trick here is to focus on the purpose, not the methods or unrelated ideas. Under exam pressure, your instinct might be to overthink, but the answer is literally in the passage. Train yourself to spot those signal phrases and trust what you read.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

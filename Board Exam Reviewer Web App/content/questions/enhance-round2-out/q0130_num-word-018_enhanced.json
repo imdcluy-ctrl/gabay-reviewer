@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-018",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A rectangle's length is twice its width. The perimeter is 54 meters. What is the width?",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isulat ang variables",
+        "text": "Let w = width, so length = 2w."
+      },
+      {
+        "rung": 2,
+        "title": "Gamitin ang perimeter formula",
+        "text": "P = 2(L + W) = 2(2w + w) = 2(3w) = 6w."
+      },
+      {
+        "rung": 3,
+        "title": "I-set sa given 54",
+        "text": "6w = 54. Divide both sides by 6: w = 9."
+      },
+      {
+        "rung": 4,
+        "title": "Final answer",
+        "text": "Width = 9 meters. I-check: 2(9+18)=54, tama!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because after solving w=9, you mistakenly subtracted 2, getting 7.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because off by one, nagbawas ng 1 after solving w=9.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct. w=9, so length=18 and perimeter=2(9+18)=54.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because after w=9, you added 1, thinking you needed to round up.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "Rectangle perimeter: P=2(l+w). I-substitute l in terms of w, then solve P=2(2w+w)=6w. Pag nakuha na w, yun na mismo ang sagot. Huwag mag-add/subtract pa.",
+    "blueprint_id": "Rectangle Perimeter Problem",
+    "deconstruct_text": "Sa barangay garden ni Aling Nena, ang length ay twice the width. Perimeter ng garden ay 54 meters. Let width = w, length = 2w. Gamitin ang formula P=2(l+w)=2(2w+w)=2(3w)=6w. Set 6w=54, so w=9.\n\nI-check: kung width=9, length=18, perimeter talaga 2(9+18)=54. Tama! Kadalasan ang mali sa distractor ay nag-add o subtract after makuha ang w, o maling operation sa pagsolve ng equation. Always trust the algebra.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vanal-302",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Institutional Head Analogy 3",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Barangay : Captain :: Municipality : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mayor"
+      },
+      {
+        "key": "B",
+        "text": "Clerk"
+      },
+      {
+        "key": "C",
+        "text": "Senator"
+      },
+      {
+        "key": "D",
+        "text": "Treasurer"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship Type",
+        "text": "The analogy pairs a local government unit with its highest executive official. Barangay is the smallest administrative division; its head is the Barangay Captain."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Equivalent for Municipality",
+        "text": "A Municipality is a larger local government unit. Think of its chief executive—the official elected to lead the municipal government."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Non-Executive Roles",
+        "text": "Clerk, Senator, and Treasurer are not the executive heads of a municipality. The Senator represents a province or district, not a municipality."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Correct Match",
+        "text": "The executive head of a Municipality is the Mayor, just as the Captain heads a Barangay. Select Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The Barangay Captain is the executive head of a Barangay, and the Mayor is the executive head of a Municipality. Both are the highest elected officials in their respective local government units.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A Clerk is an administrative staff member, not the executive head. This distractor confuses a support role with a leadership position. The analogy requires the head official, not a subordinate.",
+        "trap_type": "role_level_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Senator is a national legislator, not a local executive. This distractor confuses the legislative branch with the executive branch. The analogy is about executive heads of local government units.",
+        "trap_type": "branch_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Treasurer is a financial officer, not the executive head. This distractor picks a specific function rather than the overall leadership role. The analogy requires the general executive, not a department head.",
+        "trap_type": "function_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In local government analogies, identify the unit's highest executive official: Barangay → Captain, Municipality → Mayor, Province → Governor, City → Mayor.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Understand the Analogy Structure**\nThe given pair is \"Barangay : Captain.\" A Barangay is a local government unit, and its head is the Barangay Captain. The relationship is: **Local Government Unit → Its Executive Head**.\n\n**Step 2: Apply the Same Relationship**\nThe second pair is \"Municipality : __?__.\" A Municipality is also a local government unit. Its executive head is the **Mayor**.\n\n**Step 3: Verify with the Options**\n- **Mayor (A):** Correct, as the executive head.\n- **Clerk (B):** Administrative role, not head.\n- **Senator (C):** National legislator, not local executive.\n- **Treasurer (D):** Financial officer, not head.\n\n**Step 4: Conclusion**\nOnly Option A fits the relationship correctly.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-300",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Official Workplace Prepositions 1",
+    "difficulty_level": 2,
+    "question_text": "Fill in the blank: 'The new guidelines were issued pursuant __ Section 4 of the Administrative Code.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recognize the Legal Term",
+        "text": "The word 'pursuant' is a formal legal term that always pairs with a specific preposition. Think of common legal phrases like 'pursuant to the law' or 'pursuant to the contract.'"
+      },
+      {
+        "rung": 2,
+        "title": "Recall the Fixed Collocation",
+        "text": "In legal and official English, 'pursuant' is always followed by 'to.' The phrase 'pursuant to' means 'in accordance with' or 'under the authority of.'"
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Say each option aloud: 'pursuant to Section 4' sounds correct; 'pursuant with,' 'pursuant for,' and 'pursuant by' are ungrammatical and never used in formal writing."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Preposition",
+        "text": "Option A ('to') is the only preposition that forms the correct legal collocation. Select Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Pursuant to' is a fixed legal phrase meaning 'in accordance with' or 'under the authority of.' It is the only preposition that correctly completes this formal expression.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Pursuant with' is not a standard English collocation. The preposition 'with' might be confused with 'in accordance with,' but 'pursuant' specifically requires 'to.' This error likely comes from mixing up similar phrases.",
+        "trap_type": "collocation_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Pursuant for' is ungrammatical. The preposition 'for' indicates purpose or benefit, which does not fit the legal context of 'pursuant.' This error may arise from guessing a common preposition without knowing the fixed phrase.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "Incorrect. 'Pursuant by' is ungrammatical. 'By' indicates agency or means, which is not the correct relationship. This error may come from confusing 'pursuant' with 'pursued by' or similar phrases.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Memorize common legal collocations: 'pursuant TO,' 'in accordance WITH,' 'by virtue OF.' The preposition is fixed and non-negotiable in formal writing.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the Key Word**\nThe blank follows the word 'pursuant.' In legal and formal English, 'pursuant' is almost always paired with the preposition 'to' to form the phrase 'pursuant to,' meaning 'in accordance with' or 'under the authority of.'\n\n**Step 2: Apply the Rule**\nThe sentence requires the phrase 'pursuant to Section 4 of the Administrative Code,' which means 'under the authority of Section 4.'\n\n**Step 3: Evaluate Each Option**\n- **A (to):** Correct collocation.\n- **B (with):** Incorrect; 'pursuant with' is not used.\n- **C (for):** Incorrect; 'pursuant for' is not used.\n- **D (by):** Incorrect; 'pursuant by' is not used.\n\n**Step 4: Conclusion**\nOnly Option A forms the correct legal phrase.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-300",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Workplace Compliance Conditional Logic Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Rule: 'All government employees who complete 10 years of continuous service receive a Loyalty Award.'\nFact: 'Juan is a government employee, but he did NOT receive a Loyalty Award.'\n\nWhich conclusion MUST be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan has not completed 10 years of continuous service."
+      },
+      {
+        "key": "B",
+        "text": "Juan was dishonorably discharged."
+      },
+      {
+        "key": "C",
+        "text": "Juan completed 12 years of service."
+      },
+      {
+        "key": "D",
+        "text": "Juan is an elective official."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Logical Structure",
+        "text": "The rule is a conditional statement: 'If a government employee completes 10 years of continuous service (P), then they receive a Loyalty Award (Q).' This is written as P → Q."
+      },
+      {
+        "rung": 2,
+        "title": "Apply the Given Fact",
+        "text": "The fact states: Juan did NOT receive a Loyalty Award. This is the negation of Q (~Q). In logic, if P → Q is true and Q is false, then P must be false. This is called Modus Tollens."
+      },
+      {
+        "rung": 3,
+        "title": "Deduce the Necessary Conclusion",
+        "text": "Since Juan did not receive the award (~Q), he cannot have completed 10 years of continuous service (~P). This is the only conclusion that must be true based on the given rule and fact."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Matching Option",
+        "text": "Option A states 'Juan has not completed 10 years of continuous service,' which matches ~P. Select Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is a valid Modus Tollens deduction: If P → Q (10 years → award) and ~Q (no award), then ~P (not 10 years) must be true. No other conclusion is logically forced.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The rule does not mention dishonorable discharge or any other reason for not receiving the award. This is an unsupported speculation that goes beyond the given information.",
+        "trap_type": "unsupported_speculation"
+      },
+      "C": {
+        "text": "Incorrect. If Juan completed 12 years, he would have completed 10 years and thus should have received the award. This directly contradicts the fact that he did not receive it. This option violates the rule.",
+        "trap_type": "rule_contradiction"
+      },
+      "D": {
+        "text": "Incorrect. The rule applies to 'all government employees,' with no exception for elective officials. Assuming Juan is an elective official is an unsupported speculation that does not follow from the given facts.",
+        "trap_type": "unsupported_speculation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For conditional logic, use Modus Tollens: If P → Q is true and Q is false, then P must be false. Do not add extra assumptions not given in the premises.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Translate the Rule into Logic**\nLet P = 'completes 10 years of continuous service.'\nLet Q = 'receives a Loyalty Award.'\nThe rule states: P → Q (If P, then Q).\n\n**Step 2: Translate the Fact**\nThe fact states: Juan did NOT receive a Loyalty Award. This is ~Q.\n\n**Step 3: Apply Modus Tollens**\nModus Tollens: If P → Q is true and ~Q is true, then ~P must be true.\nTherefore, Juan has NOT completed 10 years of continuous service (~P).\n\n**Step 4: Evaluate Options**\n- **A:** ~P — Correct deduction.\n- **B:** Unsupported; no information about discharge.\n- **C:** Contradicts ~P; if 12 years, then P true, but ~P is deduced.\n- **D:** Unsupported; no exception for elective officials.\n\n**Step 5: Conclusion**\nOnly Option A must be true.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-data-300",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Municipal Sector Pie Chart Budget Share Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Data: Municipal Annual Budget Distribution (Total: ₱50 Million):\nInfrastructure: 40%\nEducation: 30%\nHealth: 20%\nAdministration: 10%\n\nHow much money in Pesos is allocated to Infrastructure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱20 Million"
+      },
+      {
+        "key": "B",
+        "text": "₱15 Million"
+      },
+      {
+        "key": "C",
+        "text": "₱10 Million"
+      },
+      {
+        "key": "D",
+        "text": "₱25 Million"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Percentage for Infrastructure",
+        "text": "From the data, Infrastructure receives 40% of the total budget. Note the percentage carefully—it is 40%, not 30% or 20%."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Total Budget",
+        "text": "The total municipal budget is ₱50 Million. This is the base amount you will multiply by the percentage."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up the Calculation",
+        "text": "To find the amount, multiply the total budget by the percentage expressed as a decimal: ₱50,000,000 × 0.40."
+      },
+      {
+        "rung": 4,
+        "title": "Perform the Multiplication",
+        "text": "₱50,000,000 × 0.40 = ₱20,000,000, which is ₱20 Million. Select Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Infrastructure's share is 40% of ₱50 Million. 40% = 0.40, so ₱50,000,000 × 0.40 = ₱20,000,000. This is the exact amount allocated to Infrastructure.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. ₱15 Million would be 30% of ₱50 Million (₱50M × 0.30 = ₱15M). This is the allocation for Education, not Infrastructure. The student likely used the wrong percentage (30% instead of 40%).",
+        "trap_type": "wrong_percentage_used"
+      },
+      "C": {
+        "text": "Incorrect. ₱10 Million would be 20% of ₱50 Million (₱50M × 0.20 = ₱10M). This is the allocation for Health, not Infrastructure. The student likely confused the percentages.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "D": {
+        "text": "Incorrect. ₱25 Million would be 50% of ₱50 Million (₱50M × 0.50 = ₱25M). This is not any of the given percentages. The student may have added 40% and 10% incorrectly or miscomputed the multiplication.",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find a percentage of a total: Amount = Total × (Percentage / 100). Always double-check which percentage corresponds to the sector asked.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the Required Data**\nThe question asks for the Infrastructure allocation. From the data, Infrastructure = 40% of the total budget.\n\n**Step 2: Identify the Total Budget**\nTotal Budget = ₱50 Million.\n\n**Step 3: Convert Percentage to Decimal**\n40% = 40/100 = 0.40.\n\n**Step 4: Calculate the Amount**\nInfrastructure Amount = ₱50,000,000 × 0.40 = ₱20,000,000.\n\n**Step 5: Express in Millions**\n₱20,000,000 = ₱20 Million.\n\n**Step 6: Verify Against Options**\n- **A:** ₱20 Million — Correct.\n- **B:** ₱15 Million — 30% (Education).\n- **C:** ₱10 Million — 20% (Health).\n- **D:** ₱25 Million — 50% (not in data).\n\n**Conclusion:** Option A is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-pat-300",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Matrix Shape Transformation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Matrix Pattern Rule: Across each row, the number of sides on the polygon increases by +1 (Triangle → Square → Pentagon). In Row 2: Square → Pentagon → __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hexagon (6 sides)"
+      },
+      {
+        "key": "B",
+        "text": "Square (4 sides)"
+      },
+      {
+        "key": "C",
+        "text": "Octagon (8 sides)"
+      },
+      {
+        "key": "D",
+        "text": "Triangle (3 sides)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Count the Sides of the First Two Shapes",
+        "text": "In Row 2, the first shape is a Square (4 sides) and the second is a Pentagon (5 sides). Notice the pattern: the number of sides increases by 1 each step."
+      },
+      {
+        "rung": 2,
+        "title": "Apply the Pattern to Find the Next Shape",
+        "text": "Since the pattern is +1 side per step, the third shape should have 5 + 1 = 6 sides."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Polygon with 6 Sides",
+        "text": "A polygon with 6 sides is called a Hexagon. The options include Hexagon (6 sides), Square (4 sides), Octagon (8 sides), and Triangle (3 sides)."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Option",
+        "text": "Option A is Hexagon (6 sides), which matches the required 6-sided polygon. Select Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The pattern increases the number of sides by 1 each step: Square (4) → Pentagon (5) → Hexagon (6). Option A is the only shape with 6 sides.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A Square has 4 sides, which would mean no increase from the first shape. The pattern requires an increase of +1 each step, so repeating the Square violates the rule.",
+        "trap_type": "repetition_error"
+      },
+      "C": {
+        "text": "Incorrect. An Octagon has 8 sides, which is an increase of +3 from the Pentagon (5 to 8). The pattern requires a +1 increase, not +3. This error might come from misapplying a different pattern.",
+        "trap_type": "step_increment_error"
+      },
+      "D": {
+        "text": "Incorrect. A Triangle has 3 sides, which is a decrease from the Square (4) and Pentagon (5). The pattern requires an increase, not a decrease. This error might come from reversing the pattern direction.",
+        "trap_type": "direction_reversal_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In matrix pattern problems, track the change in a property (like side count) step by step. Look for consistent increments or decrements across rows or columns.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Understand the Given Pattern**\nThe rule states: Across each row, the number of sides increases by +1. Example: Triangle (3) → Square (4) → Pentagon (5).\n\n**Step 2: Apply to Row 2**\nRow 2 starts with Square (4 sides) → Pentagon (5 sides). The next shape must have 5 + 1 = 6 sides.\n\n**Step 3: Identify the Polygon**\nA 6-sided polygon is a Hexagon.\n\n**Step 4: Evaluate Options**\n- **A:** Hexagon (6 sides) — Correct.\n- **B:** Square (4 sides) — No increase.\n- **C:** Octagon (8 sides) — Increase of +3.\n- **D:** Triangle (3 sides) — Decrease.\n\n**Step 5: Conclusion**\nOnly Option A follows the +1 pattern.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-seq-300",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Alphanumeric Personnel Code Progression Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Find the next item in the government personnel code series: EMP-010, EMP-020, EMP-040, EMP-080, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "EMP-160"
+      },
+      {
+        "key": "B",
+        "text": "EMP-100"
+      },
+      {
+        "key": "C",
+        "text": "EMP-120"
+      },
+      {
+        "key": "D",
+        "text": "EMP-090"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Examine Prefix",
+        "text": "The prefix 'EMP-' stays the same in all terms, so focus only on the numeric part."
+      },
+      {
+        "rung": 2,
+        "title": "Examine Number Sequence",
+        "text": "The numbers are: 10, 20, 40, 80. Look for a pattern — is it adding a constant or multiplying?"
+      },
+      {
+        "rung": 3,
+        "title": "Identify Geometric Doubling Rule",
+        "text": "Each number is multiplied by 2 to get the next: 10×2=20, 20×2=40, 40×2=80."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Next Number",
+        "text": "Apply the same rule: 80 × 2 = 160. So the next code is EMP-160."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The sequence doubles each time: 10 → 20 → 40 → 80 → 160. So EMP-160 is the next term.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "EMP-100 comes from adding 20 to 80 (80+20=100), but the pattern is multiplication by 2, not addition of a constant.",
+        "trap_type": "linear_constant_fallacy"
+      },
+      "C": {
+        "text": "EMP-120 might come from adding 40 to 80 (80+40=120), but the pattern is doubling, not adding an increasing amount.",
+        "trap_type": "linear_constant_fallacy"
+      },
+      "D": {
+        "text": "EMP-090 might come from adding 10 to 80 (80+10=90), but the pattern is doubling, not adding the first term.",
+        "trap_type": "linear_constant_fallacy"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In alphanumeric sequences, isolate the numeric part and check if it follows a geometric progression (multiplying by a constant) rather than an arithmetic one (adding a constant).",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The prefix 'EMP-' is constant, so we only need to analyze the numeric part: 10, 20, 40, 80.\n2. Determine the pattern: 10 × 2 = 20, 20 × 2 = 40, 40 × 2 = 80. This is a geometric sequence with a common ratio of 2.\n3. Apply the pattern to find the next term: 80 × 2 = 160.\n4. Combine with the prefix: EMP-160.\n\n### ❌ Why the Distractors Fail\n- **EMP-100**: Assumes a constant addition of +20, but the pattern is multiplication.\n- **EMP-120**: Assumes adding +40, which is inconsistent with the doubling pattern.\n- **EMP-090**: Assumes adding +10, which is the first difference but not the rule.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-300",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Government Agency Filing Rule Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under government indexing rules, official government agencies are filed first by the sovereign name 'Philippines', followed by department, then bureau. How should 'Department of Agriculture' be formally indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Philippines, Agriculture (Department of)"
+      },
+      {
+        "key": "B",
+        "text": "Department of Agriculture, Philippines"
+      },
+      {
+        "key": "C",
+        "text": "Agriculture Department, Philippines"
+      },
+      {
+        "key": "D",
+        "text": "Philippines, Department of Agriculture"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Country Name Unit",
+        "text": "The first indexing unit is always the sovereign name 'Philippines' — this is the top-level filing category."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Key Department Name",
+        "text": "The second unit is the distinctive keyword that identifies the department — here, 'Agriculture' is the key term."
+      },
+      {
+        "rung": 3,
+        "title": "Transpose Generic Words",
+        "text": "Generic words like 'Department of' are not filed as-is; they are moved to the end in parentheses to keep the filing order by distinctive name."
+      },
+      {
+        "rung": 4,
+        "title": "Select Formal Indexing",
+        "text": "Combine: 'Philippines' (country), 'Agriculture' (distinctive), '(Department of)' (generic). Result: 'Philippines, Agriculture (Department of)'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The standard government indexing order is: Country Name → Distinctive Subject Name → (Generic Title). So 'Philippines, Agriculture (Department of)' is correct.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option omits the country prefix 'Philippines' at the start, which is required as the first indexing unit for government agencies.",
+        "trap_type": "country_prefix_omission"
+      },
+      "C": {
+        "text": "This option places 'Agriculture Department' before 'Philippines', but the country name must come first. Also, 'Department' is not properly transposed to parentheses.",
+        "trap_type": "improper_transposition"
+      },
+      "D": {
+        "text": "This option keeps 'Department of Agriculture' intact without transposing the generic words, violating the rule that 'Department of' should be moved to the end in parentheses.",
+        "trap_type": "untransposed_generic_word_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Government agency indexing: Country Name → Distinctive Keyword → (Generic Words). Example: 'Philippines, Health (Department of)'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the three components: country name ('Philippines'), distinctive keyword ('Agriculture'), and generic words ('Department of').\n2. Apply the government indexing rule: first unit is the sovereign name, second unit is the distinctive keyword, third unit is the generic words in parentheses.\n3. Arrange: 'Philippines, Agriculture (Department of)'.\n\n### ❌ Why the Distractors Fail\n- **Department of Agriculture, Philippines**: The country name is placed last, but it should be first.\n- **Agriculture Department, Philippines**: The distinctive keyword is first, but the country name should be first, and 'Department' is not in parentheses.\n- **Philippines, Department of Agriculture**: The generic words 'Department of' are not transposed to the end.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-code-300",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Municipal Code Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Verify the matching between Region Code and Province:\nCode: NCR-039-MNL\nRecord: NCR-039-MLN\n\nIs there a mismatch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, 'MNL' vs 'MLN' (Letter transposition error)"
+      },
+      {
+        "key": "B",
+        "text": "No, both codes match perfectly"
+      },
+      {
+        "key": "C",
+        "text": "Yes, number 039 is incorrect"
+      },
+      {
+        "key": "D",
+        "text": "Yes, NCR prefix is incorrect"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Scan Block 1",
+        "text": "Compare the first block: Code has 'NCR', Record has 'NCR' — they match exactly."
+      },
+      {
+        "rung": 2,
+        "title": "Scan Block 2",
+        "text": "Compare the second block: Code has '039', Record has '039' — they match exactly."
+      },
+      {
+        "rung": 3,
+        "title": "Scan Block 3",
+        "text": "Compare the third block: Code has 'MNL', Record has 'MLN' — the letters N and L are swapped, so there is a mismatch."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "The mismatch is a letter transposition in the last block, which matches Option A's description."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The third block shows 'MNL' vs 'MLN', which is a letter transposition error (N and L swapped).",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option claims no mismatch, but the third block clearly differs (MNL vs MLN), so an error exists.",
+        "trap_type": "omitted_error_detection"
+      },
+      "C": {
+        "text": "The number '039' is identical in both codes, so there is no error in the second block.",
+        "trap_type": "false_location_error"
+      },
+      "D": {
+        "text": "The prefix 'NCR' is identical in both codes, so there is no error in the first block.",
+        "trap_type": "false_location_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When verifying alphanumeric codes, check each block sequentially and pay special attention to letter order — transpositions are common errors.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Break the code and record into blocks: Block 1 (NCR), Block 2 (039), Block 3 (MNL/MLN).\n2. Compare each block:\n   - Block 1: NCR vs NCR → match.\n   - Block 2: 039 vs 039 → match.\n   - Block 3: MNL vs MLN → mismatch (letters N and L are transposed).\n3. The mismatch is a letter transposition error in the third block, so Option A is correct.\n\n### ❌ Why the Distractors Fail\n- **No mismatch**: Overlooks the transposition in the third block.\n- **Number 039 incorrect**: The number is identical, so no error there.\n- **NCR prefix incorrect**: The prefix is identical, so no error there.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-clops-300",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Record Cross-Matching Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Cross-reference Form A with Form B:\nForm A Name: Santos, Maria Clara\nForm B Name: Santos, Maria Clara\nForm A Tax ID: 123-456-789\nForm B Tax ID: 123-456-798\n\nIs there a discrepancy between the records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, Tax ID numbers do not match (789 vs 798)."
+      },
+      {
+        "key": "B",
+        "text": "No, both forms are completely identical."
+      },
+      {
+        "key": "C",
+        "text": "Yes, the names do not match."
+      },
+      {
+        "key": "D",
+        "text": "Yes, Form B is missing."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Check Name Fields",
+        "text": "Compare the names: Form A says 'Santos, Maria Clara' and Form B says 'Santos, Maria Clara' — they match exactly."
+      },
+      {
+        "rung": 2,
+        "title": "Check Tax ID Fields",
+        "text": "Compare the Tax IDs: Form A has '123-456-789', Form B has '123-456-798' — the last two digits are swapped (89 vs 98)."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Transposition",
+        "text": "The last two digits of the Tax ID are transposed: 789 vs 798. This is a discrepancy."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A correctly identifies the Tax ID mismatch (789 vs 798)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The Tax ID numbers differ in the last two digits: 789 vs 798, which is a transposition error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option claims no discrepancy, but the Tax IDs are different (789 vs 798), so there is a mismatch.",
+        "trap_type": "omitted_error_detection"
+      },
+      "C": {
+        "text": "The names are identical ('Santos, Maria Clara'), so there is no name mismatch.",
+        "trap_type": "false_location_error"
+      },
+      "D": {
+        "text": "Form B is present and has data, so it is not missing. This is a false statement.",
+        "trap_type": "false_statement_distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When cross-matching records, compare each field individually. Numerical fields like Tax IDs are prone to transposition errors — check digit by digit.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Compare the name fields: Form A 'Santos, Maria Clara' = Form B 'Santos, Maria Clara' → match.\n2. Compare the Tax ID fields: Form A '123-456-789' vs Form B '123-456-798' → the last two digits are transposed (89 vs 98).\n3. Since the Tax IDs do not match, there is a discrepancy.\n4. Option A correctly identifies the mismatch.\n\n### ❌ Why the Distractors Fail\n- **No discrepancy**: Ignores the Tax ID difference.\n- **Names do not match**: The names are identical, so this is incorrect.\n- **Form B is missing**: Form B is present and filled, so this is false.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-type-300",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Typing Accuracy Percentage Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A court stenographer typed 400 total words with 8 typing errors. What is the stenographer's typing ACCURACY percentage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "98%"
+      },
+      {
+        "key": "B",
+        "text": "2%"
+      },
+      {
+        "key": "C",
+        "text": "93%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Correct Words Typed",
+        "text": "First, calculate the number of correctly typed words: Total words minus errors = 400 - 8 = 392 correct words."
+      },
+      {
+        "rung": 2,
+        "title": "Form Accuracy Ratio",
+        "text": "Accuracy is the ratio of correct words to total words: 392 / 400."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Percentage",
+        "text": "Convert the ratio to a percentage: (392 / 400) × 100 = 98%."
+      },
+      {
+        "rung": 4,
+        "title": "Select Result",
+        "text": "The accuracy is 98%, which corresponds to Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Accuracy = (Total words - Errors) / Total words × 100 = (400 - 8) / 400 × 100 = 392/400 × 100 = 98%.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "2% is the error rate (8/400 × 100 = 2%), not the accuracy. Accuracy = 100% - error rate = 98%.",
+        "trap_type": "error_vs_accuracy_confusion"
+      },
+      "C": {
+        "text": "93% might come from incorrectly calculating (400-8)/400 as 93% due to an arithmetic mistake (e.g., 392/400 = 0.93? No, it's 0.98).",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "100% would mean no errors, but there are 8 errors, so accuracy cannot be 100%.",
+        "trap_type": "omitted_error_step"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Typing Accuracy % = [(Total Words - Errors) / Total Words] × 100. Don't confuse accuracy with error rate.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Determine the number of correctly typed words: 400 total words - 8 errors = 392 correct words.\n2. Calculate accuracy as a percentage: (Correct words / Total words) × 100 = (392 / 400) × 100.\n3. Simplify: 392 ÷ 400 = 0.98, then 0.98 × 100 = 98%.\n4. Therefore, the accuracy is 98%.\n\n### ❌ Why the Distractors Fail\n- **2%**: This is the error rate (8/400 = 2%), not the accuracy.\n- **93%**: Likely an arithmetic error, e.g., miscalculating 392/400 as 0.93.\n- **100%**: Ignores the 8 errors, assuming perfect accuracy.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

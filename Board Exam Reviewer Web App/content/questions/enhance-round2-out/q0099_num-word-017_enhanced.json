@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-017",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Ana and Maria have P2,500. Ana has P300 more than Maria. How much does Maria have?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,100"
+      },
+      {
+        "key": "C",
+        "text": "P1,200"
+      },
+      {
+        "key": "D",
+        "text": "P1,400"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Let Maria=x",
+        "text": "Let Maria's amount be x. Since Ana has P300 more, Ana's amount = x + 300."
+      },
+      {
+        "rung": 2,
+        "title": "Total",
+        "text": "Together they have P2,500: x + (x + 300) = 2,500. Combine: 2x + 300 = 2,500."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Subtract 300 from both sides: 2x = 2,200. Divide by 2: x = 1,100."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "So Maria has P1,100. Check: Ana has 1,100+300=1,400, total 1,100+1,400=2,500. Correct!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you subtracted 300 from P2,500 and divided by 2 incorrectly, getting P1,000.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. Maria has P1,100, Ana has P1,400, total P2,500.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you added the P300 difference to the total before dividing, getting P1,200.",
+        "trap_type": "reverse_operation_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you solved for Ana's amount by adding then dividing, giving P1,400.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "**Next Time Rule:** Itabi si Maria bilang x. Total = x + (x + diff). Bawasan ang total ng diff, then ÷2 para makuha si x.",
+    "blueprint_id": "Money Distribution",
+    "deconstruct_text": "Magkaibigan sina Ana at Maria. Nag-ambag sila para sa kanilang grupo sa Barangay Health Workers. Ang total nilang ipon ay P2,500. Pero sabi ni Ana, 'Akin ang mas maraming P300.' Paano malalaman ang kay Maria?\n\nI-set si Maria = x. So Ana = x+300. Equation: 2x+300=2,500. Solve: (2,500–300)÷2 = 1,100. Mental trick: 'Bawasan ang total ng difference, saka hatiin sa dalawa, para makuha ang mas maliit.'\n\n**Watch-Out Zone: reverse_operation_error** – Pag-add ng diff sa total ay pera ni Ana, ...\n\nDouble-check: 1,100 (Maria) + 1,400 (Ana) = 2,500. Sakto! Kaya ang tamang sagot ay B – P1,100.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

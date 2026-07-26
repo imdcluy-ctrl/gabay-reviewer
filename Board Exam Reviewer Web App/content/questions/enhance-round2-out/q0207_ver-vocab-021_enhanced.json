@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ver-vocab-021",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'MANDATE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Request"
+      },
+      {
+        "key": "B",
+        "text": "Suggestion"
+      },
+      {
+        "key": "C",
+        "text": "Official order"
+      },
+      {
+        "key": "D",
+        "text": "Opinion"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Timbangin ang bigat ng salita",
+        "text": "Pag sinabing 'mandate,' parang utos ba ito ng barangay captain o suggestion lang ng kaibigan? Alin ang mas mabigat pakinggan?"
+      },
+      {
+        "rung": 2,
+        "title": "Authority check!",
+        "text": "Isipin mo: may 'mandate' ang COMELEC tuwing eleksyon. Pwede mo bang sabihing 'Suggest ko lang po'? Hindi, di ba? Kailangang sundin."
+      },
+      {
+        "rung": 3,
+        "title": "Courtroom scenario",
+        "text": "Kung judge ang nag-issue ng mandate, ituturing mo bang request lang? Syempre hindi. Ito'y opisyal na kautusan, may parusa pag di sinunod."
+      },
+      {
+        "rung": 4,
+        "title": "Kaboom! The binding word",
+        "text": "Kaya sa apat, alin ang may puwersang tulad ng mandate? Official order, tama! Hindi request, suggestion, o opinion. Panalo!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought mandate is just a stronger word for request, but it's actually an official order.",
+        "trap_type": "semantic_shift_trap",
+        "watch_out_zone": "**Watch-Out Zone: semantic_shift_trap** in action. Mandate is often misused as a casual suggestion, but it’s an official command."
+      },
+      "B": {
+        "text": "You might have chosen B because you confused a suggestion with a command, but mandate carries binding authority.",
+        "trap_type": "semantic_shift_trap",
+        "watch_out_zone": "**Watch-Out Zone: semantic_shift_trap** in action. Mandate is often misused as a casual suggestion, but it’s an official command."
+      },
+      "C": {
+        "text": "Correct. Mandate means an official order from an authority, not a mere suggestion or opinion.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you saw mandate as a personal stance, but it's an authoritative directive.",
+        "trap_type": "semantic_shift_trap",
+        "watch_out_zone": "**Watch-Out Zone: semantic_shift_trap** in action. Mandate is often misused as a casual suggestion, but it’s an official command."
+      }
+    },
+    "next_time_rule": "Pag narinig ang 'mandate,' alalahanin: utos ito, hindi pakiusap. Kung may awtoridad at kelangan sundin, yun na yun!",
+    "blueprint_id": "Vocabulary — Mandate",
+    "deconstruct_text": "Isipin mo, umorder ang mayor ng mandatory na pagsusuot ng face mask sa bayan. Yun ay isang mandate—utos na may bisa, hindi lang suggestion sa bulletin board. Pag hindi ka sumunod, may penalty. Yung 'request' o 'suggestion' walang ganung pwersa.\n\nSa exam, makikita mo ang 'mandate' bilang opisyal na kautusan, tulad ng Travel Authority mula sa DILG, o Executive Order. Ang 'request,' 'suggestion,' at 'opinion' ay maninipis na salita—walang ngipin. Sa huli, ang mandate lang ang may backing ng gobyerno.\n\nMental Trick: M-A-N-D = May Authority 'Na Dapat sundin. Pag may awtoridad at dapat sundin, mandate 'yan. Parang si Kap, nag-utos, walang palag! Tandaan mo 'yan para ma-slash ang mga distractor.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

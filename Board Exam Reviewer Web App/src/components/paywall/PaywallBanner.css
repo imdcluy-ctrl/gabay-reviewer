@@ -1,0 +1,39 @@
+.paywall-banner-card {
+  border-left: 4px solid var(--primary-500);
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-raised) 100%);
+  margin: var(--spacing-4) 0;
+  cursor: pointer;
+}
+
+.paywall-banner-content {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+  padding: var(--spacing-2);
+}
+
+.paywall-icon {
+  font-size: 2rem;
+}
+
+.paywall-text {
+  flex: 1;
+}
+
+.paywall-text h3 {
+  margin: 0 0 var(--spacing-1) 0;
+  color: var(--primary-500);
+}
+
+.paywall-text p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 600px) {
+  .paywall-banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

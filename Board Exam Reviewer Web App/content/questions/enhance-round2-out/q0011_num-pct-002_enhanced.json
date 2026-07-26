@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-002",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A LGU cooperative deposited ₱50,000 in a government savings account earning 6% simple annual interest. How much total interest will the account earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱3,000"
+      },
+      {
+        "key": "B",
+        "text": "₱6,000"
+      },
+      {
+        "key": "C",
+        "text": "₱9,000"
+      },
+      {
+        "key": "D",
+        "text": "₱59,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ba talaga ang simple interest?",
+        "text": "Simple interest = parehas na tubo taon-taon, base lang sa original deposit. Walang compounding. So ang tanong ay: magkano tubo kada taon, at ilang ..."
+      },
+      {
+        "rung": 2,
+        "title": "Formula na dapat tandaan",
+        "text": "Interest = Principal × Rate × Time. Principal = unang halaga, Rate = percent as decimal (6% = 0.06), Time = years. I-plug in lang."
+      },
+      {
+        "rung": 3,
+        "title": "Unahin ang pag-convert ng percent",
+        "text": "Bago multiply, gawing decimal ang percent: 6% = 0.06. Kung 6 ang ginamit, x100 ang sagot. Kaya always: × 0.06."
+      },
+      {
+        "rung": 4,
+        "title": "Tapusin na ang calculation",
+        "text": "50,000 × 0.06 = 3,000 (1 taon). × 3 taon = 9,000. Ito ang total interest, walang halong principal."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you stopped at one year's interest. Multiply yearly by 3.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you used 2 years instead of 3. Check the time given.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct. You computed 6% of 50k for each year and multiplied by 3 years.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you added back the principal. The question asks only for interest.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "For simple interest, always ask: 'Interes lang ba o pati principal?' If interest only, use I = P × r × t. 'Pag total, i-add ang P.",
+    "blueprint_id": "Numerical Ability — Simple Interest Formula (I = P r t)",
+    "deconstruct_text": "Isipin mong nagdeposito ang barangay cooperative ng ₱50,000 sa Landbank, may 6% simple interest taon-taon. Ibig sabihin, parehas ang tubo kada taon.\n\nKunyin muna taunang interes: 6% × 50,000 = 0.06 × 50,000 = 3,000. Ito ang tubo sa isang taon. Para sa 3 taon, 3,000 × 3 = 9,000. Sagot: ₱9,000.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

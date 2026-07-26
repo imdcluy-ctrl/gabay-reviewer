@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-103",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — ADVERSE",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'Heavy rain had an __ effect on the road construction schedule.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "adverse"
+      },
+      {
+        "key": "B",
+        "text": "averse"
+      },
+      {
+        "key": "C",
+        "text": "adverseed"
+      },
+      {
+        "key": "D",
+        "text": "averses"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What kind of word do we need here?",
+        "text": "Look at the blank. It comes right before the noun 'effect.' So we're looking for an adjective—a describing word. The question is: which adjective fits the meaning of the sentence?"
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule for 'adverse' vs. 'averse'",
+        "text": "Here's a trick that will save you every time: 'Adverse' starts with 'ad' like 'add'—think 'add harm' to something. It describes conditions or effects that are harmful. 'Averse' starts with 'a' like 'avoid'—think of a person who wants to avoid something. It describes a person's feeling of dislike."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule to this sentence",
+        "text": "The sentence talks about 'heavy rain' having an effect on a schedule. Is the rain a person who dislikes something? No. Is the effect harmful or unfavorable? Yes. So which word fits—the one that means 'harmful' or the one that means 'disliking'?"
+      },
+      {
+        "rung": 4,
+        "title": "You're almost there",
+        "text": "The word you need means 'harmful' or 'unfavorable.' That's 'adverse.' The other options are either the wrong word ('averse' means disliking, used for people) or not real words at all. You've got this."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Adverse' is the adjective meaning harmful or unfavorable. It perfectly describes the negative impact heavy rain had on the construction schedule. Think of it as 'add harm' to the project.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mix-up. 'Averse' also starts with 'a,' but it describes a person's feeling of strong dislike or opposition, like being 'averse to risk' or 'averse to change.' Here, we're talking about an external effect of rain, not a person's feelings. The trap is that both words sound similar, but they point in completely different directions—one outward (adverse conditions), one inward (averse feelings).",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "'Adverseed' isn't a real word. It looks like someone tried to turn 'adverse' into a past-tense verb by adding '-ed,' but 'adverse' is already an adjective—it doesn't need any suffix. The correct adjective form is simply 'adverse.'",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Averses' isn't a standard English word either. It seems like a mistaken attempt to pluralize 'averse,' but 'averse' is an adjective, not a noun, so it doesn't have a plural form. The trap here is thinking that adding an 's' makes it correct, but adjectives don't work that way.",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "Quick memory trick: 'Adverse' = 'add harm' (for conditions and effects). 'Averse' = 'avoid' (for a person's feelings). When you see a blank describing an effect or situation, reach for 'adverse.' When describing someone's attitude, use 'averse.'",
+    "deconstruct_text": "Let me walk you through how to crack this one calmly and confidently. First, look at the sentence structure: 'Heavy rain had an ___ effect.' The blank sits right before the noun 'effect,' so we need an adjective—a word that describes what kind of effect it was. Now, let's check each option. Option A is 'adverse,' which means harmful or unfavorable. That fits perfectly—heavy rain would certainly have a harmful effect on a construction schedule. Option B is 'averse,' which means having a strong dislike. But here's the key: 'averse' describes a person's feeling, not an external condition. You'd say 'I am averse to working in the rain,' not 'the rain had an averse effect.' Options C and D aren't real words at all—'adverseed' tries to add a verb ending to an adjective, and 'averses' tries to pluralize an adjective, which doesn't work in English. So only Option A makes sense. The mental framework here is simple: ask yourself, 'Is this describing a harmful condition or a person's dislike?' If it's a condition, pick 'adverse.' If it's a person's feeling, pick 'averse.' That split-second check will save you every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

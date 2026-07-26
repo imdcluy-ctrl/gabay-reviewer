@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-001",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that adheres to standard Civil Service English grammar rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided to postpone the administrative hearing."
+      },
+      {
+        "key": "B",
+        "text": "Neither the supervisor nor the employees was aware of the memo."
+      },
+      {
+        "key": "C",
+        "text": "Neither the supervisor nor the employees were aware of the memo."
+      },
+      {
+        "key": "D",
+        "text": "The list of approved applicants were posted on the bulletin board."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Real Subject",
+        "text": "In each sentence, ask yourself: who or what is actually doing the action? Look past any extra words or phrases that might distract you."
+      },
+      {
+        "rung": 2,
+        "title": "The Proximity Rule for Pairs",
+        "text": "When you see 'neither...nor' or 'either...or', there's a simple trick: the verb should match the subject that's closest to it. Don't worry about the first one."
+      },
+      {
+        "rung": 3,
+        "title": "Test the Closest Subject",
+        "text": "In sentences B and C, the closest subject to the verb is 'employees' (plural). So the verb should be plural too. Which one uses 'were' instead of 'was'?"
+      },
+      {
+        "rung": 4,
+        "title": "Spot the Singular Impostors",
+        "text": "Now check the other sentences. In A, 'committee' is a single group. In D, 'list' is singular, even though it's followed by 'of applicants'. Only one sentence gets both rules right."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to think of a committee as many people, but in grammar, it's a single unit. Think of it as one body making one decision. So it needs 'has decided', not 'have decided'.",
+        "trap_type": "collective_noun_error"
+      },
+      "B": {
+        "text": "This one almost works, but it stumbles on the proximity rule. Since 'employees' (plural) is closer to the verb than 'supervisor' (singular), the verb should be 'were', not 'was'. The ear might want 'was' because it's simpler, but the rule says otherwise.",
+        "trap_type": "proximity_agreement_error"
+      },
+      "C": {
+        "text": "Perfect. The verb 'were' correctly matches the nearer plural subject 'employees'. This is the clean application of the proximity rule for 'neither...nor'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Here's a classic trap: 'applicants' is plural and it's right next to the verb, so it's tempting to use 'were'. But the real subject is 'list' (singular). The phrase 'of approved applicants' is just extra description. The verb should be 'was posted'.",
+        "trap_type": "prepositional_phrase_intervening"
+      }
+    },
+    "next_time_rule": "With 'neither/nor' or 'either/or', ignore the first subject and match the verb to the one closest to it. Also, watch out for phrases that sneak between the real subject and the verb, like 'of the employees' or 'with the team'.",
+    "blueprint_id": "Subject-Verb Agreement — Proximity Rule with Neither/Nor",
+    "deconstruct_text": "Let's walk through each option like a detective. For A, the word 'committee' is a collective noun, meaning it represents a single group acting as one. So it needs a singular verb: 'has decided', not 'have decided'. For B and C, we apply the proximity rule for 'neither...nor'. The verb should agree with the subject closest to it. In both sentences, that's 'employees' (plural), so the verb must be 'were'. Option B uses 'was' (singular), which is wrong. Option C uses 'were', which is correct. For D, the subject is 'list', not 'applicants'. The phrase 'of approved applicants' is just a modifier. Since 'list' is singular, the verb should be 'was posted', not 'were posted'. So only C passes all checks. Here's a mental trick: when you see 'neither...nor' or 'either...or', imagine the verb only cares about the subject standing right next to it. The other subject is invisible for agreement purposes.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

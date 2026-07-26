@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-014",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 3/5 as a percentage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30%"
+      },
+      {
+        "key": "B",
+        "text": "35%"
+      },
+      {
+        "key": "C",
+        "text": "60%"
+      },
+      {
+        "key": "D",
+        "text": "65%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Fraction to Percent",
+        "text": "To convert a fraction to a percentage, multiply the fraction by 100%."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up the Multiplication",
+        "text": "Compute (3/5) × 100%. This is the same as (3 × 100%) / 5."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the Numerator",
+        "text": "3 × 100% = 300%. Now divide by 5: 300% ÷ 5 = 60%."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "So 3/5 = 60%. The correct choice is C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you multiplied 3/5 by 10% instead of 100%, landing on 30%.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "B": {
+        "text": "You might have chosen B because you misremembered 1/5 as 15% and mistakenly added to reach 35%, instead of 20% per 1/5.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. 3/5 equals 60% when multiplied by 100%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you added 5% to the correct 60%, or confused 3/5 with 13/20.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "To convert fraction to percent, multiply by 100%. For 3/5: (3×100)/5 = 60%. Remember: divide numerator by denominator, then × 100%.",
+    "blueprint_id": "Fraction to Percentage",
+    "deconstruct_text": "Sa barangay budget meeting, sinabi ni Kap na 3/5 ng pondo ay para sa health. Gusto mong malaman kung ilang porsyento yan. Madali lang 'yan, Ate/Kuya magtuturo.\n\nRule: fraction × 100% = percent. Kaya 3/5 × 100% = (3×100)/5 = 300/5 = 60%. Pwede ring decimal: 3 ÷ 5 = 0.6, then 0.6 × 100% = 60%.\n\nKung nakita mo ang 30%, malamang nag-multiply ka ng 10% sa halip na 100%. Common mistake yan. Kaya tandaan: multiply by 100% lagi.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

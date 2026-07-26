@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-404",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "During an election period, a local government employee, Ana, is asked by her superior to distribute campaign flyers for a candidate during office hours. According to RA 6713, what should Ana do to demonstrate 'political neutrality'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Distribute the flyers as instructed because it is a direct order from her superior."
+      },
+      {
+        "key": "B",
+        "text": "Refuse to distribute the flyers and report the incident to the Civil Service Commission."
+      },
+      {
+        "key": "C",
+        "text": "Distribute the flyers but only after office hours."
+      },
+      {
+        "key": "D",
+        "text": "Ignore the request and do nothing."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3013",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

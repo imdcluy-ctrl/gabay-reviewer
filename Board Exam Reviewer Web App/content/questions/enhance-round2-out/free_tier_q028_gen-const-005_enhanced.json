@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-005",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article II Section 1 of the 1987 Constitution, the Philippines is a democratic and republican State. Where does sovereignty reside?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sovereignty resides in the President of the Philippines."
+      },
+      {
+        "key": "B",
+        "text": "Sovereignty resides in the Supreme Court."
+      },
+      {
+        "key": "C",
+        "text": "Sovereignty resides in the people and all government authority emanates from them."
+      },
+      {
+        "key": "D",
+        "text": "Sovereignty resides in the Armed Forces of the Philippines."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your knowledge of a very specific line from the 1987 Constitution. Think about what the phrase 'democratic and republican State' implies about where power ultimately comes from."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "In a democratic and republican state, the ultimate source of authority is not any single person or institution. It's the collective body of citizens. The Constitution says this in one clear sentence."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Article II Section 1 explicitly states: 'Sovereignty resides in the people and all government authority emanates from them.' That means the President, the courts, and the military all get their power from the people, not the other way around."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Look for the option that directly quotes the constitutional text. It's the one that mentions both 'sovereignty resides in the people' and 'government authority emanates from them.' That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to think the President, as the head of state, holds sovereignty. But the President is an elected official who serves at the pleasure of the people. Sovereignty isn't something you hold because of your office; it's something the people inherently possess. The President's authority comes from them, not the other way around.",
+        "trap_type": "executive_overreach_error"
+      },
+      "B": {
+        "text": "The Supreme Court is powerful, but its role is to interpret laws, not to be the source of all political authority. Think of it this way: the Court can strike down a law, but it can't create a new government. That power belongs to the people. The Constitution is very clear on this.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "Correct. Article II Section 1 is beautifully straightforward: 'Sovereignty resides in the people and all government authority emanates from them.' This is the foundational principle of our democracy. Every election, every law, every government action traces its legitimacy back to this one idea.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "The Armed Forces are our protectors, but they are not the sovereign. In fact, the Constitution is careful to establish civilian authority over the military. Sovereignty is a civil, political concept rooted in the people's will, not in military power. Option D confuses the protector with the source.",
+        "trap_type": "military_supremacy_error"
+      }
+    },
+    "next_time_rule": "When you see 'sovereignty' in a Philippine Constitution question, your brain should immediately go to the people. The simple rule: sovereignty = the people. Always. Memorize the exact phrase from Article II Section 1: 'Sovereignty resides in the people and all government authority emanates from them.'",
+    "blueprint_id": "1987 Philippine Constitution — Article II Section 1 Sovereignty of the People",
+    "deconstruct_text": "The question asks where sovereignty resides, and it gives you the exact location: Article II Section 1. So your first move is to recall that specific provision. The Constitution says the Philippines is a democratic and republican State. What does that mean in practice? It means the people are the boss. Not the President, not the Supreme Court, not the military. The people. The exact text is: 'Sovereignty resides in the people and all government authority emanates from them.' That's it. That's the whole answer. Option C is a direct quote. The other options all point to institutions that exercise power, but none of them are the source of that power. The President, the Court, and the Armed Forces all derive their authority from the people. So when you see a question like this, don't overthink it. Go straight to the source: the people. The mental trick here is to remember that in a democracy, power flows upward from the citizens, not downward from the government.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

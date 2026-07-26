@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-471",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "A citizen, Mr. Lim, submitted a request for a business permit to the local government. After 20 days, he has not received any response. Under RA 6713, what is the obligation of the government office regarding Mr. Lim's request?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The office must act on the request within 15 working days from receipt, and failure to do so may be considered a violation of the Code."
+      },
+      {
+        "key": "B",
+        "text": "The office has 30 days to respond because business permits are complex documents."
+      },
+      {
+        "key": "C",
+        "text": "The office may ignore the request if it is incomplete, without any obligation to inform Mr. Lim."
+      },
+      {
+        "key": "D",
+        "text": "The office must respond only if Mr. Lim follows up with a formal complaint."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3090",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

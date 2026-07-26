@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-018",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FINGERPRINT is to IDENTITY as SIGNATURE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Consent"
+      },
+      {
+        "key": "B",
+        "text": "Document"
+      },
+      {
+        "key": "C",
+        "text": "Approval"
+      },
+      {
+        "key": "D",
+        "text": "Pen"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ang Ugnayan ng Mark at Kahulugan",
+        "text": "Isipin mo: fingerprint ay mark na nagpapatunay ng identity mo. Signature, anong abstract na konsepto ang pinatutunayan nito?"
+      },
+      {
+        "rung": 2,
+        "title": "Anong Ipinapahiwatig ng Signature?",
+        "text": "Ang signature ay hindi lang pirma sa papel. Sa legal, ito ay patunay ng iyong pagsang-ayon o consent sa nilalaman ng dokumento."
+      },
+      {
+        "rung": 3,
+        "title": "Tamang Sagot",
+        "text": "Kaya ang tamang sagot ay 'Consent' dahil tulad ng fingerprint sa identity, signature ay sa consent."
+      },
+      {
+        "rung": 4,
+        "title": "Buong Analohiya",
+        "text": "Kumpletuhin: FINGERPRINT : IDENTITY :: SIGNATURE : CONSENT. Parehong relasyon ng mark sa kahulugan."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. A signature formally indicates consent, especially on legal documents.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen Document because it is where a signature appears, not what it signifies.",
+        "trap_type": "location_confusion"
+      },
+      "C": {
+        "text": "You might have chosen Approval because it feels similar to consent, but signature formally indicates consent, not just approval.",
+        "trap_type": "partial_synonym_error"
+      },
+      "D": {
+        "text": "You might have chosen Pen because it's the tool used to sign, but the analogy is about the meaning of the mark, not the tool.",
+        "trap_type": "tool_confusion"
+      }
+    },
+    "next_time_rule": "Sa marker-meaning analogies, tandaan: Ang fingerprint ay identity, ang signature ay consent. Pag may nakita kang mark, hanapin kung anong abstract idea ang katumbas nito.",
+    "blueprint_id": "Identifier-Meaning",
+    "deconstruct_text": "Sa palengke ng Batangas, nag-iisyu ng resibo si Aling Nena—kapag pinirmahan mo, ibig sabihin pumapayag ka (consent) sa presyo. Tulad ng fingerprint mo sa LTO driver’s license na nagpapatunay ng identity mo. Ganito ang marker-meaning na relasyon sa analogy.\n\nAng analogy na FINGERPRINT : IDENTITY ay nagpapakita na ang isang natatanging mark (fingerprint) ay kumakatawan sa abstract na konsepto ng identity. Sa parehong paraan, ang SIGNATURE ay isang natatanging mark na kumakatawan sa CONSENT.\n\nHakbang: 1. Kilalanin ang relasyon: fingerprint -> identity. 2. I-apply sa signature: ito ay nagpapahiwatig ng consent, hindi lang basta approval—sa legal, ang signature ay patunay na sumasang-ayon ka sa dokumento. 3. Suriin ang options: 'Document' ay bagay, 'Approva...\n\nKaya mali ang iba: 'Document' ay kung saan nakalagay ang signature, hindi ang ibig sabihin. 'Approval' ay malapit pero informal; sa batas, consent ang tamang termino. 'Pen' ay gamit para lumikha ng mark, hindi ang kahulugan ng mark.\n\nMental Trick: 'Fingerprint? Identity ko yan! Signature? Consent ko yan!' Parang fingerprint sa clearance—patunay na ikaw ‘yan; signature sa kontrata—patunay na oo ka. Gamitin ito para hindi malito sa exam.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

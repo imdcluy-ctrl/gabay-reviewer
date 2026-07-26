@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-031",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that avoids a run-on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The exam is difficult I need to study more."
+      },
+      {
+        "key": "B",
+        "text": "The exam is difficult, I need to study more."
+      },
+      {
+        "key": "C",
+        "text": "The exam is difficult, so I need to study more."
+      },
+      {
+        "key": "D",
+        "text": "The exam is difficult I need to study."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Run-On Sentence",
+        "text": "A run-on happens when you smash two complete sentences together without the right glue. Think of it like two train cars that need a proper coupling, not just bumping into each other."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Clauses",
+        "text": "Each option has two complete thoughts: 'The exam is difficult' and 'I need to study more.' Both can stand alone as sentences. The question is how they're connected."
+      },
+      {
+        "rung": 3,
+        "title": "Correct Joining Methods",
+        "text": "To properly connect two complete sentences, you need either a comma plus a connecting word like 'so,' 'and,' or 'but' (these are called coordinating conjunctions), or you can use a semicolon. A comma alone won't cut it."
+      },
+      {
+        "rung": 4,
+        "title": "Check Each Option",
+        "text": "Look at each option. A and D have no punctuation at all between the two thoughts, which is a classic run-on. B has a comma but no connecting word, which is a comma splice. Only C uses a comma plus the word 'so,' which is the correct way to join them."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option has two complete sentences just sitting next to each other with no punctuation or connecting word. It reads like a rushed thought. A smart student might write this quickly without realizing they've created a fused sentence, but it's a run-on error.",
+        "trap_type": "run_on_error"
+      },
+      "B": {
+        "text": "This one uses a comma to separate the two thoughts, which is a common mistake called a comma splice. Many people think a comma is enough, but it's not. A comma is like a pause, not a connector. You need a word like 'so' after the comma to properly join the sentences.",
+        "trap_type": "comma_splice_error"
+      },
+      "C": {
+        "text": "This is correct. It uses a comma followed by the word 'so,' which is a coordinating conjunction. The word 'so' shows the relationship between the two ideas: the difficulty of the exam is the reason for needing to study more. This is the proper way to connect two complete sentences.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Like option A, this has two complete sentences with no punctuation or connecting word between them. It's another fused sentence. A student might choose this if they're in a hurry and don't notice the missing punctuation, but it's a run-on error.",
+        "trap_type": "run_on_error"
+      }
+    },
+    "next_time_rule": "When joining two complete sentences, remember the FANBOYS trick: For, And, Nor, But, Or, Yet, So. Use a comma plus one of these words. A comma alone is never enough.",
+    "blueprint_id": "Run-On Sentences",
+    "deconstruct_text": "Let's break this down in a way that sticks. Every option here contains two complete sentences: 'The exam is difficult' and 'I need to study more.' Both can stand alone, so they need to be joined properly.\n\nThink of it like connecting two train cars. You can't just let them bump into each other (that's a run-on, like options A and D). You also can't just put a tiny pause between them with a comma (that's a comma splice, like option B). You need a proper coupling device.\n\nIn grammar, that coupling device is either a comma plus a connecting word like 'so,' or a semicolon. Option C uses a comma plus 'so,' which works perfectly. The word 'so' also makes logical sense here because it shows cause and effect: the exam is difficult, therefore I need to study more.\n\nHere's a mental trick to remember: If both parts can stand alone as sentences, you need either a comma plus a FANBOYS word (For, And, Nor, But, Or, Yet, So) or a semicolon. Never just a comma, and never nothing at all.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

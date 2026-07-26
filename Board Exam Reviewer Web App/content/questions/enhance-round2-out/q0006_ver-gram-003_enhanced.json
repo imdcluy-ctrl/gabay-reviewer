@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-003",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that avoids a dangling modifier.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having completed the audit, the report was submitted to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "B",
+        "text": "Having completed the audit, the CPA submitted the report to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "C",
+        "text": "Walking into the office, the computer was left turned on overnight."
+      },
+      {
+        "key": "D",
+        "text": "While reviewing the documents, a syntax error was discovered by the clerk."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang -ing Phrase",
+        "text": "Alamin: ang '-ing' phrase sa simula ay may aksyon. Kailangan ng subject na gagawa nito."
+      },
+      {
+        "rung": 2,
+        "title": "Comma Test: Sino ang Kasunod?",
+        "text": "Pagkatapos ng comma, hanapin ang noun. Dapat siya yung gumagawa ng aksyon sa simula."
+      },
+      {
+        "rung": 3,
+        "title": "I-Test Bawat Option",
+        "text": "Option A: report? hindi nag-audit. C: computer? hindi naglalakad. D: error? hindi nagre-review. B lang: CPA ang nag-audit."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang Tama",
+        "text": "Ang tamang sagot: kung saan tugma ang subject sa aksyon. Gamitin ang trick: 'Sino gumawa?' S'ya dapat."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because it sounds formal, but 'Having completed the audit' needs a person, not a report.",
+        "trap_type": "dangling_modifier_trap"
+      },
+      "B": {
+        "text": "Correct. The CPA performs the action of completing the audit, so the modifier attaches logically.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you thought of the person walking, but the subject is 'the computer', which cannot walk.",
+        "trap_type": "dangling_modifier_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because you saw 'clerk', but the subject after comma is 'a syntax error', which cannot review.",
+        "trap_type": "dangling_modifier_trap"
+      }
+    },
+    "next_time_rule": "When you see an '-ing' phrase, ask 'Sino gumawa?' The noun after the comma must be the doer. If not, it's a dangling modifier.",
+    "blueprint_id": "Dangling Modifiers — Aligning Introductory Participle with Logical Subject",
+    "deconstruct_text": "Sa isang LGU audit, iniisip natin: 'Having completed the audit, the report was submitted.' Pero parang mali, diba? Kasi ang report hindi naman nag-audit. Dapat tao. Ito ang dangling modifier – mapanlinlang pero kayang solusyunan.\n\nMental Trick: 'Ang gumagawa, siya ang bida after comma.' Parang sa pila ng jeep: kung sino ang nagbayad ng pamasahe, siya ang uupo sa tabi ng driver. Kung hindi tugma, dangle yan.\n\n**Watch-Out Zone: dangling_modifier_error** in action. Report hindi nag-audit; tao dapat.\n\nSa options: A at C at D mali dahil report, computer, syntax error hindi sila gumagawa ng action sa simula. B lang ang tama: CPA ang nag-complete ng audit. Kaya tandaan: comma + subject na gumawa.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-004",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The employee was commended ___ her outstanding performance.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the verb",
+        "text": "The word 'commended' is a formal way of saying 'praised.' Now, how do we usually connect praise to the reason behind it? Think of a common phrase like 'praised for her hard work.'"
+      },
+      {
+        "rung": 2,
+        "title": "The reason rule",
+        "text": "When you want to state the reason someone is praised, the preposition 'for' is almost always the one that fits. It's like saying 'thank you for' something."
+      },
+      {
+        "rung": 3,
+        "title": "Test each option",
+        "text": "Try saying the sentence out loud with each option. 'Commended with' sounds like she was praised along with something else. 'Commended about' feels like a topic, not a reason. 'Commended on' is sometimes used, but it's less direct. Which one feels most natural for giving a reason?"
+      },
+      {
+        "rung": 4,
+        "title": "Narrow it down",
+        "text": "You're left with 'for' and maybe 'on.' But 'commended on' is more about a specific aspect (like 'commended on her punctuality'), while 'commended for' is the standard way to give the reason. The blank is asking for the reason—her outstanding performance—so 'for' is the clear winner."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Commended for' is the standard pairing when you want to say why someone was praised. It's like saying 'praised for'—the reason follows naturally. The employee was praised because of her outstanding performance, and 'for' makes that connection perfectly.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is a common slip. 'Commended with' might sound okay if you're thinking of being praised along with a reward (like 'commended with a certificate'), but here we need the reason, not an accompaniment. The sentence is about why she was commended, not what came with it.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "This might trip you up if you're thinking of 'talking about' something. But 'commended about' just isn't a natural English construction. 'About' is for topics of discussion, not reasons for praise. It would be like saying 'praised about'—it doesn't quite work.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "This is a tricky one because 'commended on' does appear sometimes, like 'commended on her dedication.' However, 'for' is the more precise and standard choice when you're stating the reason. Think of it this way: 'on' points to a specific area, while 'for' points to the cause. Here, the outstanding performance is the cause, so 'for' wins.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "When you see 'commended' (or 'praised'), ask yourself: 'Am I giving the reason or the area?' If it's the reason, use 'for.' If it's the area, 'on' might work, but 'for' is almost always safer. Remember the simple test: 'She was commended FOR a reason, not ON a reason.'",
+    "blueprint_id": "Prepositions — Commended For",
+    "deconstruct_text": "Let's walk through this together. The sentence is about an employee who was commended—that's a fancy word for praised—because of her outstanding performance. The blank is the bridge between the verb 'commended' and the reason. In English, certain verbs have favorite prepositions that just sound right. 'Commend' is one of them. Its go-to partner for stating a reason is 'for.' Think of it like this: if you were to say 'Thank you for your help,' you're using 'for' to link the thanks to the reason. Same idea here. Now, why might someone pick 'with'? Maybe they're thinking of being commended along with a bonus or award. But the sentence doesn't mention any accompaniment—it's purely about the reason. 'About' is a common trap because we often say 'talk about' or 'think about,' but 'commended about' just doesn't exist in natural English. And 'on'? That's the sneaky one. You might hear 'commended on her effort,' but notice that 'effort' is an area, not a reason. 'Outstanding performance' is the reason she was praised, so 'for' is the precise choice. Here's a mental trick to lock this in: whenever you see 'commended,' imagine a little arrow pointing to the reason. That arrow is always labeled 'for.' It's a simple rule that will save you time and second-guessing on exam day.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-421",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "A 15-year-old girl is recruited by a neighbor to work as a domestic helper in another city. The neighbor promises her family a monthly salary of ₱5,000, but upon arrival, the girl is forced to work without pay and is not allowed to leave the house. Which provision of RA 7610 (Special Protection of Children Against Abuse, Exploitation and Discrimination Act) is primarily violated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The prohibition against child labor, which sets the minimum age for employment at 18."
+      },
+      {
+        "key": "B",
+        "text": "The prohibition against child trafficking, which includes recruitment for forced labor and debt bondage."
+      },
+      {
+        "key": "C",
+        "text": "The prohibition against child abuse, which only covers physical harm."
+      },
+      {
+        "key": "D",
+        "text": "The prohibition against child prostitution, which involves sexual exploitation."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3403",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-407",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "A government office needs to file organizational names: 'Department of Health', 'Department of Education', 'Department of Agriculture'. What is the CORRECT alphabetical order?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Agriculture, Department of Education, Department of Health"
+      },
+      {
+        "key": "B",
+        "text": "Department of Education, Department of Agriculture, Department of Health"
+      },
+      {
+        "key": "C",
+        "text": "Department of Health, Department of Education, Department of Agriculture"
+      },
+      {
+        "key": "D",
+        "text": "Department of Agriculture, Department of Health, Department of Education"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about how you'd organize a stack of folders. When all the names start with the same words, you need to look deeper to find what makes each one unique."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The rule for filing multi-word organizational names: skip over common words like 'Department of' and file by the next meaningful word instead."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Since all three start with 'Department of', compare the words that come after: Agriculture, Education, and Health. Which one comes first in the alphabet?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "A comes before E, and E comes before H. So Agriculture is first, then Education, then Health. That gives you the correct order."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. All three names share the common opening 'Department of', so you ignore that and sort by the next word: Agriculture (A), Education (E), Health (H). That's exactly what this option does.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one puts Education before Agriculture. A smart mistake if you rushed and started comparing from the middle instead of the beginning. Remember: A comes before E in the alphabet, so Agriculture must come first.",
+        "trap_type": "second_word_misorder"
+      },
+      "C": {
+        "text": "This option has the order completely backwards, starting with Health. It's easy to accidentally reverse the order when you're under time pressure. Always double-check that you're going from A to Z, not Z to A.",
+        "trap_type": "reverse_order"
+      },
+      "D": {
+        "text": "This one gets Agriculture right at the start but then puts Health before Education. H comes after E in the alphabet, so Education should be second. It's a small slip that changes the whole filing order.",
+        "trap_type": "health_before_education"
+      }
+    },
+    "deconstruct_text": "When filing organizational names, the golden rule is to look for the first significant word that makes each name different. Here, all three names begin with 'Department of', so that common phrase is like a shared prefix that we skip over entirely. Now we're left with three key words: Agriculture, Education, and Health. Think of them as three books on a shelf. Agriculture starts with A, so it goes first. Education starts with E, so it goes second. Health starts with H, so it goes last. The correct order is Department of Agriculture, Department of Education, Department of Health. A quick mental trick: when you see a common starting phrase, imagine crossing it out with a mental pencil. Then file by whatever is left.",
+    "next_time_rule": "When filing organizational names, mentally cross out any common starting words like 'Department of' or 'Bureau of', then sort by the next significant word alphabetically.",
+    "blueprint_id": "B-2377",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-100",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article II — State Declaration of Principles and State Policies",
+    "difficulty_level": 2,
+    "question_text": "Under Article II of the 1987 Philippine Constitution, which principle guarantees that 'renunciation of war as an instrument of national policy'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "State Policy"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate the Right Part of the Constitution",
+        "text": "Article II is called 'Declaration of Principles and State Policies.' It's like the Constitution's mission statement—it sets the country's core values and directions, not the specific powers of any branch of government."
+      },
+      {
+        "rung": 2,
+        "title": "Remember the Simple Rule",
+        "text": "Whenever you see 'renunciation of war' in the Philippine Constitution, it's found in Article II, Section 2. That section is a classic example of a State Policy—a guiding principle for how the country should behave on the world stage."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule to This Question",
+        "text": "The question asks for the 'principle' that guarantees this renunciation. Think of it this way: a principle is a broad, foundational belief. An Executive Order is a specific command, Judicial Discretion is a court's judgment call, and a Legislative Franchise is a special business permit. Only 'State Policy' fits as a principle."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There—Connect the Dots",
+        "text": "Since Article II is all about State Policies, and Section 2 is the exact spot where the renunciation of war is declared, the principle that guarantees it must be 'State Policy.' The other options are all actions or privileges of specific branches, not principles."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article II, Section 2 of the 1987 Constitution explicitly declares that 'The Philippines renounces war as an instrument of national policy' as a State Policy. This principle is part of the Declaration of Principles and State Policies, which guides the conduct of the government. Think of it as the country's promise to prioritize peace.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. An Executive Order is a directive issued by the President to implement laws or policies. It's like a specific instruction from the CEO, not a foundational principle. The renunciation of war is a fundamental state policy, not an executive issuance. A smart student might pick this if they think the President handles foreign affairs, but the Constitution places this principle above any single branch.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. Judicial Discretion refers to the power of courts to make decisions based on their judgment within the bounds of law. It's about how judges interpret cases, not about the country's stance on war. A student might confuse this if they think 'discretion' means 'choice' in foreign policy, but this is a state-level commitment, not a court's call.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a special privilege granted by Congress to operate a public utility or business, like a TV station or a water company. It has nothing to do with the renunciation of war. A student might pick this if they mistakenly think 'franchise' means 'authority' in a broad sense, but it's a very specific legal term.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'Article II' in the Constitution, immediately think 'State Policies and Principles.' The renunciation of war is always a State Policy—never a power of a specific branch. Use the 'Mission Statement Test': if it sounds like a guiding value or direction for the whole country, it's a State Policy.",
+    "deconstruct_text": "Let's walk through this together. The question asks for the principle under Article II that guarantees the renunciation of war. First, remember that Article II is titled 'Declaration of Principles and State Policies.' It's like the Constitution's preamble to the government's playbook—it sets the ideals, not the specific moves of each player. Section 2 of that article explicitly says the Philippines renounces war as an instrument of national policy. So, the principle is a 'State Policy.' Now, let's look at the other options. An Executive Order is a presidential directive—think of it as a specific command, not a broad principle. Judicial Discretion is about how judges rule in court, not about national stance on war. A Legislative Franchise is a business permit from Congress. None of these are principles; they're all actions or privileges of specific branches. The mental trick here is the 'Mission Statement Test': if the phrase sounds like a value or direction for the entire nation (like 'renouncing war'), it's a State Policy. If it sounds like a specific action by a branch (like 'order,' 'discretion,' or 'franchise'), it's not. This will save you time and confusion on exam day.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

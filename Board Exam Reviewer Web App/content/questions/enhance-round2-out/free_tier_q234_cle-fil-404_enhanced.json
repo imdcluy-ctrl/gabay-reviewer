@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-404",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "In a directory of professionals, you have the following names with titles:\n- Dr. Jose Rizal\n- Atty. Maria Santos\n- Engr. Juan Cruz\n- Dr. Ana Reyes\nWhat is the CORRECT alphabetical order?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Atty. Maria Santos; Dr. Ana Reyes; Dr. Jose Rizal; Engr. Juan Cruz"
+      },
+      {
+        "key": "B",
+        "text": "Dr. Ana Reyes; Dr. Jose Rizal; Atty. Maria Santos; Engr. Juan Cruz"
+      },
+      {
+        "key": "C",
+        "text": "Engr. Juan Cruz; Atty. Maria Santos; Dr. Ana Reyes; Dr. Jose Rizal"
+      },
+      {
+        "key": "D",
+        "text": "Atty. Maria Santos; Engr. Juan Cruz; Dr. Ana Reyes; Dr. Jose Rizal"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what really matters when putting names in order. Do titles like Dr. or Atty. actually affect the alphabetical sequence, or are they just decorations?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The golden rule of filing: always ignore professional titles. You sort by surname first, then first name, then middle name. Titles are just extra information that doesn't change the order."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Look at just the surnames: Santos, Reyes, Rizal, Cruz. If you put those in alphabetical order, which comes first? Remember, 'C' comes before 'R' and 'S'."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct surname order is Cruz, Reyes, Rizal, Santos. Now match each surname with its original name and title. Engr. Juan Cruz is first, then Dr. Ana Reyes, then Dr. Jose Rizal, and finally Atty. Maria Santos. That's exactly what option A shows."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the correct order. When you strip away the titles and focus on surnames, Cruz comes first, followed by Reyes, then Rizal, and finally Santos. The titles are just attached to the names as they appear in this sequence.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one looks tempting because it groups the two doctors together, but that's a common trap. You might have sorted by title first (putting all doctors together) instead of by surname. Remember, titles don't count in alphabetical filing.",
+        "trap_type": "title_influence_error"
+      },
+      "C": {
+        "text": "This gets Cruz right at the start, which is good, but then it puts Santos before Reyes. That's a simple alphabetical slip — 'R' comes before 'S', so Reyes should always come before Santos, no matter what titles are attached.",
+        "trap_type": "surname_misordering"
+      },
+      "D": {
+        "text": "This one starts with Santos, which suggests you might have given priority to the title 'Atty.' thinking it somehow ranks higher alphabetically. But titles are invisible in filing. Cruz should always be first because 'C' comes before 'S'.",
+        "trap_type": "title_priority_mistake"
+      }
+    },
+    "deconstruct_text": "Let me walk you through this the way a filing clerk would think. First, imagine you're looking at a stack of name cards. Your job is to arrange them in alphabetical order. The first thing you do is ignore everything that isn't a real name — that means titles like Dr., Atty., and Engr. are completely invisible for sorting purposes. Now, look at the surnames: you have Cruz, Reyes, Rizal, and Santos. Alphabetically, Cruz comes first because 'C' is earliest in the alphabet. Then Reyes ('R' before 'R'? No, look at the second letter: 'e' in Reyes comes before 'i' in Rizal). So the order is Cruz, Reyes, Rizal, Santos. Finally, attach the full names back: Engr. Juan Cruz, Dr. Ana Reyes, Dr. Jose Rizal, Atty. Maria Santos. That's option A. The mental trick here is what I call the 'Invisible Title Rule' — whenever you see a title, mentally cross it out. It's like it doesn't exist for filing purposes. Just focus on the surname, then first name, then middle name, and you'll never get tripped up.",
+    "next_time_rule": "The Invisible Title Rule: When filing names, pretend all titles (Dr., Atty., Engr., etc.) are invisible. Sort strictly by surname, then first name, then middle name. Titles never affect alphabetical order.",
+    "blueprint_id": "B-2374",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-404",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "If the Mayor approves the project, then the project will push through. The Mayor did not approve the project. Therefore, the project will not push through. This argument is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valid"
+      },
+      {
+        "key": "B",
+        "text": "Invalid because it commits the fallacy of denying the antecedent"
+      },
+      {
+        "key": "C",
+        "text": "Invalid because it commits the fallacy of affirming the consequent"
+      },
+      {
+        "key": "D",
+        "text": "Valid only if the Mayor has sole authority"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about how conditional statements work in logic. Think of it as a promise: 'If this happens, then that happens.' The question is asking whether the reasoning here follows the rules of that promise."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule: In an 'If P, then Q' statement, the only thing you can safely conclude from 'not P' is... nothing! The promise only tells you what happens if P occurs, not what happens if P doesn't occur. Q might still happen for other reasons."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's map it out: P = 'Mayor approves', Q = 'project pushes through'. The argument says: not P (Mayor didn't approve), therefore not Q (project won't push through). But the original promise never said the Mayor is the only way the project can happen. Maybe the Vice Mayor or the City Council can also approve it."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "This is the classic 'denying the antecedent' fallacy. The argument assumes that because the condition (Mayor approves) didn't happen, the result (project pushes through) can't happen either. But that's like saying 'If it rains, the ground gets wet. It didn't rain, so the ground isn't wet.' A sprinkler could have done it! The project could still push through through other means."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's tempting to think this is valid because the reasoning sounds neat and tidy. But logic isn't about how neat an argument sounds—it's about whether the conclusion necessarily follows. Here, the conclusion doesn't necessarily follow because the project could still push through even without the Mayor's approval. The argument is actually invalid.",
+        "trap_type": "validity_misjudgment"
+      },
+      "B": {
+        "text": "Exactly right. This argument has the form 'If P then Q. Not P. Therefore, not Q.' That's the textbook definition of denying the antecedent, and it's a formal fallacy. The conclusion doesn't logically follow because Q could be true even when P is false. You've spotted the flaw perfectly.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Good try, but you've mixed up two different fallacies. Affirming the consequent would look like this: 'If P then Q. Q. Therefore, P.' That's a different error entirely. Here, the argument denies the first part (the antecedent), not affirms the second part (the consequent). The pattern here is 'not P, therefore not Q', not 'Q, therefore P'.",
+        "trap_type": "fallacy_misidentification"
+      },
+      "D": {
+        "text": "This is a clever trap because it seems to add a reasonable condition. But here's the thing: logical validity doesn't depend on real-world assumptions about who has authority. Even if the Mayor had sole authority, the argument's logical form would still be invalid unless that fact is stated in the premises. The argument as given doesn't say 'only the Mayor can approve,' so we can't assume it.",
+        "trap_type": "irrelevant_condition"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The argument gives us a conditional promise: 'If the Mayor approves (P), then the project pushes through (Q).' Then it tells us the Mayor did not approve (not P). From this, it concludes the project will not push through (not Q).\n\nHere's the mental framework I want you to remember: Think of a conditional statement like a one-way street sign. It only tells you what happens if you go one direction. It says nothing about what happens if you don't go that way. So from 'not P,' you simply cannot conclude anything about Q. Q might still happen through other means—another official, a council vote, or even a mayoral override later.\n\nThis specific error is called 'denying the antecedent.' The antecedent is the 'if' part (P), and the argument denies it (says not P), then wrongly concludes the opposite of the 'then' part (not Q).\n\nYour mental shortcut for exam day: When you see 'If P then Q, not P, therefore not Q,' immediately recognize it as the denying the antecedent fallacy. Ask yourself: 'Could Q still happen even without P?' If the answer is yes—and it almost always is unless stated otherwise—the argument is invalid.",
+    "next_time_rule": "The 'One-Way Street' Rule: In an 'If P then Q' statement, the only guaranteed conclusions are: (1) If P happens, Q happens (valid), and (2) If Q doesn't happen, P didn't happen (valid, called modus tollens). Everything else—like 'not P, therefore not Q' or 'Q, therefore P'—is a logical trap. Always ask: 'Could Q happen for another reason?'",
+    "blueprint_id": "B-1747",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

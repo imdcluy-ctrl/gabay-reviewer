@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-408",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "Arrange the following Filipino surnames in alphabetical order for filing:\n- Reyes\n- Santos\n- Cruz\n- Bautista",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bautista, Cruz, Reyes, Santos"
+      },
+      {
+        "key": "B",
+        "text": "Cruz, Bautista, Reyes, Santos"
+      },
+      {
+        "key": "C",
+        "text": "Reyes, Santos, Cruz, Bautista"
+      },
+      {
+        "key": "D",
+        "text": "Santos, Reyes, Cruz, Bautista"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about the alphabet song you learned as a kid. This question is simply asking you to put these four surnames in the same order as the letters A, B, C, D."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "When filing alphabetically, you always start by looking at the very first letter of each surname. Compare those first letters to see which comes earliest in the alphabet."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Look at the first letters of each surname: Bautista starts with B, Cruz with C, Reyes with R, and Santos with S. Now arrange those letters in alphabetical order."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "B comes before C, C comes before R, and R comes before S. So the correct order is Bautista first, then Cruz, then Reyes, and finally Santos. Which option matches that?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "That's right. Bautista starts with B, Cruz with C, Reyes with R, and Santos with S. In alphabetical order, B comes before C, C before R, and R before S, so Bautista, Cruz, Reyes, Santos is the correct sequence.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is close, but it puts Cruz before Bautista. Remember, B comes before C in the alphabet, so Bautista should always come first. It's an easy slip if you're rushing and just grab the first two names you see.",
+        "trap_type": "b_and_c_swap"
+      },
+      "C": {
+        "text": "This is actually the reverse alphabetical order, starting with the last name first. It's a common mistake when you're not paying close attention to the instruction. Always check if you're going from A to Z, not Z to A.",
+        "trap_type": "reverse_order"
+      },
+      "D": {
+        "text": "This one starts with Santos, which begins with S. But S is one of the last letters in the alphabet among these names. B, C, and R all come before S, so Bautista, Cruz, and Reyes should all be filed before Santos.",
+        "trap_type": "starting_with_S"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. You have four surnames: Reyes, Santos, Cruz, and Bautista. The key is to focus on the first letter of each name. Bautista starts with B, Cruz with C, Reyes with R, and Santos with S. Now, think of the alphabet: B comes before C, C before R, and R before S. So the correct alphabetical order is Bautista, then Cruz, then Reyes, and finally Santos. That's option A. A quick mental trick for next time: when you see a list of names, immediately underline or circle the first letter of each one. Then just arrange those letters in your head like you're singing the ABCs. It turns a confusing jumble into a simple letter-sorting exercise.",
+    "next_time_rule": "When alphabetizing, always start with the first letter of each word. Sing the ABCs in your head if you need to, and match each name to its place in the song.",
+    "blueprint_id": "B-2378",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

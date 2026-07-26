@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-sent-009",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The official was accused ___ misconduct.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "of"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'accuse' is always followed by the preposition 'of' when specifying the wrongdoing. Think of the phrase 'accused of a crime' — it's a fixed expression in English."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct preposition is 'of'. The sentence should read: 'The official was accused of misconduct.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence, the blank comes after 'accused' and before the noun 'misconduct'. Which preposition commonly pairs with 'accused' to introduce the offense? Note that 'for' suggests a reason, 'with' suggests an instrument, and 'in' suggests a location — none fit the idiomatic pattern."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The only preposition that forms a standard idiomatic expression with 'accused' is 'of'. Therefore, the correct choice is option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Accused for' is non-standard. Students might choose 'for' because it indicates a reason (e.g., 'fired for misconduct'), but 'accuse' requires 'of' to introduce the charge.",
+        "trap_type": "preposition_confusion_reason"
+      },
+      "B": {
+        "text": "Incorrect. 'Accused with' is incorrect. Some might confuse 'accused with' with 'charged with', but 'accuse' takes 'of', not 'with'.",
+        "trap_type": "preposition_confusion_charge"
+      },
+      "C": {
+        "text": "Correct! 'Accused of' is the standard idiomatic expression used to specify the wrongdoing.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Accused in' is incorrect. 'In' would indicate a location or context (e.g., 'accused in court'), but not the specific offense.",
+        "trap_type": "preposition_confusion_location"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember: 'accuse OF' (the offense), 'charge WITH' (the crime), 'blame FOR' (the action). Each verb has its own preposition.",
+    "blueprint_id": "Prepositions — Accused Of",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the verb: 'accused' is the past tense of 'accuse'.\n2. Recall the idiomatic pattern: The verb 'accuse' is always followed by the preposition 'of' when stating the offense. Example: 'He was accused of theft.'\n3. Apply to the sentence: 'The official was accused ___ misconduct.' The blank must be filled with 'of' to form the correct expression 'accused of misconduct'.\n4. Verify: 'Accused for', 'accused with', and 'accused in' are all grammatically incorrect in this context.\n\n### ❌ Why the Distractors Fail\n- **'for'**: Suggests a reason or purpose, but 'accuse' does not take 'for'. Common error due to similarity with 'blame for'.\n- **'with'**: Used with 'charge' (e.g., 'charged with'), not 'accuse'. Students may confuse the two verbs.\n- **'in'**: Indicates location or involvement, not the specific offense. Incorrect here.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-010",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The manager concurred ___ the decision of the board.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'concur' is typically followed by 'with' when referring to agreement with a person or decision. Example: 'I concur with your opinion.'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct preposition is 'with'. The sentence should read: 'The manager concurred with the decision of the board.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence, the manager is agreeing with the board's decision. Which preposition commonly pairs with 'concur' to indicate agreement? Note that 'concur to' is rare, 'concur in' means to participate, and 'concur on' is used for specific points."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The standard expression for agreeing with a decision is 'concur with'. Therefore, option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Concur to' is not idiomatic. Some might think 'to' indicates direction (agree to something), but 'concur' requires 'with' for agreement.",
+        "trap_type": "preposition_confusion_direction"
+      },
+      "B": {
+        "text": "Correct! 'Concur with' means to agree with a person or a decision.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Concur in' means to participate or join in an action, not simply agree. Example: 'concur in the celebration' — not appropriate here.",
+        "trap_type": "preposition_confusion_participation"
+      },
+      "D": {
+        "text": "Incorrect. 'Concur on' is used when agreeing on a specific point or issue (e.g., 'concur on the terms'), but not with a decision as a whole.",
+        "trap_type": "preposition_confusion_specific"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Concur WITH' = agree with; 'concur IN' = participate; 'concur ON' = agree on a specific point. Use 'with' for general agreement.",
+    "blueprint_id": "Prepositions — Concur With",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the verb: 'concurred' means agreed.\n2. Recall the idiomatic pattern: 'Concur' is followed by 'with' when expressing agreement with a person or decision. Example: 'She concurred with the proposal.'\n3. Apply to the sentence: 'The manager concurred ___ the decision of the board.' The blank requires 'with' to indicate agreement with the decision.\n4. Verify: 'Concur to', 'concur in', and 'concur on' have different meanings and are not appropriate here.\n\n### ❌ Why the Distractors Fail\n- **'to'**: Suggests direction or purpose, but 'concur' does not take 'to' for agreement. Common error due to 'agree to'.\n- **'in'**: Implies participation, not agreement. Example: 'concur in the festivities'.\n- **'on'**: Used for specific points, not general decisions. Example: 'concur on the date'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-011",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The program is designed to cater ___ the needs of senior citizens.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'cater' is followed by 'to' when referring to providing for needs or desires. Example: 'The hotel caters to business travelers.'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct preposition is 'to'. The sentence should read: 'The program is designed to cater to the needs of senior citizens.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence, the program is designed to serve or meet the needs of senior citizens. Which preposition pairs with 'cater' to indicate the target of the service? Note that 'cater for' is British English, but in American English (and the exam), 'cater to' is standard."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The standard American English expression is 'cater to'. Therefore, option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Cater for' is used in British English (e.g., 'cater for an event'), but in American English and the Philippine Civil Service Exam, 'cater to' is the standard for addressing needs.",
+        "trap_type": "dialect_variation"
+      },
+      "B": {
+        "text": "Correct! 'Cater to' means to provide for or serve the needs of a group.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Cater with' is not idiomatic. Some might think 'with' indicates the means, but 'cater' does not take 'with' in this context.",
+        "trap_type": "preposition_confusion_means"
+      },
+      "D": {
+        "text": "Incorrect. 'Cater in' is not idiomatic. 'In' would indicate location, not the target of service.",
+        "trap_type": "preposition_confusion_location"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'cater TO' (American) for serving needs; 'cater FOR' (British) is for events. In the Philippine exam, 'cater to' is preferred.",
+    "blueprint_id": "Prepositions — Cater To",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the verb: 'cater' means to provide what is needed or desired.\n2. Recall the idiomatic pattern: In American English, 'cater' is followed by 'to' when specifying the group or needs being served. Example: 'The restaurant caters to families.'\n3. Apply to the sentence: 'The program is designed to cater ___ the needs of senior citizens.' The blank requires 'to' to indicate that the program serves those needs.\n4. Verify: 'Cater for' is British and less common in this context; 'cater with' and 'cater in' are not standard.\n\n### ❌ Why the Distractors Fail\n- **'for'**: Acceptable in British English for events, but not for needs in American English. The exam follows American conventions.\n- **'with'**: Incorrect; 'cater' does not pair with 'with' to indicate the target.\n- **'in'**: Incorrect; suggests location, not service.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-012",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The applicant must be proficient ___ both English and Filipino.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The adjective 'proficient' is followed by 'in' when referring to a language or field of study. Example: 'She is proficient in Spanish.'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct preposition is 'in'. The sentence should read: 'The applicant must be proficient in both English and Filipino.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence, the applicant needs skill in languages. Which preposition commonly pairs with 'proficient' to indicate the area of skill? Note that 'proficient at' is used for tasks, not languages."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The standard expression for language skill is 'proficient in'. Therefore, option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Proficient in' is used for languages, subjects, or fields of knowledge.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Proficient at' is used for specific tasks or activities (e.g., 'proficient at typing'), not for languages.",
+        "trap_type": "preposition_confusion_task"
+      },
+      "C": {
+        "text": "Incorrect. 'Proficient with' is used for tools or instruments (e.g., 'proficient with a computer'), not for languages.",
+        "trap_type": "preposition_confusion_tool"
+      },
+      "D": {
+        "text": "Incorrect. 'Proficient on' is not standard. Some might say 'proficient on the piano', but 'on' is not used for languages.",
+        "trap_type": "preposition_confusion_instrument"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Proficient IN' a language/subject; 'proficient AT' a task; 'proficient WITH' a tool. Match the preposition to the context.",
+    "blueprint_id": "Prepositions — Proficient In",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the adjective: 'proficient' means skilled or competent.\n2. Recall the idiomatic pattern: 'Proficient' is followed by 'in' when referring to a language, subject, or area of knowledge. Example: 'He is proficient in mathematics.'\n3. Apply to the sentence: 'The applicant must be proficient ___ both English and Filipino.' The blank requires 'in' to indicate the languages in which the applicant is skilled.\n4. Verify: 'Proficient at' is for tasks; 'proficient with' is for tools; 'proficient on' is non-standard.\n\n### ❌ Why the Distractors Fail\n- **'at'**: Used for specific actions (e.g., 'proficient at solving problems'), not for languages.\n- **'with'**: Used for instruments (e.g., 'proficient with a scalpel'), not for languages.\n- **'on'**: Rare and non-standard for this context.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-013",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The result is consistent ___ the initial findings.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "of"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The adjective 'consistent' is always followed by 'with' when indicating agreement or compatibility. Example: 'His actions are consistent with his words.'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct preposition is 'with'. The sentence should read: 'The result is consistent with the initial findings.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence, the result agrees with the initial findings. Which preposition pairs with 'consistent' to show agreement? Note that 'consistent to' is incorrect; 'consistent in' means steady over time; 'consistent of' is not standard."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The standard expression is 'consistent with'. Therefore, option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Consistent to' is not idiomatic. Some might confuse it with 'according to', but 'consistent' requires 'with'.",
+        "trap_type": "preposition_confusion_according"
+      },
+      "B": {
+        "text": "Correct! 'Consistent with' means in agreement or harmony with something.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Consistent in' means showing consistency over time or across instances (e.g., 'consistent in performance'), not agreement with another thing.",
+        "trap_type": "preposition_confusion_temporal"
+      },
+      "D": {
+        "text": "Incorrect. 'Consistent of' is not standard. 'Of' would indicate composition (e.g., 'made of'), which does not fit here.",
+        "trap_type": "preposition_confusion_composition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Consistent WITH' = in agreement; 'consistent IN' = steady over time. Use 'with' when comparing two things.",
+    "blueprint_id": "Prepositions — Consistent With",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the adjective: 'consistent' means in agreement or compatible.\n2. Recall the idiomatic pattern: 'Consistent' is followed by 'with' when comparing two things that agree. Example: 'The data is consistent with the hypothesis.'\n3. Apply to the sentence: 'The result is consistent ___ the initial findings.' The blank requires 'with' to show that the result agrees with the findings.\n4. Verify: 'Consistent to' is incorrect; 'consistent in' refers to internal steadiness; 'consistent of' is not standard.\n\n### ❌ Why the Distractors Fail\n- **'to'**: Incorrect; 'consistent' does not take 'to'. Common error due to 'similar to'.\n- **'in'**: Means steady over time, not agreement with another thing.\n- **'of'**: Indicates composition, not agreement.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-014",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The agency is tasked ___ implementing the new policy.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'tasked' pairs with a specific preposition to mean 'given the responsibility of.' Think of common collocations like 'entrusted with' or 'charged with.'"
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate",
+        "text": "Options 'to', 'for', and 'in' do not form standard idiomatic phrases with 'tasked' in this context. 'Tasked to' is sometimes used before an infinitive verb, but here the blank is followed by a gerund ('implementing')."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The phrase 'tasked with implementing' is the correct idiomatic construction. The preposition 'with' connects the agency to the responsibility of implementing the policy."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct choice is 'with' because it completes the standard idiomatic expression 'tasked with [gerund]' meaning assigned the duty of doing something."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Tasked to' is sometimes used before an infinitive (e.g., 'tasked to implement'), but here the blank is followed by the gerund 'implementing,' making 'to' ungrammatical. The correct preposition for a gerund complement is 'with.'",
+        "trap_type": "gerund_vs_infinitive_confusion"
+      },
+      "B": {
+        "text": "Correct! 'With' is the standard preposition used after 'tasked' when followed by a gerund phrase. 'Tasked with implementing' means assigned the responsibility of implementing.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Tasked for' is not a standard English collocation. The preposition 'for' typically indicates purpose or benefit, not assignment of responsibility. The correct phrase is 'tasked with.'",
+        "trap_type": "wrong_preposition_collocation"
+      },
+      "D": {
+        "text": "'Tasked in' is not idiomatic. The preposition 'in' denotes location or involvement, not responsibility. The correct phrase is 'tasked with.'",
+        "trap_type": "wrong_preposition_collocation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'tasked with' when followed by a gerund (e.g., 'tasked with implementing'). Use 'tasked to' only before an infinitive (e.g., 'tasked to implement').",
+    "blueprint_id": "Prepositions — Tasked With",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe verb 'task' meaning 'to assign a task to' is followed by the preposition 'with' when the complement is a gerund phrase. This is a fixed idiomatic collocation in formal English.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the verb: 'tasked' (past participle used as adjective).\n2. Identify the complement: 'implementing the new policy' (gerund phrase).\n3. The standard collocation is 'tasked with + gerund'.\n4. Therefore, the correct preposition is 'with'.\n\n### ❌ Why the Distractors Fail\n- **'to'**: Used before an infinitive, not a gerund. 'Tasked to implement' would be correct if the sentence were 'The agency is tasked to implement the new policy.' But here, 'implementing' is a gerund, so 'to' is wrong.\n- **'for'**: Indicates purpose or reason, not assignment. 'Tasked for' is not a recognized collocation.\n- **'in'**: Indicates location or involvement, not responsibility. 'Tasked in' is not idiomatic.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-015",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The investigation will focus ___ the causes of the accident.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'focus' requires a specific preposition to indicate the object of concentration. Think of common phrases like 'focus on details' or 'focus on goals.'"
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate",
+        "text": "Options 'in', 'at', and 'for' do not form standard idiomatic phrases with 'focus' when referring to the subject of concentration. 'Focus in' might be used in photography, but not for abstract topics."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The phrase 'focus on the causes' is the correct idiomatic construction. The preposition 'on' indicates the target of the investigation's attention."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct choice is 'on' because it completes the standard idiomatic expression 'focus on [something]' meaning to concentrate attention on something."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Focus in' is not idiomatic when referring to the object of concentration. 'In' is used with 'focus' only in specific contexts like photography ('focus in on') or as part of 'focus in on,' but never alone before a noun phrase.",
+        "trap_type": "wrong_preposition_collocation"
+      },
+      "B": {
+        "text": "'Focus at' is not a standard English collocation. The preposition 'at' indicates a point in space or time, not the object of concentration. The correct phrase is 'focus on.'",
+        "trap_type": "wrong_preposition_collocation"
+      },
+      "C": {
+        "text": "Correct! 'On' is the standard preposition used after 'focus' to indicate the object of concentration. 'Focus on the causes' means direct attention to the causes.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Focus for' is not idiomatic. The preposition 'for' indicates purpose or duration, not the object of concentration. The correct phrase is 'focus on.'",
+        "trap_type": "wrong_preposition_collocation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always use 'focus on' when indicating what someone is concentrating on. Never use 'focus in,' 'focus at,' or 'focus for' in this context.",
+    "blueprint_id": "Prepositions — Focus On",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe verb 'focus' meaning 'to concentrate attention on' is followed by the preposition 'on' when specifying the object of concentration. This is a fixed idiomatic collocation in English.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the verb: 'focus' (base form).\n2. Identify the object: 'the causes of the accident' (noun phrase).\n3. The standard collocation is 'focus on + noun phrase'.\n4. Therefore, the correct preposition is 'on'.\n\n### ❌ Why the Distractors Fail\n- **'in'**: Not idiomatic with 'focus' in this context. 'Focus in' is only used in specific phrases like 'focus in on' or in photography.\n- **'at'**: Indicates a point in space or time, not concentration. 'Focus at' is not a recognized collocation.\n- **'for'**: Indicates purpose or duration. 'Focus for' is not idiomatic when specifying the object of concentration.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-011",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Logical reasoning question 1: All public servants must be honest. Juan is a public servant. What follows?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan is honest"
+      },
+      {
+        "key": "B",
+        "text": "Juan may be dishonest"
+      },
+      {
+        "key": "C",
+        "text": "No conclusion"
+      },
+      {
+        "key": "D",
+        "text": "Juan is a manager"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Premise",
+        "text": "The first statement is a universal affirmative: 'All public servants are honest.' This means every member of the set 'public servants' is also a member of the set 'honest people.'"
+      },
+      {
+        "rung": 2,
+        "title": "Fact",
+        "text": "The second statement tells us that Juan belongs to the set 'public servants.' So Juan is a member of that set."
+      },
+      {
+        "rung": 3,
+        "title": "Conclusion",
+        "text": "Since all members of 'public servants' are 'honest,' and Juan is a public servant, it necessarily follows that Juan is honest. This is a classic syllogism."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The only logically valid conclusion is 'Juan is honest.' Options B, C, and D are not supported by the premises."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is a valid deductive inference: All A are B. Juan is A. Therefore, Juan is B. The conclusion necessarily follows from the premises.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option incorrectly suggests uncertainty. The premises are categorical: all public servants must be honest, and Juan is a public servant. There is no possibility of dishonesty; it is logically impossible given the premises.",
+        "trap_type": "false_uncertainty"
+      },
+      "C": {
+        "text": "This option claims no conclusion can be drawn, but a definite conclusion does follow. The syllogism is valid and yields a certain conclusion. This is a common trap for students who fail to apply basic deductive reasoning.",
+        "trap_type": "false_indecision"
+      },
+      "D": {
+        "text": "This option introduces irrelevant information. There is no premise about managers. The conclusion must be based solely on the given statements, not on external assumptions.",
+        "trap_type": "irrelevant_introduction"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For categorical syllogisms, use the 'All A are B. x is A. Therefore, x is B.' pattern. The conclusion is certain, not probabilistic.",
+    "blueprint_id": "Logical Reasoning 1",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThis is a classic categorical syllogism in deductive reasoning. The structure is: All A are B. x is A. Therefore, x is B. The conclusion is necessarily true if the premises are true.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the universal statement: 'All public servants must be honest.' This means the set of public servants is a subset of the set of honest people.\n2. Identify the particular statement: 'Juan is a public servant.' This places Juan in the subset.\n3. Apply the rule: Since all members of the subset are also members of the superset, Juan must be honest.\n4. Therefore, the correct answer is 'Juan is honest.'\n\n### ❌ Why the Distractors Fail\n- **'Juan may be dishonest'**: Contradicts the universal premise. If all public servants are honest, then Juan cannot be dishonest.\n- **'No conclusion'**: Incorrect because a definite conclusion follows logically from the premises.\n- **'Juan is a manager'**: Introduces an irrelevant category not mentioned in the premises.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-data-011",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "Data interpretation 1: A budget of P10M is allocated: Personnel 40%, Operations 30%, Equipment 20%, Training 10%. How much for Equipment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1M"
+      },
+      {
+        "key": "B",
+        "text": "P2M"
+      },
+      {
+        "key": "C",
+        "text": "P3M"
+      },
+      {
+        "key": "D",
+        "text": "P4M"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Equipment %",
+        "text": "The allocation for Equipment is given as 20% of the total budget. Identify this percentage from the breakdown."
+      },
+      {
+        "rung": 2,
+        "title": "Compute",
+        "text": "Multiply the total budget by the percentage for Equipment: P10,000,000 × 20% = P10,000,000 × 0.20."
+      },
+      {
+        "rung": 3,
+        "title": "= P2M",
+        "text": "P10,000,000 × 0.20 = P2,000,000. So the Equipment allocation is P2 million."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The correct answer is P2M (option B). The other options correspond to 10% (P1M), 30% (P3M), and 40% (P4M) of the budget."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1M is 10% of P10M, which corresponds to the Training allocation, not Equipment. The student likely used the wrong percentage (10% instead of 20%).",
+        "trap_type": "percentage_misread"
+      },
+      "B": {
+        "text": "Correct! 20% of P10,000,000 = P2,000,000. This matches the Equipment allocation.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "P3M is 30% of P10M, which corresponds to the Operations allocation, not Equipment. The student likely confused the percentages for Operations and Equipment.",
+        "trap_type": "percentage_confusion"
+      },
+      "D": {
+        "text": "P4M is 40% of P10M, which corresponds to the Personnel allocation, not Equipment. The student likely used the largest percentage without reading the question carefully.",
+        "trap_type": "percentage_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When computing a percentage of a total, convert the percentage to a decimal (e.g., 20% = 0.20) and multiply by the total. Double-check which category the question asks for.",
+    "blueprint_id": "Data Interpretation 1",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nTo find a percentage of a total amount, multiply the total by the percentage expressed as a decimal. Percentage = (Part/Total) × 100%, so Part = Total × (Percentage/100).\n\n### 🔍 Step-by-Step Analysis\n1. Identify the total budget: P10,000,000.\n2. Identify the percentage for Equipment: 20%.\n3. Convert 20% to decimal: 20 ÷ 100 = 0.20.\n4. Multiply: P10,000,000 × 0.20 = P2,000,000.\n5. Therefore, the Equipment allocation is P2,000,000 (P2M).\n\n### ❌ Why the Distractors Fail\n- **P1M**: 10% of P10M (Training allocation). The student may have used 10% instead of 20%.\n- **P3M**: 30% of P10M (Operations allocation). The student may have confused Equipment with Operations.\n- **P4M**: 40% of P10M (Personnel allocation). The student may have used the largest percentage without reading the question.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-pat-011",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "question_text": "Pattern 1: What comes next? 1, 3, 6, 10, 15, ___",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Differences",
+        "text": "Find the differences between consecutive terms: 3-1=2, 6-3=3, 10-6=4, 15-10=5. The differences are increasing by 1 each time."
+      },
+      {
+        "rung": 2,
+        "title": "Next diff",
+        "text": "The next difference should be 6 (since the pattern is +2, +3, +4, +5, ...)."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "Add the next difference to the last term: 15 + 6 = 21."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The next term is 21. This sequence is known as triangular numbers: T_n = n(n+1)/2, where T_5 = 15, so T_6 = 6×7/2 = 21."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "18 would result from adding 3 to 15, but the pattern requires adding 6. The student may have assumed a constant difference of 3, which is incorrect.",
+        "trap_type": "constant_difference_assumption"
+      },
+      "B": {
+        "text": "19 would result from adding 4 to 15, but the pattern requires adding 6. The student may have misidentified the pattern as adding 2, then 3, then 4, then 5, then 4 again.",
+        "trap_type": "pattern_misidentification"
+      },
+      "C": {
+        "text": "20 would result from adding 5 to 15, but the pattern requires adding 6. The student may have thought the differences were constant at 5 after the first few terms.",
+        "trap_type": "pattern_misidentification"
+      },
+      "D": {
+        "text": "Correct! The differences increase by 1 each time: +2, +3, +4, +5, so the next difference is +6. 15 + 6 = 21. This is the 6th triangular number.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For sequences, compute differences between terms. If differences increase by a constant, the sequence is quadratic. Triangular numbers follow T_n = n(n+1)/2.",
+    "blueprint_id": "Pattern Recognition 1",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThis sequence is the triangular numbers: T_n = n(n+1)/2. The pattern can also be identified by looking at successive differences.\n\n### 🔍 Step-by-Step Analysis\n1. Compute differences: 3-1=2, 6-3=3, 10-6=4, 15-10=5.\n2. Observe that differences increase by 1 each time: 2, 3, 4, 5.\n3. The next difference should be 6.\n4. Add to the last term: 15 + 6 = 21.\n5. Alternatively, use the formula: T_6 = 6×7/2 = 21.\n\n### ❌ Why the Distractors Fail\n- **18**: Assumes a constant difference of 3 after the first term, ignoring the increasing pattern.\n- **19**: Might come from adding 4 (misreading the pattern) or from a different incorrect rule.\n- **20**: Might come from adding 5 (thinking the differences are constant at 5) or from a miscalculation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

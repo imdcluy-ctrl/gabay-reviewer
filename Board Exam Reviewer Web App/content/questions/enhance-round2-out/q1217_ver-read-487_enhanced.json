@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-487",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: The Gender and Development (GAD) budget policy mandates that all government agencies allocate at least five percent of their total budget appropriations to programs and projects that address gender issues and promote women's empowerment. This allocation, known as the GAD budget, is intended to ensure that gender concerns are integrated into the mainstream planning and budgeting processes of agencies. The policy also requires agencies to submit a GAD Accomplishment Report annually to the Philippine Commission on Women (PCW) and the Department of Budget and Management (DBM).\n\nAccording to the passage, what must agencies submit annually?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A gender equality plan"
+      },
+      {
+        "key": "B",
+        "text": "A GAD Accomplishment Report"
+      },
+      {
+        "key": "C",
+        "text": "A budget proposal"
+      },
+      {
+        "key": "D",
+        "text": "A women's empowerment project list"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1462",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

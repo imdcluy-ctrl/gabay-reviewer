@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The principle of check and balance ensures that no single branch of government becomes too powerful. Each branch has the ability to limit the powers of the other branches.' What is this passage about?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Why power should be concentrated"
+      },
+      {
+        "key": "B",
+        "text": "How branches limit each other"
+      },
+      {
+        "key": "C",
+        "text": "The weakness of government"
+      },
+      {
+        "key": "D",
+        "text": "The role of the President"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Core Idea",
+        "text": "Ang passage ay tungkol sa 'checks and balances' – ang sistema para pigilan ang sobrang lakas ng isang branch."
+      },
+      {
+        "rung": 2,
+        "title": "Alamin ang Paraan",
+        "text": "Sinasabi ng ikalawang sentence na ang bawat branch ay may kakayahang limitahan ang iba. Ito ang action ng system."
+      },
+      {
+        "rung": 3,
+        "title": "Tanggalin ang Kabaliktaran",
+        "text": "Option A opposite (concentration imbes na prevention). C hindi weakness. D President lang, hindi lahat ng branch."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang Tamang Buod",
+        "text": "Option B direktang nagsasabi ng 'how branches limit each other' – ito mismo ang main idea ng passage."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 'ensure no single branch becomes too powerful' means they want concentration, but the text me...",
+        "trap_type": "opposite_meaning"
+      },
+      "B": {
+        "text": "Correct. The passage explains that each branch can limit the others, which is exactly the main idea.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you associated 'prevent too powerful' with weakness, but no weakness is mentioned.",
+        "trap_type": "unsupported_inference"
+      },
+      "D": {
+        "text": "You might have chosen D because you thought only the President is key, but the principle applies to all three branches.",
+        "trap_type": "over_specificity"
+      }
+    },
+    "next_time_rule": "Kapag main idea, hanapin ang sentence na buod ng lahat. Dito, 'each branch limits the others' – 'yan ang sagot.",
+    "blueprint_id": "Main Idea — Checks and Balances",
+    "deconstruct_text": "Sa barangay budget hearing, may Kapitan, Kagawad, at SK Chair. Para walang mag-overpower, may checks and balances: ang bawat isa pwedeng mag-veto o mag-question. Ganyan din ang ating gobyerno—Executive, Legislative, Judiciary—tig-isang branch na may kapangyarihang li...\n\nAng tanong: 'What is this passage about?' Basahin ang passage: una, sinabi ang purpose—pigilan ang sobrang lakas. Pangalawa, ’yung paano—limitahan ang bawat branch. So ang main idea ay ‘yung paraan ng paglilimita, hindi ‘yung dahilan kung bakit.\n\nOption A: ‘Why power should be concentrated’ — mali, kasi kabaliktaran ng ‘prevent concentration.’ Option C: ‘The weakness of government’ — walang nabanggit na weakness. Option D: ‘The role of the President’ — masyadong specific, dahil tatlong branch cover ng passage.\n\nMental Trick: Isipin ‘Checkmate, balanse!’ Bawat sangay may limit powers sa iba; parang tatay-nanay-anak, may veto. Kaya tamang sagot B: ‘How branches limit each other.’",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

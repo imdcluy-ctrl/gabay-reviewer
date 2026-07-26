@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-011",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's gross monthly salary is P30,000. Deductions amount to P7,500. What percentage is deducted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "35%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Right Numbers",
+        "text": "This is a 'part of a whole' problem. Ask yourself: what is the 'part' (the amount being taken away) and what is the 'whole' (the original amount before anything happens)?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Percentage Rule",
+        "text": "To find what percent one number is of another, use this formula: (Part / Whole) x 100. The 'Part' is the smaller number that's being compared, and the 'Whole' is the larger number it's coming from."
+      },
+      {
+        "rung": 3,
+        "title": "Plug In Your Numbers",
+        "text": "Your 'Part' is the deduction amount (P7,500). Your 'Whole' is the original gross salary (P30,000). So the calculation is (7,500 / 30,000) x 100."
+      },
+      {
+        "rung": 4,
+        "title": "Do the Math",
+        "text": "First, divide 7,500 by 30,000. You get 0.25. Then multiply 0.25 by 100 to turn it into a percentage. That gives you 25%. So the answer is 25%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake. You might have accidentally used the wrong 'whole' in your calculation. If you added the deductions to the gross salary (P30,000 + P7,500 = P37,500) and then divided (7,500 / 37,500), you'd get 0.20, or 20%. The key is that the 'whole' is always the original amount before anything was taken away, which is the gross salary.",
+        "trap_type": "wrong_base_for_percentage"
+      },
+      "B": {
+        "text": "That's right! You correctly identified the deduction (P7,500) as the 'part' and the gross salary (P30,000) as the 'whole'. Dividing the part by the whole (7,500 / 30,000 = 0.25) and then multiplying by 100 gives you 25%. Well done.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a tricky error. It looks like you might have subtracted the deductions from the gross salary first (P30,000 - P7,500 = P22,500) and then used that smaller number as the 'whole' (7,500 / 22,500 = 0.333). Remember, the 'whole' is the original, full amount before any deductions, not the amount that's left over.",
+        "trap_type": "wrong_base_for_percentage"
+      },
+      "D": {
+        "text": "This answer is a bit off. It might have come from a small calculation slip or from mixing up the numbers. For example, if you divided the gross salary by the deductions (30,000 / 7,500 = 4) and then got confused, or if you tried to add the numbers together. Stick with the simple formula: (Part / Whole) x 100, and you'll find the correct percentage every time.",
+        "trap_type": "wrong_base_for_percentage"
+      }
+    },
+    "next_time_rule": "When finding a percentage, always ask: 'What is the original, untouched amount?' That's your 'whole'. The amount being compared to it is your 'part'. Then just do (Part / Whole) x 100.",
+    "blueprint_id": "Percentage — Deduction Rate",
+    "deconstruct_text": "Let's break this down in a way that makes it stick. The question is asking: 'What percent of my salary is being taken away?' The key is to correctly identify the 'before' and 'after' numbers. The 'before' number, or the whole, is your gross salary of P30,000. That's the full amount before anything happens. The 'after' number, or the part, is the deduction of P7,500. That's the piece of the pie we're interested in. Now, we just use the simple formula: (Part / Whole) x 100. So, we calculate (7,500 / 30,000) x 100. First, divide 7,500 by 30,000. You can simplify this by thinking of it as 75 divided by 300, which is 0.25. Then, multiply 0.25 by 100 to get 25%. That's your answer. The mental trick here is the 'Original Amount Rule'. The 'whole' is always the original, full amount before any change. Don't let the numbers after the change (like the net salary) trick you into using them as the base.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

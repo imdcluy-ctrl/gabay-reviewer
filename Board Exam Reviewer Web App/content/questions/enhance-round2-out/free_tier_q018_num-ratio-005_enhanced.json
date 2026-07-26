@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-005",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On an official LGU land survey map, a scale of 2 centimeters represents an actual distance of 5 kilometers. If two barangay halls are 7 centimeters apart on the map, what is their actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 km"
+      },
+      {
+        "key": "B",
+        "text": "17.5 km"
+      },
+      {
+        "key": "C",
+        "text": "20 km"
+      },
+      {
+        "key": "D",
+        "text": "35 km"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a classic map scale problem. The key idea is that the relationship between map distance and actual distance stays the same. Think of it as a recipe: for every 2 centimeters on the map, you get 5 kilometers in real life."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "When two things are in direct proportion, you can set up a fraction: map distance over actual distance equals map distance over actual distance. So 2 cm / 5 km = 7 cm / x km. Or, find what 1 cm represents by dividing the actual distance by the map distance."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "If 2 cm equals 5 km, then 1 cm equals 5 divided by 2, which is 2.5 km. Now you have a handy scale factor. Multiply the map distance you are given (7 cm) by this scale factor (2.5 km per cm)."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "7 times 2.5. You can think of it as 7 times 2 (which is 14) plus 7 times 0.5 (which is 3.5). Add them together: 14 plus 3.5 equals 17.5 kilometers. That is the actual distance between the barangay halls."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "14 km: This is a very common slip. You might have seen 7 and 2 and just multiplied them together, forgetting that the scale is 2 cm = 5 km, not 2 cm = 2 km. The 5 is a crucial part of the ratio.",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct! You found the scale factor (1 cm = 2.5 km) and multiplied it by the map distance (7 cm) to get 17.5 km. Or you cross-multiplied the proportion correctly. Great work.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "20 km: This might come from a small arithmetic slip, like rounding 17.5 up to 20, or from a miscalculation like 7 times 3 minus 1. The exact answer is 17.5 km, so double-check your multiplication.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "35 km: This happens when you multiply 7 by 5 but forget to divide by 2. The scale tells you that 2 cm equals 5 km, not 1 cm equals 5 km. You need to account for the 2 by dividing.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "For map scale problems, always find the 'unit scale' first: divide the real distance by the map distance to see what 1 cm represents. Then multiply by the new map distance. Or, set up a proportion and cross-multiply: (map1 / real1) = (map2 / real2).",
+    "blueprint_id": "Ratio and Proportion — map scale proportional reasoning",
+    "deconstruct_text": "Let's walk through this together. The scale says 2 centimeters on the map equals 5 kilometers in the real world. This is a direct proportion, meaning if the map distance goes up, the real distance goes up by the same factor. The most intuitive way to solve it is to find out what 1 centimeter represents. If 2 cm is 5 km, then 1 cm is half of that: 5 divided by 2 equals 2.5 km. Now, your map distance is 7 cm. So the actual distance is 7 times 2.5 km. You can do 7 times 2 (which is 14) plus 7 times 0.5 (which is 3.5), giving you 17.5 km. Another way is to set up a proportion: 2/5 = 7/x. Cross-multiply: 2 times x equals 5 times 7, so 2x = 35. Divide both sides by 2, and x = 17.5. Both methods lead to the same answer. The wrong answers often come from forgetting the '2' in the scale. Option A (14 km) treats the scale as 2 cm = 2 km. Option D (35 km) treats it as 1 cm = 5 km. Option C (20 km) is usually a simple arithmetic mistake. The key is to always honor the full ratio.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

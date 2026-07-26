@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-100",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Words Per Minute (WPM) Calculation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A data entry clerk typed a 250-word government report in 5 minutes. What is the clerk's gross typing speed in words per minute (WPM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 WPM"
+      },
+      {
+        "key": "B",
+        "text": "40 WPM"
+      },
+      {
+        "key": "C",
+        "text": "60 WPM"
+      },
+      {
+        "key": "D",
+        "text": "250 WPM"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about what 'per minute' means",
+        "text": "The phrase 'words per minute' is a clue. It tells you that you need to find out how many words the clerk types in just one minute. That's a rate, not just a total."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the simple rate formula",
+        "text": "Whenever you see 'something per something', it's almost always a division problem. The formula is: Total Words divided by Total Minutes. That's it."
+      },
+      {
+        "rung": 3,
+        "title": "Plug the numbers into the formula",
+        "text": "You have 250 total words and 5 total minutes. So your calculation is 250 divided by 5. Take a moment to do that division in your head."
+      },
+      {
+        "rung": 4,
+        "title": "Check your result against the options",
+        "text": "250 divided by 5 equals 50. Look for the option that says 50 WPM. The other options are common mistakes: confusing total words with rate, or accidentally adding or subtracting 10."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Gross WPM is simply the total words typed divided by the total minutes spent typing. Here, 250 words divided by 5 minutes equals exactly 50 words per minute. No penalties or deductions are applied because the question asks for gross speed, not net speed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common error. You might have subtracted 10 from the correct answer, perhaps thinking there's a penalty for mistakes. But the question asks for gross speed, which doesn't subtract anything. Or you might have accidentally divided 250 by 6.25 instead of 5. Stick to the simple formula: total words divided by total minutes.",
+        "trap_type": "unwarranted_deduction_error"
+      },
+      "C": {
+        "text": "This answer is 10 more than the correct one. You might have added 10 to 50, or you might have misread the total words as 300 instead of 250. Double-check your numbers: the report is 250 words, and the time is 5 minutes. The correct division is 250 / 5 = 50.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "This is a classic trap. You reported the total number of words typed (250) instead of calculating the rate per minute. Remember, 'words per minute' means you must divide the total words by the total minutes. Don't just grab the first number you see.",
+        "trap_type": "total_vs_rate_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'per minute' or 'per hour', think 'divide the total by the time.' Gross speed means no penalties. Just total words divided by total minutes.",
+    "deconstruct_text": "Let's walk through this together. The question asks for gross typing speed in words per minute (WPM). The word 'per' is your signal to divide. So you take the total number of words typed, which is 250, and divide it by the total time in minutes, which is 5. That gives you 250 divided by 5 equals 50. So the clerk types 50 words every minute. That's your answer: 50 WPM. The other options are tempting if you rush. Option D is what you get if you just report the total words without dividing. Option B might come from thinking you need to subtract a penalty, but gross speed doesn't do that. Option C might come from a simple arithmetic slip, like adding instead of dividing. The key trick here is to always ask yourself: 'Am I finding a total or a rate?' If it's a rate, divide.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

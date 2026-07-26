@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-011",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "question_text": "Human Rights 1: RA 9262 addresses what?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cybercrime"
+      },
+      {
+        "key": "B",
+        "text": "Violence Against Women and Children"
+      },
+      {
+        "key": "C",
+        "text": "Drug abuse"
+      },
+      {
+        "key": "D",
+        "text": "Child labor"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is about matching a Philippine law number to its correct subject. Think of it like connecting a person's ID number to their name and job."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Each major Philippine law has a unique RA number. RA 9262 is famously known as the Anti-Violence Against Women and Their Children Act. If you remember '9262' and 'VAWC' together, you're set."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Cybercrime, drug abuse, and child labor are all serious issues, but each has its own separate law. RA 9262 is specifically about protecting women and children from violence."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct answer is the one that mentions both women and children together. The other options are covered by RA 10175 (cybercrime), RA 9165 (drugs), and RA 9231 (child labor). So RA 9262 must be about violence against women and children."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Cybercrime is a different beast entirely. It's covered by RA 10175, the Cybercrime Prevention Act of 2012. A smart student might pick this if they remember RA 9262 deals with a modern issue, but violence against women is a separate, older concern.",
+        "trap_type": "cybercrime_vs_vawc"
+      },
+      "B": {
+        "text": "Exactly right. RA 9262 is the Anti-Violence Against Women and Their Children Act of 2004. It's a landmark law that protects women and children from physical, sexual, psychological, and economic abuse.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Drug abuse is a major problem, but it's addressed by RA 9165, the Comprehensive Dangerous Drugs Act of 2002. A student might confuse this if they think RA 9262 sounds like a drug-related number, but the 9-2-6-2 pattern is actually a famous VAWC law.",
+        "trap_type": "drugs_vs_vawc"
+      },
+      "D": {
+        "text": "Child labor is a serious issue, but it's covered by RA 9231, which focuses on eliminating the worst forms of child labor. A student might pick this because both involve children, but RA 9262 specifically includes women and focuses on violence, not labor.",
+        "trap_type": "child_labor_vs_vawc"
+      }
+    },
+    "next_time_rule": "Think of '9-2-6-2' as a code: '9' for women (9 months of pregnancy), '2' for children (2 parents), '6' for violence (6 letters), '2' for the law (2nd major protection act). Or simply remember: RA 9262 = VAWC (Violence Against Women and Children).",
+    "blueprint_id": "Human Rights 1",
+    "deconstruct_text": "Let's break this down simply. The question asks what RA 9262 is about. The key is to know that every major Philippine law has a unique number. RA 9262 is the Anti-Violence Against Women and Their Children Act of 2004. Think of it as the law that says no one can hurt a woman or her children physically, emotionally, or financially. Now, the other options are real laws too, but they have different numbers. Cybercrime is RA 10175. Drug abuse is RA 9165. Child labor is RA 9231. So if you see RA 9262, your brain should instantly go to VAWC. A handy trick: the number 9262 has a '2' at the end, and 'women and children' has two groups. That's a quick mental hook to remember it.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

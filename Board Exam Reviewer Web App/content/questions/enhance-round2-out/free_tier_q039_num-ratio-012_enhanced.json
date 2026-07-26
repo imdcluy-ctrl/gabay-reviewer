@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-012",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "If 5 government employees can process 75 applications in 3 days, how many applications can 8 employees process in the same number of days?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "110"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "125"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Unit Rate First",
+        "text": "When you see a problem about groups doing work, always start by figuring out how much one person does. Here, 5 people handle 75 applications in 3 days. So how many does one person handle in those same 3 days?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Division",
+        "text": "Divide the total applications by the number of employees: 75 divided by 5. That gives you the output per employee for the 3-day period. Keep that number in mind."
+      },
+      {
+        "rung": 3,
+        "title": "Now Scale Up",
+        "text": "You now know each employee processes 15 applications in 3 days. If you have 8 employees instead of 5, just multiply that per-employee number by 8. That's all there is to it."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "15 times 8 equals 120. That's your answer. The other options come from adding the wrong amount or using a wrong multiplier. Trust the per-unit method."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "100 is a tempting guess. You might have thought to add 25 to the original 75, since 3 more employees were added. But that's not how direct proportion works. The correct increase is 45, not 25, because each new employee adds 15 applications, not 8.33.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "110 is a common arithmetic slip. Maybe you multiplied 15 by 7.33 by mistake, or added 35 to 75. There's no clean path to 110 from the given numbers, which is a clue that something went wrong in the calculation.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct. Each employee processes 15 applications in 3 days (75 divided by 5). With 8 employees, you get 15 times 8, which is 120. Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "125 is close but not quite right. You might have multiplied 75 by 8/5 and gotten 120, then accidentally added 5 more. Or you used 8.33 employees instead of 8. The exact answer is 120.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "In direct proportion problems with constant time, always find the per-person output first. That single number is your key to scaling up or down. Never add a random amount to the total.",
+    "blueprint_id": "Direct Proportion — Per-Unit Scaling",
+    "deconstruct_text": "Let's walk through this together. The problem tells us that 5 employees process 75 applications in 3 days. Since the number of days stays the same, we can focus entirely on the relationship between employees and applications. The first step is to find out how many applications one employee processes in those 3 days. That's 75 divided by 5, which equals 15. So each employee handles 15 applications. Now, if we have 8 employees, we just multiply 15 by 8 to get 120. That's it. The mental trick here is to always find the per-unit rate first. It turns a confusing word problem into a simple multiplication. Think of it like this: if you know how much one person earns in a day, you can easily figure out how much any number of people earn in the same time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-030",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A hose fills a tank at 30 liters per minute. Another hose fills at 50 liters per minute. What is the ratio of the first hose's rate to the second?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3:5"
+      },
+      {
+        "key": "B",
+        "text": "5:3"
+      },
+      {
+        "key": "C",
+        "text": "3:8"
+      },
+      {
+        "key": "D",
+        "text": "5:8"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Unahin ang pagsulat ng ratio",
+        "text": "Isulat ang rate ng unang hose sa pangalawa bilang 30:50. Ito ang unang hakbang."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang common factor",
+        "text": "Ang 30 at 50 ay parehong divisible ng 10. I-divide ang bawat isa sa 10."
+      },
+      {
+        "rung": 3,
+        "title": "I-simplify ang ratio",
+        "text": "30 ÷ 10 = 3, 50 ÷ 10 = 5. Kaya ang simplified ratio ay 3:5."
+      },
+      {
+        "rung": 4,
+        "title": "Tandaan ang tamang order",
+        "text": "Siguraduhing first to second ang ratio, hindi second to first. Ito ang susi para maiwasan ang maling sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. You wrote the ratio as first to second (30:50), then simplified by dividing both by 10 — clean and direct.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you flipped the order to second : first. Always follow the exact sequence as asked.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "You might have chosen C because you added rates to get total, then gave first:total. The question asks first:second only.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you gave second:total ratio. The question needs first:second, not second:sum.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "For ratio A to B, write A:B, simplify by dividing both by their GCD. Remember the order — first value to second value, not the reverse.",
+    "blueprint_id": "Simplifying Ratios — Flow Rates",
+    "deconstruct_text": "Sa barangay water station, may dalawang hose: una, 30 L/min; pangalawa, 50 L/min. Ratio ng una sa pangalawa? Isulat: 30:50. Hanapin ang GCD (10). Hatiin: 30÷10=3, 50÷10=5. Kaya 3:5. Option A.\n\nMental Trick: Isipin mo, 'Una sa pangalawa, simplify lang parang pagbabawas ng timbang — hatiin sa pinakamalaking common factor.' Kaya 30/50 nagiging 3/5. O, di ba, parang pagtitipid sa palengke, laging i-simplify para mas malinaw!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

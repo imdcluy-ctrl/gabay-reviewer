@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-030",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A hose fills a tank at 30 liters per minute. Another hose fills at 50 liters per minute. What is the ratio of the first hose's rate to the second?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3:5"
+      },
+      {
+        "key": "B",
+        "text": "5:3"
+      },
+      {
+        "key": "C",
+        "text": "3:8"
+      },
+      {
+        "key": "D",
+        "text": "5:8"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the basic setup",
+        "text": "The question asks for the ratio of the first hose's rate to the second. Write it down as first : second, using the numbers given: 30 : 50."
+      },
+      {
+        "rung": 2,
+        "title": "Look for a common factor",
+        "text": "Both 30 and 50 can be divided by the same number. What's the largest number that divides evenly into both? That's your greatest common divisor (GCD)."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the ratio",
+        "text": "Divide both terms by their GCD, which is 10. So 30 divided by 10 is 3, and 50 divided by 10 is 5. That gives you 3:5."
+      },
+      {
+        "rung": 4,
+        "title": "Check your answer",
+        "text": "The simplified ratio 3:5 means for every 3 liters from the first hose, the second hose delivers 5 liters. That matches option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "3:5 is correct. You wrote the ratio as first to second (30:50), then simplified by dividing both numbers by 10. Clean and straightforward.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "5:3 is a common slip. It looks like you swapped the order, giving the ratio of the second hose to the first instead. The question specifically asks for first to second, so keep the order as given.",
+        "trap_type": "inverted_ratio"
+      },
+      "C": {
+        "text": "3:8 might come from adding the rates together (30+50=80) and then comparing the first to that total (30:80 simplifies to 3:8). But the question asks for the ratio of the first to the second, not to the sum.",
+        "trap_type": "ratio_to_sum"
+      },
+      "D": {
+        "text": "5:8 could happen if you compared the second hose to the total (50:80 simplifies to 5:8) or mixed up the order and added. Either way, it's not the ratio of first to second.",
+        "trap_type": "ratio_to_sum_inverted"
+      }
+    },
+    "next_time_rule": "When a question asks for the ratio of A to B, write it exactly as A:B, then simplify by dividing both numbers by their greatest common divisor (GCD). Keep the order straight and you'll avoid the most common traps.",
+    "blueprint_id": "Simplifying Ratios — Flow Rates",
+    "deconstruct_text": "Let's walk through this together. The first hose fills at 30 liters per minute, and the second at 50 liters per minute. The question asks for the ratio of the first to the second. So we write it as 30:50. Now, to simplify, find the largest number that divides both 30 and 50 evenly. That's 10. Divide each term by 10: 30 divided by 10 is 3, and 50 divided by 10 is 5. So the simplified ratio is 3:5. That's option A.\n\nA quick mental trick: think of the ratio as a fraction. First over second is 30/50, which reduces to 3/5. That fraction form naturally keeps the order correct. If you ever feel unsure, just write it as a fraction first, then simplify, and convert back to ratio form.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

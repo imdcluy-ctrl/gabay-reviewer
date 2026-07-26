@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-007",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "If it rains, the ground gets wet. The ground is wet. Therefore, it rained. This reasoning is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valid"
+      },
+      {
+        "key": "B",
+        "text": "Sound"
+      },
+      {
+        "key": "C",
+        "text": "Fallacious (affirming consequent)"
+      },
+      {
+        "key": "D",
+        "text": "Modus Tollens"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Look closely at the structure: the argument says 'If this happens, then that happens.' Then it says 'That happened, so this must have happened.' Does that always hold true?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "In logic, when you have 'If P then Q,' and you know Q is true, you cannot automatically conclude P. There could be other reasons for Q. This error has a specific name."
+      },
+      {
+        "rung": 3,
+        "title": "Think of Real Life",
+        "text": "Imagine you see a wet sidewalk. Could it be wet from something other than rain? A sprinkler, a spilled bucket, or morning dew could also cause it. So the conclusion 'it rained' isn't certain."
+      },
+      {
+        "rung": 4,
+        "title": "Naming the Mistake",
+        "text": "This error is called 'affirming the consequent.' The consequent is the 'then' part (wet ground), and affirming it means assuming it proves the 'if' part (rain). That's a logical fallacy."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A valid argument means that if the premises are true, the conclusion absolutely must be true. But here, the conclusion doesn't have to be true—the ground could be wet for many other reasons. So this argument isn't valid.",
+        "trap_type": "logic_error"
+      },
+      "B": {
+        "text": "A sound argument is one that is both valid and has true premises. Since this argument isn't even valid, it can't possibly be sound. It's like calling a car 'fuel-efficient' when the engine doesn't even run.",
+        "trap_type": "logic_error"
+      },
+      "C": {
+        "text": "Correct. This is the classic fallacy of affirming the consequent. The argument assumes that because the effect (wet ground) is present, the cause (rain) must have occurred. But many things can cause wet ground, so the reasoning is flawed.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Modus Tollens is a different logical form. It goes: 'If P then Q. Not Q. Therefore not P.' Here, we have Q (wet ground) and we're concluding P (rain), which is the opposite pattern. So this isn't Modus Tollens.",
+        "trap_type": "logic_error"
+      }
+    },
+    "next_time_rule": "When you see 'If P then Q' and someone concludes P from Q, remember: the effect can have many causes. Don't assume the cause just because the effect is there. That's the affirming the consequent trap.",
+    "blueprint_id": "Conditional Logic — Affirming Consequent Fallacy",
+    "deconstruct_text": "Let's break this down in a way that sticks. The argument has a simple structure: It says 'If it rains, then the ground gets wet.' Then it says 'The ground is wet, so it must have rained.' The problem is that this reasoning assumes that rain is the only possible cause of wet ground. But that's not true—a sprinkler, a burst pipe, or even a car wash could leave the ground wet. So the conclusion isn't guaranteed.\n\nHere's a mental trick to remember this: Think of it like a one-way street. Rain causes wet ground, but wet ground doesn't necessarily mean rain. The arrow only goes one direction. When someone tries to reverse that arrow, they're committing the fallacy of affirming the consequent.\n\nIn exam conditions, quickly map out the logic: Identify P (the 'if' part) and Q (the 'then' part). If the argument gives you Q and concludes P, you've spotted the fallacy. The correct answer is always that the reasoning is fallacious, specifically affirming the consequent.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

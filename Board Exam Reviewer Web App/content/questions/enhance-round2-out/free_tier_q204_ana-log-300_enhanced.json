@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-300",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Workplace Compliance Conditional Logic Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Rule: 'All government employees who complete 10 years of continuous service receive a Loyalty Award.'\nFact: 'Juan is a government employee, but he did NOT receive a Loyalty Award.'\n\nWhich conclusion MUST be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan has not completed 10 years of continuous service."
+      },
+      {
+        "key": "B",
+        "text": "Juan was dishonorably discharged."
+      },
+      {
+        "key": "C",
+        "text": "Juan completed 12 years of service."
+      },
+      {
+        "key": "D",
+        "text": "Juan is an elective official."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the If-Then Pattern",
+        "text": "This rule is a classic 'if-then' statement. Can you see it? It says: IF a government employee completes 10 years, THEN they get the award. The fact tells us Juan didn't get the award. What does that tell you about the 'if' part?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule of 'If-Then'",
+        "text": "Here's the golden rule: When you have 'If P, then Q' and you know Q is false (the award wasn't given), then P must also be false. Think of it like a promise: 'If you study, you'll pass.' If someone didn't pass, you know for sure they didn't study. Same logic here."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule to Juan",
+        "text": "The rule promises: 10 years of service leads to an award. Juan didn't get the award. So, following our golden rule, what must be true about his service years? He couldn't have completed the full 10 years. That's the only thing we can say for certain."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Now look at the options. Which one says exactly that Juan hasn't served 10 years? That's your answer. The other options bring in ideas like dishonorable discharge or being an elective official, but the rule doesn't mention any of that. Stick only to what the rule and fact force to be true."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is the only conclusion that must be true. Since the rule says 10 years guarantees the award, and Juan didn't get it, he simply couldn't have reached 10 years. It's like a vending machine: if you put in the right coins, you get the snack. No snack means you didn't put in the right coins.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Not necessarily. The rule doesn't say anything about dishonorable discharge or any other reason for missing the award. You might be tempted to imagine reasons why someone wouldn't get an award, but the question only asks what must be true based on the given rule and fact. Don't add information that isn't there.",
+        "trap_type": "unsupported_speculation"
+      },
+      "C": {
+        "text": "This can't be true. If Juan had completed 12 years, he would have definitely completed 10 years, which means he should have received the award. But the fact says he didn't. So this option directly contradicts the given information.",
+        "trap_type": "rule_contradiction"
+      },
+      "D": {
+        "text": "Not necessarily. The rule applies to 'all government employees' with no exceptions mentioned. Assuming Juan is an elective official is just guessing. The rule doesn't carve out any special groups, so we can't use that as an explanation.",
+        "trap_type": "unsupported_speculation"
+      }
+    },
+    "next_time_rule": "When you see 'All X who do Y get Z,' think of it as a one-way promise: Y guarantees Z, but no Z means no Y. Never invent extra conditions or exceptions that aren't stated.",
+    "deconstruct_text": "Let's walk through this together. The rule is a straightforward promise: complete 10 years of service, get a Loyalty Award. Think of it like a coupon: 'Buy 10, get 1 free.' If you don't get the free item, you know you didn't buy 10. That's the core logic here.\n\nNow, the fact tells us Juan didn't get the award. So, using our coupon logic, he must not have completed 10 years. That's option A. It's the only thing we can say for sure.\n\nWhy are the other options wrong? Option B brings up dishonorable discharge, but the rule doesn't mention that. Option C says he completed 12 years, but if that were true, he'd have the award. Option D says he's an elective official, but again, the rule covers all government employees with no exceptions.\n\nThe mental trick here is the 'One-Way Promise Test.' When you have a rule that says 'If P, then Q,' and you know Q didn't happen, you can confidently say P didn't happen either. That's it. Don't overthink it, and don't add extra details. The exam wants you to see the simple logical connection, not imagine scenarios.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

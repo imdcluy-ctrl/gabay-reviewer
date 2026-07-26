@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-032",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'The memo was addressed ___ the department heads.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About the Verb's Partner",
+        "text": "Some verbs naturally pair with specific prepositions. The verb 'address' (when talking about sending a message or letter) has a favorite partner. Think about how you'd complete this sentence: 'The letter was addressed ___ me.'"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "When you direct a communication to someone, the correct preposition is always 'to'. It's a fixed pairing in English: 'addressed to' + person or group. You wouldn't say 'addressed for' or 'addressed at' someone."
+      },
+      {
+        "rung": 3,
+        "title": "Test It With Familiar Examples",
+        "text": "Imagine you're writing an envelope. What word goes between 'addressed' and the name? 'This package is addressed ___ John.' 'The email was addressed ___ the team.' The pattern is consistent every time."
+      },
+      {
+        "rung": 4,
+        "title": "You're Almost There",
+        "text": "The only preposition that fits naturally in all those examples is 'to'. So the memo was addressed 'to' the department heads. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mix-up. 'For' often indicates purpose or intention, like 'intended for the department heads.' But with the verb 'address,' the correct partner is 'to.' It's easy to confuse these because both can show direction, but English has a specific rule here.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "Exactly right. 'Addressed to' is the standard English idiom for directing a communication to someone. Think of it as the default pairing whenever you're talking about sending a message, memo, or letter to a recipient.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one trips people up because 'at' can indicate a target, like 'aimed at' or 'shouted at.' But when you're addressing a communication to someone, 'at' doesn't work. You might say 'addressed at the meeting' to mean 'spoke during the meeting,' but not for the recipient.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'In' is used for content or location, like 'addressed in the document' or 'addressed in the report.' But here, the blank needs the preposition that tells us who received the memo, not what was inside it. That's where 'to' comes in.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "When you see 'addressed' and need a preposition for the recipient, your brain should instantly go to 'to.' It's like a lock and key — 'addressed' always clicks with 'to.'",
+    "blueprint_id": "Prepositional Idioms — Addressed To",
+    "deconstruct_text": "Let's walk through this together. The sentence says the memo was 'addressed ___ the department heads.' The key is knowing that certain verbs in English have fixed preposition partners — we call these 'prepositional idioms.' The verb 'address,' when it means to direct a communication, always pairs with 'to.' So the memo was addressed 'to' the department heads. \n\nHere's a mental trick to lock this in: Picture yourself writing an envelope. You write 'To: Department Heads' on it, right? You'd never write 'For: Department Heads' or 'At: Department Heads.' That same logic applies here. Whenever you see 'addressed' and the recipient follows, just think of that envelope and the word 'to' will come naturally.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

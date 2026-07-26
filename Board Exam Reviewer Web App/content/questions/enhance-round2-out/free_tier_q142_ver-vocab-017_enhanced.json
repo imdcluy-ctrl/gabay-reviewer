@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-017",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'VERNACULAR'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formal language"
+      },
+      {
+        "key": "B",
+        "text": "Everyday language"
+      },
+      {
+        "key": "C",
+        "text": "Foreign language"
+      },
+      {
+        "key": "D",
+        "text": "Written language"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the root",
+        "text": "This word comes from the Latin 'vernaculus,' which means 'native' or 'domestic.' Think of something that belongs to a place and its people naturally."
+      },
+      {
+        "rung": 2,
+        "title": "Picture the scene",
+        "text": "Imagine how people talk at home, in the market, or with friends. That casual, natural way of speaking is what we're after. It's the opposite of how you'd speak in a formal speech or a courtroom."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate the opposites",
+        "text": "Look at the choices. Which ones feel stiff, official, or from somewhere else? Formal and foreign are clearly not it. Written is a possibility, but the core idea is about being common and spoken, not about being on paper."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "You're looking for the option that describes the language people use in their daily lives, not the language of books or official documents. The answer is the one that feels like 'home talk.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mix-up. Vernacular is actually the opposite of formal language. It's the relaxed, natural way people speak, not the stiff, proper version you'd find in a legal document or a graduation speech.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Exactly right. Vernacular is the everyday language that ordinary people use to chat, tell stories, and go about their lives. It's the language of the home and the street, not the academy.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a tempting wrong turn. Vernacular is actually native to a region, not foreign. It's the language that grows naturally in a place, like Tagalog in the Philippines or English in the UK.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "This one is tricky because vernacular can be written down, but that's not its defining feature. The heart of vernacular is that it's the everyday, informal speech of common folks. Written language can be formal or literary, which misses the point.",
+        "trap_type": "distractor"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'vernacular' comes from the Latin 'vernaculus,' meaning 'native' or 'domestic.' So right away, we know it's about something that belongs to a place and its people naturally. Think about how you talk when you're just hanging out with family or friends. That's vernacular. It's the casual, everyday language you use without thinking. Now, look at the options. 'Formal language' is the opposite of that. 'Foreign language' is from somewhere else, not native. 'Written language' can be anything from a poem to a legal contract, so it's too broad. That leaves 'everyday language,' which perfectly captures the idea of native, common speech. Here's a mental trick for next time: when you see 'vernacular,' immediately think 'the way people actually talk, not the way they write.'",
+    "next_time_rule": "When you see 'vernacular,' think 'home talk' or 'street talk.' It's the language of everyday life, not the language of formal occasions.",
+    "blueprint_id": "Vocabulary — Vernacular",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

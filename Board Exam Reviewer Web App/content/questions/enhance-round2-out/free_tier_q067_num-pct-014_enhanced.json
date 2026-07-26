@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-014",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A barangay's population increased from 3,000 to 3,600. What is the percentage increase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "18%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": "25%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Change",
+        "text": "Start by figuring out how much the population actually grew. Subtract the old number from the new one. That's your starting point."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule of Percent Change",
+        "text": "Here's the formula you'll use again and again: (Change / Original) times 100. The key is to always divide by the original, starting value, not the new one."
+      },
+      {
+        "rung": 3,
+        "title": "Plug In Your Numbers",
+        "text": "You found the change is 600. The original population is 3,000. So your fraction is 600 divided by 3,000. What does that equal as a decimal?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "600 divided by 3,000 gives you 0.2. Now just multiply that by 100 to turn it into a percentage. You're one step away from the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "15% is a tempting wrong turn. It often happens when someone accidentally divides the increase (600) by the new population (3,600) instead of the original. 600/3600 is about 16.7%, not 15%, so this might also come from a small arithmetic slip. The key is to always anchor on the original value.",
+        "trap_type": "base_confusion_original_vs_new"
+      },
+      "B": {
+        "text": "18% doesn't come from a clean calculation here. It might be a guess or a rounding error from a messy division. When you do it right, 600/3000 gives a clean 0.2, so there's no need to round. Trust the simple fraction.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! The increase is 600. Dividing that by the original 3,000 gives 0.2, and multiplying by 100% lands you at a clean 20%. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "25% is a common overestimate. It's what you'd get if the increase were 750 (since 25% of 3,000 is 750). But the actual increase is only 600. Another way people land here is by dividing 600 by 2,400, which is a made-up number. Stick with the original value as your denominator.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "For any percent change problem, remember this simple mantra: 'Change over Original, times 100.' Always divide by the starting point, not the ending point.",
+    "blueprint_id": "Percentage Increase — Population",
+    "deconstruct_text": "Let's walk through this together. The population went from 3,000 to 3,600, so the increase is 600 people. Now, the classic formula for percentage increase is: (Increase / Original) times 100%. The original is the starting number, which is 3,000. So we calculate 600 divided by 3,000. That fraction simplifies to 6/30, or 1/5, which is 0.2 as a decimal. Multiply 0.2 by 100%, and you get 20%. That's your answer. The mental trick here is to always ask yourself: 'What am I comparing this change to?' The answer is always the original, starting value. If you accidentally use the new value (3,600) as your base, you'd get a smaller percentage, which is a common trap. Keep your base straight, and these problems become automatic.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

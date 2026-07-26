@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-005",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'UBIQUITOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rare"
+      },
+      {
+        "key": "B",
+        "text": "Scarce"
+      },
+      {
+        "key": "C",
+        "text": "Everywhere"
+      },
+      {
+        "key": "D",
+        "text": "Hidden"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about presence and location. Think about how common or widespread something is. Does it describe something you see all the time, or something you rarely encounter?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Ubiquitous means present everywhere at the same time. A simple way to remember it: 'Ubi-' sounds like 'you be' — as in, 'you be everywhere.' If something is ubiquitous, you can't escape it."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Three of them describe things that are hard to find or not common. Only one describes something that is present in all places. Which one fits the idea of being everywhere?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct answer is the opposite of rare, scarce, and hidden. It's the word that means 'found in all places.' Think of something like air, or smartphones in a modern city — that's ubiquitous."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a common trap. 'Rare' means not common, which is the exact opposite of ubiquitous. A smart student might pick this if they think ubiquitous describes something special or noteworthy, but the word actually means it's everywhere, not hard to find.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Scarce' is another opposite. In economics, scarce resources are limited, but ubiquitous resources are abundant and available everywhere. If something is scarce, it's the opposite of being everywhere.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Ubiquitous means everywhere. Think of it this way: if something is ubiquitous, it's so common you can't avoid it. In the civil service, you might hear about 'ubiquitous technology' meaning tech that's present in every office.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Hidden' is the opposite of visible and present. Something ubiquitous is out in the open, seen everywhere. A student might confuse the sound of 'ubiquitous' with 'ubiquity' and think it means mysterious or concealed, but it's the exact opposite.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'ubiquitous,' think 'you be everywhere.' It's the opposite of rare, scarce, and hidden. If a word describes something hard to find, it's not ubiquitous.",
+    "blueprint_id": "Vocabulary — Ubiquitous",
+    "deconstruct_text": "Let's break this down simply. The word 'ubiquitous' comes from the Latin 'ubique,' which means 'everywhere.' So when you see it, your brain should immediately go to the idea of something being present in all places at once.\n\nNow, look at the options. Three of them — rare, scarce, and hidden — all describe things that are NOT everywhere. Rare means uncommon, scarce means limited, and hidden means concealed. These are all opposites of ubiquitous.\n\nThe only option that matches is 'everywhere.' That's it. No tricks, no hidden meanings.\n\nHere's a mental trick to lock this in: Think of the word 'ubiquitous' as 'you be everywhere.' Imagine someone saying, 'You be everywhere I go!' That's what ubiquitous means — something that's always around, no matter where you are.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

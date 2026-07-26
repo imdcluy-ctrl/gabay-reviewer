@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-014",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'EQUITABLE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unfair"
+      },
+      {
+        "key": "B",
+        "text": "Biased"
+      },
+      {
+        "key": "C",
+        "text": "Fair and just"
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about fairness. Think of the word 'equity' — it's a term you might hear in law or business, and it always points to balance and justice."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "When you see 'equitable,' remember the root 'equal.' Anything equitable treats people the same way, without playing favorites."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Which one describes treating everyone the same, without bias or unfairness? That's your match."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The answer is the one that means 'fair and just.' The other three all describe the opposite — unfairness, prejudice, or randomness."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to see 'unfair' and think it might be related, but it's actually the exact opposite. 'Equitable' means fair, so 'unfair' is a trap for anyone rushing through the options.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "If someone is biased, they're showing favoritism — the opposite of being equitable. This is another antonym trap that catches test-takers who don't pause to check the meaning.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Equitable' comes from 'equity,' which is all about fairness and justice. When something is equitable, it treats everyone the same way, without bias or unfairness.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Arbitrary' means based on random choice or whim, not on any rule of fairness. It's the opposite of equitable, which is grounded in justice and impartiality.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'equitable,' think 'equal treatment.' If an option suggests unfairness, bias, or randomness, it's the wrong path. Your mental shortcut: 'Equitable = Equal + Fair.'",
+    "blueprint_id": "Vocabulary — Equitable",
+    "deconstruct_text": "Let's break this down simply. The word 'equitable' comes from 'equity,' which is all about fairness and justice. Imagine a judge in court — they're supposed to be equitable, meaning they treat everyone the same, without bias. Now look at the options. 'Unfair' and 'biased' are clearly the opposite — they describe situations where someone is not treating people equally. 'Arbitrary' is a bit trickier; it means something is decided randomly, without any principle of fairness. That leaves 'fair and just,' which directly matches the meaning of equitable. Here's a mental trick to lock this in: whenever you see 'equitable,' think of the word 'equal.' Both share the idea of balance and impartiality. If an option suggests the opposite — unfairness, prejudice, or randomness — you know it's a trap.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

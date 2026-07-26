@@ -1,0 +1,54 @@
+id: ana-log-004
+subtopic: logical-reasoning
+category: analytical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["analogy", "word-relationships"]
+estimated_seconds: 60
+question_text: "LAWYER is to COURT as CIVIL SERVANT is to __?"
+options:
+  - key: A
+    text: "ELECTION"
+  - key: B
+    text: "AGENCY"
+  - key: C
+    text: "PLAINTIFF"
+  - key: D
+    text: "LAWSUIT"
+correct: B
+blueprint_id: "Analytical Ability — Verbal Analogies (Workplace Association)"
+hint_ladder:
+  - rung: 1
+    title: "Determine Relationship"
+    text: "A lawyer performs official duties in a court."
+  - rung: 2
+    title: "Apply Relationship to Second Term"
+    text: "Where does a civil servant perform official duties?"
+  - rung: 3
+    title: "Evaluate Options"
+    text: "A civil servant performs official duties in a government agency."
+  - rung: 4
+    title: "Confirm Option B"
+    text: "Lawyer : Court :: Civil Servant : Agency."
+deconstruct_text: |
+  Analogy type: Profession : Primary Workplace
+  Lawyer works in Court.
+  Civil Servant works in Government Agency.
+choice_explanations:
+  A:
+    text: "Refers to a process, not a primary workplace."
+    trap_type: process_vs_place_error
+  B:
+    text: "Correct! An agency is the primary workplace of a civil servant."
+    trap_type: null
+  C:
+    text: "Refers to a party in a court case, not a workplace."
+    trap_type: role_confusion
+  D:
+    text: "Refers to a legal action, not a workplace."
+    trap_type: object_confusion
+next_time_rule: "Identify the exact relationship (profession to workplace) in the first pair before picking the answer."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Verbal Analogy"

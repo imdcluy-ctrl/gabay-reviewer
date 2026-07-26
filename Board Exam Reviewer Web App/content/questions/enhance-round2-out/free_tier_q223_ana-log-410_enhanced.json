@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-410",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "To qualify for the DILG Seal of Good Local Governance, an LGU must meet all of the following conditions: (1) pass the local governance performance assessment, (2) have no adverse COA audit opinion for the past two years, and (3) comply with the full disclosure policy. Which LGU qualifies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "LGU A passed the assessment, had an adverse COA opinion two years ago but not last year, and complies with disclosure."
+      },
+      {
+        "key": "B",
+        "text": "LGU B passed the assessment, had no adverse COA opinion for two years, but does not comply with disclosure."
+      },
+      {
+        "key": "C",
+        "text": "LGU C passed the assessment, had no adverse COA opinion for two years, and complies with disclosure."
+      },
+      {
+        "key": "D",
+        "text": "LGU D did not pass the assessment, had no adverse COA opinion, and complies with disclosure."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think of this like a checklist with three boxes that all need to be ticked. If even one box is left unchecked, the LGU doesn't qualify. Your job is to find the one option where every single box is ticked."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The three conditions are: (1) passed the assessment, (2) no adverse COA opinion in the last two years, and (3) complies with full disclosure. All three must be true at the same time. It's an 'and' situation, not an 'or'."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Go through each LGU one by one. For LGU A, check condition 2 carefully: an adverse opinion two years ago means the 'past two years' requirement is broken. For LGU B, condition 3 is missing. For LGU D, condition 1 fails. Only one LGU has no failures."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "You're looking for the LGU that passes the assessment, has a clean COA record for both of the last two years, and follows the disclosure policy. That's LGU C. All three conditions are satisfied without exception."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one trips up a lot of people. You might think, 'Well, the adverse opinion was two years ago, not last year, so maybe it's okay?' But the rule says 'no adverse opinion for the past two years.' That means both years must be clean. An adverse opinion two years ago breaks the rule, even if last year was fine. So LGU A fails condition 2.",
+        "trap_type": "time_frame_misinterpretation"
+      },
+      "B": {
+        "text": "LGU B looks good at first glance: passed the assessment, clean COA record. But it doesn't comply with the full disclosure policy. That's a hard stop. All three conditions must be met, not just two out of three. Missing even one disqualifies you.",
+        "trap_type": "condition_omission"
+      },
+      "C": {
+        "text": "This is the one. LGU C checks all three boxes: passed the assessment, no adverse COA opinion for the past two years, and complies with full disclosure. No missing pieces, no technicalities. It qualifies.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "LGU D has a clean COA record and follows disclosure, but it didn't pass the assessment. That's the first and most basic requirement. Without passing the assessment, nothing else matters. It's like acing the interview but failing the entrance exam.",
+        "trap_type": "condition_failure"
+      }
+    },
+    "deconstruct_text": "Let's walk through this like a simple checklist. The rule says an LGU needs all three conditions to be true. Think of it as three gates you must pass through. If any gate is closed, you're out.\n\nStart with LGU A: It passed the assessment (gate 1 open). It had an adverse COA opinion two years ago. The rule says 'no adverse opinion for the past two years.' That means both the most recent year and the year before that must be clean. An adverse opinion two years ago means the second year is dirty. So gate 2 is closed. LGU A is disqualified.\n\nLGU B: Passed assessment (gate 1 open). No adverse opinion for two years (gate 2 open). But it doesn't comply with full disclosure (gate 3 closed). Disqualified.\n\nLGU C: Passed assessment (gate 1 open). No adverse opinion for two years (gate 2 open). Complies with full disclosure (gate 3 open). All gates open. This LGU qualifies.\n\nLGU D: Didn't pass the assessment (gate 1 closed). Disqualified immediately.\n\nHere's a mental trick for next time: When you see a list of conditions that all must be true, imagine each condition as a light switch that must be turned on. If even one switch is off, the whole system fails. Go through each option and check every switch. The only correct answer is the one where all switches are on.",
+    "next_time_rule": "When a rule says 'all of the following conditions must be met,' treat it like a strict checklist. One failure anywhere means the whole thing fails. Go through each option and check every condition one by one. The correct answer is the one where nothing is missing.",
+    "blueprint_id": "B-1773",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

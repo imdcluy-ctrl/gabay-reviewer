@@ -1,0 +1,53 @@
+id: gen-const-001
+subtopic: philippine-constitution
+category: general-info
+difficulty: 2
+is_free: true
+language: en
+tags: ["philippine-constitution", "bill-of-rights"]
+estimated_seconds: 60
+question_text: "According to Article III (Bill of Rights) of the 1987 Philippine Constitution, no person shall be deprived of life, liberty, or property without __?"
+options:
+  - key: A
+    text: "due process of law"
+  - key: B
+    text: "presidential approval"
+  - key: C
+    text: "written authorization"
+  - key: D
+    text: "judicial warrant"
+correct: A
+blueprint_id: "1987 Philippine Constitution — Article III Section 1 Due Process Clause"
+hint_ladder:
+  - rung: 1
+    title: "Recall Constitutional Article"
+    text: "This is Section 1 of the Bill of Rights (Article III)."
+  - rung: 2
+    title: "Identify Fundamental Guarantee"
+    text: "It guarantees fundamental protection against arbitrary government action."
+  - rung: 3
+    title: "Complete the Clause"
+    text: "'...without due process of law, nor shall any person be denied the equal protection of the laws.'"
+  - rung: 4
+    title: "Select Option A"
+    text: "Option A is 'due process of law'."
+deconstruct_text: |
+  1987 Constitution Article III Section 1:
+  'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'
+choice_explanations:
+  A:
+    text: "Correct! Verbatim text of Article III Section 1 Due Process Clause."
+    trap_type: null
+  B:
+    text: "Irrelevant. Executive approval cannot override constitutional due process."
+    trap_type: branch_confusion
+  C:
+    text: "Vague administrative term not found in Section 1."
+    trap_type: administrative_distractor
+  D:
+    text: "Refers to Section 2 (Search and Seizure), not Section 1."
+    trap_type: section_confusion
+next_time_rule: "Article III Section 1 guarantees due process of law before deprivation of life, liberty, or property."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "1987 Philippine Constitution Article III Section 1"

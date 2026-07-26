@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-005",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Simplify: 24 + (8 - 3) x 2",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "34"
+      },
+      {
+        "key": "C",
+        "text": "38"
+      },
+      {
+        "key": "D",
+        "text": "58"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Follow Order of Operations (PEMDAS)",
+        "text": "Parentheses first, then multiplication/division, then addition/subtraction. Don't add 24 before multiplying."
+      },
+      {
+        "rung": 2,
+        "title": "Simplify Inside Parentheses",
+        "text": "Compute (8 - 3) = 5. The expression becomes 24 + 5 × 2."
+      },
+      {
+        "rung": 3,
+        "title": "Perform Multiplication Before Addition",
+        "text": "5 × 2 = 10. Now the expression is 24 + 10."
+      },
+      {
+        "rung": 4,
+        "title": "Add to Get the Final Answer",
+        "text": "24 + 10 = 34. So the simplified result is 34."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you ignored the operations and took only 24. Remember: solve the full expression with PEMDAS.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "Correct. First, (8-3)=5, then 5×2=10, and finally 24+10=34.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you incorrectly combined numbers: perhaps 24+8=32, then 32+6=38, forgetting the subtraction.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you calculated left-to-right: 24+8=32, 32-3=29, 29×2=58, but multiplication comes first.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Tandaan: Sundin ang PEMDAS—Parentheses muna, tapos Multiply/Divide bago Add/Subtract. Huwag mag-left-to-right nang pabaya!",
+    "blueprint_id": "Parentheses and Multiplication",
+    "deconstruct_text": "Sa palengke, si Aling Nena ay may 24 pirasong paninda. Kinuha niya ang 8 kahon, binawasan ng 3, at dodoblehin ang dami. Ang matematika: 24 + (8 - 3) × 2.\n\nSundin ang order: Unahin ang Parentheses: (8 - 3) = 5. Kaya naging 24 + 5 × 2. Pagkatapos, Multiplication muna bago Addition: 5 × 2 = 10. Saka i-add: 24 + 10 = 34. Kaya ang tamang bilang ay 34 piraso.\n\n**Watch-Out Zone: order_of_operations_error** in action. Adding first gives 58, but mul...\n\nMental Trick: Tandaan ang PEMDAS bilang 'Pakiusap, Eksaktong Mag-DasAl Sagot' — Parentheses, Eksponents, Multiply/Divide, Add/Subtract. Laging unahin ang nasa loob ng parentheses at multiplication bago mag-add.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

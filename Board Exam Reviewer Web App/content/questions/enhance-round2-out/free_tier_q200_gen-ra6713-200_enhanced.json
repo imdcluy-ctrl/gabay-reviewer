@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-200",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Norms of Conduct Case Scenario Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A public officer consistently prioritizes processing official documents for relatives ahead of other citizens waiting in line. Which norm of conduct under RA 6713 is VIOLATED?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Justness and Sincerity"
+      },
+      {
+        "key": "B",
+        "text": "Commitment to Public Interest"
+      },
+      {
+        "key": "C",
+        "text": "Political Neutrality"
+      },
+      {
+        "key": "D",
+        "text": "Simple Living"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This question is about the specific norms of conduct listed in RA 6713. Each norm covers a different aspect of a public officer's behavior. Think about which norm directly addresses fairness and equal treatment of citizens."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the simple rule",
+        "text": "RA 6713's norm of 'Justness and Sincerity' is the one that requires public officers to serve all citizens with fairness, objectivity, and without favoritism or nepotism. It's the 'fair play' rule for government service."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule here",
+        "text": "The officer is giving relatives special treatment by jumping them ahead of others in line. That's the textbook definition of favoritism and nepotism. Now ask yourself: which norm specifically prohibits that? It's not about politics, lifestyle, or even general public interest - it's about being fair and just to everyone."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly there",
+        "text": "You're looking for the norm that says 'treat everyone equally, no special favors for family or friends.' That's 'Justness and Sincerity.' The other options are about different things: Commitment to Public Interest is about putting the public good above personal gain, Political Neutrality is about staying out of partisan politics, and Simple Living is about living modestly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Justness and Sincerity' under RA 6713 is the norm that requires public officers to serve all citizens with fairness, objectivity, and without nepotism or favoritism. By prioritizing relatives, the officer is violating this specific duty to be just and sincere in serving the public.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a tempting choice because favoritism does hurt the public interest. But 'Commitment to Public Interest' is a broader norm about prioritizing the public good over personal gain. The specific act of giving preferential treatment to relatives is most directly a violation of 'Justness and Sincerity,' which explicitly prohibits nepotism and favoritism. Think of it this way: 'Commitment to Public Interest' is about what you prioritize, while 'Justness and Sincerity' is about how you treat people.",
+        "trap_type": "norm_definition_confusion"
+      },
+      "C": {
+        "text": "It's easy to mix up norms, but 'Political Neutrality' is specifically about avoiding partisan political activities while on duty. It has nothing to do with how you treat citizens in line. The officer isn't favoring relatives because of their political affiliation - they're just giving family members special treatment, which is a fairness issue.",
+        "trap_type": "norm_definition_confusion"
+      },
+      "D": {
+        "text": "This one might seem unrelated, and that's because it is. 'Simple Living' is about public officers living modestly and avoiding extravagant displays of wealth. It doesn't address how services are delivered to citizens. The officer's actions are about unfair treatment, not about lifestyle choices.",
+        "trap_type": "norm_definition_confusion"
+      }
+    },
+    "next_time_rule": "When you see a public officer giving special treatment to relatives or friends, immediately think 'Justness and Sincerity.' That's the norm that covers fairness, objectivity, and the prohibition of nepotism. Remember the 'Who vs. What' test: ask yourself if the violation is about who gets treated unfairly (Justness and Sincerity) versus what the officer prioritizes (Commitment to Public Interest).",
+    "deconstruct_text": "Let's walk through this together. The key here is to match the specific action to the specific norm. The officer is giving relatives preferential treatment - that's favoritism, and it's a form of nepotism. Now, RA 6713 lists several norms of conduct for public officials. 'Justness and Sincerity' is the one that directly addresses this because it requires officers to serve all citizens with fairness and objectivity, without showing favoritism. Think of it as the 'equal treatment' rule. The other norms cover different areas: 'Commitment to Public Interest' is about prioritizing the public good over personal benefit, 'Political Neutrality' is about staying out of partisan politics, and 'Simple Living' is about living modestly. None of those directly address the act of giving relatives special treatment in service delivery. So the violated norm is clearly 'Justness and Sincerity.' Here's a mental trick for next time: when you see a scenario involving unfair treatment or nepotism, your first instinct should be to check 'Justness and Sincerity.' It's the fairness norm.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

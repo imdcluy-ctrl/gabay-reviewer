@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-006",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal office's budget of P800,000 was reduced by 15% due to austerity measures. What is the new budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P640,000"
+      },
+      {
+        "key": "B",
+        "text": "P660,000"
+      },
+      {
+        "key": "C",
+        "text": "P680,000"
+      },
+      {
+        "key": "D",
+        "text": "P720,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the big idea",
+        "text": "When a number is reduced by a percentage, you're not just taking away that percentage of the original. You're finding what's left after the cut. Think of it like this: if you lose 15% of your salary, you keep 85% of it."
+      },
+      {
+        "rung": 2,
+        "title": "The simple formula",
+        "text": "For any percentage decrease, the new amount equals the original amount multiplied by (1 minus the percentage as a decimal). So here, it's P800,000 times (1 minus 0.15)."
+      },
+      {
+        "rung": 3,
+        "title": "Apply it step by step",
+        "text": "First, figure out how much 15% of P800,000 is. That's 0.15 times 800,000, which equals P120,000. That's the amount being cut. Then subtract that from the original budget."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "You've got the reduction amount: P120,000. Now just do the subtraction: P800,000 minus P120,000. What number do you land on? That's your new budget."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P640,000. This is a common slip where someone accidentally uses a 20% reduction instead of 15%. Maybe you thought '15% off' meant multiplying by 0.80? That would be a 20% cut. The correct multiplier for a 15% reduction is 0.85, not 0.80.",
+        "trap_type": "wrong_percentage_rate"
+      },
+      "B": {
+        "text": "P660,000. This one is a bit tricky. It looks like someone subtracted P140,000 instead of P120,000. That could happen if you miscalculated 15% of 800,000 as 140,000 (maybe by mixing up 15% with 17.5%). Always double-check your multiplication: 15% of 800,000 is exactly 120,000.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "P680,000. You've got it. The reduction is 15% of P800,000, which is P120,000. Subtract that from the original, and you're left with P680,000. Another way to see it: you're keeping 85% of the budget, and 85% of 800,000 is 680,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P720,000. This happens when someone uses a 10% reduction instead of 15%. Maybe you thought '15%' was actually 10%? Or you accidentally multiplied by 0.90 instead of 0.85. A 10% cut would leave 90% of the budget, which is P720,000. But the problem says 15%, so the cut is bigger.",
+        "trap_type": "wrong_percentage_rate"
+      }
+    },
+    "next_time_rule": "For any percentage decrease, think 'what percentage am I keeping?' If it's a 15% cut, you're keeping 85%. Multiply the original by 0.85 directly. That's faster than calculating the reduction and subtracting.",
+    "blueprint_id": "Percentage Decrease — Budget Reduction",
+    "deconstruct_text": "Let's walk through this together. The original budget is P800,000, and it's being reduced by 15%. The key is to figure out exactly how much that 15% represents. Take 15% of 800,000: that's 0.15 times 800,000, which equals P120,000. So the austerity measure cuts P120,000 from the budget. Now subtract: P800,000 minus P120,000 gives you P680,000. That's your answer. Here's a mental shortcut you can use next time: instead of doing two steps, just multiply the original by the percentage you're keeping. Since you're cutting 15%, you're keeping 85%. So 800,000 times 0.85 equals 680,000. Same result, one quick calculation. This trick works for any percentage decrease—just subtract the percentage from 100% and multiply.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

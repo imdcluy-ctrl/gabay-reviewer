@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-032",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'The memo was addressed ___ the department heads.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang partner ng verb",
+        "text": "Ang verb na 'address' kapag tungkol sa pagpapadala, laging may ka-pair na preposition. Try mo: 'The letter was addressed ___ me.' Anong salita ang ..."
+      },
+      {
+        "rung": 2,
+        "title": "Ang simpleng tuntunin",
+        "text": "Kapag tinutukoy mo ang tatanggap ng communication, 'to' ang tamang preposition. Hindi 'for' o 'at'. Ito'y fixed expression: 'addressed to'."
+      },
+      {
+        "rung": 3,
+        "title": "Subukan sa pamilyar na halimbawa",
+        "text": "Isipin mong sumusulat ka ng sobre. Lagi mong isinusulat 'To: Juan'. Ganun din sa memo — 'addressed to the department heads'."
+      },
+      {
+        "rung": 4,
+        "title": "Malapit ka na!",
+        "text": "Ang tanging natural na preposisyon sa lahat ng halimbawa ay 'to'. Kaya sagot: addressed to."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'for' can show intention, but with 'addressed', the correct partner is 'to'.",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "Correct. 'Addressed to' is the idiomatic pair directing communication to the recipient.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'at' can indicate target, but it's not used for recipients of a message.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'in' shows location/content, but here we need who receives the memo.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Pag nakita ang 'addressed' at may recipient, isigaw sa isip: 'To!' Parang sobre, 'addressed to' lagi.",
+    "blueprint_id": "Prepositional Idioms — Addressed To",
+    "deconstruct_text": "Isipin mo nasa opisina ka ng barangay. May memo kang kailangan ipadala sa lahat ng department heads tungkol sa budget meeting. Sinusulat mo: 'The memo was addressed ___ the department heads.' Yung tamang partner ng verb na 'address' ay 'to' kaya 'addressed to' ang da...\n\nMadaling tandaan: Isipin mo 'yung sobreng susulatan mo. Sa harap, nagsusulat ka ng 'To:' tapos pangalan ng tatanggap. Hindi 'For:' o 'At:' di ba? Kaya tuwing may 'addressed' at susunod ang recipient, i-recall mo lang 'yung sobre — 'addressed to' lagi.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

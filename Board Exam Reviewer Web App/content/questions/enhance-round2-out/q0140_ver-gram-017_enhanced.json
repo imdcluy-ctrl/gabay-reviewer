@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-017",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The data shows a significant trend."
+      },
+      {
+        "key": "B",
+        "text": "The data show a significant trend."
+      },
+      {
+        "key": "C",
+        "text": "The data have show a trend."
+      },
+      {
+        "key": "D",
+        "text": "The data are show a trend."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Plural ba si 'data'?",
+        "text": "Sa formal English, plural ang 'data' — parang 'mga datos.' Kaya kailangan plural din ang verb."
+      },
+      {
+        "rung": 2,
+        "title": "Verb na dapat: show o shows?",
+        "text": "Plural verb = show, singular = shows. Quiz: Tama ba 'facts shows'? Hindi. Gano'n din dito."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate agad ang C at D",
+        "text": "'Have show' at 'are show' — hindi ito tamang English. Walang ganitong construction, kaya tanggalin na."
+      },
+      {
+        "rung": 4,
+        "title": "Final answer: B, 'data show'",
+        "text": "Kung 'data' ay plural, kailangan 'show.' Kaya 'The data show a significant trend' ang tama. Isipin mo 'facts show'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because in casual talk, 'data shows' is common. But in formal writing, 'data' is plural, so 'show' is needed.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Data' is plural, so the plural verb 'show' matches. Like saying 'The facts show a trend.'",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because it uses 'have,' but 'have show' is an invalid verb form; correct is 'have shown.'",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D because 'are' sounds like a plural, but 'are show' is ungrammatical — no such tense.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "Pag nakita mo 'data' sa exam, isipin 'mga impormasyon.' Plural yan, kaya gamit 'show,' hindi 'shows'.",
+    "blueprint_id": "Subject-Verb — Data (Plural)",
+    "deconstruct_text": "Let's break this down, para klaro. Halimbawa, nag-co-collect kayo ng data sa jeepney fare changes sa inyong barangay. Ang 'data' ay plural — ibig sabihin, maraming piraso ng impormasyon. Ang singular nito ay 'datum,' pero bihira gamitin.\n\nKaya kung plural ang subject, dapat plural din ang verb. Sa kasong ito, 'show' ang plural na anyo, habang 'shows' ay singular. Ibig sabihin, 'The data show a trend' — parang sinasabi mong 'The facts show a trend.' Tama yan.\n\nTingnan natin ang options. Option C 'have show' at D 'are show' — parehong mali agad. Walang ganitong tense sa English. So tanggalin na sila, dalawa na lang io-overthink mo.\n\nNow, between A and B: A gumamit ng 'shows,' so singular verb, hindi tugma sa plural na 'data.' Akala ng marami okay lang kasi sa casual talk, pero sa exam, mali. B ang tama — 'data show' ang dapat. Kaya B ang sagot.\n\nMental trick: Isipin mo, replace 'data' with 'mga datos' or 'facts.' Sasabihin mo ba 'facts shows'? Hindi 'di ba? Dapat 'facts show.' Ganoon din sa 'data.' Plural yan, promise.\n\n**Watch-Out Zone: subject_verb_agreement_misled** in action. Data shows is common trap;...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-008",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'Only citizens aged 18 and above may vote.' Juan is 20 years old and a citizen. Therefore:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan may vote."
+      },
+      {
+        "key": "B",
+        "text": "Juan may not vote."
+      },
+      {
+        "key": "C",
+        "text": "Cannot be determined."
+      },
+      {
+        "key": "D",
+        "text": "Juan must register first."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the rule's conditions",
+        "text": "The rule gives two requirements for voting: being a citizen AND being at least 18 years old. Both must be true for the rule to say 'may vote.' Think of it like a checklist with two items."
+      },
+      {
+        "rung": 2,
+        "title": "Check Juan against the checklist",
+        "text": "Now look at Juan's details. He is a citizen, so that's one check. He is 20 years old, which is above 18, so that's another check. Both boxes are ticked."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule directly",
+        "text": "When both conditions are satisfied, the rule's conclusion follows automatically. No extra steps, no hidden requirements. The rule says 'may vote,' and Juan meets the criteria."
+      },
+      {
+        "rung": 4,
+        "title": "Spot the correct match",
+        "text": "Option A directly says 'Juan may vote,' which is exactly what the rule concludes. The other options either deny the obvious, create doubt where there is none, or add conditions the rule never mentioned."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is correct. The rule sets two conditions: citizenship and age 18 or above. Juan satisfies both, so the rule clearly permits him to vote. No further information is needed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "A smart student might pick this if they misread the rule or thought Juan was too young. But Juan is 20, well above 18, and a citizen. The rule says 'may vote' when both conditions are met, so this option contradicts the given facts.",
+        "trap_type": "condition_negation_error"
+      },
+      "C": {
+        "text": "This is tempting if you think there might be hidden rules or exceptions. But the question gives you everything you need. Both conditions are clearly satisfied, so there is no ambiguity. The answer is definite, not uncertain.",
+        "trap_type": "false_ambiguity"
+      },
+      "D": {
+        "text": "You might choose this if you're thinking about real-world voting processes where registration is required. But the rule in this question only mentions citizenship and age. Adding registration is bringing in outside information that the rule doesn't require. Stick to what's given.",
+        "trap_type": "extraneous_condition"
+      }
+    },
+    "next_time_rule": "When a rule gives clear conditions, treat it like a simple checklist. If all boxes are ticked, the conclusion follows. Don't add extra steps or create doubt where none exists.",
+    "blueprint_id": "Conditional Logic — Sufficient Conditions",
+    "deconstruct_text": "Let's walk through this together. The rule says: 'Only citizens aged 18 and above may vote.' This is a conditional statement that sets two conditions that must both be true: you must be a citizen, and you must be at least 18 years old. Think of it as an 'AND' gate — both inputs need to be 'yes' for the output to be 'yes.'\n\nNow, look at Juan. He is a citizen — condition one is met. He is 20 years old — condition two is met. Since both conditions are satisfied, the rule's conclusion applies: Juan may vote. It's that straightforward.\n\nHere's a mental trick for exam day: When you see a rule with conditions, imagine a simple two-step checklist. Ask yourself: 'Does Juan meet condition 1? Yes. Does he meet condition 2? Yes.' If both answers are yes, the conclusion is automatic. Don't overthink it. Don't add requirements the rule never mentions. Just check the boxes and move on.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

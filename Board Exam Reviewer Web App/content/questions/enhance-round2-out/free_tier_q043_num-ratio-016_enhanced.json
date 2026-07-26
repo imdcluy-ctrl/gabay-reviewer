@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-016",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A cleaning solution is made by mixing bleach and water in a ratio of 1:9. If you need 5 liters of bleach, how many liters of water should you add?",
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "50"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a ratio problem. The ratio 1:9 tells you the relationship between bleach and water. Think of it like a recipe: for every 1 cup of bleach, you need 9 cups of water."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In a part-to-part ratio like this, the second number tells you how many parts of water go with each part of bleach. So water is always 9 times the amount of bleach."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "You have 5 liters of bleach. Since water is 9 times that, just multiply: 5 times 9. That gives you the exact liters of water needed."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "5 times 9 is 45. So you need 45 liters of water. That's option C. Just be careful not to add the bleach to the water unless the question asks for the total solution."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "35 might seem plausible if you accidentally used 7 as the multiplier instead of 9. Maybe you thought the ratio was 1:7 or just miscalculated. But the ratio clearly says 1:9, so water must be 9 times the bleach.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "40 is a common mistake if you use 8 as the multiplier instead of 9. Perhaps you confused the ratio with 1:8 or just slipped up. Remember, the second number in the ratio is your multiplier.",
+        "trap_type": "wrong_multiplier"
+      },
+      "C": {
+        "text": "Correct! Since the ratio is 1 part bleach to 9 parts water, you multiply the 5 liters of bleach by 9 to get 45 liters of water. Simple and clean.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "50 is a tricky one. You might have added the bleach to the water (5 + 45 = 50), which gives the total solution volume, not just the water. The question specifically asks for water only, so don't add them together.",
+        "trap_type": "total_solution_confusion"
+      }
+    },
+    "next_time_rule": "In a part-to-part ratio like 1:9, the second number is your multiplier. Just multiply the given quantity by that number to find the other part. Only add them if the question asks for the total.",
+    "blueprint_id": "Mixture Ratios — Bleach and Water Solution",
+    "deconstruct_text": "Let's walk through this together. The ratio 1:9 means for every 1 part bleach, you need 9 parts water. Think of it as a simple recipe: bleach and water are in a 1-to-9 relationship. So if you have 5 liters of bleach, water must be 9 times that amount. Multiply: 5 times 9 equals 45 liters. That's your answer. Now, why might someone pick the wrong options? Option A (35) and B (40) come from using the wrong multiplier—7 or 8 instead of 9. It's an easy slip under pressure. Option D (50) is a classic trap: you might accidentally add the bleach to the water (5 + 45) and get the total solution, but the question only asks for water. The key trick here is to always identify which part of the ratio you're given, then multiply by the other part's number. Don't add unless they ask for the total mixture.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

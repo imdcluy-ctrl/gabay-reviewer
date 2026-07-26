@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-028",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'By the time the manager arrived, the staff ___ the reports.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "already finish"
+      },
+      {
+        "key": "B",
+        "text": "already finished"
+      },
+      {
+        "key": "C",
+        "text": "have already finished"
+      },
+      {
+        "key": "D",
+        "text": "had already finished"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin ang Timeline",
+        "text": "Sa barangay hall, bago pumasok si Kap, tapos na reports. So dalawang nakaraan: nauna ang tapos, sumunod ang dating."
+      },
+      {
+        "rung": 2,
+        "title": "Past Perfect = 'Past Before the Past'",
+        "text": "Kapag may mas naunang aksyon sa nakaraan, gamitin ang past perfect: 'had' + past participle (e.g., 'had finished')."
+      },
+      {
+        "rung": 3,
+        "title": "Hanapin ang Naunang Aksyon",
+        "text": "Ang blank ay tungkol sa pagtapos ng reports bago ang dating ni Kap. Kaya 'had already finished' ang tamang tense."
+      },
+      {
+        "rung": 4,
+        "title": "I-eliminate ang Mali",
+        "text": "A: 'finish' present. B: 'finished' simple past. C: 'have finished' present perfect. D: 'had finished' past perfect—ito tamang 'past before the past'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'finish' seems simple, but the timeline is past—present tense doesn't fit here.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "B": {
+        "text": "You might have chosen B because 'finished' sounds past, but simple past can't show which action came first.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "C": {
+        "text": "You might have chosen C because 'have finished' is familiar, but it's present perfect, not the earlier past needed.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "Correct. 'Had already finished' uses past perfect to show the reports were done before the manager arrived.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "When you see 'by the time' + past event, the earlier action must be past perfect: 'had' + past participle. Think of it as the 'past before the past' signal.",
+    "blueprint_id": "Tense Consistency — Past Perfect",
+    "deconstruct_text": "Isipin mo ang isang araw sa barangay hall. Bago dumating si Kap, tapos na ng staff lahat ng reports—expert mode na sila. So ang timeline: nauna ang tapos ng reports, sumunod ang dating ni Kap. Ibig sabihin, may naunang pangyayari sa nakaraan.\n\nKaya kailangan mo ng 'past perfect': 'had' + past participle. Dito, 'had already finished.' Kapag 'by the time' ang nakita mo sa past sentence, automatic dapat maisip mo 'had + V3.' Yung iba—'finish,' 'finished,' 'have finished'—kulang sila. Parang jeepney na walang ...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

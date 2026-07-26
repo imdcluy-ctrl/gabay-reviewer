@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-012",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The applicant must be proficient ___ both English and Filipino.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tamang Preposition?",
+        "text": "Ang adjective na 'proficient' ay laging sinusundan ng 'in' kapag wika o subject, tulad ng 'proficient in Filipino'."
+      },
+      {
+        "rung": 2,
+        "title": "Sagot sa Tanong",
+        "text": "Ang tamang sagot ay 'in' kaya ang buong sentence: 'The applicant must be proficient in both English and Filipino.'"
+      },
+      {
+        "rung": 3,
+        "title": "Bakit Hindi B, C, D?",
+        "text": "'At' ay para sa gawain tulad ng 'proficient at typing'; 'with' sa gamit; 'on' ay bihirang gamitin para sa languages."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer: A",
+        "text": "Kaya't it's 'proficient in'—tandaan mo 'IN for languages.' Siguradong tama sa exam."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct, 'proficient in' is the standard preposition for languages, just like 'proficient in math.'",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because 'proficient at' is used for tasks, but languages are not tasks.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "You might have chosen C because 'proficient with' works for tools, but languages are skills, not tools.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'on' is sometimes used with instruments, but never with languages.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Key Takeaway: 'Proficient IN' a language/subject; 'proficient AT' a task; 'proficient WITH' a tool. Match it to avoid preposition traps.",
+    "blueprint_id": "Prepositions — Proficient In",
+    "deconstruct_text": "When you're applying for an LGU position, the HR officer might say, 'Dapat proficient ka in both English and Filipino para sa mga meeting at reports.' The preposition 'in' signals competence sa dalawang wika.\n\nThe adjective 'proficient' always pairs with 'in' when referring to a language, subject, or field. Halimbawa: 'She's proficient in barangay governance.' Ang 'at' is for tasks like typing, while 'with' is for tools like palengke calculators.\n\nThe correct preposition completes the sentence: 'The applicant must be proficient in both English and Filipino.' Not 'at' para sa tasks lang, not 'with' for gamit.\n\n**Watch-Out Zone: preposition_misuse** in action. Remember: 'in' for skills, not tasks.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

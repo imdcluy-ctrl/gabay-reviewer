@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-011",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The program is designed to cater ___ the needs of senior citizens.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom Pattern",
+        "text": "Ang 'cater' kapag may target na tao o pangangailangan, lagi itong partner ay 'to'. Katulad ng 'cater to tourists'."
+      },
+      {
+        "rung": 2,
+        "title": "Visual Cue",
+        "text": "Isipin ang arrow ng 'to' — mula sa serbisyo direkta sa taong tatanggap. Kaya 'to the needs'."
+      },
+      {
+        "rung": 3,
+        "title": "British vs American",
+        "text": "Sa British, 'cater for an event' ay okay, pero sa needs, American gamit sa exam: 'cater to'. Wag magpalito!"
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "Kaya sa sentence, 'to' ang sagot: 'cater to the needs of senior citizens.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'cater for' is familiar in British English, but the Philippine CSE follows American usage where 'cater to...",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "Correct. 'Cater to' is the idiomatic pair that means providing for someone's needs.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'with' seems to indicate accompaniment, but 'cater' never takes 'with' to denote the target.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'in' suggests location, yet it does not pair with 'cater' to express serving a need.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Key Takeaway: 'Cater TO' is the standard pair for serving needs. Avoid 'cater for' in the CSE. Link: 'TO the needs'.",
+    "blueprint_id": "Prepositions — Cater To",
+    "deconstruct_text": "Imagine your barangay nutrition program serving senior citizens. They 'cater to' the needs of the elderly — direktang serbisyo. Trick: Isipin 'cater TO the needs' parang may arrow na 'TO' ang galaw. Hindi 'for' na British. Sa exam, laging 'to' ang tama.\n\nIn American English, 'cater' always pairs with 'to' when the object is a need or group. Common mistake: using 'cater for' (acceptable only in British for events). The Civil Service Exam expects the American standard. Remember: 'cater to' means to provide for.\n\n**Watch-Out Zone: preposition_misuse** in action. British 'for' trap; exam uses 'to'.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

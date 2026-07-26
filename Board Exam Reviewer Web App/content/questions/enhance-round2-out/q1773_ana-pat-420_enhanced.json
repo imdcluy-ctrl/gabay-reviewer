@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ana-pat-420",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "A 2D net of a cube has the following symbols on its faces: top face: star, bottom face: circle, left face: triangle, right face: square, front face: heart, back face: diamond. Which of the following 3D cubes could be formed from this net?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cube with star on top, heart on front, triangle on left"
+      },
+      {
+        "key": "A",
+        "text": "cube with circle on top, diamond on front, square on left"
+      },
+      {
+        "key": "A",
+        "text": "cube with star on top, square on front, triangle on left"
+      },
+      {
+        "key": "A",
+        "text": "cube with circle on top, heart on front, diamond on left"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2158",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

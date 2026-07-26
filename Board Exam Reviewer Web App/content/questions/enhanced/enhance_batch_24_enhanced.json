@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vanal-014",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FRAGILE is to BREAK as PERMANENT is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporary"
+      },
+      {
+        "key": "B",
+        "text": "Last"
+      },
+      {
+        "key": "C",
+        "text": "Change"
+      },
+      {
+        "key": "D",
+        "text": "Endure"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Quality-Consequence",
+        "text": "The relationship is 'having a quality that leads to a consequence'. Something fragile is likely to break. What is the likely consequence of being permanent?"
+      },
+      {
+        "rung": 2,
+        "title": "Permanent things?",
+        "text": "Permanent things are designed to last or endure over time without changing or ending. The consequence is not 'temporary' (opposite) or 'change' (contradicts permanence)."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct word is 'Endure' because it captures the idea that something permanent will last or withstand time, just as something fragile will break."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The analogy is: FRAGILE : BREAK :: PERMANENT : ENDURE. Both pairs show a quality leading to a natural outcome. 'Last' is a synonym but 'endure' better implies the process of lasting despite challenges."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Temporary' is the opposite of permanent, not the consequence. The student may have looked for an antonym instead of following the cause-effect relationship.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Last' is a synonym of endure but is less precise. 'Endure' implies withstanding over time, while 'last' simply means continue. The analogy requires the consequence of permanence, which is enduring.",
+        "trap_type": "partial_synonym_error"
+      },
+      "C": {
+        "text": "'Change' is the opposite of permanence. A permanent thing does not change. The student may have mistakenly thought of 'fragile breaks, permanent changes' but that is not a logical parallel.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Correct! 'Endure' is the consequence of being permanent, just as 'break' is the consequence of being fragile. The relationship is quality → natural outcome.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogy questions, identify the relationship first (e.g., quality → consequence). Then find the word that fits the same relationship, not just a synonym or antonym.",
+    "blueprint_id": "Quality-Consequence",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe analogy follows a 'quality-consequence' relationship: the first word describes a quality, and the second word is the natural result of that quality.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the relationship: FRAGILE (quality) leads to BREAK (consequence).\n2. Apply to the second pair: PERMANENT (quality) leads to what consequence? Something permanent does not change or end; it lasts or endures.\n3. Evaluate options: 'Temporary' is opposite, 'Change' is opposite, 'Last' is close but 'Endure' more precisely means to last despite difficulties.\n4. Confirm: 'Endure' is the best fit for the consequence of permanence.\n\n### ❌ Why the Distractors Fail\n- **'Temporary'** is the antonym of permanent, not a consequence. The student likely reversed the relationship.\n- **'Last'** is a near-synonym but lacks the nuance of withstanding; 'endure' is more accurate.\n- **'Change'** contradicts permanence; a permanent thing does not change.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-015",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "GOVERNOR is to PROVINCE as MAYOR is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "City"
+      },
+      {
+        "key": "B",
+        "text": "Country"
+      },
+      {
+        "key": "C",
+        "text": "Senator"
+      },
+      {
+        "key": "D",
+        "text": "Capital"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Official-Jurisdiction",
+        "text": "A governor is the elected head of a province. What is the equivalent jurisdiction for a mayor?"
+      },
+      {
+        "rung": 2,
+        "title": "Mayor leads a?",
+        "text": "A mayor is the head of a city or municipality. The options include 'City', 'Country', 'Senator', and 'Capital'. Only one is a level of local government."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct answer is 'City' because a mayor governs a city, just as a governor governs a province."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The analogy is: GOVERNOR : PROVINCE :: MAYOR : CITY. Both pairs show an elected official and the geographical area they lead."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A mayor is the chief executive of a city or municipality, analogous to a governor leading a province.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Country' is too broad. A mayor does not govern a country; that would be a president or prime minister. The student may have thought of a larger jurisdiction but missed the specific level.",
+        "trap_type": "scale_mismatch"
+      },
+      "C": {
+        "text": "'Senator' is a different elected official, not a jurisdiction. The student confused the role with the area. A senator represents a district or nation, not a city.",
+        "trap_type": "role_confusion"
+      },
+      "D": {
+        "text": "'Capital' is a specific city (e.g., Manila) but not the general jurisdiction of a mayor. A mayor governs a city, not just the capital. The student may have thought of the capital as the mayor's domain, but it's too narrow.",
+        "trap_type": "specificity_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For official-jurisdiction analogies, match the level of government: governor → province, mayor → city, president → country.",
+    "blueprint_id": "Official-Jurisdiction",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe analogy is based on the relationship between an elected official and the geographical area they govern.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the relationship: GOVERNOR (official) leads PROVINCE (jurisdiction).\n2. Apply to MAYOR: a mayor leads a city or municipality.\n3. Evaluate options: 'City' is the correct jurisdiction. 'Country' is too large, 'Senator' is a different official, 'Capital' is a specific city.\n4. Confirm: Option A ('City') is the only correct match.\n\n### ❌ Why the Distractors Fail\n- **'Country'** is governed by a president, not a mayor.\n- **'Senator'** is a person, not a place; the student may have thought of a senator's jurisdiction but it's not a city.\n- **'Capital'** is a type of city, but the general term 'city' is the correct analog to 'province'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-016",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "SUPREME COURT is to JUDICIARY as CONGRESS is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Executive"
+      },
+      {
+        "key": "B",
+        "text": "Legislative"
+      },
+      {
+        "key": "C",
+        "text": "Judicial"
+      },
+      {
+        "key": "D",
+        "text": "Constitutional"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Branch-Government",
+        "text": "The Supreme Court is the highest court in the judicial branch. What branch does Congress belong to?"
+      },
+      {
+        "rung": 2,
+        "title": "Congress is the?",
+        "text": "Congress is the legislative branch of government. The options are branches: Executive, Legislative, Judicial, and Constitutional (not a branch)."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct answer is 'Legislative' because Congress is the legislative body, just as the Supreme Court is the judicial body."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The analogy is: SUPREME COURT : JUDICIARY :: CONGRESS : LEGISLATIVE. Both pairs show an institution and the branch of government it belongs to."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Executive' is the branch headed by the President, not Congress. The student may have confused the branches or thought Congress executes laws.",
+        "trap_type": "branch_confusion"
+      },
+      "B": {
+        "text": "Correct! Congress is the legislative branch of the Philippine government, responsible for making laws.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Judicial' is the branch of the Supreme Court, not Congress. The student may have reversed the relationship or thought Congress is part of the judiciary.",
+        "trap_type": "branch_confusion"
+      },
+      "D": {
+        "text": "'Constitutional' is not a branch of government; it describes something that follows the constitution. The student may have thought of the Constitutional Commission, but that is not a branch.",
+        "trap_type": "non_branch_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember the three branches: Executive (President), Legislative (Congress), Judicial (Supreme Court). Institutions belong to their respective branches.",
+    "blueprint_id": "Branch of Government",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe analogy is based on the relationship between a government institution and the branch of government it belongs to.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the relationship: SUPREME COURT (institution) belongs to JUDICIARY (branch).\n2. Apply to CONGRESS: Congress is the legislative body, so it belongs to the Legislative branch.\n3. Evaluate options: 'Legislative' is correct. 'Executive' and 'Judicial' are other branches. 'Constitutional' is not a branch.\n4. Confirm: Option B ('Legislative') is the only correct match.\n\n### ❌ Why the Distractors Fail\n- **'Executive'** is the branch of the President, not Congress.\n- **'Judicial'** is the branch of the Supreme Court, not Congress.\n- **'Constitutional'** is an adjective, not a branch; the student may have thought of the constitution but it's not a branch.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-017",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "RECEIPT is to PURCHASE as DIPLOMA is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "School"
+      },
+      {
+        "key": "B",
+        "text": "Graduation"
+      },
+      {
+        "key": "C",
+        "text": "Study"
+      },
+      {
+        "key": "D",
+        "text": "Tuition"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Proof-Action",
+        "text": "A receipt is a document that proves a purchase was made. What does a diploma prove?"
+      },
+      {
+        "rung": 2,
+        "title": "Diploma proves?",
+        "text": "A diploma is awarded upon completion of a course of study, proving that the person has graduated. It does not prove 'school' (the institution), 'study' (the activity), or 'tuition' (payment)."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct answer is 'Graduation' because a diploma is proof of graduation, just as a receipt is proof of a purchase."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The analogy is: RECEIPT : PURCHASE :: DIPLOMA : GRADUATION. Both pairs show a document that serves as evidence of an event or achievement."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'School' is the institution where one studies, not what the diploma proves. The student may have thought of where the diploma comes from, but the relationship is proof of an event, not the location.",
+        "trap_type": "location_confusion"
+      },
+      "B": {
+        "text": "Correct! A diploma is a certificate that proves a person has graduated from a school or program.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Study' is the process, not the outcome. A diploma proves completion (graduation), not the act of studying. The student may have confused the activity with the result.",
+        "trap_type": "process_outcome_confusion"
+      },
+      "D": {
+        "text": "'Tuition' is the fee paid for education, not what a diploma proves. The student may have thought of payment as analogous to purchase, but a receipt proves payment, while a diploma proves completion.",
+        "trap_type": "payment_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In proof-action analogies, identify what the document certifies. A receipt certifies a purchase; a diploma certifies graduation.",
+    "blueprint_id": "Proof-Action",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe analogy follows a 'proof-action' relationship: the first word is a document that provides evidence of the second word (an event or achievement).\n\n### 🔍 Step-by-Step Analysis\n1. Identify the relationship: RECEIPT (document) proves PURCHASE (action/event).\n2. Apply to DIPLOMA: a diploma proves graduation (completion of studies).\n3. Evaluate options: 'Graduation' is the event. 'School' is the place, 'Study' is the process, 'Tuition' is payment.\n4. Confirm: Option B ('Graduation') is the only correct match.\n\n### ❌ Why the Distractors Fail\n- **'School'** is the institution, not the event proven.\n- **'Study'** is the activity, not the completion.\n- **'Tuition'** is a payment, not an event; a receipt proves payment, but a diploma proves graduation, not payment.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-018",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FINGERPRINT is to IDENTITY as SIGNATURE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Consent"
+      },
+      {
+        "key": "B",
+        "text": "Document"
+      },
+      {
+        "key": "C",
+        "text": "Approval"
+      },
+      {
+        "key": "D",
+        "text": "Pen"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Marker-What it shows",
+        "text": "A fingerprint is a unique biological marker that establishes a person's identity. What does a signature establish?"
+      },
+      {
+        "rung": 2,
+        "title": "Signature shows?",
+        "text": "A signature is a handwritten mark that indicates a person's agreement or consent to the contents of a document. It is not just 'approval' (which is a mental state) but a formal act of consent."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct answer is 'Consent' because a signature signifies consent, just as a fingerprint signifies identity."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The analogy is: FINGERPRINT : IDENTITY :: SIGNATURE : CONSENT. Both pairs show a unique mark that serves as evidence of an abstract concept (identity or consent)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A signature is a formal indication of consent, especially on legal documents.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Document' is the object on which a signature appears, not what the signature signifies. The student may have thought of where a signature is placed, but the relationship is about meaning, not location.",
+        "trap_type": "location_confusion"
+      },
+      "C": {
+        "text": "'Approval' is similar to consent but less formal. A signature legally represents consent, not just approval. The student may have chosen a synonym but missed the precise legal nuance.",
+        "trap_type": "partial_synonym_error"
+      },
+      "D": {
+        "text": "'Pen' is the tool used to create a signature, not what it signifies. The student may have thought of the instrument, but the analogy is about the meaning of the mark, not the tool.",
+        "trap_type": "tool_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In marker-meaning analogies, focus on what the marker represents. A fingerprint represents identity; a signature represents consent.",
+    "blueprint_id": "Identifier-Meaning",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe analogy follows a 'marker-meaning' relationship: the first word is a unique identifier that represents an abstract concept (the second word).\n\n### 🔍 Step-by-Step Analysis\n1. Identify the relationship: FINGERPRINT (unique mark) establishes IDENTITY (abstract concept).\n2. Apply to SIGNATURE: a signature is a unique handwritten mark that establishes consent (agreement to terms).\n3. Evaluate options: 'Consent' is the abstract concept. 'Document' is physical, 'Approval' is close but less formal, 'Pen' is a tool.\n4. Confirm: Option A ('Consent') is the best match.\n\n### ❌ Why the Distractors Fail\n- **'Document'** is the object, not the meaning.\n- **'Approval'** is a synonym but lacks the legal formality of consent.\n- **'Pen'** is the tool, not the meaning.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-019",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "RAIN is to FLOOD as NEGLIGENCE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Care"
+      },
+      {
+        "key": "B",
+        "text": "Accident"
+      },
+      {
+        "key": "C",
+        "text": "Injury"
+      },
+      {
+        "key": "D",
+        "text": "Responsibility"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Cause-Effect",
+        "text": "The first pair shows a cause (RAIN) leading to an effect (FLOOD). Identify the same relationship for NEGLIGENCE."
+      },
+      {
+        "rung": 2,
+        "title": "Negligence can cause?",
+        "text": "Negligence means failure to take proper care. What is a direct result of such failure? Think of an event that occurs due to carelessness."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Accident is the most direct effect of negligence. Injury is a possible consequence but not the immediate result; accident is the event itself."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Accident'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Care' is the opposite of negligence, not its effect. This traps students who think of antonyms instead of cause-effect relationships.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Negligence can lead to accidents.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Injury' is a possible result of an accident, but the direct effect of negligence is the accident itself. This is a partial answer that skips the immediate outcome.",
+        "trap_type": "partial_answer_error"
+      },
+      "D": {
+        "text": "'Responsibility' is the opposite of negligence, not its effect. This traps students who think of antonyms instead of cause-effect relationships.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In cause-effect analogies, identify the immediate and direct result, not a secondary consequence or an opposite.",
+    "blueprint_id": "Cause-Effect 3",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relationship in the first pair:** RAIN (cause) → FLOOD (effect). Heavy or prolonged rain can cause flooding.\n2. **Apply the same relationship to the second term:** NEGLIGENCE (cause) → ? (effect). Negligence means failure to exercise proper care.\n3. **Determine the direct effect:** The most direct result of negligence is an accident (e.g., a car accident due to distracted driving). Injury may follow, but the accident is the immediate event.\n4. **Confirm the correct option:** Option B ('Accident') matches the cause-effect relationship.\n\n### ❌ Why the Distractors Fail\n- **'Care'** is an antonym of negligence, not an effect.\n- **'Injury'** is a possible consequence of an accident, but not the direct effect of negligence itself.\n- **'Responsibility'** is an antonym of negligence, not an effect.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-020",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "ATTORNEY is to CLIENT as DOCTOR is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hospital"
+      },
+      {
+        "key": "B",
+        "text": "Medicine"
+      },
+      {
+        "key": "C",
+        "text": "Patient"
+      },
+      {
+        "key": "D",
+        "text": "Nurse"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Professional-Client",
+        "text": "An attorney provides legal services to a client. Identify the person who receives services from a doctor."
+      },
+      {
+        "rung": 2,
+        "title": "Doctor serves a?",
+        "text": "A doctor provides medical care to a person. That person is called a patient."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Patient is the correct term. Hospital is a place, medicine is a tool, nurse is a colleague — none are the recipient of service."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Patient'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Hospital' is a place where a doctor works, not the recipient of the doctor's service. This traps students who think of location instead of the professional-client relationship.",
+        "trap_type": "location_confusion"
+      },
+      "B": {
+        "text": "'Medicine' is a tool used by a doctor, not the recipient. This traps students who think of objects associated with the profession.",
+        "trap_type": "tool_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Patient' is the proper and accurate answer for this problem, fully satisfying the grammatical rules, mathematical equations, or legal requirements of the scenario.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Nurse' is a colleague who works with a doctor, not the recipient of service. This traps students who think of other professionals in the same field.",
+        "trap_type": "colleague_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In professional-client analogies, focus on the recipient of the service, not the workplace, tools, or colleagues.",
+    "blueprint_id": "Professional-Client",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relationship in the first pair:** ATTORNEY (professional) → CLIENT (recipient of service). An attorney provides legal advice to a client.\n2. **Apply the same relationship to the second term:** DOCTOR (professional) → ? (recipient of service). A doctor provides medical care to someone.\n3. **Determine the recipient:** The person who receives medical care is called a patient.\n4. **Confirm the correct option:** Option C ('Patient') matches the professional-client relationship.\n\n### ❌ Why the Distractors Fail\n- **'Hospital'** is a workplace, not a recipient.\n- **'Medicine'** is a tool, not a recipient.\n- **'Nurse'** is a colleague, not a recipient.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-006",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The project will proceed, ___ the budget is approved.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "unless"
+      },
+      {
+        "key": "B",
+        "text": "provided that"
+      },
+      {
+        "key": "C",
+        "text": "although"
+      },
+      {
+        "key": "D",
+        "text": "despite"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "The sentence says the project will proceed if the budget is approved. This is a conditional relationship: approval is required for proceeding."
+      },
+      {
+        "rung": 2,
+        "title": "'Provided that'",
+        "text": "'Provided that' means 'on condition that' or 'if and only if'. It introduces a necessary condition for the main clause to happen."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "provided that is the correct conjunction. 'Unless' would mean 'if not', which reverses the meaning. 'Although' and 'despite' indicate contrast, not condition."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct choice is the option that correctly completes this idiomatic or grammatical structure, which is 'provided that'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Unless' means 'if not'. Using it would change the meaning to 'the project will proceed if the budget is NOT approved', which is the opposite of the intended condition.",
+        "trap_type": "conjunction_error"
+      },
+      "B": {
+        "text": "Correct! 'Provided that' = on condition that.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Although' introduces a contrast (e.g., 'although the budget is not approved'). It does not express a condition, so it does not fit the logical relationship.",
+        "trap_type": "conjunction_error"
+      },
+      "D": {
+        "text": "'Despite' is a preposition, not a conjunction, and requires a noun phrase (e.g., 'despite the budget approval'). It cannot be followed by a clause with a verb.",
+        "trap_type": "conjunction_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Provided that' introduces a condition for something to happen. Remember: condition = 'provided that', contrast = 'although', negative condition = 'unless'.",
+    "blueprint_id": "Transitional Words — Provided That",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the logical relationship:** The main clause ('The project will proceed') depends on a condition ('the budget is approved').\n2. **Choose the correct conjunction:** 'Provided that' means 'on condition that' and correctly introduces the condition.\n3. **Verify other options:**\n   - 'Unless' would mean 'if not', reversing the condition.\n   - 'Although' indicates contrast, not condition.\n   - 'Despite' is a preposition, not a conjunction, and cannot introduce a clause.\n4. **Confirm the correct option:** Option B ('provided that') is the only choice that expresses the conditional relationship correctly.\n\n### ❌ Why the Distractors Fail\n- **'unless'** reverses the condition to 'if not approved'.\n- **'although'** introduces contrast, not condition.\n- **'despite'** is a preposition and cannot be followed by a clause.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-007",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The employee was praised ___ her dedication to public service.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'praise' is commonly followed by the preposition 'for' when stating the reason for praise. Example: 'She was praised for her honesty.'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "for is the correct preposition. 'Praised with' is not idiomatic; 'praised about' and 'praised on' are also incorrect."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence: 'The employee was praised ___ her dedication to public service.', the blank requires a preposition that indicates the reason. 'For' is the only option that fits."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct choice is the option that correctly completes this idiomatic or grammatical structure, which is 'for'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'for' is the proper and accurate answer for this problem, fully satisfying the grammatical rules, mathematical equations, or legal requirements of the scenario.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Praised with' is not idiomatic. 'With' is used for instruments or companions (e.g., 'praised with a certificate'), not for reasons.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "'Praised about' is not idiomatic. 'About' is used for topics (e.g., 'talked about'), not for reasons for praise.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'Praised on' is not idiomatic. 'On' is used for days or surfaces (e.g., 'praised on Monday'), not for reasons.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'praise for' (reason) and 'praise to' (person). Example: 'She was praised for her work.'",
+    "blueprint_id": "Prepositions — Praised For",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the verb and its required preposition:** The verb 'praise' requires the preposition 'for' when indicating the reason for praise.\n2. **Apply to the sentence:** 'The employee was praised ___ her dedication.' The reason is 'her dedication', so 'for' is correct.\n3. **Check other prepositions:**\n   - 'with' is used for instruments or accompaniment.\n   - 'about' is used for topics.\n   - 'on' is used for days or surfaces.\n4. **Confirm the correct option:** Option A ('for') is the only idiomatic choice.\n\n### ❌ Why the Distractors Fail\n- **'with'** is not idiomatic for reasons.\n- **'about'** is not idiomatic for reasons.\n- **'on'** is not idiomatic for reasons.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-008",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The new regulation is intended ___ improve service delivery.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The phrase 'intended to' is followed by a base verb (infinitive without 'to'? Actually, 'intended to' is followed by the base form of the verb: 'intended to improve')."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "to is the correct word. 'Intended for' is followed by a noun (e.g., 'intended for the public'), not a verb."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "In this sentence: 'The new regulation is intended ___ improve service delivery.', the blank is followed by the verb 'improve'. Only 'to' can precede a base verb in this construction."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct choice is the option that correctly completes this idiomatic or grammatical structure, which is 'to'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Intended for' requires a noun phrase (e.g., 'intended for the public'), not a verb. 'Improve' is a verb, so 'for' is incorrect.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "Correct! 'to' is the proper and accurate answer for this problem, fully satisfying the grammatical rules, mathematical equations, or legal requirements of the scenario.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Intended at' is not idiomatic. 'At' is used for targets or locations (e.g., 'aimed at'), not with 'intended'.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'Intended in' is not idiomatic. 'In' is used for locations or time periods, not with 'intended'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Intended to + verb (infinitive). Intended for + noun. Example: 'intended to help' vs. 'intended for students'.",
+    "blueprint_id": "Prepositions — Intended To",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the structure:** The phrase 'is intended' is followed by either 'to' + verb or 'for' + noun.\n2. **Check the word after the blank:** The blank is followed by the verb 'improve'. Therefore, 'to' is required to form the infinitive.\n3. **Verify other options:**\n   - 'for' would require a noun (e.g., 'for improvement').\n   - 'at' and 'in' are not idiomatic with 'intended'.\n4. **Confirm the correct option:** Option B ('to') is the only choice that correctly precedes a verb.\n\n### ❌ Why the Distractors Fail\n- **'for'** requires a noun, not a verb.\n- **'at'** is not idiomatic.\n- **'in'** is not idiomatic.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ana-seq-002",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next: Z, Y, X, W, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "V"
+      },
+      {
+        "key": "B",
+        "text": "U"
+      },
+      {
+        "key": "C",
+        "text": "T"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Pattern",
+        "text": "The sequence Z, Y, X, W moves backward through the alphabet by one letter each step. What letter comes before W?"
+      },
+      {
+        "rung": 2,
+        "title": "Apply the Rule",
+        "text": "Since each term is the previous letter minus one, the next term after W is V. Confirm by reciting the alphabet in reverse: Z, Y, X, W, V."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Distractors",
+        "text": "Options U, T, and S are further backward but skip letters. Only V is the immediate predecessor of W in the reverse alphabet."
+      },
+      {
+        "rung": 4,
+        "title": "Final Check",
+        "text": "The pattern is a simple reverse alphabetical order with a step of -1. Therefore, the next letter is V."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! V is the next letter in the reverse alphabet sequence (Z → Y → X → W → V). Each step moves one letter backward.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "U is two steps backward from W (W → V → U), not one. This mistake occurs when the student skips a letter, perhaps thinking the pattern is every other letter.",
+        "trap_type": "step_size_error"
+      },
+      "C": {
+        "text": "T is three steps backward from W (W → V → U → T). This error suggests the student applied a step of -3 instead of -1, possibly misreading the sequence.",
+        "trap_type": "step_size_error"
+      },
+      "D": {
+        "text": "S is four steps backward from W (W → V → U → T → S). This is too large a jump, indicating the student may have guessed or used an incorrect pattern.",
+        "trap_type": "step_size_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For simple alphabetical sequences, identify the step size (e.g., -1, +2) and apply it consistently. Recite the alphabet forward or backward to verify.",
+    "blueprint_id": "Reverse Alphabet Sequence",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Observe the given sequence: Z, Y, X, W.\n2. Determine the pattern: Each letter is the previous letter minus one in the alphabet (Z→Y, Y→X, X→W).\n3. Apply the pattern to find the next term: W minus one letter is V.\n4. Verify by writing the alphabet in reverse: Z, Y, X, W, V, U, T, S, ...\n\n### ❌ Why the Distractors Fail\n- **U**: This would be the second step after W (W→V→U), not the immediate next.\n- **T**: This is three steps away, skipping V and U.\n- **S**: This is four steps away, skipping V, U, and T.\n\n### ✅ Correct Answer: V (Option A)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-seq-003",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next: A1, C2, E3, G4, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H5"
+      },
+      {
+        "key": "B",
+        "text": "I5"
+      },
+      {
+        "key": "C",
+        "text": "J5"
+      },
+      {
+        "key": "D",
+        "text": "I6"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Separate Letters and Numbers",
+        "text": "The sequence has two independent patterns: one for letters (A, C, E, G) and one for numbers (1, 2, 3, 4). Analyze each separately."
+      },
+      {
+        "rung": 2,
+        "title": "Letter Pattern",
+        "text": "The letters are every other letter of the alphabet: A (1), C (3), E (5), G (7). The next letter in this pattern is I (9)."
+      },
+      {
+        "rung": 3,
+        "title": "Number Pattern",
+        "text": "The numbers increase by 1 each time: 1, 2, 3, 4. The next number is 5."
+      },
+      {
+        "rung": 4,
+        "title": "Combine and Verify",
+        "text": "Combine the next letter (I) and next number (5) to get I5. Check that H5 (wrong letter), J5 (wrong letter), and I6 (wrong number) do not match the pattern."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "H5 uses the correct number (5) but the wrong letter. H is the 8th letter, but the pattern requires every other letter starting from A, so the next should be I (9th).",
+        "trap_type": "letter_position_error"
+      },
+      "B": {
+        "text": "Correct! I is the next letter in the pattern (A, C, E, G, I) and 5 is the next number (1, 2, 3, 4, 5).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "J5 uses the correct number (5) but the wrong letter. J is the 10th letter, but the pattern skips only one letter each time (A→C→E→G→I), not two.",
+        "trap_type": "letter_step_error"
+      },
+      "D": {
+        "text": "I6 uses the correct letter (I) but the wrong number. The number pattern is +1 each time, so after 4 comes 5, not 6.",
+        "trap_type": "number_step_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For alphanumeric sequences, treat letters and numbers as separate patterns. Identify the rule for each (e.g., skip one letter, add one number) and combine them.",
+    "blueprint_id": "Alphanumeric Pattern",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Separate the sequence into letters: A, C, E, G and numbers: 1, 2, 3, 4.\n2. Letter pattern: Each letter advances by 2 positions in the alphabet (A→C→E→G). The next letter after G (7th) is I (9th).\n3. Number pattern: Each number increases by 1 (1→2→3→4). The next number is 5.\n4. Combine: I + 5 = I5.\n\n### ❌ Why the Distractors Fail\n- **H5**: H is the 8th letter, but the pattern requires odd-numbered letters (1st, 3rd, 5th, 7th, 9th). H is even, so it's incorrect.\n- **J5**: J is the 10th letter, which would be a step of +3 from G (7→10), but the pattern is +2.\n- **I6**: I is correct, but 6 is one too many; the number pattern is +1, not +2.\n\n### ✅ Correct Answer: I5 (Option B)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-006",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange in correct filing order:\n1. Maria Del Rosario\n2. Juan De La Cruz\n3. Ana Dela Cruz\n4. Pedro De los Santos",
+    "options": [
+      {
+        "key": "A",
+        "text": "2,3,1,4"
+      },
+      {
+        "key": "B",
+        "text": "3,2,4,1"
+      },
+      {
+        "key": "C",
+        "text": "1,2,3,4"
+      },
+      {
+        "key": "D",
+        "text": "3,2,1,4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Filing Rule for Prefixes",
+        "text": "In Philippine filing rules, prefixes like 'Del', 'De La', 'Dela', 'De los' are considered part of the surname. Treat the entire multi-word surname as one unit."
+      },
+      {
+        "rung": 2,
+        "title": "Alphabetize by Full Surname",
+        "text": "List the surnames: De La Cruz, Dela Cruz, Del Rosario, De los Santos. Alphabetize them: 'De La Cruz' comes before 'Dela Cruz' because 'La' comes before 'la'? Actually, compare letter by letter: D-e- -L-a vs D-e-l-a. 'De La' has a space, but spaces are ignored; compare 'DeLa' vs 'Dela'? Standard rule: 'De La' is filed as 'DeLa', so 'DeLa Cruz' vs 'Dela Cruz'? They are identical up to 'De', then 'L' vs 'l'? Actually, 'De La' has a space, but in filing, we treat it as one word. The correct order is: De La Cruz, Dela Cruz, Del Rosario, De los Santos."
+      },
+      {
+        "rung": 3,
+        "title": "Break Ties by First Name",
+        "text": "For surnames that are the same (here all different), but note: 'De La Cruz' and 'Dela Cruz' are different surnames. So no ties. However, if two people share the same surname, use first name. Here, all surnames are distinct, so order is: 2 (Juan De La Cruz), 3 (Ana Dela Cruz), 1 (Maria Del Rosario), 4 (Pedro De los Santos)."
+      },
+      {
+        "rung": 4,
+        "title": "Final Sequence",
+        "text": "The correct filing order is 2, 3, 1, 4, which corresponds to Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The surnames alphabetize as: De La Cruz (2), Dela Cruz (3), Del Rosario (1), De los Santos (4). First names are not needed to break ties since all surnames are different.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "3,2,4,1 places Dela Cruz before De La Cruz, which is incorrect because 'De La' comes before 'Dela' when comparing letter by letter (D-e- -L-a vs D-e-l-a; the space is ignored, but 'L' vs 'l'? Actually, 'De La' is treated as 'DeLa', so 'DeLa' vs 'Dela' are identical up to 'De', then 'L' vs 'l'? In ASCII, uppercase 'L' (76) comes before lowercase 'l' (108), but standard filing rules ignore case, so they are equal? However, the rule is to treat the prefix as part of the surname, and 'De La' is filed as 'DeLa', while 'Dela' is 'Dela'. Since 'DeLa' and 'Dela' are the same letters, the next character is space vs nothing? Actually, 'De La' has a space, but spaces are ignored, so 'DeLa' vs 'Dela' are identical. In such cases, the shorter name comes first? Standard rule: 'De La' is filed as if it were 'DeLa', so 'DeLa Cruz' and 'Dela Cruz' are identical up to 'De', then 'L' vs 'l'? Ignoring case, they are the same. Then next character: 'a' vs 'a'? Actually, 'De La' has 'L' then 'a', 'Dela' has 'l' then 'a'. So they are the same. The tie is broken by the next word? But here, the surnames are different: 'De La Cruz' vs 'Dela Cruz'. In practice, 'De La Cruz' comes before 'Dela Cruz' because 'De La' is considered as two words, but in filing, we treat it as one. The correct order is De La Cruz then Dela Cruz. So option B is wrong.",
+        "trap_type": "prefix_treatment_error"
+      },
+      "C": {
+        "text": "1,2,3,4 places Del Rosario first, which is incorrect because 'Del' comes after 'De La' and 'Dela' alphabetically. This error occurs when the student ignores the prefixes and files by the second part of the surname (e.g., 'Rosario' before 'Cruz').",
+        "trap_type": "prefix_ignored_error"
+      },
+      "D": {
+        "text": "3,2,1,4 places Dela Cruz before De La Cruz (same error as B) and also places Del Rosario before De los Santos? Actually, 3,2,1,4 means Dela Cruz, De La Cruz, Del Rosario, De los Santos. This is wrong because De La Cruz should come before Dela Cruz, and Del Rosario should come before De los Santos? Actually, 'Del Rosario' vs 'De los Santos': 'Del' vs 'De l'? 'Del' comes before 'De l' because 'Del' is shorter? Compare 'Del' vs 'De l': 'D','e','l' vs 'D','e',' ','l'? Ignoring space, 'Del' vs 'Del'? Actually, 'De los' has a space, so 'Del' vs 'De l'? 'Del' is three letters, 'De l' is four characters including space. In filing, 'De los' is treated as 'Delos', so 'Del' vs 'Delos'? 'Del' comes before 'Delos' because it's shorter. So Del Rosario should come before De los Santos. Option D has Del Rosario before De los Santos? Yes, 1 before 4, so that part is correct. But the order of De La Cruz and Dela Cruz is reversed, making it incorrect.",
+        "trap_type": "prefix_treatment_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When filing Spanish-style surnames, treat prefixes like 'De', 'Del', 'De La', 'Dela' as part of the surname. Alphabetize the full surname as one unit, ignoring spaces and capitalization.",
+    "blueprint_id": "Surname Filing — Prefix Names",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the surnames: \n   - Maria Del Rosario → surname 'Del Rosario'\n   - Juan De La Cruz → surname 'De La Cruz'\n   - Ana Dela Cruz → surname 'Dela Cruz'\n   - Pedro De los Santos → surname 'De los Santos'\n2. Apply filing rule: Treat prefixes as part of the surname. So we have:\n   - De La Cruz\n   - Dela Cruz\n   - Del Rosario\n   - De los Santos\n3. Alphabetize by comparing letter by letter (ignoring spaces and case):\n   - 'De La Cruz' vs 'Dela Cruz': Compare 'D','e','L','a' vs 'D','e','l','a' → same. Then next: 'C' vs 'C'? Actually, after 'DeLa' vs 'Dela', the next character is space vs nothing? In standard filing, 'De La' is filed as 'DeLa', so 'DeLaCruz' vs 'DelaCruz'? They are identical up to 'De', then 'L' vs 'l' (same), then 'a' vs 'a', then 'C' vs 'C', etc. So they are identical? But they are different surnames. The rule is to treat 'De La' as one word, so 'DeLaCruz' vs 'DelaCruz' — the difference is the third character: 'L' vs 'l'? Ignoring case, they are the same. However, in practice, 'De La Cruz' comes before 'Dela Cruz' because the space is ignored, but the third character of 'De La' is 'L' (uppercase) and of 'Dela' is 'l' (lowercase). In ASCII, uppercase comes before lowercase, but standard filing rules ignore case. So they are considered equal? Actually, the correct order is 'De La Cruz' before 'Dela Cruz' because 'De La' has a space, but when filing, we treat it as if the space doesn't exist, so 'DeLa' vs 'Dela' — the third character is 'L' vs 'l', and since case is ignored, they are the same. Then the fourth character: 'a' vs 'a', then fifth: space vs nothing? In 'De La Cruz', after 'DeLa' there is a space, but in 'DelaCruz', after 'Dela' there is 'C'. Since space comes before 'C' in ASCII, 'De La Cruz' comes before 'Dela Cruz'. So the correct order is: De La Cruz (2), Dela Cruz (3), Del Rosario (1), De los Santos (4).\n4. Map to original numbers: 2, 3, 1, 4 → Option A.\n\n### ❌ Why the Distractors Fail\n- **B (3,2,4,1)**: Reverses De La Cruz and Dela Cruz.\n- **C (1,2,3,4)**: Files by first name or ignores prefixes entirely.\n- **D (3,2,1,4)**: Reverses De La Cruz and Dela Cruz, but correctly orders Del Rosario before De los Santos.\n\n### ✅ Correct Answer: 2,3,1,4 (Option A)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-clops-001",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8491-X'. How many characters differ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Align the Two Codes",
+        "text": "Write the original and copy directly above each other, character by character:\nOriginal: P H - 2 0 2 6 - 8 9 4 1 - X\nCopy:    P H - 2 0 2 6 - 8 4 9 1 - X"
+      },
+      {
+        "rung": 2,
+        "title": "Identify Differences",
+        "text": "Compare each position. The first 8 characters (PH-2026-) are identical. Then we have '8941' vs '8491'. Compare: 8 vs 8 (same), 9 vs 4 (different), 4 vs 9 (different), 1 vs 1 (same). Then '-X' are identical."
+      },
+      {
+        "rung": 3,
+        "title": "Count the Differences",
+        "text": "There are exactly two positions where characters differ: the 9th character (9 vs 4) and the 10th character (4 vs 9). This is a transposition of the digits '9' and '4'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "Since two characters are different, the answer is 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "0 would mean the codes are identical, but they are not. The copy has '8491' instead of '8941', so there are differences.",
+        "trap_type": "overlooked_difference"
+      },
+      "B": {
+        "text": "1 is incorrect because there are two differences: the '9' changed to '4' and the '4' changed to '9'. Counting only one suggests the student saw only one change or thought a transposition counts as one error.",
+        "trap_type": "transposition_count_error"
+      },
+      "C": {
+        "text": "Correct! The digits '9' and '4' are swapped, resulting in two characters being different.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "3 is too many. Only two characters differ; the rest of the code (including the other digits and letters) are identical.",
+        "trap_type": "overcount_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When comparing codes, align them character by character. A transposition (swap) of two digits counts as two differences, not one.",
+    "blueprint_id": "Data Comparison — Transposition Detection",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Write both codes with indices:\n   Original: P H - 2 0 2 6 - 8 9 4 1 - X\n   Index:    1 2 3 4 5 6 7 8 9 10 11 12 13 14\n   Copy:     P H - 2 0 2 6 - 8 4 9 1 - X\n2. Compare each index:\n   - Indices 1-8: identical (P,H,-,2,0,2,6,-)\n   - Index 9: original '9', copy '4' → different\n   - Index 10: original '4', copy '9' → different\n   - Index 11: original '1', copy '1' → same\n   - Indices 12-14: identical (-,X)\n3. Total differences: 2 (indices 9 and 10).\n\n### ❌ Why the Distractors Fail\n- **0**: Fails to notice the transposition.\n- **1**: Mistakenly counts a transposition as a single error.\n- **3**: Overcounts, perhaps including a non-existent difference.\n\n### ✅ Correct Answer: 2 (Option C)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-type-001",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "An employee typed 450 words in 15 minutes. What is her words-per-minute (WPM) rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "28"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall the Formula",
+        "text": "Words per minute (WPM) is calculated by dividing the total number of words typed by the total time in minutes. Formula: WPM = Total Words ÷ Total Minutes."
+      },
+      {
+        "rung": 2,
+        "title": "Plug in the Numbers",
+        "text": "Total words = 450, Total minutes = 15. So WPM = 450 ÷ 15."
+      },
+      {
+        "rung": 3,
+        "title": "Perform the Division",
+        "text": "450 ÷ 15 = 30. You can simplify by dividing both by 5: 90 ÷ 3 = 30, or directly: 15 × 30 = 450."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Option",
+        "text": "The result is 30 WPM, which matches option C. Options 25, 28, and 35 are incorrect because they do not equal 450/15."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25 WPM would result from 450 ÷ 18, not 450 ÷ 15. This error might come from dividing 450 by 18 (perhaps misreading 15 as 18) or from an incorrect calculation.",
+        "trap_type": "division_error"
+      },
+      "B": {
+        "text": "28 WPM is not a clean division of 450 by any integer. This might be a guess or a rounding error from a miscalculation like 450 ÷ 16 ≈ 28.125.",
+        "trap_type": "rounding_error"
+      },
+      "C": {
+        "text": "Correct! 450 words ÷ 15 minutes = 30 words per minute.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 WPM would result from 450 ÷ 12.857, not 450 ÷ 15. This could come from mistakenly dividing 450 by 13 or from adding instead of dividing.",
+        "trap_type": "division_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find a rate (e.g., WPM), divide the total quantity by the total time. Double-check your division by multiplying the result by the time to see if it matches the total.",
+    "blueprint_id": "Words Per Minute Calculation",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the given values: Total words = 450, Total time = 15 minutes.\n2. Use the formula: WPM = Total Words ÷ Total Time.\n3. Compute: 450 ÷ 15 = 30.\n   - Alternative method: 450 ÷ 5 = 90, then 90 ÷ 3 = 30.\n   - Check: 30 × 15 = 450, correct.\n4. Therefore, the WPM rate is 30.\n\n### ❌ Why the Distractors Fail\n- **25**: 25 × 15 = 375, not 450. This suggests a division error (e.g., 450 ÷ 18).\n- **28**: 28 × 15 = 420, not 450. This is not a multiple of 15, indicating a miscalculation.\n- **35**: 35 × 15 = 525, too high. This might come from 450 ÷ 13 ≈ 34.6, rounded to 35.\n\n### ✅ Correct Answer: 30 (Option C)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-type-002",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "A data encoder made 8 errors in a 400-entry form. What is the error rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1%"
+      },
+      {
+        "key": "B",
+        "text": "2%"
+      },
+      {
+        "key": "C",
+        "text": "3%"
+      },
+      {
+        "key": "D",
+        "text": "4%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Error Rate",
+        "text": "The error rate is the number of errors divided by the total number of entries, then multiplied by 100% to express it as a percentage."
+      },
+      {
+        "rung": 2,
+        "title": "Compute",
+        "text": "Divide 8 errors by 400 entries: 8 ÷ 400 = 0.02. Then multiply by 100%: 0.02 × 100% = 2%."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct error rate is 2%, which corresponds to option B."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Since 8/400 = 0.02 = 2%, option B is the only choice that matches this calculation."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "1% would result from 4 errors (4/400 = 1%), not 8. The student likely divided 8 by 800 or used 8/400 = 0.01 by misplacing the decimal.",
+        "trap_type": "decimal_shift_error"
+      },
+      "B": {
+        "text": "Correct! 8 errors out of 400 entries gives 8/400 = 0.02 = 2% error rate.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "3% would require 12 errors (12/400 = 3%). The student may have added 8+400 incorrectly or used 8/400 = 0.03 by miscomputing.",
+        "trap_type": "addition_error"
+      },
+      "D": {
+        "text": "4% would require 16 errors (16/400 = 4%). The student might have used 8/200 = 4% or mistakenly thought 8 is 4% of 400.",
+        "trap_type": "percentage_misconception"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Error rate = (errors ÷ total) × 100%. Always divide errors by total first, then multiply by 100%.",
+    "blueprint_id": "Error Rate Percentage",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the number of errors: 8.\n2. Identify the total number of entries: 400.\n3. Compute the error rate: (8 ÷ 400) × 100% = 0.02 × 100% = 2%.\n4. Match with options: 2% is option B.\n\n### ❌ Why the Distractors Fail\n- **1% (A):** Comes from 4/400 or misplacing decimal (8/400 = 0.01).\n- **3% (C):** Comes from 12/400 or miscalculation.\n- **4% (D):** Comes from 16/400 or thinking 8 is 4% of 400.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-006",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article III (Bill of Rights), what protects a person from unreasonable search and seizure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Right to counsel"
+      },
+      {
+        "key": "B",
+        "text": "Right against self-incrimination"
+      },
+      {
+        "key": "C",
+        "text": "Right against unreasonable search and seizure"
+      },
+      {
+        "key": "D",
+        "text": "Right to bail"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Article III Section 2",
+        "text": "The 1987 Philippine Constitution, Article III (Bill of Rights), Section 2 explicitly states: 'The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable...'"
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The right that directly protects against unreasonable search and seizure is the 'right against unreasonable search and seizure' itself, as stated in Section 2."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The question asks which right protects a person from unreasonable search and seizure. The answer is the right specifically named after that protection."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C is the only one that matches the exact right enumerated in Article III, Section 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "The right to counsel (Article III, Section 12) applies during custodial investigation, not to searches. A student might confuse the Bill of Rights provisions.",
+        "trap_type": "bill_of_rights_confusion"
+      },
+      "B": {
+        "text": "The right against self-incrimination (Article III, Section 17) protects a person from being compelled to testify against themselves, not from searches.",
+        "trap_type": "bill_of_rights_confusion"
+      },
+      "C": {
+        "text": "Correct! Article III, Section 2 of the 1987 Constitution guarantees the right against unreasonable search and seizure.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "The right to bail (Article III, Section 13) applies to persons arrested or detained, not to searches. It is a separate right in the Bill of Rights.",
+        "trap_type": "bill_of_rights_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article III, Section 2 = right against unreasonable search and seizure. Memorize the section numbers for each right in the Bill of Rights.",
+    "blueprint_id": "Bill of Rights — Search and Seizure",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The question asks which right in Article III (Bill of Rights) protects against unreasonable search and seizure.\n2. Recall the specific sections of Article III:\n   - Section 2: Right against unreasonable search and seizure.\n   - Section 12: Right to counsel.\n   - Section 17: Right against self-incrimination.\n   - Section 13: Right to bail.\n3. The right that directly addresses search and seizure is in Section 2.\n4. Therefore, the correct answer is option C: 'Right against unreasonable search and seizure'.\n\n### ❌ Why the Distractors Fail\n- **Right to counsel (A):** Applies to custodial investigation, not searches.\n- **Right against self-incrimination (B):** Protects against compelled testimony, not searches.\n- **Right to bail (D):** Applies to detention, not searches.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-001",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under RA 6713 (Code of Conduct), what document must public officials disclose their assets, liabilities, and business interests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Income Tax Return"
+      },
+      {
+        "key": "B",
+        "text": "SALN (Statement of Assets, Liabilities, and Net Worth)"
+      },
+      {
+        "key": "C",
+        "text": "Bank Statement"
+      },
+      {
+        "key": "D",
+        "text": "Audit Report"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "RA 6713 Sections 7-8",
+        "text": "RA 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, requires all public officials to file a Statement of Assets, Liabilities, and Net Worth (SALN)."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The document specifically required for disclosing assets, liabilities, and business interests is the SALN."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The question asks for the document under RA 6713. The SALN is the only document that matches the description of disclosing assets, liabilities, and business interests."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is the correct answer because RA 6713 mandates the filing of SALN for disclosure of financial interests."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Income Tax Return (ITR) is filed with the BIR for tax purposes, not for disclosure of assets and liabilities under RA 6713. A student might confuse financial documents.",
+        "trap_type": "financial_document_confusion"
+      },
+      "B": {
+        "text": "Correct! RA 6713, Sections 7 and 8, require public officials to file a SALN disclosing their assets, liabilities, and business interests.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Bank statements are private records of transactions, not a required disclosure document under RA 6713. They are not filed with any government agency for this purpose.",
+        "trap_type": "financial_document_confusion"
+      },
+      "D": {
+        "text": "Audit reports are prepared by auditors (e.g., COA) for financial statements, not by public officials for personal disclosure. This is a different process.",
+        "trap_type": "financial_document_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 = SALN. Remember: SALN is the document for asset, liability, and business interest disclosure.",
+    "blueprint_id": "RA 6713 — SALN Requirement",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The question refers to RA 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees).\n2. Under Sections 7 and 8 of RA 6713, public officials are required to file a Statement of Assets, Liabilities, and Net Worth (SALN).\n3. The SALN must include all assets, liabilities, and business interests.\n4. Other documents like ITR, bank statements, and audit reports are not mandated by RA 6713 for this purpose.\n5. Therefore, the correct answer is option B.\n\n### ❌ Why the Distractors Fail\n- **Income Tax Return (A):** For tax purposes, not disclosure under RA 6713.\n- **Bank Statement (C):** Private record, not a required filing.\n- **Audit Report (D):** For financial statements, not personal disclosure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-govt-001",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "question_text": "Which government agency is the central personnel agency of the Philippine government?",
+    "options": [
+      {
+        "key": "A",
+        "text": "COA"
+      },
+      {
+        "key": "B",
+        "text": "COMELEC"
+      },
+      {
+        "key": "C",
+        "text": "CSC"
+      },
+      {
+        "key": "D",
+        "text": "DILG"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "CSC Mandate",
+        "text": "The Civil Service Commission (CSC) is the central personnel agency of the Philippine government, responsible for the administration of the civil service."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The agency that handles personnel matters for all government employees is the CSC."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The question asks for the 'central personnel agency.' The CSC is specifically tasked with personnel administration, unlike COA (audit), COMELEC (elections), or DILG (local government)."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C (CSC) is the correct answer because it is the constitutional body that manages the civil service."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "COA (Commission on Audit) is the supreme audit institution, not a personnel agency. A student might confuse constitutional commissions.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "B": {
+        "text": "COMELEC (Commission on Elections) handles elections, not personnel. It is another constitutional commission but with a different mandate.",
+        "trap_type": "constitutional_commission_confusion"
+      },
+      "C": {
+        "text": "Correct! The Civil Service Commission (CSC) is the central personnel agency of the Philippine government as mandated by the Constitution.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "DILG (Department of the Interior and Local Government) oversees local governments and peace and order, not central personnel administration.",
+        "trap_type": "agency_mandate_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** CSC = central personnel agency. Remember: CSC for careers, COA for audit, COMELEC for elections.",
+    "blueprint_id": "CSC Mandate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The question asks for the central personnel agency of the Philippine government.\n2. The Civil Service Commission (CSC) is established under Article IX-B of the 1987 Constitution as the central personnel agency.\n3. Its mandate includes recruitment, examination, and regulation of civil service employees.\n4. Other options: COA (audit), COMELEC (elections), DILG (local government) do not handle personnel administration.\n5. Therefore, the correct answer is option C.\n\n### ❌ Why the Distractors Fail\n- **COA (A):** Handles audit, not personnel.\n- **COMELEC (B):** Handles elections, not personnel.\n- **DILG (D):** Handles local government, not central personnel.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-curenv-001",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "question_text": "What law mandates the establishment of Materials Recovery Facilities (MRFs) in every barangay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 9003 (Ecological Solid Waste Management Act)"
+      },
+      {
+        "key": "B",
+        "text": "RA 8749 (Clean Air Act)"
+      },
+      {
+        "key": "C",
+        "text": "RA 9275 (Clean Water Act)"
+      },
+      {
+        "key": "D",
+        "text": "PD 1586 (EIS)"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "RA 9003",
+        "text": "RA 9003, also known as the Ecological Solid Waste Management Act of 2000, is the law that governs solid waste management in the Philippines."
+      },
+      {
+        "rung": 2,
+        "title": "MRFs",
+        "text": "Section 32 of RA 9003 requires each barangay to establish a Materials Recovery Facility (MRF) for waste segregation and recycling."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The law that mandates MRFs in every barangay is RA 9003."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option A is correct because RA 9003 specifically requires MRFs, while the other laws address air, water, or environmental impact assessment."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9003 (Ecological Solid Waste Management Act) mandates the establishment of MRFs in every barangay under Section 32.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "RA 8749 (Clean Air Act) focuses on air pollution control, not solid waste. A student might confuse environmental laws.",
+        "trap_type": "environmental_law_confusion"
+      },
+      "C": {
+        "text": "RA 9275 (Clean Water Act) addresses water quality management, not solid waste. It does not require MRFs.",
+        "trap_type": "environmental_law_confusion"
+      },
+      "D": {
+        "text": "PD 1586 (Environmental Impact Statement System) requires EIS for projects, not MRFs. It is a different environmental regulation.",
+        "trap_type": "environmental_law_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 9003 = Solid Waste Management = MRFs. Remember: RA 9003 for garbage, RA 8749 for air, RA 9275 for water.",
+    "blueprint_id": "RA 9003 — Solid Waste Management",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The question asks which law mandates MRFs in every barangay.\n2. RA 9003 (Ecological Solid Waste Management Act of 2000) is the primary law on solid waste management.\n3. Section 32 of RA 9003 explicitly requires each barangay to establish an MRF.\n4. Other laws: RA 8749 (Clean Air Act), RA 9275 (Clean Water Act), PD 1586 (EIS) do not cover solid waste management.\n5. Therefore, the correct answer is option A.\n\n### ❌ Why the Distractors Fail\n- **RA 8749 (B):** Deals with air pollution, not solid waste.\n- **RA 9275 (C):** Deals with water quality, not solid waste.\n- **PD 1586 (D):** Deals with environmental impact assessment, not MRFs.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

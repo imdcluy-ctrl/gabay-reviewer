@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-129",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Gerund vs Infinitive Complement Variant 29",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Gerund vs Infinitive Complement): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Subjects must be in the nominative case, not objective or possessive."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun performs the action 'agreed', so it must be in the nominative/subjective case. 'Them' is objective, 'their' is possessive, 'themselves' is reflexive."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. The committee members are plural, so 'they' is the correct subject pronoun."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only subjective pronoun that fits as the subject of 'agreed'. The others are incorrect case forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subjective case pronoun acting as the subject of the verb 'agreed'. The committee members (plural) are the ones who agreed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun, used as an object (e.g., 'gave it to them'), not as a subject. Here, the pronoun is the subject of 'agreed', so 'them' is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). There is no reflexive action here, so it is unnecessary.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun, used to show ownership (e.g., 'their report'). It cannot serve as the subject of a verb. The subject must be 'they'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, use the nominative case: I, you, he, she, it, we, they. Never use objective (me, him, them) or possessive (my, his, their) forms as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the blank's role: The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. Subjects require nominative case pronouns: 'they' (plural), not 'them' (objective) or 'their' (possessive).\n3. The committee members are plural, so the correct pronoun is 'they'.\n4. Check the options: Only 'they' is nominative and plural.\n\n### ❌ Why the Distractors Fail\n- **'them'**: Objective case used as subject — a common error where students confuse subject and object roles.\n- **'themselves'**: Reflexive pronoun used without a reflexive verb — the action is not directed back at the subject.\n- **'their'**: Possessive pronoun cannot function as a subject; it modifies a noun (e.g., 'their agreement').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-130",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Double Comparative Avoidance Variant 30",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Double Comparative Avoidance): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Subjects must be in the nominative case, not objective or possessive."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun performs the action 'agreed', so it must be in the nominative/subjective case. 'Them' is objective, 'their' is possessive, 'themselves' is reflexive."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. The committee members are plural, so 'they' is the correct subject pronoun."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only subjective pronoun that fits as the subject of 'agreed'. The others are incorrect case forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subjective case pronoun acting as the subject of the verb 'agreed'. The committee members (plural) are the ones who agreed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun, used as an object (e.g., 'gave it to them'), not as a subject. Here, the pronoun is the subject of 'agreed', so 'them' is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). There is no reflexive action here, so it is unnecessary.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun, used to show ownership (e.g., 'their report'). It cannot serve as the subject of a verb. The subject must be 'they'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, use the nominative case: I, you, he, she, it, we, they. Never use objective (me, him, them) or possessive (my, his, their) forms as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the blank's role: The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. Subjects require nominative case pronouns: 'they' (plural), not 'them' (objective) or 'their' (possessive).\n3. The committee members are plural, so the correct pronoun is 'they'.\n4. Check the options: Only 'they' is nominative and plural.\n\n### ❌ Why the Distractors Fail\n- **'them'**: Objective case used as subject — a common error where students confuse subject and object roles.\n- **'themselves'**: Reflexive pronoun used without a reflexive verb — the action is not directed back at the subject.\n- **'their'**: Possessive pronoun cannot function as a subject; it modifies a noun (e.g., 'their agreement').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-131",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Direct vs Indirect Object Pronoun Variant 31",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Direct vs Indirect Object Pronoun): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Subjects must be in the nominative case, not objective or possessive."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun performs the action 'agreed', so it must be in the nominative/subjective case. 'Them' is objective, 'their' is possessive, 'themselves' is reflexive."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. The committee members are plural, so 'they' is the correct subject pronoun."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only subjective pronoun that fits as the subject of 'agreed'. The others are incorrect case forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subjective case pronoun acting as the subject of the verb 'agreed'. The committee members (plural) are the ones who agreed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun, used as an object (e.g., 'gave it to them'), not as a subject. Here, the pronoun is the subject of 'agreed', so 'them' is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). There is no reflexive action here, so it is unnecessary.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun, used to show ownership (e.g., 'their report'). It cannot serve as the subject of a verb. The subject must be 'they'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, use the nominative case: I, you, he, she, it, we, they. Never use objective (me, him, them) or possessive (my, his, their) forms as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the blank's role: The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. Subjects require nominative case pronouns: 'they' (plural), not 'them' (objective) or 'their' (possessive).\n3. The committee members are plural, so the correct pronoun is 'they'.\n4. Check the options: Only 'they' is nominative and plural.\n\n### ❌ Why the Distractors Fail\n- **'them'**: Objective case used as subject — a common error where students confuse subject and object roles.\n- **'themselves'**: Reflexive pronoun used without a reflexive verb — the action is not directed back at the subject.\n- **'their'**: Possessive pronoun cannot function as a subject; it modifies a noun (e.g., 'their agreement').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-132",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Elliptical Clause Subject Case Variant 32",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Elliptical Clause Subject Case): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Subjects must be in the nominative case, not objective or possessive."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun performs the action 'agreed', so it must be in the nominative/subjective case. 'Them' is objective, 'their' is possessive, 'themselves' is reflexive."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. The committee members are plural, so 'they' is the correct subject pronoun."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only subjective pronoun that fits as the subject of 'agreed'. The others are incorrect case forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subjective case pronoun acting as the subject of the verb 'agreed'. The committee members (plural) are the ones who agreed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun, used as an object (e.g., 'gave it to them'), not as a subject. Here, the pronoun is the subject of 'agreed', so 'them' is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). There is no reflexive action here, so it is unnecessary.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun, used to show ownership (e.g., 'their report'). It cannot serve as the subject of a verb. The subject must be 'they'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, use the nominative case: I, you, he, she, it, we, they. Never use objective (me, him, them) or possessive (my, his, their) forms as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the blank's role: The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. Subjects require nominative case pronouns: 'they' (plural), not 'them' (objective) or 'their' (possessive).\n3. The committee members are plural, so the correct pronoun is 'they'.\n4. Check the options: Only 'they' is nominative and plural.\n\n### ❌ Why the Distractors Fail\n- **'them'**: Objective case used as subject — a common error where students confuse subject and object roles.\n- **'themselves'**: Reflexive pronoun used without a reflexive verb — the action is not directed back at the subject.\n- **'their'**: Possessive pronoun cannot function as a subject; it modifies a noun (e.g., 'their agreement').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-133",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Subjunctive Mood — Wish Formula Variant 33",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Subjunctive Mood — Wish Formula): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Subjects must be in the nominative case, not objective or possessive."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun performs the action 'agreed', so it must be in the nominative/subjective case. 'Them' is objective, 'their' is possessive, 'themselves' is reflexive."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. The committee members are plural, so 'they' is the correct subject pronoun."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only subjective pronoun that fits as the subject of 'agreed'. The others are incorrect case forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subjective case pronoun acting as the subject of the verb 'agreed'. The committee members (plural) are the ones who agreed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun, used as an object (e.g., 'gave it to them'), not as a subject. Here, the pronoun is the subject of 'agreed', so 'them' is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). There is no reflexive action here, so it is unnecessary.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun, used to show ownership (e.g., 'their report'). It cannot serve as the subject of a verb. The subject must be 'they'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, use the nominative case: I, you, he, she, it, we, they. Never use objective (me, him, them) or possessive (my, his, their) forms as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the blank's role: The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. Subjects require nominative case pronouns: 'they' (plural), not 'them' (objective) or 'their' (possessive).\n3. The committee members are plural, so the correct pronoun is 'they'.\n4. Check the options: Only 'they' is nominative and plural.\n\n### ❌ Why the Distractors Fail\n- **'them'**: Objective case used as subject — a common error where students confuse subject and object roles.\n- **'themselves'**: Reflexive pronoun used without a reflexive verb — the action is not directed back at the subject.\n- **'their'**: Possessive pronoun cannot function as a subject; it modifies a noun (e.g., 'their agreement').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-134",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Past Perfect Sequence of Events Variant 34",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Past Perfect Sequence of Events): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank is the subject of the verb 'agreed'. Ask: who performed the action of agreeing? The committee members."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "Subjects must be in the nominative case. In English, nominative pronouns are: I, you, he, she, it, we, they."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "Since the subject is plural (committee members), the correct nominative pronoun is 'they'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Option A ('they') is the only nominative plural pronoun. Options B, C, D are objective, reflexive, and possessive respectively."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the nominative plural pronoun, correctly serving as the subject of the verb 'agreed'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Them' is an objective case pronoun (used as object of verb or preposition). Here the pronoun is the subject of 'agreed', so objective case is incorrect.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'Themselves' is a reflexive pronoun, used when the subject and object refer to the same entity (e.g., 'They hurt themselves'). No reflexive action exists here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'Their' is a possessive pronoun (e.g., 'their report'). It cannot serve as the subject of a verb. The blank needs a subject, not a possessor.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use nominative pronouns (they, he, she, I, we) when performing the action of a verb. Ask: 'Who did the verb?' If the answer is the pronoun, it must be nominative.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Identify the clause structure.** The sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.' The blank is part of the second independent clause: '___ agreed to submit...'\n\n**Step 2: Determine the grammatical function of the blank.** The word in the blank is the subject of the verb 'agreed'. The subject performs the action.\n\n**Step 3: Choose the correct pronoun case.** Subjects require nominative (subjective) case pronouns. The nominative plural pronoun is 'they'.\n\n**Step 4: Verify with substitution.** 'They agreed to submit' is grammatically correct. 'Them agreed', 'Themselves agreed', 'Their agreed' are all incorrect.\n\n### ❌ Why the Distractors Fail\n- **'them'** (B): Objective case used as subject. 'Them agreed' is ungrammatical.\n- **'themselves'** (C): Reflexive pronoun used without a reflexive antecedent. No action reflects back on the subject.\n- **'their'** (D): Possessive pronoun cannot function as a subject. 'Their agreed' is nonsense.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-100",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — PROCUREMENT",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>procurement</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "purchasing"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "The sentence is about a Commission issuing a directive. 'Procurement' in government usually refers to acquiring goods or services."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Procurement' comes from 'procure', meaning to obtain or acquire, especially through purchase."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'to obtain or acquire'? 'Purchasing' is the only one that fits. 'Ignore', 'delay', and 'expand' are unrelated."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Purchasing' is the direct synonym. In government context, procurement often involves buying goods or services."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Procurement' means the act of obtaining goods or services, often by purchase. 'Purchasing' is the closest synonym.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Ignore' means to disregard. This is an antonym of 'procure' (to obtain). The student may have misread the sentence as 'to ignore the guidelines' but the word is 'procurement'.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Delay' means to postpone. This is unrelated to procurement. A student might confuse 'procurement' with 'procrastinate' due to similar sound, but meanings differ.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "'Expand' means to increase in size or scope. While procurement might involve expanding operations, 'expand' is not a synonym for 'procurement'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'PROCUREMENT' means purchasing (the act of obtaining goods or services for official use). Think of 'procure' = 'acquire'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the sentence.** The Commission issued a directive to 'procurement' the existing guidelines. The word 'procurement' is used as a verb here (though typically a noun, in context it functions as a verb).\n\n**Step 2: Define 'procurement'.** In government and business, procurement refers to the process of obtaining goods, services, or works. The core meaning is 'to acquire' or 'to purchase'.\n\n**Step 3: Match with options.** 'Purchasing' directly means buying or acquiring. 'Ignore', 'delay', and 'expand' do not share this meaning.\n\n**Step 4: Confirm synonym.** 'Purchasing' is the closest in meaning to 'procurement'.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** (B): Opposite meaning; a student might think 'procurement' relates to 'procrastinate' but it doesn't.\n- **'delay'** (C): No semantic connection; possibly confused due to similar prefix 'pro-'.\n- **'expand'** (D): Vaguely related to 'procure' in that both involve growth, but not synonymous.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-101",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — PROMULGATE",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>promulgate</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "enact"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "The Commission is issuing a directive to 'promulgate' guidelines. In government, 'promulgate' means to officially put into effect."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Promulgate' comes from Latin 'promulgare', meaning to make public or proclaim. It often refers to laws or policies."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'to put into effect' or 'to proclaim'? 'Enact' fits perfectly. 'Ignore', 'delay', 'expand' do not."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Enact' is the direct synonym. Both mean to make a law or rule officially valid."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Promulgate' means to make known or put into effect (a law, decree, etc.). 'Enact' is the closest synonym.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Ignore' means to disregard. This is an antonym. A student might think 'promulgate' relates to 'promote' but it doesn't.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Delay' means to postpone. Unrelated. Possibly confused with 'procrastinate' but 'promulgate' has no temporal meaning.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "'Expand' means to increase in size. While promulgating might expand the reach of guidelines, 'expand' is not a synonym for 'promulgate'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'PROMULGATE' means to enact (to put a law or policy into official effect). Think of 'proclaim' or 'announce officially'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the sentence.** The Commission issued a directive to 'promulgate' the existing guidelines. This means they want to officially announce or put the guidelines into effect.\n\n**Step 2: Define 'promulgate'.** To promulgate is to make a law, rule, or policy known and enforceable. It is a formal legal term.\n\n**Step 3: Match with options.** 'Enact' means to make a bill into law or to put a rule into effect. It is the best synonym.\n\n**Step 4: Confirm synonym.** 'Enact' and 'promulgate' are often used interchangeably in legal contexts.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** (B): Opposite; a student might misread 'promulgate' as 'promote' but it's not.\n- **'delay'** (C): No connection; possibly confused with 'procrastinate'.\n- **'expand'** (D): Vaguely related but not synonymous.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-102",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — JURISDICTION",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>jurisdiction</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "authority"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "The Commission is issuing a directive about 'jurisdiction'. In government, jurisdiction refers to the official power or authority to make decisions."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Jurisdiction' comes from Latin 'juris' (law) and 'dictio' (saying). It means the power to interpret and apply the law."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'official power'? 'Authority' is the direct match. 'Ignore', 'delay', 'expand' are unrelated."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Authority' is the closest synonym. Both refer to the right to exercise power in a given area."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Jurisdiction' means the official power to make legal decisions and judgments. 'Authority' is the closest synonym.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Ignore' means to disregard. This is an antonym. A student might think 'jurisdiction' relates to 'jurist' but not 'ignore'.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Delay' means to postpone. Unrelated. Possibly confused with 'adjourn' but 'jurisdiction' has no temporal meaning.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "'Expand' means to increase in scope. While a jurisdiction can be expanded, 'expand' is not a synonym for 'jurisdiction'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'JURISDICTION' means authority (official power to make legal decisions). Think of 'juris' = law, 'dictio' = saying → 'saying the law'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the sentence.** The Commission issued a directive to 'jurisdiction' the existing guidelines. Here 'jurisdiction' is used as a verb (though typically a noun), meaning to exercise authority over.\n\n**Step 2: Define 'jurisdiction'.** As a noun, it means the official power to make legal decisions. As a verb (less common), it means to have authority over.\n\n**Step 3: Match with options.** 'Authority' directly means the power or right to give orders, make decisions, and enforce obedience.\n\n**Step 4: Confirm synonym.** 'Authority' is the best match for 'jurisdiction'.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** (B): Opposite; a student might think 'jurisdiction' relates to 'jurisprudence' but not 'ignore'.\n- **'delay'** (C): No connection; possibly confused with 'adjournment'.\n- **'expand'** (D): Vaguely related but not synonymous.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-103",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — STATUTORY",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>statutory</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "mandatory"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "The Commission is issuing a directive to 'statutory' the guidelines. 'Statutory' relates to statutes (laws passed by a legislature)."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Statutory' means required, permitted, or enacted by statute. It implies something is legally obligatory."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'required by law'? 'Mandatory' fits perfectly. 'Ignore', 'delay', 'expand' do not."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Mandatory' is the direct synonym. Both indicate something that must be done because of a law."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Statutory' means required or regulated by statute (written law). 'Mandatory' is the closest synonym.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Ignore' means to disregard. This is an antonym. A student might think 'statutory' relates to 'statue' but not 'ignore'.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Delay' means to postpone. Unrelated. Possibly confused with 'statutory' sounding like 'tardy' but no connection.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "'Expand' means to increase in scope. While statutory requirements might expand, 'expand' is not a synonym for 'statutory'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'STATUTORY' means mandatory (required by legislative statute). Think of 'statute' = law, so 'statutory' = 'by law'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the sentence.** The Commission issued a directive to 'statutory' the existing guidelines. Here 'statutory' is used as a verb (though typically an adjective), meaning to make something required by statute.\n\n**Step 2: Define 'statutory'.** As an adjective, it means relating to or required by statute. It implies legal obligation.\n\n**Step 3: Match with options.** 'Mandatory' means required by law or rules; compulsory.\n\n**Step 4: Confirm synonym.** 'Mandatory' is the best match for 'statutory'.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** (B): Opposite; a student might think 'statutory' relates to 'statue' but not 'ignore'.\n- **'delay'** (C): No connection; possibly confused with 'statutory' sounding like 'tardy'.\n- **'expand'** (D): Vaguely related but not synonymous.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

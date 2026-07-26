@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-023",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct sentence with parallel structure:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The candidate is hardworking, intelligent, and has sincerity."
+      },
+      {
+        "key": "B",
+        "text": "The candidate is hardworking, intelligent, and sincere."
+      },
+      {
+        "key": "C",
+        "text": "The candidate is hardworking, has intelligence, and sincere."
+      },
+      {
+        "key": "D",
+        "text": "The candidate works hard, intelligent, and sincere."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Think of a list like a train—each car should be the same type. Here, the sentence lists qualities about the candidate. What part of speech are they all supposed to be?"
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule of Lists",
+        "text": "In a series, every item must match in grammatical form. If the first quality is an adjective (like 'hardworking'), the rest must also be adjectives. No mixing adjectives with verbs or nouns."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Read each option aloud and listen for the 'rhythm.' Option A has two adjectives then a verb phrase ('has sincerity'). Option C jumps from adjective to verb phrase back to adjective. Option D starts with a verb phrase then switches to adjectives. Only one option keeps the same form all the way through."
+      },
+      {
+        "rung": 4,
+        "title": "Find the Smooth Flow",
+        "text": "The correct answer uses three adjectives in a row: 'hardworking, intelligent, and sincere.' No extra verbs, no switching forms. It just flows naturally."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one starts strong with two adjectives ('hardworking,' 'intelligent'), but then it switches to a verb phrase ('has sincerity'). It's like wearing sneakers with a formal suit—the pieces don't match. A smart test-taker might pick this because it sounds okay, but the 'has' breaks the pattern.",
+        "trap_type": "parallel_structure_error"
+      },
+      "B": {
+        "text": "This is the one. All three items are adjectives: 'hardworking,' 'intelligent,' 'sincere.' They match perfectly, creating a smooth, balanced sentence. No awkward shifts, no extra words.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option is a mix-up: it starts with an adjective ('hardworking'), then jumps to a verb phrase ('has intelligence'), then back to an adjective ('sincere'). It's like changing dance moves mid-song—confusing and off-beat. You might choose this if you focus on meaning over form, but grammar demands consistency.",
+        "trap_type": "parallel_structure_error"
+      },
+      "D": {
+        "text": "Here, the first item is a verb phrase ('works hard'), but the next two are adjectives ('intelligent,' 'sincere'). The mismatch is obvious when you read it aloud. A common mistake is to think 'works hard' is just another description, but it's a different grammatical creature.",
+        "trap_type": "parallel_structure_error"
+      }
+    },
+    "next_time_rule": "When you see a list in a sentence, do the 'Same Form Check.' Ask yourself: Are all items the same part of speech? If the first is an adjective, the rest must be adjectives. If the first is a noun, all must be nouns. Keep the train cars identical.",
+    "blueprint_id": "Parallel Structure — Adjective Series",
+    "deconstruct_text": "Let's break this down together. The sentence is describing the candidate using a list of qualities. For the list to be grammatically parallel, every item in that list must take the same form. Think of it like a team uniform—everyone wears the same jersey.\n\nOption B is the only one where all three items are adjectives: 'hardworking,' 'intelligent,' and 'sincere.' They all describe the candidate directly and smoothly.\n\nNow look at the others. Option A has two adjectives but then switches to a verb phrase ('has sincerity'). Option C mixes an adjective, a verb phrase, and another adjective. Option D starts with a verb phrase ('works hard') and then uses adjectives. Each of these breaks the parallel structure because the forms don't match.\n\nHere's a mental trick for exam day: Read the list aloud and listen for the 'rhythm.' If it feels clunky or you have to change your tone mid-list, it's probably not parallel. Another trick is to strip the list down to just the items and see if they all look alike. For example, 'hardworking, intelligent, sincere'—all end in a similar descriptive way. But 'hardworking, intelligent, has sincerity'—that last one sticks out like a sore thumb.\n\nSo remember: parallel structure is all about consistency. Keep every item in the same grammatical form, and you'll never get tripped up.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

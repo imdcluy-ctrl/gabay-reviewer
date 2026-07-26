@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-023",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "If 8 civil engineers can complete a road project in 15 days, how many engineers are needed to complete the same project in 10 days?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About the Relationship",
+        "text": "This is a classic 'more workers, fewer days' situation. When you add more people to a job, the time goes down. That's the opposite of what happens with direct proportion, so be careful not to mix them up."
+      },
+      {
+        "rung": 2,
+        "title": "The Secret Formula",
+        "text": "For inverse proportion problems like this, the total amount of work stays the same. You can find it by multiplying the number of workers by the number of days. So here, total work = 8 engineers times 15 days."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up the Equation",
+        "text": "Let N be the number of engineers you need. Since the total work is constant, you have: 8 times 15 = N times 10. That gives you 120 = N times 10."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Now just solve for N by dividing both sides by 10. 120 divided by 10 equals... that's your answer. Look for it among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. This is a very common trap. It's tempting to think that since 10 days is two-thirds of 15 days, you'd need two-thirds of the engineers. But that's backwards. When days go down, engineers must go up. If you accidentally set up a direct proportion (8/15 = N/10), you'd get about 5.33, not 10. So 10 might come from a different miscalculation, like subtracting 5 from 15 and adding it to 8. The key is to remember that inverse proportion means you multiply, not divide.",
+        "trap_type": "proportion_type_error"
+      },
+      "B": {
+        "text": "Correct! 12. Here's the clean way to think about it: the total work is 8 engineers times 15 days, which is 120 engineer-days. To finish in 10 days, you need 120 divided by 10, which is 12 engineers. It makes sense intuitively too: you're cutting the time by one-third (from 15 to 10 days), so you need to increase the workforce by the same proportion. One-third more than 8 is 12.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "14. This one is a bit of a mystery, but it might come from adding 6 to 8 (maybe thinking half of 12 is 6) or from a rough guess that you need 'a few more' engineers. It's not based on the correct inverse proportion logic. If you check: 14 engineers times 10 days gives 140 engineer-days, which is more work than the original 120. So that would mean the project gets done faster than needed, but the math doesn't match the constant work rule.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "D": {
+        "text": "16. This is another common misstep. Some people see that 10 days is less than 15 days and think they need to double the engineers. Or they might set up a direct proportion incorrectly and get 16. But remember: if you double the engineers from 8 to 16, you'd actually finish in half the time, which would be 7.5 days, not 10. That's too many people for the target. The correct increase is more modest: from 8 to 12, which is a 50% increase, matching the 50% decrease in days.",
+        "trap_type": "proportion_type_error"
+      }
+    },
+    "next_time_rule": "For inverse proportion problems (more workers = fewer days), always use the 'constant product' rule: Workers1 x Days1 = Workers2 x Days2. Never set up a direct proportion like Workers1/Days1 = Workers2/Days2. A quick mental check: if the days go down, the workers must go up, so your answer should be larger than the original number.",
+    "blueprint_id": "Inverse Proportion — Road Project Manpower",
+    "deconstruct_text": "Let's walk through this step by step. First, recognize that this is an inverse proportion problem. When you have more engineers working, the project takes fewer days. That means the total amount of work stays the same no matter how many people you have. We can calculate that total work by multiplying the original number of engineers by the original number of days: 8 engineers times 15 days equals 120 engineer-days. Think of it as '120 units of work' that need to be done. Now, we want to finish in 10 days. To find out how many engineers we need, we divide the total work by the new number of days: 120 divided by 10 equals 12 engineers. That's our answer. A quick way to double-check: 12 engineers times 10 days gives 120 engineer-days, which matches the original. Perfect. The mental trick here is to always ask yourself: 'Is this direct or inverse?' If one thing goes up and the other goes down, it's inverse. And for inverse, you multiply the two quantities to get a constant. That constant is your anchor.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

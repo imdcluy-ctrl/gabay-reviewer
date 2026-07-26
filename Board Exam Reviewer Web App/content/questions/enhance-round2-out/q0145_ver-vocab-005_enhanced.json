@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-005",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'UBIQUITOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rare"
+      },
+      {
+        "key": "B",
+        "text": "Scarce"
+      },
+      {
+        "key": "C",
+        "text": "Everywhere"
+      },
+      {
+        "key": "D",
+        "text": "Hidden"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Idea",
+        "text": "Ubiquitous is about presence. Anong bagay ang laging nandyan? Like hangin o sari-sari store. Yun ang ibig sabihin."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: 'You be everywhere'",
+        "text": "Latin 'ubique' = everywhere. Kung ubiquitous, di mo maiwasan—parang traffic sa EDSA, nasa lahat ng oras."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Rare, scarce, hidden—lahat yan opposite ng everywhere. Alisin mo na; isa na lang natitira."
+      },
+      {
+        "rung": 4,
+        "title": "Pick the One",
+        "text": "Everywhere ang tamang sagot. Tandaan, ubiquitous = present in all places, tulad ng hangin."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'rare' sounds special, but ubiquitous means common, the opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because scarce means limited, while ubiquitous means abundant everywhere—total opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. Ubiquitous means everywhere—parang hangin, di mo maiiwasan.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because hidden means concealed, but ubiquitous is out in the open, visible everywhere.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Ubiquitous = everywhere. Opposite: rare, scarce, hidden. Mnemonic: 'you be everywhere'—jeepney-like presence.",
+    "blueprint_id": "Vocabulary — Ubiquitous",
+    "deconstruct_text": "Ubiquitous means present in all places—parang sari-sari store sa bawat kanto ng barangay natin. Latin root 'ubique' literally means 'everywhere.'\n\nCompare mo sa choices: Rare (bihira), Scarce (kapos), Hidden (nakatago)—lahat opposite ng 'everywhere.' Simple lang, tatlo ang mali, isa ang tama.\n\nAng tamang sagot ay 'Everywhere.' Mental trick: 'You be everywhere'—parang jeepney na kahit saan may dumadaan.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

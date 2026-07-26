@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-001",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under RA 6713 (Code of Conduct), what document must public officials disclose their assets, liabilities, and business interests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Income Tax Return"
+      },
+      {
+        "key": "B",
+        "text": "SALN (Statement of Assets, Liabilities, and Net Worth)"
+      },
+      {
+        "key": "C",
+        "text": "Bank Statement"
+      },
+      {
+        "key": "D",
+        "text": "Audit Report"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Alamin: RA 6713 requires officials to disclose all wealth. Isipin mo, para kang nagbubukas ng resibo sa publiko."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Ang tawag sa dokumentong iyan ay SALN — Statement of Assets, Liabilities, and Net Worth. Ito ang legal na declaration ng lahat ng ari-arian, utang,..."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Ngayon, tingnan ang choices: ITR ay para lang sa buwis, Bank Statement galing sa banko, Audit Report mula sa COA. Tanging SALN ang mismong idine-de..."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Ito na: Ang sagot ay 'SALN'—kilala sa balita tuwing may isyu ng corruption. Hanapin ang acronym na ito at surebol na sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because the Income Tax Return also lists financial info, but it's filed with BIR for taxes, not for public transp...",
+        "trap_type": "jurisdiction_misattribution"
+      },
+      "B": {
+        "text": "Correct. RA 6713 requires the SALN to publicly disclose all assets, liabilities, and business interests.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because a bank statement shows money, but it lacks liabilities and isn't a sworn filing.",
+        "trap_type": "jurisdiction_misattribution"
+      },
+      "D": {
+        "text": "You might have chosen D because an audit report checks finances, but it's done by auditors, not a personal declaration of wealth.",
+        "trap_type": "jurisdiction_misattribution"
+      }
+    },
+    "deconstruct_text": "Para bang si Kapitan Mike ng Brgy. San Jose, may sari-sari store, tricycle, at utang sa 5-6. Under RA 6713, required siyang mag-declare ng lahat ng yan sa isang dokumento. Hindi pwede ang ITR o bank statement—SALN ang tawag dito.\n\nAng SALN ay Statement of Assets, Liabilities, and Net Worth. Parang financial selfie—pinapakita lahat ng ari-arian, utang, at kung magkano talaga ang net worth mo. Dito malalaman kung biglang yaman ang opisyal.\n\nMental Trick: Tandaan ang acronym SALN as 'Show All, Legally Needed' o 'Siguradong Alam ng Lahat ang Net worth' kung gusto mo ng mas Pinoy. Basta pag RA 6713, SALN agad ang isagot. Hindi ITR (para sa BIR), hindi bank statement (galing bangko), at hindi audit report (...",
+    "next_time_rule": "Whenever you see RA 6713 and words like 'assets,' 'liabilities,' or 'business interests,' think SALN—it's the transparency document for public officials.",
+    "blueprint_id": "RA 6713 — SALN Requirement",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-471",
+    "category_id": "analytical-ability",
+    "subtopic_id": "data-interpretation",
+    "question_text": "The stacked bar chart below shows the breakdown of expenditures (in millions of pesos) for four municipalities: Alaminos, Bani, Dasol, and Infanta. Each bar is divided into three categories: Health, Education, and Infrastructure. Alaminos spent a total of ₱120M (Health: 30M, Education: 50M, Infrastructure: 40M). Bani spent a total of ₱100M (Health: 20M, Education: 40M, Infrastructure: 40M). Dasol spent a total of ₱80M (Health: 10M, Education: 30M, Infrastructure: 40M). Infanta spent a total of ₱90M (Health: 25M, Education: 35M, Infrastructure: 30M). Which municipality allocated the highest percentage of its total expenditure to Health?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alaminos"
+      },
+      {
+        "key": "B",
+        "text": "Bani"
+      },
+      {
+        "key": "C",
+        "text": "Dasol"
+      },
+      {
+        "key": "D",
+        "text": "Infanta"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2051",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

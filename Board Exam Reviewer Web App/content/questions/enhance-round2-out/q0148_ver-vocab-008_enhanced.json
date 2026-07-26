@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-008",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive. What does 'mandatory' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Required"
+      },
+      {
+        "key": "C",
+        "text": "Suggested"
+      },
+      {
+        "key": "D",
+        "text": "Advisory"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient: Meaning ng Mandatory",
+        "text": "Isipin mo, \"mandatory\" = \"must.\" Sa exam, kapag may directive na mandatory, ibig sabihin ay required, hindi optional."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Mandate = Command",
+        "text": "Mandatory galing sa salitang \"mandate.\" Ang mandate ay utos. Kapag utos, walang palag—kailangan gawin. Kaya mandatory means required."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Eliminate Choices",
+        "text": "Tingnan ang choices: \"Optional\" means may choice. \"Suggested\" at \"Advisory\" ay payo lang, hindi sapilitan. Ang tamang sagot ay \"Required.\""
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away: Barangay Scenario",
+        "text": "Sa barangay assembly, kapag mandatory ang attendance, hindi ka puwedeng umiwas. Required talaga. I-match mo: mandatory = required. Sagot ay B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 'mandatory' means voluntary, but it actually means the opposite—required.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. 'Mandatory' means required, compulsory, or obligatory—something you must do because an authority commands it.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'suggested' sounds similar, but a suggestion is just a recommendation, not a mandatory order.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because 'advisory' seems official, but advisory is non-binding advice, not a required action.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "deconstruct_text": "Sa barangay assembly, mandatory ang attendance. Ibig sabihin, walang choice—kailangan pumunta, kundi may penalty. 'Yan ang ibig sabihin ng 'mandatory' sa CSC directive: requirement, hindi suggestion.\n\nNow, the options: 'Optional' is kabaliktaran—may choice ka. 'Suggested' and 'Advisory' are recommendations, not forced. Only 'Required' means 'must-do.' So 'mandatory' = required.\n\n**Watch-Out Zone: synonym_antonym_inversion** in action. Don't pick 'Optional', it's th...",
+    "next_time_rule": "Mandate Rule: 'Pag may 'mandatory,' isipin mo agad 'mandate' = utos = required. Hindi 'yan option o suggestion.",
+    "blueprint_id": "Vocabulary — Administrative Directives",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

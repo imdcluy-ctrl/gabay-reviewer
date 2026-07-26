@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-004",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Two employees can encode 1,500 forms in 6 hours together. Jose alone takes 10 hours. How long for Pedro alone?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Rates",
+        "text": "Combined rate: 1/6 per oras. Si Jose: 1/10. Si Pedro: combined minus Jose."
+      },
+      {
+        "rung": 2,
+        "title": "Subukan Mag-subtract",
+        "text": "1/6 - 1/10, hanapin LCD 30. 5/30 - 3/30 = 2/30 = 1/15."
+      },
+      {
+        "rung": 3,
+        "title": "Oras ni Pedro",
+        "text": "Rate = 1/15, so time = 1/(1/15) = 15 oras."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: D",
+        "text": "Kung 1/15 per oras, 15 oras mag-isa. Check: 1/10 + 1/15 = 1/6, match."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you averaged 10 and 6 to get 8, then added 4. But work rates don't work by averaging times.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because you misapplied the formula 1/(1/10+1/6) = 3.75, then rounded to 13.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "You might have chosen C because you subtracted 2 from 10+6=16 to get 14, not using the correct rate method.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "Correct. Pedro's rate is 1/15 job per hour, so he takes 15 hours alone, matching the 6-hour combined time.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Tandaan: Sa work problems, 1/T = 1/A + 1/B. Hanapin ang missing rate, invert lang para makuha oras. Wag mag-average!",
+    "blueprint_id": "Finding Individual Work Rate",
+    "deconstruct_text": "Sa Barangay Masipag, may 1,500 forms na kailangan i-encode para sa ayuda. Magkasama sina Jose at Pedro, tapos nila 'yun sa loob ng 6 na oras. Pero nung si Jose lang, inabot siya ng 10 oras. Ang tanong: kung si Pedro lang mag-isa, ilang oras aabutin?\n\nTara, gamitin natin ang work rate formula: Rate = 1/Time. Combined rate nila ay 1/6 ng trabaho kada oras. Rate ni Jose ay 1/10. Para makuha rate ni Pedro, i-subtract lang: 1/6 - 1/10.\n\nHanapin ang LCD na 30: 1/6 = 5/30, 1/10 = 3/30. So rate ni Pedro = (5 - 3)/30 = 2/30 = 1/15 ng trabaho kada oras. Ibig sabihin, kailangan niya ng 15 oras para matapos mag-isa. Sagot: D, 15 oras.\n\n'Wag mong i-average ang oras, parang sa pagluluto ng adobo—kung dalawa kayo, hindi ibig sabihin kalahati ng oras ang kailangan ng isa. Rates muna bago time.\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Wag mag-average ng oras! Rate...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

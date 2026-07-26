@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-021",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "How many seconds are in 2 hours?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3,600"
+      },
+      {
+        "key": "B",
+        "text": "5,400"
+      },
+      {
+        "key": "C",
+        "text": "7,200"
+      },
+      {
+        "key": "D",
+        "text": "14,400"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "1 oras = ilang segundo?",
+        "text": "1 oras = 60 minutes x 60 seconds = 3,600 seconds. Basic ito."
+      },
+      {
+        "rung": 2,
+        "title": "Multiply mo sa 2",
+        "text": "Dahil 2 oras ang tanong, i-multiply ang 3,600 sa 2. Parang pagbili ng dalawang kilo ng bigas."
+      },
+      {
+        "rung": 3,
+        "title": "Gawin ang math",
+        "text": "3,600 x 2 = 7,200. Simpleng multiplication lang."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 7,200",
+        "text": "Kaya 2 oras = 7,200 segundo. Tama ang sagot na C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you only got seconds for 1 hour, forgetting to multiply by 2. 3,600 is for isang oras lang.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because you miscalculated, maybe 1.5 hours instead of 2, or used a wrong base conversion.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct. 2 hours × 60 minutes × 60 seconds = 7,200 seconds. Basic conversion lang.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you doubled the correct answer, perhaps multiplying 3,600 by 4 instead of 2.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "To convert hours to seconds: multiply hours by 3,600. For 2 hours, 2 × 3,600 = 7,200. Isipin mo lang 'hours × 3,600'.",
+    "blueprint_id": "Time Conversion Seconds",
+    "deconstruct_text": "Imagine riding a jeepney from Cubao to Quiapo—your trip takes exactly 2 hours. You want to know how many seconds you're on that vehicle. Simple lang: just convert hours to seconds with basic math.\n\n1 hour = 60 minutes, and 1 minute = 60 seconds. So 1 hour = 60 × 60 = 3,600 seconds. Since you're on the road for 2 hours, multiply: 2 × 3,600 = 7,200 seconds. That's how long you'll be enjoying the jeepney ride!\n\nMental Trick: Parang sa palengke: 1 kilo ng bigas = 3,600 piso? Hindi, pero 1 oras = 3,600 seconds. Kaya 2 oras, doblehin mo lang. Slogan: 'Oras times 3,600.' Kasing-dali lang!\n\nDistractor Alert: A (3,600) ay pang-isang oras lang—nalimutan i-multiply. B (5,400) parang 1.5 oras, maling conversion. D (14,400) sobra, baka na-multiply sa 4 imbes na 2.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

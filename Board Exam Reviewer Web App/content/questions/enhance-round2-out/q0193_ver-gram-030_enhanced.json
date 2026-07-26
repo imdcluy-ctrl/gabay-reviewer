@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-030",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence is grammatically correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have reached a decision."
+      },
+      {
+        "key": "B",
+        "text": "The committee has reached a decision."
+      },
+      {
+        "key": "C",
+        "text": "The committee are reaching a decision."
+      },
+      {
+        "key": "D",
+        "text": "The committee were reached a decision."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What Kind of Word Is 'Committee'?",
+        "text": "Think of 'committee' as a single unit, not a bunch of individuals. It's a collective noun, like 'team' or 'family'."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Collective Nouns",
+        "text": "In American English, collective nouns are treated as singular. So they pair with singular verbs like 'has', 'is', or 'reaches'."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Singular Verb",
+        "text": "Look at each verb: 'have' is plural, 'has' is singular, 'are' is plural, 'were' is plural. Only one option uses a singular verb."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate with Taglish",
+        "text": "Taglish tip: 'Isipin ang committee bilang isang tao. Kaya 'has' ang gamit.' Only B uses the singular 'has' correctly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought of the members individually. Remember, collective nouns are singular in this exam.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Committee' is a singular collective noun, so it pairs perfectly with the singular verb 'has'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'are' sounds natural, but 'committee' as a unit requires singular verb 'has'.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "D": {
+        "text": "You might have chosen D because of past tense, but 'were reached' is wrong verb form and plural; use 'has reached'.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "When you see a collective noun, treat it as singular by default. Use the 'One Unit Test': imagine the group as one person.",
+    "blueprint_id": "Subject-Verb — Collective Nouns 2",
+    "deconstruct_text": "Imagine your barangay’s Bids and Awards Committee (BAC) meeting. The entire committee acts as one unit, so you'd say 'The committee has reached a decision.'\n\nIn American English (the standard for this exam), collective nouns like 'committee', 'team', 'jury' are singular. They take singular verbs like 'has', not 'have', 'are', or 'were'.\n\nMental trick in Taglish: 'Isipin mo, ang committee ay parang iisang tao. Kaya gamitin ang ‘has,’ hindi ‘have.’' Tandaan mo: one unit = one verb.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-019",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "RAIN is to FLOOD as NEGLIGENCE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Care"
+      },
+      {
+        "key": "B",
+        "text": "Accident"
+      },
+      {
+        "key": "C",
+        "text": "Injury"
+      },
+      {
+        "key": "D",
+        "text": "Responsibility"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang Relationship",
+        "text": "Unang pares: RAIN (dahilan) → FLOOD (bunga). Gawing sanhi-bunga rin ang NEGLIGENCE → ?"
+      },
+      {
+        "rung": 2,
+        "title": "Isipin ang Direktang Epekto",
+        "text": "Ang negligence ay pagpapabaya. Ang unang kaganapan bunga nito? Isang aksidente, tulad ng banggaan o pagkasira."
+      },
+      {
+        "rung": 3,
+        "title": "Bakit Hindi Injury?",
+        "text": "Maaaring kasunod ng aksidente ang injury, pero ang direktang resulta ay yung insidente mismo. Huwag lumundag ng diretso sa injury."
+      },
+      {
+        "rung": 4,
+        "title": "Siguradong Sagot",
+        "text": "Kaya ang tamang salita ay 'Accident'. Sanhi-bunga, walang ipit."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'Care' seems like what negligence lacks, but the relationship is cause-effect, not antonym.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Negligence often causes accidents, making it the direct effect in the analogy.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because injury feels like a result, but the immediate effect of negligence is the accident, not the injury.",
+        "trap_type": "hasty_generalization"
+      },
+      "D": {
+        "text": "You might have chosen D because 'Responsibility' is the opposite of negligence, but the analogy requires an effect, not an antonym.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Sa cause-effect analogy, unahin ang direct result: negligence muna leads to accident, hindi derecho sa injury. Think first event.",
+    "blueprint_id": "Cause-Effect 3",
+    "deconstruct_text": "Sa kalsada ng Maynila, si Ate Len ay nagmamaneho ng dyip habang nagse-cellphone—isang halimbawa ng negligence. Dahil sa kawalan ng ingat, sumalpok siya sa poste. Ano ang direktang resulta? Hindi ba't yung aksidente muna? Ang injury ay after-effect na.\n\nSa analogy, RAIN → FLOOD ay cause-effect. Kaya NEGLIGENCE →? Dapat ang direktang epekto: ACCIDENT. Hindi agad injury kasi ang injury ay resulta ng aksidente, hindi ng kapabayaan mismo.\n\nMental Trick: 'Pag may negligence, think aksidente—parang ulan na nagdudulot ng baha. Diretso agad, walang intermediate step.'\n\n**Watch-Out Zone: hasty_generalization** in action. Don't leap to injury; negligence di...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

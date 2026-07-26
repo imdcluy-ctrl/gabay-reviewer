@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-020",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A boat travels 30 km downstream in 2 hours. The return trip upstream takes 3 hours. Find the speed of the current.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 km/h"
+      },
+      {
+        "key": "B",
+        "text": "2.5 km/h"
+      },
+      {
+        "key": "C",
+        "text": "3 km/h"
+      },
+      {
+        "key": "D",
+        "text": "3.5 km/h"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Downstream: Boat plus current",
+        "text": "Boat speed + current = 30 km / 2 h = 15 km/h. Isipin mong tulin na may tulong ng agos."
+      },
+      {
+        "rung": 2,
+        "title": "Upstream: Boat minus current",
+        "text": "Boat speed - current = 30 km / 3 h = 10 km/h. Ito naman ay laban sa agos."
+      },
+      {
+        "rung": 3,
+        "title": "Current = Half ng difference",
+        "text": "Current speed = (15 - 10)/2 = 5/2 = 2.5 km/h. Kalahati ng pinagkaiba ng dalawang bilis."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 2.5 km/h",
+        "text": "Kaya ang sagot ay 2.5 km/h. Option B ang tama."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided 5 by 2.5 instead of 2, resulting in 2 km/h.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "Correct. Downstream speed = 15 km/h, upstream = 10 km/h; current = (15 - 10)/2 = 2.5 km/h.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you rounded up or incorrectly applied the formula, getting 3 instead of 2.5.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you added 15+10=25, then divided by 7, getting ~3.5 km/h.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "Next time: Current = (Downstream - Upstream) / 2. Downstream = boat + current, upstream = boat - current. Kaya mo 'yan!",
+    "blueprint_id": "River Current Problem",
+    "deconstruct_text": "Alam mo ba? Sa probinsya, yung mga bangkero sa Ilog Pasig ay araw-araw na lumalaban sa agos. Ganito rin sa exam: imagine a banca from Guadalupe to Binondo, 30 km ang layo. Downstream, 2 hours lang, kasi tulong ang agos. Upstream, 3 hours, kasi laban sa agos.\n\nKunin natin ang bilis: Downstream speed = 30 km / 2 h = 15 km/h. Ito ay speed ng bangka plus speed ng current. Upstream speed = 30 km / 3 h = 10 km/h. Ito ay speed ng bangka minus current.\n\nNgayon, isipin mong equation: Boat + Current = 15, Boat - Current = 10. Pag in-add mo, 2Boat = 25, kaya Boat = 12.5 km/h. Tapos, subtract mo: (Boat+Current) - (Boat-Current) = 15 - 10, so 2Current = 5, Current = 2.5 km/h.\n\nKaya ang tamang sagot ay 2.5 km/h, Option B. Tandaan: Downstream = dagdag, Upstream = bawas.\n\n**Watch-Out Zone: reverse_operation_error** Don't add; subtract speeds, then half.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

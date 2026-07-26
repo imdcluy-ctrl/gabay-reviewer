@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-410",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "Arrange these Filipino surnames with Spanish prefixes in correct filing order:\n- Dela Cruz, Juan\n- Del Rosario, Maria\n- De La Torre, Ana\n- Delos Santos, Jose",
+    "options": [
+      {
+        "key": "A",
+        "text": "De La Torre, Ana; Del Rosario, Maria; Dela Cruz, Juan; Delos Santos, Jose"
+      },
+      {
+        "key": "B",
+        "text": "Dela Cruz, Juan; Delos Santos, Jose; Del Rosario, Maria; De La Torre, Ana"
+      },
+      {
+        "key": "C",
+        "text": "Dela Cruz, Juan; De La Torre, Ana; Del Rosario, Maria; Delos Santos, Jose"
+      },
+      {
+        "key": "D",
+        "text": "Delos Santos, Jose; Dela Cruz, Juan; Del Rosario, Maria; De La Torre, Ana"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about how we treat those Spanish prefixes like 'Dela,' 'De La,' 'Del,' and 'Delos.' The key is to think of them as part of the surname itself, not as separate words."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule: when filing, ignore the spaces and the capitalization of the prefix. Treat the entire thing as one continuous word. So 'De La Torre' becomes 'DeLaTorre,' and 'Dela Cruz' becomes 'DelaCruz.'"
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Now, write all four surnames as one continuous string: DelaCruz, DeLaTorre, DelRosario, DelosSantos. Your job is to sort these alphabetically, letter by letter, as if they were any other word. Which one would come first in a dictionary?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Compare 'DelaCruz' and 'DeLaTorre.' They start the same: D-e-l. The fourth letter is 'a' for both. So we go to the fifth letter: 'C' in DelaCruz and 'T' in DeLaTorre. Since 'C' comes before 'T', Dela Cruz comes first. Now compare 'DelRosario' and 'DelosSantos.' They start D-e-l. The fourth letter is 'R' in DelRosario and 'o' in DelosSantos. 'R' comes before 'o', so Del Rosario comes before Delos Santos. Put it all together."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This order puts 'De La Torre' first, but that's not quite right. When we compare 'DelaCruz' and 'DeLaTorre' as single strings, they tie on the first four letters (D-e-l-a). The tiebreaker is the fifth letter: 'C' from Cruz versus 'T' from Torre. Since 'C' comes before 'T', 'Dela Cruz' should actually be filed before 'De La Torre.'",
+        "trap_type": "prefix_separation_error"
+      },
+      "B": {
+        "text": "This order has 'Delos Santos' before 'Del Rosario,' which is a common mix-up. When you compare 'DelosSantos' and 'DelRosario' as single strings, the first three letters (D-e-l) are the same. The fourth letter is 'o' for DelosSantos and 'R' for DelRosario. Since 'R' comes before 'o' in the alphabet, 'Del Rosario' should actually come first.",
+        "trap_type": "delrosario_delossantos_misorder"
+      },
+      "C": {
+        "text": "This is the correct filing order. By treating each prefix as part of the surname and comparing the strings letter by letter, we get: DelaCruz (D-e-l-a-C...) comes before DeLaTorre (D-e-l-a-T...), and DelRosario (D-e-l-R...) comes before DelosSantos (D-e-l-o...).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This order starts with 'Delos Santos,' but that's not the first name alphabetically. 'Dela Cruz' should be first because 'Dela' comes before 'Delos' when compared letter by letter (the fourth letter 'a' is before 'o'). This looks like the names were sorted in reverse order.",
+        "trap_type": "reverse_order"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. The trick with Spanish prefixes like 'Dela,' 'De La,' 'Del,' and 'Delos' is to treat them as part of the surname, not as separate words. So, we ignore the spaces and capitalization and compare the entire string as one word.\n\nFirst, write each surname as one continuous string:\n- Dela Cruz becomes DelaCruz\n- De La Torre becomes DeLaTorre\n- Del Rosario becomes DelRosario\n- Delos Santos becomes DelosSantos\n\nNow, sort them alphabetically, just like you would any other word in a dictionary:\n\nCompare DelaCruz and DeLaTorre. They both start with D-e-l-a. The tiebreaker is the fifth letter: 'C' from Cruz versus 'T' from Torre. 'C' comes before 'T', so DelaCruz comes first.\n\nCompare DelRosario and DelosSantos. They both start with D-e-l. The fourth letter is 'R' in DelRosario and 'o' in DelosSantos. 'R' comes before 'o', so DelRosario comes before DelosSantos.\n\nSo the correct alphabetical order is: DelaCruz, DeLaTorre, DelRosario, DelosSantos.\n\nNow, map them back to their original forms: Dela Cruz, De La Torre, Del Rosario, Delos Santos. That matches option C.\n\nHere's a mental trick for next time: Think of the 'String Merge' method. Just mentally glue the prefix and the surname together into one word, ignoring spaces and capital letters. Then sort them as you would any list of words. This simple trick works every time and saves you from overthinking the prefixes.",
+    "next_time_rule": "The 'String Merge' rule: When filing surnames with Spanish prefixes (Dela, De La, Del, Delos), mentally glue the prefix and surname into one continuous word. Ignore spaces and capitalization, then sort alphabetically like any other word.",
+    "blueprint_id": "B-2380",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

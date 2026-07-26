@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-005",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'An applicant is granted an interview ONLY IF they pass the written examination and possess a bachelor's degree.'\nFact: Jose passed the written examination but does not possess a bachelor's degree.\nConclusion: Is Jose eligible for an interview?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, because passing the written exam is sufficient."
+      },
+      {
+        "key": "B",
+        "text": "No, because both conditions must be satisfied."
+      },
+      {
+        "key": "C",
+        "text": "Yes, if he submits an extension request."
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined from the rule."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This is all about understanding what 'ONLY IF' really means in a rule. It's a special logical phrase that tells you something important about the conditions."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "When you see 'X ONLY IF Y', think of it this way: Y is absolutely necessary for X to happen. Without Y, X cannot happen. Here, the interview (X) needs both passing the exam AND having a degree (Y)."
+      },
+      {
+        "rung": 3,
+        "title": "Apply it to Jose",
+        "text": "Jose has one piece of the puzzle (passed the exam) but is missing the other (no bachelor's degree). Since 'ONLY IF' demands both conditions, ask yourself: can the interview happen if even one condition is missing?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly there",
+        "text": "Think of it like a door with two locks. You need both keys to open it. Jose has only one key. The door stays locked. So the answer is a clear 'No' because both conditions are required."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to think that passing the exam is enough, especially since it's the first condition mentioned. But 'ONLY IF' is a strict gatekeeper—it doesn't let you in with just one requirement fulfilled. Both conditions are necessary, not just one.",
+        "trap_type": "sufficiency_fallacy"
+      },
+      "B": {
+        "text": "Exactly right. 'ONLY IF' means every condition listed after it is a must-have. Since Jose doesn't have a bachelor's degree, he doesn't meet all the requirements, so he's not eligible for an interview.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one comes from imagining a solution that isn't in the rule. The rule doesn't mention any extension request or exception process. When a question gives you a clear rule, stick to it—don't add your own 'what ifs.'",
+        "trap_type": "speculative_error"
+      },
+      "D": {
+        "text": "It might feel like there's not enough information, but there actually is. The rule is crystal clear about what's needed, and we know Jose is missing one of those things. That's enough to give a definite 'No.'",
+        "trap_type": "indecision_error"
+      }
+    },
+    "next_time_rule": "When you see 'ONLY IF,' remember the 'Two Keys' rule: every condition after 'ONLY IF' is a separate key you must have. Missing even one key means the door stays locked.",
+    "blueprint_id": "Logical Reasoning — Necessary vs Sufficient Conditions",
+    "deconstruct_text": "Let's walk through this together. The rule says an interview happens ONLY IF two things are true: passing the written exam AND having a bachelor's degree. The word 'ONLY IF' is your clue here—it means those two conditions are necessary. Think of them as a checklist where every single box must be ticked.\n\nNow look at Jose's situation. He passed the exam—that's one box ticked. But he doesn't have a bachelor's degree—that box is unticked. Since 'ONLY IF' demands all boxes be checked, Jose doesn't qualify. It's that straightforward.\n\nHere's a mental trick to lock this in: Whenever you see 'X ONLY IF Y,' flip it in your mind to 'If X, then Y.' So 'Interview ONLY IF pass exam AND have degree' becomes 'If interview, then pass exam AND have degree.' This makes it clear that both conditions are required. If Jose had the interview, he'd need both—but since he's missing one, no interview.\n\nThe answer is B: No, because both conditions must be satisfied.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

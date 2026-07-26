@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-101",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — PRINCIPAL",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'Mr. Santos is the __ architect of the municipal urban plan.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "principal"
+      },
+      {
+        "key": "B",
+        "text": "principle"
+      },
+      {
+        "key": "C",
+        "text": "principaled"
+      },
+      {
+        "key": "D",
+        "text": "principles"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What kind of word do we need here?",
+        "text": "Look at the word right after the blank: 'architect.' That's a noun, a person. So the missing word is describing that person — it's an adjective. Keep that in mind as you look at the options."
+      },
+      {
+        "rung": 2,
+        "title": "The classic mix-up",
+        "text": "There are two words that sound almost the same but mean very different things. 'Principal' can mean 'most important' or 'head of a school.' 'Principle' always means a rule or a fundamental truth. Which one makes sense as an adjective describing an architect?"
+      },
+      {
+        "rung": 3,
+        "title": "Test each option in the sentence",
+        "text": "Read the sentence with each choice: 'Mr. Santos is the ___ architect.' Would you say 'the rule architect'? No. 'The most important architect'? Yes. That's your clue. Also, 'principaled' isn't a real word, and 'principles' is a plural noun — it can't describe a person."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "Only one option works as an adjective meaning 'primary' or 'lead.' It's the same word that describes the head of a school. The other options are either the wrong part of speech or not real words at all."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Principal' here is an adjective meaning 'most important' or 'primary.' It perfectly describes Mr. Santos as the lead architect of the plan. Great catch.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mix-up. 'Principle' is always a noun that means a rule or a fundamental truth — like 'moral principles.' It can't describe an architect. The trap here is that both words sound identical, but their jobs in a sentence are completely different.",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "This isn't a real English word. It might look like it could work because we add '-ed' to some words to make adjectives, but 'principal' is already an adjective. No need to add anything. This is a case of overcorrecting.",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Principles' is the plural form of 'principle,' meaning multiple rules. It's a noun, not an adjective, so it can't describe an architect. The trap here is thinking that adding an 's' might turn it into a describing word, but in English, plural nouns stay nouns.",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "Here's a trick that will never fail you: 'Principal' ends with 'pal' — think of your school principal, who is your 'pal' and the head of the school. 'Principle' ends with 'ple' — think of 'rule.' If you can replace the word with 'main' or 'head,' use 'principal.' If you can replace it with 'rule,' use 'principle.'",
+    "deconstruct_text": "Let's walk through this together. The sentence needs a word that describes Mr. Santos as an architect. That means we're looking for an adjective — a describing word. Now, among the options, only 'principal' can work as an adjective. It means 'most important' or 'primary,' which fits perfectly: Mr. Santos is the lead architect. 'Principle' is a noun that means a rule or truth — you wouldn't say 'the rule architect.' 'Principaled' isn't a real word at all. And 'principles' is just the plural of 'principle,' still a noun. So the only choice that makes sense both grammatically and in meaning is 'principal.' Here's a mental shortcut for next time: when you see a blank before a noun, ask yourself: 'Am I describing something or naming a rule?' If you're describing, go with 'principal.' If you're talking about a rule, it's 'principle.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

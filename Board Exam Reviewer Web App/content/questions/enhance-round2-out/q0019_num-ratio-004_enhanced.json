@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-004",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A Provincial Capitol purchased 48 desktop computers and 32 printers for its field offices. Express the ratio of computers to printers in simplest form.",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:3"
+      },
+      {
+        "key": "B",
+        "text": "3:2"
+      },
+      {
+        "key": "C",
+        "text": "2:3"
+      },
+      {
+        "key": "D",
+        "text": "6:4"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This is all about simplifying a ratio. The first step is to write the numbers in the exact order the question asks for. Here, it's computers first,..."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "To simplify a ratio, you need to divide both numbers by their Greatest Common Divisor (GCD). That's the largest number that divides evenly into bot..."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule here",
+        "text": "Your starting ratio is 48:32. Now, what's the largest number that goes into both 48 and 32? Try listing factors: 48's factors include 1,2,3,4,6,8,1..."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "Now divide both terms by 16. 48 divided by 16 is 3. 32 divided by 16 is 2. So your simplified ratio is 3:2. Check if 3 and 2 share any common facto..."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided each number by a different factor, like 48/12=4 and 32/8=3, but you must use the same GCD for...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. The GCD is 16, so 48÷16=3, 32÷16=2, giving 3:2 in simplest form, with no common factor left.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you reversed the order, writing printers to computers instead of the required computers to printers.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you stopped at 6:4, but it can be reduced further by dividing both by 2 to get 3:2, so incomplete simplif...",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Find GCD of both numbers and divide each term by it. Ensure final terms share no common factor >1. And keep the given order!",
+    "blueprint_id": "Ratio and Proportion — simplifying ratios into lowest terms",
+    "deconstruct_text": "Imagine the Provincial Capitol’s IT upgrade: 48 brand-new desktops sa barangay hall at 32 printers para sa bawat kagawad. Ratio ng computers to printers? 48:32.\n\nPara ma-simplify, hanapin ang Greatest Common Divisor — yung 'pinakamalaking common factor'. Factors ng 48: 1,2,3,4,6,8,12,16,24,48. Sa 32: 1,2,4,8,16,32. Ang common na pinakamalaki: 16.\n\nDivide pareho: 48÷16=3, 32÷16=2 → 3:2. Walang common factor pa ang 3 at 2, kaya fully simplified na. Tandaan: order matters, computers always first!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

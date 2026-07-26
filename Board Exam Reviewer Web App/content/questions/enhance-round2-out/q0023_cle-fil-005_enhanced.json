@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-005",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Under standard government filing rules, how is the agency 'Department of Budget and Management' indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Budget and Management"
+      },
+      {
+        "key": "B",
+        "text": "Budget and Management Department of"
+      },
+      {
+        "key": "C",
+        "text": "Budget and Management Department"
+      },
+      {
+        "key": "D",
+        "text": "Management and Budget Department"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin ang Filing Rules",
+        "text": "Kapag nag-file ng documents, hindi mo ini-index sa 'The' o 'A'. Ganun din sa 'Department of' — itabi mo muna 'yan, unahin ang distinctive name."
+      },
+      {
+        "rung": 2,
+        "title": "Simple Rule: Baliktarin ang Pangalan",
+        "text": "Kunin ang distinctive parte — 'yung sasabihin kung ano'ng gawain ng ahensya. Ilagay 'yun sa unahan, tapos itack ang 'Department of' sa hulihan."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Distinctive Words",
+        "text": "Ang distinctive dito ay 'Budget and Management'. Iyan ang dapat mauna. Ang 'Department of' ay ililipat sa dulo, pero 'wag kakalimutan ang 'of'."
+      },
+      {
+        "rung": 4,
+        "title": "Konting Hakbang Na Lang",
+        "text": "So magiging 'Budget and Management Department of' — starts with Budget, then Department of. 'Yan ang sagot sa option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because it's the original name, pero sa filing rules, 'yung 'Department of' ay inililipat sa huli para ma-sort na...",
+        "trap_type": "prefix_rule_violation"
+      },
+      "B": {
+        "text": "Correct. 'Department of' goes to the end, keeping 'of'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you moved 'Department' correctly, but you forgot the small word 'of'—part of the official name.",
+        "trap_type": "omission_error"
+      },
+      "D": {
+        "text": "You might have chosen D because it flips the name but scrambled the order of the distinctive words—legal name must be preserved.",
+        "trap_type": "word_order_error"
+      }
+    },
+    "deconstruct_text": "Isipin mo, nag-aayos ka ng filing cabinets sa opisina ng LGU. May folder ng Department of Budget and Management. Saan mo ilalagay? Hindi sa 'D', kasi sa government filing, ang susi ay ang distinctive name — 'yung gawain ng ahensya.\n\nAng rule: unahin ang distinctive name, tapos ilipat ang 'Department of' sa huli. Para kang nagso-sort ng class list ayon sa apelyido. Halimbawa, 'Department of Health' magiging 'Health Department of'.\n\nSa DBM, ang distinctive ay 'Budget and Management'. Kaya ang tamang index: 'Budget and Management Department of'. Simple, 'di ba? Just like 'Smith, John'—distinctive muna, saka ang 'Department of'.\n\nTandaan ang Taglish mnemoniko: 'Distinctive first, Department of last'. Pag may dina-download kang memo, unahing tingnan ang apelyido ng ahensya — 'yung function. Lalo na sa Civil Service exam, mag-practice gamit ang iba pang agencies.",
+    "next_time_rule": "Tanong mo sa sarili: Ano'ng gawain ng ahensya? Unahin ang mga salitang 'yun, idugtong ang 'Department of' sa huli. Huwag kalimutan ang 'of'.",
+    "blueprint_id": "Alphabetical Filing — Government Agency Indexing",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

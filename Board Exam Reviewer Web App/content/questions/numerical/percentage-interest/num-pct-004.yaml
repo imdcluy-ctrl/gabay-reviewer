@@ -1,0 +1,55 @@
+id: num-pct-004
+subtopic: word-problems-algebra
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["work-problem", "pipes-cisterns"]
+estimated_seconds: 90
+question_text: "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long will it take to fill the reservoir if both pumps work together?"
+options:
+  - key: A
+    text: "2.4 hours"
+  - key: B
+    text: "2.5 hours"
+  - key: C
+    text: "5.0 hours"
+  - key: D
+    text: "10.0 hours"
+correct: A
+blueprint_id: "Numerical Ability — Combined Work Formula (1/A + 1/B = 1/T)"
+hint_ladder:
+  - rung: 1
+    title: "Find Hourly Work Rates"
+    text: "Pump A fills 1/4 of reservoir per hour. Pump B fills 1/6 per hour."
+  - rung: 2
+    title: "Add Combined Hourly Rates"
+    text: "1/4 + 1/6 = 3/12 + 2/12 = 5/12 per hour."
+  - rung: 3
+    title: "Invert for Total Time"
+    text: "Total Time = 12 / 5 hours."
+  - rung: 4
+    title: "Convert to Decimal"
+    text: "12 / 5 = 2.4 hours (or 2 hours 24 minutes)."
+deconstruct_text: |
+  Rate A = 1/4 per hour
+  Rate B = 1/6 per hour
+  Combined Rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 per hour
+  Total Time T = 12/5 = 2.4 hours
+choice_explanations:
+  A:
+    text: "Correct! T = (A × B) / (A + B) = (4 × 6) / (4 + 6) = 24 / 10 = 2.4 hours."
+    trap_type: null
+  B:
+    text: "Averaging 4 and 6 to 5 and dividing by 2 (2.5 hrs)."
+    trap_type: simple_average_fallacy
+  C:
+    text: "Averaging 4 and 6 (4+6)/2 = 5 hours."
+    trap_type: simple_average_fallacy
+  D:
+    text: "Adding 4 + 6 = 10 hours. Two pumps working together take LESS time than one pump alone!"
+    trap_type: rate_addition_error
+next_time_rule: "Work shortcut for 2 workers: Time = (A × B) / (A + B)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Combined Work Rate"

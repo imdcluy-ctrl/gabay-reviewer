@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-001",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read: 'Public accountability requires that civil servants answer not only to their superiors but also to the citizens they serve. This dual accountability ensures that government actions remain transparent and aligned with the public interest.' What is the main idea?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should only answer to superiors."
+      },
+      {
+        "key": "B",
+        "text": "Accountability to citizens is optional."
+      },
+      {
+        "key": "C",
+        "text": "Civil servants are accountable to both superiors and citizens."
+      },
+      {
+        "key": "D",
+        "text": "Government actions are always transparent."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a main idea question. Your job is to find the one sentence that sums up the whole paragraph. Often, it's the very first sentence."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The main idea is the big umbrella statement. Every other sentence in the paragraph exists to explain or support it. Look for the sentence that intr..."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Read the first sentence carefully. It says 'not only... but also,' meaning there are two groups. The second sentence just adds a reason."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct answer must include both superiors and citizens. Only one choice covers both. Which one is it?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because it mentions superiors only, but the passage says 'not only... but also' to include citizens.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "B": {
+        "text": "You might have chosen B because accountability to citizens may seem optional, but the passage uses the mandatory word 'requires.'",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "Correct. The main idea is dual accountability to both superiors and citizens, as stated in the first sentence.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because transparency is mentioned, but 'always' is an extreme word not stated in the passage.",
+        "trap_type": "unqualified_generalization"
+      }
+    },
+    "next_time_rule": "Sa main idea, unang pangungusap ang suspect. Check mo: may 'not only... but also'? Ibig sabihin dalawa ang tamang sagot, 'di pwedeng isa lang.",
+    "blueprint_id": "Identifying Main Idea",
+    "deconstruct_text": "Let's use a local scenario: Imagine a Barangay Captain. Kanino siya may accountability? Not just sa Mayor (his superior) but also sa mga taga-barangay (the citizens). Same concept here.\n\nThe first sentence lays it out—'not only to their superiors but also to the citizens.' That's the main idea. The second sentence just explains why this dual responsibility matters.\n\nOption A narrows it to superiors only—parang sinabi ni Kap na siya lang sa Mayor magrerespond, hindi sa tao. Mali. Option B says optional, but 'requires' means kailangan.\n\nOption D trips you with 'always'—walang ganyang guarantee sa passage. Only Option C captures both groups, exactly like the first sentence.\n\nMental Trick: Next time you see 'not only... but also,' alamin agad na dalawa ang kailangan. 'Di pwedeng isa lang. Parang jeepney driver na may pasahero at may operator—both important.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

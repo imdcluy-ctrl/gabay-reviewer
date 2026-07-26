@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gen-const-300",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "Bill of Rights Search Warrant Requirements Variant 1",
+    "difficulty_level": 3,
+    "question_text": "Under Article III, Section 2 of the 1987 Philippine Constitution, a search warrant or warrant of arrest can ONLY be issued upon a finding of probable cause determined personally by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Judge after examination under oath"
+      },
+      {
+        "key": "B",
+        "text": "A Police Precinct Commander"
+      },
+      {
+        "key": "C",
+        "text": "A City Prosecutor"
+      },
+      {
+        "key": "D",
+        "text": "The Department of Justice Secretary"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Warrant Issuing Authority",
+        "text": "Recall that the 1987 Constitution explicitly vests the power to issue warrants in a specific branch of government — not the executive or legislative."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "Article III, Section 2 requires that probable cause be determined 'personally by a judge after examination under oath or affirmation of the complainant and the witnesses he may produce.'"
+      },
+      {
+        "rung": 3,
+        "title": "Confirm Requirement",
+        "text": "The judge must personally examine the complainant and witnesses under oath — this cannot be delegated to a prosecutor, police, or any executive officer."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is the only choice that matches the constitutional requirement: a judge, after examination under oath."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article III, Section 2 mandates that probable cause must be determined personally by a JUDGE after examination under oath or affirmation of the complainant and witnesses. This ensures judicial independence in protecting citizens from unreasonable searches and seizures.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "A Police Precinct Commander is an executive law enforcement officer. The Constitution explicitly reserves warrant issuance to the judiciary to prevent abuse by the executive branch. Police may apply for warrants but cannot issue them.",
+        "trap_type": "executive_vs_judicial_confusion"
+      },
+      "C": {
+        "text": "A City Prosecutor conducts preliminary investigations and may file informations in court, but prosecutors are not judges. The Constitution requires a judge to personally determine probable cause for warrants, not a prosecutor.",
+        "trap_type": "prosecutional_power_confusion"
+      },
+      "D": {
+        "text": "The Department of Justice Secretary is a member of the executive cabinet. While the DOJ oversees prosecution, the Secretary has no judicial authority to issue warrants. Only a judge can perform this function under the Constitution.",
+        "trap_type": "executive_vs_judicial_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Bill of Rights Rule: Warrants can ONLY be issued by a JUDGE upon personal determination of probable cause after examination under oath. Remember: 'Judge + Oath = Valid Warrant.'",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nArticle III, Section 2 of the 1987 Philippine Constitution states: 'The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable, and no search warrant or warrant of arrest shall issue except upon probable cause to be determined personally by the judge after examination under oath or affirmation of the complainant and the witnesses he may produce.'\n\n### 🔍 Step-by-Step Analysis\n1. Identify the constitutional provision: Article III, Section 2 governs the issuance of search warrants and warrants of arrest.\n2. Determine who can issue warrants: The provision explicitly requires 'probable cause to be determined personally by the judge.'\n3. Note the additional requirement: The judge must conduct the examination 'after examination under oath or affirmation of the complainant and the witnesses.'\n4. Conclude that only a judge (Option A) satisfies both the personal determination and the examination under oath requirements.\n\n### ❌ Why the Distractors Fail\n- **'A Police Precinct Commander'** is incorrect because police officers are part of the executive branch and have no judicial authority to issue warrants. Their role is limited to applying for warrants.\n- **'A City Prosecutor'** is incorrect because prosecutors, while legal officers, are not judges. They conduct preliminary investigations but cannot issue warrants — that power is exclusively judicial.\n- **'The Department of Justice Secretary'** is incorrect because the DOJ Secretary is an executive official. The Constitution deliberately separates the power to issue warrants from the executive branch to prevent abuse.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-300",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "Nepotism Rules in Government Appointments Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Civil Service Law and Rules, an appointment made in favor of a relative within which degree of consanguinity or affinity is prohibited under Nepotism rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within the 3rd degree of consanguinity or affinity"
+      },
+      {
+        "key": "B",
+        "text": "Within the 1st degree only"
+      },
+      {
+        "key": "C",
+        "text": "Within the 10th degree"
+      },
+      {
+        "key": "D",
+        "text": "No degree restriction exists"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Nepotism Definition",
+        "text": "Nepotism in the civil service prohibits appointing relatives of the appointing or recommending authority to government positions."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Degree Limit",
+        "text": "The Civil Service Commission (CSC) rules specify a maximum degree of relationship for the prohibition. For national government, it's the 3rd degree; for local government, it's the 4th degree."
+      },
+      {
+        "rung": 3,
+        "title": "Confirm Degree",
+        "text": "The 3rd degree includes parents (1st), children (1st), siblings (2nd), grandparents (2nd), grandchildren (2nd), uncles/aunts (3rd), nephews/nieces (3rd)."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A correctly states 'Within the 3rd degree of consanguinity or affinity' — the general rule for national government appointments."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Under Section 59 of the Administrative Code of 1987 and CSC rules, appointments of relatives within the third (3rd) degree of consanguinity or affinity are prohibited in national government offices. For local government units, the prohibition extends to the 4th degree under RA 7160.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The nepotism ban is broader than just the first degree (parents and children). It extends up to the third degree for national government and fourth degree for local government. First degree only would allow appointments of siblings, uncles, and nephews — which are prohibited.",
+        "trap_type": "nepotism_degree_error"
+      },
+      "C": {
+        "text": "Incorrect. The tenth degree is far beyond the statutory nepotism limits. The general limit is the 3rd degree (national) or 4th degree (local). Tenth degree would include very distant cousins and relatives by marriage multiple times removed, which are not covered.",
+        "trap_type": "nepotism_degree_error"
+      },
+      "D": {
+        "text": "Incorrect. A strict degree restriction exists to uphold merit-based appointments and prevent favoritism in the civil service. The law explicitly defines the prohibited degrees to ensure transparency and equal opportunity.",
+        "trap_type": "nepotism_degree_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Nepotism rules prohibit appointing relatives within the **3rd degree of consanguinity or affinity** for national government offices, and within the **4th degree** for local government units (LGUs). Remember: 'National 3, Local 4.'",
+    "deconstruct_text": "### 📘 Governing Law / Concept\nUnder Section 59 of the Administrative Code of 1987 (Book V, Title I, Subtitle A) and Civil Service Law and Rules, nepotism is strictly prohibited in the civil service. Nepotism is defined as an appointment made in favor of a relative of the appointing or recommending authority, or of the chief of the office or bureau, or of the persons designing the appointment.\n\nFor national government agencies and constitutional offices, the prohibition extends to relatives within the **third (3rd) degree of consanguinity or affinity**.\nHowever, under Section 79 of the Local Government Code of 1991 (Republic Act No. 7160), the nepotism ban for local government unit (LGU) appointments extends to the **fourth (4th) degree of consanguinity or affinity**.\n\n### 🔍 Step-by-Step Analysis\n1. Read the civil service nepotism query: Within which degree of consanguinity or affinity is an appointment prohibited under general Nepotism rules?\n2. Recall the general Civil Service Commission (CSC) rule: The prohibition covers relatives within the third (3rd) degree of consanguinity (blood) or affinity (marriage).\n3. Match this with Option A.\n\n### ❌ Why the Distractors Fail\n- **'Within the 1st degree only'** is incorrect. The restriction extends up to the 3rd degree (general) and 4th degree (local government), not just the 1st degree (parents and children).\n- **'Within the 10th degree'** is incorrect. This is an overly broad scope; the general limit is the 3rd degree.\n- **'No degree restriction exists'** is incorrect. A very strict degree restriction exists to prevent favoritism and corruption.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-govt-300",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "Ombudsman Jurisdiction & Anti-Graft Rules Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under RA 6770 (The Ombudsman Act of 1989), the Office of the Ombudsman has primary jurisdiction to investigate administrative offences committed by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "All elective and appointive public officials and employees, including GOCC personnel"
+      },
+      {
+        "key": "B",
+        "text": "Private corporate executives only"
+      },
+      {
+        "key": "C",
+        "text": "Foreign embassy personnel only"
+      },
+      {
+        "key": "D",
+        "text": "Military officers under court-martial only"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Ombudsman Mandate",
+        "text": "The Ombudsman, also known as the Tanodbayan, is constitutionally created to investigate and prosecute acts of graft and corruption in government."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Jurisdiction Scope",
+        "text": "Under RA 6770, the Ombudsman's jurisdiction covers 'all public officials and employees, whether elective or appointive, including those in government-owned or controlled corporations (GOCCs).'"
+      },
+      {
+        "rung": 3,
+        "title": "Match Option",
+        "text": "Option A explicitly includes 'all elective and appointive public officials and employees, including GOCC personnel' — this matches the broad jurisdiction defined in RA 6770."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is the only choice that correctly reflects the Ombudsman's primary jurisdiction over all public servants."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Under Section 15 of RA 6770, the Ombudsman has primary jurisdiction over all elective and appointive public officials and employees, including those in GOCCs and their subsidiaries. This covers administrative offenses like graft, corruption, and misconduct.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Private corporate executives are not public officials or employees. The Ombudsman's jurisdiction is limited to the public sector. Private individuals may be investigated only if they are co-participants in offenses involving public officials.",
+        "trap_type": "jurisdiction_scope_confusion"
+      },
+      "C": {
+        "text": "Foreign embassy personnel enjoy diplomatic immunity under international law and are not subject to the Ombudsman's jurisdiction. They are not Philippine public officials or employees.",
+        "trap_type": "jurisdiction_scope_confusion"
+      },
+      "D": {
+        "text": "Military officers under court-martial are subject to military justice under the Articles of War. While the Ombudsman may investigate military personnel for certain offenses, the phrase 'only' is misleading — the Ombudsman's jurisdiction is much broader than just military officers.",
+        "trap_type": "military_jurisdiction_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Ombudsman Jurisdiction: Covers ALL public officials and employees in government and GOCCs. Remember: 'If they work for the government or a GOCC, the Ombudsman can investigate them.'",
+    "deconstruct_text": "### 📘 Governing Law / Concept\nRepublic Act No. 6770, also known as the Ombudsman Act of 1989, defines the powers and jurisdiction of the Office of the Ombudsman. Section 15 of RA 6770 states: 'The Ombudsman shall have primary jurisdiction over cases involving acts or omissions of any public official or employee, whether elective or appointive, including those in government-owned or controlled corporations (GOCCs) and their subsidiaries.'\n\n### 🔍 Step-by-Step Analysis\n1. Identify the law: RA 6770 (Ombudsman Act of 1989).\n2. Determine the scope of jurisdiction: The law covers 'any public official or employee, whether elective or appointive, including those in GOCCs.'\n3. Note that 'primary jurisdiction' means the Ombudsman has the first right to investigate these cases, though other agencies may also have concurrent jurisdiction.\n4. Conclude that Option A correctly captures this broad scope.\n\n### ❌ Why the Distractors Fail\n- **'Private corporate executives only'** is incorrect because private individuals are not public officials. The Ombudsman's mandate is specifically to investigate government corruption.\n- **'Foreign embassy personnel only'** is incorrect because foreign diplomats are immune from local jurisdiction under the Vienna Convention on Diplomatic Relations.\n- **'Military officers under court-martial only'** is incorrect because while the Ombudsman can investigate military personnel, its jurisdiction is not limited to them — it covers all public officials.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-curenv-300",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "blueprint_id": "RA 9729 Climate Change Commission Mandates Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under RA 9729, as amended by RA 10174 (People's Survival Fund Act), who chairs the Climate Change Commission?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The President of the Philippines"
+      },
+      {
+        "key": "B",
+        "text": "The DENR Secretary"
+      },
+      {
+        "key": "C",
+        "text": "The DOST Secretary"
+      },
+      {
+        "key": "D",
+        "text": "The DILG Secretary"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Top Leadership of CCC",
+        "text": "The Climate Change Commission (CCC) is an independent body created by RA 9729. Its chairperson is the highest official of the land."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "Section 5 of RA 9729 explicitly states: 'The President of the Philippines shall serve as the Chairperson of the Commission.'"
+      },
+      {
+        "rung": 3,
+        "title": "Confirm Chairperson",
+        "text": "The President chairs the CCC. Note the distinction: while the CCC is chaired by the President, the People's Survival Fund (PSF) Board created by RA 10174 is chaired by the Secretary of Finance."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is correct: The President of the Philippines chairs the Climate Change Commission."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Under Section 5 of RA 9729 (Climate Change Act of 2009), the President of the Philippines is the official Chairperson of the Climate Change Commission. This ensures high-level policy direction for climate change adaptation and mitigation.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The DENR Secretary is a member of the Climate Change Advisory Board, which advises the Commission, but does not chair the Commission itself. The DENR Secretary also chairs the Climate Change Adaptation and Mitigation Committee, not the CCC.",
+        "trap_type": "agency_jurisdiction_error"
+      },
+      "C": {
+        "text": "Incorrect. The DOST Secretary is a member of the Climate Change Advisory Board, providing scientific and technological advice, but does not chair the Commission. The DOST Secretary also chairs the Climate Change Research and Development Committee.",
+        "trap_type": "agency_jurisdiction_error"
+      },
+      "D": {
+        "text": "Incorrect. The DILG Secretary is a member of the Climate Change Advisory Board, focusing on local government implementation, but does not chair the Commission. The DILG Secretary chairs the Local Climate Change Action Planning Committee.",
+        "trap_type": "agency_jurisdiction_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Under RA 9729 (Climate Change Act), the Climate Change Commission is chaired by the President of the Philippines. However, under its amending law, RA 10174 (People's Survival Fund Act), the PSF Board is chaired by the Secretary of Finance. Knowing this distinction protects you from common traps!",
+    "deconstruct_text": "### 📘 Governing Law / Concept\nUnder Section 5 of Republic Act No. 9729 (Climate Change Act of 2009), the Climate Change Commission (CCC) is established as an independent and autonomous body. The President of the Philippines serves as its Chairperson. Republic Act No. 10174 (enacted in 2012) amended RA 9729 to establish the People's Survival Fund (PSF) to finance local climate change adaptation programs. It is a critical distinction that while the CCC is chaired by the President, the PSF Board (which manages the fund) is chaired by the Secretary of the Department of Finance (DOF), with the CCC Secretariat providing technical support.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the law in question: RA 9729, as amended by RA 10174.\n2. Determine the leadership structure of the Climate Change Commission itself.\n3. Section 5 explicitly mandates that: 'The President of the Philippines shall serve as the Chairperson of the Commission.'\n\n### ❌ Why the Distractors Fail\n- **'The DENR Secretary'** is incorrect. While the DENR Secretary is a member of the Climate Change Advisory Board, they do not chair the Commission.\n- **'The DOST Secretary'** is incorrect. While the DOST Secretary is a member of the Climate Change Advisory Board, they do not chair the Commission.\n- **'The DILG Secretary'** is incorrect. While the DILG Secretary is a member of the Climate Change Advisory Board, they do not chair the Commission.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-peace-300",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "blueprint_id": "UDHR Article 1 Fundamental Freedom Principle Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Article 1 of the Universal Declaration of Human Rights (UDHR) declares that 'All human beings are born free and equal in...':",
+    "options": [
+      {
+        "key": "A",
+        "text": "dignity and rights"
+      },
+      {
+        "key": "B",
+        "text": "wealth and property"
+      },
+      {
+        "key": "C",
+        "text": "political power"
+      },
+      {
+        "key": "D",
+        "text": "academic qualifications"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall UDHR Article 1 Opening Line",
+        "text": "The UDHR is the foundational document of international human rights law. Article 1 sets the tone for the entire declaration."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Key Words",
+        "text": "The exact phrasing is: 'All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.'"
+      },
+      {
+        "rung": 3,
+        "title": "Match Option",
+        "text": "The two key words that complete the phrase are 'dignity' and 'rights' — these are inherent and inalienable qualities of every person."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A correctly states 'dignity and rights' — the exact wording of UDHR Article 1."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! UDHR Article 1 states: 'All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.' This establishes the inherent equality of all people.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. Wealth and property are not inherent at birth — people are born into different economic circumstances. The UDHR focuses on inherent dignity and rights, not material possessions.",
+        "trap_type": "out_of_scope_distractor"
+      },
+      "C": {
+        "text": "Incorrect. Political power is not something people are born with; it is acquired through social and political processes. The UDHR emphasizes inherent human dignity and rights, not political status.",
+        "trap_type": "out_of_scope_distractor"
+      },
+      "D": {
+        "text": "Incorrect. Academic qualifications are earned through education and effort, not inherent at birth. The UDHR Article 1 is about fundamental, inalienable human qualities — dignity and rights.",
+        "trap_type": "out_of_scope_distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** UDHR Article 1 Core Text: 'All human beings are born free and equal in DIGNITY and RIGHTS.' Remember: 'Dignity and Rights' — these are the two inherent qualities that make us human.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nThe Universal Declaration of Human Rights (UDHR) was adopted by the United Nations General Assembly on December 10, 1948. Article 1 is the foundational principle of the entire declaration, establishing that all human beings are born free and equal in dignity and rights. This principle is the basis for all subsequent human rights protections.\n\n### 🔍 Step-by-Step Analysis\n1. Recall the exact wording of UDHR Article 1: 'All human beings are born free and equal in dignity and rights.'\n2. Identify the two key nouns that complete the phrase: 'dignity' and 'rights.'\n3. Note that these are inherent qualities — not acquired through wealth, power, or education.\n4. Conclude that Option A is the correct match.\n\n### ❌ Why the Distractors Fail\n- **'wealth and property'** is incorrect because these are material possessions that vary among individuals and are not inherent at birth.\n- **'political power'** is incorrect because political power is a social construct, not an inherent human quality.\n- **'academic qualifications'** is incorrect because these are earned through study and are not universal or inherent.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

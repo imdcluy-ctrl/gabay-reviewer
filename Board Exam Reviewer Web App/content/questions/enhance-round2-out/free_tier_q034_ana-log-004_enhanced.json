@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-004",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "LAWYER is to COURT as CIVIL SERVANT is to __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELECTION"
+      },
+      {
+        "key": "B",
+        "text": "AGENCY"
+      },
+      {
+        "key": "C",
+        "text": "PLAINTIFF"
+      },
+      {
+        "key": "D",
+        "text": "LAWSUIT"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is an analogy question, which means you're looking for a pair of words that share the same relationship. Start by figuring out the connection between LAWYER and COURT. What does a lawyer do in relation to a court?"
+      },
+      {
+        "rung": 2,
+        "title": "Name the Relationship",
+        "text": "A lawyer's primary workplace is a court. So the relationship is 'professional to their main workplace.' Now, what is the primary workplace of a civil servant? Think of the general term for where government employees work."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Look at each choice and ask: 'Is this a workplace where a civil servant works?' An election is an event, a plaintiff is a person, and a lawsuit is a legal case. Only one option describes a place or organization where civil servants do their jobs."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're looking for the word that means a government office or organization. That word starts with 'A' and is a place where civil servants report to work every day. It's not a person, event, or legal action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Election is an event or process, not a workplace. A civil servant might help run an election, but that's a task, not their home base. The analogy asks for a place, not an activity.",
+        "trap_type": "process_vs_place_error"
+      },
+      "B": {
+        "text": "Correct. A government agency is the primary workplace of a civil servant, just as a court is the primary workplace of a lawyer. Both are professional settings where these roles carry out their duties.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Plaintiff is a person who brings a case to court, not a workplace. It's easy to mix up roles with places, especially when you're thinking about court-related terms. But here, you need a location, not another person.",
+        "trap_type": "role_confusion"
+      },
+      "D": {
+        "text": "Lawsuit is a legal action or proceeding, not a workplace. A civil servant doesn't work 'inside' a lawsuit the way a lawyer works inside a court. This option confuses an event or process with a physical or organizational setting.",
+        "trap_type": "object_confusion"
+      }
+    },
+    "next_time_rule": "For analogies, first name the relationship in a simple sentence: 'A lawyer works in a court.' Then apply that exact sentence to the second term: 'A civil servant works in a(n) ______.' The word that completes the sentence is your answer.",
+    "blueprint_id": "Analytical Ability — Verbal Analogies (Workplace Association)",
+    "deconstruct_text": "Let's walk through this together. The first pair is LAWYER and COURT. What's the connection? A lawyer practices law in a court. Court is the place where a lawyer does their job. So the relationship is 'professional to their primary workplace.' Now apply that to the second term. A civil servant is a professional who works for the government. What's the general name for the place or organization where they work? It's a government agency. That's option B. Let's check the others. Election (A) is an event, not a workplace. Plaintiff (C) is a person, not a place. Lawsuit (D) is a legal action, not a workplace. Only agency fits the 'professional to workplace' relationship. Here's a mental trick for next time: when you see an analogy, turn it into a sentence. 'A lawyer works in a court.' Then say, 'A civil servant works in an ______.' The word that naturally completes the sentence is usually your answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

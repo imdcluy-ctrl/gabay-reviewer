@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-402",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "A complex abstract figure consists of a circle with a triangle inside, where the triangle's apex points to the top. If the figure is reflected horizontally (mirror image left-to-right), what will be the orientation of the triangle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Apex still pointing up"
+      },
+      {
+        "key": "B",
+        "text": "Apex pointing down"
+      },
+      {
+        "key": "C",
+        "text": "Apex pointing left"
+      },
+      {
+        "key": "D",
+        "text": "Apex pointing right"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Mirror/reflection pattern: Identifying the horizontal reflection of a complex abstract figure (Scenario 2)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

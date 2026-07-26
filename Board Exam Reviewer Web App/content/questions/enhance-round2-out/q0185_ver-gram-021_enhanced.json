@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-021",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence with correct pronoun-antecedent agreement:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every employee must submit their report."
+      },
+      {
+        "key": "B",
+        "text": "Every employee must submit his or her report."
+      },
+      {
+        "key": "C",
+        "text": "Every employee must submit its report."
+      },
+      {
+        "key": "D",
+        "text": "Every employee must submit our report."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Antecedent",
+        "text": "Una, tukuyin ang antecedent—ang salitang pinapalitan ng pronoun. Dito, 'Every employee'. Ang salitang 'every' ay laging singular."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Singular Antecedent = Singular Pronoun",
+        "text": "Kapag singular ang antecedent, dapat singular din ang pronoun. 'Every', 'each', 'either', 'neither'—lahat singular. Kaya maghanap ng singular pronoun."
+      },
+      {
+        "rung": 3,
+        "title": "I-Apply sa Options",
+        "text": "Tingnan ang bawat option. A: 'their' (plural) ✗. B: 'his or her' (singular, gender-neutral) ✓. C: 'its' (bagay, hindi tao) ✗. D: 'our' (1st person ..."
+      },
+      {
+        "rung": 4,
+        "title": "Tamang Sagot",
+        "text": "Ang tamang pronoun na singular, third person, at gender-appropriate para sa tao ay 'his or her'. Kaya B ang sagot. Tandaan: sa formal exam, 'his/he..."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'their' feels natural in everyday English, but in formal grammar, 'every' is singular, requiring 'his/her'.",
+        "trap_type": "pronoun_antecedent_confusion"
+      },
+      "B": {
+        "text": "Correct. 'His or her' is singular, third person, and gender-neutral, perfect for the singular antecedent 'every employee'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'its' is singular, matching 'every'. But 'its' is for objects, not people. Use 'his/her'.",
+        "trap_type": "pronoun_antecedent_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because 'our' sounds inclusive. But it's 1st person plural, breaking agreement with 3rd person singular 'every em...",
+        "trap_type": "pronoun_antecedent_confusion"
+      }
+    },
+    "next_time_rule": "Kapag nakita mo 'every', 'each', 'either', o 'neither', isipin agad: SINGULAR. Gumamit ng 'his/her' o tamang singular pronoun, hindi 'their'.",
+    "blueprint_id": "Pronoun-Antecedent Agreement",
+    "deconstruct_text": "Alam mo ba, sa LGU, kapag si Kapitan nag-utos: 'Every employee must submit his or her liquidation report.' Bakit hindi 'their'? Kasi 'every' ay singular.\n\nAng pronoun dapat tugma sa antecedent. 'Every employee' ay isahan, so kailangan ng singular pronoun, at para sa tao. Ang 'his or her' ang sakto.\n\nGalugarin natin options: Option A 'their' – plural, colloquial pero mali. Option C 'its' – para sa bagay. Option D 'our' – 1st person, nag-iba ang pananaw.\n\nMental Trick: Isipin mo: 'Every' = 'bawa't isa'. Parang nagtatawag ka ng attendance: 'Bawa't isa ay magpapasa ng kanyang report.' Kaya 'his or her' ang tama.\n\n**Watch-Out Zone: pronoun_antecedent_confusion** in action. Sa exam, 'their' ay plural ...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

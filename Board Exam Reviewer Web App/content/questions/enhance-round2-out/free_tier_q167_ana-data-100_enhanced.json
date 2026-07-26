@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-100",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Bar Graph Rate of Growth Analysis Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Data Table: Annual Health Office Expenditure:\nYear 2024: ₱10 Million\nYear 2025: ₱15 Million\n\nWhat is the percentage increase in expenditure from 2024 to 2025?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%"
+      },
+      {
+        "key": "B",
+        "text": "55%"
+      },
+      {
+        "key": "C",
+        "text": "45%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Difference",
+        "text": "First, figure out how much the expenditure actually grew. Subtract the earlier year from the later year. That gives you the raw increase."
+      },
+      {
+        "rung": 2,
+        "title": "Remember the Base Year",
+        "text": "When calculating percentage increase, the denominator is always the original value, not the new one. So you divide by the 2024 amount, not the 2025 amount."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Formula",
+        "text": "Percentage increase = (increase / original value) x 100. Plug in the numbers: (5 million / 10 million) x 100. That fraction simplifies to 0.5."
+      },
+      {
+        "rung": 4,
+        "title": "Convert to Percentage",
+        "text": "0.5 multiplied by 100 gives you 50%. To double-check, ask yourself: is 5 million exactly half of 10 million? Yes, and half is 50%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. The expenditure increased by 5 million, which is half of the original 10 million. Half equals 50%, so this is spot on.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common slip. You might have accidentally divided by the new value (15 million) instead of the original (10 million). That would give about 33%, not 55%. Or perhaps you miscalculated 5.5/10 instead of 5/10. The key is to always anchor on the starting point.",
+        "trap_type": "wrong_base_year_divisor"
+      },
+      "C": {
+        "text": "This one likely comes from a simple arithmetic error, like using 4.5 million as the increase or misreading the numbers. The correct increase is exactly 5 million, and 5/10 is 0.5, not 0.45. Double-check your subtraction and division.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "A 100% increase would mean the expenditure doubled, going from 10 million to 20 million. But the actual 2025 value is only 15 million, an increase of just 5 million. You might have mistakenly thought the new value itself was the increase, or you multiplied instead of dividing.",
+        "trap_type": "multiplier_error"
+      }
+    },
+    "next_time_rule": "For percentage increase, always use the formula: (New Value - Old Value) / Old Value x 100. The denominator is the starting point, never the ending point. Think of it as 'how much did it grow compared to where it started.'",
+    "deconstruct_text": "Let's walk through this together. The question asks for the percentage increase in expenditure from 2024 to 2025. First, find the actual increase: 15 million minus 10 million equals 5 million. That's the growth. Now, the key step: percentage increase always compares the growth to the original value. So divide 5 million by the original 10 million, which gives you 0.5. Finally, multiply by 100 to convert to a percentage: 0.5 times 100 equals 50%. A quick mental trick: if the increase is exactly half the original, it's always 50%. Here, 5 million is half of 10 million, so you can spot the answer without any calculation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

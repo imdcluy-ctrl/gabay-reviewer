@@ -1,0 +1,68 @@
+.primer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  animation: fadeIn 300ms ease-out;
+}
+
+.primer-card {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6) var(--space-6) var(--space-8);
+  max-width: 480px;
+  width: 100%;
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  position: relative;
+  overflow: hidden;
+}
+
+.primer-accent-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: var(--color-brand-teal);
+}
+
+.primer-title {
+  font-size: var(--size-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.primer-body {
+  font-size: var(--size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.primer-tip-box {
+  background-color: rgba(245, 166, 35, 0.1);
+  border: 1px solid rgba(245, 166, 35, 0.25);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.primer-tip-icon {
+  font-size: 1.25rem;
+}
+
+.primer-tip-text {
+  font-size: var(--size-sm);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}

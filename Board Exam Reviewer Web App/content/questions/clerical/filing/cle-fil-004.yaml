@@ -1,0 +1,54 @@
+id: cle-fil-004
+subtopic: coding-spelling
+category: clerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["coding", "data-verification"]
+estimated_seconds: 60
+question_text: "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are they identical?"
+options:
+  - key: A
+    text: "Yes, they are completely identical."
+  - key: B
+    text: "No, the digits 41 and 14 are transposed."
+  - key: C
+    text: "No, the prefix is different."
+  - key: D
+    text: "No, the checksum letter is different."
+correct: B
+blueprint_id: "Clerical Accuracy — Code Verification and Transposition Detection"
+hint_ladder:
+  - rung: 1
+    title: "Compare Prefix"
+    text: "'PH-2026-' matches in both codes."
+  - rung: 2
+    title: "Compare Number Group"
+    text: "Original has '8941', Copy has '8914'."
+  - rung: 3
+    title: "Spot the Difference"
+    text: "The last two digits '41' in original are flipped to '14' in copy."
+  - rung: 4
+    title: "Select Explanation"
+    text: "Option B correctly identifies the digit transposition."
+deconstruct_text: |
+  Code Original = PH-2026-8941-X
+  Code Copy     = PH-2026-8914-X
+  Transposition error in digits: 41 vs 14.
+choice_explanations:
+  A:
+    text: "Fails to notice the transposition of 41 to 14."
+    trap_type: oversight_error
+  B:
+    text: "Correct! The digits 41 and 14 are transposed."
+    trap_type: null
+  C:
+    text: "Incorrect. The prefix PH-2026- is identical."
+    trap_type: wrong_location_error
+  D:
+    text: "Incorrect. The checksum letter -X is identical."
+    trap_type: wrong_location_error
+next_time_rule: "Compare codes chunk-by-chunk to catch transposed digits (e.g. 41 vs 14)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Clerical Accuracy"

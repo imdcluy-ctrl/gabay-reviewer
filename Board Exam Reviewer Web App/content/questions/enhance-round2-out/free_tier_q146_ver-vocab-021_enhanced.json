@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-021",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'MANDATE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Request"
+      },
+      {
+        "key": "B",
+        "text": "Suggestion"
+      },
+      {
+        "key": "C",
+        "text": "Official order"
+      },
+      {
+        "key": "D",
+        "text": "Opinion"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the weight of the word 'mandate.' Does it feel like something you can take or leave, or something you have to follow?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "A mandate is not a gentle nudge. It carries authority and compulsion. It's something that is commanded, not just suggested."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Imagine a court issues a mandate. Would you treat it like a suggestion or an official order? That's the key difference here."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Only one option has that binding, authoritative force. The others are all softer and optional. Which one feels like a command?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A request is a polite ask. You can say no to a request. But a mandate is not optional—it's an authoritative command. The trap here is thinking 'mandate' is just a stronger word for 'ask,' but it's actually a completely different category: compulsion versus permission.",
+        "trap_type": "word_strength_error"
+      },
+      "B": {
+        "text": "A suggestion is a recommendation, something you can take or leave. A mandate, on the other hand, is a directive. The confusion often comes from hearing 'mandate' used casually, like 'my boss suggested I do this,' but in its true sense, it's far more forceful.",
+        "trap_type": "word_strength_error"
+      },
+      "C": {
+        "text": "Exactly right. A mandate is an official order or commission to do something, often from a governing body or authority. It's binding and must be followed. Think of a court mandate or a legislative mandate—these aren't requests, they're commands.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "An opinion is a personal belief or judgment. It has no authority behind it. A mandate is the opposite—it's formal, official, and carries the weight of an institution. The trap here is confusing a personal stance with an authoritative directive.",
+        "trap_type": "word_strength_error"
+      }
+    },
+    "next_time_rule": "When you see 'mandate,' ask yourself: 'Is this something I can politely decline?' If the answer is no, you're on the right track. A mandate is always an authoritative command, never a suggestion or request.",
+    "blueprint_id": "Vocabulary — Mandate",
+    "deconstruct_text": "Let's break down 'mandate' in a way that sticks. Imagine you're in a courtroom, and the judge issues a mandate. Would you lean over to your lawyer and say, 'That's just a suggestion, right?' Of course not. A mandate carries the full weight of authority—it's an official order that must be obeyed.\n\nNow look at the options. 'Request,' 'suggestion,' and 'opinion' all live in the world of the optional. You can ignore a suggestion. You can disagree with an opinion. But a mandate? That's a command. Only 'official order' captures that binding, compulsory force.\n\nHere's a mental trick to lock this in: The 'Authority Test.' For any word that might mean 'mandate,' ask yourself: 'Does this come from a position of power, and does it require compliance?' If both answers are yes, you're dealing with a mandate. If not, it's something softer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

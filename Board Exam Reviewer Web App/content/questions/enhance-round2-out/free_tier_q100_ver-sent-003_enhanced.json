@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-003",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The new policy applies ___ all government employees.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is all about which preposition naturally partners with the verb 'applies' when talking about a rule covering people. Think of it like a key fitting a lock—only one preposition fits perfectly here."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The verb 'apply' changes meaning depending on the preposition that follows it. When a rule, policy, or law covers someone, the standard pairing is 'applies to.' When someone submits a request, it's 'applies for.' Keep these two separate in your mind."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the sentence again: the policy is doing the action—it's the one 'applying.' It's not a person asking for something. So 'applies for' doesn't fit here. The policy is covering employees, which means it 'applies to' them. Try saying it out loud: 'The policy applies to employees.' Sounds natural, right?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "You've narrowed it down. 'Applies with' would mean the policy accompanies employees (like a sidekick), and 'applies in' would mean it's only valid inside a location. Neither makes sense here. The only option left that forms the correct idiom for coverage is 'to.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mix-up. 'Applies for' is what you do when you submit an application—like applying for a job, a loan, or a permit. But here, the policy is the one doing the applying, not a person. The policy covers employees, so 'for' doesn't work. Think of it this way: the policy isn't asking for anything; it's setting a rule.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "This is the correct choice. 'Applies to' is the standard idiom when a rule, law, or policy is relevant to or covers a person or group. It's the natural pairing that native speakers use without thinking. The policy covers all government employees, so 'to' fits perfectly.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one might sound okay at first, but 'applies with' actually suggests that the policy accompanies or goes alongside employees—like 'the policy applies with the handbook.' That's not what the sentence means. The policy isn't traveling with employees; it's covering them. 'With' creates a partnership, not coverage.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "This is a tempting choice if you're thinking about where the policy is in effect. 'Applies in' would work if the sentence ended with a location, like 'applies in the office' or 'applies in all regions.' But here, the object is people—'all government employees'—not a place. 'In' points to a location, not a group of people.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. The key is to figure out which preposition naturally partners with 'applies' when a rule covers people. Start by asking: who or what is doing the action? Here, it's 'the new policy' that is applying. It's not a person submitting a request. So we can immediately rule out 'applies for,' which is used when someone makes an application. Next, think about the meaning. The policy is covering all government employees—it's relevant to them, it's in effect for them. The standard idiom for this is 'applies to.' Try it: 'The policy applies to employees.' It flows naturally. Now check the other options. 'Applies with' would mean the policy accompanies employees, like a companion. 'Applies in' would mean it's only valid inside a specific location. Neither matches the idea of coverage. So 'to' is the only preposition that fits both the grammar and the meaning. Here's a mental trick to remember: when a rule covers people, think of the arrow 'to' pointing toward them. The rule applies TO the people. When someone submits a request, think of them asking FOR something. Keep that arrow in mind and you'll never mix them up.",
+    "next_time_rule": "When a rule or policy covers people, use 'applies to.' When someone submits a request, use 'applies for.' Think of an arrow pointing TO the people being covered.",
+    "blueprint_id": "Prepositions — Applies To",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

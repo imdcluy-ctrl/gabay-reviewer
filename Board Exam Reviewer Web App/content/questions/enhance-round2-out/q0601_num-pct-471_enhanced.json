@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-471",
+    "category_id": "numerical-ability",
+    "subtopic_id": "percentage-interest",
+    "question_text": "The Department of Agriculture's provident fund offers a compound interest account with a 6% annual interest rate compounded quarterly. If a farmer invests ₱100,000, how much will it be worth after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱112,000.00"
+      },
+      {
+        "key": "B",
+        "text": "₱112,360.00"
+      },
+      {
+        "key": "C",
+        "text": "₱112,649.09"
+      },
+      {
+        "key": "D",
+        "text": "₱112,486.40"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-0606",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

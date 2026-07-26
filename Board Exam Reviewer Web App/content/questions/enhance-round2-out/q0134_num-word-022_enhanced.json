@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-022",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "In 5 years, Jose will be 3 times as old as he was 7 years ago. How old is he now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tawagin si x ngayon",
+        "text": "Hayaan ang kasalukuyang edad = x. Edad sa 5 taon: x+5. Edad 7 taon nakalipas: x-7."
+      },
+      {
+        "rung": 2,
+        "title": "Isalin sa equation",
+        "text": "Sabi ni Jose: sa 5 taon = 3×(edad 7 taon nakalipas). Kaya: x+5 = 3(x-7)."
+      },
+      {
+        "rung": 3,
+        "title": "Sundan ang algebra",
+        "text": "Expand: x+5 = 3x - 21. Lipat: 5+21 = 3x-x -> 26=2x -> x=13."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 13 years old",
+        "text": "Si Jose ay 13 ngayon. Check: 13+5=18; 13-7=6; 18 = 3×6. Panalo!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because mali ang pagkaka-setup ng equation, ginamit ang x+5 = 3x-7 imbes na 3(x-7), kaya nakuha 11.",
+        "trap_type": "equation_setup_error"
+      },
+      "B": {
+        "text": "You might have chosen B because mali ang arithmetic: sa pag-solve ng 2x=26, hinati sa dalawa at naisip 12 kaysa 13.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct. 13 ang tamang edad dahil 13+5 = 18 at 13-7 = 6, at 18 ay 3×6.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because gumamit ng maling sign sa equation, ginawang x+5 = 3(x+7) kaya 14 ang kinalabasan.",
+        "trap_type": "sign_error"
+      }
+    },
+    "next_time_rule": "Pag may edad problema, laging simulan sa 'x ngayon'. Isulat ang hinaharap at nakalipas ayon kay x, tapos gawing equation. Bawal malito sa sign!",
+    "blueprint_id": "Age Problem Future vs Past",
+    "deconstruct_text": "Isipin mo nasa meeting kayo ng barangay. Si Jose, isang kagawad, nagbiro tungkol sa edad niya: \"Sa loob ng 5 taon, ang edad ko ay tatlong beses ng edad ko 7 taon na ang nakalipas.\" Ang tanong ng kapitan: \"Eh ngayon, ilang taon ka na?\"\n\nGawin nating x ang kasalukuyang edad ni Jose. Kaya sa loob ng 5 taon: x+5. Pitong taon na ang nakalipas: x-7.\n\nAyon sa sinabi niya: x + 5 = 3(x - 7). I-expand natin: x + 5 = 3x - 21.\n\nIlipat ang x terms: 5 + 21 = 3x - x -> 26 = 2x -> x = 13.\n\nKaya si Jose ay 13 taong gulang ngayon. Siyasatin: 13+5=18; 13-7=6; 18=3×6. Tama.\n\n**Watch-Out Zone: sign_error** in action. Minisplace ang minus sign kaya nag-14 ang sagot.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

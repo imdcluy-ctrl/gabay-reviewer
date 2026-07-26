@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-sent-003",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The new policy applies ___ all government employees.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'applies' pairs with the preposition 'to' when indicating the target of a rule or policy."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate 'for'",
+        "text": "'Applies for' is used when someone submits a request (e.g., 'applies for a job'), not when a rule covers people."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate 'with' and 'in'",
+        "text": "'Applies with' suggests accompaniment; 'applies in' suggests a location. Neither fits the meaning of 'covers all employees.'"
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'to' completes the standard idiomatic phrase 'applies to,' meaning the policy is relevant or mandatory for all government employees."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Applies for' is used when someone makes a request (e.g., 'applies for a loan'), not when a rule covers a group. Here, the policy covers employees, so 'for' is incorrect.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "Correct! 'Applies to' is the standard idiom meaning 'is relevant to' or 'is in effect for.' The policy covers all government employees.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Applies with' would imply the policy accompanies employees (e.g., 'applies with the manual'), not that it covers them. It is ungrammatical here.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'Applies in' would suggest a location (e.g., 'applies in the office'), but the sentence refers to people, not a place. 'In' does not fit.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'applies to' (not applies for/with/in). Think: 'The rule applies TO the people.'",
+    "blueprint_id": "Prepositions — Applies To",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the verb: 'applies' requires a preposition to connect to the object 'all government employees.'\n2. Recall the standard idiom: 'apply to' is used when a rule, law, or policy is relevant to a person or group.\n3. Check each option:\n   - 'for' → used with 'apply' when submitting a request (e.g., apply for a permit).\n   - 'to' → correct; the policy is directed at employees.\n   - 'with' → suggests accompaniment, not coverage.\n   - 'in' → suggests location, not coverage.\n4. Therefore, 'to' is the only preposition that forms a correct idiomatic phrase.\n\n### ❌ Why the Distractors Fail\n- **'for'**: Mistakenly treats the policy as something employees request, not something that covers them.\n- **'with'**: Implies the policy accompanies employees, which is nonsensical.\n- **'in'**: Implies a location, but the object is people, not a place.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-004",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The employee was commended ___ her outstanding performance.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom",
+        "text": "The verb 'commended' pairs with 'for' when stating the reason for praise."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate 'with'",
+        "text": "'Commended with' would mean the employee was praised along with something else, not for a reason."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate 'about' and 'on'",
+        "text": "'Commended about' is ungrammatical; 'commended on' is sometimes used but less common and not standard for a reason."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'for' correctly introduces the reason for commendation: 'commended for her outstanding performance.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Commended for' is the standard idiom when stating the reason for praise. The employee was praised because of her outstanding performance.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Commended with' would imply the employee was praised along with something (e.g., 'commended with a bonus'), not the reason. It does not fit here.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "'Commended about' is not a standard English construction. 'About' is used with topics of discussion, not reasons for praise.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'Commended on' is occasionally used (e.g., 'commended on her dedication'), but 'for' is the standard preposition for stating the reason. 'On' is less precise.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'commend for' (reason) and 'commend to' (person). Example: 'She was commended for her work.'",
+    "blueprint_id": "Prepositions — Commended For",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the verb: 'commended' (past tense of commend) means to praise formally.\n2. Determine the relationship: the blank connects the verb to the reason for praise ('her outstanding performance').\n3. Recall the standard idiom: 'commend someone for something' is the correct pattern.\n4. Check each option:\n   - 'for' → correct; introduces the reason.\n   - 'with' → suggests accompaniment, not reason.\n   - 'about' → used for topics, not reasons.\n   - 'on' → possible but less standard; 'for' is preferred.\n5. Therefore, 'for' is the correct preposition.\n\n### ❌ Why the Distractors Fail\n- **'with'**: Implies the employee was praised together with something else, not for a specific reason.\n- **'about'**: Suggests the praise was about a topic, not a reason; ungrammatical.\n- **'on'**: While sometimes used, 'for' is the standard and more precise choice for reasons.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-005",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct transitional word: 'The project was delayed ___ budget constraints.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "because"
+      },
+      {
+        "key": "B",
+        "text": "because of"
+      },
+      {
+        "key": "C",
+        "text": "since"
+      },
+      {
+        "key": "D",
+        "text": "due"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Phrase vs Clause",
+        "text": "'Budget constraints' is a noun phrase (no verb). It cannot follow 'because' alone."
+      },
+      {
+        "rung": 2,
+        "title": "Preposition needed",
+        "text": "'Because of' is a compound preposition that can introduce a noun phrase."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate 'since' and 'due'",
+        "text": "'Since' introduces a clause (subject+verb). 'Due' needs 'to' (due to)."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'because of' correctly precedes the noun phrase 'budget constraints.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Because' is a conjunction that must introduce a full clause (e.g., 'because there were budget constraints'). Here, 'budget constraints' is a noun phrase, so 'because' alone is ungrammatical.",
+        "trap_type": "conjunction_error"
+      },
+      "B": {
+        "text": "Correct! 'Because of' is a compound preposition that can introduce a noun phrase. It correctly links the delay to the reason: 'budget constraints.'",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Since' is a conjunction that introduces a clause (e.g., 'since there were budget constraints'). It cannot directly precede a noun phrase.",
+        "trap_type": "conjunction_error"
+      },
+      "D": {
+        "text": "'Due' is an adjective and requires 'to' to form the preposition 'due to' (e.g., 'due to budget constraints'). Without 'to,' it is incomplete.",
+        "trap_type": "conjunction_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Because of' + noun phrase. 'Because' + subject + verb. Example: 'Because of rain' vs. 'Because it rained.'",
+    "blueprint_id": "Transitional Words — Because vs Because Of",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the structure after the blank: 'budget constraints' is a noun phrase (no verb).\n2. Determine what type of word can introduce a noun phrase: a preposition (e.g., 'because of,' 'due to') or a conjunction (e.g., 'because,' 'since') requires a clause.\n3. Check each option:\n   - 'because' → conjunction; needs a clause. ❌\n   - 'because of' → compound preposition; works with noun phrase. ✅\n   - 'since' → conjunction; needs a clause. ❌\n   - 'due' → adjective; needs 'to' to form preposition. ❌\n4. Therefore, 'because of' is the only correct choice.\n\n### ❌ Why the Distractors Fail\n- **'because'**: Used as a conjunction, but no clause follows.\n- **'since'**: Also a conjunction; requires a clause.\n- **'due'**: Missing 'to'; 'due to' would be correct but is not an option.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-006",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Mr. Reyes is a department head.\nConclusion: Therefore, Mr. Reyes is career service eligible.\nThis is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modus Tollens"
+      },
+      {
+        "key": "B",
+        "text": "Modus Ponens"
+      },
+      {
+        "key": "C",
+        "text": "Fallacy"
+      },
+      {
+        "key": "D",
+        "text": "Inductive reasoning"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Form",
+        "text": "The argument has the form: If P then Q. P is true. Therefore Q. This is a classic deductive pattern."
+      },
+      {
+        "rung": 2,
+        "title": "Name the Pattern",
+        "text": "Affirming the antecedent (P) to conclude the consequent (Q) is called Modus Ponens."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Others",
+        "text": "Modus Tollens denies the consequent. Fallacy would be invalid. Inductive reasoning generalizes from specific cases."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Since the argument affirms the antecedent (Mr. Reyes is a department head) and concludes the consequent (he is eligible), it is Modus Ponens."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Modus Tollens would be: If P then Q. Not Q. Therefore not P. Here, we have P (Mr. Reyes is a department head) leading to Q (eligible), not the reverse.",
+        "trap_type": "logic_error"
+      },
+      "B": {
+        "text": "Correct! Modus Ponens: If P then Q. P is true. Therefore Q. Here, P = 'is a department head,' Q = 'is career service eligible.' The argument is valid and sound.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This argument is not a fallacy; it is a valid deductive argument. A fallacy would have an invalid structure, but here the conclusion necessarily follows from the premises.",
+        "trap_type": "logic_error"
+      },
+      "D": {
+        "text": "Inductive reasoning draws probable conclusions from specific observations. This argument is deductive (certain), not inductive.",
+        "trap_type": "logic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Modus Ponens: If P then Q. P. Therefore Q. Modus Tollens: If P then Q. Not Q. Therefore not P.",
+    "blueprint_id": "Categorical Syllogism — Modus Ponens",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the logical structure:\n   - Premise 1: All department heads are career service eligible. (If department head, then eligible.)\n   - Premise 2: Mr. Reyes is a department head. (Antecedent is true.)\n   - Conclusion: Therefore, Mr. Reyes is career service eligible. (Consequent follows.)\n2. This matches the pattern of Modus Ponens: affirming the antecedent.\n3. Check other options:\n   - Modus Tollens would require denying the consequent.\n   - Fallacy would be invalid; this argument is valid.\n   - Inductive reasoning is not certain; this is deductive.\n4. Therefore, the correct answer is Modus Ponens.\n\n### ❌ Why the Distractors Fail\n- **Modus Tollens**: Incorrect structure; would need 'not eligible' to conclude 'not department head.'\n- **Fallacy**: The argument is valid, so it is not a fallacy.\n- **Inductive reasoning**: The conclusion is certain, not probable.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-007",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "If it rains, the ground gets wet. The ground is wet. Therefore, it rained. This reasoning is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valid"
+      },
+      {
+        "key": "B",
+        "text": "Sound"
+      },
+      {
+        "key": "C",
+        "text": "Fallacious (affirming consequent)"
+      },
+      {
+        "key": "D",
+        "text": "Modus Tollens"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Form",
+        "text": "The argument is: If P then Q. Q is true. Therefore P. This is a common logical error."
+      },
+      {
+        "rung": 2,
+        "title": "Name the Fallacy",
+        "text": "Affirming the consequent: assuming that because the consequent is true, the antecedent must be true."
+      },
+      {
+        "rung": 3,
+        "title": "Consider Other Causes",
+        "text": "The ground could be wet due to a sprinkler, flood, or morning dew, not just rain. So the conclusion is not guaranteed."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Since the reasoning incorrectly concludes P from Q, it is fallacious, specifically affirming the consequent."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A valid argument would have a structure where if premises are true, the conclusion must be true. Here, the conclusion does not necessarily follow (other causes exist), so it is invalid.",
+        "trap_type": "logic_error"
+      },
+      "B": {
+        "text": "A sound argument is both valid and has true premises. This argument is invalid, so it cannot be sound.",
+        "trap_type": "logic_error"
+      },
+      "C": {
+        "text": "Correct! Affirming the consequent is a formal fallacy. The argument assumes that because the ground is wet (consequent), it must have rained (antecedent), ignoring other possibilities.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Modus Tollens would be: If P then Q. Not Q. Therefore not P. Here, we have Q (wet ground) leading to P (rain), which is the opposite pattern.",
+        "trap_type": "logic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** If P then Q. Q is true. You cannot conclude P. (Affirming consequent fallacy). Think: 'Rain causes wet ground, but wet ground can have other causes.'",
+    "blueprint_id": "Conditional Logic — Affirming Consequent Fallacy",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the logical form:\n   - Premise 1: If it rains (P), then ground gets wet (Q).\n   - Premise 2: The ground is wet (Q).\n   - Conclusion: Therefore, it rained (P).\n2. This is the fallacy of affirming the consequent: assuming Q implies P.\n3. Counterexample: The ground could be wet from a sprinkler, flood, or hose. So the conclusion is not necessarily true.\n4. Check other options:\n   - Valid: No, because the conclusion does not logically follow.\n   - Sound: No, because it is invalid.\n   - Modus Tollens: No, that would deny the consequent.\n5. Therefore, the reasoning is fallacious (affirming consequent).\n\n### ❌ Why the Distractors Fail\n- **Valid**: The argument is invalid; the conclusion is not guaranteed.\n- **Sound**: Requires validity; since it's invalid, it cannot be sound.\n- **Modus Tollens**: Incorrect structure; Modus Tollens denies the consequent, not affirms it.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-008",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'Only citizens aged 18 and above may vote.' Juan is 20 years old and a citizen. Therefore:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan may vote."
+      },
+      {
+        "key": "B",
+        "text": "Juan may not vote."
+      },
+      {
+        "key": "C",
+        "text": "Cannot be determined."
+      },
+      {
+        "key": "D",
+        "text": "Juan must register first."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Rule Structure",
+        "text": "The rule has two conditions: (1) citizen AND (2) age ≥ 18. Both must be true for the conclusion 'may vote' to follow."
+      },
+      {
+        "rung": 2,
+        "title": "Check Juan's Status",
+        "text": "Juan is a citizen (condition 1 met) and 20 years old (condition 2 met). Both conditions are satisfied."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Since both conditions are true, the rule's conclusion applies: Juan may vote. No additional steps are needed."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "Option A ('Juan may vote.') directly matches the logical conclusion. Options B, C, and D introduce unnecessary assumptions."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Both conditions (citizen and age ≥ 18) are satisfied, so the rule directly permits Juan to vote.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. This would be correct only if Juan failed one condition. He is a citizen and 20 years old, so the rule permits voting.",
+        "trap_type": "condition_negation_error"
+      },
+      "C": {
+        "text": "Incorrect. The rule provides sufficient information: both conditions are clearly met. There is no ambiguity.",
+        "trap_type": "false_ambiguity"
+      },
+      "D": {
+        "text": "Incorrect. The rule does not mention registration. Registration may be a separate requirement, but the given rule only requires citizenship and age.",
+        "trap_type": "extraneous_condition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a rule lists sufficient conditions, check if all are met. If yes, the conclusion follows — no extra steps needed.",
+    "blueprint_id": "Conditional Logic — Sufficient Conditions",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the rule: 'Only citizens aged 18 and above may vote.' This is a conditional: IF (citizen AND age ≥ 18) THEN (may vote).\n2. Check Juan: He is a citizen (condition 1 true) and 20 years old (condition 2 true).\n3. Since both conditions are true, the conclusion 'Juan may vote' is valid.\n\n### ❌ Why Other Options Fail\n- **B (Juan may not vote):** Contradicts the rule — both conditions are satisfied.\n- **C (Cannot be determined):** Incorrect because the rule gives clear criteria and Juan meets them.\n- **D (Must register first):** Registration is not part of the given rule; this adds an external assumption.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-009",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "All civil servants are government employees. Some government employees are engineers. Therefore:",
+    "options": [
+      {
+        "key": "A",
+        "text": "All engineers are civil servants."
+      },
+      {
+        "key": "B",
+        "text": "Some civil servants are engineers."
+      },
+      {
+        "key": "C",
+        "text": "No conclusion can be drawn."
+      },
+      {
+        "key": "D",
+        "text": "All civil servants are engineers."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Venn Diagram Setup",
+        "text": "Draw a large circle for 'government employees'. Inside it, a smaller circle for 'civil servants'. The 'engineers' circle overlaps with 'government employees' but may or may not touch 'civil servants'."
+      },
+      {
+        "rung": 2,
+        "title": "Interpret 'Some'",
+        "text": "'Some government employees are engineers' means the engineers circle overlaps with government employees, but the overlap could be entirely outside the civil servants circle."
+      },
+      {
+        "rung": 3,
+        "title": "Check Possible Overlaps",
+        "text": "It is possible that no civil servant is an engineer (engineers only in non-civil servant government employees). It is also possible that some civil servants are engineers. No definite link exists."
+      },
+      {
+        "rung": 4,
+        "title": "Conclusion",
+        "text": "Since both possibilities exist, no conclusion about the relationship between civil servants and engineers can be drawn with certainty."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'All engineers are civil servants' would require engineers to be a subset of civil servants, which is not supported. Engineers could be outside civil service.",
+        "trap_type": "overreach_conversion"
+      },
+      "B": {
+        "text": "Incorrect. 'Some civil servants are engineers' might be true but is not guaranteed. The 'some' statement only links engineers to government employees, not specifically to civil servants.",
+        "trap_type": "overreach_some"
+      },
+      "C": {
+        "text": "Correct! The premises do not establish any definite relationship between civil servants and engineers. They could overlap or be disjoint.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'All civil servants are engineers' would require civil servants to be a subset of engineers, which is not supported. Civil servants could be non-engineers.",
+        "trap_type": "overreach_all"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Some B are C' does not imply 'Some A are C' even if all A are B. The overlap may be entirely outside A.",
+    "blueprint_id": "Syllogisms — 'Some' Statements",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Premise 1: All civil servants are government employees. (Civil servants ⊆ Government employees)\n2. Premise 2: Some government employees are engineers. (Government employees ∩ Engineers ≠ ∅)\n3. The intersection in premise 2 could be entirely outside the civil servant subset. Therefore, no conclusion about civil servants and engineers is valid.\n\n### ❌ Why Other Options Fail\n- **A (All engineers are civil servants):** Reverses and overgeneralizes — engineers may be outside civil service.\n- **B (Some civil servants are engineers):** Possible but not necessary; the premises don't guarantee it.\n- **D (All civil servants are engineers):** Overreaches — civil servants could be non-engineers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-data-001",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its P10,000,000 budget: Infrastructure 40%, Education 25%, Health 20%, Agriculture 15%. How much more is allocated to Infrastructure than Health?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,500,000"
+      },
+      {
+        "key": "C",
+        "text": "P2,000,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,500,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Difference in Percentage",
+        "text": "Infrastructure gets 40%, Health gets 20%. The difference is 40% - 20% = 20% of the total budget."
+      },
+      {
+        "rung": 2,
+        "title": "Convert Percentage to Amount",
+        "text": "20% of P10,000,000 = 0.20 × 10,000,000 = P2,000,000."
+      },
+      {
+        "rung": 3,
+        "title": "Interpret the Result",
+        "text": "Infrastructure receives P2,000,000 more than Health. That matches option C."
+      },
+      {
+        "rung": 4,
+        "title": "Check Common Mistakes",
+        "text": "Some students compute 40% of 10M = P4M, 20% = P2M, then subtract to get P2M. Others mistakenly use 25% (Education) or 15% (Agriculture)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. P1,000,000 is 10% of the budget. This might come from subtracting 30% (e.g., 40% - 30%?) or misreading the percentages.",
+        "trap_type": "percentage_point_miscalculation"
+      },
+      "B": {
+        "text": "Incorrect. P1,500,000 is 15% of the budget. This could be from using Agriculture's 15% instead of the difference, or a calculation error.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "C": {
+        "text": "Correct! The difference is 20% of P10,000,000 = P2,000,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. P2,500,000 is 25% of the budget. This might come from using Education's 25% instead of the difference between Infrastructure and Health.",
+        "trap_type": "wrong_category_used"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find 'how much more' between two percentages, subtract the percentages first, then multiply by the total.",
+    "blueprint_id": "Percentage Allocation Difference",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Infrastructure allocation: 40% of P10,000,000 = P4,000,000.\n2. Health allocation: 20% of P10,000,000 = P2,000,000.\n3. Difference: P4,000,000 - P2,000,000 = P2,000,000.\n   Alternatively, percentage difference = 40% - 20% = 20%; 20% of P10,000,000 = P2,000,000.\n\n### ❌ Why Other Options Fail\n- **A (P1,000,000):** 10% of budget — possibly from 40% - 30% or misreading.\n- **B (P1,500,000):** 15% of budget — likely confused with Agriculture's share.\n- **D (P2,500,000):** 25% of budget — likely confused with Education's share.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-pat-001",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "question_text": "What comes next in the pattern: 1A, 2B, 3C, 4D, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5D"
+      },
+      {
+        "key": "B",
+        "text": "5E"
+      },
+      {
+        "key": "C",
+        "text": "6E"
+      },
+      {
+        "key": "D",
+        "text": "4E"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Observe the Number Pattern",
+        "text": "The numbers increase by 1 each time: 1, 2, 3, 4. So the next number should be 5."
+      },
+      {
+        "rung": 2,
+        "title": "Observe the Letter Pattern",
+        "text": "The letters follow the alphabet: A, B, C, D. So the next letter should be E."
+      },
+      {
+        "rung": 3,
+        "title": "Combine Both Parts",
+        "text": "The next term is formed by the next number (5) and the next letter (E), giving '5E'."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Distractors",
+        "text": "Option A (5D) keeps the letter D instead of advancing. Option C (6E) advances the number too far. Option D (4E) repeats the number 4."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. The number advances to 5, but the letter should also advance to E, not stay at D.",
+        "trap_type": "letter_stagnation"
+      },
+      "B": {
+        "text": "Correct! Both number and letter increment by one: 5 and E.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. The number advances by two (from 4 to 6) instead of one. The letter is correct (E).",
+        "trap_type": "double_number_increment"
+      },
+      "D": {
+        "text": "Incorrect. The number stays at 4 instead of advancing to 5. The letter advances correctly to E.",
+        "trap_type": "number_stagnation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In alphanumeric patterns, track each component separately. Both number and letter sequences increment independently.",
+    "blueprint_id": "Alphanumeric Patterns",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The pattern consists of a number and a letter.\n2. Number sequence: 1, 2, 3, 4 → each increases by 1 → next is 5.\n3. Letter sequence: A, B, C, D → each advances by one letter → next is E.\n4. Combine: 5E.\n\n### ❌ Why Other Options Fail\n- **A (5D):** Number correct, but letter did not advance (stayed at D).\n- **C (6E):** Number advanced by two (should be 5), letter correct.\n- **D (4E):** Number did not advance (stayed at 4), letter correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-seq-001",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "What comes next: A, C, E, G, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "I"
+      },
+      {
+        "key": "C",
+        "text": "J"
+      },
+      {
+        "key": "D",
+        "text": "K"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Skip Pattern",
+        "text": "From A to C: skip B (1 letter). From C to E: skip D. From E to G: skip F. Each step skips one letter."
+      },
+      {
+        "rung": 2,
+        "title": "Apply the Pattern",
+        "text": "After G, skip H, so the next letter is I."
+      },
+      {
+        "rung": 3,
+        "title": "Check the Options",
+        "text": "Option B is I. Option A (H) is the skipped letter. Options C (J) and D (K) skip too many."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Sequence",
+        "text": "The full sequence: A, C, E, G, I. This is every other letter of the alphabet starting from A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. H is the letter immediately after G, but the pattern skips one letter each time. H is the skipped letter.",
+        "trap_type": "consecutive_letter_error"
+      },
+      "B": {
+        "text": "Correct! The pattern skips one letter each time: A, C, E, G, I.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. J would be two letters after G (skip H and I), but the pattern only skips one letter.",
+        "trap_type": "double_skip_error"
+      },
+      "D": {
+        "text": "Incorrect. K would be three letters after G, which is too many skips.",
+        "trap_type": "triple_skip_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For letter sequences, find the gap between consecutive terms. A constant gap of +2 letters means every other letter.",
+    "blueprint_id": "Letter Sequence",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. List the alphabet positions: A=1, C=3, E=5, G=7.\n2. The pattern increases by 2 each time: 1→3→5→7.\n3. Next position: 7+2=9, which corresponds to I.\n4. Alternatively, observe that the sequence consists of every other letter starting from A: A, C, E, G, I.\n\n### ❌ Why Other Options Fail\n- **A (H):** H is position 8, which would be a +1 increase (consecutive), not +2.\n- **C (J):** J is position 10, a +3 increase from G (7→10).\n- **D (K):** K is position 11, a +4 increase from G.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

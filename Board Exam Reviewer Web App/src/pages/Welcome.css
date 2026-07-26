@@ -1,0 +1,184 @@
+.welcome-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6) var(--space-4);
+  background: linear-gradient(135deg, #0D7377, #0F172A, #0A5C5F);
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+  color: var(--color-text-inverse);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animated floating particles background effect */
+.welcome-container::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.15) 0%, transparent 100%),
+              radial-gradient(2px 2px at 40% 70%, rgba(255,255,255,0.1) 0%, transparent 100%),
+              radial-gradient(1px 1px at 60% 20%, rgba(255,255,255,0.12) 0%, transparent 100%),
+              radial-gradient(1px 1px at 80% 60%, rgba(255,255,255,0.08) 0%, transparent 100%),
+              radial-gradient(2px 2px at 10% 80%, rgba(255,255,255,0.1) 0%, transparent 100%),
+              radial-gradient(1px 1px at 70% 40%, rgba(255,255,255,0.12) 0%, transparent 100%),
+              radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,0.08) 0%, transparent 100%),
+              radial-gradient(2px 2px at 30% 90%, rgba(255,255,255,0.1) 0%, transparent 100%);
+  background-size: 200px 200px;
+  animation: particleDrift 20s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes particleDrift {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(-50px, -50px) rotate(360deg); }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.welcome-content {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-8);
+  z-index: 10;
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  opacity: 0;
+  animation: titleReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
+}
+
+@keyframes titleReveal {
+  0% { opacity: 0; transform: translateY(-10px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.welcome-logo {
+  font-family: var(--font-heading);
+  font-size: var(--size-4xl);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  position: relative;
+  display: inline-block;
+}
+
+.welcome-logo::after {
+  content: '✨';
+  position: absolute;
+  top: -8px;
+  right: -24px;
+  font-size: 1rem;
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.welcome-tagline {
+  font-size: var(--size-lg);
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+.stat-pills {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.stat-pill {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-xl);
+  font-size: var(--size-sm);
+  font-weight: 500;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-pill:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.pill-1 { animation-delay: 0.4s; }
+.pill-2 { animation-delay: 0.55s; }
+.pill-3 { animation-delay: 0.7s; }
+
+.pill-icon {
+  font-size: 1.1rem;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-cta-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  opacity: 0;
+  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.9s forwards;
+}
+
+.welcome-cta-container .btn {
+  animation: pulseGlow 2s ease-in-out 1.5s infinite;
+}
+
+.welcome-footnote {
+  font-size: var(--size-xs);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-legal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+  font-size: var(--size-xs);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.welcome-legal-links span:not(:nth-child(2)) {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.welcome-legal-links span:not(:nth-child(2)):hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration-color: currentColor;
+}

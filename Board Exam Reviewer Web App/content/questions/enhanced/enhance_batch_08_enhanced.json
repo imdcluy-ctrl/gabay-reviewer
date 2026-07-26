@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-pct-018",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P50,000 investment grows to P56,000 after one year. What is the annual interest rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%"
+      },
+      {
+        "key": "B",
+        "text": "12%"
+      },
+      {
+        "key": "C",
+        "text": "14%"
+      },
+      {
+        "key": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Interest Earned",
+        "text": "The investment grew from P50,000 to P56,000, so the interest earned is P56,000 - P50,000 = P6,000."
+      },
+      {
+        "rung": 2,
+        "title": "Rate Formula",
+        "text": "Simple interest formula: I = P × r × t. Here I = P6,000, P = P50,000, t = 1 year. Solve for r: r = I / (P × t)."
+      },
+      {
+        "rung": 3,
+        "title": "Plug Values",
+        "text": "Substitute: r = P6,000 / (P50,000 × 1) = 6,000 / 50,000 = 0.12."
+      },
+      {
+        "rung": 4,
+        "title": "Convert to Percentage",
+        "text": "Convert 0.12 to a percentage by multiplying by 100: 0.12 × 100 = 12%. So the annual interest rate is 12%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10% gives interest of P5,000 (P50,000 × 0.10 = P5,000), but the actual interest is P6,000. This might come from incorrectly computing 10% of P60,000 (the final amount) instead of the principal.",
+        "trap_type": "wrong_base_interest"
+      },
+      "B": {
+        "text": "Correct! Interest = P56,000 - P50,000 = P6,000. Rate = P6,000 / (P50,000 × 1) = 0.12 = 12%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "14% would yield P7,000 interest (P50,000 × 0.14 = P7,000), which is too high. This error may come from misreading the growth as P57,000 or adding the interest to the wrong base.",
+        "trap_type": "interest_overcalculation"
+      },
+      "D": {
+        "text": "15% gives P7,500 interest (P50,000 × 0.15 = P7,500). This might result from using the final amount P56,000 as the base and computing 15% of it, or from a simple arithmetic slip.",
+        "trap_type": "rate_overestimation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Interest rate = (Interest earned) / (Principal × Time). Always subtract principal from final amount to find interest first.",
+    "blueprint_id": "Simple Interest — Finding Rate",
+    "deconstruct_text": "Step 1: Identify the interest earned. The investment grew from P50,000 to P56,000, so interest I = P56,000 - P50,000 = P6,000.\nStep 2: Apply the simple interest formula: I = P × r × t. Here P = P50,000, t = 1 year, I = P6,000.\nStep 3: Solve for r: r = I / (P × t) = P6,000 / (P50,000 × 1) = 0.12.\nStep 4: Convert to percentage: 0.12 × 100 = 12%.\n\nWhy the distractors fail:\n- 10%: This would give interest of P5,000, not P6,000. Likely from using final amount as base or miscalculating.\n- 14%: Yields P7,000 interest; possibly from misreading growth as P57,000.\n- 15%: Yields P7,500 interest; often from using P56,000 as principal or arithmetic error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-019",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "P10,000 is placed in a time deposit earning 5% per year compounded annually. How much after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P10,500"
+      },
+      {
+        "key": "B",
+        "text": "P11,000"
+      },
+      {
+        "key": "C",
+        "text": "P11,025"
+      },
+      {
+        "key": "D",
+        "text": "P11,250"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Year 1 Growth",
+        "text": "After first year: P10,000 × 1.05 = P10,500. This includes the first year's interest."
+      },
+      {
+        "rung": 2,
+        "title": "Year 2 Growth",
+        "text": "For compound interest, the second year's interest is earned on the new balance P10,500, not just the original P10,000."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Year 2",
+        "text": "Multiply the year 1 balance by 1.05 again: P10,500 × 1.05 = P11,025."
+      },
+      {
+        "rung": 4,
+        "title": "Final Amount",
+        "text": "After two years, the total is P11,025. This is P10,000 × (1.05)^2 = P10,000 × 1.1025 = P11,025."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P10,500 is the amount after only 1 year (simple interest for one year). This ignores the second year of compounding entirely.",
+        "trap_type": "one_year_only"
+      },
+      "B": {
+        "text": "P11,000 comes from adding 10% simple interest (P10,000 × 0.10 = P1,000) to the principal, treating it as simple interest over 2 years (5% × 2 = 10%). This ignores compounding.",
+        "trap_type": "simple_interest_confusion"
+      },
+      "C": {
+        "text": "Correct! Compound amount = P10,000 × (1.05)^2 = P10,000 × 1.1025 = P11,025.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P11,250 might come from adding 12.5% interest (5% × 2.5 years) or from a miscalculation like P10,000 × 1.05 × 1.07, or incorrectly using 7.5% per year.",
+        "trap_type": "overcompounding_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For compound interest, use A = P(1+r)^t. Each year's interest is added to the principal, so interest earns interest.",
+    "blueprint_id": "Compound Interest — Annual Compounding",
+    "deconstruct_text": "Step 1: Identify the variables: Principal P = P10,000, annual rate r = 5% = 0.05, time t = 2 years, compounded annually.\nStep 2: Use the compound interest formula: A = P(1 + r)^t.\nStep 3: Compute (1 + r)^t = (1.05)^2 = 1.05 × 1.05 = 1.1025.\nStep 4: Multiply by principal: A = P10,000 × 1.1025 = P11,025.\n\nWhy the distractors fail:\n- P10,500: Only first year's interest, no compounding in second year.\n- P11,000: Simple interest over 2 years: P10,000 × (1 + 0.10) = P11,000, ignoring compounding.\n- P11,250: Likely from using an incorrect rate or miscalculating (1.05)^2 as 1.125.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-020",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A high-value item costs P60,000. A 12% VAT is added. What is the total price including VAT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P65,200"
+      },
+      {
+        "key": "B",
+        "text": "P66,000"
+      },
+      {
+        "key": "C",
+        "text": "P67,200"
+      },
+      {
+        "key": "D",
+        "text": "P68,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "VAT Amount",
+        "text": "VAT is 12% of the base price. Compute 12% of P60,000: 0.12 × 60,000 = 7,200."
+      },
+      {
+        "rung": 2,
+        "title": "Add VAT to Price",
+        "text": "Total price = original price + VAT = P60,000 + P7,200."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Total",
+        "text": "P60,000 + P7,200 = P67,200."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "The total price including VAT is P67,200."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P65,200 might come from adding 8.67% VAT (P5,200) instead of 12%, possibly from misreading 12% as 12% of P60,000 incorrectly or using a different percentage.",
+        "trap_type": "vat_rate_miscalculation"
+      },
+      "B": {
+        "text": "P66,000 results from adding 10% VAT (P6,000) instead of 12%. This could be from using 10% as a common tax rate or a simple percentage error.",
+        "trap_type": "ten_percent_confusion"
+      },
+      "C": {
+        "text": "Correct! VAT = 0.12 × P60,000 = P7,200. Total = P60,000 + P7,200 = P67,200.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P68,000 comes from adding P8,000, which is 13.33% of P60,000. This might be from adding 12% of P66,000 (incorrect base) or a simple addition error.",
+        "trap_type": "base_inflation_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Total with VAT = Price × (1 + VAT rate). Here: P60,000 × 1.12 = P67,200.",
+    "blueprint_id": "Tax Computation — VAT",
+    "deconstruct_text": "Step 1: The base price is P60,000. VAT rate is 12%.\nStep 2: Compute VAT amount: 12% of P60,000 = 0.12 × 60,000 = P7,200.\nStep 3: Add VAT to base price: P60,000 + P7,200 = P67,200.\nAlternatively, multiply by 1.12: P60,000 × 1.12 = P67,200.\n\nWhy the distractors fail:\n- P65,200: VAT of P5,200 (8.67%) — likely a miscalculation of 12%.\n- P66,000: VAT of P6,000 (10%) — common error using 10% instead of 12%.\n- P68,000: VAT of P8,000 (13.33%) — possibly from adding 12% of P66,667 or arithmetic slip.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-021",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A street vendor bought 50 mangoes for P750 and sold each at P20. What is the percentage profit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "33.33%"
+      },
+      {
+        "key": "D",
+        "text": "40%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Cost Per Mango",
+        "text": "Total cost P750 for 50 mangoes. Cost per mango = P750 ÷ 50 = P15."
+      },
+      {
+        "rung": 2,
+        "title": "Profit Per Mango",
+        "text": "Selling price per mango is P20. Profit per mango = P20 - P15 = P5."
+      },
+      {
+        "rung": 3,
+        "title": "Profit Percentage Formula",
+        "text": "Percentage profit is based on cost: (Profit per mango / Cost per mango) × 100%."
+      },
+      {
+        "rung": 4,
+        "title": "Compute Percentage",
+        "text": "(P5 / P15) × 100% = (1/3) × 100% = 33.33%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25% would be a profit of P3.75 per mango (P15 × 0.25 = P3.75), but actual profit is P5. This might come from using selling price as base: P5/P20 = 25% (markup on selling price).",
+        "trap_type": "markup_on_selling_price"
+      },
+      "B": {
+        "text": "30% gives profit of P4.50 per mango (P15 × 0.30 = P4.50). This could be from miscalculating cost per mango as P15.38 or using total profit P250 / total cost P750 = 33.33% incorrectly rounded.",
+        "trap_type": "profit_miscalculation"
+      },
+      "C": {
+        "text": "Correct! Cost per mango = P15, profit per mango = P5. Percentage profit = (5/15) × 100 = 33.33%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "40% would be profit of P6 per mango (P15 × 0.40 = P6). This might come from using total revenue P1,000 minus cost P750 = P250 profit, then P250/P750 = 33.33% but then adding 6.67% erroneously, or using P5/P12.5 (wrong cost).",
+        "trap_type": "cost_underestimation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Percentage profit = (Profit per unit / Cost per unit) × 100%. Always divide by cost, not selling price.",
+    "blueprint_id": "Multi-Item Profit Margin",
+    "deconstruct_text": "Step 1: Find cost per mango: P750 ÷ 50 = P15.\nStep 2: Find profit per mango: Selling price P20 - Cost P15 = P5.\nStep 3: Percentage profit = (Profit / Cost) × 100% = (P5 / P15) × 100% = 33.33%.\n\nWhy the distractors fail:\n- 25%: Uses selling price as base: P5/P20 = 25% (markup on selling price, not profit percentage).\n- 30%: Possibly from rounding or miscalculating cost per mango.\n- 40%: Might come from using total profit P250 / total cost P750 = 33.33% but then adding an error, or using a different cost base.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-022",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee contributes 9% of her P28,000 monthly salary to SSS/PhilHealth. How much is her monthly contribution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P2,250"
+      },
+      {
+        "key": "B",
+        "text": "P2,400"
+      },
+      {
+        "key": "C",
+        "text": "P2,520"
+      },
+      {
+        "key": "D",
+        "text": "P2,600"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Percentage",
+        "text": "The contribution is 9% of the monthly salary. 'Of' means multiplication."
+      },
+      {
+        "rung": 2,
+        "title": "Convert Percentage to Decimal",
+        "text": "9% = 9/100 = 0.09."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply",
+        "text": "Contribution = 0.09 × P28,000."
+      },
+      {
+        "rung": 4,
+        "title": "Compute",
+        "text": "0.09 × 28,000 = 2,520. So the monthly contribution is P2,520."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P2,250 is 9% of P25,000, not P28,000. This might come from using a salary of P25,000 instead of P28,000, possibly from misreading the problem.",
+        "trap_type": "wrong_salary_base"
+      },
+      "B": {
+        "text": "P2,400 is 9% of approximately P26,667, or 8.57% of P28,000. This could be from using 8% (a common rate) or miscalculating 9% as 0.09 × 28,000 = 2,520 but then subtracting 120.",
+        "trap_type": "rate_underestimation"
+      },
+      "C": {
+        "text": "Correct! 9% of P28,000 = 0.09 × 28,000 = P2,520.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P2,600 is 9.29% of P28,000, or 9% of P28,888. This might come from adding an extra P80, perhaps from using 9% of P28,000 as 2,520 and then adding 80 due to rounding or arithmetic error.",
+        "trap_type": "overcalculation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find a percentage of a number, convert the percentage to a decimal and multiply. For 9% of P28,000: 0.09 × 28,000 = 2,520.",
+    "blueprint_id": "SSS/PhilHealth Contribution",
+    "deconstruct_text": "Step 1: The contribution rate is 9% of the monthly salary P28,000.\nStep 2: Convert 9% to decimal: 9% = 9/100 = 0.09.\nStep 3: Multiply: 0.09 × P28,000 = P2,520.\n\nWhy the distractors fail:\n- P2,250: Uses a salary of P25,000 instead of P28,000.\n- P2,400: Uses approximately 8.57% rate, possibly from misreading 9% as 8% or miscalculating.\n- P2,600: Overestimates by P80, possibly from an arithmetic slip or using 9.3%.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-023",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "What is 0.6% of P85,000?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P510"
+      },
+      {
+        "key": "B",
+        "text": "P600"
+      },
+      {
+        "key": "C",
+        "text": "P5,100"
+      },
+      {
+        "key": "D",
+        "text": "P6,000"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert 0.6% to decimal",
+        "text": "Percent means per hundred, so 0.6% = 0.6/100 = 0.006. Move the decimal point two places to the left."
+      },
+      {
+        "rung": 2,
+        "title": "Set up multiplication",
+        "text": "Multiply the decimal by the whole: 0.006 × P85,000. This is the same as 6/1000 × 85,000."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the calculation",
+        "text": "Cancel zeros: 85,000 / 1000 = 85, then 85 × 6 = 510. So the result is P510."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the answer",
+        "text": "The correct answer is P510. Notice that 0.6% is less than 1%, so the result must be less than 1% of 85,000 (which is P850). P510 fits."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! P510 is obtained by converting 0.6% to 0.006 and multiplying by 85,000: 0.006 × 85,000 = 510.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "P600 results from treating 0.6% as 0.6 (instead of 0.006) and multiplying: 0.6 × 85,000 = 51,000, then misplacing a decimal to get 600. The correct decimal shift is two places left, not one.",
+        "trap_type": "decimal_shift_one_place"
+      },
+      "C": {
+        "text": "P5,100 comes from computing 6% of 85,000 (0.06 × 85,000 = 5,100). The student likely dropped the decimal point in 0.6%, treating it as 6%.",
+        "trap_type": "percent_as_whole_number"
+      },
+      "D": {
+        "text": "P6,000 results from calculating 6% of 100,000 or miscomputing 0.6% as 0.06 × 100,000. It shows confusion between percentage and decimal conversion.",
+        "trap_type": "decimal_and_base_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For percentages under 1%, convert by moving the decimal two places left: 0.6% = 0.006. Then multiply.",
+    "blueprint_id": "Small Percentage Computation",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Convert 0.6% to a decimal: 0.6% = 0.6/100 = 0.006.\n2. Multiply by the whole: 0.006 × P85,000.\n3. Simplify: 85,000 × 6 = 510,000; then divide by 1000 → 510.\n4. Thus, 0.6% of P85,000 = P510.\n\n### ❌ Common Mistakes\n- **P600**: Using 0.6 instead of 0.006 (one decimal shift instead of two).\n- **P5,100**: Using 6% instead of 0.6% (dropping the decimal).\n- **P6,000**: Combining errors in decimal and base.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-024",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "Construction material price increased from P350/unit to P420/unit. Percentage increase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "18%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": "25%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the increase",
+        "text": "Subtract the original price from the new price: P420 - P350 = P70 increase."
+      },
+      {
+        "rung": 2,
+        "title": "Apply the percentage increase formula",
+        "text": "Percentage increase = (increase / original) × 100%. Here, increase = 70, original = 350."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the fraction",
+        "text": "70/350 simplifies to 1/5 = 0.2. Multiply by 100% to get 20%."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the answer",
+        "text": "The correct answer is 20%. Check: 20% of 350 is 70, and 350 + 70 = 420."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "15% would be 0.15 × 350 = 52.5 increase, giving 402.5, not 420. This might come from using the new price as base: 70/420 ≈ 16.7%, rounded down.",
+        "trap_type": "wrong_base_new_price"
+      },
+      "B": {
+        "text": "18% is close but not exact. 0.18 × 350 = 63, giving 413. This error may arise from miscomputing 70/350 as 0.18 instead of 0.2.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "Correct! Increase = 70, original = 350, so (70/350)×100% = 20%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "25% would be 0.25 × 350 = 87.5 increase, giving 437.5. This error occurs if the student uses the new price as base (70/420 ≈ 16.7%) and then misrounds, or simply guesses.",
+        "trap_type": "wrong_base_and_overestimate"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** % increase = (new - original) / original × 100. Always divide by the original, not the new.",
+    "blueprint_id": "Percentage Increase — Material",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Compute the increase: P420 - P350 = P70.\n2. Divide by the original price: 70 / 350 = 0.2.\n3. Convert to percentage: 0.2 × 100% = 20%.\n\n### ❌ Common Mistakes\n- **15%**: Using new price as base (70/420 ≈ 16.7%) and rounding down.\n- **18%**: Arithmetic error in division.\n- **25%**: Using new price as base and rounding up.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-025",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A product's original price is P800. After a 15% markup, what is the new price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P880"
+      },
+      {
+        "key": "B",
+        "text": "P900"
+      },
+      {
+        "key": "C",
+        "text": "P920"
+      },
+      {
+        "key": "D",
+        "text": "P960"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate the markup amount",
+        "text": "15% of P800 = 0.15 × 800 = P120. This is the amount added to the original price."
+      },
+      {
+        "rung": 2,
+        "title": "Add markup to original",
+        "text": "New price = original + markup = P800 + P120."
+      },
+      {
+        "rung": 3,
+        "title": "Compute the sum",
+        "text": "800 + 120 = 920. So the new price is P920."
+      },
+      {
+        "rung": 4,
+        "title": "Verify with alternative method",
+        "text": "New price = original × (1 + markup rate) = 800 × 1.15 = 920. This confirms the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P880 results from adding 10% of 800 (80) instead of 15%. The student may have used 10% markup by mistake.",
+        "trap_type": "wrong_markup_rate"
+      },
+      "B": {
+        "text": "P900 comes from adding 12.5% (100) or miscalculating 15% as 100. Possibly a mental math error: 15% of 800 = 120, not 100.",
+        "trap_type": "markup_calculation_error"
+      },
+      "C": {
+        "text": "Correct! 15% of 800 = 120, so new price = 800 + 120 = 920.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P960 results from adding 20% of 800 (160). The student may have used 20% markup instead of 15%.",
+        "trap_type": "wrong_markup_rate_high"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Markup: new price = original × (1 + markup%). For 15% markup, multiply by 1.15.",
+    "blueprint_id": "15% Markup",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Markup amount = 15% of P800 = 0.15 × 800 = P120.\n2. New price = original + markup = 800 + 120 = P920.\n   Alternatively: 800 × 1.15 = 920.\n\n### ❌ Common Mistakes\n- **P880**: Using 10% markup (80) instead of 15%.\n- **P900**: Miscalculating 15% as 100 (12.5% of 800).\n- **P960**: Using 20% markup (160) instead of 15%.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-026",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government agency's annual budget is P15,000,000. If 24% goes to personnel, how much is that?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P3,200,000"
+      },
+      {
+        "key": "B",
+        "text": "P3,400,000"
+      },
+      {
+        "key": "C",
+        "text": "P3,600,000"
+      },
+      {
+        "key": "D",
+        "text": "P3,800,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert 24% to decimal",
+        "text": "24% = 0.24. Multiply by the total budget: 0.24 × 15,000,000."
+      },
+      {
+        "rung": 2,
+        "title": "Simplify by canceling zeros",
+        "text": "15,000,000 × 24/100 = 15,000,000 ÷ 100 × 24 = 150,000 × 24."
+      },
+      {
+        "rung": 3,
+        "title": "Compute the product",
+        "text": "150,000 × 24 = 150,000 × 20 + 150,000 × 4 = 3,000,000 + 600,000 = 3,600,000."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the answer",
+        "text": "The personnel budget is P3,600,000. Check: 24% of 15M is 3.6M, which is less than 25% (3.75M) and more than 20% (3M)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P3,200,000 is 21.33% of 15M. This might come from using 24% of 15M but miscalculating: 150,000 × 20 = 3,000,000, then adding 200,000 instead of 600,000.",
+        "trap_type": "multiplication_error"
+      },
+      "B": {
+        "text": "P3,400,000 is 22.67% of 15M. Possibly from 150,000 × 22 = 3,300,000, then rounding up, or a misstep in partial products.",
+        "trap_type": "partial_product_error"
+      },
+      "C": {
+        "text": "Correct! 24% of 15,000,000 = 0.24 × 15,000,000 = 3,600,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P3,800,000 is 25.33% of 15M. This could result from using 25% (3,750,000) and rounding up, or miscalculating 24% as 0.24 × 15,000,000 = 3,600,000 but then adding 200,000.",
+        "trap_type": "percentage_overestimate"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For large numbers, cancel zeros: 24% of 15M = (15M/100)×24 = 150,000×24.",
+    "blueprint_id": "Budget Allocation — Personnel",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Personnel budget = 24% of P15,000,000.\n2. Convert to decimal: 0.24 × 15,000,000.\n3. Simplify: 15,000,000 ÷ 100 = 150,000; then 150,000 × 24 = 3,600,000.\n\n### ❌ Common Mistakes\n- **P3,200,000**: Error in multiplying 150,000 × 24 (e.g., 150,000×20=3M, then adding 200,000 instead of 600,000).\n- **P3,400,000**: Partial product error.\n- **P3,800,000**: Using 25% or miscalculating.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-027",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "If 35% of a number is 840, what is the number?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2,200"
+      },
+      {
+        "key": "B",
+        "text": "2,300"
+      },
+      {
+        "key": "C",
+        "text": "2,400"
+      },
+      {
+        "key": "D",
+        "text": "2,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set up the equation",
+        "text": "Let N be the unknown number. Then 35% of N = 840, or 0.35 × N = 840."
+      },
+      {
+        "rung": 2,
+        "title": "Solve for N",
+        "text": "Divide both sides by 0.35: N = 840 ÷ 0.35."
+      },
+      {
+        "rung": 3,
+        "title": "Perform the division",
+        "text": "840 ÷ 0.35 = 840 ÷ (35/100) = 840 × (100/35) = (840/35) × 100 = 24 × 100 = 2,400."
+      },
+      {
+        "rung": 4,
+        "title": "Verify the answer",
+        "text": "Check: 35% of 2,400 = 0.35 × 2,400 = 840. So the number is 2,400."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "2,200 is too low. 35% of 2,200 = 770, not 840. This might come from dividing 840 by 0.35 incorrectly, e.g., 840/0.35 ≈ 2,400, but then subtracting 200.",
+        "trap_type": "division_error"
+      },
+      "B": {
+        "text": "2,300 gives 35% = 805, not 840. Possibly from 840/0.35 = 2,400, then subtracting 100 due to rounding.",
+        "trap_type": "division_rounding_error"
+      },
+      "C": {
+        "text": "Correct! N = 840 / 0.35 = 2,400.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "2,500 gives 35% = 875, which is 35 more than 840. This could result from dividing 840 by 0.35 but misplacing decimal: 840/0.35 = 2,400, but student might compute 840/0.35 = 2,500 by error.",
+        "trap_type": "decimal_misplacement"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the whole from a part: whole = part / (percentage as decimal). For 35% and 840, divide 840 by 0.35.",
+    "blueprint_id": "Finding the Whole from a Part",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Let N be the number. Equation: 0.35N = 840.\n2. Divide both sides by 0.35: N = 840 / 0.35.\n3. Simplify: 840 / 0.35 = 840 × (100/35) = (840/35) × 100 = 24 × 100 = 2,400.\n\n### ❌ Common Mistakes\n- **2,200**: Division error, possibly subtracting instead of dividing.\n- **2,300**: Rounding error in division.\n- **2,500**: Decimal misplacement or incorrect multiplication.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

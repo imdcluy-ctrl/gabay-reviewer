@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive ordering all agencies to update their personnel records. What is the closest synonym for MANDATORY?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Compulsory"
+      },
+      {
+        "key": "C",
+        "text": "Advisory"
+      },
+      {
+        "key": "D",
+        "text": "Temporary"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the Context",
+        "text": "The sentence says the directive is 'ordering' all agencies to do something. That word 'ordering' is your first big clue. What kind of action is that?"
+      },
+      {
+        "rung": 2,
+        "title": "Think About the Root Word",
+        "text": "The word 'mandatory' comes from 'mandate,' which is an official command. When someone gives a mandate, do you have a choice, or is it something you must do?"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Opposites",
+        "text": "Two of the options suggest that something is a choice or a suggestion. If mandatory means 'no choice,' you can safely cross those out. Which ones are they?"
+      },
+      {
+        "rung": 4,
+        "title": "Find the Perfect Match",
+        "text": "You're left with two options. One talks about time, the other talks about requirement. Since mandatory is all about being required, which one fits like a glove?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the direct opposite of mandatory. If something is optional, you can choose to do it or not. But a mandatory directive leaves no room for choice—it's required. It's easy to grab this if you're reading too quickly, so always pause and check if the word means the same or the opposite.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "This is the right answer. Compulsory means something is required by a rule, law, or authority—exactly what mandatory means. When you see 'mandatory' in an exam, think of 'compulsory' as its twin.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Advisory sounds official, so it's tempting. But advisory means giving advice or recommendations, not orders. A memo can be advisory, but a directive that 'orders' you is mandatory. The trap here is confusing something that sounds official with something that is required.",
+        "trap_type": "partial_definition_error"
+      },
+      "D": {
+        "text": "Temporary is about how long something lasts, not whether it's required. A mandatory rule can be temporary, but that doesn't make 'temporary' a synonym. This is a classic distraction—it throws in a word that's related to the topic (government directives) but has nothing to do with the meaning of mandatory.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "The 'Mandate Test': If you can replace the word with 'required by authority' and the sentence still makes sense, you're looking at a synonym for mandatory. Compulsory, obligatory, and requisite are all in the same family.",
+    "blueprint_id": "Vocabulary — Synonyms of Administrative Directives",
+    "deconstruct_text": "Let's walk through this together. The key is in the sentence itself: the CSC issued a directive 'ordering' all agencies to act. That word 'ordering' is your anchor—it tells you this isn't a suggestion or a choice. Now, mandatory comes from 'mandate,' which is an official command. So you're looking for a word that means 'required by authority.'\n\nLook at the options. Optional is the opposite—it means you have a choice. Advisory sounds official but really means giving recommendations, not orders. Temporary is about time, not requirement. That leaves Compulsory, which means exactly what you need: required by rule or law.\n\nHere's a mental trick for next time: the 'Who vs. What' test. Ask yourself: 'Who is making this happen?' If it's an authority figure or a rule, and there's no choice involved, you're in mandatory territory. Then ask: 'What word means the same thing?' Compulsory, obligatory, required—these are your go-to synonyms.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

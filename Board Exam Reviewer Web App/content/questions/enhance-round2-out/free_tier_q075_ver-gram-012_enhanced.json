@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-012",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence does NOT contain a dangling modifier?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walking down the hall, the paintings caught his attention."
+      },
+      {
+        "key": "B",
+        "text": "Driving to work, the traffic was heavy."
+      },
+      {
+        "key": "C",
+        "text": "Having reviewed the documents, the report was approved."
+      },
+      {
+        "key": "D",
+        "text": "After submitting the application, the applicant waited for a response."
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "The Core Idea",
+        "text": "A dangling modifier is like a sentence that starts with an action but forgets to name who did it. The opening phrase describes an action, and the very next word (the subject) should be the one doing that action."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Test",
+        "text": "For each sentence, ask yourself: Who is doing the action in the opening phrase? Then check if that person or thing is the subject of the main clause. If they don't match, you've got a dangler."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Test",
+        "text": "In A, who is walking? The paintings? No. In B, who is driving? The traffic? No. In C, who reviewed the documents? The report? No. In D, who submitted the application? The applicant. That matches perfectly."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Only one sentence has a subject that can logically perform the action in the opening phrase. Look for the option where the doer and the subject are the same."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tricky because it sounds fine at first. But 'walking down the hall' needs a person doing the walking. The subject that follows is 'the paintings,' and paintings can't walk. The modifier is left dangling with no logical doer.",
+        "trap_type": "dangling_modifier_paintings"
+      },
+      "B": {
+        "text": "A smart choice if you're reading quickly. 'Driving to work' implies a driver, but the subject is 'the traffic.' Traffic doesn't drive itself. The modifier is unattached, making this a classic dangler.",
+        "trap_type": "dangling_modifier_traffic"
+      },
+      "C": {
+        "text": "This one sounds professional, but it's still a dangler. 'Having reviewed the documents' needs a reviewer, yet the subject is 'the report.' Reports don't review anything. The modifier is floating without a clear doer.",
+        "trap_type": "dangling_modifier_report"
+      },
+      "D": {
+        "text": "Correct. 'After submitting the application' logically connects to 'the applicant' because the applicant is the one who submits. The doer and the subject are perfectly aligned, so there's no dangling modifier here.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "When you see an introductory phrase describing an action, immediately ask: 'Who is doing this?' The very next noun after the comma must be that person or thing. If it's not, the modifier is dangling.",
+    "blueprint_id": "Dangling Modifiers — Identifying Correct Sentences",
+    "deconstruct_text": "Let's walk through this together. A dangling modifier happens when a sentence starts with a descriptive phrase that doesn't logically connect to the subject that follows. Think of it like a dance partner who shows up but has no one to dance with.\n\nHere's the simple trick: read the opening phrase, then look at the first noun after the comma. That noun must be the one doing the action in the phrase.\n\nLet's test each option:\n\nOption A: 'Walking down the hall' — who is walking? The next noun is 'the paintings.' Can paintings walk? No. Dangling.\n\nOption B: 'Driving to work' — who is driving? The next noun is 'the traffic.' Can traffic drive? No. Dangling.\n\nOption C: 'Having reviewed the documents' — who reviewed? The next noun is 'the report.' Can a report review? No. Dangling.\n\nOption D: 'After submitting the application' — who submitted? The next noun is 'the applicant.' Can an applicant submit? Yes. No dangling modifier.\n\nYour mental framework: The 'Who Test.' Whenever you see an introductory phrase ending with a comma, pause and ask 'Who is doing this?' The answer must be the very next noun. If it's not, you've spotted a dangler.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

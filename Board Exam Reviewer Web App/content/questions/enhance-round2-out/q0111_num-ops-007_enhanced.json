@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-007",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Estimate: 487 x 32 is approximately?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10,000"
+      },
+      {
+        "key": "B",
+        "text": "12,000"
+      },
+      {
+        "key": "C",
+        "text": "15,000"
+      },
+      {
+        "key": "D",
+        "text": "20,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "I-round ang bawat bilang",
+        "text": "Gawing 500 ang 487, at 30 ang 32. Round sa pinakamalapit na hundred o ten."
+      },
+      {
+        "rung": 2,
+        "title": "Multiply ang rounded numbers",
+        "text": "500 × 30 = 15,000. Simple multiplication lang, walang kahirap-hirap."
+      },
+      {
+        "rung": 3,
+        "title": "Tandaan ang totoong value",
+        "text": "Dahil 487 < 500 at 32 > 30, ang tunay na sagot ay bahagyang mas mababa sa 15,000."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang tamang option",
+        "text": "Option C ang 15,000, kaya ito ang pinakamalapit na estimate sa choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 32 was rounded to 20 instead of 30, underestimating. Sa rounding rules, 30 ang tama.",
+        "trap_type": "rounding_error"
+      },
+      "B": {
+        "text": "You might have chosen B because 487 was rounded down to 400, pero mas malapit sa 500. So underestimate.",
+        "trap_type": "rounding_error"
+      },
+      "C": {
+        "text": "Correct. 500 × 30 = 15,000. Pag ginamit ang tamang rounding rules, ito ang pinakamalapit na estimate.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 32 was rounded up to 40, causing overestimate. Dapat 30 lang para mas tumpak.",
+        "trap_type": "rounding_error"
+      }
+    },
+    "next_time_rule": "Sa estimation, round each factor sa isang non-zero digit, then multiply. Mas malapit ang rounding, mas tumpak ang estimate.",
+    "blueprint_id": "Approximate Multiplication",
+    "deconstruct_text": "Sa barangay meeting, kailangan mong i-estimate ang gastos sa 487 packs ng relief goods sa P32 bawat isa. Imbis na eksaktong compute, mag-round ka muna ng numbers para mabilis.\n\nRound 487 to the nearest hundred: 500. Round 32 to the nearest ten: 30. Multiply: 500 × 30 = 15,000. Kaya ang estimate ay P15,000 — option C.\n\nMental Trick: Isipin mo, \"Rounds lang, parang sukli sa jeep.\" 487 ≈ 500, 32 ≈ 30. Pag pinagsama, 15,000. Madaling tandaan.\n\n**Watch-Out Zone: rounding_error** Huwag mag-round sa 400 o 40; ang 32 ay 30.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

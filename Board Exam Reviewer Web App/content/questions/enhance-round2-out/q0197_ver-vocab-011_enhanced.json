@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-011",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ELUCIDATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confuse"
+      },
+      {
+        "key": "B",
+        "text": "Complicate"
+      },
+      {
+        "key": "C",
+        "text": "Clarify"
+      },
+      {
+        "key": "D",
+        "text": "Obscure"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Vocabulary test siya. Hanapin ang kapareho ng 'elucidate' — huwag malito sa mga opposite."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Synonym = parehong meaning. Ang 'elucidate' ay 'to make clear.' Kaya hanapin ang 'clarify' o 'ipaliwanag nang malinaw.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Tingnan ang options: A. Confuse (guluhin), B. Complicate (pakumplikado), D. Obscure (magpa-labo). Si C lang ang 'clarify' na malinaw."
+      },
+      {
+        "rung": 4,
+        "title": "Memory Hook",
+        "text": "'Elucidate' may 'lucid'=malinaw. Kaya synonym ay 'clarify.' Wag ma-shonga sa 'obscure' na parang fog!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'confuse' sounds familiar, but it actually means to make unclear — the opposite of elucidate.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'complicate' seems related to explaining, but it means to make more complex, not clear.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Clarify' shares the same meaning: to make something clear and understandable.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'obscure' sounds smart, but it means to hide or make vague — again, the opposite of making clear.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Isipin ang 'lucid' sa 'elucidate' = malinaw. Kaya synonym ay 'clarify.' Iwasan ang mga sagot na kabaliktaran tulad ng 'obscure' o 'confuse.'",
+    "blueprint_id": "Vocabulary — Elucidate",
+    "deconstruct_text": "Imagine nasa Barangay Assembly ka at nag-e-explain si Kap ng bagong waste segregation ordinance. Kelangan niyang i-elucidate ang rules para maintindihan ng lahat — ibig sabihin, gawing malinaw at simple.\n\n'Elucidate' galing sa 'lucid' na ibig sabihin ay malinaw, kaya pag may nag-elucidate, nagpapaliwanag nang klaro. Ganun din ang 'clarify.'\n\nNgayon, tingnan ang choices: A (Confuse) at D (Obscure) ay mga antonym — kabaliktaran. B (Complicate) ay nagpapahirap, hindi nagpapalinaw. Kaya 'Clarify' lang ang tamang sagot.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

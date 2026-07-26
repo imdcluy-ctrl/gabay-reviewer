@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-012",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'AUSTERE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lavish"
+      },
+      {
+        "key": "B",
+        "text": "Severe"
+      },
+      {
+        "key": "C",
+        "text": "Comfortable"
+      },
+      {
+        "key": "D",
+        "text": "Indulgent"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin si Austere",
+        "text": "Isipin ang isang guro o kawani na walang palamuti—strikto at simple. Iyan ang austere."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang Tamang Kahulugan",
+        "text": "Sa vocab, ang 'austere' ay matipid, mahigpit, walang labis. Hanapin ang salitang nagpapahiwatig ng ganitong ugali."
+      },
+      {
+        "rung": 3,
+        "title": "Tanggalin ang Baliktad",
+        "text": "Lavish ay maluho, comfortable ay maginhawa, indulgent ay mapagbigay—lahat kabaligtaran ng austere. I-cross out sila."
+      },
+      {
+        "rung": 4,
+        "title": "Final: Piliin ang Severe",
+        "text": "Severe ang eksaktong katumbas. Iugnay sa austerity—walang sobra, mahigpit ang sinturon. Iyan ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'lavish' sounds intense, but it means luxurious, the exact opposite of austere's plainness.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. 'Severe' means strict and unadorned, just like an LGU budget with zero frills—that's austere.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'comfortable' seems close, but austere is about strictness and lack of ease.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "D": {
+        "text": "You might have chosen D because 'indulgent' feels like a strong word, but it means giving in to pleasures, the opposite of self-denial.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Pag nakita mo 'austere,' isipin 'austerity'—walang sobra, mahigpit ang sinturon. I-konek agad sa 'severe.'",
+    "blueprint_id": "Vocabulary — Austere",
+    "deconstruct_text": "Para sa CSE, alamin natin ang 'austere.' Isipin mo ang isang barangay treasurer na sobrang tipid—walang extra sa budget, kahit simpleng handaan ay pinagkakait. Ang pamumuhay niya ay mahigpit at walang palamuti. Iyan ang ibig sabihin ng austere: severe, plain, at stri...\n\nNgayon, tingnan ang mga pagpipilian. 'Lavish' ay maluho, kabaligtaran ng tipid. 'Comfortable' ay maginhawa, hindi strikto. 'Indulgent' ay mapagbigay sa sarili, samantalang ang austere ay disiplina. 'Severe' lang ang tumutugma—mahigpit at payak.\n\nTandaan: 'A-U-S' sa austere ay parang 'austerity.' Kapag nag-austerity, walang luho. I-link sa 'severe' para hindi malito. Pag nakita mo sa exam, isipin ang strict na teacher o simpleng monk.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

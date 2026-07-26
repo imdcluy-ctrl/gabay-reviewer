@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-002",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "STETHOSCOPE is to DOCTOR as COMPUTER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Patient"
+      },
+      {
+        "key": "B",
+        "text": "Hospital"
+      },
+      {
+        "key": "C",
+        "text": "Programmer"
+      },
+      {
+        "key": "D",
+        "text": "Medicine"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is all about the relationship between a tool and the person who uses it. Think about what a stethoscope is for a doctor."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In a tool-user analogy, the first word is the instrument, and the second word is the professional who relies on it to do their job."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "So if a stethoscope is the doctor's essential tool, ask yourself: who uses a computer as their essential, everyday work tool? Not just anyone who owns one, but a professional whose main job depends on it."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Among the choices, only one is a person who uses a computer as their primary instrument to create and build things. The others are things a doctor interacts with, but they aren't the user of a computer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Patient is someone a doctor treats, not someone who uses a computer. It's easy to pick this because both words are related to a doctor's world, but the relationship here is tool-to-user, not doctor-to-recipient.",
+        "trap_type": "wrong_relationship"
+      },
+      "B": {
+        "text": "Hospital is a place where a doctor works, so it's a location, not a user. This trap shifts the relationship from tool-user to tool-location, which is a different kind of analogy entirely.",
+        "trap_type": "location_confusion"
+      },
+      "C": {
+        "text": "Correct. A programmer uses a computer as their primary tool to write code and build software, just as a doctor uses a stethoscope to examine patients. The relationship is tool to its professional user.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Medicine is something a doctor prescribes, so it's an associated object, not a user. This trap confuses the relationship by picking something related to the first term's context rather than the correct user.",
+        "trap_type": "associated_object"
+      }
+    },
+    "next_time_rule": "In tool-user analogies, always ask: 'Who is the professional that uses this tool as their main instrument?' Avoid options that are related to the first term but are not the user.",
+    "blueprint_id": "Tool-User Relationship",
+    "deconstruct_text": "Let's walk through this together. The first pair is STETHOSCOPE and DOCTOR. What's the connection? A stethoscope is a tool, and a doctor is the person who uses it to do their job. That's a tool-user relationship. Now, apply that same relationship to the second pair: COMPUTER is a tool, so who is the user? Among the options, only Programmer fits—a programmer uses a computer as their primary work instrument. The other options are all related to a doctor's world: Patient (who they treat), Hospital (where they work), Medicine (what they prescribe). But none of those are the user of a computer. Here's a mental trick: when you see a tool-user analogy, imagine the tool in someone's hand. Who is holding the stethoscope? A doctor. Who is holding the computer? A programmer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

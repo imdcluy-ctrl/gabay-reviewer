@@ -1,0 +1,171 @@
+.profile-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-primary);
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-6));
+}
+
+.profile-content {
+  flex: 1;
+  padding: var(--space-4);
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.profile-content > * {
+  opacity: 0;
+  animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.profile-content > *:nth-child(1) { animation-delay: 0.05s; }
+.profile-content > *:nth-child(2) { animation-delay: 0.1s; }
+.profile-content > *:nth-child(3) { animation-delay: 0.15s; }
+
+.profile-user-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.profile-user-card:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.avatar-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--color-brand-teal), var(--color-brand-teal-light));
+  color: white;
+  font-family: var(--font-heading);
+  font-size: var(--size-2xl);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(13, 115, 119, 0.3);
+  transition: transform var(--transition-fast);
+}
+
+.profile-user-card:hover .avatar-circle {
+  transform: scale(1.05);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.user-name {
+  font-size: var(--size-xl);
+  font-weight: 700;
+}
+
+.profile-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.profile-stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-3);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.profile-stat-box:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.pstat-val {
+  font-family: var(--font-heading);
+  font-size: var(--size-lg);
+  font-weight: 700;
+  color: var(--color-brand-teal);
+}
+
+.profile-stat-box:nth-child(3) .pstat-val {
+  color: var(--color-streak-fire);
+}
+
+.pstat-lbl {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.profile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.menu-item-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.menu-item-card:hover {
+  transform: translateX(3px);
+}
+
+.menu-item-card:active {
+  transform: scale(0.99);
+}
+
+.menu-item-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  transition: transform var(--transition-fast);
+}
+
+.menu-item-card:hover .menu-icon {
+  transform: scale(1.1);
+}
+
+.menu-text h4 {
+  font-size: var(--size-base);
+  font-weight: 600;
+}
+
+.menu-text p {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.menu-arrow {
+  font-size: var(--size-lg);
+  color: var(--color-brand-teal);
+  font-weight: 700;
+  transition: transform var(--transition-fast);
+}
+
+.menu-item-card:hover .menu-arrow {
+  transform: translateX(4px);
+}
+
+.create-acc-card {
+  border-color: var(--color-brand-gold);
+  background: linear-gradient(135deg, rgba(245, 166, 35, 0.05), rgba(245, 166, 35, 0.02));
+  animation: pulseGlow 2s ease-in-out infinite;
+}

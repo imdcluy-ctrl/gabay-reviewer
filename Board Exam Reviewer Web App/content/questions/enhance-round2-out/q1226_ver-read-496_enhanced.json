@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-496",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: The ASEAN Economic Community (AEC) aims to create a single market and production base, facilitating the free flow of goods, services, investment, and skilled labor across Southeast Asia. For the Philippine civil service, this integration presents both opportunities and challenges. On one hand, it opens doors for Filipino professionals to work in other ASEAN countries, potentially raising income levels and fostering cross-cultural exchange. On the other hand, it requires the Philippine bureaucracy to harmonize standards and regulations with regional partners, which can be a complex and resource-intensive process. Moreover, the civil service must ensure that its workforce is competitive and equipped with the necessary skills to thrive in a regional environment. This includes proficiency in English, the working language of ASEAN, and familiarity with international best practices. Ultimately, the success of ASEAN integration for the Philippines hinges on the adaptability and preparedness of its civil servants.\n\nWhat is the main idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The AEC will automatically improve the income of all Filipino professionals."
+      },
+      {
+        "key": "B",
+        "text": "ASEAN integration requires the Philippine civil service to adapt and become competitive."
+      },
+      {
+        "key": "C",
+        "text": "The Philippine bureaucracy is already fully prepared for ASEAN integration."
+      },
+      {
+        "key": "D",
+        "text": "English proficiency is the only skill needed for Filipino civil servants to succeed in ASEAN."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1471",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

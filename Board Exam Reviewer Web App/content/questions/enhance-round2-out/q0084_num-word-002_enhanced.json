@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-002",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Maria is 24. She is twice as old as Ana was when Maria was as old as Ana is now. How old is Ana?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define Variables",
+        "text": "Let Ana's current age = A. The age difference between Maria and Ana is 24 - A. This difference is constant over time."
+      },
+      {
+        "rung": 2,
+        "title": "Express the Past Situation",
+        "text": "When Maria was as old as Ana is now (A years old), that was (24 - A) years ago. At that time, Ana was A - (24 - A) = 2A - 24 years old."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up the Equation",
+        "text": "Maria now (24) is twice Ana's age at that past time: 24 = 2 × (2A - 24)."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for A",
+        "text": "24 = 4A - 48 → 4A = 72 → A = 18. Check: Maria is 24, Ana is 18. Difference = 6. When Maria was 18 (6 years ago), Ana was 12. 24 = 2 × 12. Correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because this is Ana's age when Maria was 18 (6 years ago), not her current age.",
+        "trap_type": "past_age_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because of an algebraic mistake: 24 = 4A - 56 (miscalculating 24+48).",
+        "trap_type": "algebraic_mistake"
+      },
+      "C": {
+        "text": "You might have chosen C because of an algebraic mistake: 4A = 64 instead of 72.",
+        "trap_type": "algebraic_mistake"
+      },
+      "D": {
+        "text": "Correct. Letting Ana = A, set up 24 = 2(2A - 24), solve: 4A = 72, A = 18.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Key Takeaway: In age problems with 'when X was as old as Y', use constant age difference. Let diff = d, set up and solve.",
+    "blueprint_id": "Classic Age Puzzle",
+    "deconstruct_text": "Sa Barangay Masagana, nagplaplano sina Maria (24) at Ana para sa fiesta. Habang nagbibilang ng budget, napansin ni Maria: 'Noong ako ay nasa edad mo, ikaw ay kalahati lang ng edad ko ngayon.' Tara, solve natin gamit algebra.\n\nStep 1: Let Ana's current age = A. Ang age difference ay 24 - A, constant 'yan.\n\nStep 2: Noong si Maria ay A taong gulang (kasing-edad ni Ana ngayon), ilang taon na ang nakalipas? (24 - A) years ago.\n\nStep 3: Sa panahong iyon, si Ana ay A - (24 - A) = 2A - 24 taon.\n\nStep 4: Ngayon daw, si Maria (24) ay doble ng edad ni Ana noon: 24 = 2(2A - 24).\n\nStep 5: Solve: 24 = 4A - 48 → 4A = 72 → A = 18.\n\nCheck: Ana ay 18, Maria 24. 6 na taon ang agwat. Noong 6 years ago, si Maria ay 18, si Ana ay 12. 24 = 2×12. Tama!\n\n**Watch-Out Zone: past_age_confusion** in action. Huwag malito sa past age!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

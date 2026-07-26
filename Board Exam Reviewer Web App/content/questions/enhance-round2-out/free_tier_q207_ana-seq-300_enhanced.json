@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ana-seq-300",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Alphanumeric Personnel Code Progression Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Find the next item in the government personnel code series: EMP-010, EMP-020, EMP-040, EMP-080, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "EMP-160"
+      },
+      {
+        "key": "B",
+        "text": "EMP-100"
+      },
+      {
+        "key": "C",
+        "text": "EMP-120"
+      },
+      {
+        "key": "D",
+        "text": "EMP-090"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Focus on What Changes",
+        "text": "Notice that the 'EMP-' part stays exactly the same in every code. So the real puzzle is just in the numbers that follow."
+      },
+      {
+        "rung": 2,
+        "title": "Look at the Numbers Alone",
+        "text": "Write down just the numeric parts: 10, 20, 40, 80. Ask yourself: what operation turns one number into the next? Is it adding the same amount each time, or something else?"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Multiplication Pattern",
+        "text": "Check if there's a consistent multiplication happening: 10 times 2 gives 20, 20 times 2 gives 40, 40 times 2 gives 80. That's a clear doubling pattern."
+      },
+      {
+        "rung": 4,
+        "title": "Apply the Rule One More Time",
+        "text": "Since the pattern is multiply by 2, just do 80 times 2 equals 160. Attach the 'EMP-' prefix and you have EMP-160."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. The numbers double each time: 10 to 20 to 40 to 80, so the next is 160. That gives us EMP-160.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This would make sense if the pattern were adding 20 each time (10, 30, 50, 70...), but here the jumps are 10, then 20, then 40. That's not a steady addition—it's doubling.",
+        "trap_type": "linear_constant_fallacy"
+      },
+      "C": {
+        "text": "You might have noticed the differences are increasing (10, 20, 40) and guessed the next difference would be 40 again, but that's not consistent. The real pattern is multiplying each number by 2, not adding the previous difference.",
+        "trap_type": "linear_constant_fallacy"
+      },
+      "D": {
+        "text": "This one is tempting if you think the pattern is just adding 10 each time, but look closely: the jump from 10 to 20 is 10, but from 20 to 40 is 20, and from 40 to 80 is 40. The jumps themselves are doubling, which points to multiplication.",
+        "trap_type": "linear_constant_fallacy"
+      }
+    },
+    "next_time_rule": "When you see a sequence, first check if it's multiplying by a constant (geometric) before assuming it's adding a constant (arithmetic). A quick test: divide the second number by the first, then the third by the second—if you get the same result, you've found the multiplier.",
+    "deconstruct_text": "Let's walk through this together. The codes all start with 'EMP-', so that part is just a label—the real action is in the numbers: 10, 20, 40, 80. Now, how do we get from one to the next? If it were adding the same number each time, the jumps would be equal. But here, 10 to 20 is a jump of 10, 20 to 40 is a jump of 20, and 40 to 80 is a jump of 40. The jumps themselves are doubling! That's a big clue that the pattern is multiplication, not addition. Specifically, each number is multiplied by 2 to get the next: 10 times 2 is 20, 20 times 2 is 40, 40 times 2 is 80. So the next number is 80 times 2, which is 160. Attach the prefix, and you get EMP-160. A handy trick for next time: whenever you see a sequence, ask yourself 'Is this growing by a fixed amount or by a fixed factor?' That question alone will steer you away from common traps."
+  }
+]

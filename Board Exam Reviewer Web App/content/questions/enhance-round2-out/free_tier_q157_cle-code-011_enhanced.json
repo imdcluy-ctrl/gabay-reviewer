@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-011",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Spelling 1: Which word is correctly spelled?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recieve"
+      },
+      {
+        "key": "B",
+        "text": "Receive"
+      },
+      {
+        "key": "C",
+        "text": "Recive"
+      },
+      {
+        "key": "D",
+        "text": "Receeve"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a classic spelling question that tests a very common English rule. Think about the order of vowels in words that sound like 'ree-seev'."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Remember the simple rhyme: 'I before E, except after C, or when sounded like A, as in neighbor and weigh.' Since 'receive' has a C before the vowel pair, which part of the rule applies?"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Because there's a C right before the vowel sound, the rule says to use 'EI' instead of 'IE'. So the correct sequence is C-E-I, not C-I-E. Which option follows that pattern?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Option A spells it 'Recieve' (C-I-E) which breaks the rule. Option B spells it 'Receive' (C-E-I) which follows the rule. Option C is missing a letter entirely, and Option D uses a double E. The only one that gets it right is B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to see why someone might pick this — it looks close and the 'ie' combination is very common in English. But the rule says after a 'c', we use 'ei', not 'ie'. So 'Recieve' is a trap because it puts the 'i' before the 'e' when it should be the other way around.",
+        "trap_type": "ie_after_c_error"
+      },
+      "B": {
+        "text": "This is correct. 'Receive' follows the 'i before e except after c' rule perfectly. The 'c' comes right before the vowel pair, so we use 'ei' — giving us R-E-C-E-I-V-E.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one might look like a simple typo, and that's exactly the trap. 'Recive' is missing the 'e' entirely after the 'c'. The correct spelling needs the full 'ei' pair to make the 'ee' sound. Without that second vowel, the word doesn't sound right.",
+        "trap_type": "missing_letter_error"
+      },
+      "D": {
+        "text": "This option tries to double the 'e' instead of using the correct 'ei' combination. 'Receeve' might seem logical if you're thinking about the 'ee' sound, but English spelling doesn't work that way here. The rule specifically calls for 'ei' after 'c', not 'ee'.",
+        "trap_type": "vowel_doubling_error"
+      }
+    },
+    "next_time_rule": "When you hear that 'ee' sound after a 'c', immediately think 'EI' not 'IE'. The letter 'c' is like a signal that flips the usual order. A handy trick: if you can say 'c' then 'ei' smoothly, you've got it right — like in 'ceiling', 'conceit', and 'deceive'.",
+    "blueprint_id": "Spelling 1",
+    "deconstruct_text": "Let's walk through this together. The word we're trying to spell is 'receive' — that sound like 'ree-seev'. The key is the classic English spelling rule: 'I before E, except after C.' Since 'receive' has a 'c' right before the vowel pair, we use the exception: 'ei' after 'c'. So the correct spelling is R-E-C-E-I-V-E.\n\nNow check each option against that rule:\n- Option A: 'Recieve' — This puts 'ie' after 'c', which breaks the rule. The 'c' demands 'ei'.\n- Option B: 'Receive' — This follows the rule perfectly. 'C' then 'ei'. Correct.\n- Option C: 'Recive' — This is missing the 'e' entirely after 'c'. It's incomplete.\n- Option D: 'Receeve' — This uses 'ee' instead of 'ei'. The rule specifically says 'ei' after 'c', not 'ee'.\n\nHere's a mental trick to lock this in forever: Think of the letter 'c' as a traffic cop that tells the vowels to switch places. Normally, it's 'ie' (like in 'believe'), but when 'c' is on duty, it points to 'ei' instead. So whenever you see a 'c' before that vowel sound, just remember: 'c' says 'ei'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

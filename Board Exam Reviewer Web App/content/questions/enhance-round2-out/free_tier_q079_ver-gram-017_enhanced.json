@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-017",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The data shows a significant trend."
+      },
+      {
+        "key": "B",
+        "text": "The data show a significant trend."
+      },
+      {
+        "key": "C",
+        "text": "The data have show a trend."
+      },
+      {
+        "key": "D",
+        "text": "The data are show a trend."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the word 'data' itself",
+        "text": "In formal English, 'data' has a special history. It's actually the plural form of 'datum,' which means a single piece of information. So when you see 'data,' imagine you're talking about many individual facts or figures at once."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule for plurals",
+        "text": "A plural subject needs a plural verb. If 'data' is plural (many pieces of information), then the verb should match. Think of it like 'they' instead of 'he' or 'she' -- you wouldn't say 'they runs,' you'd say 'they run.' Same idea here."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the impossible constructions",
+        "text": "Look at options C and D. 'Have show' and 'are show' aren't proper English verb forms in any context. You can immediately eliminate those, leaving just A and B. Now it's a simple choice between singular and plural."
+      },
+      {
+        "rung": 4,
+        "title": "The final nudge",
+        "text": "You're down to two options. One treats 'data' as a single thing (data shows), the other treats it as many things (data show). In formal writing and exams, always go with the plural treatment. The correct sentence is 'The data show a significant trend.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake, and it's easy to see why someone would pick it. In everyday conversation, many people say 'the data shows' without thinking twice. But here's the thing: in formal English, 'data' is plural. It's like saying 'the children plays' -- it just doesn't match. The verb 'shows' is singular, but 'data' needs the plural verb 'show.'",
+        "trap_type": "singular_verb_with_plural_subject"
+      },
+      "B": {
+        "text": "This is correct. 'Data' is the plural of 'datum,' so it takes a plural verb. 'Show' is the plural form, matching perfectly with the plural subject. Think of it this way: 'The data show' is like saying 'The facts show' or 'The figures show.' It just clicks.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one falls apart because 'have show' isn't a valid verb construction in English. You might be thinking of the present perfect tense, which would be 'have shown' (with the past participle), or you might be mixing up tenses. But 'have' plus the base form 'show' doesn't work in any standard tense. It's like trying to fit a square peg in a round hole.",
+        "trap_type": "incorrect_verb_form"
+      },
+      "D": {
+        "text": "Similar to option C, 'are show' is grammatically impossible. The verb 'are' needs to be followed by either a present participle ('showing') to form the continuous tense, or a past participle ('shown') to form the passive voice. Using the base form 'show' after 'are' just doesn't compute in English grammar.",
+        "trap_type": "incorrect_verb_form"
+      }
+    },
+    "next_time_rule": "When you see 'data' in a formal exam, immediately think 'many pieces of information' and pair it with a plural verb. The quick mental test: replace 'data' with 'facts' -- if it sounds right with 'facts,' you've got the right verb form.",
+    "blueprint_id": "Subject-Verb — Data (Plural)",
+    "deconstruct_text": "Let me walk you through this one step by step, the way you'd want to think about it under exam pressure.\n\nFirst, let's talk about the word 'data.' In formal English, 'data' is actually the plural form of 'datum.' A datum is one single piece of information. So data means multiple pieces of information. Think of it like this: one datum, two data. Just like one child, two children.\n\nNow, because 'data' is plural, it needs a plural verb. The verb 'show' has two forms: 'shows' (singular, like 'he shows') and 'show' (plural, like 'they show'). Since 'data' is like 'they,' we need 'show' -- not 'shows.'\n\nLet's look at the options:\n\nOption A says 'The data shows.' This treats 'data' as singular. It's a very common mistake in casual speech, but in formal writing and exams, it's incorrect.\n\nOption B says 'The data show.' This is correct. The plural subject matches the plural verb. Perfect.\n\nOptions C and D are easier to eliminate. 'Have show' and 'are show' aren't valid English verb forms in any context. You can cross those out immediately without even thinking about the 'data' issue.\n\nSo the answer is B: 'The data show a significant trend.'\n\nHere's a mental trick you can use forever: Whenever you see 'data' on an exam, pause and silently replace it with the word 'facts.' Would you say 'the facts shows'? No, you'd say 'the facts show.' That's your clue. 'Data' works the same way.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

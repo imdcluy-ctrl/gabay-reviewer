@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-003",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next: A1, C2, E3, G4, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H5"
+      },
+      {
+        "key": "B",
+        "text": "I5"
+      },
+      {
+        "key": "C",
+        "text": "J5"
+      },
+      {
+        "key": "D",
+        "text": "I6"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the big picture",
+        "text": "This sequence mixes letters and numbers. Instead of getting overwhelmed, try splitting them into two separate lists in your mind: one for the letters only, and one for the numbers only."
+      },
+      {
+        "rung": 2,
+        "title": "Spot the letter rhythm",
+        "text": "Look at the letters: A, C, E, G. Notice how each letter skips exactly one letter in the alphabet. A skips B to get to C, C skips D to get to E, and so on. What letter comes after G if you skip one?"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the number rhythm",
+        "text": "Now look at the numbers: 1, 2, 3, 4. This one is simpler—each step just adds 1. So what number comes after 4?"
+      },
+      {
+        "rung": 4,
+        "title": "Put them back together",
+        "text": "You've figured out the next letter should be I (skipping H after G) and the next number should be 5. Combine them to get I5. Now check the options—only one matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "H5 is a tempting choice because H comes right after G in the alphabet, and 5 is indeed the next number. But the letter pattern doesn't move one step at a time—it skips one letter each time. A to C skips B, C to E skips D, E to G skips F, so G should skip H and go to I. H is the letter that gets skipped, not the one that appears.",
+        "trap_type": "letter_position_error"
+      },
+      "B": {
+        "text": "This is correct. The letters follow a skip-one pattern: A, C, E, G, and then I. The numbers simply increase by 1: 1, 2, 3, 4, and then 5. Put them together and you get I5.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "J5 has the right number, but the letter is off by one extra skip. If you accidentally skip two letters instead of one, you'd go from G to J (skipping H and I). But the pattern only skips one letter each time, so the correct next letter is I, not J.",
+        "trap_type": "letter_step_error"
+      },
+      "D": {
+        "text": "I6 gets the letter right—I is correct. But the number jumped by 2 instead of 1. The numbers are just counting up: 1, 2, 3, 4, so the next one should be 5, not 6. A small but costly slip under time pressure.",
+        "trap_type": "number_step_error"
+      }
+    },
+    "next_time_rule": "When you see alphanumeric sequences, always split them into two separate patterns first. Treat the letters and numbers as independent puzzles, solve each one, then combine the answers. This keeps you from getting tangled up.",
+    "blueprint_id": "Alphanumeric Pattern",
+    "deconstruct_text": "Let's walk through this together. The sequence is A1, C2, E3, G4, and we need the next term. The smartest first move is to separate the letters from the numbers.\n\nFor the letters: we have A, C, E, G. If you look at their positions in the alphabet, A is 1, C is 3, E is 5, G is 7. Notice anything? They're all odd numbers, and each step adds 2. So the next letter should be at position 9, which is I.\n\nFor the numbers: we have 1, 2, 3, 4. This is just counting up by 1 each time. So the next number is 5.\n\nNow combine: the next letter is I and the next number is 5, giving us I5.\n\nHere's a mental trick you can use for any similar problem: think of it like two separate conveyor belts running side by side. One belt carries letters with their own rule, the other carries numbers with their own rule. Your job is to figure out what's coming next on each belt, then snap them together.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

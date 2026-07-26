@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vocab-015",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'BENEVOLENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kind"
+      },
+      {
+        "key": "B",
+        "text": "Generous"
+      },
+      {
+        "key": "C",
+        "text": "Malevolent"
+      },
+      {
+        "key": "D",
+        "text": "Charitable"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Benevolent comes from Latin 'bene' (good) + 'volent' (wishing). It means well-meaning, kindly, or charitable."
+      },
+      {
+        "rung": 2,
+        "title": "Antonym",
+        "text": "The prefix 'mal-' means bad or evil. So the antonym of benevolent is malevolent (wishing evil)."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Synonyms",
+        "text": "Options A, B, and D are all synonyms of benevolent, not antonyms. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only option C, 'Malevolent', is the direct opposite. Remember: bene = good, mal = bad."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Kind' is a synonym of benevolent, not an antonym. The question asks for the opposite meaning, so choosing a synonym shows a misunderstanding of the task.",
+        "trap_type": "synonym_used"
+      },
+      "B": {
+        "text": "Incorrect. 'Generous' is also a synonym of benevolent. It describes a similar positive trait, but the question requires the antonym.",
+        "trap_type": "synonym_used"
+      },
+      "C": {
+        "text": "Correct! Benevolent and malevolent are direct antonyms. The prefix 'bene-' (good) contrasts with 'male-' (evil).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Charitable' is another synonym of benevolent. It means giving to those in need, which aligns with benevolence, not its opposite.",
+        "trap_type": "synonym_used"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember the Latin roots: 'bene' = good, 'mal' = bad. Benevolent (good-wishing) vs. Malevolent (evil-wishing).",
+    "blueprint_id": "Antonyms — Benevolent",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Benevolent' means well-meaning, kindly, or generous. It comes from Latin 'bene' (good) + 'volent' (wishing).\n2. **Identify the task:** The question asks for the antonym, not a synonym. So we need a word with the opposite meaning.\n3. **Analyze each option:**\n   - A. 'Kind' — a synonym of benevolent (same meaning).\n   - B. 'Generous' — a synonym of benevolent.\n   - C. 'Malevolent' — from Latin 'male' (bad) + 'volent' (wishing), meaning evil or harmful. This is the direct opposite.\n   - D. 'Charitable' — a synonym of benevolent.\n4. **Conclusion:** Only option C is an antonym. The others are synonyms, which are incorrect for this question.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-016",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'NEFARIOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Good"
+      },
+      {
+        "key": "B",
+        "text": "Virtuous"
+      },
+      {
+        "key": "C",
+        "text": "Wicked"
+      },
+      {
+        "key": "D",
+        "text": "Honorable"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Nefarious comes from Latin 'nefas' meaning crime or wickedness. It describes something extremely evil or villainous."
+      },
+      {
+        "rung": 2,
+        "title": "Connotation",
+        "text": "This word has a strong negative connotation. It is not neutral or positive. Look for a choice with a negative meaning."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Positives",
+        "text": "Options A (Good), B (Virtuous), and D (Honorable) all have positive meanings. They cannot be synonyms of a negative word."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only option C, 'Wicked', has a negative meaning that matches nefarious. It is the correct synonym."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Good' is an antonym of nefarious. Nefarious means wicked or evil, so 'good' is the opposite meaning.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Virtuous' means having high moral standards, which is the opposite of nefarious. This is an antonym confusion trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Nefarious means wicked, evil, or villainous. 'Wicked' is a direct synonym.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Honorable' means deserving respect, which is the opposite of nefarious. This is an antonym confusion trap.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Nefarious = wicked/evil. Remember the 'ne' prefix (not) + 'fas' (divine law) = against divine law, hence evil.",
+    "blueprint_id": "Vocabulary — Nefarious",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Nefarious' means extremely wicked or villainous. It is derived from Latin 'nefas' (crime, wrong).\n2. **Identify the task:** The question asks for the meaning (synonym) of nefarious.\n3. **Analyze each option:**\n   - A. 'Good' — positive meaning, opposite of nefarious.\n   - B. 'Virtuous' — positive meaning, opposite of nefarious.\n   - C. 'Wicked' — negative meaning, synonym of nefarious.\n   - D. 'Honorable' — positive meaning, opposite of nefarious.\n4. **Conclusion:** Only option C matches the negative connotation and definition of nefarious.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-017",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'VERNACULAR'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formal language"
+      },
+      {
+        "key": "B",
+        "text": "Everyday language"
+      },
+      {
+        "key": "C",
+        "text": "Foreign language"
+      },
+      {
+        "key": "D",
+        "text": "Written language"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Vernacular comes from Latin 'vernaculus' meaning native or domestic. It refers to the language spoken by ordinary people in a particular region."
+      },
+      {
+        "rung": 2,
+        "title": "Contrast",
+        "text": "Vernacular is contrasted with formal, literary, or learned language. It is the everyday speech of common folks."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate",
+        "text": "Options A (Formal), C (Foreign), and D (Written) do not describe everyday speech. Only option B fits."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Vernacular = everyday language spoken by ordinary people. Option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Formal language' is the opposite of vernacular. Vernacular is informal, everyday speech, not formal.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Vernacular means the everyday language spoken by ordinary people in a specific area.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Foreign language' is not related to vernacular. Vernacular is native to a region, not foreign.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Incorrect. 'Written language' is not specific to vernacular. Vernacular can be spoken or written, but its key feature is being everyday, not formal.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Vernacular = everyday language of ordinary people. Think 'native tongue' or 'common speech'.",
+    "blueprint_id": "Vocabulary — Vernacular",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Vernacular' refers to the language or dialect spoken by ordinary people in a particular region or country. It is the everyday, informal speech.\n2. **Identify the task:** The question asks for the meaning of vernacular.\n3. **Analyze each option:**\n   - A. 'Formal language' — this is the opposite; vernacular is informal.\n   - B. 'Everyday language' — this matches the definition exactly.\n   - C. 'Foreign language' — vernacular is native, not foreign.\n   - D. 'Written language' — vernacular is primarily spoken, though it can be written; the key is 'everyday' not 'written'.\n4. **Conclusion:** Option B is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-018",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym for 'JURISDICTION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Authority"
+      },
+      {
+        "key": "B",
+        "text": "Weakness"
+      },
+      {
+        "key": "C",
+        "text": "Limitation"
+      },
+      {
+        "key": "D",
+        "text": "Uncertainty"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Jurisdiction comes from Latin 'juris' (law) + 'dictio' (saying). It means the official power to make legal decisions and judgments."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The key synonym is 'authority' — the power or right to interpret and apply the law."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Options B (Weakness), C (Limitation), and D (Uncertainty) are all negative or opposite concepts. Jurisdiction is about power, not lack of it."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only option A, 'Authority', is a synonym for jurisdiction. The others are antonyms or unrelated."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Jurisdiction means the official authority to make legal decisions. 'Authority' is a direct synonym.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Weakness' is an antonym of jurisdiction. Jurisdiction implies power, not weakness.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Limitation' is the opposite of jurisdiction. Jurisdiction is about scope of power, but limitation restricts it.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Incorrect. 'Uncertainty' is unrelated. Jurisdiction provides clarity about who has authority, not uncertainty.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Jurisdiction = authority. Think of a judge's power to hear a case — that's jurisdiction.",
+    "blueprint_id": "Vocabulary — Jurisdiction",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Jurisdiction' is the official power to make legal decisions and judgments. It comes from Latin 'juris' (law) + 'dictio' (saying).\n2. **Identify the task:** The question asks for a synonym of jurisdiction.\n3. **Analyze each option:**\n   - A. 'Authority' — this matches the definition of power to make decisions.\n   - B. 'Weakness' — opposite meaning.\n   - C. 'Limitation' — a limitation restricts jurisdiction, not a synonym.\n   - D. 'Uncertainty' — unrelated.\n4. **Conclusion:** Option A is the correct synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-019",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'TRANSPARENT' mean in a government context?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secretive"
+      },
+      {
+        "key": "B",
+        "text": "Hidden"
+      },
+      {
+        "key": "C",
+        "text": "Open and accountable"
+      },
+      {
+        "key": "D",
+        "text": "Confusing"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Transparent literally means allowing light to pass through so objects behind can be seen clearly. Figuratively, it means open, clear, and easy to understand."
+      },
+      {
+        "rung": 2,
+        "title": "Government Context",
+        "text": "In government, transparency refers to openness in decision-making, public access to information, and accountability to citizens."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Options A (Secretive), B (Hidden), and D (Confusing) are all opposites of transparency. They describe lack of openness."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only option C, 'Open and accountable', captures the meaning of transparency in government."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Secretive' is the opposite of transparent. Transparency means openness, not secrecy.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Hidden' is also an antonym. Transparent means visible and clear, not hidden.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! In government, transparency means operations are open to public scrutiny and officials are accountable.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Confusing' is the opposite of transparent. Transparent means clear and easy to understand.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Transparency = openness + accountability. Think 'sunlight is the best disinfectant' for government actions.",
+    "blueprint_id": "Vocabulary — Transparency",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Transparent' means allowing light to pass through; figuratively, it means open, clear, and easy to perceive.\n2. **Government context:** In governance, transparency refers to the principle that public decisions and actions should be open to scrutiny by citizens, promoting accountability.\n3. **Analyze each option:**\n   - A. 'Secretive' — opposite of transparent.\n   - B. 'Hidden' — opposite of transparent.\n   - C. 'Open and accountable' — matches the definition.\n   - D. 'Confusing' — opposite of clear/transparent.\n4. **Conclusion:** Option C is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-020",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'CONCISE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Brief"
+      },
+      {
+        "key": "B",
+        "text": "Succinct"
+      },
+      {
+        "key": "C",
+        "text": "Verbose"
+      },
+      {
+        "key": "D",
+        "text": "Short"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Concise means giving a lot of information clearly in a few words — brief but comprehensive."
+      },
+      {
+        "rung": 2,
+        "title": "Antonym",
+        "text": "The opposite of concise is wordy or long-winded. Which option means using more words than necessary?"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Synonyms",
+        "text": "Options A, B, and D are all synonyms of concise (brief, succinct, short). The antonym must be the one that means the opposite."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Verbose means using or expressed in more words than are needed — the direct antonym of concise."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Brief' is a synonym of concise, not an antonym. A student who picks this may have misread the question as asking for a synonym.",
+        "trap_type": "synonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Succinct' is another synonym of concise, meaning clearly and briefly expressed. This is the opposite of what the question asks.",
+        "trap_type": "synonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Verbose means using more words than needed — the direct antonym of concise.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Short' is a synonym of concise when referring to length. It does not mean the opposite.",
+        "trap_type": "synonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find an antonym, first identify the meaning of the given word, then look for the option with the opposite meaning. Concise = brief → antonym = verbose (wordy).",
+    "blueprint_id": "Antonyms — Concise",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'concise': giving a lot of information clearly in a few words; brief but comprehensive.\n2. Identify the antonym: a word that means the opposite — using more words than necessary.\n3. Review the options:\n   - A. Brief → synonym of concise\n   - B. Succinct → synonym of concise\n   - C. Verbose → means wordy, opposite of concise\n   - D. Short → synonym of concise\n4. The only option that is not a synonym is 'Verbose', which is the correct antonym.\n\n### ❌ Why the Distractors Fail\n- **Brief, Succinct, Short** are all synonyms of concise. Students who pick these likely misread the question or do not know the meaning of 'verbose'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-021",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'MANDATE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Request"
+      },
+      {
+        "key": "B",
+        "text": "Suggestion"
+      },
+      {
+        "key": "C",
+        "text": "Official order"
+      },
+      {
+        "key": "D",
+        "text": "Opinion"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "A mandate is not a mere suggestion or request — it carries authority and is binding."
+      },
+      {
+        "rung": 2,
+        "title": "Strength",
+        "text": "Think of a mandate as something that must be followed, not optional. Which option has that compulsory force?"
+      },
+      {
+        "rung": 3,
+        "title": "Context",
+        "text": "In government, a mandate is an official order or authorization to act. For example, a court mandate or a legislative mandate."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Official order is the correct meaning — it is authoritative and binding, unlike a request, suggestion, or opinion."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. A request is a polite ask, not an authoritative command. A mandate is binding, not optional.",
+        "trap_type": "word_strength_error"
+      },
+      "B": {
+        "text": "Incorrect. A suggestion is a recommendation, not a directive. Mandates are compulsory, not advisory.",
+        "trap_type": "word_strength_error"
+      },
+      "C": {
+        "text": "Correct! A mandate is an official order or commission to do something, often from a governing body.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. An opinion is a personal belief or judgment, not an authoritative command. Mandates are formal and binding.",
+        "trap_type": "word_strength_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** A mandate is an authoritative command or official order — it is not optional. Look for words that imply compulsion or authority.",
+    "blueprint_id": "Vocabulary — Mandate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'mandate': an official order or commission to do something, often from a government or authority.\n2. Key characteristic: a mandate is binding and must be followed.\n3. Review the options:\n   - A. Request → not binding, optional\n   - B. Suggestion → not binding, optional\n   - C. Official order → binding, authoritative\n   - D. Opinion → personal, not authoritative\n4. Only 'Official order' matches the binding, authoritative nature of a mandate.\n\n### ❌ Why the Distractors Fail\n- **Request, Suggestion, Opinion** are all weaker in authority. Students may confuse 'mandate' with milder terms like 'request' if they do not recognize its compulsory force.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-022",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PROCUREMENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sale"
+      },
+      {
+        "key": "B",
+        "text": "Purchase"
+      },
+      {
+        "key": "C",
+        "text": "Donation"
+      },
+      {
+        "key": "D",
+        "text": "Exchange"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Procurement is the process of obtaining goods or services, typically for business or government."
+      },
+      {
+        "rung": 2,
+        "title": "Key Action",
+        "text": "The core action in procurement is acquiring something by paying for it. Which option means 'to buy'?"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Sale is the opposite (selling), donation is giving away, exchange is swapping. Only one involves buying."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Purchase is the correct synonym — procurement is essentially the act of purchasing, especially through a formal process."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. Sale is the opposite of procurement — selling rather than buying. Students may confuse the two if they think of transactions generally.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Procurement means the act of acquiring goods or services, typically by purchase.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. Donation involves giving without payment, while procurement involves purchasing. These are different processes.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Incorrect. Exchange involves trading one thing for another, not necessarily purchasing. Procurement is specifically about buying.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Procurement = the process of purchasing goods/services. Think of 'procure' as 'to obtain by care or effort', often through buying.",
+    "blueprint_id": "Vocabulary — Procurement",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'procurement': the act of obtaining or acquiring goods or services, especially for business or government purposes.\n2. In most contexts, procurement involves purchasing through a formal process.\n3. Review the options:\n   - A. Sale → selling, opposite of buying\n   - B. Purchase → buying, synonym of procurement\n   - C. Donation → giving without payment\n   - D. Exchange → trading, not necessarily buying\n4. Only 'Purchase' matches the meaning of procurement.\n\n### ❌ Why the Distractors Fail\n- **Sale** is the opposite action. **Donation** and **Exchange** are different methods of acquisition that do not involve the formal buying process implied by procurement.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-023",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'SUBSIDIARY' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Primary"
+      },
+      {
+        "key": "B",
+        "text": "Main"
+      },
+      {
+        "key": "C",
+        "text": "Secondary"
+      },
+      {
+        "key": "D",
+        "text": "Independent"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Subsidiary means less important or subordinate — something that is under or supporting something else."
+      },
+      {
+        "rung": 2,
+        "title": "Antonyms",
+        "text": "Primary and Main are antonyms of subsidiary. Independent is also opposite because subsidiary implies dependence."
+      },
+      {
+        "rung": 3,
+        "title": "Context",
+        "text": "In business, a subsidiary company is controlled by a parent company — it is secondary in authority."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Secondary is the correct synonym — it means of lesser importance or subordinate, matching subsidiary."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. Primary means first in importance, the opposite of subsidiary. Students may confuse the prefix 'sub-' meaning under.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. Main means chief or principal, the opposite of subsidiary. This is a common antonym trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Subsidiary means secondary in importance or subordinate, especially in a corporate context.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. Independent means not controlled by others, while subsidiary implies being under the control of a parent entity.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Subsidiary = secondary or subordinate. Remember the prefix 'sub-' means under or below, so subsidiary is below the main entity.",
+    "blueprint_id": "Vocabulary — Subsidiary",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'subsidiary': less important than but related to something else; subordinate.\n2. In business, a subsidiary is a company controlled by a parent company.\n3. Review the options:\n   - A. Primary → opposite (first in importance)\n   - B. Main → opposite (chief)\n   - C. Secondary → matches (less important)\n   - D. Independent → opposite (not controlled)\n4. Only 'Secondary' aligns with the meaning of subsidiary.\n\n### ❌ Why the Distractors Fail\n- **Primary, Main, Independent** are all opposites. Students may pick 'Primary' or 'Main' if they misread the prefix 'sub-' as meaning 'super' or 'above'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-024",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'AMENDMENT' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repeal"
+      },
+      {
+        "key": "B",
+        "text": "Deletion"
+      },
+      {
+        "key": "C",
+        "text": "Change or addition"
+      },
+      {
+        "key": "D",
+        "text": "Ratification"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "An amendment is a formal change or addition to a law, contract, or document."
+      },
+      {
+        "rung": 2,
+        "title": "Not Repeal or Deletion",
+        "text": "Repeal means to revoke entirely, and deletion means to remove. Amendment is not about removing completely — it's about modifying."
+      },
+      {
+        "rung": 3,
+        "title": "Not Ratification",
+        "text": "Ratification is the act of formally approving something, which is different from making a change."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Change or addition is correct — an amendment modifies or adds to an existing document without replacing it entirely."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. Repeal means to revoke or annul a law entirely, not just change it. Amendment is a modification, not a complete removal.",
+        "trap_type": "distractor"
+      },
+      "B": {
+        "text": "Incorrect. Deletion means removing something, but amendment can also involve adding or altering, not just deleting.",
+        "trap_type": "distractor"
+      },
+      "C": {
+        "text": "Correct! An amendment is a formal change or addition to a document, such as a constitution or contract.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. Ratification is the formal approval of something, not the act of changing it. Amendments are often ratified after being proposed.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Amendment = change or addition. Think of 'mend' in amendment — to fix or improve by making changes.",
+    "blueprint_id": "Vocabulary — Amendment",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'amendment': a formal change or addition proposed or made to a law, contract, or other document.\n2. Key distinction: amendment modifies or adds, but does not completely remove or replace.\n3. Review the options:\n   - A. Repeal → to revoke entirely\n   - B. Deletion → to remove\n   - C. Change or addition → matches\n   - D. Ratification → formal approval\n4. Only 'Change or addition' captures the essence of an amendment.\n\n### ❌ Why the Distractors Fail\n- **Repeal** and **Deletion** imply removal, not modification. **Ratification** is about approval, not change. Students may confuse these legal terms if they are not familiar with the precise definitions.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

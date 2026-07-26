@@ -1,0 +1,53 @@
+id: gen-const-002
+subtopic: ra-6713-code-of-conduct
+category: general-info
+difficulty: 2
+is_free: true
+language: en
+tags: ["ra-6713", "public-officials", "ethics"]
+estimated_seconds: 60
+question_text: "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), within how many working days must public officials respond to letters and requests sent by the public?"
+options:
+  - key: A
+    text: "5 working days"
+  - key: B
+    text: "10 working days"
+  - key: C
+    text: "15 working days"
+  - key: D
+    text: "30 working days"
+correct: C
+blueprint_id: "RA 6713 Section 5(a) — Prompt Action on Letters and Requests"
+hint_ladder:
+  - rung: 1
+    title: "Identify Law Section"
+    text: "RA 6713 Section 5 outlines duties of public officials."
+  - rung: 2
+    title: "Recall Response Mandate"
+    text: "Section 5(a) requires written response to public communications."
+  - rung: 3
+    title: "Identify Timeframe"
+    text: "The response containing action taken must be sent within 15 working days."
+  - rung: 4
+    title: "Select Option C"
+    text: "Option C is '15 working days'."
+deconstruct_text: |
+  RA 6713 Section 5(a):
+  'Act promptly on letters and requests. All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.'
+choice_explanations:
+  A:
+    text: "Refers to ARTA 3-day/5-day classification, not RA 6713 baseline."
+    trap_type: arta_timeframe_confusion
+  B:
+    text: "Common distractor number."
+    trap_type: timeframe_error
+  C:
+    text: "Correct! RA 6713 Section 5(a) specifies 15 working days."
+    trap_type: null
+  D:
+    text: "Refers to SALN submission deadline month, not communication response."
+    trap_type: section_confusion
+next_time_rule: "RA 6713 Section 5(a) mandates responding to public letters within 15 working days."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "Republic Act No. 6713 Section 5(a)"

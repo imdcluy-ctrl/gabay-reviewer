@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-007",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A ₱90,000 community development grant is divided among three barangays A, B, and C in the ratio 1:2:3. What is the difference in grant amount between Barangay C and Barangay A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱30,000"
+      },
+      {
+        "key": "C",
+        "text": "₱45,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in terms of slices",
+        "text": "The ratio 1:2:3 tells you how many equal slices of the total grant each barangay gets. Imagine cutting a pie into 1+2+3 equal pieces. How many total slices is that?"
+      },
+      {
+        "rung": 2,
+        "title": "Find the value of one slice",
+        "text": "Once you know the total number of slices, divide the total grant (₱90,000) by that number. That gives you the peso value of each single slice."
+      },
+      {
+        "rung": 3,
+        "title": "Focus on the difference in slices",
+        "text": "The question asks for the difference between Barangay C and Barangay A. Instead of calculating each share separately, just find how many more slices C has than A (3 slices minus 1 slice = 2 slices)."
+      },
+      {
+        "rung": 4,
+        "title": "Convert slice difference to pesos",
+        "text": "You now know the difference is 2 slices, and each slice is worth a certain amount. Multiply those two numbers and you have your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱15,000 is the value of just one ratio part, which happens to be Barangay A's entire share. But the question is asking for the difference between C and A, not A's share alone. A common slip is to stop too early after finding the value per part.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Barangay C gets 3 parts (₱45,000), Barangay A gets 1 part (₱15,000). The difference is ₱45,000 minus ₱15,000, which equals ₱30,000. You can also get there faster by finding the difference in parts first (2 parts) and multiplying by the value per part (₱15,000).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "₱45,000 is Barangay C's total share, but the question doesn't ask for C's amount alone. You need to subtract A's share from C's share. It's easy to accidentally report C's full amount when your brain is focused on the largest number in the ratio.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "₱60,000 comes from adding C and A's parts together (3+1=4 parts) and multiplying by ₱15,000. This is a classic mix-up: the question asks for the difference, not the sum. When you see 'difference,' your mind should immediately think subtraction.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "In ratio problems asking for the difference between two shares, subtract their ratio numbers first, then multiply by the value of one part. This shortcut saves time and keeps you from accidentally grabbing the wrong share.",
+    "blueprint_id": "Ratio and Proportion — calculating difference between ratio shares",
+    "deconstruct_text": "Let's walk through this step by step. The ratio 1:2:3 tells us how the ₱90,000 grant is sliced up. Think of it as 1 part for Barangay A, 2 parts for B, and 3 parts for C. That's a total of 1 + 2 + 3 = 6 equal parts. Now, to find the value of each part, divide the total grant by the total number of parts: ₱90,000 divided by 6 equals ₱15,000 per part. So Barangay A gets 1 part (₱15,000), B gets 2 parts (₱30,000), and C gets 3 parts (₱45,000). The question asks for the difference between C and A, which is ₱45,000 minus ₱15,000, or ₱30,000. Here's a handy mental shortcut: instead of calculating each share, just find the difference in the ratio numbers first. C has 3 parts, A has 1 part, so the difference is 2 parts. Multiply that by the value per part (₱15,000) and you get ₱30,000 instantly. This trick helps you avoid the common traps of picking A's share (₱15,000), C's share (₱45,000), or accidentally adding them together (₱60,000).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

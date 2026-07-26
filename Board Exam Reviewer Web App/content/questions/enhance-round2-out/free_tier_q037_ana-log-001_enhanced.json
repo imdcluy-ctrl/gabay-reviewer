@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-001",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Maria is a department head.\nWhich conclusion logically follows?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is not career service eligible."
+      },
+      {
+        "key": "B",
+        "text": "Maria is career service eligible."
+      },
+      {
+        "key": "C",
+        "text": "All career service eligibles are department heads."
+      },
+      {
+        "key": "D",
+        "text": "Maria will be promoted next year."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Sets",
+        "text": "Think of two circles: a small one labeled 'department heads' and a big one labeled 'career service eligible.' Premise 1 tells you the small circle fits completely inside the big one. Now, where does Maria go?"
+      },
+      {
+        "rung": 2,
+        "title": "Place Maria in the Picture",
+        "text": "Premise 2 says Maria is a department head, so put her inside the small circle. Since the small circle is entirely inside the big circle, what does that mean for Maria?"
+      },
+      {
+        "rung": 3,
+        "title": "Follow the Chain",
+        "text": "If everything in the small circle is also in the big circle, and Maria is in the small circle, then she must be in the big circle too. This is a simple logical chain: All A are B, Maria is A, so Maria is B."
+      },
+      {
+        "rung": 4,
+        "title": "Spot the Right Match",
+        "text": "Option B says exactly that: Maria is career service eligible. Option A says the opposite, which would break the chain. Option C flips the relationship around, and Option D brings in something new that wasn't mentioned at all."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This directly contradicts the premises. If all department heads are eligible and Maria is a department head, she can't be ineligible. It's like saying 'all birds can fly' and then claiming a sparrow can't fly.",
+        "trap_type": "contradiction_of_premises"
+      },
+      "B": {
+        "text": "Correct. This is a clean logical deduction: if everything in group A belongs to group B, and Maria is in group A, then Maria belongs to group B. Simple and airtight.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a common trap called the converse fallacy. Just because all department heads are eligible doesn't mean all eligible people are department heads. Think of it like 'all dogs are mammals' — that doesn't mean all mammals are dogs.",
+        "trap_type": "converse_fallacy"
+      },
+      "D": {
+        "text": "This introduces a new idea (promotion) that wasn't in the premises at all. Logical conclusions can only use the information given, not add assumptions about the future.",
+        "trap_type": "unsupported_assumption"
+      }
+    },
+    "next_time_rule": "When you see 'All A are B,' picture a small circle inside a big circle. If something is in the small circle, it's automatically in the big circle. Never flip it around — that's a classic trap.",
+    "blueprint_id": "Logical Reasoning — Categorical Syllogism (Modus Ponens)",
+    "deconstruct_text": "Let's walk through this step by step. The first premise gives you a rule: all department heads are career service eligible. Think of it as a membership rule — if you're in the 'department head' club, you're automatically in the 'career service eligible' club. The second premise tells you Maria is a department head. So she's in that first club, which means she's also in the second club. That's why option B is correct. Option A would mean she's not in the second club, which breaks the rule. Option C tries to reverse the rule, but that's not what the premises say. Option D brings in promotions, which is a whole new topic not mentioned anywhere. The key mental trick here is the 'circle test': draw a small circle inside a big one. If you're in the small one, you're in the big one. That's all you need.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

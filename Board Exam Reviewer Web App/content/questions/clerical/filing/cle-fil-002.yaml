@@ -1,0 +1,54 @@
+id: cle-fil-002
+subtopic: alphabetical-filing
+category: clerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["filing-rules", "business-names"]
+estimated_seconds: 60
+question_text: "According to standard filing rules, how should the business name 'St. Jude Medical Clinic' be indexed?"
+options:
+  - key: A
+    text: "St Jude Medical Clinic"
+  - key: B
+    text: "Saint Jude Medical Clinic"
+  - key: C
+    text: "Jude Medical Clinic St"
+  - key: D
+    text: "Medical Clinic St Jude"
+correct: B
+blueprint_id: "Alphabetical Filing — Abbreviations (St. spelled as Saint)"
+hint_ladder:
+  - rung: 1
+    title: "Recall Abbreviation Rule"
+    text: "Abbreviations like St., Mt., Ft. are indexed as if spelled out in full."
+  - rung: 2
+    title: "Spell Out 'St.'"
+    text: "'St.' is spelled out as 'Saint'."
+  - rung: 3
+    title: "Combine Name Units"
+    text: "Unit 1: Saint, Unit 2: Jude, Unit 3: Medical, Unit 4: Clinic."
+  - rung: 4
+    title: "Select Correct Indexing"
+    text: "Option B is 'Saint Jude Medical Clinic'."
+deconstruct_text: |
+  Filing Rule: Abbreviated titles and prefixes (St., Mt., Dr., Mr.) are indexed as if spelled out in full.
+  'St.' -> 'Saint'.
+  Indexed form: Saint Jude Medical Clinic.
+choice_explanations:
+  A:
+    text: "Fails to spell out the abbreviation 'St.' to 'Saint'."
+    trap_type: abbreviation_rule_violation
+  B:
+    text: "Correct! 'St.' is indexed as 'Saint'."
+    trap_type: null
+  C:
+    text: "Transposing 'St' to the end."
+    trap_type: transposition_error
+  D:
+    text: "Indexing under Medical instead of Saint."
+    trap_type: unit_order_error
+next_time_rule: "Always index abbreviations (St., Mt., Ft.) as if spelled out in full (Saint, Mount, Fort)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Clerical Ability — Business Name Indexing"

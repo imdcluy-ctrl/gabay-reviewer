@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-027",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'DILIGENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lazy"
+      },
+      {
+        "key": "B",
+        "text": "Hardworking"
+      },
+      {
+        "key": "C",
+        "text": "Careless"
+      },
+      {
+        "key": "D",
+        "text": "Negligent"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Diligent means showing care and persistent effort. Halimbawa, masipag at maingat sa trabaho."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The best synonym is 'Hardworking'—a diligent person works with dedication and thoroughness."
+      },
+      {
+        "rung": 3,
+        "title": "Antonym Trap",
+        "text": "Options A (Lazy), C (Careless), D (Negligent) are all opposites. The question asks for synonym, not antonym."
+      },
+      {
+        "rung": 4,
+        "title": "Tamang Sagot",
+        "text": "Option B is correct. Hardworking is the exact synonym of diligent. Tandaan: Diligent = Hardworking."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'Lazy' is an antonym, not a synonym. Trap: synonym_antonym_inversion.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Hardworking is the direct synonym of diligent.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'Careless' is an antonym, not a synonym. Trap: synonym_antonym_inversion.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "D": {
+        "text": "You might have chosen D because 'Negligent' is an antonym, not a synonym. Trap: synonym_antonym_inversion.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Key Takeaway: Diligent = Hardworking. Mnemonic: 'Dili-gent' parang 'hindi tamad' — so masipag!",
+    "blueprint_id": "Vocabulary — Diligent",
+    "deconstruct_text": "**Watch-Out Zone: synonym_antonym_inversion** – Lahat ng distractor ay antonym.\n\nSa barangay, kapag si Ate Liza ay naghahanda ng listahan ng beneficiaries, inuulit niyang basahin ang bawat pangalan para siguradong walang mali. 'Yan ang diligent — masipag at maingat sa trabaho. Kaya ang synonym ay 'Hardworking'.\n\nPero 'yong Lazy, Careless, at Negligent, mga katangian 'yan ng tamad at pabaya. Kaya ingat: ang hinahanap ay SYNONYM, hindi ANTONYM. Kaya B ang sagot.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

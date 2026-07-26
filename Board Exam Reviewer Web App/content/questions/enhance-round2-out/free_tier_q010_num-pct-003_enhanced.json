@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-003",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A department secretary is currently twice as old as her assistant. Eight years ago, the sum of their ages was 38. How old is the secretary now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 years old"
+      },
+      {
+        "key": "B",
+        "text": "24 years old"
+      },
+      {
+        "key": "C",
+        "text": "36 years old"
+      },
+      {
+        "key": "D",
+        "text": "40 years old"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the relationship",
+        "text": "The secretary is twice as old as the assistant right now. So if you let the assistant's current age be a simple variable, the secretary's age becomes double that. That's your starting point."
+      },
+      {
+        "rung": 2,
+        "title": "Go back in time carefully",
+        "text": "Eight years ago, both of them were younger by exactly 8 years. So subtract 8 from each of their current ages. Then add those two past ages together, and that sum should equal 38."
+      },
+      {
+        "rung": 3,
+        "title": "Build the equation",
+        "text": "If the assistant's current age is x, then the secretary's is 2x. Eight years ago, they were x - 8 and 2x - 8. Their sum back then was (x - 8) + (2x - 8) = 38. Combine like terms and you'll get a simple equation."
+      },
+      {
+        "rung": 4,
+        "title": "Solve and double-check who they're asking for",
+        "text": "From 3x - 16 = 38, you get 3x = 54, so x = 18. That's the assistant's age. But the question asks for the secretary's age. Don't stop at x — remember to double it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the assistant's current age, not the secretary's. It's a very common slip — you solve for x correctly, but then forget that the question asks for the secretary, who is twice as old. Always check who the variable represents before circling your answer.",
+        "trap_type": "wrong_variable_target"
+      },
+      "B": {
+        "text": "This might come from a small arithmetic misstep, like solving 3x = 54 as x = 12 instead of 18, then doubling to get 24. Or perhaps you subtracted 16 incorrectly. It's close to the right path, but the numbers don't check out when you verify with the original condition.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "C": {
+        "text": "Correct! The assistant is 18, so the secretary is 36. Double-check: eight years ago, the assistant was 10 and the secretary was 28, and 10 + 28 = 38. Everything fits perfectly.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This often happens if you accidentally add 8 years to both ages instead of subtracting them. For example, thinking the sum of their current ages is 38 + 16 = 54, then dividing by 3 to get 18, but then adding 22 somehow. The key is to remember that eight years ago means subtracting, not adding.",
+        "trap_type": "equation_setup_error"
+      }
+    },
+    "next_time_rule": "In age problems, always define variables for current ages first. Then subtract the same number of years from both to go back in time. Solve step by step, and before you finalize, re-read the question to make sure you're answering for the right person — not just the variable you solved for.",
+    "blueprint_id": "Numerical Ability — Algebraic Age Problems",
+    "deconstruct_text": "Let's walk through this together. The trickiest part of age problems is keeping track of time correctly. Start by letting the assistant's current age be x. Since the secretary is twice as old, she is 2x. Now, eight years ago, the assistant was x - 8 and the secretary was 2x - 8. The problem says that sum was 38, so we write: (x - 8) + (2x - 8) = 38. Combine like terms: 3x - 16 = 38. Add 16 to both sides: 3x = 54. Divide by 3: x = 18. That's the assistant's age. But the question asks for the secretary's age, so we double it: 2 times 18 is 36. Quick verification: eight years ago, the assistant was 10, the secretary was 28, and 10 + 28 = 38. Perfect. The mental framework here is simple: define current ages, subtract the time shift from both, build the equation from the given sum, solve, and then double-check who the question is actually asking for.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

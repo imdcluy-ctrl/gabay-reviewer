@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-006",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article III (Bill of Rights), what protects a person from unreasonable search and seizure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Right to counsel"
+      },
+      {
+        "key": "B",
+        "text": "Right against self-incrimination"
+      },
+      {
+        "key": "C",
+        "text": "Right against unreasonable search and seizure"
+      },
+      {
+        "key": "D",
+        "text": "Right to bail"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alalahanin ang Bill of Rights",
+        "text": "Listahan ito ng mga karapatan na protektado ng Konstitusyon. May kanya-kanyang sitwasyon ang bawat isa. Para sa search, alin kaya?"
+      },
+      {
+        "rung": 2,
+        "title": "I-match ang karapatan sa sitwasyon",
+        "text": "Kapag may checkpoint at hinahanap ang bag mo nang walang warrant, anong karapatan ang nalalabag? Hanapin ang eksaktong termino."
+      },
+      {
+        "rung": 3,
+        "title": "Suriin ang mga pagpipilian",
+        "text": "Tatlo sa apat ay para sa ibang sitwasyon: abogado (counsel), pag-amin (self-incrimination), o piyansa (bail). Isa lang ang direktang nagsasabi ng '..."
+      },
+      {
+        "rung": 4,
+        "title": "Susi sa Section 2",
+        "text": "Art. III, Sec. 2: 'right against unreasonable search and seizure.' Tandaan: S for Search, S2. 'Yan ang tamang sagot—Option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because the right to counsel is in the Bill of Rights, but it protects you during questioning, not during a search.",
+        "trap_type": "constitutional_article_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because self-incrimination involves 'right against' something, but it is about testimony, not physical searches.",
+        "trap_type": "constitutional_article_confusion"
+      },
+      "C": {
+        "text": "Correct. Article III, Section 2 explicitly guarantees the right against unreasonable search and seizure, making this the exact protection.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because bail is a right of an accused, but it applies after arrest, not to the act of searching.",
+        "trap_type": "constitutional_article_confusion"
+      }
+    },
+    "next_time_rule": "Kapag may 'search and seizure' sa tanong, hanapin ang karapatan na eksaktong may parehong termino. S for Search, S2.",
+    "blueprint_id": "Bill of Rights — Search and Seizure",
+    "deconstruct_text": "Isipin mo, papasok ka sa trabaho. May checkpoint sa barangay, hinarang ka ng tanod, pinabubuksan ang bag mo nang walang warrant. Anong karapatan mo laban sa walang-batayang paghalughog?\n\nAlam natin sa Bill of Rights, maraming proteksyon: may karapatan kang magkaroon ng abogado (counsel), hindi pwedeng pilitin kang umamin (self-incrimination), at makapagpyansa (bail). Pero ang katanungan: alin dito ang direktang tumutukoy sa search and seizure?\n\nAng Article III, Section 2 ng ating Konstitusyon ang nagbibigay ng 'right against unreasonable search and seizure.' Ibig sabihin, kailangan may warrant o probable cause bago ka halughugin. Kaya ang tamang sagot ay Option C.\n\nMental Trick: 'S for Search, S for Section 2.' Kapag may search, derecho ka sa S2. Huwag mong ikalito sa ibang S tulad ng Self-incrimination (B) o Counsel (A). S2 lang!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

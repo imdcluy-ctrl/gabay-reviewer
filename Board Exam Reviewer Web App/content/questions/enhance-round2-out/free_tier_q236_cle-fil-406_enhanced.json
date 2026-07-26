@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-406",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "Which of the following is the CORRECT alphabetical order for these names with apostrophes?\n- O'Brien, Sean\n- D'Angelo, Maria\n- O'Connor, Liam\n- D'Cruz, Ana",
+    "options": [
+      {
+        "key": "A",
+        "text": "D'Angelo, Maria; D'Cruz, Ana; O'Brien, Sean; O'Connor, Liam"
+      },
+      {
+        "key": "B",
+        "text": "D'Angelo, Maria; O'Brien, Sean; D'Cruz, Ana; O'Connor, Liam"
+      },
+      {
+        "key": "C",
+        "text": "O'Brien, Sean; O'Connor, Liam; D'Angelo, Maria; D'Cruz, Ana"
+      },
+      {
+        "key": "D",
+        "text": "D'Cruz, Ana; D'Angelo, Maria; O'Connor, Liam; O'Brien, Sean"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about how to handle apostrophes in names when filing. The key is to think of the apostrophe as invisible—it doesn't change the order of letters."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The simple rule: when alphabetizing, ignore the apostrophe completely. Treat the name as if it were written as one continuous word without any punctuation."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "So O'Brien becomes OBrien, D'Angelo becomes DAngelo, O'Connor becomes OConnor, and D'Cruz becomes DCruz. Now you're just sorting these four made-up words alphabetically."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Sorting DAngelo, DCruz, OBrien, and OConnor: D comes before O, so all D names come first. Between DAngelo and DCruz, 'A' comes before 'C', so DAngelo first. Between OBrien and OConnor, 'B' comes before 'C', so OBrien first. That gives you DAngelo, DCruz, OBrien, OConnor."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. When you ignore the apostrophes, you get DAngelo, DCruz, OBrien, OConnor. Alphabetically, DAngelo comes before DCruz (A before C), and both D names come before the O names. Then OBrien comes before OConnor (B before C). So the correct order is D'Angelo, D'Cruz, O'Brien, O'Connor.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one almost gets it right but slips up by placing O'Brien before D'Cruz. Remember, all names starting with D come before any name starting with O, regardless of what follows. The apostrophe doesn't change that basic alphabetical rule.",
+        "trap_type": "d_before_o_ignored"
+      },
+      "C": {
+        "text": "This order starts with O names, which is a common mistake if you focus on the apostrophe and think it somehow elevates the name. But alphabetically, D always comes before O. Think of it this way: if you were looking up a phone number, you'd flip to the D section before the O section every time.",
+        "trap_type": "starting_with_O_instead_of_D"
+      },
+      "D": {
+        "text": "This one correctly puts D names first, but mixes up the order within the D group. D'Cruz (DCruz) comes before D'Angelo (DAngelo) here, but that's like putting 'cat' before 'car'—C comes after A in the alphabet, so DAngelo should come first.",
+        "trap_type": "within_D_misorder"
+      }
+    },
+    "deconstruct_text": "Let's work through this together. The trick with apostrophes in names is to simply pretend they don't exist. So O'Brien becomes OBrien, D'Angelo becomes DAngelo, O'Connor becomes OConnor, and D'Cruz becomes DCruz. Now we're just sorting four ordinary words. First, separate by first letter: DAngelo and DCruz both start with D, while OBrien and OConnor start with O. Since D comes before O in the alphabet, all D names come first. Now compare DAngelo and DCruz: the second letter of DAngelo is A, and the second letter of DCruz is C. A comes before C, so DAngelo comes first. Then compare OBrien and OConnor: second letter B comes before C, so OBrien comes first. The final order is DAngelo, DCruz, OBrien, OConnor, which translates back to D'Angelo, D'Cruz, O'Brien, O'Connor. Here's a mental trick for next time: when you see an apostrophe in a name, just mentally erase it and treat the whole thing as one word. It's like the apostrophe is a ghost—it's there, but it doesn't affect the alphabetical order at all.",
+    "next_time_rule": "When alphabetizing names with apostrophes, pretend the apostrophe doesn't exist and file the name as one continuous word. The apostrophe is invisible to the alphabet.",
+    "blueprint_id": "B-2376",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

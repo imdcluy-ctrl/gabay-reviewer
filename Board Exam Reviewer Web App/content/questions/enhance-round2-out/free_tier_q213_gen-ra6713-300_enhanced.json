@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-300",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "Nepotism Rules in Government Appointments Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Civil Service Law and Rules, an appointment made in favor of a relative within which degree of consanguinity or affinity is prohibited under Nepotism rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Within the 3rd degree of consanguinity or affinity"
+      },
+      {
+        "key": "B",
+        "text": "Within the 1st degree only"
+      },
+      {
+        "key": "C",
+        "text": "Within the 10th degree"
+      },
+      {
+        "key": "D",
+        "text": "No degree restriction exists"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your knowledge of a specific rule in the Civil Service Law that limits who can be appointed to government positions based on family relationships. Think about the word 'nepotism' and what it means in the context of government hiring."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The law sets a clear boundary on how close a relative can be before an appointment is considered nepotism. For national government positions, this boundary is the 3rd degree of relationship. For local government, it's the 4th degree. The question asks about the general Civil Service rule."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Think of degrees like steps on a family tree. First degree is parents and children. Second degree is siblings and grandparents. Third degree includes uncles, aunts, nephews, and nieces. The general rule stops at the third degree. Which option matches that?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The correct answer is the one that says 'within the 3rd degree.' This is the standard rule for national government offices under the Administrative Code of 1987. The other options either go too narrow (1st degree), too broad (10th degree), or deny the rule exists at all."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Under Section 59 of the Administrative Code of 1987 and Civil Service Commission rules, appointments of relatives within the third degree of consanguinity (blood) or affinity (marriage) are prohibited in national government offices. This covers parents, children, siblings, grandparents, grandchildren, uncles, aunts, nephews, and nieces. For local government units, the prohibition extends to the fourth degree under the Local Government Code.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mistake. You might think nepotism only covers immediate family like parents and children, but the law is broader. The first degree only includes parents and children. If that were the limit, you could legally appoint your sibling, uncle, or nephew, which the law clearly prohibits. The rule extends to the third degree for national government.",
+        "trap_type": "nepotism_degree_error"
+      },
+      "C": {
+        "text": "This one goes way too far. The tenth degree would include very distant cousins and relatives by marriage many times removed. The law is much more focused than that. The general limit is the third degree, which is a reasonable boundary to prevent favoritism without being overly restrictive.",
+        "trap_type": "nepotism_degree_error"
+      },
+      "D": {
+        "text": "This is incorrect because the law very clearly defines a specific degree restriction. The whole point of nepotism rules is to set a clear boundary to prevent favoritism in government appointments. Saying there's no restriction would mean you could appoint any relative, which defeats the purpose of merit-based hiring.",
+        "trap_type": "nepotism_degree_error"
+      }
+    },
+    "next_time_rule": "Remember the simple rule: 'National 3, Local 4.' For national government offices, nepotism covers relatives within the 3rd degree of consanguinity or affinity. For local government units, it extends to the 4th degree. When in doubt, think of the family tree and count the steps.",
+    "deconstruct_text": "Let's break this down in a way that sticks. The question asks about the general Civil Service rule on nepotism, which is found in Section 59 of the Administrative Code of 1987. Nepotism prohibits appointing relatives of the appointing or recommending authority to government positions.\n\nThe key is understanding 'degrees of consanguinity or affinity.' Think of it like counting steps on a family tree. First degree is one step away: parents and children. Second degree is two steps: siblings, grandparents, grandchildren. Third degree is three steps: uncles, aunts, nephews, nieces. The general rule stops at the third degree for national government.\n\nNow look at the options. Option A says 'within the 3rd degree' which matches the general rule. Option B says '1st degree only' which is too narrow. Option C says '10th degree' which is far too broad. Option D says 'no restriction' which contradicts the law entirely.\n\nHere's a mental trick: When you see a nepotism question, immediately ask yourself 'National or Local?' If it's general Civil Service rules, it's 3rd degree. If it mentions local government, it's 4th degree. This simple distinction will save you every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

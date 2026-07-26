@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-025",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'ALLEGATION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proven fact"
+      },
+      {
+        "key": "B",
+        "text": "Claim without proof"
+      },
+      {
+        "key": "C",
+        "text": "Legal judgment"
+      },
+      {
+        "key": "D",
+        "text": "Final verdict"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kwentong Barangay",
+        "text": "Sa balita, may allegation si Mayor na may anomaly—pero wala pang ebidensya. Ang allegation ay parang tsismis na sinasabi, hindi pa totoo."
+      },
+      {
+        "rung": 2,
+        "title": "Alalahanin ang Pinagmulan",
+        "text": "Ang 'allegation' galing sa 'allege' na ibig sabihin ay mag-assert nang walang pruweba. Kaya ito'y simula pa lang, hindi hatol."
+      },
+      {
+        "rung": 3,
+        "title": "Ilapat sa Pangungusap",
+        "text": "Subukan mo: 'Ang ____ ni Juan ay hindi pa napapatunayan kaya hindi siya puwedeng parusahan.' Angkop ang 'allegation.'"
+      },
+      {
+        "rung": 4,
+        "title": "Malapit Na Ang Sagot",
+        "text": "Ang allegation ay laging nagsisimula sa 'A' ng accusation at 'tion' ng suspicion—claim na walang proof. Kaya ang sagot ay claim without proof."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'allegation' sounds strong, but it actually means an unproven claim—exact opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Allegation is a claim made without proof—hindi pa napatunayan, accusation lang muna.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because allegations appear in court, but 'legal judgment' is the final decision, not the initial claim.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because 'final verdict' seems similar, but allegation is the very start of a case, not the conclusion.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "Think of 'allegation' as 'accusation awaiting proof'—'A' for accusation, 'tion' for suspicion. Unproven, never final.",
+    "blueprint_id": "Vocabulary — Allegation",
+    "deconstruct_text": "Sa palengke, may allegation na si Aling Nena nangongolekta ng sobra sa stall rental. Ang mga may-ari ng puwesto nagrereklamo, pero wala silang resibo o pruweba. Kaya sa ngayon, allegation pa lang ito—claim na kailangan imbestigahan, hindi pa hatol.\n\nSa options: 'Proven fact' ay kabaliktaran—kapag napatunayan na. 'Legal judgment' at 'Final verdict' ay mga hatol pagkatapos ng imbestigasyon. Ang tamang sagot na 'Claim without proof' ang kumakatawan sa unang hakbang ng isang reklamo.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

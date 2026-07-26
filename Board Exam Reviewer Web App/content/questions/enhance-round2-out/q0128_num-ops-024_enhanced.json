@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-024",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 3/8 as a decimal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25"
+      },
+      {
+        "key": "B",
+        "text": "0.3"
+      },
+      {
+        "key": "C",
+        "text": "0.375"
+      },
+      {
+        "key": "D",
+        "text": "0.4"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Bigas ng Sari-sari Store",
+        "text": "Isipin: 3 kilong bigas na hahatiin sa 8 pamilya. Bawat isa tatanggap ng 3/8 kilo. Convert natin to decimal!"
+      },
+      {
+        "rung": 2,
+        "title": "Divide: 3 ÷ 8",
+        "text": "8 goes into 3 zero times, lagyan ng decimal point. 3.0 becomes 30. 8 × 3 = 24, remainder 6. Kaya 0.3 muna."
+      },
+      {
+        "rung": 3,
+        "title": "Tuloy ang Long Division",
+        "text": "Bring down 0 to 6 → 60. 8 × 7 = 56, remainder 4. Bring down 0 → 40. 8 × 5 = 40, zero remainder. So 0.375!"
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 0.375 kilo",
+        "text": "Bawat pamilya 0.375 kilo ng bigas. Kaya 3/8 = 0.375. Tama!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 0.25 is 1/4 or 2/8, not 3/8—naisip mong hati sa apat?",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 0.3 comes from 3/10, not 3/8—ingat sa denominator!",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct. 3 divided by 8 equals exactly 0.375—walang labis, walang kulang!",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 0.4 is a rounded version of 0.375, pero exact conversion dapat 0.375.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** Always divide numerator by denominator. For 3/8, 3÷8=0.375. Practice sa jeepney fare splits!",
+    "blueprint_id": "Fraction to Decimal",
+    "deconstruct_text": "Para ma-convert ang fraction na 3/8 sa decimal, isipin mo ang sari-sari store ni Aling Nena. May 3 kilong bigas, ipapamahagi sa 8 pamilya. Bawat isa 3/8 kilo. I-divide ang 3 sa 8: 3 ÷ 8 = 0.375. Gamit ang long division: 8 sa 3.0 = 0.3 (8×3=24, remainder 6).\n\n**Watch-Out Zone: unit_conversion_trap**—huwag gumamit ng 10 bilang denominator, 0.3 yan!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

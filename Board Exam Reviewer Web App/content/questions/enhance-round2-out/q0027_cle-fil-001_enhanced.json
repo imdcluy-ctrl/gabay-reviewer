@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-001",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange the following government employee names in correct alphabetical filing order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. De Leon, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "2, 3, 1, 4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Prefixes are part of the surname",
+        "text": "Sa filing, 'De', 'De la', 'Del' ay kasama sa apelyido. Huwag silang ihiwalay o i-ignore. Buuin ang buong pangalan bago ikumpara."
+      },
+      {
+        "rung": 2,
+        "title": "Compare letter by letter from start",
+        "text": "Lahat nagsisimula sa 'D-e'. Tignan ang ikaapat na character: De Castro = 'C', De la Cruz = 'l', De Leon = 'L', Del Rosario = 'l' (ignore case)."
+      },
+      {
+        "rung": 3,
+        "title": "Find the first different character",
+        "text": "Alphabetically, 'C' nauna sa 'l/L', kaya De Castro first. Sa tatlo, ikalimang character: 'a' (De la Cruz) vs 'e' (De Leon) vs 'R' (Del Rosario)."
+      },
+      {
+        "rung": 4,
+        "title": "Map the sorted order to numbers",
+        "text": "Order: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). Kaya sagot: 3, 1, 4, 2. Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Filing letter-by-letter gives 3, 1, 4, 2 kasi 'C' < 'l', then 'a' < 'e' < 'R'. Tama iyon.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you kept the original given order without sorting. Isa itong padalos-dalos na pag-assume na nakaayos na s...",
+        "trap_type": "unsorted_error"
+      },
+      "C": {
+        "text": "You might have chosen C because you missed na 'a' (De la Cruz) comes before 'e' (De Leon). Maliit na detalye, pero malaking difference.",
+        "trap_type": "letter_sequence_error"
+      },
+      "D": {
+        "text": "You might have chosen D because na-sort mo by root surname lang, ignoring 'Del' as prefix. Laging kasama ang prefix sa pagkukumpara.",
+        "trap_type": "prefix_sorting_error"
+      }
+    },
+    "next_time_rule": "Isulat ang apelyido nang walang space at capslock off (e.g., 'delacruz'), saka i-sort. Ganun lang 'yun kadali.",
+    "blueprint_id": "Alphabetical Filing — Prefix Surnames (De, De la, Del)",
+    "deconstruct_text": "Kunwari nag-aayos ka ng personnel files sa Barangay Hall. Sunod-sunod ang apelyido—pero paano kung may 'De', 'De la', o 'Del'? Official filing: buong apelyido, kasama prefix.\n\nIsipin mong isang salita lang: 'DeCastro', 'DelaCruz', 'DeLeon', 'DelRosario'. Ikumpara letra-por-letra, simula sa unang letra. Lahat ay 'D'-'e', pare-pareho. Sa ikaapat na character, 'DeCastro' may 'C', 'DelaCruz' may 'l', 'DeLeon' may 'L', 'DelRosario' may 'l'. 'C'...\n\nKaya De Castro ang first. Sa tatlo, ika-lima: 'a' sa De la Cruz, 'e' sa De Leon, 'R' sa Del Rosario. Alphabet: a, e, R. Kaya order: De la Cruz, De Leon, Del Rosario.\n\nOrder ng numbers: 3 (De Castro), 1 (De la Cruz), 4 (De Leon), 2 (Del Rosario). Sagot 3-1-4-2.\n\n**Mental trick:** Parang naglalaro ka ng 'word sort' sa cellphone—isulat mo 'delacruz', 'delrosario', 'decastro', 'deleon', tapos pindutin 'sort'. Boom! 3, 1, 4, 2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-006",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The project will proceed, ___ the budget is approved.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "unless"
+      },
+      {
+        "key": "B",
+        "text": "provided that"
+      },
+      {
+        "key": "C",
+        "text": "although"
+      },
+      {
+        "key": "D",
+        "text": "despite"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning ng Sentence",
+        "text": "Sabi ng sentence: Tuloy ang proyekto basta approved ang budget. Kailangan ng tamang connector na nagpapakita ng kondisyon."
+      },
+      {
+        "rung": 2,
+        "title": "'Provided that' = Condition",
+        "text": "'Provided that' ay 'sa kondisyon na...' — ginagamit kapag may kinakailangang mangyari bago matuloy ang isang bagay."
+      },
+      {
+        "rung": 3,
+        "title": "Tingnan ang iba",
+        "text": "'Unless' = 'kung hindi' (baligtad). 'Although'/'despite' = contrast, hindi condition. Mali sila kasi hindi match sa kailangan ng sentence."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot",
+        "text": "Tamang sagot: 'provided that' — ito lang ang nagbibigay ng tamang kondisyon para matuloy ang proyekto. Simple pero dahilan."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'unless' seems like a condition, but it flips the meaning to 'if not' — opposite of what’s intended.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "B": {
+        "text": "Correct. 'Provided that' precisely states the condition that the budget must be approved for the project to proceed.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'although' is a common connector, but it introduces contrast, not a necessary condition.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because 'despite' sounds possible, but it’s a preposition needing a noun phrase, not a full clause.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Tandaan: 'provided that' = kondisyon, 'unless' = kung hindi, 'although'/'despite' = contrast. Kapag may hinihinging requirement, 'provided that' ang sagot.",
+    "blueprint_id": "Transitional Words — Provided That",
+    "deconstruct_text": "Sa barangay hall, inaabangan mo ang road project. Sabi ng kapitan, ‘Tuloy ang kalsada provided that may budget ang LGU.’ Ibig sabihin, kailangan munang aprubahan ang pondo bago mag-umpisa. ‘Provided that’ ang nagbibigay ng tamang kondisyon.\n\n‘Unless’ naman ay baliktad: ‘Tutuloy maliban kung walang budget’ — ibig sabihin titigil lang kung wala, mali. ‘Although’ at ‘despite’ ay ginagamit sa pagkontra, hindi sa kondisyon; halimbawa, ‘although walang budget’ ay hindi akma.\n\nKaya sa tanong, ‘The project will proceed, ___ the budget is approved,’ ang tanging salitang nagpapahayag ng kinakailangan bago umusad ay ‘provided that.’ Mali ang iba dahil binabago nila ang lohika o gramatika ng pangungusap.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

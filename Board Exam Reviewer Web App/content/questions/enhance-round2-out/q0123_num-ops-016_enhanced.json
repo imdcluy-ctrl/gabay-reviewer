@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-016",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the LCM of 12 and 18?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Jeepney A: Bawat 12 min.",
+        "text": "Lista mo: 12, 24, 36, 48, 60... Mula 12, dagdag nang 12. Ito ang times ng jeep A."
+      },
+      {
+        "rung": 2,
+        "title": "Jeepney B: Bawat 18 min.",
+        "text": "Lista mo: 18, 36, 54, 72... Mula 18, dagdag nang 18. Ito naman kay jeep B."
+      },
+      {
+        "rung": 3,
+        "title": "Hanapin ang unang pareho.",
+        "text": "Tingnan kung aling numero ang lumabas sa parehong lista. Ang una ay 36. Yan ang LCM!"
+      },
+      {
+        "rung": 4,
+        "title": "Mental Trick: Jeep sabay sa 36.",
+        "text": "Tandaan: 'Jeepney 12 at 18, sabay sa 36!' Pagkatapos ng 36 min, sabay na ulit."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 24 is a multiple of 12, but it is not a multiple of 18, so it's not a common multiple.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 30 is the sum of 12+18, but LCM is about common multiples, not addition.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. 36 is the smallest number divisible by both 12 and 18, making it the LCM.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 48 is a multiple of 12, but it is not a multiple of 18 and is larger than the LCM.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** LCM is the smallest common multiple. List multiples or use prime factors: 12=2²×3, 18=2×3² → LCM=2²×3²=36.",
+    "blueprint_id": "LCM Computation",
+    "deconstruct_text": "Imagine commuting in Cubao: Jeepney A passes every 12 minutes, Jeepney B every 18 minutes. You just missed both. Kailan ulit sila magkasabay? That's the LCM!\n\nThe LCM is the smallest time both jeepneys will meet again. List their arrival times. Jeepney A at 12, 24, 36, 48, 60... Jeepney B at 18, 36, 54, 72...\n\nLook for the first number that appears in both lists: 36. Ibig sabihin, after 36 minutes, sabay na naman silang dumarating. That's 36 minutes from now.\n\nVerify: 36 ÷ 12 = 3 trips for A, 36 ÷ 18 = 2 trips for B. So in 36 minutes, Jeepney A completes 3 loops, B completes 2. Kaya LCM = 36. Mental Trick: \"Jeepney 12 at 18, sabay sa 36!\"",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

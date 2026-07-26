@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-035",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses correct tense?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She will finish the report before the meeting started."
+      },
+      {
+        "key": "B",
+        "text": "She had finished the report before the meeting started."
+      },
+      {
+        "key": "C",
+        "text": "She finishes the report before the meeting will start."
+      },
+      {
+        "key": "D",
+        "text": "She finished the report before the meeting will start."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Timeline",
+        "text": "Imagine two events: finishing a report and a meeting starting. Both happened in the past. The question is: which came first? That's the key to unlocking the right tense."
+      },
+      {
+        "rung": 2,
+        "title": "The 'Earlier Gets Had' Rule",
+        "text": "When you have two past events, the one that happened earlier needs a special helper verb: 'had' plus the past participle. The later event just uses simple past. Think of 'had' as a time machine that takes you further back."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Finishing the report clearly happened before the meeting started. So the report-finishing is the earlier action and needs 'had finished.' The meeting-starting is the later action and just needs 'started.'"
+      },
+      {
+        "rung": 4,
+        "title": "Spot the Correct Pair",
+        "text": "Look for the option that uses 'had finished' for the report and 'started' for the meeting. That's the only combination that correctly shows which event came first in the past."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one mixes 'will finish' (future) with 'started' (past). It's like saying 'I will eat dinner yesterday' — the tenses are from different time zones and can't work together. A smart student might focus on the word 'before' and forget to check that both verbs agree on when things happen.",
+        "trap_type": "tense_inconsistency"
+      },
+      "B": {
+        "text": "This is correct. 'Had finished' (past perfect) tells us the report was done first, and 'started' (simple past) tells us the meeting came second. The tenses work together like a well-timed relay race — one handoff happens before the next.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This uses 'finishes' (present) and 'will start' (future). It's trying to describe a sequence but the tenses are mismatched — present and future don't line up. A student might pick this if they think 'finishes' sounds simple and clean, but it doesn't show the correct time relationship.",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "This pairs 'finished' (past) with 'will start' (future). It's logically impossible for a past action to happen before a future one — that's like saying 'I already did my homework tomorrow.' A student might choose this if they think 'finished' is past and assume that's enough, but the second verb breaks the timeline.",
+        "trap_type": "tense_inconsistency"
+      }
+    },
+    "next_time_rule": "When two actions both happened in the past, the earlier one gets 'had' (past perfect) and the later one gets simple past. Remember: earlier gets 'had.'",
+    "blueprint_id": "Tense Consistency — Sequence of Events",
+    "deconstruct_text": "Let's walk through this together. The sentence talks about two events: finishing a report and a meeting starting. Both are clearly in the past — the meeting already started, and the report was already finished before that. So we need to show which event happened first. That's where the past perfect tense comes in. The past perfect uses 'had' plus the past participle (like 'had finished') and it's specifically for the earlier of two past actions. The later action just uses simple past (like 'started'). So the correct structure is: 'She had finished the report before the meeting started.' Now check the other options. Option A uses 'will finish' (future) with 'started' (past) — those tenses don't match. Option C uses 'finishes' (present) with 'will start' (future) — again, mismatched. Option D uses 'finished' (past) with 'will start' (future) — also inconsistent. Only option B gets it right. Here's a mental trick for exam day: when you see two past events, ask yourself 'which came first?' and then put 'had' in front of that verb. It's that simple.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

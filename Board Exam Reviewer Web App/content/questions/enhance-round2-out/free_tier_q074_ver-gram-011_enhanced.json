@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-011",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Select the correct sentence:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The report was submitted by the department head and myself."
+      },
+      {
+        "key": "B",
+        "text": "The report was submitted by the department head and me."
+      },
+      {
+        "key": "C",
+        "text": "The report was submitted by the department head and I."
+      },
+      {
+        "key": "D",
+        "text": "The report was submitted by the department head and mineself."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Preposition",
+        "text": "Look at the word right before the blank. The word 'by' is a preposition, and prepositions always need a special kind of pronoun after them."
+      },
+      {
+        "rung": 2,
+        "title": "The Object Pronoun Rule",
+        "text": "After any preposition (like by, to, for, with, about), you must use an object pronoun. The object pronouns are: me, you, him, her, it, us, them. Words like 'I' and 'myself' are not object pronouns."
+      },
+      {
+        "rung": 3,
+        "title": "The Removal Trick",
+        "text": "Here's a powerful trick: temporarily remove 'the department head and' from the sentence. Now read it: 'The report was submitted by ___ .' Which word fits naturally? 'Me' sounds perfect. 'I' or 'myself' would sound awkward and wrong."
+      },
+      {
+        "rung": 4,
+        "title": "Trust Your Ear",
+        "text": "After using the removal trick, you should hear that 'by me' is correct. Now look at the options. Only one option uses 'me' after 'by'. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting because many people think 'myself' sounds more formal or polite. But 'myself' is a reflexive pronoun, which means it should only be used when the subject of the sentence is 'I' doing the action to itself. For example: 'I hurt myself.' Here, the subject is 'the report,' not 'I,' so 'myself' doesn't belong. After a preposition like 'by,' we need a simple object pronoun like 'me.'",
+        "trap_type": "reflexive_misuse"
+      },
+      "B": {
+        "text": "This is correct. 'Me' is the object pronoun we use after prepositions like 'by.' The trick of removing 'the department head and' confirms it: 'The report was submitted by me' sounds natural and is grammatically perfect.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a very common mistake. Many people think 'I' sounds more proper or educated, especially when paired with another person. But 'I' is a subject pronoun, used as the doer of an action (like 'I submitted the report'). After a preposition like 'by,' we need the object form 'me.' Remember: you wouldn't say 'The report was submitted by I,' so don't say it with 'the department head and I' either.",
+        "trap_type": "subjective_for_objective"
+      },
+      "D": {
+        "text": "'Mineself' isn't a real word in standard English. The correct reflexive form is 'myself,' but even that would be wrong here because we need an object pronoun after 'by.' This option is a clear signal that something is off.",
+        "trap_type": "nonstandard_pronoun"
+      }
+    },
+    "next_time_rule": "Whenever you see a preposition (by, to, for, with, about, of, in, on, at), immediately think 'object pronoun.' Use the removal trick: take out any other names and just listen to what sounds right with the pronoun alone. Your ear, trained by this rule, will rarely fail you.",
+    "blueprint_id": "Pronoun Case — Object of Preposition",
+    "deconstruct_text": "Let's walk through this together. The key to this question is spotting the preposition 'by.' Prepositions are like little gatekeepers in English—they demand that the pronoun following them be in the objective case. Think of it this way: the preposition 'by' is pointing to who received the action (who was submitted by?), so the pronoun needs to be an object, not a subject.\n\nNow, the object pronouns are: me, you, him, her, it, us, them. For the first person, that's 'me.' Not 'I' (which is for subjects) and not 'myself' (which is for when the subject does something to itself).\n\nHere's the mental trick that will save you every time: the removal test. When you have a compound object like 'the department head and me,' just temporarily erase 'the department head and' from your mind. Read the sentence with only the pronoun: 'The report was submitted by me.' Does that sound right? Yes. Now try the others: 'by I'? No. 'by myself'? That sounds like you're alone, which changes the meaning. 'by mineself'? That's not even a word.\n\nSo option B is correct because 'me' is the proper object pronoun after the preposition 'by.' The other options fall into common traps: using a reflexive pronoun to sound fancy (A), using a subject pronoun to sound proper (C), or inventing a word that doesn't exist (D).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

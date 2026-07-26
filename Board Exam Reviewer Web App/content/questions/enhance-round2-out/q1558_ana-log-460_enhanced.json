@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-460",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "To qualify for the DILG Seal of Good Local Governance, an LGU must meet all of the following conditions: (1) Full disclosure of financial documents, (2) No adverse COA audit opinion for the past two years, (3) At least 85% local revenue collection efficiency, and (4) No pending administrative cases against the mayor. Which LGU qualifies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "LGU A: Full disclosure, clean COA opinion for 2 years, 90% revenue efficiency, mayor has a pending graft case."
+      },
+      {
+        "key": "B",
+        "text": "LGU B: Full disclosure, clean COA opinion for 1 year, 80% revenue efficiency, no pending cases."
+      },
+      {
+        "key": "C",
+        "text": "LGU C: Full disclosure, clean COA opinion for 2 years, 85% revenue efficiency, no pending cases."
+      },
+      {
+        "key": "D",
+        "text": "LGU D: No full disclosure, clean COA opinion for 2 years, 90% revenue efficiency, no pending cases."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1853",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

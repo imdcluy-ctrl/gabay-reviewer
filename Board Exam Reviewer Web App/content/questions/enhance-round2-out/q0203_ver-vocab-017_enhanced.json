@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-017",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'VERNACULAR'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formal language"
+      },
+      {
+        "key": "B",
+        "text": "Everyday language"
+      },
+      {
+        "key": "C",
+        "text": "Foreign language"
+      },
+      {
+        "key": "D",
+        "text": "Written language"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Simulan sa ugat",
+        "text": "Mula sa Latin na 'vernaculus,' ibig sabihin 'native.' Yung salitang kusa mong natutunan, hindi yung pinag-aralan sa libro."
+      },
+      {
+        "rung": 2,
+        "title": "Isipin ang palengke",
+        "text": "Kapag nasa palengke ka, ang usapan ay 'Suki, bili na!'—hindi 'Good morning, esteemed customer.' Iyon ang vernacular."
+      },
+      {
+        "rung": 3,
+        "title": "Tanggalin ang hindi bagay",
+        "text": "Alin ang hindi pang-araw-araw? Formal, foreign, written. Lahat sila ay kakaiba sa karaniwang salita."
+      },
+      {
+        "rung": 4,
+        "title": "Konting push na lang",
+        "text": "Hanapin mo yung salitang ginagamit ng tao sa bahay at kalye, hindi sa opisina o eskwelahan. Yan ang everyday language."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'vernacular' sounds formal, but it actually means the opposite—everyday, informal speech.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Vernacular is the everyday language people naturally speak at home, in the market, and with friends.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because vernacular seems foreign, but it's actually native to a region, like Tagalog in the Philippines.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because vernacular can be written, but its defining trait is everyday speech, not the medium.",
+        "trap_type": "literal_meaning_misinterpretation"
+      }
+    },
+    "deconstruct_text": "Alam mo, kapag nasa palengke ka at naririnig mo si Aling Nena na tinatawag ang suki, 'Suki, bili na ng gulay, mura lang!'—'yan ang vernacular. Galing sa Latin na 'vernaculus,' ibig sabihin native o pantahanan. Ang vernacular ay 'yung salitang natural mong ginagamit s...\n\nTandaan mo: Verna-cular = 'berna' parang 'taverna' sa barangay, 'cular' parang 'kulay' ng buhay araw-araw. Kaya tuwing makita mo 'yan, isipin mo agad ang palengke at kwentuhan ng magkakapitbahay—'yun ang vernacular!",
+    "next_time_rule": "Vernacular is the 'pang-araw-araw na salita'—everyday language of the common tao. Kabisaduhin: hindi pormal, hindi banyaga, hindi sulat.",
+    "blueprint_id": "Vocabulary — Vernacular",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

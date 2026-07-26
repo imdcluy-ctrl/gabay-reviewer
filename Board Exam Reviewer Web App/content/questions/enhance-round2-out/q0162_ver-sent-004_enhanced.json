@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-004",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The employee was commended ___ her outstanding performance.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "about"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the verb",
+        "text": "'Commended' means praised. How do we usually link praise to its reason? Think: 'praised for her hard work.'"
+      },
+      {
+        "rung": 2,
+        "title": "The reason rule",
+        "text": "To state the reason for praise, 'for' is the go-to preposition. Like 'thank you for' your help."
+      },
+      {
+        "rung": 3,
+        "title": "Test each option",
+        "text": "Say it aloud: 'commended with' means with something else; 'commended about' is for topics; 'commended on' is for areas. Only 'for' gives the reason."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow it down",
+        "text": "'On' might seem okay for specific skills, but here performance is the reason. Stick with 'for' every time you state a cause."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Commended for' is the standard pairing to give the reason for praise.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you thought of being praised along with a reward, but the sentence calls for the reason, not accompaniment.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "You might have chosen C because you know 'talk about,' but 'commended about' isn't standard English; it doesn't state a reason.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'on' can point to an area, but 'outstanding performance' is the reason, so 'for' is correct.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "For reasons after 'commended,' always choose 'for.' Remember: praised FOR a reason, not ON a reason. It's the safest choice.",
+    "blueprint_id": "Prepositions — Commended For",
+    "deconstruct_text": "Let's break this down. The employee was commended — praised — because of her performance. That performance is the reason. In English, after 'commended,' the preposition 'for' is the natural choice to link to that reason. It's like saying 'thanked for' — same logic.\n\nImagine a local scenario: Barangay Secretary Maria is commended for her exceptional work in disaster aid. Everyone understands she's praised because of that work. That's exactly how 'for' functions here — it points to the reason.\n\n**Watch-Out Zone: preposition_misuse** in action. 'With' is for accompaniment, 'on' for...\n\nMental trick: 'Commended FOR' = dahilan, 'siya ay pinuri dahil sa galing.' Next time, isipin mo 'for reason' — lagyan mo ng arrow pababa, 'for' agad. That's the simple rule to never second-guess.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-word-019",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A number is 7 more than twice another. Their sum is 43. Find the larger number.",
+    "options": [
+      {
+        "key": "A",
+        "text": "29"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "31"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Let x=smaller",
+        "text": "Define the smaller number as x. Then the larger number is expressed as 2x + 7 because it is 7 more than twice the smaller."
+      },
+      {
+        "rung": 2,
+        "title": "Sum",
+        "text": "Write the sum equation: x + (2x + 7) = 43. This combines both numbers to equal the given total."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Combine like terms: 3x + 7 = 43. Subtract 7 from both sides: 3x = 36. Divide by 3: x = 12. This gives the smaller number."
+      },
+      {
+        "rung": 4,
+        "title": "Larger",
+        "text": "Substitute x = 12 into the expression for the larger number: 2(12) + 7 = 24 + 7 = 31. That is the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "29 is likely obtained if you mistakenly set the larger as 2x + 7 but solved for x incorrectly, e.g., 3x = 43 - 7 = 36, then x = 12, but then you might have added 7 to 12 to get 19, or confused the smaller with the larger. Alternatively, if you thought the larger was 2x and solved 3x = 43, x ≈ 14.33, then 2x ≈ 28.66, rounded to 29.",
+        "trap_type": "misidentification_of_variable"
+      },
+      "B": {
+        "text": "30 might come from solving 3x + 7 = 43, getting x = 12, then incorrectly computing the larger as 2x + 6 = 30, or from a simple arithmetic slip like 2*12 = 24, then 24 + 7 = 31, but mistakenly writing 30.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "Correct! The smaller number is 12, and the larger is 2(12) + 7 = 31. The sum 12 + 31 = 43 confirms the answer.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "32 could result from solving 3x + 7 = 43, getting x = 12, then computing the larger as 2x + 8 = 32, or from misreading the problem as '7 more than the number' instead of '7 more than twice another', leading to x + (x+7) = 43, giving x=18, larger=25, but that's not an option. Another path: if you set larger = 2x and sum = 3x = 43, x ≈ 14.33, larger ≈ 28.66, then adding 3 gives 31.66, not 32.",
+        "trap_type": "incorrect_equation_setup"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a problem says 'A is 7 more than twice B', write A = 2B + 7. Then use the sum to solve for B first, then find A. Always double-check which number the question asks for.",
+    "blueprint_id": "Two Numbers Relationship 2",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Let the smaller number be x. Then the larger number is 2x + 7 (since it is 7 more than twice the smaller).\n2. Their sum is 43: x + (2x + 7) = 43.\n3. Combine like terms: 3x + 7 = 43.\n4. Subtract 7 from both sides: 3x = 36.\n5. Divide by 3: x = 12 (smaller number).\n6. Larger number = 2(12) + 7 = 24 + 7 = 31.\n7. Check: 12 + 31 = 43. Correct.\n\n### ❌ Why the Distractors Fail\n- **29**: Likely from misidentifying the larger as 2x and solving 3x = 43, giving x ≈ 14.33, then 2x ≈ 28.66, rounded to 29.\n- **30**: Could be a simple arithmetic error: 2*12 = 24, then 24 + 6 = 30 instead of +7.\n- **32**: Possibly from adding 8 instead of 7: 24 + 8 = 32, or from a different equation setup.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-020",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A boat travels 30 km downstream in 2 hours. The return trip upstream takes 3 hours. Find the speed of the current.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 km/h"
+      },
+      {
+        "key": "B",
+        "text": "2.5 km/h"
+      },
+      {
+        "key": "C",
+        "text": "3 km/h"
+      },
+      {
+        "key": "D",
+        "text": "3.5 km/h"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Downstream speed",
+        "text": "Downstream speed = distance/time = 30 km / 2 h = 15 km/h. This is the boat's speed plus the current's speed."
+      },
+      {
+        "rung": 2,
+        "title": "Upstream speed",
+        "text": "Upstream speed = 30 km / 3 h = 10 km/h. This is the boat's speed minus the current's speed."
+      },
+      {
+        "rung": 3,
+        "title": "Current",
+        "text": "The current's speed is half the difference between downstream and upstream speeds: (15 - 10) / 2 = 5 / 2 = 2.5 km/h."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, the speed of the current is 2.5 km/h. Option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "2 km/h might come from incorrectly computing the difference as 15 - 10 = 5, then dividing by 2.5 instead of 2, or from a miscalculation like (15-10)/2 = 2 if you mistakenly did 5/2.5 = 2.",
+        "trap_type": "division_error"
+      },
+      "B": {
+        "text": "Correct! Downstream speed = 15 km/h, upstream = 10 km/h. Current = (15 - 10)/2 = 2.5 km/h.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "3 km/h could result from simply subtracting upstream from downstream (15 - 10 = 5) and then taking half incorrectly as 3, or from confusing current with boat speed: boat speed = (15+10)/2 = 12.5, then current = 15 - 12.5 = 2.5, not 3.",
+        "trap_type": "half_difference_miscalculation"
+      },
+      "D": {
+        "text": "3.5 km/h might come from adding downstream and upstream speeds (15+10=25) and dividing by something like 7, or from a misreading: if you thought downstream speed was 30/2=15 and upstream 30/3=10, then current = (15+10)/something = 25/7 ≈ 3.57, rounded to 3.5.",
+        "trap_type": "addition_instead_of_subtraction"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For current problems: downstream speed = boat + current, upstream = boat - current. Current = (downstream - upstream) / 2. Boat speed = (downstream + upstream) / 2.",
+    "blueprint_id": "River Current Problem",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Downstream speed = 30 km / 2 h = 15 km/h. This is boat speed (b) + current speed (c).\n2. Upstream speed = 30 km / 3 h = 10 km/h. This is b - c.\n3. Add the two equations: (b + c) + (b - c) = 15 + 10 → 2b = 25 → b = 12.5 km/h.\n4. Subtract: (b + c) - (b - c) = 15 - 10 → 2c = 5 → c = 2.5 km/h.\n5. Thus, current speed = 2.5 km/h.\n\n### ❌ Why the Distractors Fail\n- **2 km/h**: Likely from dividing 5 by 2.5 instead of 2.\n- **3 km/h**: Possibly from taking half of 5 as 3, or from a different misinterpretation.\n- **3.5 km/h**: Could be from adding speeds and dividing by 7, or from rounding errors.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-021",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "The sum of four consecutive integers is 74. What is the largest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "17"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "19"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Let x, x+1, x+2, x+3",
+        "text": "Let the smallest integer be x. Then the four consecutive integers are x, x+1, x+2, and x+3."
+      },
+      {
+        "rung": 2,
+        "title": "Sum equation",
+        "text": "Their sum is x + (x+1) + (x+2) + (x+3) = 4x + 6. Set this equal to 74: 4x + 6 = 74."
+      },
+      {
+        "rung": 3,
+        "title": "Solve for x",
+        "text": "Subtract 6: 4x = 68. Divide by 4: x = 17. This is the smallest integer."
+      },
+      {
+        "rung": 4,
+        "title": "Largest",
+        "text": "The largest integer is x + 3 = 17 + 3 = 20. So the answer is 20."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "17 is the smallest integer, not the largest. A student might stop after solving for x and forget to add 3 to get the largest.",
+        "trap_type": "partial_answer_error"
+      },
+      "B": {
+        "text": "18 could be the second integer (x+1) if the student mistakenly thought the largest was x+1, or from an arithmetic error like 4x+6=74 → 4x=68 → x=17, then largest = 17+1=18.",
+        "trap_type": "wrong_target_variable"
+      },
+      "C": {
+        "text": "19 is the third integer (x+2). A student might have solved for x=17 and then added 2 instead of 3, or misidentified which term is largest.",
+        "trap_type": "wrong_target_variable"
+      },
+      "D": {
+        "text": "Correct! The integers are 17, 18, 19, 20. Their sum is 74, and the largest is 20.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For consecutive integers, let the smallest be x. The largest is x + (n-1) where n is the count. Always re-read the question to ensure you answer what is asked (largest, not smallest).",
+    "blueprint_id": "Consecutive Integers",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Let the four consecutive integers be x, x+1, x+2, x+3.\n2. Sum: x + (x+1) + (x+2) + (x+3) = 4x + 6 = 74.\n3. Subtract 6: 4x = 68.\n4. Divide by 4: x = 17 (smallest).\n5. Largest = x + 3 = 20.\n6. Check: 17+18+19+20 = 74. Correct.\n\n### ❌ Why the Distractors Fail\n- **17**: This is the smallest integer, not the largest. Common mistake: stopping after finding x.\n- **18**: This is the second integer (x+1). Student may have added 1 instead of 3.\n- **19**: This is the third integer (x+2). Student may have added 2 instead of 3.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-022",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "In 5 years, Jose will be 3 times as old as he was 7 years ago. How old is he now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Let x=current age",
+        "text": "Let Jose's current age be x. In 5 years, he will be x+5. Seven years ago, he was x-7."
+      },
+      {
+        "rung": 2,
+        "title": "Equation",
+        "text": "The problem states: In 5 years, Jose will be 3 times as old as he was 7 years ago. So: x + 5 = 3(x - 7)."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Expand: x + 5 = 3x - 21. Bring x terms: 5 + 21 = 3x - x → 26 = 2x → x = 13."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Jose is currently 13 years old. Check: In 5 years he'll be 18; 7 years ago he was 6; 18 is indeed 3 times 6. Correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "11 might come from solving x+5 = 3(x-7) incorrectly: if you mistakenly wrote x+5 = 3x-7, then 5+7 = 2x → 12 = 2x → x=6, not 11. Alternatively, if you set x+5 = 3x-21 and got 2x=26, x=13, then subtracted 2 to get 11.",
+        "trap_type": "equation_setup_error"
+      },
+      "B": {
+        "text": "12 could result from a sign error: x+5 = 3(x-7) → x+5 = 3x-21 → 2x = 26 → x=13, but if you mistakenly did 2x = 24, you'd get x=12. Or from misreading '3 times as old as he was 7 years ago' as '3 times as old as he is now' leading to x+5 = 3x → 5=2x → x=2.5, not 12.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! Current age is 13. In 5 years: 18. Seven years ago: 6. 18 = 3 × 6.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "14 might come from solving x+5 = 3(x-7) but adding instead of subtracting: x+5 = 3x+21 → -16 = 2x → x=-8, not 14. Or from a different equation: if you set x+5 = 3x-7, then 12 = 2x → x=6, not 14. Possibly from misinterpreting '7 years ago' as '7 years from now' leading to x+5 = 3(x+7) → x+5 = 3x+21 → -16 = 2x → x=-8, no.",
+        "trap_type": "sign_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For age problems, define the current age as x. Express future and past ages in terms of x. Translate the relationship into an equation carefully, paying attention to 'times' and 'as old as'.",
+    "blueprint_id": "Age Problem Future vs Past",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Let Jose's current age = x.\n2. In 5 years: x + 5. Seven years ago: x - 7.\n3. Equation: x + 5 = 3(x - 7).\n4. Expand: x + 5 = 3x - 21.\n5. Bring x terms: 5 + 21 = 3x - x → 26 = 2x → x = 13.\n6. Check: 13 + 5 = 18; 13 - 7 = 6; 18 = 3 × 6. Correct.\n\n### ❌ Why the Distractors Fail\n- **11**: Likely from an arithmetic slip after solving correctly, or from a different equation.\n- **12**: Could be from a miscalculation like 2x = 24 instead of 26.\n- **14**: Possibly from a sign error in the equation or misinterpreting the relationship.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-023",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Two numbers are in ratio 3:5. Their sum is 64. Find the smaller number.",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total parts",
+        "text": "The ratio 3:5 means the numbers are divided into 3 + 5 = 8 equal parts."
+      },
+      {
+        "rung": 2,
+        "title": "Value per part",
+        "text": "The sum is 64, so each part is worth 64 / 8 = 8."
+      },
+      {
+        "rung": 3,
+        "title": "Smaller number",
+        "text": "The smaller number corresponds to 3 parts: 3 × 8 = 24."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, the smaller number is 24. The larger would be 5 × 8 = 40, and 24 + 40 = 64."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20 might come from mistakenly using 5 parts for the smaller (5 × 4 = 20) if you thought the ratio was 5:3, or from dividing 64 by 3.2 (64/3.2=20) incorrectly.",
+        "trap_type": "ratio_reversal"
+      },
+      "B": {
+        "text": "Correct! Smaller number = 3 parts × 8 = 24.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "28 could be from adding 3 and 5 to get 8, then 64/8=8, then 3×8=24, but then adding 4 to get 28, or from a miscalculation like 64/8=8, then 3.5×8=28.",
+        "trap_type": "arithmetic_slip"
+      },
+      "D": {
+        "text": "32 is the larger number if you mistakenly thought the smaller was 5 parts (5×8=40) but then got 32, or from dividing 64 by 2 to get 32, ignoring the ratio entirely.",
+        "trap_type": "wrong_target_variable"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For ratio sum problems, add the ratio parts to get total parts, divide the sum by total parts to find the value per part, then multiply by the relevant part for the desired number.",
+    "blueprint_id": "Ratio Sum Problem",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The ratio 3:5 means the numbers are in the proportion 3 parts to 5 parts.\n2. Total parts = 3 + 5 = 8.\n3. Value per part = Total sum / Total parts = 64 / 8 = 8.\n4. Smaller number = 3 parts × 8 = 24.\n5. Larger number = 5 parts × 8 = 40.\n6. Check: 24 + 40 = 64. Correct.\n\n### ❌ Why the Distractors Fail\n- **20**: Likely from reversing the ratio (using 5 parts for smaller) or a division error.\n- **28**: Could be from a miscalculation like 3.5 × 8 = 28.\n- **32**: This is half of 64, ignoring the ratio, or the larger number if you misidentified which part corresponds to smaller.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-024",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A 60-liter mixture is 40% acid. How much water must be added to make it 24% acid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30L"
+      },
+      {
+        "key": "B",
+        "text": "35L"
+      },
+      {
+        "key": "C",
+        "text": "40L"
+      },
+      {
+        "key": "D",
+        "text": "45L"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Acid amount",
+        "text": "The acid amount stays constant. Compute the initial acid: 60 L × 40% = 24 L of pure acid."
+      },
+      {
+        "rung": 2,
+        "title": "New total volume",
+        "text": "After adding water, the 24 L of acid should be 24% of the new total. So new total = 24 L ÷ 0.24 = 100 L."
+      },
+      {
+        "rung": 3,
+        "title": "Water added",
+        "text": "The increase in volume is entirely water. Water added = new total − original volume = 100 L − 60 L = 40 L."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, 40 L of water must be added. Check: 24 L acid / 100 L total = 24%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "30 L. This likely comes from incorrectly subtracting 24% from 40% (16%) and then taking 16% of 60 L (9.6 L) and rounding, or from a misstep like 60 × (40/24) = 100 then 100 − 60 = 40 but then halving to 30. The correct approach keeps acid constant at 24 L.",
+        "trap_type": "percentage_difference_misapplication"
+      },
+      "B": {
+        "text": "35 L. This might result from a calculation error such as solving 24/(60+x) = 0.24 incorrectly, e.g., 24 = 14.4 + 0.24x → 9.6 = 0.24x → x = 40, but then mistakenly subtracting 5. Or from misreading the target percentage as 25% instead of 24%.",
+        "trap_type": "arithmetic_slip_in_algebra"
+      },
+      "C": {
+        "text": "Correct! 24 L of acid in 100 L total gives 24%. Water added = 100 L − 60 L = 40 L.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "45 L. This could come from thinking the new total should be 60/0.24 = 250 L, then subtracting 60 to get 190 L, but then dividing by something like 4. Or from a mis-set equation: 24/(60+x) = 0.24 → 24 = 0.24(60+x) → 24 = 14.4 + 0.24x → 9.6 = 0.24x → x = 40, but then adding 5 due to a rounding error.",
+        "trap_type": "equation_setup_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In dilution problems, the amount of pure substance (acid) remains unchanged. Set up: (pure amount) / (new total) = new percentage. Solve for new total, then subtract original volume.",
+    "blueprint_id": "Dilution Problem",
+    "deconstruct_text": "### Step-by-Step Solution\n1. **Find the amount of pure acid in the original mixture:**\n   60 L × 40% = 60 × 0.40 = 24 L of pure acid.\n2. **Let x be the volume of water added (in liters).** The new total volume becomes 60 + x liters.\n3. **The acid amount stays 24 L.** In the new mixture, this 24 L should be 24% of the total:\n   24 = 0.24 × (60 + x)\n4. **Solve for x:**\n   24 = 14.4 + 0.24x\n   24 − 14.4 = 0.24x\n   9.6 = 0.24x\n   x = 9.6 / 0.24 = 40\n5. **Answer:** 40 L of water must be added.\n\n### Why Other Options Are Wrong\n- **30 L:** Might come from incorrectly using 16% (40%−24%) of 60 L = 9.6 L, then adding to 60? No clear path. Possibly a misstep in solving the equation.\n- **35 L:** Could result from a calculation slip like 24 = 0.24(60+x) → 24 = 14.4 + 0.24x → 9.6 = 0.24x → x = 40, but then subtracting 5 due to misreading.\n- **45 L:** Might come from thinking new total = 60/0.24 = 250 L, then 250−60=190, then dividing by something. Or from adding 5 to the correct answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-025",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A class of 40 students has 60% girls. After some girls leave, girls become 50%. How many girls left?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Initial girls",
+        "text": "Initially, 60% of 40 students are girls: 40 × 0.60 = 24 girls. Boys = 40 − 24 = 16."
+      },
+      {
+        "rung": 2,
+        "title": "Let x = girls who leave",
+        "text": "After x girls leave, girls = 24 − x, total students = 40 − x. The new percentage of girls is (24 − x) / (40 − x) = 50% = 0.5."
+      },
+      {
+        "rung": 3,
+        "title": "Solve the equation",
+        "text": "Multiply both sides by (40 − x): 24 − x = 0.5(40 − x) → 24 − x = 20 − 0.5x → 24 − 20 = x − 0.5x → 4 = 0.5x → x = 8."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, 8 girls left. Check: new girls = 24 − 8 = 16, new total = 40 − 8 = 32, 16/32 = 50%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6. This might come from incorrectly setting up the equation as (24 − x)/40 = 0.5, giving 24 − x = 20 → x = 4, then adding 2? Or from thinking 60% − 50% = 10% of 40 = 4, then adding 2. The correct equation must use the new total (40 − x), not the original total.",
+        "trap_type": "wrong_denominator_in_percentage"
+      },
+      "B": {
+        "text": "Correct! 8 girls left. The equation (24 − x)/(40 − x) = 0.5 solves to x = 8.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "10. This could result from solving 24 − x = 0.5 × 40 = 20 → x = 4, then mistakenly doubling to 10. Or from thinking the number of boys (16) should equal the number of girls after removal, so 24 − x = 16 → x = 8, but then adding 2 due to a slip.",
+        "trap_type": "equation_solving_error"
+      },
+      "D": {
+        "text": "12. This might come from assuming the new total is still 40, so 24 − x = 0.5 × 40 = 20 → x = 4, then tripling? Or from thinking 60% − 50% = 10% of 40 = 4, then multiplying by 3. The correct approach requires adjusting the total.",
+        "trap_type": "percentage_point_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a subset leaves, both the numerator and denominator change. Set up: (original girls − x) / (original total − x) = new percentage. Solve for x.",
+    "blueprint_id": "Percentage with Removal",
+    "deconstruct_text": "### Step-by-Step Solution\n1. **Find initial numbers:**\n   Girls = 60% of 40 = 24. Boys = 40 − 24 = 16.\n2. **Let x = number of girls who leave.**\n   After departure: girls = 24 − x, total students = 40 − x.\n3. **Set up the percentage condition:**\n   (24 − x) / (40 − x) = 50% = 0.5\n4. **Solve:**\n   24 − x = 0.5(40 − x)\n   24 − x = 20 − 0.5x\n   24 − 20 = x − 0.5x\n   4 = 0.5x\n   x = 8\n5. **Answer:** 8 girls left.\n\n### Why Other Options Are Wrong\n- **6:** Using original total as denominator: (24 − x)/40 = 0.5 → x = 4, then adding 2. Or misreading the problem.\n- **10:** Solving 24 − x = 20 → x = 4, then doubling. Or thinking girls should equal boys (16) → x = 8, then adding 2.\n- **12:** Assuming 10% of 40 = 4, then multiplying by 3. Or a mis-set equation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-015",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'If I ___ you, I would accept the promotion.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "am"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Subjunctive Mood",
+        "text": "This sentence expresses a hypothetical situation (I am not you). Hypotheticals use the subjunctive mood, not the indicative."
+      },
+      {
+        "rung": 2,
+        "title": "Subjunctive form for 'be'",
+        "text": "In the subjunctive mood, the verb 'to be' uses 'were' for all persons (I, he, she, it, you, we, they). 'Was' is indicative, used for real past events."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the sentence",
+        "text": "The phrase 'If I ___ you' is a classic subjunctive construction. Since it's hypothetical, we need the subjunctive 'were', not 'was' or 'am'."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, the correct choice is 'were': 'If I were you, I would accept the promotion.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'am' is indicative present tense, used for real situations. 'If I am you' is ungrammatical because it's impossible to be another person; the subjunctive is required for this hypothetical.",
+        "trap_type": "indicative_in_subjunctive"
+      },
+      "B": {
+        "text": "'was' is indicative past tense. Many speakers use 'was' in informal speech, but in formal writing, the subjunctive 'were' is correct for hypothetical 'if' clauses.",
+        "trap_type": "informal_was_for_subjunctive"
+      },
+      "C": {
+        "text": "Correct! 'were' is the subjunctive form used for hypothetical situations with 'if'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'be' is the base form (infinitive) and does not function as a finite verb in this context. It would create an ungrammatical structure: 'If I be you' is not standard English.",
+        "trap_type": "infinitive_in_finite_position"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For hypothetical 'if' clauses (contrary to fact), always use 'were' for the verb 'to be', regardless of the subject. Think: 'If I were, if he were, if they were.'",
+    "blueprint_id": "Subjunctive Mood — If I Were",
+    "deconstruct_text": "### Step-by-Step Solution\n1. **Identify the mood:** The sentence 'If I ___ you, I would accept the promotion' expresses a hypothetical situation (I am not you, but imagining if I were). This requires the subjunctive mood.\n2. **Recall subjunctive rule:** In English, the subjunctive mood for the verb 'to be' uses 'were' for all subjects (I, you, he, she, it, we, they). The indicative 'was' is only for real past events.\n3. **Apply:** The blank needs the subjunctive form of 'be'. Therefore, 'were' is correct.\n4. **Eliminate others:**\n   - 'am' (indicative present) — not hypothetical.\n   - 'was' (indicative past) — informal, not standard in formal subjunctive.\n   - 'be' (infinitive) — cannot serve as the main verb in this clause.\n5. **Answer:** 'were'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-016",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses correct tense consistency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The director approved the memo and said it was satisfactory."
+      },
+      {
+        "key": "B",
+        "text": "The director approved the memo and says it was satisfactory."
+      },
+      {
+        "key": "C",
+        "text": "The director approves the memo and said it is satisfactory."
+      },
+      {
+        "key": "D",
+        "text": "The director approved the memo and says it is satisfactory."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tense Consistency",
+        "text": "When two actions are connected by 'and', they should generally be in the same tense unless there's a clear time shift."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the tenses",
+        "text": "Look at each option: Option A has 'approved' (past) and 'said' (past) — both past. Option B has 'approved' (past) and 'says' (present) — mixed. Option C has 'approves' (present) and 'said' (past) — mixed. Option D has 'approved' (past) and 'says' (present) — mixed."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule",
+        "text": "Since both actions (approving and saying) happened in the same time frame (the director did both in the past), they should both be in past tense."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Only Option A uses past tense for both verbs: 'approved' and 'said'. The others mix past and present, which is inconsistent."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Both verbs are in past tense: 'approved' and 'said'. This maintains tense consistency.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'approved' is past, but 'says' is present. This mixes tenses inconsistently. The director's saying occurred at the same time as approving, so both should be past.",
+        "trap_type": "tense_inconsistency"
+      },
+      "C": {
+        "text": "'approves' is present, but 'said' is past. This mixes tenses. If the director approves now, the saying should also be present ('says').",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "'approved' is past, but 'says' is present. The same inconsistency as B. Both actions should be in the same tense.",
+        "trap_type": "tense_inconsistency"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When two verbs are joined by 'and' and refer to the same time period, keep them in the same tense. If one is past, the other should be past too.",
+    "blueprint_id": "Tense Consistency",
+    "deconstruct_text": "### Step-by-Step Solution\n1. **Understand the rule:** In a sentence with two verbs connected by 'and', the tenses should be consistent unless there is a clear reason for a shift (e.g., one action happens before the other).\n2. **Examine each option:**\n   - **A:** 'approved' (past) and 'said' (past) — consistent.\n   - **B:** 'approved' (past) and 'says' (present) — inconsistent.\n   - **C:** 'approves' (present) and 'said' (past) — inconsistent.\n   - **D:** 'approved' (past) and 'says' (present) — inconsistent.\n3. **Determine the correct time frame:** The director approved the memo and at that same time said it was satisfactory. Both actions occurred in the past, so past tense is appropriate.\n4. **Answer:** Option A is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-017",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The data shows a significant trend."
+      },
+      {
+        "key": "B",
+        "text": "The data show a significant trend."
+      },
+      {
+        "key": "C",
+        "text": "The data have show a trend."
+      },
+      {
+        "key": "D",
+        "text": "The data are show a trend."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Data is plural",
+        "text": "In formal English, 'data' is the plural of 'datum'. Therefore, it takes a plural verb: 'data show', not 'data shows'."
+      },
+      {
+        "rung": 2,
+        "title": "Subject-verb agreement",
+        "text": "A plural subject requires a plural verb. 'Data' is plural, so the verb should be 'show' (plural) not 'shows' (singular)."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate ungrammatical forms",
+        "text": "Options C and D use incorrect verb forms: 'have show' and 'are show' are not standard English constructions. The correct structure is 'data show'."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, the correct sentence is 'The data show a significant trend.' (Option B)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'The data shows' treats 'data' as singular. While some informal usage accepts this, in formal writing and exams, 'data' is plural and requires 'show'.",
+        "trap_type": "singular_verb_with_plural_subject"
+      },
+      "B": {
+        "text": "Correct! 'Data' is plural, so the verb is 'show' (plural). This follows formal subject-verb agreement.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'have show' is grammatically incorrect. The present perfect would be 'have shown', but even then, the simple present 'show' is appropriate here.",
+        "trap_type": "incorrect_verb_form"
+      },
+      "D": {
+        "text": "'are show' is ungrammatical. 'Are' is a linking verb and would require a present participle ('showing') or a past participle ('shown'), not the base form 'show'.",
+        "trap_type": "incorrect_verb_form"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In formal English, 'data' is plural. Use 'data show', 'data are', 'data have'. Think of 'data' as 'many pieces of information'.",
+    "blueprint_id": "Subject-Verb — Data (Plural)",
+    "deconstruct_text": "### Step-by-Step Solution\n1. **Identify the subject:** The subject is 'data'. In formal English, 'data' is the plural of 'datum', so it is a plural noun.\n2. **Apply subject-verb agreement:** A plural subject requires a plural verb. The plural form of 'show' is 'show' (they show), while 'shows' is singular (he shows).\n3. **Evaluate options:**\n   - **A:** 'shows' — singular verb with plural subject → incorrect.\n   - **B:** 'show' — plural verb with plural subject → correct.\n   - **C:** 'have show' — ungrammatical; 'have' + base form is not a standard tense.\n   - **D:** 'are show' — ungrammatical; 'are' + base form is not standard.\n4. **Answer:** Option B is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

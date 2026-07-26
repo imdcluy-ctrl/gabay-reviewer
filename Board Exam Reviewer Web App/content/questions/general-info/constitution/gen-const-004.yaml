@@ -1,0 +1,53 @@
+id: gen-const-004
+subtopic: ra-6713-code-of-conduct
+category: general-info
+difficulty: 2
+is_free: true
+language: en
+tags: ["ra-6713", "saln", "public-transparency"]
+estimated_seconds: 60
+question_text: "What public document must all public officials and employees file under oath upon assumption of office and on or before April 30 of every year thereafter?"
+options:
+  - key: A
+    text: "Statement of Assets, Liabilities, and Net Worth (SALN)"
+  - key: B
+    text: "Personal Data Sheet (PDS)"
+  - key: C
+    text: "Individual Performance Commitment and Review (IPCR)"
+  - key: D
+    text: "Certificate of Eligibility"
+correct: A
+blueprint_id: "RA 6713 Section 8 — Disclosure of Assets and Liabilities (SALN)"
+hint_ladder:
+  - rung: 1
+    title: "Identify Financial Disclosure Document"
+    text: "The law requires annual disclosure of financial status under oath."
+  - rung: 2
+    title: "Recall April 30 Deadline"
+    text: "Section 8 specifies filing on or before April 30 annually."
+  - rung: 3
+    title: "Identify Acronym"
+    text: "It is known as the SALN."
+  - rung: 4
+    title: "Select Option A"
+    text: "Option A is Statement of Assets, Liabilities, and Net Worth (SALN)."
+deconstruct_text: |
+  RA 6713 Section 8:
+  'Public officials and employees have an obligation to accomplish and submit declarations under oath of their assets, liabilities, net worth and financial and business interests... on or before April 30 of every year.'
+choice_explanations:
+  A:
+    text: "Correct! SALN is required under oath on or before April 30 each year."
+    trap_type: null
+  B:
+    text: "PDS is CS Form 212 updated upon appointment/promotion, not annual April 30 requirement."
+    trap_type: form_confusion
+  C:
+    text: "IPCR measures performance semi-annually, not financial disclosure under oath."
+    trap_type: form_confusion
+  D:
+    text: "Proof of eligibility issued by CSC/PRC, not an annual financial declaration."
+    trap_type: document_confusion
+next_time_rule: "SALN (Statement of Assets, Liabilities, and Net Worth) must be filed under oath by April 30 every year."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "Republic Act No. 6713 Section 8"

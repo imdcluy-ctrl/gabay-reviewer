@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-009",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct sentence:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided on the matter."
+      },
+      {
+        "key": "B",
+        "text": "The committee has decided on the matter."
+      },
+      {
+        "key": "C",
+        "text": "The committee are deciding on the matter."
+      },
+      {
+        "key": "D",
+        "text": "The committee were deciding on the matter."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Simulan: Collective Noun ba?",
+        "text": "Tignan ang 'committee.' Ito ay collective noun—tumutukoy sa grupo bilang iisang unit, hindi bawat miyembro."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Singular Verb Gamitin",
+        "text": "Sa US English ng CSC, collective nouns like committee, team, family ay singular verb—'has,' 'is,' 'was' ang tama."
+      },
+      {
+        "rung": 3,
+        "title": "Check: Hanapin ang Singular Verb",
+        "text": "Tingnan ang choices. A, C, D lahat may plural verbs (have, are, were). B lang may singular 'has.' Kaya B ang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "Tandaan: 'Committee has'",
+        "text": "'Committee has decided'—tandaan, parang iisang tao. 'The committee has,' hindi 'have.' Tama na 'yan."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought of each committee member deciding—but collective nouns take singular verbs.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Committee' as a unit takes singular 'has'—treating the group as one body deciding.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you considered the committee as individual members acting; however, use singular 'is' not 'are'.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "D": {
+        "text": "You might have chosen D because you thought of the committee in past tense plural; but the singular 'was' is correct, not 'were'.",
+        "trap_type": "subject_verb_agreement_misled"
+      }
+    },
+    "next_time_rule": "Collective nouns? Isipin bilang iisang tao. 'Committee has,' 'team is,' 'family was'—unless hiwalay ang opinyon ng bawat miyembro.",
+    "blueprint_id": "Subject-Verb Agreement — Collective Nouns",
+    "deconstruct_text": "Sa LGU barangay budget hearing, ang finance committee ay kumikilos bilang iisang unit. Kapag sinabi nating 'The committee has decided,' iisang desisyon ang lumabas—lahat sang-ayon. Kaya tama ang singular verb.\n\n**Watch-Out Zone: subject_verb_agreement_misled** in action—'committee' is singular.\n\nPero kapag 'The committee have decided,' parang nagkanya-kanya ang miyembro—hindi iyon ang ibig sabihin dito. Sa US English na gamit ng CSC exam, collective nouns ay singular lagi unless may pahiwatig na magkakaiba ang desisyon (e.g., 'The committee are divided').\n\nMental Trick (Taglish): Isipin mo, 'committee' ay parang iisang tao na nagde-decide. 'The person has decided'—hindi ba pamilyar? Ganoon din sa committee: 'committee has,' 'committee is,' 'committee was.' Kaya kapag may collective noun, isipin mong 'siya'—singular.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

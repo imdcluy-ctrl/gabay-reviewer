@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-102",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — Gift Ban",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Prohibition on Accepting Gifts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under gift-giving rules under Section 7"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This question is testing your knowledge of a specific section in RA 6713 that deals with gifts. Think about what the law says about public officials and gifts—is it a suggestion or a strict rule?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall the simple rule",
+        "text": "Section 7(c) of RA 6713 is crystal clear: public officials cannot accept gifts from anyone who has business pending before their office or from any entity they regulate. No exceptions, no gray areas."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule to the choices",
+        "text": "Now look at the options. Which one correctly identifies that this is a mandatory rule found in Section 7? The other options try to make the rule seem optional, limited to certain people, or only applicable at certain times."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow it down",
+        "text": "The correct answer must be the one that says this is mandated under Section 7. The other options are all wrong because the gift ban applies to everyone—elective and appointive—during their entire time in office, not just at retirement."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 7(c) explicitly and strictly prohibits public officials from accepting gifts from persons with business pending before their office or from regulated entities. This is a mandatory, non-negotiable rule for all public servants.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common misunderstanding. Some people think appointive officials have more flexibility, but the law makes no such distinction. The gift ban applies equally to everyone in public service—whether you were elected, appointed, or hired. There is no 'optional' clause here.",
+        "trap_type": "exemption_fallacy"
+      },
+      "C": {
+        "text": "It's easy to see why someone might think this—retirement is a big transition, and gift-giving often happens during life events. But the law is clear: the prohibition covers your entire tenure in office. Accepting a gift from a prohibited source is illegal whether you're on your first day or your last.",
+        "trap_type": "statutory_timing_error"
+      },
+      "D": {
+        "text": "This is a logical guess if you assume the law only targets politicians. But RA 6713 covers 'all public officials and employees'—that means everyone from the president to the newest clerk. The gift ban doesn't discriminate between elective and appointive positions.",
+        "trap_type": "scope_limitation_error"
+      }
+    },
+    "next_time_rule": "The gift ban is simple: if someone has business with your office or is regulated by your agency, you cannot accept gifts from them. Period. No exceptions for position type or timing.",
+    "deconstruct_text": "Let's walk through this together. The question is about RA 6713's prohibition on accepting gifts. The key is knowing that this rule lives in Section 7(c) of the law, and it's absolute—not a suggestion, not optional, and not limited to certain officials.\n\nHere's how to think through it:\n\nFirst, remember that RA 6713 is the Code of Conduct for all public officials and employees. Section 7 specifically lays down prohibited acts and transactions. Subsection (c) deals with gifts: you cannot accept any gift from a person who has business pending before your office or from an entity your agency regulates.\n\nNow, test each option against this rule:\n\nOption A says it's mandated under Section 7. That's exactly right—the law commands it, it's not a choice.\n\nOption B says it's optional for appointive officials. But the law says 'all public officials and employees'—no carve-out for appointive positions.\n\nOption C says it's required only upon retirement. That doesn't match the law at all. The prohibition applies throughout your service, not just at the end.\n\nOption D says it's only for elective officials. Again, the law covers everyone in public service.\n\nHere's a mental trick to lock this in: Think of it as the 'No Business, No Gift' rule. If someone has business with your office or is under your agency's regulation, you simply cannot accept gifts from them. It's that straightforward. The law doesn't care about your title or when you're leaving—it cares about the relationship between you and the gift-giver.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

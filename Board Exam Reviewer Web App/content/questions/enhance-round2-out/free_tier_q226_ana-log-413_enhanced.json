@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-413",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A proposal suggests merging two barangays to achieve economic efficiency by reducing administrative costs. Which of the following, if true, would most weaken this proposal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Merged barangays in other regions have reported cost savings."
+      },
+      {
+        "key": "B",
+        "text": "The two barangays have different cultural identities that may cause conflict."
+      },
+      {
+        "key": "C",
+        "text": "Administrative costs are a small portion of the total budget."
+      },
+      {
+        "key": "D",
+        "text": "The merger would require a one-time expense for new signage and forms."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Let's focus on the heart of the proposal: it claims merging will lead to economic efficiency by cutting administrative costs. To weaken it, we need to find a fact that makes this chain of reasoning less convincing."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "A good way to weaken an argument is to show that the supposed benefit isn't really a benefit at all, or that it's too small to matter. Ask yourself: what if the thing we're trying to reduce isn't actually a big deal?"
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Imagine you're trying to save money by cutting back on coffee, but coffee only costs you 1% of your monthly budget. Even if you cut it completely, the savings are tiny. That's the same logic here: if administrative costs are already a small slice of the budget, cutting them won't make much difference."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct answer shows that the main benefit of the merger — saving on administrative costs — is practically meaningless because those costs are already very small. Look for the option that makes the goal seem insignificant."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one actually supports the proposal. If other merged barangays saved money, it suggests the same could happen here. A smart choice if you're looking for evidence in favor, but we're trying to weaken the argument.",
+        "trap_type": "strengthening_evidence"
+      },
+      "B": {
+        "text": "Cultural differences are a real concern, but they don't directly attack the economic argument. This is a side issue — it might cause problems, but it doesn't show that the cost savings won't happen or won't matter. It's easy to pick this if you're thinking about practical challenges, but the question is specifically about economic efficiency.",
+        "trap_type": "side_issue"
+      },
+      "C": {
+        "text": "This is the one. If administrative costs are just a tiny fraction of the total budget, then even big cuts won't lead to meaningful economic efficiency. It directly undermines the core logic of the proposal. Great catch if you chose this.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "One-time expenses like new signs and forms are small compared to ongoing savings. This is a minor drawback, not a strong weakness. It might seem like a practical hurdle, but it doesn't seriously challenge the proposal's main claim.",
+        "trap_type": "minor_drawback"
+      }
+    },
+    "deconstruct_text": "Let's break this down simply. The proposal says: Merge the barangays -> lower administrative costs -> economic efficiency. To weaken it, we need to break that chain. Option C does this beautifully by showing that administrative costs are already a small part of the budget. Think of it like this: if you're trying to lose weight by cutting out dessert, but dessert is only 5% of your daily calories, the impact is tiny. The mental trick here is the 'So What?' test. When someone says 'We'll save money by doing X,' ask yourself: 'So what? Is that saving actually meaningful?' If the answer is no, the argument falls apart. Option A actually strengthens the case, B is a distraction, and D is a minor hiccup. Always look for the option that makes the promised benefit seem trivial.",
+    "next_time_rule": "When weakening an argument, use the 'So What?' test: even if the proposed action happens, does the claimed benefit really matter? If the benefit is tiny or irrelevant, the argument is weak.",
+    "blueprint_id": "B-1776",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

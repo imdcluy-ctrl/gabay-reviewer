@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-001",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office distributed ₱45,000 among three employees in the ratio 2:3:4. How much did the employee with the largest share receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱18,000"
+      },
+      {
+        "key": "C",
+        "text": "₱20,000"
+      },
+      {
+        "key": "D",
+        "text": "₱22,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "See the Pattern",
+        "text": "This is a classic ratio problem. The ratio 2:3:4 tells us how the total is split into parts. The largest share belongs to the biggest number in the ratio, which is 4. But we need to figure out what each part is worth first."
+      },
+      {
+        "rung": 2,
+        "title": "Strip the Noise",
+        "text": "Think of the ratio as telling you the number of equal slices each person gets. The total number of slices is 2 + 3 + 4 = 9 slices. The whole ₱45,000 is divided into these 9 equal slices."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate One",
+        "text": "If 9 slices make ₱45,000, then one slice is ₱45,000 divided by 9, which is ₱5,000. The largest share gets 4 slices."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "So the largest share is 4 slices times ₱5,000 per slice, which equals ₱20,000. That's the answer you're looking for among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱15,000 is actually the share for the employee with 3 parts, not the largest. It's easy to grab the middle number by mistake, but remember: the largest share goes with the biggest ratio number, which is 4.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "₱18,000 is a tempting wrong answer that might come from dividing ₱45,000 by 2.5 or some other incorrect divisor. The key is to always divide by the total number of parts (9), not a random number.",
+        "trap_type": "wrong_divisor"
+      },
+      "C": {
+        "text": "Correct! The largest share is 4 parts times ₱5,000 per part, giving ₱20,000. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "₱22,500 comes from dividing ₱45,000 by 2, which is the smallest ratio number. It's a common mistake to use one of the ratio numbers as the divisor instead of adding them all up first. Always add the parts first.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "When you see a ratio problem, first add all the parts together. That sum is your total number of slices. Divide the whole amount by that sum to find the value of one slice. Then multiply by the part you need.",
+    "blueprint_id": "Ratio and Proportion — dividing a total amount into parts based on a given ratio",
+    "deconstruct_text": "Let's walk through this together. The ratio 2:3:4 tells us the total is split into 2 + 3 + 4 = 9 equal parts. Think of it like cutting a pie into 9 slices. The whole pie is worth ₱45,000, so each slice is ₱45,000 divided by 9, which is ₱5,000. The employee with the largest share gets 4 slices, so 4 times ₱5,000 equals ₱20,000. The trick is to always add the ratio numbers first to get the total number of parts before you divide. That way, you won't accidentally divide by just one of the ratio numbers, which is the trap that leads to ₱22,500 or ₱18,000.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

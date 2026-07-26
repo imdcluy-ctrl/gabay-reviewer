@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-011",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office photocopier can produce 240 pages in 8 minutes. At the same rate, how many pages can it produce in 15 minutes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "350"
+      },
+      {
+        "key": "B",
+        "text": "400"
+      },
+      {
+        "key": "C",
+        "text": "450"
+      },
+      {
+        "key": "D",
+        "text": "480"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Unit Rate",
+        "text": "This is a direct proportion problem. When two things increase together at the same rate, the key is to find how much happens in one unit of time. Start by figuring out how many pages the copier produces in just 1 minute."
+      },
+      {
+        "rung": 2,
+        "title": "Pages Per Minute",
+        "text": "If the copier makes 240 pages in 8 minutes, divide 240 by 8. That gives you 30 pages per minute. So every single minute, 30 pages come out."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply by New Time",
+        "text": "Now that you know the copier does 30 pages each minute, just multiply that by the new time. Take 30 pages per minute and multiply by 15 minutes."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "30 times 15 equals 450. So the answer is 450 pages. The other options often come from simple mistakes: 350 might be from a wrong multiplication, 400 from adding 160 instead of 210, and 480 from accidentally using 16 minutes instead of 15."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "350 is a tempting guess if you try to add a random number to 240 or if you miscalculate the unit rate. For example, if you thought the rate was 23.33 pages per minute (from a division error), you'd get 350. But the correct unit rate is exactly 30, so this doesn't hold up.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "400 might come from adding 160 to 240, thinking the increase from 8 to 15 minutes is 7 minutes and 7 times 30 is 210, not 160. Or you might have used 13.33 minutes by mistake. The key is to always use the unit rate correctly.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct. The unit rate is 240 divided by 8, which is 30 pages per minute. Then multiply 30 by 15 to get 450 pages. This is a clean, direct proportion.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "480 is a common slip-up where you might double 240 (thinking 15 minutes is roughly double 8 minutes) or use 16 minutes instead of 15. It's easy to add 8+8 and get 16, but the problem asks for 15 minutes. Always double-check the numbers given.",
+        "trap_type": "time_addition_error"
+      }
+    },
+    "next_time_rule": "For any direct proportion problem, always find the 'per one' rate first. Divide to get the unit rate, then multiply by the new amount. This avoids guessing or adding wrong numbers.",
+    "blueprint_id": "Direct Proportion — Unit Rate Method",
+    "deconstruct_text": "Let's walk through this together. The copier makes 240 pages in 8 minutes. To find out how many pages it makes in 1 minute, divide 240 by 8. That gives you 30 pages per minute. Now, for 15 minutes, just multiply 30 by 15. Thirty times 15 is 450. So the answer is 450 pages. A quick mental trick: think of it as 'pages per minute' times 'minutes.' That's your formula. If you ever get stuck, just remember the unit rate method: find what happens in one unit, then scale up.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

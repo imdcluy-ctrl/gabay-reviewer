@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-007",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government cooperative deposited P100,000 in a bank that pays 4% simple interest per year. How much interest will it earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P8,000"
+      },
+      {
+        "key": "B",
+        "text": "P10,000"
+      },
+      {
+        "key": "C",
+        "text": "P12,000"
+      },
+      {
+        "key": "D",
+        "text": "P14,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "It's simple interest: interest earned only on the original principal each year, not on accumulated balance."
+      },
+      {
+        "rung": 2,
+        "title": "The formula",
+        "text": "Simple Interest = Principal × Rate × Time. Rate as decimal: 4% = 0.04, time in years."
+      },
+      {
+        "rung": 3,
+        "title": "Step 1: Yearly interest",
+        "text": "Yearly interest: P100,000 × 0.04 = P4,000. That's the amount per year."
+      },
+      {
+        "rung": 4,
+        "title": "Final step",
+        "text": "Multiply yearly P4,000 by 3 years = P12,000 total interest."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used 2 years instead of 3—multiply yearly P4,000 by 2 gives P8,000.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "B": {
+        "text": "You might have chosen B because you used 2.5 years or misread the rate, giving P10,000.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct. P12,000 is the interest after 3 years.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used 3.5 years instead of 3, calculating P14,000.",
+        "trap_type": "unit_conversion_trap"
+      }
+    },
+    "next_time_rule": "Compute the yearly interest muna (Principal × Rate), then multiply by number of years. This avoids time period errors.",
+    "blueprint_id": "Simple Interest — Cooperative Deposit",
+    "deconstruct_text": "Isipin mo, Barangay San Isidro’s cooperative deposits P100,000 in a rural bank for their livelihood program. 4% simple interest per year. That means interest is computed only on the original P100,000, hindi lumalaki. So each year, they earn P4,000.\n\nMental Trick: Kunin mo agad ang yearly na P4,000 (P100k x 4%). Para sa total, multiply lang sa years. Parang ipon: alam mo na monthly, times lang. Tandaan: ‘Yearly muna, saka multiply.’ Iwas maling taon.\n\n**Watch-Out Zone: unit_conversion_trap** in action. Time slip? Compute annual interest ...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

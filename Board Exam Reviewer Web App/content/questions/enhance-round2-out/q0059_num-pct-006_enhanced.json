@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-006",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal office's budget of P800,000 was reduced by 15% due to austerity measures. What is the new budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P640,000"
+      },
+      {
+        "key": "B",
+        "text": "P660,000"
+      },
+      {
+        "key": "C",
+        "text": "P680,000"
+      },
+      {
+        "key": "D",
+        "text": "P720,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ang Natitirang Porsyento",
+        "text": "Kapag binawasan ng 15%, 85% na lang ang matitira. Sa halip na i-compute ang bawas, isipin mo na lang 'yung pagkuha ng natitira — parang sale!"
+      },
+      {
+        "rung": 2,
+        "title": "Simple Formula",
+        "text": "I-multiply ang original budget sa (1 minus porsyento ng bawas). Dito: 800,000 × (1 - 0.15) = 800,000 × 0.85. Diretso na, isang step lang."
+      },
+      {
+        "rung": 3,
+        "title": "Alamin ang Bawas",
+        "text": "Kung gusto mo munang alamin ang exact na halaga ng 15%: 0.15 × 800,000 = P120,000. Iyan ang binawas."
+      },
+      {
+        "rung": 4,
+        "title": "Ibawas para sa Sagot",
+        "text": "P800,000 minus P120,000 = P680,000. 'Yan ang bagong budget!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you confused a 15% reduction with a 20% reduction, a 5 percentage point error, yielding 800k×0.80=P640k.",
+        "trap_type": "percent_vs_percentage_point"
+      },
+      "B": {
+        "text": "You might have chosen B because you miscalculated 15% of 800k as 140k instead of 120k, a 2.5 percentage point overestimate, giving 660k.",
+        "trap_type": "percent_vs_percentage_point"
+      },
+      "C": {
+        "text": "Correct. 15% of 800k is 120k; subtract to get 680k, or simply multiply 800k by 0.85 because you keep 85% after a 15% cut.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you thought the cut was only 10%, a 5 percentage point underestimate, leaving 720k.",
+        "trap_type": "percent_vs_percentage_point"
+      }
+    },
+    "next_time_rule": "Next time: multiply original sa (100% – bawas). Isipin mong 'keep the change' — i-multiply sa natirang porsyento para diretso ang sagot.",
+    "blueprint_id": "Percentage Decrease — Budget Reduction",
+    "deconstruct_text": "Isipin mong budget ng Barangay Health Center 'yan. P800,000 na binawasan ng 15% dahil sa austerity. Compute muna natin ang 15%: 0.15 × 800,000 = P120,000. 'Yan ang nawala. So ang bago mong budget: P800,000 minus P120,000 = P680,000. Tama!\n\nMental shortcut: imultiply mo na lang sa natitirang porsyento. 100% minus 15% = 85%. Kaya 800,000 × 0.85 = 680,000. Ganun lang!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

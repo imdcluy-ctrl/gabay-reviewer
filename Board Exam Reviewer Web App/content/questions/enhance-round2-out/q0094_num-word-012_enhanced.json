@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-012",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A pipe fills a tank in 8h. After 3h, a drain that empties in 12h is opened. How much more time to fill?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4h"
+      },
+      {
+        "key": "B",
+        "text": "5h"
+      },
+      {
+        "key": "C",
+        "text": "6h"
+      },
+      {
+        "key": "D",
+        "text": "7.5h"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Anong laman after 3h?",
+        "text": "Kung 8h puno ang tank, ang fill rate ay 1/8 bawat oras. After 3 oras, filled na ang 3/8 ng tank."
+      },
+      {
+        "rung": 2,
+        "title": "Ano mangyayari pag open drain?",
+        "text": "Pagbukas ng drain, isara natin ang fill pipe. Ang drain rate ay 1/12 tank per hour. Ibabawas natin ito sa laman."
+      },
+      {
+        "rung": 3,
+        "title": "Gaano karami ang matitira?",
+        "text": "Ang matitirang portion ay 1 - 3/8 = 5/8 ng tank na kailangang maubos."
+      },
+      {
+        "rung": 4,
+        "title": "Ilang oras ubos ito?",
+        "text": "Oras = (5/8) ÷ (1/12) = (5/8) × 12 = 60/8 = 7.5 oras. Kaya 7.5h ang tamang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A by swapping fill and drain rates, computing 3/8 / (1/8) = 3h and adding 3h for 6h, but that's inconsistent with t...",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you ignored the drain, assuming fill alone continues, so 5/8 at 1/8 rate is 5h — but the drain is now the...",
+        "trap_type": "hasty_generalization"
+      },
+      "C": {
+        "text": "You might have chosen C by mistakenly adding the initial 3h to a wrong net time (like 3h from miscomputed net rate), arriving at 6h. Use ...",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "Correct. When the drain opens and fill stops, the drain empties the remaining 5/8 at 1/12 per hour, so time = (5/8) / (1/12) = 7.5h.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Sa ganitong scenario, kung fill naka-stop at drain lang gumagana, oras = natitirang fraction ÷ drain rate.",
+    "blueprint_id": "Fill and Drain Simultaneously",
+    "deconstruct_text": "Parang water tank sa barangay na inuubos matapos mabuhusan ng 3 oras. Unang step: fill rate = 1/8 bawat oras, kaya filled = 3/8 ng tank.\n\nPagkatapos, binuksan ang drain at isinara ang gripo. Drain rate = 1/12 per oras. Ang kailangan ma-drain ay 1 - 3/8 = 5/8 ng tank.\n\nOras na kailangan = (5/8) ÷ (1/12) = (5/8) × 12 = 60/8 = 7.5 oras. Ibig sabihin, 7.5h ang dagdag para mawala lahat.\n\nWag mong isipin na patuloy pa ang fill — kaya hindi 15h ang sagot. Ang susi dito ay mag-iba na ang operation: drain na lang ang kumikilos.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

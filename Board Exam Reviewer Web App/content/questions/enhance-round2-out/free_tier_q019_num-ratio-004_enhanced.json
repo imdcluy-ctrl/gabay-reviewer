@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-004",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A Provincial Capitol purchased 48 desktop computers and 32 printers for its field offices. Express the ratio of computers to printers in simplest form.",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:3"
+      },
+      {
+        "key": "B",
+        "text": "3:2"
+      },
+      {
+        "key": "C",
+        "text": "2:3"
+      },
+      {
+        "key": "D",
+        "text": "6:4"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This is all about simplifying a ratio. The first step is to write the numbers in the exact order the question asks for. Here, it's computers first, then printers."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "To simplify a ratio, you need to divide both numbers by their Greatest Common Divisor (GCD). That's the largest number that divides evenly into both. Think of it like finding the biggest slice of cake you can give to both numbers."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule here",
+        "text": "Your starting ratio is 48:32. Now, what's the largest number that goes into both 48 and 32? Try listing factors: 48's factors include 1,2,3,4,6,8,12,16,24,48. 32's factors are 1,2,4,8,16,32. The biggest one they share is 16."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "Now divide both terms by 16. 48 divided by 16 is 3. 32 divided by 16 is 2. So your simplified ratio is 3:2. Check if 3 and 2 share any common factor besides 1. They don't, so you're done."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4:3 is a tempting choice if you tried to simplify quickly but used different divisors for each number. Dividing 48 by 12 gives 4, and 32 by 8 gives 3, but that's not a consistent approach. The key is to use the same divisor for both, and it must be the largest one that works for both numbers. The GCD is 16, not 12 or 8.",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct. The GCD of 48 and 32 is 16. Dividing both terms by 16 gives 3 and 2, so the ratio in simplest form is 3:2. Since 3 and 2 have no common factors other than 1, this is fully simplified.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "2:3 reverses the order. The question asks for the ratio of computers to printers, so computers come first. If you wrote printers to computers instead, you'd get 2:3. Always double-check the sequence the problem specifies.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "6:4 is a step in the right direction because you divided by 8, but it's not the simplest form. The numbers 6 and 4 still share a common factor of 2, so you can reduce further. Dividing 6 and 4 by 2 gives 3:2. Always keep going until the two numbers have no common factors besides 1.",
+        "trap_type": "incomplete_simplification"
+      }
+    },
+    "next_time_rule": "To simplify a ratio, find the GCD of both numbers and divide each term by it. Always check that the resulting numbers share no common factor other than 1. And remember: order matters, so match the sequence the question gives you.",
+    "blueprint_id": "Ratio and Proportion — simplifying ratios into lowest terms",
+    "deconstruct_text": "Let's walk through this together. The question asks for the ratio of computers to printers. We have 48 computers and 32 printers, so we start with 48:32. Now, to simplify, we need the Greatest Common Divisor (GCD) of 48 and 32. Think of the GCD as the biggest number that can divide both without leaving a remainder. For 48, the factors are 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. For 32, they are 1, 2, 4, 8, 16, 32. The largest number in both lists is 16. So we divide 48 by 16 to get 3, and 32 by 16 to get 2. That gives us 3:2. Since 3 and 2 are both prime relative to each other (no common factors besides 1), we're done. A quick mental trick: if you're ever unsure about the GCD, try dividing by smaller common factors step by step. For example, divide 48 and 32 by 8 to get 6:4, then divide 6 and 4 by 2 to get 3:2. That works too, as long as you keep going until you can't reduce anymore.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

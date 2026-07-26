@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-pct-002",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A LGU cooperative deposited ₱50,000 in a government savings account earning 6% simple annual interest. How much total interest will the account earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱3,000"
+      },
+      {
+        "key": "B",
+        "text": "₱6,000"
+      },
+      {
+        "key": "C",
+        "text": "₱9,000"
+      },
+      {
+        "key": "D",
+        "text": "₱59,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Simple Interest Formula",
+        "text": "Simple Interest (I) = Principal (P) × Rate (r) × Time (t). Here P = ₱50,000, r = 6% per year, t = 3 years."
+      },
+      {
+        "rung": 2,
+        "title": "Convert Rate to Decimal",
+        "text": "6% means 6 per 100, so r = 6/100 = 0.06. Never use 6 directly in multiplication."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Annual Interest",
+        "text": "Multiply P by r: ₱50,000 × 0.06 = ₱3,000. This is the interest earned in one year."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply by Number of Years",
+        "text": "₱3,000 per year × 3 years = ₱9,000. That's the total interest after 3 years."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱3,000 is the interest for only 1 year (₱50,000 × 0.06). The question asks for total interest after 3 years, so you must multiply by 3.",
+        "trap_type": "missing_time_factor"
+      },
+      "B": {
+        "text": "₱6,000 comes from multiplying ₱3,000 by 2 years instead of 3. Possibly a mental slip counting years as 2.",
+        "trap_type": "time_calculation_error"
+      },
+      "C": {
+        "text": "Correct! Simple Interest I = 50,000 × 0.06 × 3 = ₱9,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "₱59,000 is the total balance (principal + interest) after 3 years, not the interest alone. The question specifically asks for 'total interest'.",
+        "trap_type": "balance_vs_interest_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Simple Interest formula I = P × r × t calculates interest only; add P if total balance is requested.",
+    "blueprint_id": "Numerical Ability — Simple Interest Formula (I = P r t)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1:** Identify the variables.\n- Principal (P) = ₱50,000\n- Annual interest rate (r) = 6% = 0.06\n- Time (t) = 3 years\n\n**Step 2:** Apply the simple interest formula.\nI = P × r × t = 50,000 × 0.06 × 3\n\n**Step 3:** Compute step by step.\n50,000 × 0.06 = 3,000 (interest per year)\n3,000 × 3 = 9,000 (total interest after 3 years)\n\n**Step 4:** Verify against options. ₱9,000 matches option C.\n\n### ❌ Why the Distractors Fail\n- **₱3,000 (A):** Only 1 year's interest. Forgets to multiply by time.\n- **₱6,000 (B):** Uses 2 years instead of 3. Possibly misread '3 years' as '2 years'.\n- **₱59,000 (D):** Adds principal to interest. Confuses 'total interest' with 'total balance'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-001",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal health office received a budget increase from ₱800,000 to ₱1,000,000. What was the percentage increase in its budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "80%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate Amount of Increase",
+        "text": "Subtract original budget from new budget: ₱1,000,000 - ₱800,000 = ₱200,000."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Base Value",
+        "text": "Percentage increase is always calculated over the ORIGINAL base (₱800,000), not the new amount."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up Fraction",
+        "text": "Increase / Original = 200,000 / 800,000 = 2/8 = 1/4."
+      },
+      {
+        "rung": 4,
+        "title": "Convert Fraction to Percentage",
+        "text": "1/4 = 0.25 = 25%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20% comes from dividing the increase by the NEW budget (200,000 / 1,000,000 = 0.20). Always divide by the ORIGINAL base for percentage increase.",
+        "trap_type": "wrong_base_error"
+      },
+      "B": {
+        "text": "Correct! (200,000 / 800,000) × 100 = 25%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "30% might come from adding 10% to 20% or miscomputing 200,000/800,000 as 0.3. The correct fraction is 1/4, not 3/10.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "80% is the ratio of new budget to original (1,000,000/800,000 = 1.25, not 0.80). Possibly confused increase percentage with the new budget as a percentage of old.",
+        "trap_type": "ratio_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Percentage change formula = (Change / Original Base) × 100.",
+    "blueprint_id": "Numerical Ability — Percentage Increase",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1:** Compute the increase.\nIncrease = New budget - Original budget = ₱1,000,000 - ₱800,000 = ₱200,000\n\n**Step 2:** Identify the base.\nThe base is the original budget: ₱800,000.\n\n**Step 3:** Set up the fraction.\nFraction = Increase / Original = 200,000 / 800,000 = 1/4\n\n**Step 4:** Convert to percentage.\n(1/4) × 100 = 25%\n\n### ❌ Why the Distractors Fail\n- **20% (A):** Used new budget (₱1,000,000) as base. Common mistake.\n- **30% (C):** Arithmetic slip; 200,000/800,000 = 0.25, not 0.30.\n- **80% (D):** Computed 800,000/1,000,000 = 0.80, which is the old as a percentage of new, not the increase.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-010",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "An LGU inspection vehicle consumes 18 liters of gasoline to cover a distance of 210 kilometers. How many liters of gasoline will it consume for a 350-kilometer inspection trip?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 liters"
+      },
+      {
+        "key": "B",
+        "text": "28 liters"
+      },
+      {
+        "key": "C",
+        "text": "30 liters"
+      },
+      {
+        "key": "D",
+        "text": "35 liters"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Direct Relation",
+        "text": "More distance = MORE fuel consumed. This is a direct proportion: liters and distance increase together."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Proportion",
+        "text": "Liters / km = 18 / 210 = X / 350. Keep the same order on both sides."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify Initial Ratio",
+        "text": "18 / 210 simplifies by dividing numerator and denominator by 6 → 3 / 35."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for X",
+        "text": "3 / 35 = X / 350. Since 350 = 35 × 10, multiply numerator 3 by 10: X = 30 liters."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25 liters might come from incorrectly dividing 350 by 14 (a mis-simplification) or from 350/210 = 1.666, then 18 × 1.666 ≈ 30, not 25. Possibly a rounding error.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "28 liters could result from using 18/210 = 0.0857, then 0.0857 × 350 ≈ 30, not 28. Or from miscomputing 350/210 = 5/3, then 18 × 5/3 = 30. 28 is off by 2.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! 18 / 210 = 3 / 35. For 350 km, fuel = 3 × 10 = 30 liters.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 liters is the distance (350) divided by 10, confusing the distance value with the fuel amount. The correct fuel is 30 liters.",
+        "trap_type": "number_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Simplify ratios first before cross-multiplying large numbers to make mental calculations much faster.",
+    "blueprint_id": "Ratio and Proportion — vehicle fuel consumption proportion",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1:** Recognize direct proportion.\nFuel consumed ∝ distance traveled.\n\n**Step 2:** Set up proportion.\n18 liters / 210 km = X liters / 350 km\n\n**Step 3:** Simplify the left ratio.\n18/210 = 3/35 (divide numerator and denominator by 6)\n\n**Step 4:** Solve for X.\n3/35 = X/350 → Cross-multiply: 3 × 350 = 35 × X → 1050 = 35X → X = 30\n\nAlternatively, since 350 = 35 × 10, X = 3 × 10 = 30.\n\n### ❌ Why the Distractors Fail\n- **25 liters (A):** Arithmetic slip; correct is 30.\n- **28 liters (B):** Another arithmetic slip; perhaps used 18/210 = 0.08, then 0.08 × 350 = 28 (rounding down).\n- **35 liters (D):** Confused distance (350 km) with fuel (35 L).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-009",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In an agency division, the ratio of permanent staff to casual staff is 4:3, and the ratio of casual staff to job order staff is 6:5. What is the ratio of permanent staff to job order staff?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:5"
+      },
+      {
+        "key": "B",
+        "text": "8:5"
+      },
+      {
+        "key": "C",
+        "text": "6:5"
+      },
+      {
+        "key": "D",
+        "text": "12:5"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Common Term",
+        "text": "Casual staff is the common term linking Permanent (P:C = 4:3) and Job Order (C:J = 6:5)."
+      },
+      {
+        "rung": 2,
+        "title": "Equalize Common Term",
+        "text": "In P:C it is 3; in C:J it is 6. LCM of 3 and 6 is 6."
+      },
+      {
+        "rung": 3,
+        "title": "Scale First Ratio",
+        "text": "Multiply P:C (4:3) by 2 → P:C becomes 8:6."
+      },
+      {
+        "rung": 4,
+        "title": "Combine and Extract P:J",
+        "text": "Now P:C:J = 8:6:5. Therefore, P:J = 8:5."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4:5 takes the first number from P:C (4) and the second from C:J (5) without equalizing the common term. This ignores the fact that the casual staff values are different.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Equalizing casual staff to 6 gives P:C:J = 8:6:5, so P:J = 8:5.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "6:5 is just the C:J ratio, not P:J. The student may have mistakenly taken the second ratio as the answer.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "12:5 might come from multiplying 4 and 3 (P:C numbers) to get 12, then using 5 from C:J. The correct method is to scale the first ratio to match the common term.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When connecting two ratios (A:B and B:C), find the Least Common Multiple (LCM) of the common term B to combine them.",
+    "blueprint_id": "Ratio and Proportion — combining continued ratios (A:B and B:C to find A:C)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1:** Write the given ratios.\nP : C = 4 : 3\nC : J = 6 : 5\n\n**Step 2:** Identify the common term (C).\nIn the first ratio, C = 3; in the second, C = 6.\n\n**Step 3:** Equalize the common term.\nLCM of 3 and 6 is 6. Multiply the first ratio by 2:\nP : C = (4×2) : (3×2) = 8 : 6\n\n**Step 4:** Combine the ratios.\nNow P : C = 8 : 6 and C : J = 6 : 5, so P : C : J = 8 : 6 : 5.\n\n**Step 5:** Extract P : J.\nP : J = 8 : 5.\n\n### ❌ Why the Distractors Fail\n- **4:5 (A):** Directly took 4 from P:C and 5 from C:J without equalizing C.\n- **6:5 (C):** Mistook C:J as the answer.\n- **12:5 (D):** Multiplied 4 and 3 to get 12, then used 5; incorrect scaling.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-008",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government printer uses 15 reams of paper to produce 600 training manuals. How many reams of paper are required to print 1,000 manuals of the same size?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 reams"
+      },
+      {
+        "key": "B",
+        "text": "22 reams"
+      },
+      {
+        "key": "C",
+        "text": "25 reams"
+      },
+      {
+        "key": "D",
+        "text": "30 reams"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Direct Proportion",
+        "text": "More manuals = MORE paper needed. This is a direct proportion: reams and manuals increase together."
+      },
+      {
+        "rung": 2,
+        "title": "Find Reams per Manual",
+        "text": "Manuals per ream = 600 ÷ 15 = 40 manuals per ream."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Reams Needed",
+        "text": "1,000 manuals ÷ 40 manuals/ream = 25 reams."
+      },
+      {
+        "rung": 4,
+        "title": "Verify by Cross Multiplication",
+        "text": "15 / 600 = X / 1000 → 600X = 15,000 → X = 25."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20 reams might come from dividing 1,000 by 50 (if miscomputing 600/15 = 40, but then using 50). Or from 15 × (1,000/600) = 25, not 20. Possibly a rounding error.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "22 reams is close but incorrect. Could result from using 600/15 = 40, then 1,000/40 = 25, but then subtracting 3. No valid method yields 22.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! 40 manuals per ream. 1,000 ÷ 40 = 25 reams.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "30 reams might come from dividing 1,000 by 33.33 (if miscomputing 600/15 = 40, then 1,000/40 = 25, not 30). Or from 15 × 2 = 30 (doubling reams for 1,200 manuals, not 1,000).",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In direct proportion, set up equal ratios (A1/B1 = A2/B2) and cross-multiply to solve for the unknown.",
+    "blueprint_id": "Ratio and Proportion — direct proportion supplies forecasting",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1:** Recognize direct proportion.\nReams of paper ∝ number of manuals.\n\n**Step 2:** Set up proportion.\n15 reams / 600 manuals = X reams / 1,000 manuals\n\n**Step 3:** Solve using unit rate.\nManuals per ream = 600 / 15 = 40\nReams needed = 1,000 / 40 = 25\n\n**Step 4:** Solve using cross multiplication.\n15 / 600 = X / 1000 → 15 × 1000 = 600 × X → 15,000 = 600X → X = 25\n\n### ❌ Why the Distractors Fail\n- **20 reams (A):** Arithmetic slip; correct is 25.\n- **22 reams (B):** Another arithmetic slip; no valid calculation gives 22.\n- **30 reams (D):** Possibly doubled 15 (for 1,200 manuals) or misdivided 1,000 by 33.33.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-007",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A ₱90,000 community development grant is divided among three barangays A, B, and C in the ratio 1:2:3. What is the difference in grant amount between Barangay C and Barangay A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱30,000"
+      },
+      {
+        "key": "C",
+        "text": "₱45,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Total Parts",
+        "text": "Ratio A:B:C = 1:2:3. Total parts = 1 + 2 + 3 = 6. This tells us how many equal slices the ₱90,000 is divided into."
+      },
+      {
+        "rung": 2,
+        "title": "Find Value per Part",
+        "text": "₱90,000 ÷ 6 = ₱15,000 per part. Each ratio part corresponds to ₱15,000 of the grant."
+      },
+      {
+        "rung": 3,
+        "title": "Find Ratio Difference",
+        "text": "Barangay C has 3 parts, Barangay A has 1 part. Difference = 3 - 1 = 2 parts. The question asks for the difference, not individual shares."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Amount",
+        "text": "2 parts × ₱15,000 = ₱30,000. That's the difference between C and A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱15,000 is the value of 1 ratio part, which is Barangay A's share. The question asks for the difference between C and A, not A's share alone.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Barangay C gets 3 parts (₱45,000), Barangay A gets 1 part (₱15,000). Difference = ₱45,000 - ₱15,000 = ₱30,000.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "₱45,000 is Barangay C's total share (3 parts × ₱15,000). You need to subtract A's share, not just report C's amount.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "₱60,000 comes from adding C and A's parts (3+1=4 parts × ₱15,000). The question asks for the difference, not the sum.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the difference between two shares in a ratio problem, subtract their ratio numbers first, then multiply by the value of one part. Never confuse difference with individual shares or sum.",
+    "blueprint_id": "Ratio and Proportion — calculating difference between ratio shares",
+    "deconstruct_text": "**Step 1: Determine total ratio parts.**\nRatio A:B:C = 1:2:3. Total parts = 1 + 2 + 3 = 6.\n\n**Step 2: Find value per part.**\nTotal grant = ₱90,000. Value per part = ₱90,000 ÷ 6 = ₱15,000.\n\n**Step 3: Calculate each barangay's share.**\nBarangay A: 1 part × ₱15,000 = ₱15,000\nBarangay B: 2 parts × ₱15,000 = ₱30,000\nBarangay C: 3 parts × ₱15,000 = ₱45,000\n\n**Step 4: Compute the difference between C and A.**\nDifference = ₱45,000 - ₱15,000 = ₱30,000.\n\n**Shortcut:** Difference in parts = 3 - 1 = 2 parts. Multiply by value per part: 2 × ₱15,000 = ₱30,000.\n\n**Why wrong answers occur:**\n- ₱15,000: Student picks A's share instead of the difference.\n- ₱45,000: Student picks C's share instead of the difference.\n- ₱60,000: Student adds C and A's shares (3+1=4 parts) instead of subtracting.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-006",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days. If 3 additional workers with the same work rate join the team, how many days will it take to finish the repair?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 days"
+      },
+      {
+        "key": "B",
+        "text": "8 days"
+      },
+      {
+        "key": "C",
+        "text": "9 days"
+      },
+      {
+        "key": "D",
+        "text": "18 days"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Inverse Proportion",
+        "text": "More workers mean fewer days to complete the same work. This is an inverse proportion: workers × days = constant."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Total Man-Days",
+        "text": "Total work = 6 workers × 12 days = 72 man-days. This is the constant amount of work needed."
+      },
+      {
+        "rung": 3,
+        "title": "Find New Worker Count",
+        "text": "Original 6 workers + 3 additional = 9 workers total. More workers will reduce the time."
+      },
+      {
+        "rung": 4,
+        "title": "Divide Work by New Workers",
+        "text": "72 man-days ÷ 9 workers = 8 days. That's the new time required."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 days: This would be correct only if the work doubled or if 12 workers were used (72 ÷ 12 = 6). With 9 workers, it's 8 days.",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct! Total work = 6 × 12 = 72 man-days. New workers = 9. Days = 72 ÷ 9 = 8.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "9 days: This comes from subtracting 3 workers from 12 days (12 - 3 = 9), which ignores the inverse proportion relationship.",
+        "trap_type": "misread_keyword"
+      },
+      "D": {
+        "text": "18 days: This treats it as direct proportion (6/12 = 9/x → x = 18). But more workers mean fewer days, so inverse proportion is needed.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For work-time problems, remember: Workers × Days = Constant (total work). More workers → fewer days. Never subtract or use direct proportion.",
+    "blueprint_id": "Ratio and Proportion — inverse proportion manpower problems",
+    "deconstruct_text": "**Step 1: Recognize inverse proportion.**\nThe amount of work is constant. More workers mean fewer days.\n\n**Step 2: Compute total work in man-days.**\nOriginal: 6 workers × 12 days = 72 man-days.\n\n**Step 3: Find new number of workers.**\n6 original + 3 additional = 9 workers.\n\n**Step 4: Calculate new days.**\nDays = Total work ÷ New workers = 72 ÷ 9 = 8 days.\n\n**Why wrong answers occur:**\n- 6 days: Student divides 72 by 12 instead of 9.\n- 9 days: Student subtracts 3 from 12, ignoring inverse proportion.\n- 18 days: Student uses direct proportion (6/12 = 9/x → x=18), which is incorrect because workers and days are inversely related.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-005",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On an official LGU land survey map, a scale of 2 centimeters represents an actual distance of 5 kilometers. If two barangay halls are 7 centimeters apart on the map, what is their actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 km"
+      },
+      {
+        "key": "B",
+        "text": "17.5 km"
+      },
+      {
+        "key": "C",
+        "text": "20 km"
+      },
+      {
+        "key": "D",
+        "text": "35 km"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Proportion",
+        "text": "Map distance (cm) / Actual distance (km) = 2 / 5 = 7 / x. This is a direct proportion: as map distance increases, actual distance increases proportionally."
+      },
+      {
+        "rung": 2,
+        "title": "Find 1 cm Representation",
+        "text": "If 2 cm = 5 km, then 1 cm = 5 ÷ 2 = 2.5 km. This is the scale factor."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply for 7 cm",
+        "text": "Actual distance = 7 cm × 2.5 km/cm. Multiply the map distance by the scale factor."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Value",
+        "text": "7 × 2.5 = 17.5 kilometers. That's the actual distance between the barangay halls."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "14 km: This comes from multiplying 7 by 2 (ignoring the 5 km part of the scale). The correct scale is 2 cm = 5 km, not 2 cm = 2 km.",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct! 1 cm = 2.5 km. 7 cm × 2.5 km/cm = 17.5 km.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "20 km: Possibly rounding 17.5 up to 20, or miscalculating 7 × 3 = 21 and rounding down. The exact answer is 17.5.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "35 km: This comes from multiplying 7 by 5 without dividing by 2 (7 × 5 = 35). The proportion requires dividing by 2 because 2 cm = 5 km.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In map scale problems, first find what 1 cm represents in real life (divide actual by map), then multiply by the given map distance. Or cross-multiply: (map1/actual1) = (map2/actual2).",
+    "blueprint_id": "Ratio and Proportion — map scale proportional reasoning",
+    "deconstruct_text": "**Step 1: Understand the scale.**\n2 cm on map = 5 km in reality. This is a direct proportion.\n\n**Step 2: Find the scale factor.**\n1 cm = 5 km ÷ 2 = 2.5 km.\n\n**Step 3: Apply to given map distance.**\nMap distance = 7 cm.\nActual distance = 7 cm × 2.5 km/cm = 17.5 km.\n\n**Alternative method (cross-multiplication):**\n2 / 5 = 7 / x → 2x = 35 → x = 17.5 km.\n\n**Why wrong answers occur:**\n- 14 km: Student uses 2 cm = 2 km incorrectly.\n- 20 km: Arithmetic error or rounding.\n- 35 km: Student multiplies 7 × 5 but forgets to divide by 2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-004",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A Provincial Capitol purchased 48 desktop computers and 32 printers for its field offices. Express the ratio of computers to printers in simplest form.",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:3"
+      },
+      {
+        "key": "B",
+        "text": "3:2"
+      },
+      {
+        "key": "C",
+        "text": "2:3"
+      },
+      {
+        "key": "D",
+        "text": "6:4"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Write Initial Ratio",
+        "text": "Computers : Printers = 48 : 32. Make sure the order matches the question: computers first, then printers."
+      },
+      {
+        "rung": 2,
+        "title": "Find Greatest Common Divisor",
+        "text": "What is the largest number that divides both 48 and 32 evenly? List factors: 48 (1,2,3,4,6,8,12,16,24,48) and 32 (1,2,4,8,16,32). The GCD is 16."
+      },
+      {
+        "rung": 3,
+        "title": "Divide by GCD",
+        "text": "Divide both terms by 16: 48 ÷ 16 = 3, 32 ÷ 16 = 2."
+      },
+      {
+        "rung": 4,
+        "title": "Write Simplified Ratio",
+        "text": "The simplified ratio is 3:2. Check: 3 and 2 have no common factors other than 1, so it's in simplest form."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4:3: This comes from dividing 48 by 12 and 32 by 8 (inconsistent divisors). The GCD is 16, not 12 or 8.",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct! GCD of 48 and 32 is 16. 48 ÷ 16 = 3, 32 ÷ 16 = 2. Ratio is 3:2.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "2:3: This reverses the order, giving printers to computers instead of computers to printers. The question asks for computers:printers.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "6:4: This is a simplified form (dividing by 8) but not the simplest. 6 and 4 still share a common factor of 2, so it can be reduced further to 3:2.",
+        "trap_type": "incomplete_simplification"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To simplify a ratio, divide both terms by their Greatest Common Divisor (GCD). Always check that the ratio is in lowest terms (no common factors other than 1).",
+    "blueprint_id": "Ratio and Proportion — simplifying ratios into lowest terms",
+    "deconstruct_text": "**Step 1: Write the ratio in correct order.**\nComputers : Printers = 48 : 32.\n\n**Step 2: Find the GCD of 48 and 32.**\nFactors of 48: 1,2,3,4,6,8,12,16,24,48\nFactors of 32: 1,2,4,8,16,32\nGCD = 16.\n\n**Step 3: Divide both terms by the GCD.**\n48 ÷ 16 = 3\n32 ÷ 16 = 2\n\n**Step 4: Write the simplified ratio.**\n3:2. Since 3 and 2 have no common factors, this is the simplest form.\n\n**Why wrong answers occur:**\n- 4:3: Using inconsistent divisors (48÷12=4, 32÷8=3).\n- 2:3: Reversing the order (printers:computers).\n- 6:4: Dividing by 8 instead of 16; 6:4 can still be reduced by 2 to 3:2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-003",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A disaster relief fund of ₱120,000 is allocated to three barangays in proportion to their population ratio of 3:4:5. How much budget will the barangay with the smallest population receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱30,000"
+      },
+      {
+        "key": "B",
+        "text": "₱40,000"
+      },
+      {
+        "key": "C",
+        "text": "₱50,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Sum the Ratio",
+        "text": "Total parts = 3 + 4 + 5 = 12 parts. The fund is divided into 12 equal shares."
+      },
+      {
+        "rung": 2,
+        "title": "Find One Part",
+        "text": "₱120,000 ÷ 12 = ₱10,000 per ratio part. Each part represents ₱10,000."
+      },
+      {
+        "rung": 3,
+        "title": "Smallest Barangay Share",
+        "text": "The smallest population corresponds to the smallest ratio number, which is 3 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Value",
+        "text": "3 parts × ₱10,000 = ₱30,000. That's the budget for the smallest barangay."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total parts = 12. Value per part = ₱120,000 ÷ 12 = ₱10,000. Smallest barangay (3 parts) = 3 × ₱10,000 = ₱30,000.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱40,000: This is the middle barangay's share (4 parts × ₱10,000). The question asks for the smallest, not the middle.",
+        "trap_type": "wrong_part"
+      },
+      "C": {
+        "text": "₱50,000: This is the largest barangay's share (5 parts × ₱10,000). The question asks for the smallest.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "₱60,000: This comes from multiplying the smallest ratio (3) by ₱20,000, or from dividing ₱120,000 by 2. The correct value per part is ₱10,000, not ₱20,000.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In ratio allocation problems, always identify which ratio part corresponds to the question (smallest, largest, etc.) before calculating. Sum the parts, find value per part, then multiply by the correct part number.",
+    "blueprint_id": "Ratio and Proportion — dividing budget by population ratio",
+    "deconstruct_text": "**Step 1: Sum the ratio parts.**\nRatio = 3:4:5. Total parts = 3 + 4 + 5 = 12.\n\n**Step 2: Find value per part.**\nTotal fund = ₱120,000. Value per part = ₱120,000 ÷ 12 = ₱10,000.\n\n**Step 3: Identify the smallest barangay.**\nSmallest population corresponds to the smallest ratio number, which is 3.\n\n**Step 4: Calculate the budget.**\nBudget = 3 parts × ₱10,000 = ₱30,000.\n\n**Why wrong answers occur:**\n- ₱40,000: Student picks the middle barangay (4 parts).\n- ₱50,000: Student picks the largest barangay (5 parts).\n- ₱60,000: Student uses wrong divisor (e.g., divides by 6 instead of 12, or multiplies 3 by 20,000).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

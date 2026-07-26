@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-466",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "Maria was born in 2005 in the Philippines to a Filipino mother and an alien father (a foreign national). Under Article IV of the 1987 Constitution, what is Maria's citizenship status?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She is a Filipino citizen because she was born in the Philippines."
+      },
+      {
+        "key": "B",
+        "text": "She is a Filipino citizen because her mother is a Filipino citizen."
+      },
+      {
+        "key": "C",
+        "text": "She is not a Filipino citizen because her father is an alien."
+      },
+      {
+        "key": "D",
+        "text": "She is a dual citizen, both Filipino and her father's nationality."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2900",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

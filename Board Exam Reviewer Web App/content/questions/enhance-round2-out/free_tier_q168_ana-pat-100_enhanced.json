@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-100",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Visual Rotation & Symbol Sequence Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Sequence: A square rotates 90 degrees clockwise at each step: Step 1 (Top-Left dot), Step 2 (Top-Right dot), Step 3 (Bottom-Right dot). Where will the dot be in Step 4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bottom-Left"
+      },
+      {
+        "key": "B",
+        "text": "Top-Left"
+      },
+      {
+        "key": "C",
+        "text": "Top-Right"
+      },
+      {
+        "key": "D",
+        "text": "Center"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Square",
+        "text": "Think of a square with four corners. The dot is moving from one corner to the next, always turning the same direction. Can you see the path it's taking?"
+      },
+      {
+        "rung": 2,
+        "title": "The Clockwise Rule",
+        "text": "Clockwise means turning to the right, like the hands of a clock. On a square, going clockwise from the top-left corner takes you to top-right, then bottom-right, then bottom-left, and back to top-left."
+      },
+      {
+        "rung": 3,
+        "title": "Follow the Steps",
+        "text": "Step 1 is top-left. Step 2 is top-right (one clockwise turn). Step 3 is bottom-right (another turn). So for Step 4, you take one more clockwise turn from bottom-right. Where does that land you?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "From bottom-right, the next corner going clockwise is bottom-left. That's exactly where the dot will be in Step 4. Look for that option."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The dot moves clockwise 90 degrees each step, so from bottom-right it goes to bottom-left. You've got the pattern down.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is where the dot started in Step 1, not where it ends up after three moves. It's easy to accidentally go back to the beginning if you lose track of the direction. Remember, we're moving clockwise, not counterclockwise.",
+        "trap_type": "direction_reversal_error"
+      },
+      "C": {
+        "text": "This is the position after just one move (Step 2). It's tempting to pick this if you only think about the first rotation and forget to keep going. The dot has already moved two more steps after this.",
+        "trap_type": "step_skipping_error"
+      },
+      "D": {
+        "text": "The dot never visits the center of the square in this pattern. It only moves to the four corners. This might happen if you imagine the dot drifting inward instead of sticking to the edges.",
+        "trap_type": "position_drift_error"
+      }
+    },
+    "next_time_rule": "For rotation patterns, trace the path with your finger or imagine a clock hand. The dot always moves to the next corner in the same direction. If it's clockwise, just follow the right-hand turn around the square.",
+    "deconstruct_text": "Let's walk through this together. The pattern is simple: the dot rotates 90 degrees clockwise at each step. Think of a square with four corners: top-left, top-right, bottom-right, and bottom-left, in that clockwise order. At Step 1, the dot is at top-left. One clockwise turn (90 degrees) brings it to top-right for Step 2. Another turn lands it at bottom-right for Step 3. One more turn from bottom-right takes it to bottom-left for Step 4. That's option A. The trick is to keep the direction consistent and remember that the dot only visits the corners, never the center. A good mental shortcut is to imagine a tiny arrow on the dot pointing clockwise. Each step, that arrow swings to the next corner.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

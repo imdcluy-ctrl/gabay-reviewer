@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-022",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PROCUREMENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sale"
+      },
+      {
+        "key": "B",
+        "text": "Purchase"
+      },
+      {
+        "key": "C",
+        "text": "Donation"
+      },
+      {
+        "key": "D",
+        "text": "Exchange"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the word 'procurement' in a real-world setting. When a company or government agency needs supplies, what do they do? They go through a process to get them. That process has a specific name."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The core meaning of 'procure' is to obtain something, usually by making a payment. It's not about giving, swapping, or receiving for free. Focus on the action of acquiring through a transaction."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at each option. Which one involves obtaining something by paying for it? 'Sale' is the opposite—it's about giving something to someone else for money. 'Donation' is giving without payment. 'Exchange' is swapping. Only one option means 'to buy'."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Procurement is essentially the formal act of purchasing. The synonym you're looking for is the word that means 'the act of buying.' That's option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mix-up. 'Sale' and 'procurement' are two sides of the same coin—one is selling, the other is buying. If you think of a transaction, it's easy to grab the wrong end. Remember: procurement is about acquiring, not giving away.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Exactly right. Procurement means the act of acquiring goods or services, typically by purchase. Think of it as the official, formal version of 'buying'—especially in business or government settings.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Donation is a generous act, but it's the opposite of what procurement is about. Procurement involves paying to get something; donation involves giving without expecting payment. They're different processes entirely.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Exchange is a trade—you give something to get something. But procurement specifically involves buying, not just swapping. If you think of 'procurement' as any kind of acquisition, this trap feels logical, but the key is the payment part.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "When you see 'procurement,' immediately think 'purchase.' It's the formal act of buying, especially for organizations. The 'Who vs. What' test: procurement is about what you get (goods/services) and how you get them (by paying).",
+    "blueprint_id": "Vocabulary — Procurement",
+    "deconstruct_text": "Let's break this down simply. The word 'procurement' comes from 'procure,' which means to obtain something with care or effort. In the real world, when a company procures office supplies, they're buying them. When the government procures new equipment, they're purchasing it. So the synonym is 'purchase.'\n\nNow, why might the other options trip you up? 'Sale' is the mirror opposite—it's the act of selling, not buying. If you're thinking about a transaction, it's easy to grab the wrong side. 'Donation' and 'Exchange' are different methods of acquisition, but they lack the key element of procurement: paying money to get something.\n\nHere's a mental trick for exam day: The 'Payment Test.' Ask yourself, 'Does this option involve paying to get something?' Sale involves getting paid (opposite). Donation involves no payment. Exchange involves swapping, not necessarily paying. Only purchase involves paying to acquire. That's your answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

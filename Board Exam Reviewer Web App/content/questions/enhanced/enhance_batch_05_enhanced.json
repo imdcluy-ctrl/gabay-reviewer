@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-ratio-014",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A barangay has a total population of 2,400 people. The ratio of adults to children is 5:3. How many adults are in the barangay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1,200"
+      },
+      {
+        "key": "B",
+        "text": "1,400"
+      },
+      {
+        "key": "C",
+        "text": "1,500"
+      },
+      {
+        "key": "D",
+        "text": "1,600"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts",
+        "text": "The ratio 5:3 means adults have 5 parts and children have 3 parts. Add them: 5 + 3 = 8 total parts representing the entire population."
+      },
+      {
+        "rung": 2,
+        "title": "Value Per Part",
+        "text": "Divide the total population by the total parts: 2,400 ÷ 8 = 300 people per part. Each part corresponds to 300 individuals."
+      },
+      {
+        "rung": 3,
+        "title": "Adults' Share",
+        "text": "Adults have 5 parts. Multiply the value per part by 5: 5 × 300 = ? This gives the number of adults."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "5 × 300 = 1,500 adults. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "1,200 is half of 2,400, which would be correct if the ratio were 1:1 (equal adults and children). But the ratio is 5:3, so adults outnumber children. This answer ignores the ratio entirely and simply divides the population by 2.",
+        "trap_type": "half_population_fallacy"
+      },
+      "B": {
+        "text": "1,400 might come from incorrectly using 7 parts (5+2?) or from a miscalculation like 2,400 × 5/8 = 1,500, but then subtracting 100. There's no logical path to 1,400 from the given numbers; it's a plausible but wrong result.",
+        "trap_type": "arbitrary_miscalculation"
+      },
+      "C": {
+        "text": "Correct! 1,500 is obtained by adding ratio parts (5+3=8), dividing total by parts (2,400÷8=300), and multiplying adults' parts by value per part (5×300=1,500).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "1,600 is 2/3 of 2,400, which would correspond to a ratio of 2:1 (adults:children) or 4:2. This might come from mistakenly using 5/3 of the total (5/3 × 2,400 = 4,000, not 1,600) or from a misapplication of the ratio.",
+        "trap_type": "ratio_reversal"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For part-to-whole ratios: add the parts to get total parts, divide the whole by that sum, then multiply by the part you need. Never just split the total in half unless the ratio is 1:1.",
+    "blueprint_id": "Part-to-Whole Ratio — Population Distribution",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Find the total number of parts.**\nThe ratio of adults to children is 5:3. Total parts = 5 + 3 = 8.\n\n**Step 2: Find the value of one part.**\nTotal population = 2,400. Value per part = 2,400 ÷ 8 = 300.\n\n**Step 3: Find the number of adults.**\nAdults correspond to 5 parts. Adults = 5 × 300 = 1,500.\n\n**Why the wrong answers are wrong:**\n- **1,200 (A):** This is half of 2,400, which would be correct only if the ratio were 1:1. The actual ratio 5:3 means adults are more than half.\n- **1,400 (B):** No clear arithmetic path leads to this; it's a random plausible number.\n- **1,600 (D):** This might come from multiplying 5 × 320 (if 2,400/7.5) or from confusing the ratio parts (e.g., using 5/3 of something).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-015",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office has 3 divisions: Administration, Finance, and Operations in the ratio 2:3:5. If the total staff is 200, how many staff are in Finance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "80"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts",
+        "text": "Add all parts of the ratio: Administration (2) + Finance (3) + Operations (5) = 10 total parts. This represents the entire staff of 200."
+      },
+      {
+        "rung": 2,
+        "title": "Value Per Part",
+        "text": "Divide the total staff by the total parts: 200 ÷ 10 = 20 staff per part. Each part corresponds to 20 employees."
+      },
+      {
+        "rung": 3,
+        "title": "Finance's Share",
+        "text": "Finance has 3 parts. Multiply the value per part by 3: 3 × 20 = ? This gives the number of staff in Finance."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "3 × 20 = 60 staff. Option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "40 is the number for Administration (2 parts × 20 = 40). This answer confuses the Finance division (3 parts) with Administration (2 parts).",
+        "trap_type": "wrong_division_selected"
+      },
+      "B": {
+        "text": "Correct! Finance has 3 parts out of 10, so 3/10 of 200 = 60.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "80 is the number for Operations (5 parts × 20 = 80). This answer mistakenly picks the Operations division instead of Finance.",
+        "trap_type": "wrong_division_selected"
+      },
+      "D": {
+        "text": "100 is half of 200, which would be correct if Finance had 5 parts (like Operations) or if the ratio were 1:1:2. This might come from incorrectly thinking Finance is the largest division.",
+        "trap_type": "half_total_fallacy"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always match the ratio part to the specific group asked. Finance is 3 parts, not 2 or 5. Compute each group separately to avoid confusion.",
+    "blueprint_id": "Part-to-Whole Ratio — Department Staffing",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Find total parts.**\nRatio 2:3:5 → total parts = 2 + 3 + 5 = 10.\n\n**Step 2: Find value per part.**\nTotal staff = 200. Value per part = 200 ÷ 10 = 20.\n\n**Step 3: Find Finance staff.**\nFinance has 3 parts. Finance = 3 × 20 = 60.\n\n**Why the wrong answers are wrong:**\n- **40 (A):** This is the number for Administration (2 parts). The student likely picked the wrong division.\n- **80 (C):** This is the number for Operations (5 parts). Again, wrong division.\n- **100 (D):** This is half of 200, which would be correct if Finance had 5 parts. The student may have assumed the largest share or misread the ratio.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-016",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A cleaning solution is made by mixing bleach and water in a ratio of 1:9. If you need 5 liters of bleach, how many liters of water should you add?",
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "50"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Ratio",
+        "text": "The ratio 1:9 means for every 1 part bleach, you need 9 parts water. So water is always 9 times the amount of bleach."
+      },
+      {
+        "rung": 2,
+        "title": "Given Bleach Amount",
+        "text": "You have 5 liters of bleach. Since water = 9 × bleach, multiply 5 by 9."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Water",
+        "text": "5 × 9 = ? This gives the liters of water needed."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "5 × 9 = 45 liters. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "35 might come from multiplying 5 by 7 (instead of 9) or from adding 5 to 30 (a miscalculation). There's no logical basis for 35 given the 1:9 ratio.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "40 might come from multiplying 5 by 8 (instead of 9) or from confusing the ratio (e.g., thinking 1:8). The correct multiplier is 9, not 8.",
+        "trap_type": "wrong_multiplier"
+      },
+      "C": {
+        "text": "Correct! Water = 5 × 9 = 45 liters, following the 1:9 ratio.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "50 might come from multiplying 5 by 10 (instead of 9) or from adding the bleach to the water (5 + 45 = 50, which is the total solution, not just water). The question asks for water only.",
+        "trap_type": "total_solution_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In a part-to-part ratio, multiply the given quantity by the other part's number. Here, water = 9 × bleach. Don't add the given quantity to the result unless asked for total.",
+    "blueprint_id": "Mixture Ratios — Bleach and Water Solution",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Interpret the ratio.**\nBleach : Water = 1 : 9. This means water is 9 times the amount of bleach.\n\n**Step 2: Apply to given bleach.**\nBleach = 5 liters. Water = 5 × 9 = 45 liters.\n\n**Why the wrong answers are wrong:**\n- **35 (A):** Uses multiplier 7 instead of 9.\n- **40 (B):** Uses multiplier 8 instead of 9.\n- **50 (D):** This is the total solution (5 + 45 = 50), not just water. The question asks for water only.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-017",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government agency received a budget of P240,000 divided among 3 departments in the ratio 1:2:3. How much more does the largest share get compared to the smallest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P40,000"
+      },
+      {
+        "key": "B",
+        "text": "P60,000"
+      },
+      {
+        "key": "C",
+        "text": "P80,000"
+      },
+      {
+        "key": "D",
+        "text": "P120,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts",
+        "text": "Add all ratio parts: 1 (smallest) + 2 + 3 (largest) = 6 total parts. The total budget is P240,000."
+      },
+      {
+        "rung": 2,
+        "title": "Value Per Part",
+        "text": "Divide the total budget by total parts: P240,000 ÷ 6 = P40,000 per part. Each part is worth P40,000."
+      },
+      {
+        "rung": 3,
+        "title": "Find Each Share",
+        "text": "Smallest share = 1 part = P40,000. Largest share = 3 parts = 3 × P40,000 = P120,000."
+      },
+      {
+        "rung": 4,
+        "title": "Difference",
+        "text": "Subtract the smallest from the largest: P120,000 - P40,000 = P80,000. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P40,000 is the value of one part (the smallest share itself). The question asks for the difference between largest and smallest, not the smallest share.",
+        "trap_type": "partial_answer_smallest_share"
+      },
+      "B": {
+        "text": "P60,000 might come from subtracting 2 parts from 3 parts (1 part = P40,000, but 1 part difference is P40,000, not P60,000) or from a miscalculation like (3-1)×20,000. The correct difference is 2 parts × P40,000 = P80,000.",
+        "trap_type": "wrong_difference_calculation"
+      },
+      "C": {
+        "text": "Correct! Largest (P120,000) minus smallest (P40,000) = P80,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P120,000 is the largest share itself, not the difference. The student may have stopped after finding the largest share without subtracting the smallest.",
+        "trap_type": "partial_answer_largest_share"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For difference problems, compute both shares first, then subtract. The difference is (largest ratio - smallest ratio) × value per part. Here, (3-1)×40,000 = 80,000.",
+    "blueprint_id": "Ratio — Difference Between Shares",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Find total parts.**\nRatio 1:2:3 → total parts = 1 + 2 + 3 = 6.\n\n**Step 2: Find value per part.**\nTotal budget = P240,000. Value per part = P240,000 ÷ 6 = P40,000.\n\n**Step 3: Find smallest and largest shares.**\nSmallest (1 part) = P40,000. Largest (3 parts) = 3 × P40,000 = P120,000.\n\n**Step 4: Find the difference.**\nDifference = P120,000 - P40,000 = P80,000.\n\n**Why the wrong answers are wrong:**\n- **P40,000 (A):** This is the smallest share, not the difference.\n- **P60,000 (B):** No clear path; possibly (3-1)×30,000 or a miscalculation.\n- **P120,000 (D):** This is the largest share, not the difference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-018",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On a government survey map, the scale is 1:50,000. If two barangays are 8 cm apart on the map, what is the actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 km"
+      },
+      {
+        "key": "B",
+        "text": "3 km"
+      },
+      {
+        "key": "C",
+        "text": "4 km"
+      },
+      {
+        "key": "D",
+        "text": "5 km"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Map Scale Meaning",
+        "text": "Scale 1:50,000 means 1 cm on the map represents 50,000 cm in real life. So multiply map distance by 50,000 to get real distance in cm."
+      },
+      {
+        "rung": 2,
+        "title": "Real Distance in cm",
+        "text": "Map distance = 8 cm. Real distance = 8 × 50,000 = 400,000 cm."
+      },
+      {
+        "rung": 3,
+        "title": "Convert cm to km",
+        "text": "1 km = 100,000 cm (since 1 km = 1,000 m and 1 m = 100 cm). Divide 400,000 cm by 100,000 to get kilometers."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "400,000 ÷ 100,000 = 4 km. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "2 km might come from dividing 8 by 4 (instead of multiplying by 50,000) or from incorrectly converting 400,000 cm to 2 km (e.g., dividing by 200,000). The correct conversion is divide by 100,000.",
+        "trap_type": "unit_conversion_error"
+      },
+      "B": {
+        "text": "3 km might come from a miscalculation like 8×50,000=400,000 then dividing by 133,333 (wrong conversion factor) or from using 1:37,500 scale. The correct conversion factor is 100,000 cm per km.",
+        "trap_type": "unit_conversion_error"
+      },
+      "C": {
+        "text": "Correct! 8 cm × 50,000 = 400,000 cm ÷ 100,000 = 4 km.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "5 km might come from dividing 400,000 cm by 80,000 (wrong conversion) or from multiplying 8 by 62,500 (wrong scale). The correct steps yield 4 km.",
+        "trap_type": "unit_conversion_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Map scale: actual distance = map distance × scale denominator. Then convert cm to km by dividing by 100,000 (since 1 km = 100,000 cm).",
+    "blueprint_id": "Map Scale — Proportional Distance",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Understand the scale.**\n1:50,000 means 1 cm on map = 50,000 cm in reality.\n\n**Step 2: Find real distance in cm.**\nMap distance = 8 cm. Real distance = 8 × 50,000 = 400,000 cm.\n\n**Step 3: Convert cm to km.**\n1 km = 100,000 cm (1 km = 1,000 m, 1 m = 100 cm). So 400,000 cm ÷ 100,000 = 4 km.\n\n**Why the wrong answers are wrong:**\n- **2 km (A):** Possibly divided by 200,000 instead of 100,000.\n- **3 km (B):** Used wrong conversion factor (e.g., 133,333).\n- **5 km (D):** Used wrong conversion factor (e.g., 80,000) or wrong scale.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-019",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A recipe for a government feeding program requires 3 kg of rice for 12 children. How many kg of rice are needed for 30 children?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.5 kg"
+      },
+      {
+        "key": "B",
+        "text": "6.5 kg"
+      },
+      {
+        "key": "C",
+        "text": "7.5 kg"
+      },
+      {
+        "key": "D",
+        "text": "8.0 kg"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Per Child Amount",
+        "text": "The ratio is 3 kg for 12 children. Divide 3 by 12 to find the rice needed per child."
+      },
+      {
+        "rung": 2,
+        "title": "Scale Up",
+        "text": "Once you have the per-child amount (0.25 kg), multiply it by the new number of children (30)."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "0.25 kg × 30 = ? This is a simple multiplication: 0.25 × 30 = 7.5."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The correct answer is 7.5 kg. Option C is the only one that matches this calculation."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "5.5 kg. This might come from incorrectly using 30/12 = 2.5, then 3 × 2.5 = 7.5 but then subtracting 2? Or from a miscalculation like 3/12 = 0.25, 0.25 × 22 = 5.5. The student likely used the wrong number of children (22 instead of 30) or made an arithmetic error.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "6.5 kg. This could result from adding 3 and 30/12 = 2.5 to get 5.5, then adding an extra 1? Or from a miscalculation like 3/12 = 0.25, 0.25 × 26 = 6.5. The student likely used an incorrect multiplier (26 instead of 30) or misapplied the ratio.",
+        "trap_type": "wrong_multiplier"
+      },
+      "C": {
+        "text": "Correct! 7.5 kg. Step 1: Find rice per child: 3 kg ÷ 12 = 0.25 kg/child. Step 2: Multiply by 30 children: 0.25 × 30 = 7.5 kg. This is a direct proportion problem.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "8.0 kg. This might come from incorrectly using 30/12 = 2.5, then 3 × 2.5 = 7.5, but then rounding up? Or from a miscalculation like 3/12 = 0.25, 0.25 × 32 = 8.0. The student likely used an incorrect multiplier (32 instead of 30) or misapplied the ratio.",
+        "trap_type": "wrong_multiplier"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In direct proportion problems, find the unit rate first (per child, per hour, etc.), then multiply by the new quantity. Avoid using the wrong multiplier by double-checking your arithmetic.",
+    "blueprint_id": "Direct Proportion — Feeding Program",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship:** The amount of rice is directly proportional to the number of children. More children require more rice.\n2. **Find the unit rate:** Divide the known amount of rice by the known number of children: 3 kg ÷ 12 children = 0.25 kg per child.\n3. **Scale up:** Multiply the unit rate by the new number of children: 0.25 kg/child × 30 children = 7.5 kg.\n4. **Verify:** Check that the answer makes sense: 30 children is 2.5 times 12 children, so rice should be 3 × 2.5 = 7.5 kg. Correct.\n\n### ❌ Why the Distractors Fail\n- **5.5 kg:** Likely from using 22 children instead of 30 (0.25 × 22 = 5.5) or a miscalculation.\n- **6.5 kg:** Likely from using 26 children instead of 30 (0.25 × 26 = 6.5) or an arithmetic error.\n- **8.0 kg:** Likely from using 32 children instead of 30 (0.25 × 32 = 8.0) or misapplying the ratio.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-020",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A hose can fill a 600-liter government water tank in 4 hours. Another hose can fill the same tank in 6 hours. How much water can they fill together in 1 hour?",
+    "options": [
+      {
+        "key": "A",
+        "text": "200 L"
+      },
+      {
+        "key": "B",
+        "text": "225 L"
+      },
+      {
+        "key": "C",
+        "text": "250 L"
+      },
+      {
+        "key": "D",
+        "text": "275 L"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Individual Rates",
+        "text": "Find the rate of each hose separately. Hose A fills 600 L in 4 hours, so its rate is 600 ÷ 4 = 150 L/hr. Hose B fills 600 L in 6 hours, so its rate is 600 ÷ 6 = 100 L/hr."
+      },
+      {
+        "rung": 2,
+        "title": "Add Rates",
+        "text": "When working together, their rates add up. So combined rate = 150 L/hr + 100 L/hr = ?"
+      },
+      {
+        "rung": 3,
+        "title": "Sum",
+        "text": "150 + 100 = 250 L/hr. That means together they fill 250 liters in one hour."
+      },
+      {
+        "rung": 4,
+        "title": "Answer in 1 Hour",
+        "text": "The question asks for the amount in 1 hour, so the answer is 250 liters. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "200 L. This is the rate of Hose B alone (100 L/hr) doubled? Or it might come from incorrectly averaging the times: (4+6)/2 = 5 hours, then 600/5 = 120 L/hr, but that's not 200. More likely, the student used only one hose's rate (e.g., 600/3 = 200) or miscalculated.",
+        "trap_type": "single_rate_error"
+      },
+      "B": {
+        "text": "225 L. This is the simple average of the two rates: (150+100)/2 = 125, then multiplied by something? Actually, 225 is 150+75, or 100+125. It might come from averaging the times: (4+6)/2 = 5, then 600/5 = 120, then adding 105? Unclear. Most likely, the student incorrectly averaged the rates or times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "Correct! 250 L. Step 1: Rate of Hose A = 600 L / 4 h = 150 L/h. Step 2: Rate of Hose B = 600 L / 6 h = 100 L/h. Step 3: Combined rate = 150 + 100 = 250 L/h. In 1 hour, they fill 250 L.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "275 L. This might come from incorrectly adding the times: 4+6=10, then 600/10=60, then something else? Or from miscalculating one rate: e.g., 600/4=150, 600/5=120, then 150+120=270, close to 275. Or from using 600/2=300, then subtracting 25. Likely an arithmetic error in rate calculation.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For combined work problems, always find each individual rate (work per unit time) first, then add them. Never average the times or rates directly.",
+    "blueprint_id": "Combined Flow Rates",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Find individual rates:**\n   - Hose A: 600 liters ÷ 4 hours = 150 liters per hour.\n   - Hose B: 600 liters ÷ 6 hours = 100 liters per hour.\n2. **Combine rates:** When both hoses work together, their rates add: 150 L/hr + 100 L/hr = 250 L/hr.\n3. **Answer:** In 1 hour, they fill 250 liters. So the correct answer is 250 L.\n\n### ❌ Why the Distractors Fail\n- **200 L:** This is the rate of one hose (e.g., 600/3=200) or a miscalculation. It ignores the contribution of the other hose.\n- **225 L:** This might come from averaging the times (5 hours) and then using 600/5=120, then adding 105? Or from averaging the rates (125) and then adding 100? It's a common mistake to average instead of adding.\n- **275 L:** This is close to 150+125=275, where 125 might come from 600/4.8? Likely an arithmetic error in rate calculation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-021",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a government procurement, the ratio of office chairs to tables is 5:2. If there are 35 chairs, how many tables are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Proportion",
+        "text": "The ratio chairs:tables = 5:2. This means for every 5 chairs, there are 2 tables. We have 35 chairs, so we need to find how many tables correspond to that."
+      },
+      {
+        "rung": 2,
+        "title": "Find Multiplier",
+        "text": "Since 5 parts correspond to 35 chairs, each part is 35 ÷ 5 = 7. So the multiplier is 7."
+      },
+      {
+        "rung": 3,
+        "title": "Tables",
+        "text": "Tables correspond to 2 parts. Multiply the number of parts (2) by the multiplier (7): 2 × 7 = ?"
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "2 × 7 = 14 tables. So the correct answer is 14."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. This might come from incorrectly using 35/5 = 7, then 7 × 1.428? Or from subtracting 25 from 35? More likely, the student used the ratio 5:2 but thought tables = 2/7 of 35 = 10? Actually 2/7 of 35 is 10, so this is a common mistake: using the fraction of the total instead of the multiplier method. But here we don't have a total, we have chairs. So 10 is wrong because it assumes chairs are 5/7 of total, but we don't know total.",
+        "trap_type": "fraction_of_total_misapplication"
+      },
+      "B": {
+        "text": "12. This might come from 35/5 = 7, then 7 × 1.714? Or from a miscalculation like 35/5 = 7, then 7 × 2 = 14, but then subtracting 2? Or from using 35/5 = 7, then 7 × 1.5 = 10.5, rounding? Unclear. Likely an arithmetic error.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! 14. Step 1: The ratio 5:2 means chairs = 5 parts, tables = 2 parts. Step 2: 5 parts = 35 chairs, so 1 part = 35/5 = 7. Step 3: Tables = 2 parts × 7 = 14.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "16. This might come from 35/5 = 7, then 7 × 2.285? Or from adding 2 to 14? Or from using 35/5 = 7, then 7 × 2 = 14, then adding 2? Likely an arithmetic error or misreading the ratio.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In ratio problems, find the value of one part by dividing the known quantity by its ratio number, then multiply by the other ratio number.",
+    "blueprint_id": "Direct Proportion — Procurement Ratio",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Understand the ratio:** Chairs : Tables = 5 : 2. This means for every 5 chairs, there are 2 tables.\n2. **Find the value of one part:** We know there are 35 chairs, which corresponds to 5 parts. So 1 part = 35 ÷ 5 = 7.\n3. **Calculate tables:** Tables correspond to 2 parts, so number of tables = 2 × 7 = 14.\n4. **Verify:** The ratio 35:14 simplifies to 5:2 (divide both by 7). Correct.\n\n### ❌ Why the Distractors Fail\n- **10:** This is 2/7 of 35, which would be correct if 35 were the total, but 35 is only the chairs. The student mistakenly treated 35 as the total.\n- **12:** No clear logical path; likely an arithmetic error.\n- **16:** Possibly from 35/5 = 7, then 7 × 2 = 14, then adding 2 due to misreading.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-022",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government scholarship fund of P180,000 is divided among three students in the ratio 2:3:4. What is the largest individual scholarship?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P40,000"
+      },
+      {
+        "key": "B",
+        "text": "P60,000"
+      },
+      {
+        "key": "C",
+        "text": "P80,000"
+      },
+      {
+        "key": "D",
+        "text": "P90,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts",
+        "text": "The ratio 2:3:4 means there are 2 + 3 + 4 = 9 parts in total. The total fund is P180,000."
+      },
+      {
+        "rung": 2,
+        "title": "Per Part",
+        "text": "Divide the total fund by the total number of parts: P180,000 ÷ 9 = P20,000 per part."
+      },
+      {
+        "rung": 3,
+        "title": "Largest Share",
+        "text": "The largest ratio part is 4. Multiply the per-part value by 4: P20,000 × 4 = ?"
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "P20,000 × 4 = P80,000. So the largest scholarship is P80,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P40,000. This is the smallest share (2 parts × P20,000). The student likely picked the smallest instead of the largest, or misidentified which ratio part corresponds to the largest.",
+        "trap_type": "wrong_target_variable"
+      },
+      "B": {
+        "text": "P60,000. This is the middle share (3 parts × P20,000). The student likely picked the middle instead of the largest, or misidentified the largest ratio part.",
+        "trap_type": "wrong_target_variable"
+      },
+      "C": {
+        "text": "Correct! P80,000. Step 1: Total parts = 2+3+4 = 9. Step 2: Value per part = P180,000 ÷ 9 = P20,000. Step 3: Largest share = 4 parts × P20,000 = P80,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P90,000. This is half of the total (P180,000 ÷ 2). The student might have thought the largest share is half of the total, or miscalculated the per-part value as P180,000 ÷ 2 = P90,000, ignoring the ratio entirely.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For part-to-whole ratio problems, first find the total number of parts, then the value per part, then multiply by the desired part.",
+    "blueprint_id": "Part-to-Whole — Scholarship Distribution",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Find total parts:** The ratio 2:3:4 sums to 2+3+4 = 9 parts.\n2. **Find value per part:** Total fund P180,000 ÷ 9 parts = P20,000 per part.\n3. **Find largest share:** The largest ratio part is 4, so largest scholarship = 4 × P20,000 = P80,000.\n4. **Verify:** The shares are P40,000 (2 parts), P60,000 (3 parts), and P80,000 (4 parts). Sum = P180,000. Correct.\n\n### ❌ Why the Distractors Fail\n- **P40,000:** This is the smallest share (2 parts). The student likely misread \"largest\" as \"smallest\" or picked the wrong ratio part.\n- **P60,000:** This is the middle share (3 parts). The student likely misidentified which part is largest.\n- **P90,000:** This is half of the total, ignoring the ratio entirely. The student might have thought the largest gets half.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-023",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "If 8 civil engineers can complete a road project in 15 days, how many engineers are needed to complete the same project in 10 days?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Inverse Proportion",
+        "text": "This is an inverse proportion: more engineers mean fewer days. So as days decrease, engineers increase. The product of engineers and days is constant."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up",
+        "text": "Let N be the number of engineers needed. The total work is constant: 8 engineers × 15 days = N engineers × 10 days."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "8 × 15 = 120, so 120 = N × 10. Divide both sides by 10: N = 120 ÷ 10 = ?"
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "N = 12. So 12 engineers are needed. Option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. This might come from incorrectly using direct proportion: 8/15 = N/10, then N = (8×10)/15 ≈ 5.33, not 10. Or from 15-8=7, then 10+? Actually, 10 could come from 8 × (15/10) = 12, then subtracting 2? Or from thinking the ratio is 15:10 = 3:2, so engineers should be 8 × 2/3 ≈ 5.33, not 10. Likely a miscalculation or misapplication of inverse proportion.",
+        "trap_type": "proportion_type_error"
+      },
+      "B": {
+        "text": "Correct! 12. Step 1: Total work = 8 engineers × 15 days = 120 engineer-days. Step 2: To complete in 10 days, engineers needed = 120 ÷ 10 = 12.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "14. This might come from 8 × (15/10) = 12, then adding 2? Or from 8 + 6 = 14, where 6 is half of 12? Or from using 8 × 15 = 120, then 120 ÷ 8.57 ≈ 14? Unclear. Likely an arithmetic error or misapplication of direct proportion.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "D": {
+        "text": "16. This might come from using direct proportion: 8/15 = N/10, then N = (8×10)/15 ≈ 5.33, not 16. Or from doubling 8? Or from 8 × (15/10) = 12, then adding 4? Or from thinking the ratio is 15:10 = 3:2, so engineers should be 8 × 3/2 = 12, not 16. Likely a miscalculation or misapplication of inverse proportion.",
+        "trap_type": "proportion_type_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In inverse proportion problems (more workers = fewer days), use the formula: Workers1 × Days1 = Workers2 × Days2. Never set up a direct proportion.",
+    "blueprint_id": "Inverse Proportion — Road Project Manpower",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship:** This is an inverse proportion. More engineers mean fewer days to complete the same work. The total work (engineer-days) is constant.\n2. **Calculate total work:** 8 engineers × 15 days = 120 engineer-days.\n3. **Find required engineers:** To complete in 10 days, engineers needed = 120 engineer-days ÷ 10 days = 12 engineers.\n4. **Verify:** 12 engineers × 10 days = 120 engineer-days, same as before. Correct.\n\n### ❌ Why the Distractors Fail\n- **10:** Likely from incorrectly setting up a direct proportion (8/15 = N/10) or from a miscalculation.\n- **14:** No clear logical path; likely an arithmetic error.\n- **16:** Likely from incorrectly setting up a direct proportion or from doubling the number of engineers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

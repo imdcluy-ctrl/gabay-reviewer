@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-012",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "CONTRACT is to AGREEMENT as LAW is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Court"
+      },
+      {
+        "key": "B",
+        "text": "Legislation"
+      },
+      {
+        "key": "C",
+        "text": "Judge"
+      },
+      {
+        "key": "D",
+        "text": "Lawyer"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Relasyon",
+        "text": "Ang contract ay isang uri ng agreement. Specific : broader category ang pattern ng analogiya na 'to."
+      },
+      {
+        "rung": 2,
+        "title": "Mag-isip ng Umbrella",
+        "text": "Law ay nasa ilalim ng anong umbrella term? Puwedeng statute, legislation. Alin dito ang general category?"
+      },
+      {
+        "rung": 3,
+        "title": "Suriin ang mga Opsyon",
+        "text": "Court ay lugar, Judge at Lawyer tao — hindi sila umbrella. Legislation lang ang umbrella category na sumasaklaw sa law."
+      },
+      {
+        "rung": 4,
+        "title": "Tandaan: Law = Legislation",
+        "text": "Gaya ng contract ay agreement, ang law ay legislation. Pattern: specific term : umbrella term. Kaya B ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because court is where laws are applied, pero ang analogiya ay classification, hindi venue.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "B": {
+        "text": "Correct. Law is a type of legislation, just as contract is a type of agreement — umbrella relationship 'yan.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because a judge interprets laws, pero ang analogiya ay tungkol sa broader category, hindi role.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because a lawyer practices law, pero ang analogiya ay tungkol sa umbrella term para sa batas.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "Sa analogies, hanapin ang umbrella relationship. Contract : Agreement = Law : Legislation. Iwasan mag-associate sa lugar o tao.",
+    "blueprint_id": "Type-Category",
+    "deconstruct_text": "Sa barangay nina Aling Nena at Mang Pedro, pumirma sila ng kontrata para sa paglilinis ng bakuran. Ang kontratang iyon ay isang specific na uri ng kasunduan o agreement.\n\nThat's the relationship: CONTRACT is a type of AGREEMENT. Umbrella term ang agreement — ito ang sumasaklaw sa mas maliit na category.\n\nNgayon, apply natin sa LAW: anong umbrella category ang sumasaklaw sa batas? Ang sagot ay legislation. Parang sa barangay ordinance, specific law pero nasa ilalim ng legislation.\n\nKaya ang tamang sagot ay B: Legislation. Hindi court, judge, o lawyer dahil lugar o tao ang mga iyon, hindi category.\n\n**Watch-Out Zone: semantic_shift_trap** in action. Madaling malito sa lugar o tao, pero...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

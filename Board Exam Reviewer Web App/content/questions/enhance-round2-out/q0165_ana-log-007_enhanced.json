@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-007",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "If it rains, the ground gets wet. The ground is wet. Therefore, it rained. This reasoning is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valid"
+      },
+      {
+        "key": "B",
+        "text": "Sound"
+      },
+      {
+        "key": "C",
+        "text": "Fallacious (affirming consequent)"
+      },
+      {
+        "key": "D",
+        "text": "Modus Tollens"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "Ang pattern: 'Kung P, Q. May Q, kaya P.' Hindi laging tama—marami pang rason ang basa, gaya ng naglinis ng sasakyan."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Sa logic, kapag 'If P then Q' at totoo si Q, hindi mo maaaring i-conclude si P. Iba ang direction ng arrow."
+      },
+      {
+        "rung": 3,
+        "title": "Real-Life Scenario",
+        "text": "Sa barangay, suspendido ang klase—akala mo may bagyo, pero seminar lang pala. Epekto ang suspend, pero hindi patunay ng bagyo."
+      },
+      {
+        "rung": 4,
+        "title": "Name the Fallacy",
+        "text": "Ito ang 'affirming the consequent.' Ang consequent ay ang 'Q' (basang kalsada). Ina-affirm natin siya para sabihing totoo si P."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because it looks logical, but validity forces the conclusion; here, wet ground can come from a broken pipe, so no...",
+        "trap_type": "sequence_pattern_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because true premises seem sound, but soundness also needs validity—and this argument is invalid, so not sound.",
+        "trap_type": "sequence_pattern_inversion"
+      },
+      "C": {
+        "text": "Correct. This is the affirming consequent fallacy: assuming an effect proves a specific cause when other causes exist.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because Modus Tollens involves denying the consequent, but this affirms it—opposite pattern.",
+        "trap_type": "sequence_pattern_inversion"
+      }
+    },
+    "next_time_rule": "Kapag 'If P then Q' tapos may Q, huwag mag-conclude ng P. The effect can have many causes—affirming consequent yan.",
+    "blueprint_id": "Conditional Logic — Affirming Consequent Fallacy",
+    "deconstruct_text": "Sa exam, isipin mo ang logic: 'Kung uulan, basa ang kalsada.' Kung basa ang kalsada, awtomatikong umulan ba? Hindi, kasi baka may naghugas ng kotse o nagbuhos ng timba. Sa barangay, kunwari suspendido ang klase—hindi ibig sabihin may bagyo; baka may seminar ang teach...\n\nMental trick: Isiping parang one-way street—ang cause (ulan) papunta sa effect (basang daan). Bawal umatras—hindi porke't basa, ulan na. Parang sinigang na maasim, pero hindi lahat ng maasim ay sinigang; pwedeng paksiw. Kapag nakita mo sa exam ang 'If P then Q' tapos...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

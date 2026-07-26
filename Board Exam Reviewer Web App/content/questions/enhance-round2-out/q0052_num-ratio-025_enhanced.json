@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-025",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 50-hectare government farm is planted with corn and rice in the ratio 2:3. How many hectares are planted with rice?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 ha"
+      },
+      {
+        "key": "B",
+        "text": "25 ha"
+      },
+      {
+        "key": "C",
+        "text": "30 ha"
+      },
+      {
+        "key": "D",
+        "text": "35 ha"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Mag-isip ng Parts",
+        "text": "Ang ratio 2:3 ay nangangahulugang hatiin ang buong sakahan sa pantay-pantay na piraso: 2 para sa mais, 3 para sa bigas. Ilan lahat?"
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang Halaga ng Isang Bahagi",
+        "text": "Kung 5 kabuuang bahagi ang 50 ektarya, magkano ang isang bahagi? Hatiin ang 50 sa 5."
+      },
+      {
+        "rung": 3,
+        "title": "Kwenta sa Bigas",
+        "text": "Bawat bahagi ay 10 ektarya. Bigas ay may 3 bahagi, kaya 3 × 10 = 30 ektarya."
+      },
+      {
+        "rung": 4,
+        "title": "I-double Check",
+        "text": "Kung bigas ay 30 ektarya, mais ay 2 × 10 = 20 ektarya. 20 + 30 = 50. Tama!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 20 ha is the corn area—easy to grab the first number, but the question asks for rice.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 25 ha comes from dividing 50 by 2 instead of by the total parts (5). Always add ratio numbers first.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "Correct. Rice gets 3 of 5 equal parts: (50÷5)=10 per part, then 3×10=30 ha.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 35 ha uses 3/4 of 50 (wrong fraction). Rice’s share is 3/5, not 3/4. Denominator is sum of parts.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Sa ratio, laging i-add ang mga parte, hatiin ang kabuuan sa total parts, tapos i-multiply sa target. Parang hatian ng pamasahe sa jeep.",
+    "blueprint_id": "Part-to-Whole — Farm Land Allocation",
+    "deconstruct_text": "Sa Barangay San Jose, Nueva Ecija, mayroong 50 ektaryang lupang sakahan na nakalaan sa mais at palay. Ang hatian ay 2 bahagi mais, 3 bahagi palay. Ibig sabihin, hatiin natin ang buong lupa sa 5 pantay-pantay na piraso.\n\nBawat piraso ay katumbas ng 50 ÷ 5 = 10 ektarya. Ang palay ay may 3 piraso, kaya 3 × 10 = 30 ektarya. Ang mais naman ay 2 × 10 = 20 ektarya. Kapag pinagsama, 30 + 20 = 50 — swak na swak!\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Many test-takers mistakenly u...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

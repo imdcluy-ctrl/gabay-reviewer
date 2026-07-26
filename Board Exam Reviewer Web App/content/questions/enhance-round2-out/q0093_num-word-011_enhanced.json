@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-011",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "The sum of two numbers is 48. The difference is 12. What are the numbers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "28 and 20"
+      },
+      {
+        "key": "B",
+        "text": "30 and 18"
+      },
+      {
+        "key": "C",
+        "text": "32 and 16"
+      },
+      {
+        "key": "D",
+        "text": "34 and 14"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Budget Equations",
+        "text": "Hayaan ang Health = H, Education = E. So H + E = 48,000 at H - E = 12,000. Dalawang equation para sa dalawang hindi alam."
+      },
+      {
+        "rung": 2,
+        "title": "Solve for H (Health)",
+        "text": "Add the equations: (H+E)+(H-E)=48,000+12,000 → 2H = 60,000 → H = 30,000. Kaya Health budget ay ₱30k."
+      },
+      {
+        "rung": 3,
+        "title": "Find E (Education)",
+        "text": "Isubstitute: 30,000 + E = 48,000 → E = 18,000. Kaya Education budget ₱18k."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm with Options",
+        "text": "Ang pair (30,000, 18,000) ay Option B. I-check: sum=48,000, diff=12,000. Tama."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 28,000+20,000=48,000 pero ang difference ay 8,000, hindi 12,000.",
+        "trap_type": "difference_miscalculation"
+      },
+      "B": {
+        "text": "Correct. 30,000+18,000=48,000 at difference=12,000, exactly. Nagmula sa tamang formula: larger=(sum+diff)/2, smaller=(sum-diff)/2.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 32,000+16,000=48,000 pero diff=16,000, maling pagkalkula ng average.",
+        "trap_type": "sum_difference_formula_error"
+      },
+      "D": {
+        "text": "You might have chosen D because 34,000+14,000=48,000 pero diff=20,000; baka na-swap ang values.",
+        "trap_type": "transposition_error"
+      }
+    },
+    "next_time_rule": "Larger=(Sum+Diff)/2, Smaller=(Sum-Diff)/2. 'Plus-diff hati 2, Kuya; minus-diff hati 2, Bunso.'",
+    "blueprint_id": "Sum and Difference",
+    "deconstruct_text": "Alam mo, parang budget ng barangay ito—may dalawang pondo: Health (mas malaki) at Education (mas maliit). Total ₱48,000, at alam nating mas malaki ang Health ng ₱12,000. Gawin nating equation: H + E = 48,000 at H - E = 12,000.\n\nStep 1: Formula natin: Larger = (Sum + Diff)/2, Smaller = (Sum - Diff)/2. Kaya H = (48,000 + 12,000)/2 = 30,000, at E = (48,000 - 12,000)/2 = 18,000.\n\nStep 2: Verify: 30k+18k=48k, diff=12k. Tamang sagot Option B, ₱30,000 at ₱18,000.\n\n**Bakit mali ang iba?** 28k & 20k: diff=8k. 32k & 16k: diff=16k. 34k & 14k: diff=20k. Laging i-check ang difference!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

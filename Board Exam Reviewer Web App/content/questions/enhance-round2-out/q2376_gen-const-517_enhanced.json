@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-517",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "A foreign investor wants to acquire a 5-hectare residential lot in Tagaytay. Under Article XII of the 1987 Philippine Constitution, which of the following statements is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The foreign investor may acquire the lot because the Constitution allows foreign ownership of land for residential use up to 10 hectares."
+      },
+      {
+        "key": "B",
+        "text": "The foreign investor may acquire the lot only if he invests at least USD 200,000 in the country."
+      },
+      {
+        "key": "C",
+        "text": "The foreign investor cannot acquire the lot because the Constitution generally prohibits aliens from owning land in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "The foreign investor may acquire the lot if he becomes a naturalized citizen within five years."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2951",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

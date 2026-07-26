@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-009",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The success of the barangay Development Council depends largely on the active participation of its members. When community members contribute their ideas and resources, projects are more likely to address actual needs.' What can be inferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Community participation is unimportant."
+      },
+      {
+        "key": "B",
+        "text": "Government should fund all projects."
+      },
+      {
+        "key": "C",
+        "text": "Active participation improves project outcomes."
+      },
+      {
+        "key": "D",
+        "text": "Barangay councils are ineffective."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Susing Parirala",
+        "text": "Ang passage ay nakatuon sa 'When community members contribute... projects are more likely to address actual needs.' Ito ang puso ng inference."
+      },
+      {
+        "rung": 2,
+        "title": "Uri ng Inference",
+        "text": "Ang inference ay dapat direktang lohikal na konklusyon mula sa teksto. Hindi ito opinyon o haka-haka."
+      },
+      {
+        "rung": 3,
+        "title": "Alisin ang Di-Tugma",
+        "text": "Option A at D direktang sumasalungat sa mensahe ng passage. Option B nagdadagdag ng bagong paksa (funding) na wala sa teksto."
+      },
+      {
+        "rung": 4,
+        "title": "Tamang Sagot",
+        "text": "Option C ang tanging tama: 'Active participation improves project outcomes.' Ito ay buod ng cause-effect relationship sa passage."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you hastily concluded participation is unimportant, a hasty generalization.",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "You might have chosen B because you assumed government funding is the cause of success, a false cause fallacy.",
+        "trap_type": "false_cause_fallacy"
+      },
+      "C": {
+        "text": "Correct. Active participation directly leads to improved project outcomes as shown by the cause-effect relationship.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you overgeneralized from 'depends on' to 'ineffective,' a hasty generalization.",
+        "trap_type": "hasty_generalization"
+      }
+    },
+    "next_time_rule": "Pag nag-iinfer, balik sa ebidensya ng teksto. Kung hindi direktang supported, malamang distractor. Tandaan: Text-first!",
+    "blueprint_id": "Inference — Community Participation",
+    "deconstruct_text": "Isipin mo: Sa Barangay San Jose, nag-organize si Kagawad Linda ng clean-up drive. Noong una, konti lang ang tumulong, kaya mabagal ang progress. Pero nang nag-ambag ang mga residente ng walis, garbage bags, at oras, mas mabilis natapos ang proyekto at talagang natugu...\n\nGanito rin sa passage: ang tagumpay ng Barangay Development Council ay nakasalalay sa aktibong partisipasyon. Kapag ang komunidad ay nag-ambag ng ideya at resources, mas may posibilidad na matugunan ang tunay na pangangailangan. Ang inference ay: aktibong partisipasy...\n\n**Watch-Out Zone: hasty_generalization** in action. Iwasan ang pagsagot base sa unang i...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

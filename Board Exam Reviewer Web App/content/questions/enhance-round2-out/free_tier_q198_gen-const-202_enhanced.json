@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-202",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article VIII",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Judicial Department (Supreme Court and Lower Courts)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article VIII (Judiciary)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is about the structure of the 1987 Constitution. Think about how the document organizes the three branches of government. Each branch has its own dedicated article."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The three branches appear in order: Legislative (Article VI), Executive (Article VII), and Judicial (Article VIII). So the judiciary is always Article VIII. Remember the sequence: 6, 7, 8."
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Here",
+        "text": "The question specifically asks about the Judicial Department. Since the judiciary is the third branch, it must be Article VIII. The other options—Article I (territory), Article III (rights), and Article V (voting)—cover completely different topics."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're looking for the article that defines the judiciary's powers and organization. That's Article VIII. Option A is the only one that matches. The others are about territory, individual rights, and suffrage—not the structure of the courts."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VIII is the home of the Judicial Department in the 1987 Constitution. It lays out everything about the Supreme Court and lower courts—their powers, qualifications of justices and judges, and how the judiciary is organized. This is a foundational piece of constitutional structure.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I deals with the National Territory—the country's boundaries, waters, and airspace. A smart student might pick this thinking the first article covers the first branch, but that's not how the Constitution works. Article I is about geography, not government structure.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual freedoms like speech, religion, and due process. It's easy to associate this with courts because judges enforce these rights, but the article itself doesn't define the judiciary's organization or powers. It's about what the courts protect, not how they're built.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V covers Suffrage—the right to vote. This is a common distractor because both voting and the judiciary are important constitutional topics, but they live in different articles. Article V is about citizens' participation in elections, not the structure of the courts.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "Remember the branch sequence: Legislative = Article VI, Executive = Article VII, Judicial = Article VIII. Think of it as counting up from 6 to 8 for the three branches. If the question asks about the judiciary, your mind should jump straight to Article VIII.",
+    "deconstruct_text": "Let's walk through this together. The question asks which article governs the Judicial Department—the Supreme Court and lower courts. The key is knowing how the 1987 Constitution organizes the three branches of government. They appear in a specific order: first comes the Legislative branch in Article VI, then the Executive in Article VII, and finally the Judicial branch in Article VIII. So the judiciary is always Article VIII. Now look at the other options. Article I is about the National Territory—the country's physical boundaries, not a branch of government. Article III is the Bill of Rights, which protects individual liberties but doesn't define the courts' structure. Article V covers Suffrage, or voting rights. None of these describe the organization or powers of the judiciary. The mental trick here is simple: whenever you see a question about a branch of government, immediately think of its article number. Legislative is 6, Executive is 7, Judicial is 8. That sequence is your anchor. It's like remembering that the third floor of a building is where the courts are—you don't confuse it with the first floor (territory) or the third floor of a different building (rights). Just keep the numbers straight: 6, 7, 8 for the three branches.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

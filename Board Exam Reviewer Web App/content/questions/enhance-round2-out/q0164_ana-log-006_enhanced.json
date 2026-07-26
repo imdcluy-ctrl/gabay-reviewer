@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-006",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Mr. Reyes is a department head.\nConclusion: Therefore, Mr. Reyes is career service eligible.\nThis is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modus Tollens"
+      },
+      {
+        "key": "B",
+        "text": "Modus Ponens"
+      },
+      {
+        "key": "C",
+        "text": "Fallacy"
+      },
+      {
+        "key": "D",
+        "text": "Inductive reasoning"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Structure ng Argumento",
+        "text": "Pansinin ang flow: general rule, specific person, certain conclusion. Deductive ang pattern, hindi hula."
+      },
+      {
+        "rung": 2,
+        "title": "Kung-Then na Relasyon",
+        "text": "'Kung department head, eligible.' Si Reyes ay dept head, so eligible. Affirm ang first part (antecedent) para makuha ang second."
+      },
+      {
+        "rung": 3,
+        "title": "Ibang Patterns",
+        "text": "Modus Tollens: 'Kung P then Q. Hindi Q, so hindi P.' Hindi iyan dito. Valid ito, hindi fallacy. Inductive ay probability lang."
+      },
+      {
+        "rung": 4,
+        "title": "Pangalan ng Pattern",
+        "text": "Modus Ponens: affirm P (antecedent) to conclude Q (consequent). Kung P then Q, P totoo, Q totoo. 'Ponens = positive affirmation.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because Modus Tollens denies the consequent, not affirms the antecedent like here.",
+        "trap_type": "logic_error"
+      },
+      "B": {
+        "text": "Correct. This is Modus Ponens: affirming the antecedent (P) leads to the consequent (Q).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you thought it's invalid, but the argument is valid—if premises true, conclusion must be true.",
+        "trap_type": "logic_error"
+      },
+      "D": {
+        "text": "You might have chosen D because it seems like a general rule, but inductive reasoning only gives probability, not certainty.",
+        "trap_type": "logic_error"
+      }
+    },
+    "next_time_rule": "Tandaan: Ponens = Positive affirmation (P totoo, Q totoo). Tollens = Take away (di Q totoo, di P totoo).",
+    "blueprint_id": "Categorical Syllogism — Modus Ponens",
+    "deconstruct_text": "Imagine a barangay budget scenario: 'All barangay captains must attend the meeting.' Kapitan Reyes is a captain, so he must attend. That's Modus Ponens: a general rule applied to a specific person to yield a guaranteed conclusion. It's deductive, not just probable.\n\nThe logical structure is: If P (department head) then Q (eligible). Here, P is true (Mr. Reyes is a dept. head), so Q must be true. This is affirming the antecedent. Compare with Modus Tollens: If P then Q, but Q is false, so P false. That's denial of the consequent.\n\nTaglish memory trick: 'Ponens' parang 'positive affirmation' – sinasabi mong totoo ang P, kaya totoo rin ang Q. 'Tollens' parang 'taking away' – inaalis mo ang Q, kaya mawawala rin ang P. Sa exam, tignan mo kung ina-affirm ang unang part o dini-deny ang second part.\n\nSa problemang ito, klaro na ina-affirm natin ang antecedent (Mr. Reyes ay department head) para i-conclude ang consequent (eligible siya). Walang fallacy, at hindi ito induction dahil certain ang conclusion, hindi probable.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

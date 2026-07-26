@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-497",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-government",
+    "question_text": "In a barangay, a dispute arises between two neighbors over a property boundary. Before going to court, they are encouraged to settle the matter through the Katarungang Pambarangay. What is the role of the Punong Barangay in this process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Punong Barangay acts as a judge and issues a binding decision."
+      },
+      {
+        "key": "B",
+        "text": "The Punong Barangay mediates or conciliates between the parties to reach an amicable settlement."
+      },
+      {
+        "key": "C",
+        "text": "The Punong Barangay refers the case directly to the municipal trial court."
+      },
+      {
+        "key": "D",
+        "text": "The Punong Barangay appoints a lawyer to represent both parties."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3236",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

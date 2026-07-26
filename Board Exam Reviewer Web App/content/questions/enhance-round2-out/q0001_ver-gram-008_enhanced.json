@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alamin ang Kasunod",
+        "text": "Ano ba ang kasunod ng blank — tao o trabaho? Basahin ulit: 'overseeing the regional operations'."
+      },
+      {
+        "rung": 2,
+        "title": "Ang Rule ng 'Responsible'",
+        "text": "Alamin: 'responsible to' ay para sa boss; 'responsible for' ay para sa trabahong hawak mo."
+      },
+      {
+        "rung": 3,
+        "title": "Gamitin ang Rule",
+        "text": "Dito, 'overseeing operations' ay trabaho. So aling preposition ang tama para sa trabaho?"
+      },
+      {
+        "rung": 4,
+        "title": "Final na Sagot",
+        "text": "Kung trabaho, 'for' ang kasama. Alin sa mga pagpipilian ang 'for'?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Responsible for' is the standard pairing when in charge of a task like overseeing operations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because phrases like 'charged with' sound similar, but 'responsible' pairs with 'for', not 'with'.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "You might have chosen C because you know 'responsible to' is for people, but here the object is a task, not a boss.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'involved in' misleads you, but 'responsible in' is not an English idiom.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Pag may 'responsible,' tanungin: Sino o Ano? Kung tao, gamit 'to'; kung trabaho, gamit 'for'.",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "Step 1: Identify the Anchor Element (subject, antecedent, tense marker)\nFocus on 'responsible.' It pairs with 'for' or 'to' — depende kung sino o ano ang sinusundan mo, gaya ng pag-handle ng satellite office ng LGU sa probinsya.\n\nStep 2: Recall the Corresponding Rule\nAng golden rule: 'responsible to' ay para sa tao o authority na tinatanungan mo; 'responsible for' ay para sa trabaho o tungkuling hawak mo. Think \"Who vs. What.\"\n\nStep 3: Eliminate Invaders and Confirm\nLook at what follows: 'overseeing the regional operations' — ito ay trabaho, hindi boss. So tamang preposition ay 'for.' Option A ang tama.\n\n**Watch-Out Zone: preposition_misuse** in action. 'Responsible to' sa task? Mali 'yan.\n\n**Mental Trick & Rule of Thumb:**\nTaglish Rule: Tanungin ang 'What?' — kapag trabaho, gamitin ang 'for' parang assignment sa barangay.\n(Ask yourself: Bakit 'for' ang kailangan? Kasi tungkulin ang hawak, hindi tao.)",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

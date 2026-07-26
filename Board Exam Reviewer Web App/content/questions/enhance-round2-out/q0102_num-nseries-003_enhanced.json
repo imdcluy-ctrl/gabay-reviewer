@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-nseries-003",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "question_text": "Find the next: 1, 1, 2, 3, 5, 8, 13, __",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Pansinin ang pattern",
+        "text": "Ang sequence na 1, 1, 2, 3, 5, 8, 13 ay parang Fibonacci. Ang susunod ay sum ng huling dalawang term."
+      },
+      {
+        "rung": 2,
+        "title": "I-verify ang sum",
+        "text": "I-check: 1+1=2, 1+2=3, 2+3=5, 3+5=8, 5+8=13. Tama ang pattern."
+      },
+      {
+        "rung": 3,
+        "title": "Compute para sa next",
+        "text": "Kunin ang suma ng 8 at 13. 8+13 = 21."
+      },
+      {
+        "rung": 4,
+        "title": "Final answer",
+        "text": "Kaya ang susunod na term ay 21. Madali lang, 'di ba?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 13+5=18, but the pattern is sum of two previous terms, not just adding 5.",
+        "trap_type": "wrong_addition_pattern"
+      },
+      "B": {
+        "text": "You might have chosen B because 13+6=19, guessing an increment, but Fibonacci adds the two preceding numbers.",
+        "trap_type": "wrong_addition_pattern"
+      },
+      "C": {
+        "text": "You might have chosen C because 13+7=20, missing the two-term sum rule.",
+        "trap_type": "wrong_addition_pattern"
+      },
+      "D": {
+        "text": "Correct. 21 equals 8+13, following Fibonacci: each term is sum of the previous two.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "If the series starts 1,1,2,3,5,8, it's Fibonacci. Just add the last two terms. No need for complex patterns, i-add lang.",
+    "blueprint_id": "Fibonacci Sequence",
+    "deconstruct_text": "Sa Barangay Masagana, may community pantry na sinundan ang Fibonacci sa weekly budget. Week 1: ₱1,000; Week 2: ₱1,000; Week 3: ₱2,000 (sum ng nakaraang dalawa). Kaya naging 1,1,2,3,5,8,13 (thousands).\n\nPara sa ika-8 linggo, kunin mo ang huling dalawang term: 8 at 13. I-add mo lang: 8+13=21. Kaya ₱21,000 ang budget. Walang komplikado—simple addition lang.\n\nAng rule: mula ikatlong term, bawat isa ay sum ng dalawang nauna. Kahit umabot ng 100 terms, sisiw basta alam ang pattern.\n\n**Mental Trick:** 'FiBo: First two 1s, then Bo-sum ng dalawa, na-next na sum ulit, chi-check lang last two.'",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

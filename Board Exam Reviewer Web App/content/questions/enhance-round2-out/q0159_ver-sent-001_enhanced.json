@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-001",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The government is committed ___ providing quality public service.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient: Spot the Adjective",
+        "text": "The blank follows 'committed', an adjective. Know that adjectives often have fixed partners: prepositions they always appear with."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: 'Committed' + 'to' Always",
+        "text": "In English, the adjective 'committed' is always followed by the preposition 'to'. Think of them as a pair: 'committed to' is a single chunk."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Test the Options",
+        "text": "Try each: 'committed on providing', 'committed in providing', 'committed for providing'. Only 'to' sounds natural. Say it aloud: 'committed to prov..."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away: The 'Jowa' Mnemonic",
+        "text": "Alala mo: 'committed' at 'to' ay parang mag-jowa—hindi sila naghihiwalay. Sa exam, kapag nakita mo 'committed', isipin mo agad 'to'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you confused 'committed' with 'focused on', but 'committed' always pairs with 'to'.",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "You might have chosen B because 'involved in' sounds familiar, but 'committed' demands 'to', not 'in'.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "Correct. 'Committed to' is the standard English pairing; it means being dedicated to something.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of phrases like 'committed for trial', but with a gerund, 'to' is the only correct preposition.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Committed' + 'to' = tamang tandem. Isipin mong kambal sila: hindi puwedeng hiwalay. Kabisaduhin ito bilang isang unit para hindi magkamali.",
+    "blueprint_id": "Prepositions — Committed To",
+    "deconstruct_text": "Let's use a real-life scenario: Your barangay captain is committed to building a new health center. The phrase is 'committed to building'. 'Committed' is like a best friend that always hangs out with 'to'. So kabisado: 'committed to' always.\n\nWhen you see 'committed', tapos may verb na -ing, automatic 'to' dapat 'yan. Think of 'committed to serving', 'committed to providing'. Other prepositions feel awkward—'committed on' parang hindi maganda sa tenga.\n\nTry saying the other choices: 'committed on providing', 'committed in providing', 'committed for providing'. Lahat sila, parang mali ang tono. Your ear knows the natural pair: 'committed to'. Trust your instinct.\n\nMnemonic: Isipin mo 'committed' at 'to' ay parang mag-jowa na laging magkasama. Hindi sila naghihiwalay. So whenever you see 'committed', the first word that comes to mind is 'to'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

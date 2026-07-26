@@ -1,0 +1,142 @@
+.stamina-chart-card {
+  background: var(--color-bg-card, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.stamina-header {
+  margin-bottom: 1.25rem;
+}
+
+.stamina-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0 0 0.25rem 0;
+}
+
+.stamina-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0;
+}
+
+.stamina-points-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.stamina-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem;
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  background: var(--color-bg-secondary, #f8fafc);
+  flex-wrap: wrap;
+}
+
+.stamina-row.fatigue-alert {
+  background: #fef2f2;
+  border-color: #fca5a5;
+}
+
+.stamina-attempt-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 90px;
+}
+
+.attempt-badge {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-text-primary, #0f172a);
+}
+
+.attempt-date {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #94a3b8);
+}
+
+.stamina-bars-group {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 200px;
+}
+
+.bar-subrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+}
+
+.bar-lbl {
+  width: 80px;
+  color: var(--color-text-secondary, #64748b);
+  flex-shrink: 0;
+}
+
+.bar-track {
+  flex-grow: 1;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: var(--radius-full, 9999px);
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full, 9999px);
+  transition: width 0.3s ease;
+}
+
+.bar-fill.q1 {
+  background: var(--color-brand-teal, #0d7377);
+}
+
+.bar-fill.q4 {
+  background: #3b82f6;
+}
+
+.bar-val {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-weight: 600;
+  width: 40px;
+  text-align: right;
+
+}
+
+.stamina-status-col {
+  min-width: 140px;
+  text-align: right;
+}
+
+.fatigue-warning-badge {
+  background: #fee2e2;
+  color: #dc2626;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.stamina-stable-badge {
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}

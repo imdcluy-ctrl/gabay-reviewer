@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-011",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Logical reasoning question 1: All public servants must be honest. Juan is a public servant. What follows?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan is honest"
+      },
+      {
+        "key": "B",
+        "text": "Juan may be dishonest"
+      },
+      {
+        "key": "C",
+        "text": "No conclusion"
+      },
+      {
+        "key": "D",
+        "text": "Juan is a manager"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the structure of the argument. You have two statements: one that talks about a whole group, and another that places a specific person inside that group. What kind of logical pattern is this?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "This is a classic syllogism. The pattern is: All members of Group X have Property Y. Person Z is a member of Group X. Therefore, Person Z has Property Y. The conclusion is certain, not just likely."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Here, Group X is 'public servants,' Property Y is 'honest,' and Person Z is 'Juan.' Since the rule says all public servants are honest, and Juan is a public servant, what must be true about Juan?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The only logically necessary conclusion is that Juan is honest. The other options either introduce doubt where there is none, claim no conclusion is possible, or bring in irrelevant information about being a manager."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is a valid deductive inference. If all public servants are honest, and Juan is a public servant, then Juan must be honest. The conclusion follows with certainty, not probability.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a tempting option if you think about real-world possibilities, but in logic, we only work with the given premises. The statement says all public servants are honest, so there is no room for doubt. Juan cannot be dishonest based on these premises alone.",
+        "trap_type": "false_uncertainty"
+      },
+      "C": {
+        "text": "You might pick this if you feel unsure about drawing conclusions, but a definite conclusion does follow. The syllogism is complete and valid. The trap here is thinking that because the statement is simple, no inference can be made.",
+        "trap_type": "false_indecision"
+      },
+      "D": {
+        "text": "This option adds information that is not in the premises. The statements say nothing about managers. A common mistake is to bring in outside knowledge or assumptions, but in logical reasoning, you must stick strictly to what is given.",
+        "trap_type": "irrelevant_introduction"
+      }
+    },
+    "next_time_rule": "For any 'All A are B. x is A. Therefore, x is B.' pattern, the conclusion is certain. Do not introduce doubt or outside information. Stick to the premises.",
+    "blueprint_id": "Logical Reasoning 1",
+    "deconstruct_text": "This is a classic categorical syllogism, a building block of logical reasoning. Think of it like a set of nesting boxes. The first statement, 'All public servants must be honest,' tells you that the box labeled 'public servants' fits entirely inside the box labeled 'honest people.' The second statement, 'Juan is a public servant,' places Juan inside the 'public servants' box. Since that box is fully inside the 'honest people' box, Juan must also be inside the 'honest people' box. That is why the only logical conclusion is that Juan is honest. The other options fail because they either introduce doubt where the premises allow none, claim no conclusion is possible when one clearly follows, or bring in irrelevant categories like 'manager.' The mental trick here is to visualize the sets: if all of Group A is inside Group B, and x is in Group A, then x is automatically in Group B. No exceptions, no uncertainty.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,56 @@
+id: ver-gram-003
+subtopic: grammar-correct-usage
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["dangling-modifier", "official-reports"]
+estimated_seconds: 75
+question_text: "Identify the sentence that avoids a dangling modifier."
+options:
+  - key: A
+    text: "Having completed the audit, the report was submitted to the Bureau of Internal Revenue."
+  - key: B
+    text: "Having completed the audit, the CPA submitted the report to the Bureau of Internal Revenue."
+  - key: C
+    text: "Walking into the office, the computer was left turned on overnight."
+  - key: D
+    text: "While reviewing the documents, a syntax error was discovered by the clerk."
+correct: B
+blueprint_id: "Dangling Modifiers — Aligning Introductory Participle with Logical Subject"
+hint_ladder:
+  - rung: 1
+    title: "Spot Introductory Phrase"
+    text: "'Having completed the audit' describes an action performed by a person."
+  - rung: 2
+    title: "Ask Who Performed Action"
+    text: "Who completed the audit? A report cannot perform an audit!"
+  - rung: 3
+    title: "Check Subject Immediately Following Comma"
+    text: "The noun immediately following the comma MUST be the logical actor."
+  - rung: 4
+    title: "Select Correct Sentence"
+    text: "In B, 'the CPA' immediately follows the comma, correctly attaching the action."
+deconstruct_text: |
+  A modifier dangles when the noun it modifies is missing or misplaced.
+  In A, 'the report' follows the comma -> implies report audited itself!
+  In B, 'the CPA' correctly follows the comma.
+  In C, 'the computer' cannot walk into an office.
+  In D, 'a syntax error' cannot review documents.
+choice_explanations:
+  A:
+    text: "Dangling modifier. Implies 'the report' completed the audit."
+    trap_type: dangling_modifier_error
+  B:
+    text: "Correct! 'The CPA' is the logical subject performing the action 'having completed the audit'."
+    trap_type: null
+  C:
+    text: "Dangling modifier. Implies 'the computer' walked into the office."
+    trap_type: dangling_modifier_error
+  D:
+    text: "Dangling modifier. Implies 'a syntax error' was reviewing documents."
+    trap_type: dangling_modifier_error
+next_time_rule: "Always place the person performing the action immediately after an introductory phrase."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Verbal Ability — Participle Modifier Alignment"

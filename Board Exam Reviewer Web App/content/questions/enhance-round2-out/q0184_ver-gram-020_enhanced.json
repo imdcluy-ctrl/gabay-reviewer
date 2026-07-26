@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-020",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'Every one of the employees ___ to attend the seminar.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "are required"
+      },
+      {
+        "key": "B",
+        "text": "is required"
+      },
+      {
+        "key": "C",
+        "text": "were required"
+      },
+      {
+        "key": "D",
+        "text": "have been required"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the True Subject",
+        "text": "Before you pick the verb, find the real subject. The subject is not 'employees' right before the blank; it's 'Every one'. The phrase 'of the employ..."
+      },
+      {
+        "rung": 2,
+        "title": "The 'Every' Rule",
+        "text": "Tandaan: 'every', 'each', 'either', and 'neither' are always singular. Kahit may 'of the employees', the subject remains singular. So verb must be ..."
+      },
+      {
+        "rung": 3,
+        "title": "Check the Tense",
+        "text": "Since walang past time marker like 'yesterday', present tense ang kailangan. 'Is required' ang singular present, 'was' sana if past. So B ang tama."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow It Down",
+        "text": "Ruled out A, C, D kasi plural lahat. Only 'is required' is singular and present. Kaya B ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'employees' made you use plural 'are', but 'Every one' is singular.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Every one' is singular, so it takes 'is required' regardless of the plural 'employees' in the phrase.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you thought plural 'were' matched 'employees', forgetting 'Every one' is singular and past tense isn't ne...",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D because 'have been required' is plural, but 'Every one' needs singular 'has'; also, simple present is better.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "Kapag 'every', 'each', 'either', 'neither' ang simula, automatic singular ang verb. Kalimutan ang 'of the...' phrase, yun ay extra lang.",
+    "blueprint_id": "Subject-Verb — Every One Of",
+    "deconstruct_text": "Imagine this: sa barangay assembly, the chair announces, 'Every one of the kagawads is required to attend the budget seminar.' Natural 'yan, 'di ba? Kasi 'every one' refers to bawat isa. The phrase 'of the kagawads' is just extra info; the real subject is singular.\n\nNow, in your exam, the sentence: 'Every one of the employees ___ to attend the seminar.' The blank calls for a verb. Always look past the prepositional phrase 'of the employees' and focus on 'Every one' — it's singular, so the verb must be singular.\n\nCheck the choices: 'are required' is plural, 'were required' is plural and past, 'have been required' is plural. Only 'is required' is singular and present. Yan ang sagot.\n\n**Watch-Out Zone: subject_verb_agreement_misled** in action. Plural noun is a trap.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

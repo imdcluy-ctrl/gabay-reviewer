@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-025",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Simplify: 5^2 - 3^2",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alamin ang bawat square",
+        "text": "I-compute mo muna: 5^2 = 5 x 5 = 25; 3^2 = 3 x 3 = 9. 'Wag laktawan."
+      },
+      {
+        "rung": 2,
+        "title": "I-subtract ang results",
+        "text": "Pagkatapos, i-minus: 25 - 9 = ?"
+      },
+      {
+        "rung": 3,
+        "title": "Simple arithmetic lang",
+        "text": "25 minus 9 ay 16. Dire-diretso lang, 'di ba?"
+      },
+      {
+        "rung": 4,
+        "title": "Itugma sa choices",
+        "text": "Ang 16 ay option C. 'Yan ang tamang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you subtracted first (5-3=2) and squared it to get 4. Remember, exponents come before subtraction.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you subtracted 5-3=2, then multiplied by 4 (maybe thinking (5-3)×4) to get 8, skipping proper squaring.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. 5^2=25, 3^2=9, so 25-9=16.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you only squared 5 (25) then subtracted plain 3, giving 22. 'Wag kalimutang i-square din ang 3.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Tandaan: unahin ang exponents bago mag-minus. 5^2 - 3^2 ≠ (5-3)^2.",
+    "blueprint_id": "Exponents and Subtraction",
+    "deconstruct_text": "Sa project ni Barangay, bumili si Kap ng 5 boxes na may 5 reams ng bond paper bawat isa. That's 5^2 = 25 reams. Ginamit ang 3 boxes na may 3 reams each (3^2 = 9 reams). So natira: 25 - 9 = 16 reams. Same sa math: compute exponents muna, 5^2 - 3^2 = 25 - 9 = 16.\n\nMental Trick (Taglish): Isipin mo 'yong exponent parang pagsasakay ng jeep: 5 sakay ng 5, 3 sakay ng 3. Bawas lang nang diretso, 'wag mo munang paghalu-haluin ang sakay bago i-minus, kundi mapapamura ka sa (5-3)^2 na sagot. 'Sakay muna bago baba!'",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

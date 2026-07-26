@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-011",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "question_text": "Clerical Ops 1: Original: ABC-1234-XYZ. Copy: ABC-1234-XYZ. Do they match?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes"
+      },
+      {
+        "key": "B",
+        "text": "No - 1 difference"
+      },
+      {
+        "key": "C",
+        "text": "No - 2 differences"
+      },
+      {
+        "key": "D",
+        "text": "No - 3 differences"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Compare",
+        "text": "Think of this like checking if two ID numbers are exactly the same. Start at the very first character and move forward one at a time. Does the 'A' in the original match the 'A' in the copy? Good. Now check the next one."
+      },
+      {
+        "rung": 2,
+        "title": "Identical",
+        "text": "Look at each part of the string separately. The first three letters 'ABC' are the same in both. The dash '-' is the same. The four numbers '1234' are the same. Another dash '-' is the same. The last three letters 'XYZ' are the same. Everything lines up perfectly."
+      },
+      {
+        "rung": 3,
+        "title": "Result",
+        "text": "Since every single character matches from beginning to end, there are zero differences. Not one, not two, not three. Zero."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "When there are no differences at all, the two strings are a perfect match. So the answer is 'Yes'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. The original and copy are exactly the same: ABC-1234-XYZ. Every character matches, so they are identical.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mistake when you rush and think you spotted a difference that isn't there. Maybe you thought the dash was missing or a letter was different, but if you slow down and compare character by character, you'll see everything matches. There are zero differences, not one.",
+        "trap_type": "false_difference_detection"
+      },
+      "C": {
+        "text": "It's easy to miscount when you're under pressure. Perhaps you thought you saw two mismatches, but that's just your mind playing tricks. The truth is, both strings are identical. No differences at all.",
+        "trap_type": "false_difference_detection"
+      },
+      "D": {
+        "text": "This might happen if you misread the string entirely, maybe thinking there were extra or missing characters. But when you compare each position carefully, you'll find that the original and copy are a perfect match. Zero differences.",
+        "trap_type": "false_difference_detection"
+      }
+    },
+    "next_time_rule": "When comparing two strings, use the 'Character-by-Character Check.' Start at the first character and move to the last, one step at a time. If every single character matches, the answer is always 'Yes.' If you find even one mismatch, then count how many and pick the right number.",
+    "blueprint_id": "Clerical Operations 1",
+    "deconstruct_text": "Let's walk through this together. The original string is ABC-1234-XYZ. The copy is also ABC-1234-XYZ. To check if they match, we compare them character by character. Start with the first character: A in the original, A in the copy. Match. Next: B and B. Match. Then C and C. Match. Then the dash: both have a dash. Match. Then 1 and 1, 2 and 2, 3 and 3, 4 and 4. All match. Another dash: both have it. Match. Finally, X and X, Y and Y, Z and Z. All match. Every single one of the 12 characters is identical. So there are zero differences. The answer is 'Yes.' The trick here is simple: don't let your eyes skip ahead. Go slow, one character at a time, and you'll never miss a difference or imagine one that isn't there.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

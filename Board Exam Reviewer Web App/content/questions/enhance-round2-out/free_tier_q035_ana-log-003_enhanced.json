@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-003",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its ₱10,000,000 budget as follows: Infrastructure 40%, Health Services 30%, Education 20%, Administration 10%. How much more budget was allocated to Infrastructure than to Education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "₱2,000,000"
+      },
+      {
+        "key": "C",
+        "text": "₱3,000,000"
+      },
+      {
+        "key": "D",
+        "text": "₱4,000,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a 'how much more' question. You're comparing two percentages of the same total budget. Start by identifying which two categories you need to compare."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Percentage Gap",
+        "text": "Infrastructure got 40% and Education got 20%. The difference in percentage points is 40% minus 20%, which is 20 percentage points. That's the gap you need to turn into pesos."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Gap to the Total",
+        "text": "Now take that 20% gap and apply it to the total budget of 10 million pesos. Remember, 'percent' means 'per hundred,' so 20% of 10,000,000 is just 0.20 times 10,000,000."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "0.20 times 10,000,000 equals 2,000,000. That's the exact difference in pesos between what Infrastructure and Education received. Look for that number among the options."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is 10% of the total budget, which is the difference between Education (20%) and Administration (10%). It's an easy mistake if you accidentally compare the wrong pair of categories. Always double-check which two you're subtracting.",
+        "trap_type": "wrong_pair_subtraction"
+      },
+      "B": {
+        "text": "Correct! Infrastructure got 40% and Education got 20%, so the gap is 20 percentage points. Twenty percent of 10 million pesos is exactly 2 million pesos. You nailed it.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is 30% of the total, which is the difference between Infrastructure (40%) and Administration (10%). It's another case of comparing the wrong categories. The question specifically asks for Infrastructure versus Education, not Administration.",
+        "trap_type": "wrong_pair_subtraction"
+      },
+      "D": {
+        "text": "This is the full amount allocated to Infrastructure alone (40% of 10 million). It's a common trap: you might have stopped after calculating Infrastructure's share and forgotten to subtract Education's share. Remember, 'how much more' always means you need to find the difference.",
+        "trap_type": "total_vs_difference_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'how much more' or 'how much less' between two percentages of the same total, subtract the percentages first, then multiply by the total. This shortcut saves you from calculating each amount separately and reduces the chance of errors.",
+    "blueprint_id": "Data Interpretation — Percentage Allocation Difference",
+    "deconstruct_text": "Let's walk through this together. The question asks how much more was allocated to Infrastructure than to Education. The key here is to focus on the difference in percentages first, not the individual amounts.\n\nInfrastructure got 40% of the budget, and Education got 20%. The gap between them is 40% minus 20%, which is 20 percentage points. Now, what is 20% of 10 million pesos? Think of it this way: 10% of 10 million is 1 million, so 20% is simply double that, which is 2 million pesos.\n\nYou could also do it the long way: calculate Infrastructure's share (40% of 10M = 4M), then Education's share (20% of 10M = 2M), and subtract (4M minus 2M = 2M). Both methods give you the same answer, but the first method is faster and less prone to calculation slip-ups.\n\nHere's a mental trick to remember: whenever you see 'how much more' between two percentages of the same whole, just subtract the percentages and apply that difference to the total. It's like finding the shortcut through a maze instead of walking every single path.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

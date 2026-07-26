@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-013",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A fish vendor bought fish for P800 and sold it for P1,040. What is the percentage profit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "35%"
+      },
+      {
+        "key": "D",
+        "text": "40%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Profit First",
+        "text": "Before you can figure out the percentage, you need to know how much money the vendor actually made. Profit is simply the selling price minus the cost price. Try that calculation."
+      },
+      {
+        "rung": 2,
+        "title": "The Key Formula",
+        "text": "Percentage profit always uses the cost price as the base. The formula is: (Profit divided by Cost Price) times 100%. Remember, the cost price is what was originally paid — in this case, P800."
+      },
+      {
+        "rung": 3,
+        "title": "Plug in the Numbers",
+        "text": "You found the profit is P240. Now put that into the formula: (P240 divided by P800) times 100%. Simplify the fraction first — what is 240 divided by 800?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "240 divided by 800 equals 0.3. Now multiply 0.3 by 100% to get the percentage. That gives you 30%. So the correct answer is 30%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25% is a tempting choice if you accidentally use the selling price as your base instead of the cost. If you computed 240 divided by 1,040, you'd get about 23%, and you might round up to 25%. But the rule is clear: profit percentage is always based on the original cost, not the selling price.",
+        "trap_type": "base_confusion_cost_vs_selling"
+      },
+      "B": {
+        "text": "Correct! The profit is P1,040 minus P800, which equals P240. Then you divide that profit by the original cost of P800: 240 divided by 800 equals 0.3. Multiply by 100% and you get 30%. Well done.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "35% might come from a small arithmetic slip. If you miscalculated 240 divided by 800 as 0.35 instead of the correct 0.3, you'd land here. Double-check your division: 240 divided by 800 is exactly 0.3, not 0.35.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "D": {
+        "text": "40% is a common mistake when you mix up the numbers. Some might incorrectly think the profit is P240 and the cost is P600 (maybe confusing it with the selling price), giving 240 divided by 600 equals 0.4. But the cost is clearly P800, not P600. Stick with the correct base.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "Profit percentage always uses the cost price as the denominator. Think of it this way: you're measuring how much you gained compared to what you originally spent. So the formula is: (Profit divided by Cost) times 100%. Never divide by the selling price.",
+    "blueprint_id": "Profit Margin Computation",
+    "deconstruct_text": "Let's walk through this step by step. First, find the profit: the vendor sold the fish for P1,040 and bought it for P800, so the profit is P1,040 minus P800, which equals P240. Now, the percentage profit is calculated by taking that profit and comparing it to the original cost. So we do P240 divided by P800, which gives us 0.3. Multiply 0.3 by 100% to convert it to a percentage, and we get 30%. That's the answer. Here's a mental trick to lock this in: whenever you see \"percentage profit,\" immediately think \"profit over cost.\" The cost is your anchor — it's the number you always divide by. If you accidentally use the selling price (P1,040) as your base, you'd get a smaller percentage, which is a common trap. So remember: cost is king in profit calculations.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

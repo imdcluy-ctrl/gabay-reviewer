@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-009",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A laptop originally priced at P45,000 is sold at a 20% discount. What is the selling price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P34,000"
+      },
+      {
+        "key": "B",
+        "text": "P35,000"
+      },
+      {
+        "key": "C",
+        "text": "P36,000"
+      },
+      {
+        "key": "D",
+        "text": "P37,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Isipin mo 'yung laptop sa sale. Original P45,000, may 20% discount. Kailangan natin malaman ang presyong ibebenta."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Para makuha discount: Multiply original price sa discount rate as decimal. Ang 20% ay 0.20. Discount = P45,000 × 0.20."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Compute discount: 45,000 × 0.20 = 9,000. Ito yung matitipid mo. Ibawas sa original: 45,000 – 9,000 = ?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Discount ay P9,000, so selling price = P45,000 – P9,000 = P36,000. Isang shortcut: P45,000 × 0.80 = P36,000 din. Go mo na!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you subtracted P11,000, miscalculating 20% as 24%. Real discount is P9,000, so selling price is higher.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because you subtracted a neat P10,000, but 20% of P45,000 is P9,000, not P10,000. Check: 0.20×45,000=9,000.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. You computed 20% of P45,000 as P9,000, or directly paid 80% (P45,000×0.80). Selling price is P36,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you subtracted only P8,000, underestimating the discount. 20% of 45,000 is 9,000, so selling price is 36,...",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Pag may discount: Selling Price = Original x (1 – Discount Rate as decimal). Tandaan, '20% off' means 80% to pay. Multiply sa original para diretso.",
+    "blueprint_id": "Discount Computation",
+    "deconstruct_text": "Sa isang 'Balik Eskwela' gadget fair sa Barangay Batis, may laptop na P45,000, 20% ang discount. Magkano na lang? Simple lang: 'yung 20% na ibinawas, kunin mo muna.\n\n20% in decimal is 0.20. I-multiply mo sa P45,000: 45,000 × 0.20 = 9,000. Ito ang discount, ang matitipid mo. Kaya ang selling price ay 45,000 minus 9,000 = 36,000.\n\nMental trick: Pag may discount, isipin mo agad kung ilang percent ang babayaran. 100% – 20% = 80%. So imbes na dalawang step, multiply mo na lang 45,000 × 0.80, diretso 36,000.\n\nTandaan: 'yung 20% discount, hindi P10,000 ha? Baka isipin mo round number, pero 20% ng 45,000 ay exactly 9,000. I-divide mo lang by 5, kasi 20% = 1/5. 45,000/5=9,000. 'Yun ang mabilis na mental anchor.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

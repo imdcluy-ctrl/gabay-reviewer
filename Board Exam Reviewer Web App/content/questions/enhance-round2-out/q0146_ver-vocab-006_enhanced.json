@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-006",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ADVERSE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Favorable"
+      },
+      {
+        "key": "B",
+        "text": "Beneficial"
+      },
+      {
+        "key": "C",
+        "text": "Unfavorable"
+      },
+      {
+        "key": "D",
+        "text": "Helpful"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the word 'adverse' in everyday situations. Have you ever heard of 'adverse weather conditions' or an 'adverse reaction'? What feeling d..."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Connect 'adverse' to 'adversary'—your enemy. So it always carries a negative, opposing meaning. It's never positive."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the options: three are positive words (favorable, beneficial, helpful). Only one is negative. Which one?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "If something is adverse, it's against you—the opposite of favorable. So the synonym is 'unfavorable'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'favorable' sounds positive, but adverse means negative.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'beneficial' seems good, but adverse is unfavorable.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Adverse' at 'unfavorable' magkapareho—parehong negative.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'helpful' is positive, but adverse is the opposite.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "Adversary Rule: 'Adverse' ay kalaban, so negative. Pag nagdududa, tanungin: positive o negative? Dapat negative ang synonym.",
+    "blueprint_id": "Synonyms — Adverse",
+    "deconstruct_text": "Pag narinig mo 'adverse' sa balita, tulad ng 'adverse weather' dahil sa bagyo, alam mong masama ang lagay ng panahon. Kapag may adverse reaction sa gamot, ibig sabihin hindi hiyang. So 'adverse' laging negative.\n\nMental trick: I-link mo 'adverse' sa 'adversary' — ang kalaban mo. Parang sa barangay basketball, kalaban ang kabilang team, lagi silang against sa 'yo. Kaya 'adverse' = unfavorable, pumapalag.\n\nTingnan ang choices: A, B, at D puro positive — pabor, nakakatulong. Si C lang ang negative. Syempre, pag-negative ang tanong, negative din ang sagot. Kaya sure ball na 'yan.\n\nKung napili mo ang A, B, o D, nadale ka ng antonym trap. Basta tandaan: 'Adverse' ay 'kalaban', di pabor. Kaya sa exam, hanapin ang negative synonym—'di ka na malilito.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

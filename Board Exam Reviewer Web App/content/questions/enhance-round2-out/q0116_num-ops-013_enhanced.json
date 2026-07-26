@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-013",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Simplify: 48 / 6 x 2 + 4",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "MDAS Left-to-Right Rule",
+        "text": "Sa 48÷6×2+4, unahin ang ÷ at ×, left to right. Walang mas mataas."
+      },
+      {
+        "rung": 2,
+        "title": "Unahin ang Division",
+        "text": "48 ÷ 6 = 8. Isipin mo na naghahati ng bigas sa 6 purok — tig-8 packs."
+      },
+      {
+        "rung": 3,
+        "title": "Sunod ang Multiplication",
+        "text": "8 × 2 = 16. Doblehin dahil sa request ng bawat purok."
+      },
+      {
+        "rung": 4,
+        "title": "Huling Addition",
+        "text": "16 + 4 = 20. Idagdag ang reserbang bigas mula sa kusina."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because nag-lagay ka ng sariling parenthesis: 48÷(6×2)=4, nalimutan ang +4.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because nag-subtract ka ng 4 imbes na i-add: 16−4=12. Sign error ito.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "You might have chosen C because huminto ka sa 8×2=16 at nakalimutang idagdag ang 4.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "Correct. Left-to-right MDAS: 48÷6=8, 8×2=16, 16+4=20.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "Kapag magkasing-priority ang ÷ at ×, gawin LEFT to RIGHT, huwag mag-imbento ng grouping. Ex: 100÷5×2=40, hindi 10.",
+    "blueprint_id": "MDAS Left to Right",
+    "deconstruct_text": "**Scenario ni Ate:** Si Kap. Dela Cruz, naghahanda ng 48 na supot ng bigas para sa 6 na purok. Hahatiin niya nang pantay-pantay (48 ÷ 6 = 8 supot bawat purok).\n\n**Doble ang kailangan:** Bawat purok, may request na gawing 2 beses ang dami kasi extended family. Kaya 8 × 2 = 16 supot bawat purok.\n\n**Dagdag reserba:** May 4 pang supot na emergency stock sa kusina. Kaya 16 + 4 = 20 supot lahat.\n\n**Mental Trick (Taglish Mnemonic):** 'Divide muna bago multiply, left to right parang pila sa jeep! Tapos saka add.'",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "gen-const-201",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article VII",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Executive Department (President and Cabinet)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article VII (Executive)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Branch in Constitution",
+        "text": "The Executive Department includes the President and Cabinet. Which Article of the 1987 Constitution specifically defines this branch's powers and qualifications?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Article Sequence",
+        "text": "The Constitution organizes the three branches in order: Article VI (Legislative), Article VII (Executive), Article VIII (Judicial). Article XI covers Accountability of public officers."
+      },
+      {
+        "rung": 3,
+        "title": "Match Article to Branch",
+        "text": "Since the Executive Department is the second branch listed, it falls under Article VII. Article I covers National Territory, Article III covers Bill of Rights, and Article V covers Suffrage."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A (Article VII) is the correct match for the Executive Department. The other options correspond to unrelated constitutional topics."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VII of the 1987 Constitution explicitly defines the powers, qualifications, and organization of the Executive Department, including the President and Cabinet.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I defines the National Territory of the Philippines, not the Executive Department. This is a common confusion between the early articles and the branch-specific articles.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual liberties. It does not govern the Executive Department's powers or organization.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V deals with Suffrage (the right to vote), not the Executive Department. This distractor tests whether you know the specific subject of each article.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Constitutional Structure: Art VI = Legislative; Art VII = Executive; Art VIII = Judiciary; Art XI = Accountability. Memorize the sequence by branch order.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the branch**: The question asks about the Executive Department (President and Cabinet).\n2. **Recall the article sequence**: The 1987 Constitution assigns each branch a specific article: Article VI (Legislative), Article VII (Executive), Article VIII (Judicial).\n3. **Eliminate distractors**:\n   - Article I (National Territory) is about the country's boundaries, not a branch.\n   - Article III (Bill of Rights) protects individual freedoms.\n   - Article V (Suffrage) governs voting rights.\n4. **Conclusion**: Only Article VII matches the Executive Department.\n\n### ❌ Why the Distractors Fail\n- **Article I**: Students may confuse the first article with the first branch, but Article I is about territory, not the executive.\n- **Article III**: The Bill of Rights is often studied early, leading some to think it covers all government powers, but it only limits them.\n- **Article V**: Suffrage is a specific right, not a branch of government.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-202",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article VIII",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Judicial Department (Supreme Court and Lower Courts)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article VIII (Judiciary)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Branch in Constitution",
+        "text": "The Judicial Department includes the Supreme Court and lower courts. Which Article specifically defines the judiciary's powers and organization?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Article Sequence",
+        "text": "The three branches are in order: Article VI (Legislative), Article VII (Executive), Article VIII (Judicial). The judiciary is the third branch."
+      },
+      {
+        "rung": 3,
+        "title": "Match Article to Branch",
+        "text": "Since the judiciary is the third branch, it is covered by Article VIII. Articles I, III, and V cover other topics like territory, rights, and suffrage."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A (Article VIII) is the correct answer. The other options are unrelated to the Judicial Department."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VIII of the 1987 Constitution governs the Judicial Department, including the Supreme Court and lower courts, their powers, qualifications, and organization.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I defines the National Territory, not the judiciary. This is a common error when students confuse the first article with the first branch.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual liberties. It does not cover the structure or powers of the judiciary.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V deals with Suffrage (voting rights), not the Judicial Department. This tests whether you know the specific subject of each article.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Constitutional Structure: Art VI = Legislative; Art VII = Executive; Art VIII = Judiciary; Art XI = Accountability. The judiciary is always Article VIII.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the branch**: The question asks about the Judicial Department (Supreme Court and lower courts).\n2. **Recall the article sequence**: The 1987 Constitution assigns each branch a specific article: Article VI (Legislative), Article VII (Executive), Article VIII (Judicial).\n3. **Eliminate distractors**:\n   - Article I (National Territory) is about the country's boundaries.\n   - Article III (Bill of Rights) protects individual freedoms.\n   - Article V (Suffrage) governs voting rights.\n4. **Conclusion**: Only Article VIII matches the Judicial Department.\n\n### ❌ Why the Distractors Fail\n- **Article I**: Students may think the first article covers the first branch, but Article I is about territory.\n- **Article III**: The Bill of Rights is often associated with courts, but it does not define the judiciary's organization.\n- **Article V**: Suffrage is a specific right, not a branch of government.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-203",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article XI",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Impeachment of Constitutional Officers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article XI (Accountability)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Branch in Constitution",
+        "text": "Impeachment is a process to remove constitutional officers for wrongdoing. Which Article deals with accountability of public officers?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Article Sequence",
+        "text": "After the three branches (Articles VI-VIII), Article XI covers Accountability of Public Officers, including impeachment."
+      },
+      {
+        "rung": 3,
+        "title": "Match Article to Branch",
+        "text": "Impeachment is a key component of accountability, so it falls under Article XI. Articles I, III, and V cover other topics."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A (Article XI) is the correct answer. The other options are unrelated to impeachment or accountability."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article XI of the 1987 Constitution governs the Accountability of Public Officers, including the impeachment process for constitutional officers.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I defines the National Territory, not impeachment. This is a common confusion between early articles and later ones.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual liberties. It does not cover impeachment procedures.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V deals with Suffrage (voting rights), not impeachment. This tests whether you know the specific subject of each article.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Constitutional Structure: Art VI = Legislative; Art VII = Executive; Art VIII = Judiciary; Art XI = Accountability. Impeachment is under Article XI.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the topic**: The question asks about impeachment of constitutional officers.\n2. **Recall the article sequence**: After the three branches (Articles VI-VIII), Article XI covers Accountability of Public Officers, which includes impeachment.\n3. **Eliminate distractors**:\n   - Article I (National Territory) is about the country's boundaries.\n   - Article III (Bill of Rights) protects individual freedoms.\n   - Article V (Suffrage) governs voting rights.\n4. **Conclusion**: Only Article XI matches impeachment.\n\n### ❌ Why the Distractors Fail\n- **Article I**: Students may think the first article covers all government processes, but it only defines territory.\n- **Article III**: The Bill of Rights is often associated with legal proceedings, but impeachment is a political process under accountability.\n- **Article V**: Suffrage is about voting, not removal from office.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-200",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Norms of Conduct Case Scenario Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A public officer consistently prioritizes processing official documents for relatives ahead of other citizens waiting in line. Which norm of conduct under RA 6713 is VIOLATED?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Justness and Sincerity"
+      },
+      {
+        "key": "B",
+        "text": "Commitment to Public Interest"
+      },
+      {
+        "key": "C",
+        "text": "Political Neutrality"
+      },
+      {
+        "key": "D",
+        "text": "Simple Living"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze Officer Action",
+        "text": "The officer is giving preferential treatment to relatives, which is a form of nepotism and unfair discrimination against other citizens."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "RA 6713's norm of 'Justness and Sincerity' requires public officers to serve all citizens with fairness, objectivity, and without favoritism or nepotism."
+      },
+      {
+        "rung": 3,
+        "title": "Match Norm",
+        "text": "Favoritism towards relatives directly violates the requirement of just and sincere service. The other norms address different issues: 'Commitment to Public Interest' focuses on prioritizing public good over personal gain, 'Political Neutrality' on partisan activities, and 'Simple Living' on modest lifestyle."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('Justness and Sincerity') is the correct norm violated. The officer's actions show a lack of fairness and sincerity in serving the public."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Justness and Sincerity' under RA 6713 requires public officers to serve all citizens with fairness, objectivity, and without nepotism or favoritism. Prioritizing relatives violates this norm.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Commitment to Public Interest' means prioritizing the public good over personal interests. While nepotism may also harm public interest, the specific act of giving preferential treatment to relatives is a direct violation of 'Justness and Sincerity', which explicitly prohibits favoritism.",
+        "trap_type": "norm_definition_confusion"
+      },
+      "C": {
+        "text": "'Political Neutrality' prohibits public officers from engaging in partisan political activities. Prioritizing relatives is not a political act but a form of unfair service delivery.",
+        "trap_type": "norm_definition_confusion"
+      },
+      "D": {
+        "text": "'Simple Living' requires public officers to live modestly and avoid ostentatious displays of wealth. It does not address fairness in service delivery or nepotism.",
+        "trap_type": "norm_definition_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 'Justness and Sincerity': Public officers must remain fair, objective, and free from nepotism or favoritism. When you see preferential treatment to relatives, think 'Justness and Sincerity'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the violation**: The officer prioritizes relatives over other citizens, which is nepotism and unfair treatment.\n2. **Recall the norms under RA 6713**: The law lists several norms including 'Justness and Sincerity', 'Commitment to Public Interest', 'Political Neutrality', and 'Simple Living'.\n3. **Match the action to the norm**:\n   - 'Justness and Sincerity' explicitly requires fair and non-discriminatory service without favoritism.\n   - 'Commitment to Public Interest' focuses on prioritizing public good over personal gain, but the specific act of favoritism is more directly addressed by 'Justness and Sincerity'.\n   - 'Political Neutrality' deals with partisan activities, not service delivery.\n   - 'Simple Living' is about lifestyle, not service fairness.\n4. **Conclusion**: The violated norm is 'Justness and Sincerity'.\n\n### ❌ Why the Distractors Fail\n- **Commitment to Public Interest**: Students may think any unethical act violates this norm, but RA 6713 specifically ties favoritism to 'Justness and Sincerity'.\n- **Political Neutrality**: This norm is about avoiding partisan politics, not about service discrimination.\n- **Simple Living**: This norm is about modesty, not about how services are delivered.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-govt-200",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "ASEAN Charter & Regional Integration Variant 1",
+    "difficulty_level": 2,
+    "question_text": "The Philippines is one of the 5 original founding member states of ASEAN (Association of Southeast Asian Nations). In what year was ASEAN established through the Bangkok Declaration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1967"
+      },
+      {
+        "key": "B",
+        "text": "1945"
+      },
+      {
+        "key": "C",
+        "text": "1987"
+      },
+      {
+        "key": "D",
+        "text": "1995"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall ASEAN History",
+        "text": "ASEAN was founded by five countries: Indonesia, Malaysia, Philippines, Singapore, and Thailand. The founding document is the Bangkok Declaration."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Founding Era",
+        "text": "ASEAN was established in the 1960s, during the Cold War, as a regional cooperation initiative. The exact year is 1967."
+      },
+      {
+        "rung": 3,
+        "title": "Match Year",
+        "text": "The Bangkok Declaration was signed on August 8, 1967. Other years like 1945 (UN founding), 1987 (PH Constitution), and 1995 (WTO founding) are common distractors."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('1967') is the correct year. The other options correspond to other significant international or national events."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! ASEAN was established on August 8, 1967, through the Bangkok Declaration signed by the five founding members: Indonesia, Malaysia, Philippines, Singapore, and Thailand.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "1945 is the founding year of the United Nations (UN), not ASEAN. Students may confuse the two international organizations.",
+        "trap_type": "un_founding_year_confusion"
+      },
+      "C": {
+        "text": "1987 is the year the current Philippine Constitution was ratified. This is a domestic event, not related to ASEAN's founding.",
+        "trap_type": "ph_constitution_year_confusion"
+      },
+      "D": {
+        "text": "1995 is the founding year of the World Trade Organization (WTO), which replaced GATT. It is not related to ASEAN's establishment.",
+        "trap_type": "wto_founding_year_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** ASEAN Founding Year = 1967 (Bangkok Declaration by 5 original members including the Philippines). Remember: ASEAN was born in the '60s, not the '40s, '80s, or '90s.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the event**: ASEAN was established through the Bangkok Declaration.\n2. **Recall the founding year**: The five original members signed the declaration on August 8, 1967.\n3. **Eliminate distractors**:\n   - 1945: UN founding year.\n   - 1987: PH Constitution ratification year.\n   - 1995: WTO founding year.\n4. **Conclusion**: The correct year is 1967.\n\n### ❌ Why the Distractors Fail\n- **1945**: Students may confuse ASEAN with the UN, which was founded after WWII.\n- **1987**: This year is significant for the Philippines but not for ASEAN.\n- **1995**: The WTO is a global trade organization, not a regional one like ASEAN.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-curenv-200",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "blueprint_id": "RA 9003 Solid Waste Management Mandates Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 9003 (Ecological Solid Waste Management Act of 2000), which level of government is primarily responsible for waste segregation and collection at the household level?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Barangay Level"
+      },
+      {
+        "key": "B",
+        "text": "Provincial Level"
+      },
+      {
+        "key": "C",
+        "text": "Regional DENR Office"
+      },
+      {
+        "key": "D",
+        "text": "National Government"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Local Solid Waste Rule",
+        "text": "RA 9003 Section 10 assigns primary collection for biodegradable and recyclable wastes to the lowest LGU unit — the barangay."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Lowest LGU Unit",
+        "text": "The Barangay is the smallest administrative unit and is tasked with primary segregation and collection under the law."
+      },
+      {
+        "rung": 3,
+        "title": "Confirm Responsibility",
+        "text": "Barangay level is explicitly mandated for household-level waste management, not provinces or national agencies."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Select Option A ('Barangay Level') as the correct answer based on RA 9003."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9003 Section 10 mandates that barangays are responsible for household-level waste segregation and collection.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Provincial level handles regional bulk sanitary landfills and overall planning, not household collection.",
+        "trap_type": "lgu_tier_confusion"
+      },
+      "C": {
+        "text": "DENR acts as regulator and policy enforcer, not as the primary household collector.",
+        "trap_type": "regulatory_vs_collection_confusion"
+      },
+      "D": {
+        "text": "National government provides policy frameworks and funding, but implementation is devolved to LGUs.",
+        "trap_type": "macro_governance_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 9003: Household waste segregation and collection is the primary responsibility of the BARANGAY.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. RA 9003 (Ecological Solid Waste Management Act) devolves waste management to local government units (LGUs).\n2. Section 10 specifically assigns the barangay the duty to implement segregation at source and collection of biodegradable and recyclable wastes.\n3. Provinces manage disposal facilities; DENR regulates; national government sets policy.\n4. Therefore, the correct answer is Barangay Level.\n\n### ❌ Why the Distractors Fail\n- **Provincial Level**: Manages sanitary landfills and disposal, not household collection.\n- **Regional DENR Office**: Regulatory and enforcement body, not operational collector.\n- **National Government**: Sets policies and standards, but implementation is at the barangay level.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-peace-200",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "blueprint_id": "RA 7877 Anti-Sexual Harassment Workplace Rule Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 7877 (Anti-Sexual Harassment Act of 1995), sexual harassment is committed in a workplace when a person in authority demands sexual favors as a condition for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Employment, re-employment, or continued employment"
+      },
+      {
+        "key": "B",
+        "text": "Voluntary community membership"
+      },
+      {
+        "key": "C",
+        "text": "Private social media interactions"
+      },
+      {
+        "key": "D",
+        "text": "Personal hobby participation"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Scope of RA 7877",
+        "text": "RA 7877 explicitly governs workplace, education, and training environments where a superior demands sexual favors."
+      },
+      {
+        "rung": 2,
+        "title": "Analyze Authority Condition",
+        "text": "The law covers demands for sexual favors as a condition for employment, promotion, or other employment-related benefits."
+      },
+      {
+        "rung": 3,
+        "title": "Match Option",
+        "text": "Employment, re-employment, or continued employment are the specific conditions listed in Section 3 of RA 7877."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Select Option A as it directly matches the statutory language of RA 7877."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 7877 Section 3 explicitly defines workplace sexual harassment as demanding favors for employment decisions.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Voluntary community membership is not covered by RA 7877; it falls outside the scope of workplace, education, or training environments.",
+        "trap_type": "out_of_scope_distractor"
+      },
+      "C": {
+        "text": "Private social media interactions are governed by the Cybercrime Prevention Act (RA 10175) or the Safe Spaces Act (RA 11313), not RA 7877.",
+        "trap_type": "law_scope_confusion"
+      },
+      "D": {
+        "text": "Personal hobby participation is unrelated to employment or authority relationships and is not within RA 7877's coverage.",
+        "trap_type": "out_of_scope_distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 7877 Anti-Sexual Harassment: Governs authority figures conditioning employment, education, or training benefits on sexual favors.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. RA 7877, Section 3 defines workplace sexual harassment as committed when a person in authority demands sexual favors as a condition for employment, re-employment, or continued employment.\n2. The law also covers similar conditions in education and training environments.\n3. Options B, C, and D involve contexts not covered by RA 7877.\n4. Therefore, the correct answer is 'Employment, re-employment, or continued employment'.\n\n### ❌ Why the Distractors Fail\n- **Voluntary community membership**: Not a workplace, education, or training context.\n- **Private social media interactions**: Covered by other laws, not RA 7877.\n- **Personal hobby participation**: No authority relationship or employment condition involved.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-300",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Disaster Relief Kit Allocation Ratio Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A DSWD logistics hub packs 320 emergency relief packs containing Rice Kits and Water Kits in the ratio of 5:3. How many Rice Kits were packed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "200"
+      },
+      {
+        "key": "B",
+        "text": "120"
+      },
+      {
+        "key": "C",
+        "text": "160"
+      },
+      {
+        "key": "D",
+        "text": "250"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Sum of Ratio Parts",
+        "text": "Sum of parts = 5 (Rice) + 3 (Water) = 8 parts total."
+      },
+      {
+        "rung": 2,
+        "title": "Find Value per Part",
+        "text": "Per-part value = Total packs (320) divided by total parts (8) = 40 kits per part."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply by Rice Ratio Share",
+        "text": "Rice Kits = 5 parts × 40 kits per part = 200."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Result",
+        "text": "200 Rice Kits is the correct answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total parts = 8. Value per part = 40. Rice Kits (5 parts) = 200.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "120 is the number of Water Kits (3 parts × 40), not Rice Kits.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "160 results from assuming equal split (320/2 = 160), ignoring the 5:3 ratio.",
+        "trap_type": "equal_split_fallacy"
+      },
+      "D": {
+        "text": "250 might come from multiplying 5 × 50 (miscomputing per-part value as 50 instead of 40).",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Part-to-Whole Ratio: Target Component = (Target Ratio / Total Ratio Sum) × Total Units.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. The ratio 5:3 means for every 5 Rice Kits, there are 3 Water Kits. Total parts = 5 + 3 = 8.\n2. Each part represents 320 ÷ 8 = 40 kits.\n3. Rice Kits = 5 parts × 40 = 200.\n4. Water Kits = 3 parts × 40 = 120.\n\n### ❌ Why the Distractors Fail\n- **120**: This is the number of Water Kits, not Rice Kits.\n- **160**: Assumes an equal split (320/2), ignoring the ratio.\n- **250**: Likely from 5 × 50, a miscalculation of the per-part value.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-300",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Civil Service Salary Deduction & Net Pay Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A government employee receives a monthly gross salary of ₱30,000. Mandatory monthly deductions consist of 9% for GSIS and 2% for PhilHealth. What is the employee's net monthly take-home pay after these deductions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱26,700"
+      },
+      {
+        "key": "B",
+        "text": "₱3,300"
+      },
+      {
+        "key": "C",
+        "text": "₱27,300"
+      },
+      {
+        "key": "D",
+        "text": "₱26,200"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Sum Mandatory Deduction Percentages",
+        "text": "Total Deduction Rate = 9% (GSIS) + 2% (PhilHealth) = 11% of gross salary."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Total Deduction Amount",
+        "text": "Deduction = ₱30,000 × 0.11 = ₱3,300."
+      },
+      {
+        "rung": 3,
+        "title": "Subtract Deduction from Gross Salary",
+        "text": "Net Pay = Gross Salary (₱30,000) minus Total Deduction (₱3,300)."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Net Pay",
+        "text": "₱30,000 - ₱3,300 = ₱26,700."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total deduction rate = 11%. Net Pay = ₱30,000 × 0.89 = ₱26,700.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱3,300 is the total deduction amount, not the net take-home pay.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "₱27,300 results from deducting only GSIS (9% of 30,000 = 2,700; 30,000 - 2,700 = 27,300), omitting PhilHealth.",
+        "trap_type": "omitted_deduction_step"
+      },
+      "D": {
+        "text": "₱26,200 might come from deducting 11% of 30,000 incorrectly (e.g., 30,000 - 3,800 = 26,200) or miscomputing the deduction.",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Net Pay = Gross Salary × (1 - Total Mandatory Deduction Rates).",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Total mandatory deductions = 9% (GSIS) + 2% (PhilHealth) = 11%.\n2. Deduction amount = 11% of ₱30,000 = 0.11 × 30,000 = ₱3,300.\n3. Net pay = Gross salary - Deductions = ₱30,000 - ₱3,300 = ₱26,700.\n4. Alternatively, net pay = 89% of gross = 0.89 × 30,000 = ₱26,700.\n\n### ❌ Why the Distractors Fail\n- **₱3,300**: This is the total deduction, not the net pay.\n- **₱27,300**: Only GSIS was deducted; PhilHealth was forgotten.\n- **₱26,200**: An arithmetic error in computing the deduction or subtraction.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-300",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Procurement Furniture System Equation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A municipal hall bought office desks at ₱1,500 each and chairs at ₱500 each. The office ordered twice as many chairs as desks. If the total procurement invoice was ₱25,000, how many desks were purchased?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 desks"
+      },
+      {
+        "key": "B",
+        "text": "20 desks"
+      },
+      {
+        "key": "C",
+        "text": "15 desks"
+      },
+      {
+        "key": "D",
+        "text": "30 desks"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Variable",
+        "text": "Let x = number of desks. Then chairs = 2x (twice as many chairs as desks)."
+      },
+      {
+        "rung": 2,
+        "title": "Form Total Cost Equation",
+        "text": "Cost equation: 1,500(x) + 500(2x) = 25,000."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify Combined Equation",
+        "text": "1,500x + 1,000x = 2,500x = 25,000."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for x",
+        "text": "x = 25,000 / 2,500 = 10 desks."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Solving the equation yields 10 desks.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "20 is the number of chairs (2 × 10), not desks.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "15 might come from incorrectly assuming equal numbers or miscomputing the equation (e.g., 1,500x + 500x = 25,000 → x = 12.5, rounded).",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "30 might result from adding desks and chairs (10+20) instead of solving for desks only.",
+        "trap_type": "total_items_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Cost Equation: Set x for base item, express dependent item as multiple of x, then solve Total = Cost_A(x) + Cost_B(k*x).",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Let x = number of desks. Then chairs = 2x.\n2. Total cost: 1,500x (desks) + 500(2x) (chairs) = 1,500x + 1,000x = 2,500x.\n3. Set equal to total invoice: 2,500x = 25,000.\n4. Solve: x = 25,000 / 2,500 = 10 desks.\n5. Chairs = 2 × 10 = 20.\n\n### ❌ Why the Distractors Fail\n- **20 desks**: This is the number of chairs, not desks.\n- **15 desks**: Likely an arithmetic error in solving the equation.\n- **30 desks**: Confuses total items (desks + chairs = 30) with desks alone.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

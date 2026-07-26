@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-016",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A jacket sold for P1,800 after a 10% discount. What was its original price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,900"
+      },
+      {
+        "key": "B",
+        "text": "P1,950"
+      },
+      {
+        "key": "C",
+        "text": "P2,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,100"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang 100%",
+        "text": "Isipin mo na ang sale price ay 90% ng original. Kaya ang hinahanap mo ay yung buong 100%."
+      },
+      {
+        "rung": 2,
+        "title": "Gamitin ang formula",
+        "text": "Kapag may discount, huwag mag-add; gamitin ang division. Dito: Original = 1800 ÷ 0.90."
+      },
+      {
+        "rung": 3,
+        "title": "Simple division",
+        "text": "1800 ÷ 0.90 = 2000. O kaya, i-multiply mo ang 1800 sa 10, tapos i-divide sa 9."
+      },
+      {
+        "rung": 4,
+        "title": "I-verify mo",
+        "text": "Bumalik: 2000 × 0.10 = 200, kaya 2000 - 200 = 1800. P2,000 ang tamang original price."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you added 10% of the sale price instead of using the original as base. Remember: discount is on original,...",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because of a quick mental guess. Avoid estimating—set up the equation to avoid arithmetic slips.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. You knew that P1,800 is 90% of original, so dividing by 0.90 gives P2,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D by incorrectly adding more than 10% or using the wrong base. Always divide by the paid percentage (0.90).",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Kapag may 'after discount,' tandaan: Final price = Paid % of original. To find original, divide final price by that % (e.g., 0.90). Wag mag-add!",
+    "blueprint_id": "Finding Original Price After Discount",
+    "deconstruct_text": "Picture this: Tita Beng sells a jacket sa kanyang ukay-ukay stall sa palengke. 10% off, kaya P1,800 na lang. Pero magkano ba talaga dapat ang original price para hindi siya lugi?\n\nAng formula ay simple: Original Price = Sale Price ÷ (1 - Discount Rate). Kasi ang P1,800 ay 90% na lang ng original. Ibig sabihin: 0.90 × Original = 1,800.\n\nPara makuha ang original: i-divide ang 1,800 sa 0.90. Pwedeng gawing: 1,800 ÷ 0.90 = 1,800 × (10/9) = 2,000. Kaya P2,000 ang sagot.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

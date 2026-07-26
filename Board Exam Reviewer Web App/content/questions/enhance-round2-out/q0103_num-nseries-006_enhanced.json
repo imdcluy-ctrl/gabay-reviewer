@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-nseries-006",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "question_text": "Find the next: 2, 3, 5, 7, 11, 13, __",
+    "options": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "19"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Prime Numbers",
+        "text": "Lahat ng nasa sequence—2,3,5,7,11,13—ay prime numbers. Ang prime divisible lang ng 1 at ng sarili niya."
+      },
+      {
+        "rung": 2,
+        "title": "List",
+        "text": "Ang binigay na sequence eksaktong unang anim na primes: 2,3,5,7,11,13. So pattern ay primes."
+      },
+      {
+        "rung": 3,
+        "title": "Next Prime",
+        "text": "Pagkatapos ng 13, check: 14,15,16 composite. Kaya 17 ang susunod na hindi mahahati."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Kaya ang tamang sagot ay 17. Huwag malito sa 19 dahil nasa dulo pa 'yun."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 15 is odd, but it's composite (3×5), not prime.",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "You might have chosen B because 16 is even but composite (2×8). Primes >2 are odd.",
+        "trap_type": "hasty_generalization"
+      },
+      "C": {
+        "text": "Correct. 17 is prime, indivisible except by 1 and 17, and is the next in sequence.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 19 is prime, but it skips 17, the immediate next prime.",
+        "trap_type": "sequence_pattern_inversion"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** Kabisaduhin ang primes: 2,3,5,7,11,13,17,19,23... Hindi prime ang 1, at si 2 lang ang even na prime.",
+    "blueprint_id": "Prime Numbers Sequence",
+    "deconstruct_text": "Imagine a barangay captain distributing relief goods to families. The sequence 2, 3, 5, 7, 11, 13 shows numbers that can't be divided equally among smaller groups—exactly like primes. After giving to 13 families, the next count that can't be divided evenly is 17.\n\n14 puro? Pwede hatiin sa 2 o 7. 15? Pwede sa 3 o 5. 16? Pwede sa 2,4,8. Kaya 17 ang susunod na prime.\n\nKaya ang sagot ay 17.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

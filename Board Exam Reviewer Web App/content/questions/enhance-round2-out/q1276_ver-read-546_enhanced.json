@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-546",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: The Department of the Interior and Local Government (DILG) recently unveiled a comprehensive plan to improve government service delivery across all local government units (LGUs). The plan, called 'Serbisyo Muna,' focuses on three pillars: streamlining bureaucratic processes, enhancing digital infrastructure, and training frontline personnel. Under the streamlining pillar, the DILG aims to reduce the average processing time for business permits from 15 days to 5 days by 2026. The digital infrastructure pillar includes the establishment of a unified online portal for all LGU transactions, while the training pillar mandates a 40-hour customer service seminar for all government employees. The plan also introduces a feedback mechanism where citizens can rate their service experience via SMS or a mobile app. According to DILG Secretary Maria Reyes, 'This is not just about efficiency; it's about restoring trust in government.'\n\nWhat is the main idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The DILG will reduce business permit processing time to 5 days."
+      },
+      {
+        "key": "B",
+        "text": "The DILG has launched a three-pillar plan to improve government service delivery."
+      },
+      {
+        "key": "C",
+        "text": "Citizens can now rate government services via SMS or mobile app."
+      },
+      {
+        "key": "D",
+        "text": "The DILG requires all government employees to attend a 40-hour seminar."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1521",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

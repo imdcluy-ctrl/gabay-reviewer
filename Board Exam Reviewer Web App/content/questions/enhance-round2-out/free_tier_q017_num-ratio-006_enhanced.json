@@ -1,0 +1,70 @@
+[
+  {
+    "id": "num-ratio-006",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days. If 3 additional workers with the same work rate join the team, how many days will it take to finish the repair?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 days"
+      },
+      {
+        "key": "B",
+        "text": "8 days"
+      },
+      {
+        "key": "C",
+        "text": "9 days"
+      },
+      {
+        "key": "D",
+        "text": "18 days"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the relationship",
+        "text": "When you add more workers to a job, does the time go up or down? That's the key to solving this."
+      },
+      {
+        "rung": 2,
+        "title": "The magic constant",
+        "text": "In work problems, the total work stays the same. Multiply the original workers by the original days to find that constant."
+      },
+      {
+        "rung": 3,
+        "title": "Find your new numbers",
+        "text": "You now have 6 plus 3 workers. That's 9 people. And you already know the total work from the first hint."
+      },
+      {
+        "rung": 4,
+        "title": "One simple division",
+        "text": "Take the total work (72) and divide it by the new number of workers (9). That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 days is a tempting shortcut. It looks like you might have divided 72 by 12 instead of by 9. That would work if you had 12 workers, but you only have 9.",
+        "trap_type": "wrong_divisor"
+      },
+      "C": {
+        "text": "9 days feels natural because you added 3 workers and subtracted 3 days. But work and time don't work that way. Adding workers doesn't mean you just subtract the same number from the days.",
+        "trap_type": "misread_keyword"
+      },
+      "D": {
+        "text": "18 days happens when you accidentally treat this as a direct proportion. You might have set it up as 6 over 12 equals 9 over x, which gives 18. But more workers means fewer days, not more. That's the opposite relationship.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "For any work problem, remember the golden rule: Workers times Days equals constant work. More workers means fewer days. Never add or subtract directly. Always multiply first, then divide.",
+    "blueprint_id": "Ratio and Proportion — inverse proportion manpower problems",
+    "deconstruct_text": "Let me walk you through this step by step. The key insight here is that the total amount of work doesn't change. It's the same road, just with more hands helping. So first, find the total work by multiplying the original workers by the original days: 6 workers times 12 days gives you 72 man-days of work. That's your constant. Now, with the new team, you have 6 plus 3, which is 9 workers. To find how many days they need, just divide the total work by the new number of workers: 72 divided by 9 equals 8 days. That's your answer. The mental trick here is to always think of work as a pie. The pie is 72 slices. With 6 people, each eats 1 slice a day for 12 days. With 9 people, they eat faster, finishing in 8 days. Never subtract or use direct proportion. Always multiply first to find the total work, then divide by the new number of workers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

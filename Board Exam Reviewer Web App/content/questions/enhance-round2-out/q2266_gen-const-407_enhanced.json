@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-407",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "Juan is a 67-year-old natural-born Filipino citizen who has resided in the Philippines for the past 15 years. He was convicted of a crime involving moral turpitude 20 years ago but has since served his sentence and completed his probation. He wishes to vote in the upcoming national elections. Based on Article V of the 1987 Philippine Constitution, which of the following statements best describes Juan's eligibility to vote?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan is qualified to vote because he meets all the age, residency, and citizenship requirements, and his conviction does not permanently disqualify him."
+      },
+      {
+        "key": "B",
+        "text": "Juan is disqualified to vote because his conviction for a crime involving moral turpitude is a permanent disqualification under the Constitution."
+      },
+      {
+        "key": "C",
+        "text": "Juan is qualified to vote only if he applies for and is granted an absolute pardon from the President."
+      },
+      {
+        "key": "D",
+        "text": "Juan is disqualified to vote because he is over 60 years old, which is the maximum voting age under the Constitution."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2841",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

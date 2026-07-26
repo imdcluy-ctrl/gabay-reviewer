@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-017",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government agency received a budget of P240,000 divided among 3 departments in the ratio 1:2:3. How much more does the largest share get compared to the smallest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P40,000"
+      },
+      {
+        "key": "B",
+        "text": "P60,000"
+      },
+      {
+        "key": "C",
+        "text": "P80,000"
+      },
+      {
+        "key": "D",
+        "text": "P120,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "Pag ratio 1:2:3, isipin mong hati ang budget sa 1+2+3 = 6 na equal parts. Ilan lahat?"
+      },
+      {
+        "rung": 2,
+        "title": "Value per Part",
+        "text": "I-divide ang P240,000 sa 6 parts: P40,000 bawat part. Ito ang value ng isang share."
+      },
+      {
+        "rung": 3,
+        "title": "Kunin ang Dalawang Shares",
+        "text": "Ang smallest ay 1 part (P40k), largest ay 3 parts (P120k). Multiply lang."
+      },
+      {
+        "rung": 4,
+        "title": "The Final Step",
+        "text": "Para malaman 'how much more', i-subtract: P120k – P40k = P80k. O shortcut: 2 parts × P40k."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you found the value per part (P40,000) but forgot the question asked for the difference, not the smallest...",
+        "trap_type": "partial_answer_smallest_share"
+      },
+      "B": {
+        "text": "You might have chosen B because you miscalculated the difference (maybe multiplied 2 parts by wrong per-part value P30,000).",
+        "trap_type": "wrong_difference_calculation"
+      },
+      "C": {
+        "text": "Correct. The difference is exactly P80,000 (2 parts × P40,000).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you correctly got the largest share (P120,000) but stopped without subtracting the smallest.",
+        "trap_type": "partial_answer_largest_share"
+      }
+    },
+    "next_time_rule": "Shortcut: Difference in ratio (3-1=2) times value per part (P40,000) = P80,000. Iwasan kompyutin bawat share.",
+    "blueprint_id": "Ratio — Difference Between Shares",
+    "deconstruct_text": "Kunwari, sa Barangay San Roque, may tatlong proyektong pinaglaanan ng P240,000 mula sa LGU: pag-aayos ng kalsada, pagpapagawa ng daycare, at pagbili ng gamit sa health center. Ang budget ay hinati sa ratio na 1:2:3.\n\nAlamin muna natin ang total parts: 1 + 2 + 3 = 6 parts. I-divide ang P240,000 sa 6 parts: bawat part ay P40,000. Ang pinakamaliit (1 part) ay P40,000, ang pinakamalaki (3 parts) ay P120,000.\n\nTanong: magkano ang lamang ng pinakamalaki sa pinakamaliit? I-subtract: P120,000 - P40,000 = P80,000. O gamitin ang shortcut: difference ng ratio (3-1=2 parts) times P40,000 = P80,000. Yun na!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

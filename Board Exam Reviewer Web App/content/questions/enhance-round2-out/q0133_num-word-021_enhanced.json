@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-021",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "The sum of four consecutive integers is 74. What is the largest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "17"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "19"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Maging si x ang smallest",
+        "text": "Isipin mo, apat na magkakasunod na numbers ay puwedeng i-represent bilang x, x+1, x+2, x+3. Dito, x ang pinakamaliit."
+      },
+      {
+        "rung": 2,
+        "title": "Isulat ang sum equation",
+        "text": "Kapag pinagsama: x+(x+1)+(x+2)+(x+3) = 4x+6. I-set ito sa 74."
+      },
+      {
+        "rung": 3,
+        "title": "Solve mo si x",
+        "text": "4x+6 = 74 → 4x = 68 → x = 17. Tandaan, ito ang pinakamaliit na integer."
+      },
+      {
+        "rung": 4,
+        "title": "Kunin ang pinakamalaki",
+        "text": "Dahil x+3 ang huli, 17+3 = 20. Huwag kalimutang basahin ulit ang tanong para sure na largest ang hinihingi."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you stopped after solving for x and got 17, forgetting that the question asks for the largest integer.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you added 1 instead of 3, giving the second integer mistakenly as the largest.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "You might have chosen C because you added 2 instead of 3, landing on the third integer by mistake.",
+        "trap_type": "reverse_operation_error"
+      },
+      "D": {
+        "text": "Correct. Solving 4x+6=74 gives x=17, so the largest integer x+3=20 is the answer.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "For consecutive integers, let the smallest be x. The largest is x + (n-1). Always re-read to answer what is asked—largest, not smallest.",
+    "blueprint_id": "Consecutive Integers",
+    "deconstruct_text": "Sa Barangay Masagana, naglaan sila ng magkakasunod na halaga para sa apat na feeding programs. Ang total budget ay ₱74,000. Para mas madali, tawagin nating x ang pinakamaliit na halaga. Kaya ang apat na amounts: x, x+1, x+2, x+3 (in thousands of pesos).\n\nI-set up ang equation: x + (x+1) + (x+2) + (x+3) = 4x + 6 = 74. Subtract 6: 4x = 68. Divide by 4: x = 17. Kaya ang pinakamaliit ay ₱17,000. Ang pinakamalaki ay x+3 = 20, ibig sabihin ₱20,000.\n\nI-check: 17+18+19+20 = 74. Tama! Kaya ang sagot sa tanong na 'What is the largest?' ay 20. Huwag malito sa smallest.\n\n**Watch-Out Zone: order_of_operations_error** in action. Stop at x = smallest, not larg...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

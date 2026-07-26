@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-001",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read: 'Public accountability requires that civil servants answer not only to their superiors but also to the citizens they serve. This dual accountability ensures that government actions remain transparent and aligned with the public interest.' What is the main idea?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should only answer to superiors."
+      },
+      {
+        "key": "B",
+        "text": "Accountability to citizens is optional."
+      },
+      {
+        "key": "C",
+        "text": "Civil servants are accountable to both superiors and citizens."
+      },
+      {
+        "key": "D",
+        "text": "Government actions are always transparent."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a main idea question. Your job is to find the one sentence that sums up the whole paragraph. Often, it's the very first sentence."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The main idea is the big umbrella statement. Every other sentence in the paragraph exists to explain or support it. Look for the sentence that introduces the core concept."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Read the first sentence carefully. It uses the phrase 'not only to their superiors but also to the citizens.' This structure tells you there are two groups, not just one. The second sentence just explains why this matters."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct answer must include both 'superiors' and 'citizens' as the people civil servants answer to. Only one option does that. Which one is it?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one says 'only to superiors,' but the passage clearly says 'not only to their superiors but also to the citizens.' That little word 'only' completely changes the meaning. It's like saying a teacher only grades papers when they also teach classes. The passage explicitly includes both groups.",
+        "trap_type": "contradicts_explicit_text"
+      },
+      "B": {
+        "text": "This option calls accountability to citizens 'optional,' but the passage uses the word 'requires.' That's a strong, mandatory word. If a friend told you 'You are required to attend the meeting,' you wouldn't think it was optional. Same here.",
+        "trap_type": "contradicts_mandatory_language"
+      },
+      "C": {
+        "text": "This is correct. The passage states that civil servants answer to both superiors and citizens. This is the main idea, and it's stated right in the first sentence.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one uses the word 'always,' which is a red flag in reading comprehension. The passage says dual accountability 'ensures' transparency, which means it helps make it happen, not that it's guaranteed 100% of the time. 'Always' is an extreme word that the author didn't use.",
+        "trap_type": "extreme_language_overgeneralization"
+      }
+    },
+    "next_time_rule": "When hunting for the main idea, treat the first sentence as your prime suspect. Ask yourself: 'Does this sentence introduce the core topic of the whole paragraph?' If yes, that's likely your answer. Then watch out for extreme words like 'always,' 'never,' or 'only' that twist the meaning.",
+    "blueprint_id": "Identifying Main Idea",
+    "deconstruct_text": "Let me walk you through how to crack this one. First, remember that the main idea is the central point the author wants you to walk away with. It's the big picture. In this paragraph, the first sentence does all the heavy lifting: 'Public accountability requires that civil servants answer not only to their superiors but also to the citizens they serve.' That's your main idea right there. The second sentence just adds a little flavor by explaining why this dual accountability matters. Now, let's look at the options. Option A says 'only to superiors' — but the passage says 'not only... but also,' which is the opposite. Option B says accountability to citizens is 'optional' — but the passage says it's 'required.' Option D says government actions are 'always transparent' — but the passage only says dual accountability 'ensures' transparency, not that it's guaranteed. Only Option C matches the first sentence exactly: civil servants are accountable to both superiors and citizens. Here's a mental trick for next time: when you read a passage, imagine you have to explain it to a friend in one sentence. That one sentence is the main idea. Then check which answer choice matches it most closely.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-003",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'Despite the city's efforts to improve traffic flow, congestion has worsened over the past year. The number of registered vehicles increased by 15%, while road capacity grew by only 3%.' What can be inferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Traffic will improve next year."
+      },
+      {
+        "key": "B",
+        "text": "Road capacity increased faster than vehicles."
+      },
+      {
+        "key": "C",
+        "text": "Vehicle growth outpaced road infrastructure."
+      },
+      {
+        "key": "D",
+        "text": "The city did nothing about traffic."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Key Numbers",
+        "text": "Look at the two percentages in the passage. One is about vehicles, the other about road capacity. Which one is bigger?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Inferences",
+        "text": "An inference is a logical conclusion based on facts given. You don't guess or predict the future. You just connect the dots from what's already there."
+      },
+      {
+        "rung": 3,
+        "title": "Connect the Dots",
+        "text": "Vehicles went up 15%, roads went up only 3%. That means more cars are fighting for barely more space. So what does that tell you about the relationship between vehicle growth and road growth?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The correct answer is the one that says vehicles grew faster than roads could keep up. Look for the option that matches that idea exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one sounds hopeful, but the passage doesn't give us any clue about next year. It only talks about what happened in the past year. Making a prediction about the future goes beyond what we can logically infer from the facts given.",
+        "trap_type": "unsupported_prediction"
+      },
+      "B": {
+        "text": "It's easy to mix up which number goes with which. But the passage clearly says vehicles increased by 15% and road capacity by only 3%. So road capacity actually grew slower, not faster. This option has it backwards.",
+        "trap_type": "reversed_comparison"
+      },
+      "C": {
+        "text": "Exactly right. The 15% jump in vehicles compared to just 3% in road capacity tells us that the number of cars grew way faster than the roads could handle. That's the core reason congestion got worse.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one ignores the very first word of the passage: 'Despite.' The city did make efforts to improve traffic flow. It's just that those efforts weren't enough to keep up with the surge in vehicles. So saying they did nothing directly contradicts what's written.",
+        "trap_type": "contradicts_explicit_text"
+      }
+    },
+    "next_time_rule": "For inference questions, think like a detective: use only the clues given, don't add your own assumptions or predictions. Compare numbers carefully, and ask yourself, 'What must be true based on these facts?'",
+    "blueprint_id": "Inference — Traffic Congestion",
+    "deconstruct_text": "Let's walk through this together. The passage gives us two key facts: registered vehicles went up by 15%, and road capacity went up by only 3%. When you compare those numbers, it's clear that vehicles grew a lot more than roads did. That's the main reason congestion got worse. Now, let's look at the options. Option A talks about next year, but we have no information about the future, so we can't infer that. Option B says road capacity grew faster, but the numbers show the opposite. Option D claims the city did nothing, but the passage says 'despite the city's efforts,' so that's not true. Option C perfectly captures what the numbers tell us: vehicle growth outpaced road infrastructure. Here's a mental trick for next time: when you see percentages in a passage, always ask yourself 'which one is bigger?' and 'what does that difference mean?' That simple comparison is often the key to the inference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

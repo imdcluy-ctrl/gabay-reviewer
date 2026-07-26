@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-024",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The data indicates a problem."
+      },
+      {
+        "key": "B",
+        "text": "The data indicate a problem."
+      },
+      {
+        "key": "C",
+        "text": "The data are indicates a problem."
+      },
+      {
+        "key": "D",
+        "text": "The data is indicating a problem."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing whether you know if 'data' is singular or plural in formal English. Think about the word 'datum' — have you heard it before?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In formal English, 'data' is the plural form of 'datum'. That means it needs a plural verb — no 's' at the end of the verb. For example, 'The data show' not 'The data shows'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at each option. Option A has 'indicates' (singular verb). Option C has two verbs 'are indicates' which is always wrong. Option D has 'is indicating' (singular verb). Only one option uses the correct plural verb 'indicate'."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct sentence should pair the plural subject 'data' with the plural verb 'indicate'. That's Option B. No extra verbs, no singular forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake because in everyday conversation, many people treat 'data' as a singular mass noun. But in formal writing — and on this exam — 'data' is plural. The verb 'indicates' has an 's', which makes it singular, so it doesn't match.",
+        "trap_type": "subject_verb_agreement_error"
+      },
+      "B": {
+        "text": "This is correct. 'Data' is plural, so it takes the plural verb 'indicate' (no 's'). Think of it like saying 'The cats run' instead of 'The cats runs'. Same idea here.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This sentence has two verbs ('are' and 'indicates') trying to do the job of one. In English, you only need one main verb per clause. The correct plural verb is simply 'indicate'.",
+        "trap_type": "double_verb_error"
+      },
+      "D": {
+        "text": "Here, 'is' is a singular verb, but 'data' is plural. Also, the progressive tense 'is indicating' isn't needed — the simple present 'indicate' works perfectly. It's like saying 'The books is reading' instead of 'The books read'.",
+        "trap_type": "subject_verb_agreement_error"
+      }
+    },
+    "deconstruct_text": "Let's break this down together. The key is knowing that 'data' is actually the plural of 'datum'. In formal English, when your subject is plural, your verb must be plural too. That means no 's' at the end of the verb. So 'data indicate' is correct, just like 'students study' or 'cars drive'. Option A uses 'indicates' which is singular — a mismatch. Option C has two verbs crammed together, which is always ungrammatical. Option D uses 'is' which is also singular. Only Option B gets it right with the clean, simple plural verb 'indicate'. Here's a mental trick: whenever you see 'data', silently ask yourself 'What would I do if this word were 'facts'?' Because 'facts' is clearly plural, and 'data' works the same way. 'The facts indicate' — 'The data indicate'.",
+    "next_time_rule": "The 'Facts Test': When you see 'data', mentally replace it with 'facts'. If the verb sounds right with 'facts', it's correct. 'The facts indicate' works, so 'The data indicate' works too.",
+    "blueprint_id": "Data as Plural",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

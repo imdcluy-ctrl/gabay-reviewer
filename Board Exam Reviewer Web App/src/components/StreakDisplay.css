@@ -1,0 +1,88 @@
+.streak-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+}
+
+.streak-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.streak-flame-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.flame-icon {
+  font-size: 2.2rem;
+  opacity: 0.4;
+  filter: grayscale(1);
+  transition: opacity var(--transition-base), filter var(--transition-base), transform var(--transition-base);
+}
+
+.flame-icon.active {
+  opacity: 1;
+  filter: grayscale(0);
+  animation: flamePulse 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes flamePulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.15); }
+}
+
+.streak-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.streak-count-title {
+  font-family: var(--font-heading);
+  font-size: var(--size-base);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.streak-subtitle {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.streak-dots-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+.streak-day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.streak-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.streak-dot.studied {
+  background-color: var(--color-brand-gold);
+  border-color: var(--color-brand-gold-light);
+  box-shadow: 0 0 6px rgba(245, 166, 35, 0.4);
+}
+
+.streak-day-label {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}

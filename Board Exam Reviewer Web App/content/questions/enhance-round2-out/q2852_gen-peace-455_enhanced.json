@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-455",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "An Indigenous Cultural Community (ICC) in Mindanao claims ancestral domain over a forest area that a mining company has been granted a permit to explore. Under RA 8371 (Indigenous Peoples Rights Act or IPRA), what is the legal status of the ICC's claim?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ICC has no claim because the mining permit was issued by the government."
+      },
+      {
+        "key": "B",
+        "text": "The ICC has a right to ancestral domain, and the mining permit cannot be valid without their free, prior, and informed consent (FPIC)."
+      },
+      {
+        "key": "C",
+        "text": "The ICC can only claim ownership of the land they currently occupy, not the entire forest area."
+      },
+      {
+        "key": "D",
+        "text": "The ICC's claim is subject to the mining permit, which takes precedence under the Mining Act."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "RA 8371 (IPRA): Recognizing the ancestral domain rights of Indigenous Cultural Communities (Scenario 55)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

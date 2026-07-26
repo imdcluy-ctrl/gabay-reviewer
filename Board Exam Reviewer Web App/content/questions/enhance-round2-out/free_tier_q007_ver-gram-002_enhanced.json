@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-002",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Select the sentence with the correct pronoun case for official communications.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Between you and I, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "B",
+        "text": "Between you and me, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "C",
+        "text": "The division chief awarded the commendation to he and his team."
+      },
+      {
+        "key": "D",
+        "text": "Him and the auditor inspected the procurement records yesterday."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look for the Preposition",
+        "text": "In official communications, prepositions like 'between,' 'to,' 'for,' and 'with' are common. Spot them first—they're your clue to check pronoun case."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "After any preposition, pronouns must be in the objective case. That means: me, him, her, us, them. Never use I, he, she, we, they after a preposition."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Option A has 'between' (a preposition) followed by 'I'—that's a red flag. Option B uses 'me' after 'between,' which follows the rule. Option C has 'to' (another preposition) followed by 'he'—also wrong. Option D has no preposition issue, but 'Him' is used as the subject, which needs the nominative 'He.'"
+      },
+      {
+        "rung": 4,
+        "title": "Narrow It Down",
+        "text": "Only one option correctly uses the objective pronoun after a preposition. It's the one that sounds a bit less formal but is grammatically spot-on for official writing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a classic hypercorrection trap. Many people think 'between you and I' sounds more formal or proper, but it's actually wrong. The word 'between' is a preposition, and prepositions always require the objective case pronoun 'me,' not the nominative 'I.' Think of it this way: you wouldn't say 'between I,' so 'between you and I' is just as incorrect.",
+        "trap_type": "hypercorrection_error"
+      },
+      "B": {
+        "text": "This is correct. 'Me' is the objective case pronoun, which is exactly what you need after the preposition 'between.' It might feel less fancy than 'I,' but in grammar, accuracy beats formality every time. This is the standard for official communications.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The preposition 'to' requires an objective pronoun, so it should be 'to him and his team,' not 'to he and his team.' The word 'he' is nominative (used as a subject), not objective. A quick test: remove 'and his team' and see if it sounds right—'awarded the commendation to he' clearly doesn't work.",
+        "trap_type": "pronoun_case_error"
+      },
+      "D": {
+        "text": "Here, 'Him and the auditor' is the subject of the sentence, so it needs the nominative case pronoun 'He.' 'Him' is objective and can't lead a sentence as the doer of the action. Try the same test: 'Him inspected the records' is obviously wrong; it should be 'He inspected.'",
+        "trap_type": "subject_pronoun_error"
+      }
+    },
+    "next_time_rule": "When you see a preposition (between, to, for, with, at, by, etc.), immediately switch to objective pronouns: me, him, her, us, them. Never use I, he, she, we, they after a preposition. This is a non-negotiable rule in formal writing.",
+    "blueprint_id": "Pronoun Case — Object of Preposition",
+    "deconstruct_text": "Let's walk through this together. The key to this question is recognizing that prepositions are like gatekeepers—they decide which pronoun case comes next. In options A and B, the preposition is 'between.' Option A uses 'I,' which is nominative (subject case), but 'between' demands the objective 'me.' That's why B is correct. Option C has the preposition 'to,' and it uses 'he' instead of 'him'—same mistake, different preposition. Option D doesn't involve a preposition at all; 'Him' is mistakenly used as the subject, where 'He' belongs. So the only sentence that follows the rule consistently is B. Here's a mental trick: whenever you're unsure, isolate the pronoun and the preposition. Say just 'between me' or 'to him' out loud. If it sounds natural, you're on the right track. If it sounds stiff or overly formal, like 'between I,' you've likely fallen into the hypercorrection trap.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

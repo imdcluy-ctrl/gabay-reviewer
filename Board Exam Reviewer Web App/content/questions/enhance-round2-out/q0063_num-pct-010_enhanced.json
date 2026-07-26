@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-010",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A store marks up an item by 25% from its cost of P2,400. What is the marked price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P2,800"
+      },
+      {
+        "key": "B",
+        "text": "P2,900"
+      },
+      {
+        "key": "C",
+        "text": "P3,000"
+      },
+      {
+        "key": "D",
+        "text": "P3,200"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang Markup",
+        "text": "Markup means magdadagdag ka ng porsyento sa original cost. Dito, 25% ang idadagdag sa P2,400. Compute muna ang 25% ng P2,400."
+      },
+      {
+        "rung": 2,
+        "title": "Percent to Decimal",
+        "text": "25% = 0.25 or 1/4. I-multiply sa cost: 0.25 × 2,400. Ito ang dagdag na halaga. Mag-ingat sa multiplication."
+      },
+      {
+        "rung": 3,
+        "title": "Kuwentahin ang Markup Amount",
+        "text": "0.25 × 2,400 = 600. Iyan ang profit. Ngayon, idagdag sa original cost para makuha ang marked price. So 2,400 + 600."
+      },
+      {
+        "rung": 4,
+        "title": "Final na Marked Price",
+        "text": "2,400 + 600 = 3,000. Puwede ring 2,400 × 1.25 = 3,000. I-check: 25% ng 2,400 ay 600, kaya 3,000 ay tama."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 25% of 2,400 is 400 (maybe using 1,600). The real markup is 600, leading to 3,000.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because you got 500 as markup (using 20% or a slip). The correct amount is 600, so the marked price is 3,000.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. 25% of P2,400 is P600, so marked price = P2,400 + P600 = P3,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you added 800 (maybe used 33% instead of 25%). The right markup is 600, so the price is 3,000.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Marked Price = Cost × (1 + markup rate). For 25% markup: multiply cost by 1.25. Alalahanin: 1 + rate na decimal.",
+    "blueprint_id": "Markup Computation",
+    "deconstruct_text": "Imagine si Aling Nena may sari-sari store. Bumili siya ng item sa P2,400. Para kumita, nag-mark up siya ng 25%.\n\nUna, kunin ang 25% ng original cost. 25% ay same as 0.25 or 1/4. So 0.25 × 2,400 = 600. Yan ang dagdag.\n\nNgayon, i-add ang dagdag sa original: 2,400 + 600 = 3,000. Yan na ang marked price.\n\nPuwede ring shortcut: 2,400 × 1.25 (since 100% + 25% = 125%) = 3,000. Tama din.\n\nCommon na pagkakamali dito ay mali ang kuwenta ng 25% of 2,400, like 400 o 500. Basta tandaan, 25% ay isang quarter, at ang quarter ng 2,400 ay 600. Kaya laging double-check ang multiplication.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,221 @@
+.exam-history-layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.history-status-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.history-top-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-6);
+  background-color: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.history-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.history-header-left h1 {
+  font-family: var(--font-heading);
+  font-size: var(--size-lg);
+  margin: 0;
+}
+
+.history-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.history-filters {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: var(--size-xs);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.filter-btn.active {
+  background-color: var(--color-brand-teal);
+  color: #FFFFFF;
+  border-color: var(--color-brand-teal);
+  font-weight: 700;
+}
+
+.history-sort-select {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--size-xs);
+}
+
+.history-sort-select select {
+  padding: 3px 8px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: var(--size-xs);
+}
+
+.history-content-container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+}
+
+.empty-history-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  padding: var(--space-8);
+}
+
+.history-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.history-item-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-4) var(--space-5);
+  box-shadow: var(--shadow-sm);
+}
+
+.history-item-card.passed {
+  border-left: 4px solid #22C55E;
+}
+
+.history-item-card.failed {
+  border-left: 4px solid #EF4444;
+}
+
+.history-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-and-badges {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.exam-type-badge {
+  font-size: var(--size-xs);
+  font-weight: 700;
+  color: var(--color-brand-teal);
+}
+
+.mode-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+}
+
+.mode-badge.practice {
+  background-color: rgba(59, 130, 246, 0.12);
+  color: #3B82F6;
+}
+
+.mode-badge.simulation {
+  background-color: rgba(249, 115, 22, 0.12);
+  color: #F97316;
+}
+
+.integrity-badge {
+  font-size: 0.7rem;
+  background-color: rgba(249, 115, 22, 0.12);
+  color: #F97316;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.attempt-date {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.history-score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--color-bg-primary);
+  border-radius: var(--radius-xl);
+}
+
+.score-badge-box {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.score-percentage {
+  font-family: var(--font-heading);
+  font-size: var(--size-xl);
+  font-weight: 800;
+}
+
+.score-status-text {
+  font-size: var(--size-xs);
+  font-weight: 800;
+}
+
+.history-item-card.passed .score-status-text { color: #22C55E; }
+.history-item-card.failed .score-status-text { color: #EF4444; }
+
+.time-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
+.history-actions-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}

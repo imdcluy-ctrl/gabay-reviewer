@@ -1,0 +1,722 @@
+[
+  {
+    "id": "cle-code-101",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — PRINCIPAL",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'Mr. Santos is the __ architect of the municipal urban plan.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "principal"
+      },
+      {
+        "key": "B",
+        "text": "principle"
+      },
+      {
+        "key": "C",
+        "text": "principaled"
+      },
+      {
+        "key": "D",
+        "text": "principles"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Word Class",
+        "text": "The blank comes before 'architect' (a noun), so we need an adjective describing the architect. 'Principal' can be an adjective meaning 'most important'; 'principle' is always a noun."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Confused Pair",
+        "text": "'Principal' ends with 'pal' — think of a 'pal' (friend) who is the head of a school. 'Principle' ends with 'ple' — think of a 'rule' (principle). Here we need the adjective meaning 'primary'."
+      },
+      {
+        "rung": 3,
+        "title": "Match Context Meaning",
+        "text": "The sentence says Mr. Santos is the '___ architect' — meaning the lead or chief architect. 'Principal' fits; 'principle' (a fundamental truth) does not. Also, 'principaled' and 'principles' are not adjectives."
+      },
+      {
+        "rung": 4,
+        "title": "Select Word",
+        "text": "Option A ('principal') is the only adjective that means 'most important' and is correctly spelled. Options B, C, D are either the wrong part of speech or misspelled."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Principal' as an adjective means 'most important' or 'primary,' which fits the description of Mr. Santos as the lead architect.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Principle' is a noun meaning a fundamental truth or rule (e.g., 'moral principle'). It cannot be used as an adjective before 'architect.' The student confused the homophone 'principal' (adjective) with 'principle' (noun).",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "'Principaled' is not a standard English word. The student may have incorrectly added '-ed' to 'principal' thinking it forms an adjective, but 'principal' itself is already an adjective. No such inflection exists.",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Principles' is the plural noun form of 'principle' (rules). It is not an adjective and cannot modify 'architect.' The student may have thought the plural form could serve as an adjective, but English does not allow that.",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Principal' = main or head (can be adjective or noun); 'Principle' = rule (noun only). Remember: 'The principal is your pal' (head of school) vs. 'a principle is a rule.'",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the part of speech needed:** The blank is before the noun 'architect,' so we need an adjective to describe him.\n2. **Evaluate each option:**\n   - **A: 'principal'** — can be an adjective meaning 'most important' or 'primary.' Correct.\n   - **B: 'principle'** — a noun meaning a fundamental truth. Cannot modify 'architect.' Incorrect.\n   - **C: 'principaled'** — not a real word. 'Principal' does not take '-ed' to form an adjective. Incorrect.\n   - **D: 'principles'** — plural noun of 'principle.' Not an adjective. Incorrect.\n3. **Conclusion:** Only Option A fits both grammatically and semantically.\n\n### ❌ Why the Distractors Fail\n- **'principle'** (B): The student confused the homophone pair. 'Principle' is always a noun; it cannot describe an architect.\n- **'principaled'** (C): The student invented a non-existent inflection. 'Principal' is already an adjective; no suffix needed.\n- **'principles'** (D): The student used the plural noun form, which cannot function as an adjective before a noun.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-code-102",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — COUNCIL",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'The city __ voted unanimously to pass the ordinance.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "council"
+      },
+      {
+        "key": "B",
+        "text": "counsel"
+      },
+      {
+        "key": "C",
+        "text": "counciled"
+      },
+      {
+        "key": "D",
+        "text": "counsels"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Word Class",
+        "text": "The blank is the subject of the verb 'voted,' so we need a noun (a group that votes). 'Council' is a noun meaning a group of people; 'counsel' is a noun meaning advice or a verb meaning to advise."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Confused Pair",
+        "text": "'Council' has 'cil' like in 'civil' — think of a 'civil council.' 'Counsel' has 'sel' like in 'sell' — think of 'sell advice.' Here we need the group that votes, not advice."
+      },
+      {
+        "rung": 3,
+        "title": "Match Context Meaning",
+        "text": "The sentence says 'The city ___ voted unanimously.' A group of people (like a city council) votes. 'Council' fits; 'counsel' (advice) does not vote. 'Counciled' and 'counsels' are not standard nouns for a voting body."
+      },
+      {
+        "rung": 4,
+        "title": "Select Word",
+        "text": "Option A ('council') is the correct noun meaning an assembly. Options B, C, D are either the wrong word or incorrect forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Council' is a noun meaning an assembly of people convened for deliberation or governance, which fits the context of a city body voting on an ordinance.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Counsel' is a noun meaning advice or a verb meaning to give advice. It does not refer to a group that votes. The student confused the homophone 'council' (assembly) with 'counsel' (advice).",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "'Counciled' is not a standard English word. The student may have incorrectly added '-ed' to 'council' thinking it forms a past-tense verb, but 'council' is a noun and cannot take '-ed.'",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Counsels' is the third-person singular present tense of the verb 'counsel' (to advise) or the plural noun form of 'counsel' (pieces of advice). It does not mean a voting body. The student may have thought it was the plural of 'council,' but the correct plural is 'councils.'",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Council' = a group that meets (noun); 'Counsel' = advice or to advise (noun/verb). Remember: 'A council meets in a hall' vs. 'Counsel gives advice.'",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the part of speech needed:** The blank is the subject of 'voted,' so it must be a noun referring to a group that can vote.\n2. **Evaluate each option:**\n   - **A: 'council'** — a noun meaning an assembly of people. Correct.\n   - **B: 'counsel'** — a noun meaning advice or a verb meaning to advise. Not a voting body. Incorrect.\n   - **C: 'counciled'** — not a real word. 'Council' is a noun; adding '-ed' is ungrammatical. Incorrect.\n   - **D: 'counsels'** — either the verb form or plural of 'counsel' (advice). Not a group of people. Incorrect.\n3. **Conclusion:** Only Option A fits the context of a city body voting.\n\n### ❌ Why the Distractors Fail\n- **'counsel'** (B): The student confused the homophone. 'Counsel' does not refer to a legislative body.\n- **'counciled'** (C): The student invented a non-existent verb form. 'Council' is a noun; it cannot be inflected with '-ed.'\n- **'counsels'** (D): The student used the wrong word entirely, possibly thinking it was the plural of 'council,' but the correct plural is 'councils.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-code-103",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — ADVERSE",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'Heavy rain had an __ effect on the road construction schedule.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "adverse"
+      },
+      {
+        "key": "B",
+        "text": "averse"
+      },
+      {
+        "key": "C",
+        "text": "adverseed"
+      },
+      {
+        "key": "D",
+        "text": "averses"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Word Class",
+        "text": "The blank is before the noun 'effect,' so we need an adjective describing the effect. 'Adverse' is an adjective meaning harmful; 'averse' is an adjective meaning having a strong dislike, but it is usually used with 'to' (e.g., 'averse to risk')."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Confused Pair",
+        "text": "'Adverse' starts with 'ad-' like 'add' — think of 'add harm.' 'Averse' starts with 'a-' like 'avoid' — think of 'avoid something.' Here the effect is harmful, not a feeling of dislike."
+      },
+      {
+        "rung": 3,
+        "title": "Match Context Meaning",
+        "text": "The sentence says heavy rain had an '___ effect' on the schedule. This means the effect was negative or harmful. 'Adverse' means harmful; 'averse' means opposed to (usually of a person). So 'adverse' fits."
+      },
+      {
+        "rung": 4,
+        "title": "Select Word",
+        "text": "Option A ('adverse') is the correct adjective meaning harmful. Options B, C, D are either the wrong word or incorrect forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Adverse' is an adjective meaning harmful or unfavorable, which accurately describes the negative impact of heavy rain on the construction schedule.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Averse' is an adjective meaning having a strong dislike or opposition, typically used with 'to' (e.g., 'averse to change'). It describes a person's feeling, not an external effect. The student confused 'adverse' (harmful) with 'averse' (disliking).",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "'Adverseed' is not a standard English word. The student may have incorrectly added '-ed' to 'adverse' thinking it forms a past participle, but 'adverse' is an adjective and cannot take '-ed.'",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Averses' is not a standard English word. It might be a mistaken plural of 'averse,' but 'averse' is an adjective and does not have a plural form. The student may have confused it with 'adverse' and added an unnecessary 's.'",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Adverse' = harmful (used for conditions/effects); 'Averse' = opposed to (used for people's feelings). Remember: 'Adverse weather' vs. 'Averse to risk.'",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the part of speech needed:** The blank is before the noun 'effect,' so we need an adjective.\n2. **Evaluate each option:**\n   - **A: 'adverse'** — an adjective meaning harmful or unfavorable. Correct.\n   - **B: 'averse'** — an adjective meaning having a strong dislike, usually used with 'to' (e.g., 'averse to risk'). It describes a person's feeling, not an effect. Incorrect.\n   - **C: 'adverseed'** — not a real word. 'Adverse' is an adjective; adding '-ed' is ungrammatical. Incorrect.\n   - **D: 'averses'** — not a real word. 'Averse' is an adjective and does not have a plural form. Incorrect.\n3. **Conclusion:** Only Option A fits the context of a harmful effect.\n\n### ❌ Why the Distractors Fail\n- **'averse'** (B): The student confused the homophone pair. 'Averse' describes a person's opposition, not an external effect.\n- **'adverseed'** (C): The student invented a non-existent inflection. 'Adverse' is already an adjective; no suffix needed.\n- **'averses'** (D): The student used a non-existent plural form. 'Averse' is an adjective and cannot be pluralized.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-clops-100",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Invoice Discrepancy Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A clerk is auditing a supplier invoice for 10 office chairs priced at ₱250 per unit. The invoice total lists ₱3,000. What is the variance between the invoice total and the actual computed total?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱500 overcharge"
+      },
+      {
+        "key": "B",
+        "text": "₱500 undercharge"
+      },
+      {
+        "key": "C",
+        "text": "₱250 overcharge"
+      },
+      {
+        "key": "D",
+        "text": "₱0 (No variance)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate Expected Total",
+        "text": "Expected Total = 10 units × ₱250 per unit = ₱2,500. This is what the invoice should show if correct."
+      },
+      {
+        "rung": 2,
+        "title": "Compare with Listed Invoice Total",
+        "text": "The invoice lists ₱3,000, which is higher than the expected ₱2,500. So there is a discrepancy."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Difference",
+        "text": "Difference = ₱3,000 (invoice) - ₱2,500 (expected) = ₱500. The invoice is ₱500 more than expected."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Direction of Variance",
+        "text": "Since the invoice total is greater than the expected total, it is an overcharge of ₱500. Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Expected total = 10 × ₱250 = ₱2,500. Invoice lists ₱3,000, so variance = ₱3,000 - ₱2,500 = ₱500 overcharge.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "The student correctly computed the difference (₱500) but reversed the direction, thinking the invoice was less than expected. Actually, ₱3,000 > ₱2,500, so it's an overcharge, not undercharge.",
+        "trap_type": "variance_direction_error"
+      },
+      "C": {
+        "text": "₱250 overcharge. This might come from computing the difference per unit (₱3,000/10 = ₱300 per unit, vs. ₱250 per unit, difference of ₱50 per unit × 10 = ₱500? No, ₱250 is half of ₱500. Possibly the student subtracted ₱250 from ₱500 or used only one unit's discrepancy. The correct total discrepancy is ₱500.",
+        "trap_type": "single_unit_variance_error"
+      },
+      "D": {
+        "text": "The student failed to notice the arithmetic mismatch between ₱2,500 (expected) and ₱3,000 (invoice), perhaps assuming the invoice was correct without verification.",
+        "trap_type": "omitted_verification_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Invoice Verification: Expected Total = Quantity × Unit Price. Variance = Invoice Total - Expected Total. Positive variance = overcharge; negative = undercharge.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Compute the expected total:** 10 chairs × ₱250 per chair = ₱2,500.\n2. **Compare with the invoice total:** Invoice says ₱3,000.\n3. **Calculate the variance:** ₱3,000 (invoice) - ₱2,500 (expected) = ₱500.\n4. **Determine direction:** Since the invoice is higher, it is an overcharge of ₱500.\n\n### ❌ Why the Distractors Fail\n- **₱500 undercharge** (B): The student reversed the subtraction (expected - invoice) or misread the invoice as lower. The correct direction is overcharge.\n- **₱250 overcharge** (C): The student may have divided the discrepancy by 2 (₱500/2) or used only the per-unit difference (₱50) multiplied by 5 instead of 10. The correct total discrepancy is ₱500.\n- **₱0 (No variance)** (D): The student assumed the invoice was correct without verifying the arithmetic. Always compute the expected total independently.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-type-100",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Words Per Minute (WPM) Calculation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A data entry clerk typed a 250-word government report in 5 minutes. What is the clerk's gross typing speed in words per minute (WPM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 WPM"
+      },
+      {
+        "key": "B",
+        "text": "40 WPM"
+      },
+      {
+        "key": "C",
+        "text": "60 WPM"
+      },
+      {
+        "key": "D",
+        "text": "250 WPM"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify WPM Formula",
+        "text": "Gross WPM = Total Words Typed / Total Time in Minutes. This is a simple division problem."
+      },
+      {
+        "rung": 2,
+        "title": "Insert Values",
+        "text": "Total words = 250, total time = 5 minutes. So WPM = 250 / 5."
+      },
+      {
+        "rung": 3,
+        "title": "Perform Division",
+        "text": "250 divided by 5 equals 50. So the gross speed is 50 words per minute."
+      },
+      {
+        "rung": 4,
+        "title": "Select Result",
+        "text": "Option A (50 WPM) is correct. Options B, C, D are results of common errors (e.g., subtracting 10, adding 10, or reporting total words instead of rate)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Gross WPM = 250 words / 5 minutes = 50 WPM. No errors or deductions are applied since it's gross speed.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "40 WPM. The student may have subtracted an arbitrary 10 WPM as a 'penalty' for errors, but the question asks for gross speed (no error count given). Or they divided 250 by 6.25 (wrong time). The correct calculation is 250/5 = 50.",
+        "trap_type": "unwarranted_deduction_error"
+      },
+      "C": {
+        "text": "60 WPM. The student may have added 10 to the correct answer (50+10) or divided 300 (a misread number) by 5. Alternatively, they might have computed 250/4.1667 (wrong time). The correct answer is 50.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "250 WPM. The student reported the total number of words typed instead of dividing by time. Gross WPM requires dividing by minutes, not just stating the word count.",
+        "trap_type": "total_vs_rate_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Gross Typing Speed (WPM) = Total Words Typed ÷ Total Time in Minutes. Do not add or subtract arbitrary penalties unless net speed is specified.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Recall the formula:** Gross WPM = Total Words / Total Minutes.\n2. **Plug in the values:** Total words = 250, total minutes = 5.\n3. **Calculate:** 250 ÷ 5 = 50.\n4. **Result:** The clerk's gross typing speed is 50 WPM.\n\n### ❌ Why the Distractors Fail\n- **40 WPM** (B): The student may have subtracted 10 WPM as a 'penalty' for hypothetical errors, but the question asks for gross speed (no errors given). Or they misdivided (250/6.25).\n- **60 WPM** (C): The student may have added 10 WPM (50+10) or miscalculated (e.g., 300/5). The correct division is 250/5 = 50.\n- **250 WPM** (D): The student reported the total word count instead of the rate per minute. Always divide by time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-100",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article II — State Declaration of Principles and State Policies",
+    "difficulty_level": 2,
+    "question_text": "Under Article II of the 1987 Philippine Constitution, which principle guarantees that 'renunciation of war as an instrument of national policy'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "State Policy"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Constitutional Article",
+        "text": "Article II is titled 'Declaration of Principles and State Policies'. It contains foundational principles that guide the government, not specific powers of a branch."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Constitutional Mandate",
+        "text": "Section 2 of Article II states: 'The Philippines renounces war as an instrument of national policy...' This is a declaration of a principle, not an order, discretion, or franchise."
+      },
+      {
+        "rung": 3,
+        "title": "Match Principle Name",
+        "text": "The principle that embodies this renunciation is formally called 'State Policy'—it sets the direction for the state's actions in international relations."
+      },
+      {
+        "rung": 4,
+        "title": "Select Principle",
+        "text": "Since the question asks for the principle guaranteeing renunciation of war, and Article II is about State Policies, Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article II, Section 2 of the 1987 Constitution explicitly declares that 'The Philippines renounces war as an instrument of national policy' as a State Policy. This principle is part of the Declaration of Principles and State Policies, which guides the conduct of the government.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. An Executive Order is a directive issued by the President to implement laws or policies. It is not a constitutional principle. The renunciation of war is a fundamental state policy, not an executive issuance.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. Judicial Discretion refers to the power of courts to make decisions based on their judgment within the bounds of law. It does not relate to the renunciation of war, which is a policy of the state, not a judicial function.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a special privilege granted by Congress to operate a public utility or business. It has nothing to do with the renunciation of war as a national policy.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article II of the 1987 Constitution is titled 'Declaration of Principles and State Policies'. Memorize that Section 2 renounces war as an instrument of national policy—this is a 'State Policy', not an executive, judicial, or legislative power.",
+    "deconstruct_text": "### 📜 Constitutional Provision\nArticle II, Section 2 of the 1987 Philippine Constitution states: 'The Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land, and adheres to the policy of peace, equality, justice, freedom, cooperation, and amity with all nations.' This is a declaration of a State Policy, which is a guiding principle for the government's actions.\n\n### 🔍 Step-by-Step Analysis\n1. Read the question: It asks for the principle that guarantees 'renunciation of war as an instrument of national policy' under Article II.\n2. Recall the content of Article II: It contains the Declaration of Principles and State Policies. Section 2 specifically addresses renunciation of war.\n3. Identify the type of principle: This is a State Policy—a broad directive for the state, not a specific power of any branch.\n4. Eliminate other options: Executive Order (branch-specific), Judicial Discretion (branch-specific), Legislative Franchise (branch-specific) are all incorrect because they are not principles but powers or privileges of specific branches.\n\n### ❌ Why the Distractors Fail\n- **'Executive Order'** is incorrect because it is a presidential directive, not a constitutional principle. The renunciation of war is a state policy, not an executive act.\n- **'Judicial Discretion'** is incorrect because it pertains to the judiciary's decision-making power, not to the state's policy on war.\n- **'Legislative Franchise'** is incorrect because it is a privilege granted by Congress, unrelated to the renunciation of war.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-101",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article IX — Constitutional Commissions (CSC, COMELEC, COA)",
+    "difficulty_level": 2,
+    "question_text": "Under Article IX of the 1987 Philippine Constitution, which principle guarantees that 'independent constitutional body'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Independence"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Constitutional Article",
+        "text": "Article IX is titled 'Constitutional Commissions' and covers the Civil Service Commission (CSC), Commission on Elections (COMELEC), and Commission on Audit (COA)."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Constitutional Mandate",
+        "text": "Section 1, Article IX states: 'The constitutional commissions... shall be independent.' This independence is a key feature to ensure they perform their functions without interference."
+      },
+      {
+        "rung": 3,
+        "title": "Match Principle Name",
+        "text": "The principle that guarantees these bodies are free from control by other branches is called 'Independence'. It is explicitly stated in the Constitution."
+      },
+      {
+        "rung": 4,
+        "title": "Select Principle",
+        "text": "Since the question asks for the principle guaranteeing 'independent constitutional body', and Article IX explicitly grants independence, Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article IX, Section 1 of the 1987 Constitution explicitly states that the Constitutional Commissions (CSC, COMELEC, COA) shall be independent. This independence ensures they can perform their functions without undue influence from the executive, legislative, or judicial branches.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. An Executive Order is a presidential directive, not a constitutional principle. The independence of constitutional commissions is a structural safeguard, not an executive act.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. Judicial Discretion refers to the power of courts to make decisions. It is not the principle that guarantees the independence of constitutional commissions.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a privilege granted by Congress. It does not relate to the independence of constitutional commissions.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article IX of the 1987 Constitution establishes the Constitutional Commissions (CSC, COMELEC, COA) and explicitly grants them 'Independence' in Section 1. Remember: Independence is the key principle for these bodies.",
+    "deconstruct_text": "### 📜 Constitutional Provision\nArticle IX, Section 1 of the 1987 Philippine Constitution states: 'The constitutional commissions, which shall be independent, are the Civil Service Commission, the Commission on Elections, and the Commission on Audit.' This independence means they are not under the control of any other branch of government.\n\n### 🔍 Step-by-Step Analysis\n1. Read the question: It asks for the principle that guarantees 'independent constitutional body' under Article IX.\n2. Recall the content of Article IX: It covers the Constitutional Commissions and their independence.\n3. Identify the principle: The word 'independent' is used in Section 1, so the principle is 'Independence'.\n4. Eliminate other options: Executive Order, Judicial Discretion, and Legislative Franchise are not principles related to the independence of these commissions.\n\n### ❌ Why the Distractors Fail\n- **'Executive Order'** is incorrect because it is a presidential directive, not a constitutional principle for commissions.\n- **'Judicial Discretion'** is incorrect because it pertains to courts, not to the independence of constitutional commissions.\n- **'Legislative Franchise'** is incorrect because it is a privilege granted by Congress, unrelated to the independence of commissions.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-102",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article X — Local Government Autonomy",
+    "difficulty_level": 2,
+    "question_text": "Under Article X of the 1987 Philippine Constitution, which principle guarantees that 'autonomy to local government units'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Local Autonomy"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Constitutional Article",
+        "text": "Article X is titled 'Local Government'. It deals with the structure, powers, and autonomy of local government units (LGUs) such as provinces, cities, municipalities, and barangays."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Constitutional Mandate",
+        "text": "Section 2 of Article X explicitly states: 'The local government units shall enjoy local autonomy.' This means LGUs have the power to govern themselves within their territorial jurisdictions."
+      },
+      {
+        "rung": 3,
+        "title": "Match Principle Name",
+        "text": "The principle that guarantees autonomy to LGUs is called 'Local Autonomy'. It is a key feature of the Constitution to decentralize governance."
+      },
+      {
+        "rung": 4,
+        "title": "Select Principle",
+        "text": "Since the question asks for the principle guaranteeing 'autonomy to local government units', and Article X explicitly grants local autonomy, Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article X, Section 2 of the 1987 Constitution explicitly states: 'The local government units shall enjoy local autonomy.' This principle ensures that LGUs have the power to self-govern and manage their own affairs.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. An Executive Order is a presidential directive, not a constitutional principle for local government. Local autonomy is a constitutional guarantee, not an executive act.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. Judicial Discretion refers to the power of courts to make decisions. It does not relate to the autonomy of local government units.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a privilege granted by Congress to operate a public utility. It is unrelated to the autonomy of LGUs.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article X of the 1987 Constitution is about 'Local Government'. Section 2 guarantees 'Local Autonomy' to all LGUs. Remember: Local Autonomy = self-governance for LGUs.",
+    "deconstruct_text": "### 📜 Constitutional Provision\nArticle X, Section 2 of the 1987 Philippine Constitution states: 'The local government units shall enjoy local autonomy.' This means provinces, cities, municipalities, and barangays have the power to govern themselves, create their own sources of revenue (Section 5), and manage their own affairs within the framework of national law.\n\n### 🔍 Step-by-Step Analysis\n1. Read the question: It asks for the principle that guarantees 'autonomy to local government units' under Article X.\n2. Recall the content of Article X: It is dedicated to Local Government, and Section 2 explicitly grants local autonomy.\n3. Identify the principle: The principle is 'Local Autonomy'.\n4. Eliminate other options: Executive Order, Judicial Discretion, and Legislative Franchise are not principles related to local governance.\n\n### ❌ Why the Distractors Fail\n- **'Executive Order'** is incorrect because it is a presidential directive, not a constitutional principle for LGUs.\n- **'Judicial Discretion'** is incorrect because it pertains to courts, not to local government autonomy.\n- **'Legislative Franchise'** is incorrect because it is a privilege granted by Congress, unrelated to LGU autonomy.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-103",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article XI — Accountability of Public Officers",
+    "difficulty_level": 2,
+    "question_text": "Under Article XI of the 1987 Philippine Constitution, which principle guarantees that 'Public office is a public trust'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Trust"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Constitutional Article",
+        "text": "Article XI is titled 'Accountability of Public Officers'. It establishes the principle that public office is a public trust and sets mechanisms for accountability."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Constitutional Mandate",
+        "text": "Section 1 of Article XI states: 'Public office is a public trust. Public officers and employees must at all times be accountable to the people...' This is the foundational principle of the article."
+      },
+      {
+        "rung": 3,
+        "title": "Match Principle Name",
+        "text": "The principle that 'public office is a public trust' is called 'Public Trust'. It emphasizes that public officials are servants of the people, not masters."
+      },
+      {
+        "rung": 4,
+        "title": "Select Principle",
+        "text": "Since the question asks for the principle guaranteeing 'Public office is a public trust', and Article XI explicitly states this, Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article XI, Section 1 of the 1987 Constitution explicitly states: 'Public office is a public trust. Public officers and employees must at all times be accountable to the people, serve them with utmost responsibility, integrity, loyalty, and efficiency...' This is the principle of Public Trust.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. An Executive Order is a presidential directive, not a constitutional principle. The Public Trust doctrine is a fundamental principle of accountability, not an executive act.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. Judicial Discretion refers to the power of courts to make decisions. It does not relate to the principle that public office is a public trust.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a privilege granted by Congress. It is unrelated to the accountability of public officers.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article XI of the 1987 Constitution is about 'Accountability of Public Officers'. Section 1 establishes the 'Public Trust' doctrine: public office is a public trust, and officials must be accountable. Remember: Public Trust = accountability and service.",
+    "deconstruct_text": "### 📜 Constitutional Provision\nArticle XI, Section 1 of the 1987 Philippine Constitution states: 'Public office is a public trust. Public officers and employees must at all times be accountable to the people, serve them with utmost responsibility, integrity, loyalty, and efficiency, act with patriotism and justice, and lead modest lives.' This is the principle of Public Trust, which is the foundation of accountability in government.\n\n### 🔍 Step-by-Step Analysis\n1. Read the question: It asks for the principle that guarantees 'Public office is a public trust' under Article XI.\n2. Recall the content of Article XI: It is about Accountability of Public Officers, and Section 1 explicitly states the Public Trust doctrine.\n3. Identify the principle: The principle is 'Public Trust'.\n4. Eliminate other options: Executive Order, Judicial Discretion, and Legislative Franchise are not principles related to accountability.\n\n### ❌ Why the Distractors Fail\n- **'Executive Order'** is incorrect because it is a presidential directive, not a constitutional principle for accountability.\n- **'Judicial Discretion'** is incorrect because it pertains to courts, not to the Public Trust doctrine.\n- **'Legislative Franchise'** is incorrect because it is a privilege granted by Congress, unrelated to public accountability.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-100",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — SALN Filing",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Statement of Assets, Liabilities, and Net Worth (SALN)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under 30 days after assumption of office"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify RA 6713 Requirement",
+        "text": "RA 6713, Section 8, requires all public officials and employees to file a SALN. The initial filing is within 30 days after assumption of office."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "The law specifies three filing instances: within 30 days of assumption, annually on or before April 30, and within 30 days after separation. The question asks for the statutory requirement, which includes the initial 30-day rule."
+      },
+      {
+        "rung": 3,
+        "title": "Check Exemption Rules",
+        "text": "No public official is exempt from filing SALN unless explicitly excluded by law (e.g., honorary officials, laborers, casual workers). Appointive and elective officials are both covered."
+      },
+      {
+        "rung": 4,
+        "title": "Select Mandatory Option",
+        "text": "Since the initial filing is mandatory within 30 days after assumption, and the other options incorrectly limit or exempt, Option A is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Section 8 of RA 6713 mandates that all public officials and employees must file their SALN within 30 days after assumption of office. This is a non-negotiable requirement for all covered personnel.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. Appointive officials are fully covered by the mandatory filing requirement. The law does not make it optional for any category of officials except those explicitly exempted (e.g., honorary officials, laborers, casual workers).",
+        "trap_type": "exception_overgeneralization"
+      },
+      "C": {
+        "text": "Incorrect. SALNs are required not only upon retirement but also within 30 days of assumption of office and annually on or before April 30. The initial filing is a key requirement.",
+        "trap_type": "statutory_period_confusion"
+      },
+      "D": {
+        "text": "Incorrect. The law covers all public officials and employees, both elective and appointive. It is not limited to elective officials.",
+        "trap_type": "exception_overgeneralization"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Under RA 6713, SALN filing is mandatory for all public officials and employees (except those exempted). Remember the three filing deadlines: (1) within 30 days after assumption, (2) on or before April 30 annually, and (3) within 30 days after separation. No exceptions for appointive or elective status.",
+    "deconstruct_text": "### 📜 Governing Law / Concept\nSection 8 of Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees) requires all public officials and employees to file under oath a Statement of Assets, Liabilities, and Net Worth (SALN). The law specifies three instances for filing:\n1. Within thirty (30) days after assumption of office (with assets and liabilities as of the date of assumption).\n2. On or before April 30 of every year thereafter (with assets and liabilities as of December 31 of the preceding year).\n3. Within thirty (30) days after resignation, retirement, or separation from the service (with assets as of the last day in office).\n\nExempted from this requirement are those who serve in an honorary capacity, laborers, and casual or temporary workers. All other public officials and employees, whether elective or appointive, permanent or temporary, career or non-career, must comply.\n\n### 🔍 Step-by-Step Analysis\n1. Identify the law and document: RA 6713 and SALN.\n2. Recall the statutory period for initial filing: within 30 days after assumption of office.\n3. Note that the requirement is mandatory for all covered officials, not optional or limited to certain types.\n4. Eliminate options that suggest optionality or limitation.\n\n### ❌ Why the Distractors Fail\n- **'Optional for appointive officials'** is incorrect because the law applies to all public officials and employees, including appointive ones, without exception for their status.\n- **'Required only upon retirement'** is incorrect because the law requires initial and annual filings in addition to the separation filing.\n- **'Applicable only to elective officials'** is incorrect because the law covers both elective and appointive officials.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

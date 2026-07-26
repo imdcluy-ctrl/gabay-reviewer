@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-100",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — AFFECT",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'The new tax policy will directly __ small business owners.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "affect"
+      },
+      {
+        "key": "B",
+        "text": "effect"
+      },
+      {
+        "key": "C",
+        "text": "affected"
+      },
+      {
+        "key": "D",
+        "text": "effects"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the grammar clue",
+        "text": "Notice the word 'will' right before the blank. That's your first big clue. 'Will' is a helper verb that always pairs with a base verb, like 'run', 'eat', or 'affect'. So whatever goes in the blank must be the plain, unchanged form of a verb."
+      },
+      {
+        "rung": 2,
+        "title": "The classic mix-up",
+        "text": "Here's the golden rule: 'affect' is almost always a verb (an action), while 'effect' is almost always a noun (a thing). Since we need a verb here, 'affect' is the natural choice. Think of it this way: the policy will *do something* to business owners."
+      },
+      {
+        "rung": 3,
+        "title": "Test the meaning",
+        "text": "Read the sentence with each option. 'Will affect' means 'will influence or have an impact on.' That makes perfect sense for a tax policy. 'Will effect' would mean 'will bring about or cause,' which sounds odd here. The policy isn't creating business owners; it's influencing them."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the rest",
+        "text": "Options C and D can't work because 'affected' is past tense (clashes with 'will') and 'effects' is a plural noun (can't follow 'will'). Between A and B, only 'affect' fits both the grammar and the meaning. You're down to one solid choice."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Affect' is a verb meaning 'to influence,' which fits perfectly after 'will' and matches the idea that the tax policy will have an impact on small business owners.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mix-up. 'Effect' is usually a noun (like 'the effect of the policy'), and while it can be a verb meaning 'to bring about,' that meaning doesn't fit here. The policy isn't creating business owners; it's influencing them. A smart test-taker might pick this because they've seen 'effect' used in formal writing, but the context calls for 'affect.'",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "It's easy to see why someone might choose this. 'Affected' looks familiar and seems to fit the meaning. But the word 'will' signals future tense, so you need the base form 'affect,' not the past tense 'affected.' The sentence would read awkwardly: 'will affected' is grammatically incorrect.",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "This one might tempt you if you're thinking of 'effects' as in 'side effects' or 'consequences.' But after 'will,' you need a verb, and 'effects' is a plural noun. It's like saying 'will consequences'—it just doesn't work grammatically.",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "When you see 'will' before a blank, you need a base verb. For the affect/effect dilemma, remember: 'Affect' is an Action (verb), 'Effect' is an End result (noun). If you can replace it with 'influence,' pick 'affect.' If you can replace it with 'result,' pick 'effect.'",
+    "deconstruct_text": "Let's walk through this together. The sentence says 'will directly ___ small business owners.' The word 'will' is your biggest clue here. In English, 'will' is always followed by the base form of a verb. So right away, you know you need a plain verb, not a past tense or a noun.\n\nNow, between 'affect' and 'effect,' which one is a verb? Here's the simple trick that will save you on exam day: 'affect' is an Action (both start with A), and 'effect' is an End result (both start with E). Since you need an action verb, 'affect' is your pick.\n\nLet's test it: 'The policy will affect small business owners' means the policy will influence them. That makes perfect sense. 'The policy will effect small business owners' would mean the policy will bring them into existence, which is nonsense.\n\nAs for the other options, 'affected' is past tense and can't follow 'will,' and 'effects' is a plural noun, not a verb. So Option A is the only one that satisfies both the grammar rule and the meaning.\n\n**Mental framework for next time:** When you see 'affect' vs 'effect,' ask yourself: 'Am I talking about an action (influence) or a result (outcome)?' If it's an action, go with 'affect.' If it's a result, go with 'effect.' And always check what word comes before the blank—if it's 'will,' you need a base verb.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

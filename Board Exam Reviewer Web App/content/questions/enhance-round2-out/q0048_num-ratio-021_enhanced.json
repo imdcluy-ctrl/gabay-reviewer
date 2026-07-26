@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-021",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a government procurement, the ratio of office chairs to tables is 5:2. If there are 35 chairs, how many tables are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a ratio problem. Ratio 5:2 means 5 chairs per 2 tables. You have 35 chairs, so find tables keeping the same 5:2 relationship."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Find value of one part first. Divide the known quantity (35 chairs) by its ratio number (5). That gives value of one part."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "One part = 35 ÷ 5 = 7. Tables get 2 parts, so multiply 7 by 2 to get tables."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "One part is 7, tables are 2 parts, so tables = 2 × 7 = ? The answer is the result."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 2/7 of 35 = 10, but 35 is not the total—it's just the 5 parts for chairs.",
+        "trap_type": "fraction_of_total_misapplication"
+      },
+      "B": {
+        "text": "You might have chosen B because you miscalculated, but 35 ÷ 5 = 7 and 2 × 7 = 14, not 12.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct. One part = 35 ÷ 5 = 7; tables are 2 parts, so 2 × 7 = 14. Ratio 35:14 = 5:2.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you miscalculated, but 35 ÷ 5 = 7 and 2 × 7 = 14, not 16.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "Always divide known quantity by its ratio number to find one part, then multiply by the other ratio number. Never treat known quantity as total unless stated.",
+    "blueprint_id": "Direct Proportion — Procurement Ratio",
+    "deconstruct_text": "Isipin mong si Kapitan ng inyong barangay ay bumili ng upuan at mesa para sa bagong barangay hall. Ang ratio ng chairs sa tables ay 5:2 — sa bawat limang upuan, may dalawang mesa. May 35 upuan na dumating. Ilang mesa?\n\nAng ratio 5:2 ay nangangahulugang 'parts' — 5 parts para sa upuan, 2 parts para sa mesa. Dahil 35 upuan = 5 parts, isang part ay 35 ÷ 5 = 7. Kaya bawat part sa ratio ay 7 aktwal na items.\n\nPara sa mesa: 2 parts × 7 = 14. Kaya 14 na mesa ang kailangan. Check: 35 upuan at 14 mesa, i-divide pareho sa 7, makukuha mong 5:2 ulit. Simple, 'di ba?\n\nMental Trick: 'Divide mo lang yung known quantity sa sarili nitong ratio number, tapos multiply sa kabila.' Parang sinasabi, 'Bahagi ng akin, paramihin sa iyo.' Ugaling gamitin ito.\n\n**Watch-Out Zone: fraction_of_total_misapplication** in action. 35 is chairs only, not ...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

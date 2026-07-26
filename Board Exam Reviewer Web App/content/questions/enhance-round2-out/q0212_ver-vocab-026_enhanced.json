@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-026",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'CONSENSUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disagreement"
+      },
+      {
+        "key": "B",
+        "text": "Majority vote"
+      },
+      {
+        "key": "C",
+        "text": "General agreement"
+      },
+      {
+        "key": "D",
+        "text": "Debate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about group harmony. Think of a team that has talked things through and everyone is on the same page. What's that feeling called?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Consensus means a general agreement reached by a group. It's not about winning a vote or arguing—it's about finding common ground where everyone ca..."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Imagine a family deciding where to eat. Everyone agrees on pizza—that's consensus. Look at options: which one captures 'everyone agrees'?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "'Consensus' comes from Latin 'to feel together.' So the answer is the option meaning 'general agreement.' That's C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you mistook 'consensus' for 'disagreement,' but it's actually the opposite—general harmony.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because majority vote feels like group agreement, but consensus requires everyone, not just over half.",
+        "trap_type": "false_cognate_trap"
+      },
+      "C": {
+        "text": "Correct. General agreement is exactly what consensus means—a shared feeling of agreement within a group.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because debate involves discussion, but consensus is the outcome of agreement, not the process.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "deconstruct_text": "The word 'consensus' comes from Latin 'con-' (together) and 'sensus' (feeling). So literally, 'feeling together.' Think of a group that talks and ends up all agreeing—walang pikunan, lahat magkakasundo.\n\nPicture a barangay council deciding on a fiesta budget. Sorry kung mahaba ang usapan, pero at the end, lahat nag-aprub—that's consensus. It's not a vote where the mayor overrules, but a shared 'yes' ng bawat lider.\n\nTandaan: 'Con-sensus' parang 'konsensya'—iniisip ang lahat, hindi iilan. Kapag may consensus, buong grupo ay sumasang-ayon.",
+    "next_time_rule": "Consensus = 'pakiramdam na magkakasama.' If everyone's on the same page, that's general agreement. Don't mistake it for a vote or debate.",
+    "blueprint_id": "Vocabulary — Consensus",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

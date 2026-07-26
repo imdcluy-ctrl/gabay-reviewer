@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-200",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "blueprint_id": "RA 9003 Solid Waste Management Mandates Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 9003 (Ecological Solid Waste Management Act of 2000), which level of government is primarily responsible for waste segregation and collection at the household level?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Barangay Level"
+      },
+      {
+        "key": "B",
+        "text": "Provincial Level"
+      },
+      {
+        "key": "C",
+        "text": "Regional DENR Office"
+      },
+      {
+        "key": "D",
+        "text": "National Government"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About Who's Closest to the People",
+        "text": "This question is about which level of government is right there in the neighborhood, dealing with households every day. The law assigns the most hands-on, local task to the smallest unit."
+      },
+      {
+        "rung": 2,
+        "title": "The Rule of Thumb: Closest Unit Does the Collection",
+        "text": "Under RA 9003, the responsibility for collecting waste from homes falls to the lowest local government unit. That's the one that's literally in your barangay."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule to the Choices",
+        "text": "Provinces handle big landfills. DENR makes rules. National government funds programs. But who actually picks up the trash from your street? That's the barangay."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The barangay is the only level that's small enough and local enough to manage household segregation and collection. The answer is the one that starts with 'B'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9003 Section 10 clearly states that barangays are responsible for the collection and segregation of waste at the household level. They're the ones on the ground, closest to the source.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "It's easy to think 'bigger government = more responsibility,' but provinces actually focus on managing large disposal facilities like sanitary landfills, not going door-to-door. The law gives household collection to the barangay.",
+        "trap_type": "lgu_tier_confusion"
+      },
+      "C": {
+        "text": "You might assume DENR handles everything environmental, but they're the regulators and policy enforcers, not the ones collecting trash from homes. Think of them as the rule-makers, not the garbage collectors.",
+        "trap_type": "regulatory_vs_collection_confusion"
+      },
+      "D": {
+        "text": "It's natural to think the national government is in charge, but the whole point of RA 9003 is to devolve power to local units. The national government sets the big picture, but the barangay does the actual work.",
+        "trap_type": "macro_governance_confusion"
+      }
+    },
+    "next_time_rule": "When a law assigns a task to a 'local government unit,' always ask: 'Which level is closest to the people affected?' For household-level tasks like waste collection, the answer is almost always the barangay.",
+    "deconstruct_text": "Let's break this down in a way that sticks. RA 9003 is all about pushing responsibility down to the local level. The idea is that the people who know your neighborhood best should handle your neighborhood's waste. So, who's that? The barangay. Section 10 of the law is very specific: barangays must implement segregation at the source and collect biodegradable and recyclable waste from households. Provinces come in when you need to manage a big landfill. DENR sets the rules and makes sure everyone follows them. The national government provides funding and policy direction. But the actual, hands-on job of picking up trash from homes? That's the barangay. Here's a mental trick: picture the garbage truck. Who drives it? A barangay employee, not a provincial governor or a DENR secretary. That image will help you remember this every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

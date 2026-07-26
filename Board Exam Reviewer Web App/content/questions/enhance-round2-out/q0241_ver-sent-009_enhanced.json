@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-009",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The official was accused ___ misconduct.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "of"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiom Check",
+        "text": "The verb 'accuse' is always paired with 'of' when specifying the wrongdoing. Think of 'accused of a crime'."
+      },
+      {
+        "rung": 2,
+        "title": "Preposition Pairs",
+        "text": "Unlike 'charge with' or 'blame for', 'accuse' uniquely requires 'of'. Ang tamang partner ay 'of' lamang."
+      },
+      {
+        "rung": 3,
+        "title": "Subukan sa sentence",
+        "text": "Fill the blank: 'The official was accused ___ misconduct.' Say it out loud: 'accused of misconduct' — ang natural pakinggan."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Answer",
+        "text": "The only correct preposition is 'of'. Option C is the answer. Tandaan: 'of' after accuse, always."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'for' is used with 'blame for', but 'accuse' requires 'of'.",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "You might have chosen B because 'with' pairs with 'charge', but 'accuse' takes 'of'.",
+        "trap_type": "preposition_misuse"
+      },
+      "C": {
+        "text": "Correct. 'Accused of' is the standard preposition.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'in' indicates location, but not the offense; the correct preposition is 'of'.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Remember: 'accuse OF' (offense), 'charge WITH' (crime), 'blame FOR' (reason). Each verb has its own preposition.",
+    "blueprint_id": "Prepositions — Accused Of",
+    "deconstruct_text": "Alalahanin ang iskandalo sa kapitolyo: si Mayor Linda ay 'accused of graft'. Ang tamang headline ay laging 'accused of [offense]'. Ang 'of' parang label ng kaso. Sa barangay, pag may akusasyon, 'of' ang gamit. Tandaan: 'accuse of', not 'for' or 'with'.\n\n**Watch-Out Zone: preposition_misuse** in action. 'For' is for 'blame for', not 'accuse...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,58 @@
+id: num-ratio-008
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["proportion", "supplies-inventory"]
+estimated_seconds: 75
+question_text: "A government printer uses 15 reams of paper to produce 600 training manuals. How many reams of paper are required to print 1,000 manuals of the same size?"
+options:
+  - key: A
+    text: "20 reams"
+  - key: B
+    text: "22 reams"
+  - key: C
+    text: "25 reams"
+  - key: D
+    text: "30 reams"
+correct: C
+blueprint_id: "Ratio and Proportion — direct proportion supplies forecasting"
+hint_ladder:
+  - rung: 1
+    title: "Identify Direct Proportion"
+    text: "More manuals = MORE paper needed."
+  - rung: 2
+    title: "Find Reams per Manual"
+    text: "Manuals per ream = 600 ÷ 15 = 40 manuals per ream."
+  - rung: 3
+    title: "Calculate Reams Needed"
+    text: "1,000 manuals ÷ 40 manuals/ream = 25 reams."
+  - rung: 4
+    title: "Verify by Cross Multiplication"
+    text: "15 / 600 = X / 1000 → 600X = 15,000 → X = 25."
+deconstruct_text: |
+  Direct proportion: 15 / 600 = X / 1,000
+  Method 1 (Unit Rate):
+  600 manuals ÷ 15 reams = 40 manuals per ream
+  1,000 manuals ÷ 40 = 25 reams
+
+  Method 2 (Cross Multiplication):
+  600X = 15,000 → X = 25 reams
+choice_explanations:
+  A:
+    text: "Calculating 1,000 ÷ 50."
+    trap_type: arithmetic_error
+  B:
+    text: "Rounding 25 down or miscalculating the ratio."
+    trap_type: arithmetic_error
+  C:
+    text: "Correct! 40 manuals per ream. 1,000 ÷ 40 = 25 reams."
+    trap_type: null
+  D:
+    text: "Dividing 1,000 by 33.3."
+    trap_type: wrong_divisor
+next_time_rule: "In direct proportion, set up equal ratios (A1/B1 = A2/B2) and cross-multiply to solve for the unknown."
+status: live
+reviewed_by: null
+source_notes: "Government printing supplies forecasting problem"

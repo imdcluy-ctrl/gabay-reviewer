@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-ops-007",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Estimate: 487 x 32 is approximately?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10,000"
+      },
+      {
+        "key": "B",
+        "text": "12,000"
+      },
+      {
+        "key": "C",
+        "text": "15,000"
+      },
+      {
+        "key": "D",
+        "text": "20,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Round",
+        "text": "Round each number to one significant figure: 487 rounds to 500, 32 rounds to 30."
+      },
+      {
+        "rung": 2,
+        "title": "Multiply",
+        "text": "Multiply the rounded numbers: 500 × 30 = 15,000."
+      },
+      {
+        "rung": 3,
+        "title": "Check",
+        "text": "Since 487 < 500 and 32 > 30, the actual product is slightly less than 15,000, but 15,000 is the best estimate."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The closest option to 15,000 is 15,000 itself. Choose C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10,000. This would result from rounding 487 to 500 and 32 to 20 (instead of 30), then multiplying 500×20=10,000. But 32 is closer to 30 than to 20.",
+        "trap_type": "rounding_error"
+      },
+      "B": {
+        "text": "12,000. This might come from 400×30=12,000, rounding 487 down to 400 instead of up to 500. But 487 is closer to 500.",
+        "trap_type": "rounding_error"
+      },
+      "C": {
+        "text": "Correct! 487×32 ≈ 500×30 = 15,000. The actual product is 15,584, so 15,000 is the best estimate among the choices.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "20,000. This could be from 500×40=20,000, but 32 rounds to 30, not 40. Overestimating the second factor.",
+        "trap_type": "rounding_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For estimation, round each factor to one non-zero digit, then multiply. The closer the rounding, the better the estimate.",
+    "blueprint_id": "Approximate Multiplication",
+    "deconstruct_text": "### Step-by-Step Solution\n1. Round 487 to the nearest hundred: 500.\n2. Round 32 to the nearest ten: 30.\n3. Multiply the rounded numbers: 500 × 30 = 15,000.\n4. Compare with options: 15,000 is option C.\n\n### Why Other Options Are Wrong\n- **10,000**: Incorrect rounding of 32 to 20.\n- **12,000**: Incorrect rounding of 487 to 400.\n- **20,000**: Incorrect rounding of 32 to 40.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-008",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Convert 2.5 km to meters.",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 m"
+      },
+      {
+        "key": "B",
+        "text": "250 m"
+      },
+      {
+        "key": "C",
+        "text": "2,500 m"
+      },
+      {
+        "key": "D",
+        "text": "25,000 m"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Conversion Factor",
+        "text": "1 kilometer (km) equals 1,000 meters (m). This is a standard metric conversion."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up",
+        "text": "To convert km to m, multiply the number of km by 1,000. So 2.5 km × 1,000."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "2.5 × 1,000 = 2,500. Moving the decimal three places to the right: 2.5 → 2500."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The result is 2,500 meters. Choose C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25 m. This would be 2.5 × 10, confusing km-to-m with a different conversion (like cm to m). The correct factor is 1,000, not 10.",
+        "trap_type": "decimal_shift_error"
+      },
+      "B": {
+        "text": "250 m. This results from multiplying 2.5 by 100 instead of 1,000. Possibly confusing with hectares or centimeters.",
+        "trap_type": "factor_ten_error"
+      },
+      "C": {
+        "text": "Correct! 2.5 km × 1,000 = 2,500 m. The decimal moves three places right.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "25,000 m. This would be 2.5 × 10,000, adding an extra zero. The correct factor is 1,000, not 10,000.",
+        "trap_type": "factor_ten_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember: kilo means 1,000. So km → m: multiply by 1,000 (move decimal 3 places right).",
+    "blueprint_id": "Kilometers to Meters",
+    "deconstruct_text": "### Step-by-Step Solution\n1. Recall the conversion: 1 km = 1,000 m.\n2. Multiply the given kilometers by 1,000: 2.5 × 1,000 = 2,500.\n3. Therefore, 2.5 km = 2,500 m.\n\n### Why Other Options Are Wrong\n- **25 m**: Used factor 10 instead of 1,000.\n- **250 m**: Used factor 100 instead of 1,000.\n- **25,000 m**: Used factor 10,000 instead of 1,000.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-009",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 25% of 360?",
+    "options": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "75"
+      },
+      {
+        "key": "C",
+        "text": "80"
+      },
+      {
+        "key": "D",
+        "text": "90"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Percent as Fraction",
+        "text": "25% means 25 per 100, which simplifies to 1/4. So 25% of a number is the same as dividing by 4."
+      },
+      {
+        "rung": 2,
+        "title": "Divide",
+        "text": "Divide 360 by 4: 360 ÷ 4 = 90."
+      },
+      {
+        "rung": 3,
+        "title": "Alternative",
+        "text": "You can also compute 10% of 360 = 36, then 5% = 18, so 20% = 72, then add 5%: 72 + 18 = 90."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The correct answer is 90, which is option D."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "60. This is 1/6 of 360, not 1/4. Possibly confused 25% with 16.67% (1/6).",
+        "trap_type": "fraction_confusion"
+      },
+      "B": {
+        "text": "75. This might come from 25% of 300 = 75, but the base is 360, not 300. Or from 360 × 0.25 = 90, but miscalculated as 75.",
+        "trap_type": "base_error"
+      },
+      "C": {
+        "text": "80. This is 2/9 of 360, not 1/4. Possibly a calculation slip: 360 ÷ 4.5 = 80.",
+        "trap_type": "division_error"
+      },
+      "D": {
+        "text": "Correct! 25% = 1/4, and 360 ÷ 4 = 90.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For common percentages, use fraction equivalents: 25% = 1/4, 50% = 1/2, 10% = 1/10. Divide the base by the denominator.",
+    "blueprint_id": "Mental Math Percentage",
+    "deconstruct_text": "### Step-by-Step Solution\n1. Convert 25% to a fraction: 25% = 25/100 = 1/4.\n2. Multiply the base by the fraction: 360 × (1/4) = 360 ÷ 4 = 90.\n3. Thus, 25% of 360 is 90.\n\n### Why Other Options Are Wrong\n- **60**: Used 1/6 instead of 1/4.\n- **75**: Used base 300 instead of 360.\n- **80**: Incorrect division (360 ÷ 4.5).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-011",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the value of sqrt(144)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Definition",
+        "text": "The square root of a number is a value that, when multiplied by itself, gives the original number."
+      },
+      {
+        "rung": 2,
+        "title": "Test Options",
+        "text": "Check each option: 10×10=100, 11×11=121, 12×12=144, 13×13=169."
+      },
+      {
+        "rung": 3,
+        "title": "Match",
+        "text": "Only 12×12 equals 144 exactly."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Therefore, sqrt(144) = 12. Choose C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. 10² = 100, not 144. A common guess for students who confuse squares.",
+        "trap_type": "square_confusion"
+      },
+      "B": {
+        "text": "11. 11² = 121, close but not 144. Might be a memory slip.",
+        "trap_type": "near_miss"
+      },
+      "C": {
+        "text": "Correct! 12² = 144, so sqrt(144) = 12.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "13. 13² = 169, which is 25 more than 144. Overestimation.",
+        "trap_type": "overestimation"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Memorize perfect squares up to 15²: 12²=144, 13²=169, etc. For square roots, recall the corresponding square.",
+    "blueprint_id": "Square Root",
+    "deconstruct_text": "### Step-by-Step Solution\n1. Recall that the square root of 144 is the number that when squared equals 144.\n2. Test possible integers: 10²=100, 11²=121, 12²=144, 13²=169.\n3. Only 12 gives 144, so sqrt(144)=12.\n\n### Why Other Options Are Wrong\n- **10**: 10²=100.\n- **11**: 11²=121.\n- **13**: 13²=169.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-012",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "How many minutes are in 3.5 hours?",
+    "options": [
+      {
+        "key": "A",
+        "text": "180"
+      },
+      {
+        "key": "B",
+        "text": "190"
+      },
+      {
+        "key": "C",
+        "text": "200"
+      },
+      {
+        "key": "D",
+        "text": "210"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Conversion Factor",
+        "text": "1 hour = 60 minutes. This is a standard time conversion."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up",
+        "text": "Multiply the number of hours by 60: 3.5 × 60."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "3.5 × 60 = (3 × 60) + (0.5 × 60) = 180 + 30 = 210."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "So 3.5 hours = 210 minutes. Choose D."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "180. This is 3 hours × 60, ignoring the 0.5 hour. Only the whole number part was converted.",
+        "trap_type": "partial_conversion"
+      },
+      "B": {
+        "text": "190. Possibly from 3.5 × 60 = 210, but then subtracting 20 or a miscalculation.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "200. Might come from 3.5 × 60 = 210, then rounding down or a slip in multiplication.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "Correct! 3.5 × 60 = 210 minutes.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When converting hours to minutes, multiply by 60. For fractional hours, convert the fraction separately: 0.5 hour = 30 minutes.",
+    "blueprint_id": "Time Conversion",
+    "deconstruct_text": "### Step-by-Step Solution\n1. Recall: 1 hour = 60 minutes.\n2. Multiply: 3.5 hours × 60 minutes/hour = 210 minutes.\n3. Break down: 3 hours = 180 minutes, 0.5 hour = 30 minutes, total 210.\n\n### Why Other Options Are Wrong\n- **180**: Only converted the 3 hours, omitted the 0.5.\n- **190**: Arithmetic error.\n- **200**: Arithmetic error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-013",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Simplify: 48 / 6 x 2 + 4",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Order of Operations",
+        "text": "Remember MDAS: Multiplication and Division have equal priority, done left to right before Addition and Subtraction."
+      },
+      {
+        "rung": 2,
+        "title": "First Step: Division",
+        "text": "Start with the leftmost operation: 48 ÷ 6 = 8. Now the expression becomes 8 x 2 + 4."
+      },
+      {
+        "rung": 3,
+        "title": "Next: Multiplication",
+        "text": "Next, do the multiplication: 8 x 2 = 16. Now you have 16 + 4."
+      },
+      {
+        "rung": 4,
+        "title": "Final Addition",
+        "text": "Finally, add: 16 + 4 = 20. That's the correct answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4. This comes from doing addition first (2+4=6) then division (48/6=8) then multiplication (8x6=48? No) — actually, a common mistake is to do 48/(6x2+4) = 48/(12+4)=48/16=3, but 4 is not that. More likely, the student did 48/6=8, then 8x2=16, then mistakenly subtracted 4 instead of adding, getting 12, not 4. Actually, 4 might come from 48/(6x2)=48/12=4, ignoring the +4 entirely.",
+        "trap_type": "ignored_operation"
+      },
+      "B": {
+        "text": "12. This results from doing addition before multiplication: 48/6=8, then 2+4=6, then 8x6=48? No, that gives 48. Actually, 12 comes from 48/(6x2)=48/12=4, then 4+? Hmm. More likely: 48/6=8, then 8x2=16, then 16-4=12 (subtraction instead of addition).",
+        "trap_type": "wrong_operation_order"
+      },
+      "C": {
+        "text": "16. This is the result after completing multiplication but before adding 4. The student stopped too early or forgot the final addition step.",
+        "trap_type": "partial_calculation"
+      },
+      "D": {
+        "text": "Correct! Following MDAS left-to-right: 48÷6=8, 8×2=16, 16+4=20.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When operations have equal precedence (× and ÷), work strictly left to right. Don't jump to addition first just because it's last in the expression.",
+    "blueprint_id": "MDAS Left to Right",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the operations.**\nThe expression is 48 ÷ 6 × 2 + 4. According to MDAS (Multiplication/Division before Addition/Subtraction), we handle × and ÷ first, left to right.\n\n**Step 2: Perform division and multiplication left to right.**\n- 48 ÷ 6 = 8\n- Now the expression is 8 × 2 + 4\n- 8 × 2 = 16\n- Now the expression is 16 + 4\n\n**Step 3: Perform addition.**\n- 16 + 4 = 20\n\n**Step 4: Verify.**\nThe correct answer is 20.\n\n### ❌ Common Mistakes\n- **4:** Ignoring the +4 entirely and computing 48 ÷ (6×2) = 48÷12 = 4.\n- **12:** Doing 48÷6=8, then 2+4=6, then 8×6=48? No — actually 12 might come from 48÷(6×2)=4, then 4×3? Unclear. More likely: 48÷6=8, then 8×2=16, then 16−4=12 (subtraction instead of addition).\n- **16:** Stopping after multiplication, forgetting to add 4.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-014",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 3/5 as a percentage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30%"
+      },
+      {
+        "key": "B",
+        "text": "35%"
+      },
+      {
+        "key": "C",
+        "text": "60%"
+      },
+      {
+        "key": "D",
+        "text": "65%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Fraction to Percent",
+        "text": "To convert a fraction to a percentage, multiply the fraction by 100%."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up the Multiplication",
+        "text": "Compute (3/5) × 100%. This is the same as (3 × 100%) / 5."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the Numerator",
+        "text": "3 × 100% = 300%. Now divide by 5: 300% ÷ 5 = 60%."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "So 3/5 = 60%. The correct choice is C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "30%. This would be 3/10, not 3/5. The student likely multiplied 3 × 10% = 30% or mistakenly used 5 as the denominator in a different way.",
+        "trap_type": "denominator_confusion"
+      },
+      "B": {
+        "text": "35%. This might come from incorrectly converting 3/5 to 35% by thinking 1/5 = 15% (a common error) or misreading 3/5 as 3.5/10.",
+        "trap_type": "fraction_misconversion"
+      },
+      "C": {
+        "text": "Correct! 3/5 = 0.6 = 60%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "65%. This could be from adding 60% + 5% or confusing 3/5 with 13/20 (65%).",
+        "trap_type": "addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To convert any fraction to a percent, multiply by 100%. For 3/5: (3×100)/5 = 300/5 = 60%. Alternatively, divide 3 by 5 to get 0.6, then multiply by 100%.",
+    "blueprint_id": "Fraction to Percentage",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Recall the conversion rule.**\nTo change a fraction to a percentage, multiply the fraction by 100%.\n\n**Step 2: Apply the rule.**\n3/5 × 100% = (3 × 100%) / 5 = 300% / 5 = 60%.\n\n**Step 3: Alternative method (decimal).**\nDivide 3 by 5: 3 ÷ 5 = 0.6. Then multiply by 100%: 0.6 × 100% = 60%.\n\n**Step 4: Verify.**\n60% is the correct answer.\n\n### ❌ Common Mistakes\n- **30%:** Using 3/10 instead of 3/5, or multiplying 3 × 10% incorrectly.\n- **35%:** Thinking 1/5 = 15% (wrong) and multiplying by 3.\n- **65%:** Adding 60% + 5% or confusing with 13/20.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-009",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct sentence:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided on the matter."
+      },
+      {
+        "key": "B",
+        "text": "The committee has decided on the matter."
+      },
+      {
+        "key": "C",
+        "text": "The committee are deciding on the matter."
+      },
+      {
+        "key": "D",
+        "text": "The committee were deciding on the matter."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Collective Nouns",
+        "text": "'Committee' is a collective noun — it refers to a group acting as a single unit."
+      },
+      {
+        "rung": 2,
+        "title": "US vs UK English",
+        "text": "In American English, collective nouns are treated as singular. In British English, they can be plural, but the CSC exam follows US conventions."
+      },
+      {
+        "rung": 3,
+        "title": "Singular Verb Needed",
+        "text": "Since 'committee' is singular in this context, it requires a singular verb: 'has' or 'is'."
+      },
+      {
+        "rung": 4,
+        "title": "Identify the Correct Option",
+        "text": "Option B uses 'has' (singular) with 'committee'. Options A, C, D use plural verbs (have, are, were). So B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'The committee have decided' uses 'have', a plural verb. In US English, 'committee' is singular, so it should be 'has'. This is a subject-verb agreement error.",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "B": {
+        "text": "Correct! 'Committee' is a collective noun treated as singular, so 'has' is the correct verb.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'The committee are deciding' uses 'are', a plural verb. The singular form 'is' should be used: 'The committee is deciding.'",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "D": {
+        "text": "Incorrect. 'The committee were deciding' uses 'were', a plural past tense verb. The singular 'was' is correct: 'The committee was deciding.'",
+        "trap_type": "collective_noun_plural_verb"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In US English, collective nouns (committee, team, staff, family) are singular. Use singular verbs: has, is, was. Exception: if members act individually, plural is possible, but on the CSC exam, treat them as singular.",
+    "blueprint_id": "Subject-Verb Agreement — Collective Nouns",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the subject.**\nThe subject is 'committee', which is a collective noun representing a group acting as one unit.\n\n**Step 2: Determine verb agreement rule.**\nIn American English (used in Philippine exams), collective nouns take singular verbs.\n\n**Step 3: Check each option.**\n- A: 'have' is plural → incorrect.\n- B: 'has' is singular → correct.\n- C: 'are' is plural → incorrect.\n- D: 'were' is plural → incorrect.\n\n**Step 4: Select the correct sentence.**\nOption B: 'The committee has decided on the matter.'\n\n### ❌ Common Mistakes\n- Using plural verbs (have, are, were) with collective nouns. This is a common error influenced by British English or by thinking of the members individually.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-010",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'Neither the manager nor the employees ___ satisfied with the new policy.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Neither/Nor Rule",
+        "text": "With 'neither...nor', the verb agrees with the noun closest to the verb (proximity rule)."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Closest Noun",
+        "text": "The structure is 'neither the manager nor the employees'. The noun closest to the blank is 'employees'."
+      },
+      {
+        "rung": 3,
+        "title": "Determine Number",
+        "text": "'Employees' is plural. Therefore, the verb must be plural."
+      },
+      {
+        "rung": 4,
+        "title": "Choose the Plural Verb",
+        "text": "Among the options, 'are' is the only plural verb. So the correct answer is 'are'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'is' is singular, but the closest noun 'employees' is plural. The verb should be 'are'.",
+        "trap_type": "proximity_rule_violation"
+      },
+      "B": {
+        "text": "Correct! 'are' agrees with the plural noun 'employees', which is closest to the verb.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'was' is singular past tense. The closest noun 'employees' is plural, so 'were' would be needed if past tense, but the sentence is present tense.",
+        "trap_type": "tense_and_number_error"
+      },
+      "D": {
+        "text": "Incorrect. 'has been' is singular present perfect. The plural 'employees' requires 'have been'.",
+        "trap_type": "tense_and_number_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For 'neither...nor' and 'either...or', the verb agrees with the subject closer to it. Example: 'Neither the manager nor the employees are...' but 'Neither the employees nor the manager is...'",
+    "blueprint_id": "Subject-Verb Agreement — Neither/Nor Proximity",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Recognize the structure.**\nThe sentence uses 'neither...nor', which connects two subjects. The verb must agree with the subject that is closer to it.\n\n**Step 2: Identify the nearer subject.**\nThe subjects are 'the manager' (singular) and 'the employees' (plural). The blank comes after 'employees', so 'employees' is the nearer subject.\n\n**Step 3: Choose the verb.**\nSince 'employees' is plural, the verb must be plural. The present tense plural verb is 'are'.\n\n**Step 4: Verify tense.**\nThe sentence is in present tense ('satisfied' is an adjective, not a past tense verb). So 'are' is correct.\n\n### ❌ Common Mistakes\n- **is:** Using singular verb because 'manager' is singular, but ignoring the proximity rule.\n- **was:** Wrong tense (past) and wrong number (singular).\n- **has been:** Wrong tense (present perfect) and wrong number (singular).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-011",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Select the correct sentence:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The report was submitted by the department head and myself."
+      },
+      {
+        "key": "B",
+        "text": "The report was submitted by the department head and me."
+      },
+      {
+        "key": "C",
+        "text": "The report was submitted by the department head and I."
+      },
+      {
+        "key": "D",
+        "text": "The report was submitted by the department head and mineself."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Object of Preposition",
+        "text": "The word 'by' is a preposition. The noun or pronoun after a preposition must be in the objective case."
+      },
+      {
+        "rung": 2,
+        "title": "Objective Pronouns",
+        "text": "Objective pronouns are: me, you, him, her, it, us, them. 'I' and 'myself' are subjective/reflexive, not objective."
+      },
+      {
+        "rung": 3,
+        "title": "Test by Removing the Other Noun",
+        "text": "Remove 'the department head and' to see which pronoun fits: 'The report was submitted by me.' That sounds correct. 'By I' or 'by myself' would be wrong."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Option",
+        "text": "Option B uses 'me', which is the objective pronoun. So B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'myself' is a reflexive pronoun, used when the subject and object are the same (e.g., 'I submitted it myself'). Here, 'by' requires an object pronoun, not a reflexive.",
+        "trap_type": "reflexive_misuse"
+      },
+      "B": {
+        "text": "Correct! 'me' is the objective case pronoun, correctly used as the object of the preposition 'by'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'I' is a subjective pronoun, used as the subject of a verb. After a preposition, we need 'me'.",
+        "trap_type": "subjective_for_objective"
+      },
+      "D": {
+        "text": "Incorrect. 'mineself' is not a standard English word. The correct reflexive form is 'myself', but even that is wrong here.",
+        "trap_type": "nonstandard_pronoun"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** After prepositions (by, to, for, with, about, etc.), always use object pronouns: me, you, him, her, it, us, them. Never use I or myself.",
+    "blueprint_id": "Pronoun Case — Object of Preposition",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the preposition.**\nThe word 'by' is a preposition. The pronoun after it must be in the objective case.\n\n**Step 2: Know the objective pronouns.**\nThe objective pronoun for the first person is 'me'. 'I' is subjective; 'myself' is reflexive.\n\n**Step 3: Test by simplifying.**\nRemove 'the department head and' to check: 'The report was submitted by me.' This is correct. 'By I' and 'by myself' are incorrect in this context.\n\n**Step 4: Select the correct option.**\nOption B: 'The report was submitted by the department head and me.'\n\n### ❌ Common Mistakes\n- **myself:** Overusing reflexive pronouns to sound formal. 'Myself' is only correct when the subject is 'I' (e.g., 'I did it myself').\n- **I:** Using subjective case after a preposition. This is a hypercorrection; some think 'I' is more formal, but it's grammatically wrong.\n- **mineself:** Not a real word.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

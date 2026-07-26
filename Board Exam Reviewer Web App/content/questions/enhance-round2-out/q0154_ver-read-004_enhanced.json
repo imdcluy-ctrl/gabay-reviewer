@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-004",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The Civil Service Commission (CSC) is the central personnel agency of the Philippine government. It is tasked with ensuring that all government appointments are based on merit and fitness.' The tone of this passage is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Critical"
+      },
+      {
+        "key": "B",
+        "text": "Sarcastic"
+      },
+      {
+        "key": "C",
+        "text": "Informative"
+      },
+      {
+        "key": "D",
+        "text": "Persuasive"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the author's goal. Is the author just giving info, making you feel something, or trying to convince?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Info= facts lang. Persuasive= kumbinsihin ka. Critical= may reklamo. Sarcastic= kabaligtaran ng sinasabi."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the words: 'central personnel agency,' 'merit.' Walang emotion—parang dictionary entry. No judgment or call to action."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "It's purely factual. The tone is not sarcastic, critical, or persuasive. So it's informative. Choose 'Informative.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen 'critical' because you expected judgment, but the passage has zero negative words—it just describes the CSC's job.",
+        "trap_type": "tone_misattribution_critical"
+      },
+      "B": {
+        "text": "You might have chosen 'sarcastic' because you read too fast, but sarcasm needs irony; this is straight, no reverse meaning.",
+        "trap_type": "tone_misattribution_sarcastic"
+      },
+      "C": {
+        "text": "Correct. The tone is informative—pure facts, no emotion or persuasion, parang news report.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen 'persuasive' because the topic sounds official, but it doesn't argue or ask you to agree—it just states.",
+        "trap_type": "tone_misattribution_persuasive"
+      }
+    },
+    "next_time_rule": "Kapag neutral at factual ang tono, informative 'yan. Walang emotion, walang judgment, walang hikayat.",
+    "blueprint_id": "Tone/Purpose — CSC Description",
+    "deconstruct_text": "Tingnan natin: 'The CSC is the central personnel agency... ensuring merit and fitness.' Walang halong emosyon, di ba? Ito'y parang memo sa opisina ng barangay—neutral at diretso sa punto.\n\nHindi 'yan critical kasi walang negative comments. Hindi rin sarcastic kasi literal ang sinasabi. At hindi persuasive dahil walang pilit na magbago ng isip—basta facts lang, parang sabi ni Ate sa palengke: 'Ang presyo ng kamatis, 30 pesos.'\n\nMental trick: Isipin mo, 'Informative ba 'to?' Para kang robot na nagbabasa ng dictionary. Kapag walang emotion, reklamo, o panghihikayat—informative 'yan. Dali, 'di ba?",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

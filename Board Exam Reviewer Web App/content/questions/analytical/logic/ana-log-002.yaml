@@ -1,0 +1,62 @@
+id: ana-log-002
+subtopic: logical-reasoning
+category: analytical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["number-series", "pattern-recognition"]
+estimated_seconds: 60
+question_text: "Find the next number in the series: 3, 7, 15, 31, 63, __?"
+options:
+  - key: A
+    text: "95"
+  - key: B
+    text: "127"
+  - key: C
+    text: "128"
+  - key: D
+    text: "135"
+correct: B
+blueprint_id: "Analytical Ability — Number Series Pattern Recognition"
+hint_ladder:
+  - rung: 1
+    title: "Look at Differences"
+    text: "7-3=4, 15-7=8, 31-15=16, 63-31=32."
+  - rung: 2
+    title: "Identify Pattern in Differences"
+    text: "The differences are doubling: +4, +8, +16, +32."
+  - rung: 3
+    title: "Find Next Difference"
+    text: "Next difference is 32 × 2 = +64."
+  - rung: 4
+    title: "Calculate Next Number"
+    text: "63 + 64 = 127. Alternatively, (n × 2) + 1 -> (63 × 2) + 1 = 127."
+deconstruct_text: |
+  Method 1 (Differences):
+  +4, +8, +16, +32, +64
+  63 + 64 = 127
+
+  Method 2 (Multiplier):
+  Each term is (Previous × 2) + 1
+  (3 × 2) + 1 = 7
+  (7 × 2) + 1 = 15
+  (15 × 2) + 1 = 31
+  (31 × 2) + 1 = 63
+  (63 × 2) + 1 = 127
+choice_explanations:
+  A:
+    text: "Adding 32 twice instead of doubling the difference to 64."
+    trap_type: arithmetic_error
+  B:
+    text: "Correct! Pattern doubles differences (+64) or applies (2n + 1) -> 127."
+    trap_type: null
+  C:
+    text: "Confusing (2n + 1) with pure power of 2 (2^7 = 128)."
+    trap_type: off_by_one_error
+  D:
+    text: "Adding 72 instead of 64."
+    trap_type: calculation_error
+next_time_rule: "Check both difference growth (+4, +8, +16) and multiplier rules (×2 + 1) when solving number series."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Number Series"

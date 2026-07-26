@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-025",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 50-hectare government farm is planted with corn and rice in the ratio 2:3. How many hectares are planted with rice?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 ha"
+      },
+      {
+        "key": "B",
+        "text": "25 ha"
+      },
+      {
+        "key": "C",
+        "text": "30 ha"
+      },
+      {
+        "key": "D",
+        "text": "35 ha"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "A ratio like 2:3 means the farm is divided into equal-sized parts. Corn gets 2 of those parts, rice gets 3. How many total parts are there?"
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Part",
+        "text": "You have 5 total parts (2 + 3) that make up the entire 50 hectares. If 5 parts equal 50 hectares, how many hectares does just 1 part represent? Divide the total by the number of parts."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Rice's Share",
+        "text": "Each part is worth 10 hectares (50 divided by 5). Rice gets 3 of these parts. So multiply 3 parts by 10 hectares per part to find the rice area."
+      },
+      {
+        "rung": 4,
+        "title": "Double-Check Your Logic",
+        "text": "If rice is 30 hectares, then corn would be 2 parts times 10 hectares, which is 20 hectares. Add them together: 20 + 30 = 50 hectares. That matches the total, so you know the answer is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20 hectares is the area planted with corn, not rice. It's easy to grab the first number you see in the ratio, but the question specifically asks for rice, which gets the larger share of 3 parts. Always read carefully which item the question is asking about.",
+        "trap_type": "wrong_target_variable"
+      },
+      "B": {
+        "text": "25 hectares is a common mistake when someone divides the total by 2 instead of by the total number of parts (5). The ratio 2:3 has 5 total parts, not 2. Remember, you divide by the sum of the ratio numbers, not just one of them.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "30 hectares is correct. The ratio 2:3 means 5 total parts. Each part is 50 divided by 5, which is 10 hectares. Rice gets 3 parts, so 3 times 10 equals 30 hectares. Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 hectares might come from a guess or from trying 50 times 3 divided by 4, which is a common but wrong shortcut. The correct fraction for rice is 3/5 of the total, not 3/4. Always use the sum of the ratio parts as your denominator.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "For any part-to-whole ratio problem, remember the three-step dance: add the parts to find the total, divide the whole by that total to get the value of one part, then multiply by the part you need. It's like splitting a bill among friends based on who ate what.",
+    "blueprint_id": "Part-to-Whole — Farm Land Allocation",
+    "deconstruct_text": "Let's walk through this together. The ratio 2:3 tells us the farm is split into 5 equal imaginary slices. Corn gets 2 slices, rice gets 3. The whole farm is 50 hectares, so each slice must be 50 divided by 5, which is 10 hectares. Since rice gets 3 slices, we multiply 3 by 10 to get 30 hectares. To check, corn would be 2 times 10, or 20 hectares, and 20 plus 30 equals 50, which matches perfectly. The mental trick here is to always think of ratios as dividing something into equal parts first. Add the numbers in the ratio to find how many parts there are, then divide the total by that number to find the size of one part. From there, you just multiply by the part you care about.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

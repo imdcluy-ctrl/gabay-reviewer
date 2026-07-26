@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-401",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "In a local government unit's personnel file, you encounter names with foreign articles. Which of the following is the CORRECT alphabetical arrangement for these names?\n1. Von Trapp, Maria\n2. De Guzman, Juan\n3. Van Dyke, Dick\n4. La Cruz, Ana",
+    "options": [
+      {
+        "key": "A",
+        "text": "De Guzman, Juan; La Cruz, Ana; Van Dyke, Dick; Von Trapp, Maria"
+      },
+      {
+        "key": "B",
+        "text": "De Guzman, Juan; Van Dyke, Dick; Von Trapp, Maria; La Cruz, Ana"
+      },
+      {
+        "key": "C",
+        "text": "La Cruz, Ana; De Guzman, Juan; Van Dyke, Dick; Von Trapp, Maria"
+      },
+      {
+        "key": "D",
+        "text": "Van Dyke, Dick; Von Trapp, Maria; De Guzman, Juan; La Cruz, Ana"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about how we handle those little foreign words attached to surnames — like De, Van, Von, and La. The key is to think of them as part of the name itself, not separate little extras."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule: treat the article and the surname as one continuous word. So 'De Guzman' becomes 'Deguzman', 'Van Dyke' becomes 'Vandyke', and so on. Then just sort them alphabetically like you normally would."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Try writing them out as single words in your mind: Deguzman, Lacruz, Vandyke, Vontrapp. Now compare them letter by letter. Which one starts with the earliest letter in the alphabet?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "When you compare them as single words, 'Deguzman' (starting with D) comes first. Then 'Lacruz' (L). Then both 'Vandyke' and 'Vontrapp' start with V, so you look at the second letter: 'a' comes before 'o', so Vandyke comes before Vontrapp. That gives you Deguzman, Lacruz, Vandyke, Vontrapp."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the correct arrangement. When you treat each article as part of the surname, 'De Guzman' (De) comes before 'La Cruz' (La), which comes before 'Van Dyke' (Van), which comes before 'Von Trapp' (Von). Notice how 'Van' and 'Von' both start with V, but 'a' comes before 'o', so Van Dyke comes first.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one almost gets it right for the first two names, but then it puts 'La Cruz' at the very end. The trap here is thinking that 'La' might somehow come after 'Von' — maybe because it feels like a separate word. But remember, we treat the article as part of the surname, and 'La' (L) comes before 'Van' (V) and 'Von' (V).",
+        "trap_type": "article_placement_error"
+      },
+      "C": {
+        "text": "Starting with 'La Cruz' is a common mistake. It's easy to see 'La' and think it should come first, but 'De' starts with D, which comes before L in the alphabet. The trap is forgetting to compare the very first letters of the articles themselves.",
+        "trap_type": "ignoring_article_order"
+      },
+      "D": {
+        "text": "This one starts with 'Van Dyke', which might feel right if you're thinking of 'Van' as a common prefix. But 'De Guzman' (D) and 'La Cruz' (L) both come before any name starting with V. The trap is jumping straight to the Van/Von names without considering the earlier letters.",
+        "trap_type": "misordering_articles"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. The key insight is that foreign articles like De, Van, Von, and La are treated as part of the surname for filing purposes. So instead of seeing separate words, we mentally combine them: 'De Guzman' becomes 'Deguzman', 'La Cruz' becomes 'Lacruz', 'Van Dyke' becomes 'Vandyke', and 'Von Trapp' becomes 'Vontrapp'. Now we just sort these combined names alphabetically. Starting with the first letters: D comes before L, and L comes before V. So 'Deguzman' is first, then 'Lacruz'. For the two V names, we compare the second letters: 'a' (in Vandyke) comes before 'o' (in Vontrapp). So the final order is: De Guzman, La Cruz, Van Dyke, Von Trapp. That's option A. The mental trick here is what I call the 'Combine and Compare' method — whenever you see a name with a foreign article, glue it together in your mind and sort as if it's one word. This works for any article: De, La, Van, Von, Mac, Mc, O', and so on.",
+    "next_time_rule": "When filing names with foreign articles (De, Van, Von, La, etc.), use the 'Combine and Compare' trick: mentally glue the article to the surname, then sort alphabetically as one word.",
+    "blueprint_id": "B-2371",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

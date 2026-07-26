@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-436",
+    "category_id": "analytical-ability",
+    "subtopic_id": "data-interpretation",
+    "question_text": "A stacked bar chart shows the expenditures (in millions of pesos) of four municipalities (Mun A, B, C, D) on three sectors: Health, Education, Infrastructure. For Mun A: Health=10, Education=20, Infrastructure=30. For Mun B: Health=15, Education=25, Infrastructure=35. For Mun C: Health=12, Education=18, Infrastructure=40. For Mun D: Health=20, Education=30, Infrastructure=50. What is the total expenditure of Mun D?",
+    "options": [
+      {
+        "key": "A",
+        "text": "90 million"
+      },
+      {
+        "key": "B",
+        "text": "100 million"
+      },
+      {
+        "key": "C",
+        "text": "110 million"
+      },
+      {
+        "key": "D",
+        "text": "120 million"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2006",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

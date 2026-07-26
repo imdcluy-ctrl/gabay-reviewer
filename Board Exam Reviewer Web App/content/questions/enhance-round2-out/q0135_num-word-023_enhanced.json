@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-023",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Two numbers are in ratio 3:5. Their sum is 64. Find the smaller number.",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total parts",
+        "text": "The ratio 3:5 means the numbers are divided into 3 + 5 = 8 equal parts."
+      },
+      {
+        "rung": 2,
+        "title": "Value per part",
+        "text": "The sum is 64, so each part is worth 64 / 8 = 8."
+      },
+      {
+        "rung": 3,
+        "title": "Smaller number",
+        "text": "The smaller number corresponds to 3 parts: 3 × 8 = 24."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, the smaller number is 24. The larger would be 5 × 8 = 40, and 24 + 40 = 64."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you misapplied the ratio, dividing 64 by 3.2 instead of total parts 8.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. Smaller number = 3 parts × 8 = 24.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you multiplied 3.5 by 8 (3.5×8=28), a common arithmetic slip.",
+        "trap_type": "arithmetic_slip"
+      },
+      "D": {
+        "text": "You might have chosen D because you divided 64 by 2 instead of using the ratio, or confused the larger part with the smaller.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Key Takeaway: For ratio sum problems, add the parts, divide the sum by total parts, then multiply by the needed part.",
+    "blueprint_id": "Ratio Sum Problem",
+    "deconstruct_text": "Imagine inyong Barangay nag-budget ng 64,000 pesos para sa streetlights at feeding program sa ratio na 3:5. Para malaman ang budget ng mas maliit (streetlights): Total parts = 3+5 = 8. Value per part = 64,000 ÷ 8 = 8,000. Smaller = 3 × 8,000 = 24,000 pesos. Check: La...\n\nMental Trick (Taglish): 'Mag-add muna ng parts (3+5=8). I-divide ang total (64) sa parts (8) para makuha ang per part (8). Tapos i-multiply sa part ng target (3) para makuha ang sagot (24).' Para hindi malito, tandaan: Add-Divide-Multiply!\n\n**Watch-Out Zone: ratio_total_part_confusion** in action: baka ma-reverse mo ratio.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

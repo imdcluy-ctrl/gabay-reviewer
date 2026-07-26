@@ -1,0 +1,233 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { db } from '../lib/db';
+import { CATEGORIES } from '../lib/constants';
+import { useUserProfile } from '../hooks/useUserProfile';
+import { useStreak } from '../hooks/useStreak';
+import { Header } from '../components/Header';
+import { Card } from '../components/Card';
+import { Button } from '../components/Button';
+import { Badge } from '../components/Badge';
+import { BottomNav } from '../components/BottomNav';
+import { OfflineBanner } from '../components/OfflineBanner';
+import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
+import { FooterDisclaimer } from '../components/FooterDisclaimer';
+import { AdUnit } from '../components/AdUnit';
+import { useEntitlement } from '../hooks/useEntitlement';
+import { filterQuestionsForUser } from '../lib/entitlements';
+import './Dashboard.css';
+
+export const Dashboard: React.FC = () => {
+  const navigate = useNavigate();
+  const { profile } = useUserProfile();
+  const { currentStreak } = useStreak();
+  const { isPremium } = useEntitlement();
+
+  const [showErrorInsights, setShowErrorInsights] = useState(false);
+
+  const rawQuestions = useLiveQuery(() => db.questions.toArray()) || [];
+  const questions = filterQuestionsForUser(rawQuestions, isPremium);
+  const attempts = useLiveQuery(() =>
+    profile ? db.attempts.where('local_user_id').equals(profile.id).toArray() : []
+  , [profile?.id]);
+
+  // Determine Continue Studying target category
+  const getContinueCategory = () => {
+    if (!questions || !attempts || attempts.length === 0) {
+      return { categoryId: 'numerical-ability', name: 'Numerical Ability — Ratio & Proportion' };
+    }
+
+    const wrongMap = new Map<string, number>();
+    const correctSet = new Set<string>();
+
+    attempts.forEach(a => {
+      if (a.is_correct) {
+        correctSet.add(a.question_id);
+      } else {
+        wrongMap.set(a.question_id, (wrongMap.get(a.question_id) || 0) + 1);
+      }
+    });
+
+    for (const [qId] of wrongMap) {
+      if (!correctSet.has(qId)) {
+        const q = questions.find(item => item.id === qId);
+        if (q) {
+          const catObj = CATEGORIES.find(c => c.id === q.category_id);
+          return { categoryId: q.category_id, name: `${catObj?.name || 'Practice'} — Review Weak Items` };
+        }
+      }
+    }
+
+    return { categoryId: 'numerical-ability', name: 'Numerical Ability — Practice Session' };
+  };
+
+  const continueCat = getContinueCategory();
+
+  const getCategoryQuestionCount = (catId: string) => {
+    return questions.filter(q => q.category_id === catId).length;
+  };
+
+  // Calculate days remaining to exam
+  const daysToExam = React.useMemo(() => {
+    if (!profile?.exam_date) return null;
+    const examTime = new Date(profile.exam_date).getTime();
+    const nowTime = new Date().getTime();
+    const diff = Math.ceil((examTime - nowTime) / (1000 * 60 * 60 * 24));
+    return diff > 0 ? diff : 0;
+  }, [profile?.exam_date]);
+
+  // Calculate overall readiness percentage
+  const readinessPct = React.useMemo(() => {
+    if (!attempts || attempts.length === 0) return 0;
+    const correctCount = attempts.filter(a => a.is_correct).length;
+    return Math.min(100, Math.round((correctCount / attempts.length) * 100));
+  }, [attempts]);
+
+  const categoryIcons: Record<string, string> = {
+    'numerical-ability': '📐',
+    'verbal-ability': '📖',
+    'analytical-ability': '🧠',
+    'general-information': '🇵🇭',
+    'clerical-ability': '📁',
+  };
+
+  return (
+    <div className="dashboard-layout page-wrapper">
+      <OfflineBanner />
+      <Header
+        title="GABAY"
+        subtitle="AI Exam Coach"
+        rightAction={
+          <Button variant="secondary" size="sm" onClick={() => navigate('/help')}>
+            ❓ Help
+          </Button>
+        }
+      />
+
+      <main className="dashboard-content">
+        {/* SECTION 1: Compact Student Header (15% Max Viewport Height) */}
+        <div className="student-compact-header">
+          <div className="student-greeting-row">
+            <h2>Magandang araw, {profile?.display_name || 'Kapatid'}! 👋</h2>
+            <Badge variant={isPremium ? 'gold' : 'teal'}>
+              {isPremium ? '⚡ PRO ACCESS' : 'FREE TIER'}
+            </Badge>
+          </div>
+
+          <div className="glanceable-metrics-bar">
+            <div className="metric-pill">
+              <span className="pill-icon">🔥</span>
+              <span className="pill-val">{currentStreak}d Streak</span>
+            </div>
+            <div className="metric-pill-divider" />
+            <div className="metric-pill">
+              <span className="pill-icon">⏱️</span>
+              <span className="pill-val">{daysToExam !== null ? `${daysToExam}d to Exam` : 'Set Exam Date'}</span>
+            </div>
+            <div className="metric-pill-divider" />
+            <div className="metric-pill">
+              <span className="pill-icon">📊</span>
+              <span className="pill-val">{readinessPct}% Readiness</span>
+            </div>
+          </div>
+        </div>
+
+        {/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
+        <Card className="hero-resume-card">
+          <div className="hero-card-left">
+            <span className="hero-badge">🎯 CONTINUE STUDYING</span>
+            <h3 className="hero-title">{continueCat.name}</h3>
+            <p className="hero-subtitle">
+              {attempts && attempts.length > 0
+                ? `${attempts.length} questions completed • 1-tap to resume`
+                : 'Start your first practice session today'}
+            </p>
+          </div>
+          <Button
+            variant="primary"
+            size="lg"
+            className="hero-resume-btn"
+            onClick={() => navigate(`/study/${continueCat.categoryId}`)}
+          >
+            Resume Practice →
+          </Button>
+        </Card>
+
+        {/* SECTION 2.5: Full Timed CSE Mock Simulation Launcher */}
+        <Card className="mock-exam-launcher-card">
+          <div className="mock-launcher-header">
+            <span className="mock-icon">⏱️</span>
+            <div>
+              <h3 className="mock-title">Full Timed CSE Mock Simulation</h3>
+              <p className="mock-sub">Real Civil Service Exam conditions (170 items • 3h 10m timer).</p>
+            </div>
+          </div>
+          <div className="mock-btn-row">
+            <Button
+              variant="primary"
+              size="md"
+              onClick={() => navigate('/exam/cse-professional-v1')}
+            >
+              Professional (170 Items)
+            </Button>
+            <Button
+              variant="secondary"
+              size="md"
+              onClick={() => navigate('/exam/cse-subprofessional-v1')}
+            >
+              Sub-Pro (165 Items)
+            </Button>
+          </div>
+        </Card>
+
+        {/* SECTION 3: 4-Subject Quick Launcher Grid */}
+        <div className="quick-launcher-section">
+          <h3 className="section-heading">📚 Practice Subjects</h3>
+          <div className="category-launcher-grid">
+            {CATEGORIES.map(cat => (
+              <div
+                key={cat.id}
+                className="category-launcher-card"
+                onClick={() => navigate(`/study/${cat.id}`)}
+              >
+                <div className="cat-card-top">
+                  <span className="cat-icon">{cat.icon || categoryIcons[cat.id] || '📝'}</span>
+                  <span className="cat-item-count">{getCategoryQuestionCount(cat.id)} items</span>
+                </div>
+                <h4 className="cat-name">{cat.name}</h4>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* SECTION 4: Pre-allocated Non-Intrusive Ad Slot */}
+        <AdUnit slotId="7447186651" format="fluid" layoutKey="-fb+5w+4e-db+86" minHeight="90px" />
+
+        {/* SECTION 5: Collapsible Metacognitive Error Insights Drawer */}
+        {profile?.id && (
+          <div className="insights-drawer-wrapper">
+            <button
+              className="insights-drawer-toggle"
+              onClick={() => setShowErrorInsights(!showErrorInsights)}
+            >
+              <span>🧠 Metacognitive Error Patterns</span>
+              <span className="drawer-icon">{showErrorInsights ? '▲ Hide' : '▼ View'}</span>
+            </button>
+            {showErrorInsights && (
+              <div className="insights-drawer-content">
+                <ErrorPatternSummary localUserId={profile.id} />
+              </div>
+            )}
+          </div>
+        )}
+      </main>
+
+      <FooterDisclaimer />
+      <BottomNav />
+    </div>
+  );
+};
+
+export default Dashboard;
+

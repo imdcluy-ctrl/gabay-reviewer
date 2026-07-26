@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-018",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P50,000 investment grows to P56,000 after one year. What is the annual interest rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%"
+      },
+      {
+        "key": "B",
+        "text": "12%"
+      },
+      {
+        "key": "C",
+        "text": "14%"
+      },
+      {
+        "key": "D",
+        "text": "15%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Growth",
+        "text": "Before you can find the rate, you need to know how much the investment actually earned. The money grew from P50,000 to P56,000. How much was added?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Interest Formula",
+        "text": "Here's the key relationship: Interest = Principal x Rate x Time. You know the interest (the growth), the principal (starting amount), and the time (1 year). The rate is the only missing piece."
+      },
+      {
+        "rung": 3,
+        "title": "Plug In What You Know",
+        "text": "The interest earned is P6,000 (P56,000 - P50,000). So the formula becomes: P6,000 = P50,000 x Rate x 1. To find the rate, divide the interest by the principal."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "P6,000 divided by P50,000 equals 0.12. Now, what does 0.12 look like as a percentage? Just multiply by 100 and you have your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This would mean the investment earned only P5,000 (10% of P50,000), but it actually earned P6,000. A common slip here is accidentally computing 10% of the final amount P56,000 (which gives P5,600) or just guessing a round number. The real interest is higher.",
+        "trap_type": "wrong_base_interest"
+      },
+      "B": {
+        "text": "Exactly right. The investment earned P6,000 in interest. Since P6,000 is 12% of the original P50,000, and the time is exactly one year, the annual interest rate is 12%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "14% would give you P7,000 in interest (P50,000 x 0.14), which is P1,000 more than what actually happened. This might happen if you misread the final amount as P57,000, or if you accidentally added the interest to the wrong base number.",
+        "trap_type": "interest_overcalculation"
+      },
+      "D": {
+        "text": "15% would yield P7,500 in interest, way too high. This often comes from a simple arithmetic mistake, like dividing P6,000 by P40,000 by accident, or from using the final amount P56,000 as the base for your calculation instead of the original P50,000.",
+        "trap_type": "rate_overestimation"
+      }
+    },
+    "next_time_rule": "For any 'find the rate' problem, first isolate the change (interest earned), then divide it by the starting amount. The result is your rate as a decimal—just multiply by 100 for the percentage.",
+    "blueprint_id": "Simple Interest — Finding Rate",
+    "deconstruct_text": "Let's walk through this step by step. First, we need to figure out how much money the investment actually earned. It started at P50,000 and ended at P56,000, so the interest earned is P56,000 minus P50,000, which equals P6,000. Now, the simple interest formula says: Interest = Principal x Rate x Time. We know the interest (P6,000), the principal (P50,000), and the time (1 year). So we just need to solve for the rate. Rearranging the formula gives us: Rate = Interest divided by (Principal x Time). Plugging in the numbers: Rate = P6,000 divided by (P50,000 x 1) = P6,000 divided by P50,000 = 0.12. To turn that into a percentage, we multiply by 100, giving us 12%. The mental trick here is to always ask yourself: 'What fraction of my starting money did I earn?' In this case, P6,000 is 12/100 or 12% of P50,000. That fraction is your rate.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-446",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "A woman complains that her husband has been controlling all the family finances, giving her only a small allowance, and preventing her from working. She also says he has destroyed her personal belongings. Under RA 9262, which of the following best describes the husband's actions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The actions constitute economic abuse and psychological violence, which are forms of violence under RA 9262."
+      },
+      {
+        "key": "B",
+        "text": "The actions are not covered by RA 9262 because there is no physical violence."
+      },
+      {
+        "key": "C",
+        "text": "The actions are only considered economic abuse, which is not penalized under RA 9262."
+      },
+      {
+        "key": "D",
+        "text": "The actions are only considered psychological violence, which requires a diagnosis of mental illness."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3428",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

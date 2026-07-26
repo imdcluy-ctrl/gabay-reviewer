@@ -1,0 +1,88 @@
+.subtopic-breakdown-container {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-4);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-6);
+}
+
+.subtopic-breakdown-container h3 {
+  margin: 0 0 var(--spacing-1) 0;
+  color: var(--text-primary);
+  font-size: 1.125rem;
+}
+
+.subtopic-subtext {
+  margin: 0 0 var(--spacing-4) 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.subtopic-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+}
+
+.subtopic-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.subtopic-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.subtopic-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cat-tag {
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.subtopic-fail-pct {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.subtopic-fail-pct.high {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+.subtopic-bar-bg {
+  height: 8px;
+  background: var(--surface-raised);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.subtopic-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.subtopic-bar-fill.normal {
+  background: #10b981;
+}
+
+.subtopic-bar-fill.warning {
+  background: #f59e0b;
+}
+
+.subtopic-bar-fill.danger {
+  background: #ef4444;
+}
+
+.empty-subtopic-text {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: var(--spacing-4);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer ___ the financial records.",
+    "options": [
+      {
+        "key": "A",
+        "text": "amend"
+      },
+      {
+        "key": "B",
+        "text": "amends"
+      },
+      {
+        "key": "C",
+        "text": "amended"
+      },
+      {
+        "key": "D",
+        "text": "amending"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Listen for the Signal",
+        "text": "The phrase 'recommended that' is a special signal in English. It tells you that a particular verb form is needed, one that doesn't follow the usual rules. Think of it like a secret handshake between the words."
+      },
+      {
+        "rung": 2,
+        "title": "The Subjunctive Rule",
+        "text": "After verbs like recommend, suggest, insist, or demand, the verb that follows 'that' stays in its simplest form, no matter who is doing the action. You don't add -s for he/she/it, and you don't change it for past tense. It's like the verb is in its most basic, stripped-down version."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Base Form",
+        "text": "Look at the options. Which one is the most basic, plain form of the verb, without any extra endings like -s, -ed, or -ing? That's the one you need. It's the verb you'd find in the dictionary."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The base form is 'amend'. So, 'recommended that the treasurer amend' is correct. The other options have extra endings that don't belong in this special construction. You're just one step away from the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Recommended that' is a signal for the subjunctive mood, which always uses the base form of the verb. 'Amend' is that base form, so it fits perfectly here.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common trap. You might think 'the treasurer' is a 'he' or 'she' and add an -s, but the subjunctive mood overrides that rule. After 'recommend that', we always use the base verb, so 'amends' is incorrect.",
+        "trap_type": "mood_error"
+      },
+      "C": {
+        "text": "It's easy to see why you might pick this. The main verb 'recommended' is in the past tense, so it feels natural to put the second verb in the past too. But the subjunctive mood doesn't care about tense. It always uses the base form, so 'amended' is wrong.",
+        "trap_type": "mood_error"
+      },
+      "D": {
+        "text": "This one might seem right if you think the action is ongoing. But the subjunctive mood requires the simplest form of the verb, not a participle. 'Amending' is a present participle, so it doesn't fit here.",
+        "trap_type": "mood_error"
+      }
+    },
+    "next_time_rule": "When you see 'recommend that', 'suggest that', 'insist that', or 'demand that', the next verb must be in its base form. No -s, no -ed, no -ing. Just the plain verb.",
+    "blueprint_id": "Vocabulary — Legal Terminology in Context",
+    "deconstruct_text": "Let's walk through this together. The sentence says the auditor 'recommended that' the treasurer do something. That phrase 'recommended that' is your biggest clue. It's a signal for what's called the subjunctive mood. Think of the subjunctive as a special rule that says: after verbs of recommendation, suggestion, or demand, the verb that follows 'that' must be in its most basic form, no matter what. So even though the main verb 'recommended' is past tense, and even though 'the treasurer' is a third person singular subject, the verb in the 'that' clause stays as the base form. Among your options, 'amend' is the only base form. 'Amends' adds an -s, 'amended' adds -ed, and 'amending' adds -ing. They all break the subjunctive rule. A good mental trick is to think of it like this: the subjunctive mood is the 'no frills' mood. It strips the verb down to its simplest, dictionary form. So when you see 'recommend that', just ask yourself: 'What is the plainest version of this verb?' That's your answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

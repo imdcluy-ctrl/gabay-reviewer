@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-036",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Grammar 1: Choose the correct sentence.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The team have won the game."
+      },
+      {
+        "key": "B",
+        "text": "The team has won the game."
+      },
+      {
+        "key": "C",
+        "text": "The team are winning the game."
+      },
+      {
+        "key": "D",
+        "text": "The team were winning the game."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Subject",
+        "text": "The subject is 'team' — a collective noun referring to a single unit, not individual members."
+      },
+      {
+        "rung": 2,
+        "title": "Collective Noun Rule",
+        "text": "In formal American English, collective nouns like 'team' take singular verbs (has, is, was)."
+      },
+      {
+        "rung": 3,
+        "title": "Check Verb Agreement",
+        "text": "The verb must agree in number with the subject. 'Team' is singular, so 'has' is correct, not 'have'."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Wrong Tenses",
+        "text": "Options C and D use present and past continuous, which are grammatically possible but incorrect because 'team' requires singular 'is winning' or 'was winning'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'The team have won the game.' uses 'have' with a singular collective noun. In Philippine English and formal writing, 'team' is treated as singular, so 'has' is required.",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "B": {
+        "text": "Correct! 'The team has won the game.' follows the rule that collective nouns (team, committee, family) take singular verbs in formal English.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'The team are winning the game.' uses 'are' (plural) with 'team'. The correct continuous form would be 'The team is winning the game.'",
+        "trap_type": "collective_noun_plural_verb"
+      },
+      "D": {
+        "text": "'The team were winning the game.' uses 'were' (plural past) with 'team'. The correct past continuous would be 'The team was winning the game.'",
+        "trap_type": "collective_noun_plural_verb"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Collective nouns (team, committee, staff) take singular verbs in formal English. Think of the group as one unit: 'The team has...' not 'have.'",
+    "blueprint_id": "Grammar 1",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Identify the subject: 'team' is a collective noun representing a single group.\n2. Apply the rule: In formal English, collective nouns are singular, so they require singular verbs.\n3. Check each option:\n   - A: 'have' is plural → incorrect.\n   - B: 'has' is singular → correct.\n   - C: 'are' is plural → incorrect; should be 'is'.\n   - D: 'were' is plural → incorrect; should be 'was'.\n4. Therefore, the correct sentence is 'The team has won the game.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-031",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "Vocabulary 1: What is the synonym of 'IMPARTIAL'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Biased"
+      },
+      {
+        "key": "B",
+        "text": "Fair"
+      },
+      {
+        "key": "C",
+        "text": "Partial"
+      },
+      {
+        "key": "D",
+        "text": "Prejudiced"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define 'Impartial'",
+        "text": "'Impartial' means not favoring one side over another; treating all equally."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Synonyms",
+        "text": "Common synonyms include fair, unbiased, neutral, and objective."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Antonyms",
+        "text": "Options A (Biased), C (Partial), and D (Prejudiced) all mean the opposite of impartial."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Match",
+        "text": "Only 'Fair' shares the same meaning as 'impartial' — both indicate even-handedness."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Biased' is an antonym of 'impartial'. A biased person favors one side, while an impartial person does not.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! 'Fair' means treating everyone equally, which is the exact definition of 'impartial'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Partial' means favoring one side, the opposite of 'impartial'. The prefix 'im-' negates the root 'partial'.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "'Prejudiced' means having a preconceived opinion, which is the opposite of being impartial.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The prefix 'im-' means 'not'. So 'impartial' = 'not partial' = fair. Look for prefixes to decode unfamiliar words.",
+    "blueprint_id": "Vocabulary 1",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Define 'impartial': not favoring any side; unbiased.\n2. List possible synonyms: fair, neutral, objective, unbiased.\n3. Check each option:\n   - A: Biased → means favoring one side → antonym.\n   - B: Fair → means treating all equally → synonym.\n   - C: Partial → means favoring one side → antonym.\n   - D: Prejudiced → means having a bias → antonym.\n4. Therefore, the correct synonym is 'Fair'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-011",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Reading 1: Passage: 'Transparency in government means that citizens have the right to access information about government operations and decisions.' What is the main idea?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Government should hide information"
+      },
+      {
+        "key": "B",
+        "text": "Citizens have right to government information"
+      },
+      {
+        "key": "C",
+        "text": "Only officials can access data"
+      },
+      {
+        "key": "D",
+        "text": "Transparency is optional"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate the Topic Sentence",
+        "text": "The first sentence defines transparency: 'citizens have the right to access information about government operations and decisions.'"
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Core Claim",
+        "text": "The main idea is that transparency grants citizens access to government information."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Contradictions",
+        "text": "Options A, C, and D all contradict the passage, which explicitly states citizens have the right to access."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Paraphrase",
+        "text": "Option B directly restates the passage's main point: citizens have the right to government information."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "The passage says citizens have the right to access information, so hiding information is the opposite of transparency.",
+        "trap_type": "opposite_meaning"
+      },
+      "B": {
+        "text": "Correct! The passage directly states that transparency means citizens have the right to access government information.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The passage says citizens, not only officials, have the right to access data. This option contradicts the text.",
+        "trap_type": "opposite_meaning"
+      },
+      "D": {
+        "text": "The passage defines transparency as a right, implying it is not optional. This option contradicts the text.",
+        "trap_type": "opposite_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The main idea is often stated in the first sentence. Look for the sentence that summarizes the entire passage.",
+    "blueprint_id": "Reading Comprehension 1",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Read the passage: 'Transparency in government means that citizens have the right to access information about government operations and decisions.'\n2. Identify the main idea: The sentence defines transparency as citizens' right to access government information.\n3. Evaluate each option:\n   - A: Contradicts the passage.\n   - B: Matches the passage exactly.\n   - C: Contradicts the passage.\n   - D: Contradicts the passage.\n4. Therefore, the main idea is that citizens have the right to government information.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-100",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Gear Ratios — Mechanical Advantage",
+    "difficulty_level": 2,
+    "question_text": "In a DPWH heavy equipment mechanism, a driving gear with 48 teeth is meshed with a driven gear having 16 teeth. If the driving gear rotates at 300 RPM, what is the rotational speed of the driven gear?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100 RPM"
+      },
+      {
+        "key": "B",
+        "text": "600 RPM"
+      },
+      {
+        "key": "C",
+        "text": "900 RPM"
+      },
+      {
+        "key": "D",
+        "text": "1,200 RPM"
+      }
+    ],
+    "correct_option": "C",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand Gear Ratio Rule",
+        "text": "In meshed gears, speed is inversely proportional to the number of teeth: fewer teeth = faster rotation."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate the Teeth Ratio",
+        "text": "Driving teeth (48) divided by driven teeth (16) gives a ratio of 3:1."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Speed Formula",
+        "text": "Driven speed = Driving speed × (Driving teeth / Driven teeth) = 300 × (48/16)."
+      },
+      {
+        "rung": 4,
+        "title": "Compute the Result",
+        "text": "300 × 3 = 900 RPM. The driven gear spins three times faster than the driving gear."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "100 RPM comes from dividing 300 by 3 instead of multiplying. The correct operation is multiplication because the driven gear has fewer teeth and must spin faster.",
+        "trap_type": "inverse_operation_error"
+      },
+      "B": {
+        "text": "600 RPM might come from using a ratio of 2 (48/24) instead of 3 (48/16), or from adding 300 + 300 incorrectly.",
+        "trap_type": "incorrect_ratio_simplification"
+      },
+      "C": {
+        "text": "Correct! Speed = 300 RPM × (48 / 16) = 300 × 3 = 900 RPM.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "1,200 RPM could result from multiplying 300 by 4 (perhaps using 48/12 or 64/16), overestimating the ratio.",
+        "trap_type": "multiplier_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Gear speed is inversely proportional to teeth count: Speed₁ × Teeth₁ = Speed₂ × Teeth₂. Fewer teeth = faster speed.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Identify the given values: Driving gear teeth = 48, driven gear teeth = 16, driving speed = 300 RPM.\n2. Apply the gear ratio formula: Speed_driven = Speed_driving × (Teeth_driving / Teeth_driven).\n3. Compute the ratio: 48 / 16 = 3.\n4. Multiply: 300 × 3 = 900 RPM.\n5. Therefore, the driven gear rotates at 900 RPM.\n\n### ❌ Why the Distractors Fail\n- **100 RPM**: Divides instead of multiplies (300 ÷ 3).\n- **600 RPM**: Uses an incorrect ratio (e.g., 48/24 = 2).\n- **1,200 RPM**: Uses an incorrect ratio (e.g., 48/12 = 4).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-101",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Currency Exchange Proportional Scaling",
+    "difficulty_level": 2,
+    "question_text": "An OFW in Dubai sends AED 2,500 back to the Philippines. If the exchange rate is AED 1 = ₱15.60, how much will the beneficiary receive in Philippine Pesos after paying a fixed remittance fee of AED 20?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱38,688.00"
+      },
+      {
+        "key": "B",
+        "text": "₱39,000.00"
+      },
+      {
+        "key": "C",
+        "text": "₱38,312.00"
+      },
+      {
+        "key": "D",
+        "text": "₱39,312.00"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Deduct the Fee First",
+        "text": "The remittance fee of AED 20 is deducted from the total amount sent before currency conversion."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Net Amount in AED",
+        "text": "Net AED = 2,500 - 20 = 2,480 AED."
+      },
+      {
+        "rung": 3,
+        "title": "Convert to Pesos",
+        "text": "Multiply net AED by the exchange rate: 2,480 × 15.60."
+      },
+      {
+        "rung": 4,
+        "title": "Perform the Multiplication",
+        "text": "2,480 × 15.60 = 38,688.00. The beneficiary receives ₱38,688.00."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Net AED = 2,500 - 20 = 2,480. Then 2,480 × 15.60 = ₱38,688.00.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱39,000.00 comes from converting the full AED 2,500 without deducting the fee: 2,500 × 15.60 = 39,000. The fee must be subtracted first.",
+        "trap_type": "omitted_fee_deduction"
+      },
+      "C": {
+        "text": "₱38,312.00 might come from converting the full amount then subtracting the fee in pesos (39,000 - 20×15.60 = 39,000 - 312 = 38,688? No, that's actually correct? Wait: 39,000 - 312 = 38,688, not 38,312. So 38,312 might be from subtracting 20 from 2,500 incorrectly (2,480) then multiplying by 15.45? Or from a miscalculation: 2,480 × 15.60 = 38,688, but 38,312 is 376 less, possibly from using 15.45 rate.",
+        "trap_type": "unit_confusion_subtraction"
+      },
+      "D": {
+        "text": "₱39,312.00 might come from adding the fee in pesos instead of subtracting: 39,000 + 312 = 39,312. The fee should be subtracted, not added.",
+        "trap_type": "addition_instead_of_subtraction"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always deduct fixed fees in the original currency before converting. Fee first, then multiply by exchange rate.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Start with the total sent: AED 2,500.\n2. Subtract the fixed remittance fee: AED 2,500 - AED 20 = AED 2,480.\n3. Convert the net amount to Philippine Pesos: AED 2,480 × ₱15.60/AED.\n4. Compute: 2,480 × 15.60 = 38,688.00.\n5. Therefore, the beneficiary receives ₱38,688.00.\n\n### ❌ Why the Distractors Fail\n- **₱39,000.00**: Forgot to subtract the fee.\n- **₱38,312.00**: Likely a miscalculation or incorrect subtraction method.\n- **₱39,312.00**: Added the fee in pesos instead of subtracting.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-102",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Map Scale — Area Scaling",
+    "difficulty_level": 3,
+    "question_text": "On a DENR land map drawn to a scale of 1:20,000, a protected forest reserve measures 5 cm by 4 cm. What is the actual area of the reserve in hectares? (Note: 1 hectare = 10,000 m²)",
+    "options": [
+      {
+        "key": "A",
+        "text": "80 hectares"
+      },
+      {
+        "key": "B",
+        "text": "40 hectares"
+      },
+      {
+        "key": "C",
+        "text": "400 hectares"
+      },
+      {
+        "key": "D",
+        "text": "800 hectares"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert Map Lengths to Actual Meters",
+        "text": "Multiply each map dimension by the scale factor 20,000 to get actual lengths in cm, then convert cm to m by dividing by 100."
+      },
+      {
+        "rung": 2,
+        "title": "Find Actual Dimensions",
+        "text": "5 cm × 20,000 = 100,000 cm = 1,000 m. 4 cm × 20,000 = 80,000 cm = 800 m."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Actual Area in m²",
+        "text": "Area = length × width = 1,000 m × 800 m = 800,000 m²."
+      },
+      {
+        "rung": 4,
+        "title": "Convert m² to Hectares",
+        "text": "Since 1 hectare = 10,000 m², divide 800,000 m² by 10,000 to get 80 hectares."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Dimensions = 1,000 m × 800 m = 800,000 m². 800,000 / 10,000 = 80 ha.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "40 hectares. This comes from dividing 800,000 m² by 20,000 instead of 10,000, confusing the scale factor with the hectare conversion factor.",
+        "trap_type": "unit_conversion_divisor_error"
+      },
+      "C": {
+        "text": "400 hectares. This results from multiplying the map area (5×4=20 cm²) by the scale factor 20,000 without squaring the scale, treating linear scaling as area scaling.",
+        "trap_type": "linear_vs_area_scaling_confusion"
+      },
+      "D": {
+        "text": "800 hectares. This comes from forgetting to convert cm to m before calculating area, using 100,000 cm × 80,000 cm = 8,000,000,000 cm², then dividing by 10,000 incorrectly.",
+        "trap_type": "decimal_point_shift_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For area scaling, square the linear scale factor. Convert all dimensions to meters before computing area in m², then divide by 10,000 to get hectares.",
+    "deconstruct_text": "Step 1: Convert map dimensions to actual lengths. Length = 5 cm × 20,000 = 100,000 cm = 1,000 m. Width = 4 cm × 20,000 = 80,000 cm = 800 m.\nStep 2: Compute actual area in square meters. Area = 1,000 m × 800 m = 800,000 m².\nStep 3: Convert to hectares. 1 hectare = 10,000 m², so 800,000 m² ÷ 10,000 = 80 hectares.\n\nWhy 40 hectares is wrong: The student divided by 20,000 instead of 10,000, confusing the scale factor with the hectare conversion.\nWhy 400 hectares is wrong: The student multiplied the map area (20 cm²) by 20,000, forgetting to square the scale factor.\nWhy 800 hectares is wrong: The student used cm² directly without converting to m², leading to a decimal shift error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-103",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Part-to-Part Ratio Application Variant 3",
+    "difficulty_level": 2,
+    "question_text": "A municipal budget of ₱900 is allocated between Agriculture and Health in a ratio of 11:7. What is the difference between the Agriculture budget and the Health budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱200"
+      },
+      {
+        "key": "B",
+        "text": "₱700"
+      },
+      {
+        "key": "C",
+        "text": "₱550"
+      },
+      {
+        "key": "D",
+        "text": "₱350"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Sum of Ratio Parts",
+        "text": "Add the two parts of the ratio: 11 + 7 = 18 parts total."
+      },
+      {
+        "rung": 2,
+        "title": "Find Per-Part Value",
+        "text": "Divide the total budget by the total parts: ₱900 ÷ 18 = ₱50 per part."
+      },
+      {
+        "rung": 3,
+        "title": "Find Difference in Parts",
+        "text": "The difference in the ratio is 11 - 7 = 4 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply to Find Difference",
+        "text": "Multiply the difference in parts by the value per part: 4 × ₱50 = ₱200."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total parts = 18. Each part = ₱50. Difference = 4 × ₱50 = ₱200.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱700. This is the Agriculture budget (11 × ₱50 = ₱550) plus an extra ₱150, likely from adding the total budget incorrectly or misreading the ratio.",
+        "trap_type": "calculation_offset_error"
+      },
+      "C": {
+        "text": "₱550. This is the Agriculture budget (11 × ₱50) itself, not the difference between the two budgets.",
+        "trap_type": "wrong_variable_target"
+      },
+      "D": {
+        "text": "₱350. This is the Health budget (7 × ₱50) itself, not the difference between the two budgets.",
+        "trap_type": "wrong_variable_target"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Difference = (Part1 - Part2) × (Total / Sum of Parts). Always compute the value per part first.",
+    "deconstruct_text": "Step 1: Sum of ratio parts = 11 + 7 = 18.\nStep 2: Value per part = ₱900 ÷ 18 = ₱50.\nStep 3: Agriculture budget = 11 × ₱50 = ₱550. Health budget = 7 × ₱50 = ₱350.\nStep 4: Difference = ₱550 - ₱350 = ₱200.\n\nWhy ₱700 is wrong: This might come from adding ₱550 and ₱150 (a miscalculation) or confusing the total budget with the difference.\nWhy ₱550 is wrong: That's just the Agriculture budget, not the difference.\nWhy ₱350 is wrong: That's just the Health budget, not the difference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-100",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Simple Interest & Savings Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A Barangay Cooperative deposited ₱10,000 in a land bank account earning 4% simple interest per year. What will be the total amount in the account after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱10,800"
+      },
+      {
+        "key": "B",
+        "text": "₱800"
+      },
+      {
+        "key": "C",
+        "text": "₱10,400"
+      },
+      {
+        "key": "D",
+        "text": "₱11,800"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Simple Interest Formula",
+        "text": "Simple interest is calculated as I = P × r × t, where P is principal, r is annual rate, and t is time in years."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Total Interest",
+        "text": "I = ₱10,000 × 0.04 × 2 = ₱800."
+      },
+      {
+        "rung": 3,
+        "title": "Add Interest to Principal",
+        "text": "Total amount = Principal + Interest = ₱10,000 + ₱800."
+      },
+      {
+        "rung": 4,
+        "title": "Perform Addition",
+        "text": "Total = ₱10,000 + ₱800 = ₱10,800."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Interest = P × r × t = 800. Total = 10000 + 800 = ₱10,800.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱800. This is only the interest earned, not the total amount in the account. The question asks for the total amount.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "₱10,400. This comes from using only 1 year of interest (₱400) instead of 2 years, halving the time period.",
+        "trap_type": "time_period_halving_error"
+      },
+      "D": {
+        "text": "₱11,800. This results from adding ₱1,800 (incorrectly computing interest as 4% of ₱10,000 = ₱400 per year, but then adding ₱1,800 instead of ₱800, possibly due to an addition error).",
+        "trap_type": "addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Total Amount = Principal + Simple Interest (P + P·r·t). Remember to multiply by the number of years.",
+    "deconstruct_text": "Step 1: Identify given values: Principal P = ₱10,000, annual rate r = 4% = 0.04, time t = 2 years.\nStep 2: Compute simple interest: I = P × r × t = ₱10,000 × 0.04 × 2 = ₱800.\nStep 3: Total amount = Principal + Interest = ₱10,000 + ₱800 = ₱10,800.\n\nWhy ₱800 is wrong: That's the interest only, not the total amount.\nWhy ₱10,400 is wrong: That uses only 1 year of interest (₱400), forgetting the second year.\nWhy ₱11,800 is wrong: That adds ₱1,800 instead of ₱800, likely a miscalculation of interest or an addition error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-100",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Opposing Motion Distance Problem Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Two DOH ambulances leave a central hospital at the same time traveling in opposite directions along a highway. One travels at 40 km/h and the other at 60 km/h. How many hours will it take for them to be 200 km apart?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 hours"
+      },
+      {
+        "key": "B",
+        "text": "3 hours"
+      },
+      {
+        "key": "C",
+        "text": "4 hours"
+      },
+      {
+        "key": "D",
+        "text": "1.5 hours"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Combined Speed",
+        "text": "When two objects move in opposite directions, their separation speed is the sum of their individual speeds."
+      },
+      {
+        "rung": 2,
+        "title": "Sum the Speeds",
+        "text": "Combined Speed = 40 km/h + 60 km/h = 100 km/h."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Time Formula",
+        "text": "Time = Distance / Combined Speed = 200 km / 100 km/h."
+      },
+      {
+        "rung": 4,
+        "title": "Perform Division",
+        "text": "200 / 100 = 2 hours."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Combined Speed = 100 km/h. Time = 200 / 100 = 2 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "3 hours. This comes from subtracting the speeds (60 - 40 = 20 km/h) and then dividing 200 by 20, confusing opposite direction with same direction.",
+        "trap_type": "opposing_motion_subtraction_error"
+      },
+      "C": {
+        "text": "4 hours. This uses only the slower ambulance's speed (40 km/h) to compute time, ignoring the faster ambulance's contribution.",
+        "trap_type": "single_vehicle_speed_error"
+      },
+      "D": {
+        "text": "1.5 hours. This divides the distance by 2 (200/2 = 100) and then divides by the combined speed incorrectly, or uses half the distance.",
+        "trap_type": "half_distance_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Opposing directions: Combined Speed = Speed1 + Speed2. Time = Total Distance / Combined Speed.",
+    "deconstruct_text": "Step 1: Since the ambulances travel in opposite directions, their separation speed is the sum of their speeds: 40 km/h + 60 km/h = 100 km/h.\nStep 2: Use the formula time = distance / speed. Here, distance = 200 km, speed = 100 km/h.\nStep 3: Time = 200 km / 100 km/h = 2 hours.\n\nWhy 3 hours is wrong: The student subtracted the speeds (60 - 40 = 20 km/h) and divided 200 by 20, which is the method for same-direction travel.\nWhy 4 hours is wrong: The student used only the slower ambulance's speed (40 km/h), ignoring the faster one.\nWhy 1.5 hours is wrong: The student likely halved the distance (200/2 = 100) before dividing by the combined speed, or made a calculation error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-nseries-100",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Increasing Difference Series Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Find the next number in the series: 3, 7, 15, 27, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "43"
+      },
+      {
+        "key": "B",
+        "text": "39"
+      },
+      {
+        "key": "C",
+        "text": "47"
+      },
+      {
+        "key": "D",
+        "text": "31"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find First Differences",
+        "text": "Subtract each term from the next: 7-3=4, 15-7=8, 27-15=12. The differences are 4, 8, 12."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Pattern of Differences",
+        "text": "The differences increase by 4 each time: 4 to 8 (+4), 8 to 12 (+4). So the next difference should be 12 + 4 = 16."
+      },
+      {
+        "rung": 3,
+        "title": "Determine Next Difference",
+        "text": "Next difference = 16."
+      },
+      {
+        "rung": 4,
+        "title": "Add to Last Term",
+        "text": "Add the next difference to the last term: 27 + 16 = 43."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Differences increase by +4: +4, +8, +12, +16. Next term = 27 + 16 = 43.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "39. This assumes a constant difference of +12 from 27 (27+12=39), ignoring that differences are increasing.",
+        "trap_type": "constant_difference_fallacy"
+      },
+      "C": {
+        "text": "47. This adds 20 to 27 (27+20=47), which would require the difference to increase by 8 instead of 4, overestimating the pattern.",
+        "trap_type": "over_increment_error"
+      },
+      "D": {
+        "text": "31. This adds only 4 to 27 (27+4=31), mistakenly thinking the difference stays at +4 throughout the series.",
+        "trap_type": "linear_constant_fallacy"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Check second-level differences when first-level differences increase steadily. Here, the second difference is constant at +4.",
+    "deconstruct_text": "Step 1: Compute the differences between consecutive terms: 7-3=4, 15-7=8, 27-15=12.\nStep 2: Observe the pattern in the differences: they increase by 4 each time (4, 8, 12). So the next difference is 12+4=16.\nStep 3: Add the next difference to the last term: 27+16=43.\n\nWhy 39 is wrong: This assumes a constant difference of 12 after 27, but the differences are increasing.\nWhy 47 is wrong: This assumes the difference jumps by 8 (from 12 to 20), overestimating the increment.\nWhy 31 is wrong: This assumes the difference stays at 4 throughout, ignoring the increasing pattern.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-019",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "P10,000 is placed in a time deposit earning 5% per year compounded annually. How much after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P10,500"
+      },
+      {
+        "key": "B",
+        "text": "P11,000"
+      },
+      {
+        "key": "C",
+        "text": "P11,025"
+      },
+      {
+        "key": "D",
+        "text": "P11,250"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Unang Taon: Tubo ni Aling Nena",
+        "text": "Sa unang taon, ang P10,000 ay kumita ng 5% interest: P500. Balanse ay P10,500."
+      },
+      {
+        "rung": 2,
+        "title": "Ikalawang Taon: Compound na!",
+        "text": "Ang susunod na interes ay sa P10,500 na kinikita, hindi sa P10,000. Dito pumapasok ang compounding."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply: P10,500 × 1.05",
+        "text": "I-multiply ang bagong balanse sa 1.05: P10,500 × 1.05 = P11,025."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: P11,025",
+        "text": "Gamit ang formula: P10,000 × (1.05)^2 = P11,025. Mas mataas ng P25 kaysa simple interest."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you only computed the first year’s interest without compounding.",
+        "trap_type": "one_year_only"
+      },
+      "B": {
+        "text": "You might have chosen B because you treated the interest as simple: 5%×2=10% of principal.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. After compounding, the amount is P11,025—computed as P10,000 × (1.05)^2.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you overestimated the compounding effect, perhaps using (1.05)^2=1.125.",
+        "trap_type": "overcompounding_error"
+      }
+    },
+    "next_time_rule": "Key Takeaway: Compound interest—'tubo ng tubo'—gamit ang A = P(1+r)^t. Patong-patong ang interest, kaya mas mabilis lumaki kaysa simple.",
+    "blueprint_id": "Compound Interest — Annual Compounding",
+    "deconstruct_text": "Si Aling Tinay, may-ari ng sari-sari store, nagdeposito ng P10,000 sa time deposit sa bangko. 5% per year compounded annually. Gusto niyang malaman kung magkano after 2 years, para mapambili ng bagong paninda.\n\nSa unang taon, ang tubo ay 5% ng P10,000 = P500, kaya naging P10,500 ang pera niya. Dito na pumapasok ang 'compounding'—sa ikalawang taon, ang tubo ay kikitain sa bagong balance na P10,500.\n\nKaya P10,500 × 1.05 = P11,025. Kaya ang sagot: P11,025. Hindi P10,500 (isang taon lang), hindi P11,000 (simple interest na 10%), at hindi P11,250 (overestimated compound).",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

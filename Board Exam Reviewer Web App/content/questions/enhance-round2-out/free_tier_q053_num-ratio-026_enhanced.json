@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-026",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A DPWH crew of 6 workers can finish a road repair in 24 days. After 6 days, 2 more workers join. How many total days will the entire project take?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "19.5"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Terms of Worker-Days",
+        "text": "This is a work problem where the total amount of work stays the same. Imagine each worker contributes one 'unit' of work per day. So the total work needed is 6 workers times 24 days. That's your constant."
+      },
+      {
+        "rung": 2,
+        "title": "Figure Out What's Already Done",
+        "text": "Before the new workers arrive, the original crew has already put in some work. Multiply the original 6 workers by the 6 days they worked alone. Subtract that from the total work you found in the first hint."
+      },
+      {
+        "rung": 3,
+        "title": "Divide the Remaining Work by the New Crew Size",
+        "text": "Now you know how much work is left. The crew just got bigger, so they'll finish faster. Take the remaining worker-days and divide by the new total number of workers (6 plus 2). That gives you the number of extra days needed."
+      },
+      {
+        "rung": 4,
+        "title": "Don't Forget the First 6 Days",
+        "text": "The question asks for the total days for the entire project. So you need to add the initial 6 days to the extra days you just calculated. That sum is your final answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "16 days is tempting if you think the work just gets done faster in a simple way, like 24 divided by 1.5. But that ignores the 6 days of work already completed by the original crew. You have to account for the work already in the bank.",
+        "trap_type": "partial_answer_error"
+      },
+      "B": {
+        "text": "18 days looks like a neat subtraction: 24 minus 6. But this forgets that the crew size changed. With more workers, the remaining work should take less than the 18 days left on the original schedule. The math needs to reflect the bigger team.",
+        "trap_type": "proportion_type_error"
+      },
+      "C": {
+        "text": "Correct. The total work is 6 times 24, which is 144 worker-days. In the first 6 days, 6 workers did 36 worker-days. That leaves 108 worker-days. With 8 workers now, it takes 108 divided by 8, or 13.5 more days. Add the first 6 days, and you get 19.5 days total.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "22 days might come from a muddled attempt to adjust the schedule, like thinking the extra workers only shave off a tiny bit. The correct approach is to always use worker-days as your measuring stick for the total work, then adjust for the new crew size.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "For multi-stage work problems, always find the total work in worker-days first. Then subtract what's already done, and divide the remainder by the new number of workers. It's like splitting a pizza: first know the whole pizza, then figure out how many slices are left, then divide by the number of people at the table.",
+    "blueprint_id": "Inverse Proportion — Multi-Stage Work",
+    "deconstruct_text": "Let's walk through this together. The key insight is that the total amount of work needed to repair the road is fixed. We measure that work in 'worker-days.' Think of it as one worker doing one day's worth of work. So the total work is 6 workers times 24 days, which equals 144 worker-days. That's our constant.\n\nNow, the crew works for 6 days before any help arrives. In those 6 days, they complete 6 workers times 6 days, or 36 worker-days of work. So the remaining work is 144 minus 36, which is 108 worker-days.\n\nThen 2 more workers join, making the crew 8 workers strong. To find out how many more days they need, we divide the remaining work by the new crew size: 108 divided by 8 equals 13.5 days.\n\nThe question asks for the total days for the entire project. So we add the initial 6 days to the 13.5 days, giving us 19.5 days.\n\nHere's a mental trick for next time: whenever you see a work problem with changing crew sizes, immediately convert everything into worker-days. It's your universal currency. Find the total, subtract what's spent, then divide by the new team size. This method works every time and keeps you from getting lost in the numbers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

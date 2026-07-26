@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-029",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses the subjunctive mood correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I wish I was the department head."
+      },
+      {
+        "key": "B",
+        "text": "I wish I were the department head."
+      },
+      {
+        "key": "C",
+        "text": "I wish I am the department head."
+      },
+      {
+        "key": "D",
+        "text": "I wish I be the department head."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano Ba 'To?",
+        "text": "Subjunctive mood 'to. Ginagamit kapag wishful thinking, 'di totoo sa ngayon. Para kang sumisigaw ng 'Sana All!' sa loob ng exam room."
+      },
+      {
+        "rung": 2,
+        "title": "The 'Sana' Rule",
+        "text": "Kapag 'I wish', ang susunod ay lagi nang 'were', hindi 'was' o 'am'. Parang automatic na sagot."
+      },
+      {
+        "rung": 3,
+        "title": "Check the Subject",
+        "text": "Hindi mo kailangan baguhin ang 'were' kahit 'I' pa ang subject. Laging 'I wish I were'."
+      },
+      {
+        "rung": 4,
+        "title": "Spot the Wrong Ones",
+        "text": "Siwas, gam, sam, be? Lahat sila mali. 'Were' lang ang tamang term pagkatapos ng 'wish'. Piliin mo 'yun."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'I wish I was' sounds natural in everyday convo, but for wishes, the subjunctive requires 'were'.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "B": {
+        "text": "Correct. After 'I wish', the subjunctive mood always uses 'were' for the verb 'to be'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'I wish I am' uses present tense, but 'wish' demands unreal 'were'.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D because 'be' appears in other subjunctive patterns, but after 'wish', 'were' is the only correct form.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "Remember: 'I wish I were' is the golden phrase. Whenever you express a wish, grab 'were'. It's like saying 'sana all'—formal and correct.",
+    "blueprint_id": "Subjunctive Mood — Wishes",
+    "deconstruct_text": "Sitting in a barangay meeting, you hear someone say, 'I wish I were the captain.' That's the subjunctive mood—it shows a wish that isn't reality. In the civil service exam, they'll test if you can spot the correct 'were' instead of 'was' or 'am'.\n\nMental Trick: Isipin mong 'I wish I were' ay parang 'Sana All' na may fixed combo—like bagoong and kare-kare, never separate. Auto-complete in your head: after 'I wish', 'I were' agad.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-013",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A fish vendor bought fish for P800 and sold it for P1,040. What is the percentage profit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "35%"
+      },
+      {
+        "key": "D",
+        "text": "40%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Profit First",
+        "text": "Alamin muna ang kinita: Profit = Selling Price - Cost Price. Dito: P1,040 - P800 = P240."
+      },
+      {
+        "rung": 2,
+        "title": "The Key Formula",
+        "text": "Formula: (Profit ÷ Cost Price) × 100%. Ang cost ang base—dito P800. Tandaan, puhunan ang base, hindi selling price."
+      },
+      {
+        "rung": 3,
+        "title": "Plug in the Numbers",
+        "text": "Ilagay sa formula: (P240 ÷ P800) × 100%. I-simplify: 240/800 = 0.3. Multiply by 100% para makuha ang percent."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "0.3 times 100% equal 30%. Kaya 30% ang profit. Perfect!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided profit by selling price (P240/P1,040≈23%, rounded to 25%).",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "Correct. Profit is P240; (240/800)×100%=30%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a division slip, thinking 240/800 is 0.35 instead of 0.3.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you used an incorrect cost (P600), giving 240/600=0.4.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Profit % always uses cost as denominator: (Profit / Cost) x 100%. Huwag gamitin ang selling price — cost ang base.",
+    "blueprint_id": "Profit Margin Computation",
+    "deconstruct_text": "Sa palengke ni Aling Nena, bumili siya ng bangus sa halagang P800 at binenta ng P1,040. Una, kunin ang kita: P1,040 - P800 = P240.\n\nPagkatapos, ang formula ng percentage profit: (Kita ÷ Puhunan) × 100%. I-divide mo ang P240 sa P800, equals 0.3, times 100% = 30%. Mental trick: 'Kita over Puhunan' — laging puhunan ang base, huwag selling price.\n\n**Watch-Out Zone: wrong_base_percentage** in action. Selling price mali; cost ang base.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

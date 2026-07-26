@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-011",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "Data interpretation 1: A budget of P10M is allocated: Personnel 40%, Operations 30%, Equipment 20%, Training 10%. How much for Equipment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1M"
+      },
+      {
+        "key": "B",
+        "text": "P2M"
+      },
+      {
+        "key": "C",
+        "text": "P3M"
+      },
+      {
+        "key": "D",
+        "text": "P4M"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Equipment %",
+        "text": "Let's start by looking at the budget breakdown. The question asks specifically about Equipment. What percentage of the total budget is allocated to Equipment? Scan the list and find that number."
+      },
+      {
+        "rung": 2,
+        "title": "Compute",
+        "text": "Now that you have the percentage for Equipment (20%), remember the simple rule: to find a percentage of a total, convert the percentage to a decimal (20% becomes 0.20) and multiply it by the total budget of P10,000,000."
+      },
+      {
+        "rung": 3,
+        "title": "= P2M",
+        "text": "So P10,000,000 multiplied by 0.20 equals P2,000,000. That's P2 million. You're almost there!"
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The correct answer is P2M, which is option B. Notice how the other options match the other percentages in the breakdown: P1M is 10% (Training), P3M is 30% (Operations), and P4M is 40% (Personnel). The question only asks for Equipment."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1M is 10% of P10M, which is the Training allocation. It's easy to accidentally grab the first percentage you see or mix up 10% and 20%. Next time, double-check that you're using the exact percentage for the category asked.",
+        "trap_type": "percentage_misread"
+      },
+      "B": {
+        "text": "Correct! 20% of P10,000,000 is P2,000,000. You correctly identified the Equipment percentage and did the math right.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "P3M is 30% of P10M, which is the Operations allocation. This is a common mix-up when you're scanning quickly and your eye jumps to a nearby number. Always pause to confirm you're matching the right category to its percentage.",
+        "trap_type": "percentage_confusion"
+      },
+      "D": {
+        "text": "P4M is 40% of P10M, which is the Personnel allocation. This often happens when someone sees the biggest number and assumes it's the answer without reading the question carefully. Remember: the question is about Equipment, not Personnel.",
+        "trap_type": "percentage_confusion"
+      }
+    },
+    "next_time_rule": "When a question gives you a breakdown of percentages, treat it like a matching game. First, find the exact category asked, then grab its percentage. Convert that percentage to a decimal (just move the decimal two places left, so 20% becomes 0.20) and multiply by the total. This two-step process keeps you from grabbing the wrong number.",
+    "blueprint_id": "Data Interpretation 1",
+    "deconstruct_text": "This is a straightforward percentage problem, but the trap is in the details. The total budget is P10,000,000, and the question asks specifically for Equipment. From the breakdown, Equipment gets 20%. So the calculation is: P10,000,000 times 20% (or 0.20) equals P2,000,000, which is P2M. The other options are all real percentages from the breakdown, so they look tempting. Option A (P1M) is 10% for Training, option C (P3M) is 30% for Operations, and option D (P4M) is 40% for Personnel. The key is to read the question carefully and match the category to its percentage before doing any math. A good mental trick is to think of it like this: the question is asking for a slice of the pie, so first find which slice, then calculate its size.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

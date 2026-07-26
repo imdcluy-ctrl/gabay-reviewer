@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-492",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "In a government office, a male supervisor repeatedly makes offensive sexual jokes and comments about a female employee's appearance in front of coworkers. The employee feels humiliated and uncomfortable. Under RA 7877 (Anti-Sexual Harassment Act), this situation is considered:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Not sexual harassment because there was no physical contact"
+      },
+      {
+        "key": "B",
+        "text": "Sexual harassment if the employee explicitly told the supervisor to stop"
+      },
+      {
+        "key": "C",
+        "text": "Sexual harassment because it creates a hostile work environment"
+      },
+      {
+        "key": "D",
+        "text": "Not sexual harassment because it happened in front of others, not in private"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3474",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

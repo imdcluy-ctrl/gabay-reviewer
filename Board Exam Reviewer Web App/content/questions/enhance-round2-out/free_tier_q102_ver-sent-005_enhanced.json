@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-005",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the correct transitional word: 'The project was delayed ___ budget constraints.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "because"
+      },
+      {
+        "key": "B",
+        "text": "because of"
+      },
+      {
+        "key": "C",
+        "text": "since"
+      },
+      {
+        "key": "D",
+        "text": "due"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at what follows the blank",
+        "text": "The words after the blank are 'budget constraints.' Is that a full sentence with a verb, or just a thing? It's a noun phrase — just a thing, no action."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "Some words (like 'because' and 'since') need a full clause after them — a subject and a verb. Others (like 'because of') can work with just a noun phrase."
+      },
+      {
+        "rung": 3,
+        "title": "Test each option",
+        "text": "Try saying the sentence with each option. 'Because budget constraints' sounds incomplete, right? 'Because of budget constraints' flows naturally. 'Since budget constraints' also feels unfinished. 'Due budget constraints' is missing a word."
+      },
+      {
+        "rung": 4,
+        "title": "Spot the only one that fits",
+        "text": "Only one option is a compound preposition that can smoothly introduce a noun phrase. The others either need a full clause or need another word ('to') to work."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common mistake. 'Because' is a conjunction, which means it needs to introduce a full clause — a group of words with a subject and a verb, like 'because there were budget constraints.' Here, 'budget constraints' is just a noun phrase with no verb, so 'because' alone doesn't work. Your brain might have jumped to the most familiar reason word, but the structure after it matters just as much.",
+        "trap_type": "conjunction_error"
+      },
+      "B": {
+        "text": "Perfect choice. 'Because of' is a compound preposition, which means it can smoothly introduce a noun phrase like 'budget constraints.' Think of it as the go-to phrase when you want to give a reason but don't have a full sentence after it. It's like the bridge that connects the delay to the reason without needing extra words.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Since' is another conjunction, just like 'because.' It also needs a full clause after it — for example, 'since the budget was constrained.' Without a verb, 'since budget constraints' feels incomplete. It's easy to pick 'since' because it sounds similar in meaning, but the grammar rule is the same: conjunctions need clauses.",
+        "trap_type": "conjunction_error"
+      },
+      "D": {
+        "text": "This one is tricky because 'due to' is a perfectly correct phrase. But here, 'due' is standing alone without its partner 'to.' 'Due' by itself is an adjective, not a preposition, so it can't introduce a noun phrase. If the option were 'due to,' it would be correct. Always check if 'to' is there — it's a common trap in exams.",
+        "trap_type": "missing_preposition"
+      }
+    },
+    "next_time_rule": "Quick test: If the word after the blank is a noun phrase (no verb), use 'because of' or 'due to.' If it's a full clause (subject + verb), use 'because' or 'since.'",
+    "blueprint_id": "Transitional Words — Because vs Because Of",
+    "deconstruct_text": "Let's walk through this together. The sentence is: 'The project was delayed ___ budget constraints.' The key is to look at what comes after the blank. 'Budget constraints' is a noun phrase — it's just a thing, with no action or verb. Now, some words can introduce a noun phrase, and some can't. 'Because' and 'since' are conjunctions — they need a full clause after them, like 'because there were budget constraints' or 'since the budget was tight.' Without a verb, they leave the sentence hanging. 'Due' is an adjective that needs 'to' to become the preposition 'due to.' So 'due' alone is incomplete. That leaves 'because of,' which is a compound preposition designed exactly for this job — introducing a noun phrase that explains a reason. It's like the perfect key for this lock. Here's a mental trick I want you to remember: Think of 'because of' as the phrase you use when you're giving a one-word or short reason. 'Because' is for when you need a whole story. 'Because of rain' works. 'Because it rained' works. Mix them up, and the sentence feels off.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

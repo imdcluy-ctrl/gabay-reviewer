@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Pattern",
+        "text": "The word 'responsible' is a clue here. In English, certain adjectives always pair with specific prepositions. Think about what naturally follows 'responsible' in everyday speech."
+      },
+      {
+        "rung": 2,
+        "title": "The Two-Way Rule",
+        "text": "Here's a simple rule: 'responsible to' is for people or authorities you answer to, while 'responsible for' is for tasks or duties you handle. Which one fits 'overseeing operations'?"
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Object",
+        "text": "Look at what comes after the blank: 'overseeing the regional operations.' That's a job duty, not a person or a boss. So which preposition pairs with a task?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Since 'overseeing operations' is a responsibility or duty, the correct phrase is 'responsible for.' The other options would work in different contexts, but not here."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Responsible for' is the natural pairing when talking about a duty or task, like overseeing operations. It's the standard way to say someone is in charge of something.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is tempting because we say 'charged with' or 'entrusted with' in similar situations. But 'responsible' doesn't follow that pattern. Think of it this way: you're responsible for a task, not with it.",
+        "trap_type": "synonym_pattern_overgeneralization"
+      },
+      "C": {
+        "text": "You might have heard 'responsible to' before, and you'd be right—but only when talking about a person or authority, like 'responsible to the board.' Here, the object is a task, not a person, so 'to' doesn't fit.",
+        "trap_type": "accountability_target_misdirection"
+      },
+      "D": {
+        "text": "It's easy to mix up prepositions from similar phrases like 'involved in' or 'instrumental in.' But 'responsible in' just isn't how English works. Stick with the trusted pairings.",
+        "trap_type": "prepositional_analogy_error"
+      }
+    },
+    "next_time_rule": "When you see 'responsible,' ask yourself: 'Who or what?' If it's a person or authority you answer to, use 'to.' If it's a task or duty you handle, use 'for.'",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "Let's walk through this together. The key is understanding how the word 'responsible' works in English. It has two main partners: 'for' and 'to,' and each one serves a different purpose.\n\nThink of it this way: 'responsible to' is about who you report to. For example, a manager is responsible to the CEO. It points upward to an authority figure. On the other hand, 'responsible for' is about what you actually do. It points outward to a task or duty, like overseeing operations.\n\nIn this sentence, the blank is followed by 'overseeing the regional operations.' That's clearly a task—a job duty. So we need the 'for' pairing. It's that simple.\n\nHere's a mental trick to lock this in: the 'Who vs. What' test. Before you fill in the blank, quickly decide if the object is a person (who) or a duty (what). If it's a what, go with 'for.' If it's a who, go with 'to.' This little check will save you every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

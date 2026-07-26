@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-nseries-016",
+    "subtopic_id": "number-series",
+    "category_id": "numerical-ability",
+    "question_text": "Find the missing: 2, 5, 8, 11, ?, 17",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Common Diff",
+        "text": "Hanapin ang common difference: 5-2=3, 8-5=3, 11-8=3. Pare-parehong 3 ang dagdag."
+      },
+      {
+        "rung": 2,
+        "title": "Arithmetic",
+        "text": "Arithmetic sequence ito na may d=3. Bawat term, dagdag ng 3."
+      },
+      {
+        "rung": 3,
+        "title": "Find Missing",
+        "text": "Ang missing ay after 11, kaya i-add ang 3: 11+3=14."
+      },
+      {
+        "rung": 4,
+        "title": "Check",
+        "text": "Check: 14+3=17, tugma sa huling given. So 14 ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you added 1 instead of 3, thinking the increments changed.",
+        "trap_type": "wrong_increment"
+      },
+      "B": {
+        "text": "You might have chosen B because you added 2, maybe mistaking an alternating pattern; still, the pattern is steady +3.",
+        "trap_type": "wrong_increment"
+      },
+      "C": {
+        "text": "Correct. Adding the common difference 3 to 11 gives 14, which perfectly fits the sequence.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used +4, misreading the common difference as 4 instead of 3.",
+        "trap_type": "wrong_common_difference"
+      }
+    },
+    "next_time_rule": "Sa arithmetic sequence, hanapin ang common difference (d) sa katabing terms. Then add d para sa missing term. Dito, d=3, 11+3=14.",
+    "blueprint_id": "Arithmetic with Missing Term",
+    "deconstruct_text": "Sa sari-sari store, napansin mo na ang bentang candy ay ganito: Lunes 2 piraso, Martes 5, Miyerkules 8, Huwebes 11, Biyernes ilan? Kung steady ang increase, arithmetic sequence yan.\n\nKunin ang common difference: 5-2=3, 8-5=3, 11-8=3. Pare-parehong +3. Kaya sa Biyernes: 11+3=14. Then check: 14+3=17, which matches Saturday’s given.\n\n**Watch-Out Zone: pattern_misread**—gamit maling dagdag na 1,2,4 sa halip na 3.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

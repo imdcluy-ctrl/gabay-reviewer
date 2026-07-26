@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-003",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "Under the 1987 Philippine Constitution, legislative power is vested in the Congress of the Philippines, which consists of __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Senate and the House of Representatives"
+      },
+      {
+        "key": "B",
+        "text": "The President and the Cabinet"
+      },
+      {
+        "key": "C",
+        "text": "The Supreme Court and Lower Courts"
+      },
+      {
+        "key": "D",
+        "text": "The Civil Service Commission and Commission on Audit"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Branch of Government",
+        "text": "Think about which branch of government is responsible for making laws. That's the legislative branch, and in the Philippines, it's called Congress."
+      },
+      {
+        "rung": 2,
+        "title": "Bicameral Structure",
+        "text": "Congress is bicameral, meaning it has two separate chambers or houses. This is a key feature of the Philippine legislative system, established in Article VI of the Constitution."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Chambers",
+        "text": "The two chambers are the Senate, which is the upper house, and the House of Representatives, which is the lower house. Together, they form Congress."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'The Senate and the House of Representatives.' This matches exactly what Article VI Section 1 says: Congress consists of these two chambers."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VI Section 1 of the 1987 Constitution clearly states that legislative power belongs to Congress, which is made up of the Senate and the House of Representatives. This is the foundation of our law-making process.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. The President and the Cabinet belong to the executive branch, which enforces laws, not makes them. Think of it this way: the executive branch carries out the laws that Congress creates.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "The Supreme Court and lower courts form the judicial branch. Their job is to interpret laws and settle disputes, not to create legislation. It's easy to confuse branches when you're under pressure, but remember: judges interpret, legislators create.",
+        "trap_type": "branch_confusion"
+      },
+      "D": {
+        "text": "The Civil Service Commission and Commission on Audit are independent constitutional commissions. They have specific oversight functions but are not part of the legislative branch. They don't make laws; they ensure government accountability.",
+        "trap_type": "commission_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'legislative power' or 'Congress,' immediately think of the Senate and House of Representatives. Use the 'Branch Test': ask yourself which branch makes laws (legislative), which enforces them (executive), and which interprets them (judicial). This simple mental check will save you from branch confusion every time.",
+    "blueprint_id": "1987 Philippine Constitution — Article VI Section 1 Legislative Department",
+    "deconstruct_text": "Let's walk through this together. The question asks about legislative power, which is the authority to create laws. Under the 1987 Constitution, this power belongs to Congress. Now, what exactly is Congress? Article VI Section 1 gives us the answer: Congress consists of two chambers—the Senate and the House of Representatives. This is called a bicameral system. The Senate is the upper house, and the House of Representatives is the lower house. Together, they form the legislative branch. So when you see the options, Option A is the only one that matches this constitutional definition. Options B, C, and D refer to other branches or bodies: the executive branch (President and Cabinet), the judicial branch (Supreme Court and lower courts), and independent constitutional commissions (CSC and COA). A quick mental trick: whenever you encounter a question about government branches, use the 'Who Does What?' test. Ask yourself: who makes laws? Congress. Who enforces them? The President. Who interprets them? The courts. This simple framework will help you avoid mixing up branches under exam pressure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

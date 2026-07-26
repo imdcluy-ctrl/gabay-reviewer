@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-200",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Conciseness & Wordiness Elimination Variant 1",
+    "difficulty_level": 3,
+    "question_text": "Which option expresses the administrative directive most CONCISELY and clearly without redundant wordiness?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee approved the budget proposal unanimously."
+      },
+      {
+        "key": "B",
+        "text": "At this point in time, the committee members reached a unanimous consensus of opinion to approve the budget."
+      },
+      {
+        "key": "C",
+        "text": "The budget proposal was given final approval by the members of the committee unanimously."
+      },
+      {
+        "key": "D",
+        "text": "With regard to the budget proposal, the committee voted in favor of approving it."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot Redundancies",
+        "text": "Look for phrases that repeat the same idea: 'at this point in time' (now), 'unanimous consensus of opinion' (consensus already means unanimous agreement)."
+      },
+      {
+        "rung": 2,
+        "title": "Prefer Active Voice",
+        "text": "Active voice ('committee approved') is shorter and clearer than passive voice ('was given approval by')."
+      },
+      {
+        "rung": 3,
+        "title": "Trim Introductory Fillers",
+        "text": "Phrases like 'With regard to' add no meaning — cut them to make the sentence direct."
+      },
+      {
+        "rung": 4,
+        "title": "Count the Words",
+        "text": "Option A uses 7 words; Option B uses 16. The shortest clear option is usually the most concise."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This sentence is active, direct, and contains no redundant phrases. It conveys the same information as the other options in just 7 words.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Contains two redundancies: 'at this point in time' (simply 'now') and 'unanimous consensus of opinion' (consensus already implies unanimous agreement). This inflates the sentence to 16 words.",
+        "trap_type": "wordiness_redundancy_error"
+      },
+      "C": {
+        "text": "Uses passive voice ('was given final approval by') which adds unnecessary words and weakens the directive. Active voice would be 'The committee unanimously approved...'.",
+        "trap_type": "passive_voice_overuse"
+      },
+      "D": {
+        "text": "Opens with the filler phrase 'With regard to', which adds no meaning. The core action 'voted in favor of approving' can be simplified to 'approved'.",
+        "trap_type": "introductory_filler_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Government Writing Rule: Eliminate redundant qualifiers ('consensus of opinion' → 'consensus') and prefer active voice. If you can cut words without losing meaning, do it.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Identify the core message.** The directive is that the committee approved the budget. All options convey this, but with varying wordiness.\n\n**Step 2: Check for redundancies.**\n- Option B: 'at this point in time' = 'now'; 'unanimous consensus of opinion' = 'consensus' (since consensus already means unanimous agreement). These are classic redundancies.\n- Option C: 'was given final approval by' is passive and wordy. Active voice: 'approved'.\n- Option D: 'With regard to' is filler; 'voted in favor of approving' can be shortened to 'approved'.\n\n**Step 3: Compare word counts.**\n- A: 7 words\n- B: 16 words\n- C: 12 words\n- D: 13 words\n\n**Step 4: Select the most concise.** Option A is the shortest and uses active voice without any filler.\n\n### ❌ Why the Distractors Fail\n- **Option B** is incorrect because it contains double redundancy ('unanimous consensus of opinion') and the filler 'at this point in time'.\n- **Option C** is incorrect because it uses passive voice, which adds unnecessary words and reduces clarity.\n- **Option D** is incorrect because it starts with a wordy introductory phrase and uses a verbose construction ('voted in favor of approving').",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-200",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Statutory Legal Terms — ADJUDICATE",
+    "difficulty_level": 3,
+    "question_text": "Choose the word or phrase closest in meaning to the underlined legal term: 'The Ombudsman has the constitutional authority to <u>adjudicate</u> administrative complaints filed against public officers.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "arbitrate"
+      },
+      {
+        "key": "B",
+        "text": "dismiss without review"
+      },
+      {
+        "key": "C",
+        "text": "delay indefinitely"
+      },
+      {
+        "key": "D",
+        "text": "delegate to private entities"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Role of the Ombudsman",
+        "text": "The Ombudsman investigates and resolves complaints — this involves making a formal decision, not dismissing, delaying, or delegating."
+      },
+      {
+        "rung": 2,
+        "title": "Define 'adjudicate'",
+        "text": "'Adjudicate' means to make a formal judgment or decision on a disputed matter. Think of a judge in court."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Legal Synonym",
+        "text": "In legal contexts, 'arbitrate' is the closest synonym — both involve a neutral third party making a binding decision."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Opposites",
+        "text": "Options B, C, and D are actions that avoid or avoid making a decision — the opposite of adjudicating."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Adjudicate' means to make a formal judgment, and 'arbitrate' is its direct legal synonym — both involve resolving disputes through a binding decision.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Dismiss without review' is the opposite of adjudicating — adjudication requires a thorough examination and decision, not summary dismissal.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay indefinitely' is a procedural stall, not a decision. Adjudication requires timely resolution, not postponement.",
+        "trap_type": "procedural_error_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Delegate to private entities' shifts responsibility away from the Ombudsman. Adjudication is a core constitutional function that cannot be delegated.",
+        "trap_type": "unsupported_assertion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'ADJUDICATE' = arbitrate (to make a formal judgment or decision on a disputed matter). Remember: a judge 'adjudicates' a case; an arbitrator 'arbitrates' a dispute.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the context.** The Ombudsman is constitutionally tasked with investigating and resolving administrative complaints. The word 'adjudicate' describes the action of making a formal decision on these complaints.\n\n**Step 2: Define 'adjudicate'.** From legal terminology: 'adjudicate' means to make a formal judgment or decision on a disputed matter. It comes from the Latin 'adjudicare' (to judge).\n\n**Step 3: Find the synonym.** Among the options, 'arbitrate' is the only word that involves a neutral third party making a binding decision — the same core meaning as adjudicate.\n\n**Step 4: Eliminate distractors.**\n- 'Dismiss without review' is the opposite — it avoids making a decision.\n- 'Delay indefinitely' is a stall tactic, not a decision.\n- 'Delegate to private entities' is not a synonym; it's an action that transfers authority.\n\n### ❌ Why the Distractors Fail\n- **Option B** is incorrect because 'dismiss without review' is an antonym — adjudication requires careful review and a judgment.\n- **Option C** is incorrect because 'delay indefinitely' avoids resolution, while adjudication aims to resolve.\n- **Option D** is incorrect because 'delegate to private entities' is unrelated — the Ombudsman cannot delegate its adjudicatory power.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-201",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Statutory Legal Terms — PROMULGATION",
+    "difficulty_level": 3,
+    "question_text": "Choose the word or phrase closest in meaning to the underlined legal term: 'The Ombudsman has the constitutional authority to <u>promulgation</u> administrative complaints filed against public officers.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "proclamation"
+      },
+      {
+        "key": "B",
+        "text": "dismiss without review"
+      },
+      {
+        "key": "C",
+        "text": "delay indefinitely"
+      },
+      {
+        "key": "D",
+        "text": "delegate to private entities"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand 'Promulgation' in Legal Context",
+        "text": "'Promulgation' refers to the official announcement or enactment of a law, rule, or regulation — making it known to the public."
+      },
+      {
+        "rung": 2,
+        "title": "Define the Term",
+        "text": "'Promulgation' means the formal declaration or proclamation of a new law or regulation."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Legal Synonym",
+        "text": "'Proclamation' is the direct synonym — both involve officially announcing something to the public."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Unrelated Actions",
+        "text": "Options B, C, and D describe actions that do not involve announcing or enacting — they are not synonyms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Promulgation' means the official declaration or enactment of a law, and 'proclamation' is its direct synonym — both involve formal public announcement.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Dismiss without review' is unrelated to promulgation — it is an action that rejects rather than announces.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay indefinitely' is a postponement, not a formal announcement. Promulgation requires timely publication.",
+        "trap_type": "procedural_error_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Delegate to private entities' shifts authority away — promulgation is a sovereign function that cannot be delegated.",
+        "trap_type": "unsupported_assertion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'PROMULGATION' = proclamation (official declaration or formal enactment of a law). Think of the President 'promulgating' an executive order — it's announced to the public.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the context.** The Ombudsman has the authority to 'promulgation' — but note: the sentence uses 'promulgation' as a verb, which is a common error in exam questions. The correct verb form is 'promulgate'. However, the synonym remains 'proclamation' (noun form).\n\n**Step 2: Define 'promulgation'.** In legal terms, 'promulgation' means the official declaration or formal enactment of a law, rule, or regulation. It comes from the Latin 'promulgare' (to make public).\n\n**Step 3: Find the synonym.** 'Proclamation' is the closest match — both involve a formal public announcement.\n\n**Step 4: Eliminate distractors.**\n- 'Dismiss without review' is the opposite of making something public.\n- 'Delay indefinitely' is a stall, not an announcement.\n- 'Delegate to private entities' is unrelated to the act of announcing.\n\n### ❌ Why the Distractors Fail\n- **Option B** is incorrect because 'dismiss without review' is an antonym — promulgation involves making known, not dismissing.\n- **Option C** is incorrect because 'delay indefinitely' avoids action, while promulgation is an active announcement.\n- **Option D** is incorrect because 'delegate to private entities' is not a synonym — promulgation is a governmental function.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-202",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Statutory Legal Terms — JURISPRUDENCE",
+    "difficulty_level": 3,
+    "question_text": "Choose the word or phrase closest in meaning to the underlined legal term: 'The Ombudsman has the constitutional authority to <u>jurisprudence</u> administrative complaints filed against public officers.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "legal doctrine"
+      },
+      {
+        "key": "B",
+        "text": "dismiss without review"
+      },
+      {
+        "key": "C",
+        "text": "delay indefinitely"
+      },
+      {
+        "key": "D",
+        "text": "delegate to private entities"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand 'Jurisprudence' in Legal Context",
+        "text": "'Jurisprudence' is the theory or philosophy of law, or the body of court precedents — it is not an action but a body of knowledge."
+      },
+      {
+        "rung": 2,
+        "title": "Define the Term",
+        "text": "'Jurisprudence' means the philosophy or science of law, or the collective body of legal principles derived from court decisions."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Legal Synonym",
+        "text": "'Legal doctrine' is the closest synonym — both refer to established legal principles and precedents."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Unrelated Actions",
+        "text": "Options B, C, and D describe actions (dismiss, delay, delegate) — jurisprudence is a concept, not an action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Jurisprudence' refers to the philosophy or science of law, and 'legal doctrine' is its direct synonym — both encompass established legal principles.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Dismiss without review' is an action, not a body of legal principles. Jurisprudence is a concept, not a procedural step.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay indefinitely' is a procedural action, unrelated to the theoretical or precedential body of law.",
+        "trap_type": "procedural_error_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Delegate to private entities' is an action that transfers authority, not a synonym for legal philosophy.",
+        "trap_type": "unsupported_assertion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'JURISPRUDENCE' = legal doctrine (the philosophy or science of law and court precedents). Remember: 'juris' (law) + 'prudence' (wisdom) = wisdom of the law.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the context.** The sentence uses 'jurisprudence' as a verb, which is grammatically incorrect — 'jurisprudence' is a noun. The intended meaning is likely 'apply jurisprudence' or 'use legal doctrine'. However, the synonym question asks for the closest meaning.\n\n**Step 2: Define 'jurisprudence'.** In legal terms, 'jurisprudence' means the philosophy or science of law, or the body of legal principles derived from court decisions (precedents).\n\n**Step 3: Find the synonym.** 'Legal doctrine' is the closest match — both refer to established legal principles and precedents.\n\n**Step 4: Eliminate distractors.**\n- 'Dismiss without review' is an action, not a concept.\n- 'Delay indefinitely' is an action.\n- 'Delegate to private entities' is an action.\n\n### ❌ Why the Distractors Fail\n- **Option B** is incorrect because 'dismiss without review' is an action, while jurisprudence is a body of knowledge.\n- **Option C** is incorrect because 'delay indefinitely' is a procedural action, unrelated to legal philosophy.\n- **Option D** is incorrect because 'delegate to private entities' is an action that transfers authority, not a synonym for legal principles.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-203",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Statutory Legal Terms — EXPROPRIATION",
+    "difficulty_level": 3,
+    "question_text": "Choose the word or phrase closest in meaning to the underlined legal term: 'The Ombudsman has the constitutional authority to <u>expropriation</u> administrative complaints filed against public officers.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "compulsory acquisition"
+      },
+      {
+        "key": "B",
+        "text": "dismiss without review"
+      },
+      {
+        "key": "C",
+        "text": "delay indefinitely"
+      },
+      {
+        "key": "D",
+        "text": "delegate to private entities"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand 'Expropriation' in Legal Context",
+        "text": "'Expropriation' is the government's power to take private property for public use, with compensation — it's a property law term."
+      },
+      {
+        "rung": 2,
+        "title": "Define the Term",
+        "text": "'Expropriation' means the action by the state of taking private property for public use, often with just compensation."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Legal Synonym",
+        "text": "'Compulsory acquisition' is the direct synonym — both refer to the state's power to take property for public purposes."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Unrelated Actions",
+        "text": "Options B, C, and D describe actions unrelated to property taking — they are not synonyms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Expropriation' means the state's taking of private property for public use, and 'compulsory acquisition' is its direct synonym — both involve forced transfer with compensation.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Dismiss without review' is unrelated to property taking — it is a procedural action, not a synonym for expropriation.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay indefinitely' is a postponement, not a taking of property. Expropriation is an active process.",
+        "trap_type": "procedural_error_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Delegate to private entities' shifts authority away — expropriation is a sovereign power that cannot be delegated.",
+        "trap_type": "unsupported_assertion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'EXPROPRIATION' = compulsory acquisition (the action by the state of taking private property for public use). Remember: 'ex' (out of) + 'proprius' (property) = taking out of property.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the context.** The sentence uses 'expropriation' as a verb, which is grammatically incorrect — 'expropriation' is a noun. The correct verb is 'expropriate'. However, the synonym question asks for the closest meaning.\n\n**Step 2: Define 'expropriation'.** In legal terms, 'expropriation' means the action by the state of taking private property for public use, with just compensation. It is also known as 'eminent domain'.\n\n**Step 3: Find the synonym.** 'Compulsory acquisition' is the direct synonym — both refer to the forced transfer of property from private owners to the government for public purposes.\n\n**Step 4: Eliminate distractors.**\n- 'Dismiss without review' is unrelated to property.\n- 'Delay indefinitely' is a stall, not a taking.\n- 'Delegate to private entities' is not a synonym.\n\n### ❌ Why the Distractors Fail\n- **Option B** is incorrect because 'dismiss without review' is unrelated to property taking — it is a procedural action.\n- **Option C** is incorrect because 'delay indefinitely' is a postponement, not a taking of property.\n- **Option D** is incorrect because 'delegate to private entities' is not a synonym — expropriation is a governmental power.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-204",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Statutory Legal Terms — SUBPOENA",
+    "difficulty_level": 3,
+    "question_text": "Choose the word or phrase closest in meaning to the underlined legal term: 'The Ombudsman has the constitutional authority to <u>subpoena</u> administrative complaints filed against public officers.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "judicial summons"
+      },
+      {
+        "key": "B",
+        "text": "dismiss without review"
+      },
+      {
+        "key": "C",
+        "text": "delay indefinitely"
+      },
+      {
+        "key": "D",
+        "text": "delegate to private entities"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze Legal Context",
+        "text": "The Ombudsman is investigating complaints — what legal power allows them to compel documents or testimony? Think of a court order that forces someone to appear or produce evidence."
+      },
+      {
+        "rung": 2,
+        "title": "Define Term",
+        "text": "'Subpoena' is a Latin-derived legal term meaning 'under penalty.' It is a writ that commands a person to attend a court or hearing, often to testify or bring documents."
+      },
+      {
+        "rung": 3,
+        "title": "Match Legal Equivalent",
+        "text": "The direct synonym in legal English is 'judicial summons' — both refer to a formal order to appear. The other options describe actions like dismissal, delay, or delegation, which are not synonyms."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "Option A, 'judicial summons,' is the only choice that matches the definition of a subpoena as a compulsory legal order."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Subpoena' is a writ ordering a person to attend a court or hearing, exactly equivalent to 'judicial summons.' The Ombudsman uses this power to compel the production of administrative complaints.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Dismiss without review' is the opposite of subpoena — dismissing means ending a case without consideration, while subpoena is an active step to gather evidence. A student might confuse 'subpoena' with 'dismiss' because both are legal procedures, but their functions are opposite.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay indefinitely' is unrelated to subpoena. A subpoena expedites proceedings by compelling attendance; delaying would hinder the process. This error may arise from misreading 'subpoena' as 'subpoena' (to postpone), but the correct spelling and meaning are different.",
+        "trap_type": "procedural_error_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Delegate to private entities' is not a legal power of the Ombudsman in this context. Subpoena is an official act of the office, not a delegation. This distractor tests whether the student knows that subpoena is a direct action, not a transfer of authority.",
+        "trap_type": "unsupported_assertion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'SUBPOENA' = judicial summons (a writ ordering a person to attend a court or hearing). Remember: 'sub' = under, 'poena' = penalty — a command under penalty of law.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the context:** The Ombudsman has constitutional authority to 'subpoena' administrative complaints. This means the Ombudsman can legally compel the submission of documents or testimony.\n2. **Define 'subpoena':** A subpoena is a writ ordering a person to attend a court or hearing, often to testify or produce evidence. It is a compulsory legal process.\n3. **Find the synonym:** 'Judicial summons' is the direct legal equivalent — both refer to a formal order to appear. The other options (dismiss, delay, delegate) do not match this definition.\n4. **Verify substitution:** Replacing 'subpoena' with 'judicial summons' in the sentence maintains the correct meaning: 'The Ombudsman has the constitutional authority to judicial summons administrative complaints...' (though grammatically, 'issue a judicial summons for' would be more natural, the synonym is correct).\n\n### ❌ Why the Distractors Fail\n- **'dismiss without review'** is incorrect because it is an antonym — dismissing ends a case, while subpoena advances it.\n- **'delay indefinitely'** is incorrect because it is unrelated — subpoena compels action, not postponement.\n- **'delegate to private entities'** is incorrect because subpoena is an official act, not a delegation of authority.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-200",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Inference & Tone Analysis Passage 1",
+    "difficulty_level": 3,
+    "question_text": "Read the passage: 'While statutory compliance is mandatory, true civil service excellence requires empathy towards the public. Bureaucratic efficiency without human compassion creates administrative alienation.'\n\nWhat can be INFERRED about the author's viewpoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public officers should balance procedural compliance with compassionate service."
+      },
+      {
+        "key": "B",
+        "text": "Statutory rules should be ignored completely."
+      },
+      {
+        "key": "C",
+        "text": "Bureaucratic efficiency is the only metric that matters."
+      },
+      {
+        "key": "D",
+        "text": "Civil service exams should be abolished."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Dual Themes",
+        "text": "The passage explicitly mentions two key elements: 'statutory compliance' (mandatory) and 'empathy towards the public' (required for excellence). The author does not dismiss either."
+      },
+      {
+        "rung": 2,
+        "title": "Analyze Critique",
+        "text": "The author warns against 'efficiency without human compassion' — this is a critique of a one-sided approach. The word 'alienation' signals a negative consequence of imbalance."
+      },
+      {
+        "rung": 3,
+        "title": "Deduce Recommendation",
+        "text": "Since the author says compliance is mandatory but also emphasizes empathy, the logical inference is that both are necessary. The author advocates a balanced approach."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('balance procedural compliance with compassionate service') directly synthesizes the two themes. Options B, C, and D are extreme or out of scope."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The passage states compliance is mandatory but warns that efficiency without compassion leads to alienation. Therefore, the author supports balancing both compliance and empathy.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The passage explicitly says 'statutory compliance is mandatory' — ignoring rules completely contradicts the text. This is an extreme distortion of the author's view.",
+        "trap_type": "extreme_view_fallacy"
+      },
+      "C": {
+        "text": "Incorrect. The passage directly warns against 'bureaucratic efficiency without human compassion,' so claiming efficiency is the only metric contradicts the author's critique.",
+        "trap_type": "passage_contradiction"
+      },
+      "D": {
+        "text": "Incorrect. The passage does not mention civil service exams at all. This is an out-of-scope distractor that introduces an unrelated topic. The student may have made a speculative leap.",
+        "trap_type": "out_of_scope_distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Inference Questions: Look for options that synthesize both sides of the author's argument. Avoid extreme or out-of-scope choices.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nReading comprehension requires strict adherence to textual evidence. Inferences must be logically derived from the passage, not based on outside knowledge or speculation.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the author's claims:** The passage has two main points: (a) statutory compliance is mandatory, and (b) true excellence requires empathy. The author also warns that efficiency without compassion causes alienation.\n2. **Determine the author's stance:** The author does not reject compliance; instead, they add a second requirement (empathy). This implies a balanced view.\n3. **Evaluate each option:**\n   - Option A: 'balance procedural compliance with compassionate service' — this directly reflects the two themes and the warning against imbalance. **Correct.**\n   - Option B: 'ignore rules completely' — contradicts 'compliance is mandatory.'\n   - Option C: 'efficiency is the only metric' — contradicts the warning against efficiency without compassion.\n   - Option D: 'abolish exams' — not mentioned or implied; out of scope.\n4. **Select the best inference:** Option A is the only one that logically follows from the passage.\n\n### ❌ Why the Distractors Fail\n- **'Statutory rules should be ignored completely.'** is incorrect because it directly contradicts the passage's statement that compliance is mandatory.\n- **'Bureaucratic efficiency is the only metric that matters.'** is incorrect because the passage explicitly warns against efficiency without compassion.\n- **'Civil service exams should be abolished.'** is incorrect because the passage does not discuss exams; it is a speculative leap.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-200",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Symbolic Representation Analogy 1",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Scales : Justice :: Olive Branch : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Peace"
+      },
+      {
+        "key": "B",
+        "text": "War"
+      },
+      {
+        "key": "C",
+        "text": "Commerce"
+      },
+      {
+        "key": "D",
+        "text": "Navigation"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Symbol Relationship",
+        "text": "Scales are universally recognized as a symbol of Justice — they represent balance and fairness in legal contexts. What does an olive branch symbolize?"
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "An olive branch is a classic symbol of peace, often used in contexts of truce or reconciliation. Think of the phrase 'extend an olive branch.'"
+      },
+      {
+        "rung": 3,
+        "title": "Match Symbolic Meaning",
+        "text": "Just as scales represent justice, the olive branch represents peace. The relationship is 'symbol : abstract concept.'"
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('Peace') is the only choice that matches the symbolic meaning of an olive branch. War is the opposite, and commerce/navigation are unrelated."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Scales symbolize Justice, and Olive Branch symbolizes Peace. Both are traditional symbols representing abstract concepts.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'War' is the opposite of what an olive branch represents. A student might confuse the olive branch with a symbol of conflict (e.g., a sword), but the olive branch is universally a symbol of peace.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Commerce' is unrelated to the olive branch. This error may occur if the student thinks of olive oil as a trade good, but the analogy is about symbolic meaning, not literal use.",
+        "trap_type": "domain_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. 'Navigation' is unrelated. A student might associate an olive branch with a ship's mast (literal branch) or with the story of Noah's dove bringing an olive branch, but that story symbolizes peace, not navigation.",
+        "trap_type": "literal_meaning_trap"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Symbolic Analogies: Map Symbol → Concept represented. Common symbols: Scales=Justice, Olive Branch=Peace, Dove=Peace/Purity, Anchor=Hope.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nAnalogies test the ability to identify relationships between pairs of words. Here, the relationship is 'symbol represents concept.'\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the relationship in the first pair:** Scales are a symbol of Justice. So the relationship is SYMBOL : CONCEPT.\n2. **Apply the same relationship to the second pair:** Olive Branch is a symbol. What concept does it represent? Culturally and historically, an olive branch symbolizes peace.\n3. **Verify the match:** Option A ('Peace') fits the relationship. Options B, C, and D do not represent the symbolic meaning of an olive branch.\n4. **Confirm:** The analogy is Scales : Justice :: Olive Branch : Peace.\n\n### ❌ Why the Distractors Fail\n- **'War'** is incorrect because it is the antonym of peace; the olive branch symbolizes peace, not war.\n- **'Commerce'** is incorrect because it is unrelated to the symbolic meaning of an olive branch.\n- **'Navigation'** is incorrect because it is a literal misinterpretation; the olive branch is not a symbol of navigation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-201",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Symbolic Representation Analogy 2",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Gavel : Authority :: Scepter : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Royalty"
+      },
+      {
+        "key": "B",
+        "text": "War"
+      },
+      {
+        "key": "C",
+        "text": "Commerce"
+      },
+      {
+        "key": "D",
+        "text": "Navigation"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Symbol Relationship",
+        "text": "A gavel is used by judges to signify authority in a courtroom. What does a scepter represent? Think of monarchs and coronations."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "A scepter is a ceremonial staff held by a monarch, symbolizing royal power and sovereignty. It is directly associated with royalty."
+      },
+      {
+        "rung": 3,
+        "title": "Match Symbolic Meaning",
+        "text": "Just as a gavel symbolizes authority, a scepter symbolizes royalty. The relationship is 'object : concept it represents.'"
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('Royalty') is the correct match. War, commerce, and navigation are not symbolized by a scepter."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Gavel symbolizes Authority (judicial power), and Scepter symbolizes Royalty (monarchical power). Both are ceremonial objects representing forms of power.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'War' is not symbolized by a scepter. A scepter is a symbol of peace and rule, not conflict. A student might confuse it with a weapon, but a scepter is not a weapon.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Commerce' is unrelated. A scepter has no connection to trade or business. This distractor tests whether the student knows the correct domain (royalty vs. commerce).",
+        "trap_type": "domain_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. 'Navigation' is unrelated. A student might think of a scepter as a staff used for guidance, but its symbolic meaning is specifically royal authority, not navigation.",
+        "trap_type": "literal_meaning_trap"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Symbolic Analogies: Map Symbol → Concept represented. Gavel=Authority, Scepter=Royalty, Crown=Monarchy, Bald Eagle=Freedom.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nAnalogies test the ability to identify relationships between pairs of words. Here, the relationship is 'symbol represents concept.'\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the relationship in the first pair:** A gavel is a symbol of authority, especially in judicial settings. So the relationship is OBJECT : CONCEPT.\n2. **Apply the same relationship to the second pair:** A scepter is an object. What concept does it represent? Historically, a scepter is a symbol of royal power and sovereignty, i.e., royalty.\n3. **Verify the match:** Option A ('Royalty') fits the relationship. Options B, C, and D do not represent the symbolic meaning of a scepter.\n4. **Confirm:** The analogy is Gavel : Authority :: Scepter : Royalty.\n\n### ❌ Why the Distractors Fail\n- **'War'** is incorrect because a scepter symbolizes rule, not conflict.\n- **'Commerce'** is incorrect because it is unrelated to the symbolic meaning of a scepter.\n- **'Navigation'** is incorrect because it is a literal misinterpretation; a scepter is not a symbol of navigation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-202",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Symbolic Representation Analogy 3",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Anchor : Hope :: Dove : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Purity"
+      },
+      {
+        "key": "B",
+        "text": "War"
+      },
+      {
+        "key": "C",
+        "text": "Commerce"
+      },
+      {
+        "key": "D",
+        "text": "Navigation"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Symbol Relationship",
+        "text": "An anchor is a symbol of hope, often used in phrases like 'anchor of hope.' What does a dove symbolize? Think of common cultural and religious references."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "A dove is a symbol of peace and purity. In many contexts, especially religious (e.g., Noah's ark), the dove represents purity and new beginnings."
+      },
+      {
+        "rung": 3,
+        "title": "Match Symbolic Meaning",
+        "text": "Just as an anchor symbolizes hope, a dove symbolizes purity. The relationship is 'symbol : abstract concept.'"
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A ('Purity') is the correct match. War is the opposite, and commerce/navigation are unrelated to the dove's symbolism."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Anchor symbolizes Hope, and Dove symbolizes Purity. Both are traditional symbols representing positive abstract concepts.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'War' is the opposite of what a dove represents. A dove is a symbol of peace, not war. This is a common antonym confusion.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Commerce' is unrelated. A student might think of a dove as a carrier pigeon used for messages, but the symbolic meaning is purity/peace, not commerce.",
+        "trap_type": "domain_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. 'Navigation' is unrelated. A student might associate a dove with navigation (e.g., Noah's dove finding land), but the dove's primary symbolic meaning is purity/peace, not navigation.",
+        "trap_type": "literal_meaning_trap"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Symbolic Analogies: Map Symbol → Concept represented. Anchor=Hope, Dove=Purity/Peace, Olive Branch=Peace, Lion=Courage.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nAnalogies test the ability to identify relationships between pairs of words. Here, the relationship is 'symbol represents concept.'\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the relationship in the first pair:** An anchor is a symbol of hope. So the relationship is OBJECT : CONCEPT.\n2. **Apply the same relationship to the second pair:** A dove is an object. What concept does it represent? Culturally and religiously, a dove symbolizes purity and peace. Among the options, 'Purity' is the best match.\n3. **Verify the match:** Option A ('Purity') fits the relationship. Options B, C, and D do not represent the symbolic meaning of a dove.\n4. **Confirm:** The analogy is Anchor : Hope :: Dove : Purity.\n\n### ❌ Why the Distractors Fail\n- **'War'** is incorrect because a dove symbolizes peace, not war.\n- **'Commerce'** is incorrect because it is unrelated to the symbolic meaning of a dove.\n- **'Navigation'** is incorrect because it is a literal misinterpretation; a dove is not a symbol of navigation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

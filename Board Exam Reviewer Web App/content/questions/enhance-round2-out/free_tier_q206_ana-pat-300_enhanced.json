@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-300",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Matrix Shape Transformation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Matrix Pattern Rule: Across each row, the number of sides on the polygon increases by +1 (Triangle → Square → Pentagon). In Row 2: Square → Pentagon → __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hexagon (6 sides)"
+      },
+      {
+        "key": "B",
+        "text": "Square (4 sides)"
+      },
+      {
+        "key": "C",
+        "text": "Octagon (8 sides)"
+      },
+      {
+        "key": "D",
+        "text": "Triangle (3 sides)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the First Two Shapes in Row 2",
+        "text": "Row 2 starts with a Square (4 sides) and then a Pentagon (5 sides). Ask yourself: what changed between them? The number of sides went up by exactly one."
+      },
+      {
+        "rung": 2,
+        "title": "The Rule Is Simple: Add One Side Each Step",
+        "text": "The pattern says the number of sides increases by +1 as you move across a row. So from the Pentagon (5 sides), the next shape must have 5 + 1 = 6 sides."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Shape with 6 Sides",
+        "text": "A polygon with 6 sides is called a Hexagon. Look through the options and find which one has exactly 6 sides. That's your target."
+      },
+      {
+        "rung": 4,
+        "title": "Match the Number to the Option",
+        "text": "Option A is Hexagon (6 sides). That's the only shape that fits the +1 pattern. The others either repeat, skip too many, or go backward."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The pattern is a steady climb: Square (4 sides) to Pentagon (5 sides) to Hexagon (6 sides). Each step adds exactly one side, and Hexagon is the only option with 6 sides.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Not quite. A Square has 4 sides, which is the same as the first shape in Row 2. The pattern requires an increase of +1 each step, not staying the same. It's easy to think the pattern might repeat, but here it's clearly a growing sequence.",
+        "trap_type": "repetition_error"
+      },
+      "C": {
+        "text": "Close but too far. An Octagon has 8 sides, which is a jump of +3 from the Pentagon (5 to 8). The pattern only allows a +1 increase. You might have accidentally doubled the step or thought of a different rule, but the given rule is very specific: add one side at a time.",
+        "trap_type": "step_increment_error"
+      },
+      "D": {
+        "text": "Almost the opposite. A Triangle has 3 sides, which is a decrease from both the Square and Pentagon. The pattern clearly says the number of sides increases, not decreases. It's a common slip to reverse the direction, especially under time pressure.",
+        "trap_type": "direction_reversal_error"
+      }
+    },
+    "next_time_rule": "When you see a pattern that changes a property like side count, track it step by step. Ask yourself: is it going up or down? By how much each time? Then just keep adding or subtracting that same amount.",
+    "deconstruct_text": "Let's walk through this together. The problem gives you a clear rule: across each row, the number of sides on the polygon increases by +1. In Row 1, they show you Triangle (3 sides) to Square (4 sides) to Pentagon (5 sides) as an example. Now look at Row 2. It starts with a Square (4 sides), then a Pentagon (5 sides). Following the same +1 rule, the next shape must have 5 + 1 = 6 sides. A polygon with 6 sides is called a Hexagon. Among the options, only Option A is a Hexagon. The other options don't follow the pattern: Option B repeats the Square (no increase), Option C jumps too far ahead (Octagon has 8 sides, a +3 leap), and Option D goes backward (Triangle has 3 sides, a decrease). The key trick here is to focus on the change between consecutive shapes, not the absolute numbers. Once you see the step is +1, just keep adding one.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

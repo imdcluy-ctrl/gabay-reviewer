@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-414",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "In a government agency, 40 employees attended the GAD seminar, 30 attended the procurement training, and 10 attended both. How many employees attended at least one of the two events?",
+    "options": [
+      {
+        "key": "A",
+        "text": "70"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "80"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what 'at least one' means. It includes everyone who went to the GAD seminar, the procurement training, or both. The tricky part is that some people are counted in both groups."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's a simple rule for two overlapping groups: add the totals of each group, then subtract the number who belong to both. This removes the double-counting."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's apply that rule: GAD has 40, procurement has 30, and 10 are in both. So the total is 40 plus 30 minus 10. Work that out and you'll have your answer."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "You're almost there. Just remember: when you add 40 and 30, you've counted the 10 people who attended both events twice. Subtracting 10 once fixes that, giving you the correct total."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mistake. You added 40 and 30 to get 70, but forgot that the 10 people who attended both events were counted twice. Always subtract the overlap once to avoid double-counting.",
+        "trap_type": "double_counting"
+      },
+      "B": {
+        "text": "Correct. You added the two groups (40 + 30 = 70) and subtracted the 10 who were counted twice, giving you 60 employees who attended at least one event.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This happens when you subtract the overlap twice instead of once. You might have thought '40 plus 30 is 70, minus 10 for GAD and minus another 10 for procurement,' but that removes the overlap entirely. Only subtract it once.",
+        "trap_type": "over_subtraction"
+      },
+      "D": {
+        "text": "This adds the overlap instead of subtracting it. Adding 40, 30, and 10 gives 80, but that counts the 10 people three times. The correct move is to subtract the overlap once, not add it.",
+        "trap_type": "addition_instead_of_subtraction"
+      }
+    },
+    "deconstruct_text": "Let's walk through this step by step. We have two groups: 40 people went to the GAD seminar, and 30 went to procurement training. But 10 people are in both groups. If we just add 40 and 30, we get 70, but those 10 people have been counted twice—once in each group. To find out how many unique people attended at least one event, we subtract the overlap once: 40 + 30 - 10 = 60. That's our answer. Here's a mental trick to remember: think of it like counting friends at a party. If you have 40 friends who like pizza and 30 who like burgers, but 10 like both, you don't count them twice when you ask who likes at least one of the two. You subtract the 10 who like both to get the true total.",
+    "next_time_rule": "For two overlapping groups, remember the formula: Total = Group A + Group B - Both. Always subtract the overlap once to avoid double-counting.",
+    "blueprint_id": "B-1777",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

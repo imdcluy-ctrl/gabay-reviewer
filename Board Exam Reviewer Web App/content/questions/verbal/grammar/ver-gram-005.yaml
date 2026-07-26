@@ -1,0 +1,56 @@
+id: ver-gram-005
+subtopic: reading-comprehension
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["reading-comprehension", "public-policy"]
+estimated_seconds: 90
+question_text: "Read the passage: 'Public accountability requires civil servants to perform duties with utmost integrity, efficiency, and dedication. Transparency in transactions ensures citizens maintain trust in government institutions.' What is the main idea of this statement?"
+options:
+  - key: A
+    text: "Civil servants should receive higher salaries to maintain integrity."
+  - key: B
+    text: "Public trust relies on accountable and transparent government service."
+  - key: C
+    text: "Government transactions must be kept confidential to avoid public scrutiny."
+  - key: D
+    text: "Efficiency is more important than integrity in public administration."
+correct: B
+blueprint_id: "Reading Comprehension — Identifying Main Idea"
+hint_ladder:
+  - rung: 1
+    title: "Focus on Core Concept"
+    text: "Look at the two key words in the passage: accountability and transparency."
+  - rung: 2
+    title: "Connect Core Concepts to Outcome"
+    text: "Accountability + transparency lead to public trust."
+  - rung: 3
+    title: "Eliminate Unstated Claims"
+    text: "The passage does not mention salaries or confidentiality."
+  - rung: 4
+    title: "Choose Summarizing Option"
+    text: "Option B directly captures the relationship between trust, accountability, and transparency."
+deconstruct_text: |
+  The passage links public accountability and transaction transparency directly to citizen trust.
+  Option B synthesizes both sentences accurately.
+  Option A introduces unmentioned topics (salaries).
+  Option C contradicts the passage (passage advocates transparency).
+  Option D creates a false hierarchy between efficiency and integrity.
+choice_explanations:
+  A:
+    text: "Out of scope. Salaries are not mentioned in the passage."
+    trap_type: unstated_premise_error
+  B:
+    text: "Correct! Accurately summarizes that accountability and transparency build public trust."
+    trap_type: null
+  C:
+    text: "Directly contradicts the passage's emphasis on transparency."
+    trap_type: contradiction_error
+  D:
+    text: "False dichotomy. The passage emphasizes both integrity and efficiency equally."
+    trap_type: false_dichotomy_error
+next_time_rule: "The main idea must synthesize all key sentences without adding unmentioned assumptions."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Reading Comprehension — Public Service Ethics"

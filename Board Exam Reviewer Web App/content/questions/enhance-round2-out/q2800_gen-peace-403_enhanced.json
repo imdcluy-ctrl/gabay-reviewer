@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-403",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "A 14-year-old boy was caught stealing a mobile phone from a store. Under RA 9344 (Juvenile Justice and Welfare Act), what is the minimum age of criminal responsibility, and what should happen to him?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Minimum age is 9 years old; the boy should be subjected to diversion and intervention programs."
+      },
+      {
+        "key": "B",
+        "text": "Minimum age is 15 years old; the boy should be prosecuted in regular courts."
+      },
+      {
+        "key": "C",
+        "text": "Minimum age is 18 years old; the boy cannot be held liable for any crime."
+      },
+      {
+        "key": "D",
+        "text": "Minimum age is 12 years old; the boy should be placed in a juvenile detention facility."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3385",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

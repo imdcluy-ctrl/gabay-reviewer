@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-506",
+    "category_id": "general-information",
+    "subtopic_id": "current-events-environment",
+    "question_text": "Under Republic Act No. 9003, also known as the Ecological Solid Waste Management Act of 2000, local government units (LGUs) are required to establish Materials Recovery Facilities (MRFs). What is the primary purpose of an MRF?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To serve as a transfer station where waste is sorted, recycled, and composted before final disposal."
+      },
+      {
+        "key": "B",
+        "text": "To serve as a final disposal site for all types of waste."
+      },
+      {
+        "key": "C",
+        "text": "To incinerate waste and convert it into energy."
+      },
+      {
+        "key": "D",
+        "text": "To store hazardous waste temporarily before export."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3375",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

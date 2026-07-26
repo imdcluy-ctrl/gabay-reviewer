@@ -1,0 +1,97 @@
+.error-self-diag-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid #F97316;
+  border-radius: var(--radius-xl);
+  padding: 1.25rem;
+  margin-top: 1rem;
+  box-shadow: var(--shadow-sm);
+  animation: fadeIn 200ms ease-out;
+}
+
+.diag-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.diag-icon {
+  font-size: 1.4rem;
+}
+
+.diag-header h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.diag-subtitle {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+}
+
+.diag-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+
+.diag-opt-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  text-align: left;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.diag-opt-btn:hover {
+  border-color: #F97316;
+  background-color: rgba(249, 115, 22, 0.05);
+}
+
+.diag-opt-btn.selected {
+  border-color: #F97316;
+  background-color: rgba(249, 115, 22, 0.12);
+}
+
+.opt-emoji {
+  font-size: 1.2rem;
+}
+
+.opt-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.opt-info strong {
+  font-size: 0.85rem;
+  color: var(--color-text-primary);
+}
+
+.opt-info span {
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  line-height: 1.3;
+}
+
+.diag-skip-link {
+  background: none;
+  border: none;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.diag-skip-link:hover {
+  color: var(--color-text-primary);
+}

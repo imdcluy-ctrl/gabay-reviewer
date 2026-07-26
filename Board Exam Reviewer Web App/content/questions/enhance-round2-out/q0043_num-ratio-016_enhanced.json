@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-016",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A cleaning solution is made by mixing bleach and water in a ratio of 1:9. If you need 5 liters of bleach, how many liters of water should you add?",
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "50"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a ratio problem. The ratio 1:9 tells you the relationship between bleach and water. Think of it like a recipe: 1 cup bleach needs 9 cups wa..."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In a part-to-part ratio like this, the second number tells how many parts of water per part bleach. So water is always 9 times the bleach."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "You have 5 liters bleach. Water is 9 times that: 5 x 9. That gives exact water liters."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "5 x 9 = 45. So 45 liters water, option C. Careful: only add bleach if total solution is asked."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used 7 as multiplier. The ratio 1:9 means multiply by 9, not 7.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you mistakenly multiplied by 8. Ang tamang multiplier ay 9, nasa ratio mismo.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct. Multiply 5 liters bleach by 9 to get 45 liters water.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you added bleach to water total. Pero water lang ang hinihingi, huwag i-add.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Ratio 1:9? Multiply given by 9—'wag i-total unless total ang tanong.",
+    "blueprint_id": "Mixture Ratios — Bleach and Water Solution",
+    "deconstruct_text": "Isipin mo tulong ka kay Kapitan sa barangay, naghahalo ng disinfectant. Ang ratio ng bleach sa tubig ay 1:9. May 5 litrong bleach ka, kaya't kailangan mo ng 9 na bahagi ng tubig. I-multiply lang: 5 x 9 = 45 litrong tubig.\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Water lang, huwag i-add ang b...\n\nMental trick: Tandaan mo, 'Multiply by second number, 'wag i-total.' Kaya C (45) ang sagot, hindi A, B, o D. Madalas magkamali sa pag-add, pero part lang talaga ang kailangan.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

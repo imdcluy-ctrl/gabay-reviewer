@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-103",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article XI — Accountability of Public Officers",
+    "difficulty_level": 2,
+    "question_text": "Under Article XI of the 1987 Philippine Constitution, which principle guarantees that 'Public office is a public trust'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Trust"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your knowledge of a specific constitutional article. Article XI has a very clear theme—it's all about keeping public officials accountable. Think about what that theme is called."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Article XI, Section 1 literally begins with the phrase 'Public office is a public trust.' The name of this principle is exactly what it sounds like: the 'Public Trust' doctrine. It's the foundation for holding officials responsible."
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Here",
+        "text": "The question is asking for the name of the principle, not an example of it. 'Executive Order,' 'Judicial Discretion,' and 'Legislative Franchise' are all things that exist in government, but none of them are the name of the principle that says public office is a public trust. That principle is simply called 'Public Trust.'"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're looking for the principle that is the very first sentence of Article XI. It's two words: the first is 'Public,' and the second is a synonym for 'confidence' or 'responsibility.' Which option matches that?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article XI, Section 1 of the 1987 Constitution opens with: 'Public office is a public trust.' This is the core principle that reminds every government worker that they are servants of the people, not masters. It's the bedrock of accountability in our government.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. It's easy to mix up different government terms, but an Executive Order is a specific directive issued by the President, not a constitutional principle. Think of it this way: an Executive Order is a tool the President uses, while the Public Trust doctrine is the moral and legal foundation that applies to all public officials.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "Incorrect. This is a common mix-up between different branches of government. Judicial Discretion is the power of judges to make decisions in court cases. It's about how the judiciary works, not about the accountability of all public officers. The Public Trust doctrine applies to everyone in government, not just judges.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "Incorrect. A Legislative Franchise is a special privilege or right granted by Congress, like a TV station's license to operate. It's a specific thing Congress can give, not a broad principle about public accountability. The Public Trust doctrine is about responsibility, not privileges.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'Article XI' and 'Accountability of Public Officers' in a question, your mind should immediately go to the 'Public Trust' doctrine. It's the very first line of the article. Remember: Article XI = Accountability = Public Trust. That's your instant connection.",
+    "deconstruct_text": "Let's walk through this together. The question is asking for the name of the principle that says 'Public office is a public trust' under Article XI. The key is to know what Article XI is all about. Its title is 'Accountability of Public Officers,' and its very first section starts with that exact phrase: 'Public office is a public trust.' So the principle is simply called the 'Public Trust' doctrine. Now, let's look at the other options. 'Executive Order' is a presidential directive, not a principle. 'Judicial Discretion' is about judges' decision-making power. 'Legislative Franchise' is a privilege granted by Congress. None of these are the name of the accountability principle. The mental trick here is to link Article XI directly to its opening line. Whenever you see 'Article XI' and 'accountability,' immediately think 'Public Trust.' It's the foundation of the whole article.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

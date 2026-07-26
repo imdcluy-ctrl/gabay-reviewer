@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-015",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'BENEVOLENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kind"
+      },
+      {
+        "key": "B",
+        "text": "Generous"
+      },
+      {
+        "key": "C",
+        "text": "Malevolent"
+      },
+      {
+        "key": "D",
+        "text": "Charitable"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Basahin ang tanong nang mabuti",
+        "text": "Hindi 'synonym' ang hinihingi kundi 'antonym'. Kalimutan ang mga salitang pareho ang kahulugan—ang hinahanap ay kabaligtaran."
+      },
+      {
+        "rung": 2,
+        "title": "Latin roots: bene vs male",
+        "text": "Tandaan: 'bene' mabuti (parang 'benign'), 'male' masama (parang 'malicious'). Ang benevolent good-wishing, kaya opposite ay bad-wishing = malevolent."
+      },
+      {
+        "rung": 3,
+        "title": "Tingnan ang mga choices",
+        "text": "A, B, D ay pawang positive traits—kind, generous, charitable. Synonyms sila ng benevolent. Ang C lang ang may negative prefix na 'male'."
+      },
+      {
+        "rung": 4,
+        "title": "Halos ibigay na ang sagot",
+        "text": "Kung antonym, diretso ka sa 'malevolent'. 'Yung iba, pareho lang ng meaning. Kaya sagot: C. Malevolent."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'Kind' is similar to benevolent, but the question asks for an antonym—ito ay synonym, hindi opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'Generous' aligns with benevolence, making it a synonym, not an antonym—mali ang hinanap.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Malevolent' means wishing evil, the exact opposite of benevolent—'male' is bad, 'bene' is good.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'Charitable' describes a benevolent act, so it's a synonym—kaya hindi ito ang tamang sagot.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Pag antonym, hanapin ang salitang kabaligtaran. Gamiting mental trick: 'bene' mabuti (parang Benigno), 'male' masama (parang malas). This saves time.",
+    "blueprint_id": "Antonyms — Benevolent",
+    "deconstruct_text": "Isipin mo si Kapitan Dela Cruz, ang barangay chairman na laging nagbibigay ng tulong at proyekto para sa mga mahihirap. Siya ay benevolent—mabuting-loob at mapagkawanggawa. Pero may kalaban siyang politiko na panay sira at intriga, 'yon ang malevolent. Sa board exam,...\n\nAng sikreto: Latin roots. 'Bene' gaya ng 'benefactor' o 'benign', ibig sabihin mabuti o maganda. 'Male' gaya ng 'malicious' o 'malas', ibig sabihin masama o mapaminsala. Kaya ang benevolent ay good-wishing, ang malevolent ay bad-wishing—perfect opposites.\n\nMental trick: Kapag nakita mo ang 'bene', isipin mo si Ben (Benigno) na mabait, at kapag 'male', isipin mo 'malas' na puro problema. Kaya sa exam, 'pag antonym, diretso ka sa mal- option. 'Yung A, B, D, puro synonym—wag magpadala!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

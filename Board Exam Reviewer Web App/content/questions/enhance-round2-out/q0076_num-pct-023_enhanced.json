@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-023",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "What is 0.6% of P85,000?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P510"
+      },
+      {
+        "key": "B",
+        "text": "P600"
+      },
+      {
+        "key": "C",
+        "text": "P5,100"
+      },
+      {
+        "key": "D",
+        "text": "P6,000"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert 0.6% to decimal",
+        "text": "Percent means per hundred, so 0.6% = 0.6/100 = 0.006. Isipin mong 'bawas dalawa' – move decimal two left. Dali lang!"
+      },
+      {
+        "rung": 2,
+        "title": "Set up multiplication",
+        "text": "Multiply the decimal by the whole amount: 0.006 × P85,000. Parang 6/1000 × 85,000. Simple lang."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify the calculation",
+        "text": "Cancel zeros: 85,000 / 1000 = 85, then 85 × 6 = 510. So P510 ang sagot. Walang kahirap-hirap."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the answer",
+        "text": "Less than 1% of P85,000 ay P850. Since 0.6% is mas maliit, P510 is correct. Perfecto ang labas!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 0.6% of P85,000 is P510, computed as 0.006 × 85,000 = 510.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you shifted the decimal one place instead of two, treating 0.6% as 0.6, leading to wrong multiplication.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "You might have chosen C because you misinterpreted 0.6% as 6%, so you computed 0.06 × 85,000 = 5,100.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "D": {
+        "text": "You might have chosen D because you misapplied both the decimal conversion and the base amount, getting 6,000.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Mental Trick: Convert decimal percent by dividing by 100 (0.6% = 0.006). 'Bawas dalawa' – move decimal two left, then multiply.",
+    "blueprint_id": "Small Percentage Computation",
+    "deconstruct_text": "Isipin mo ikaw ang treasurer ng inyong barangay. May budget na P85,000 para sa livelihood program, at kailangan mong i-allocate ang 0.6% para sa training materials. Ganito ang tamang pag-compute.\n\nConversion: 0.6% means 0.6 per 100, or 0.6/100 = 0.006. Parang sinabi mong sa bawat piso, 0.006 ang para sa materials. Multiply: 0.006 × P85,000 = P510.\n\nKaya sa budget na P85,000, P510 lang ang mapupunta sa materials. Tama ang computation. Less than 1% of P85,000 is P850, so P510 talaga dahil 0.6% is smaller.\n\n**Watch-Out Zone: unit_conversion_trap** Maling shift gives P600 or P5,100. Usog dalawa!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

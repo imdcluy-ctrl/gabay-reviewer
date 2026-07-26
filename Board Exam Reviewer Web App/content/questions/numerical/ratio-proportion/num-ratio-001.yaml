@@ -1,0 +1,54 @@
+id: num-ratio-001
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["ratio", "proportion", "division"]
+estimated_seconds: 90
+question_text: "A government office distributed ₱45,000 among three employees in the ratio 2:3:4. How much did the employee with the largest share receive?"
+options:
+  - key: A
+    text: "₱15,000"
+  - key: B
+    text: "₱18,000"
+  - key: C
+    text: "₱20,000"
+  - key: D
+    text: "₱22,500"
+correct: C
+blueprint_id: "Ratio and Proportion — dividing a total amount into parts based on a given ratio"
+hint_ladder:
+  - rung: 1
+    title: "See the Pattern"
+    text: "This is a ratio problem — you need to divide a total into parts."
+  - rung: 2
+    title: "Strip the Noise"
+    text: "Add the ratio parts: 2+3+4 = 9 total parts."
+  - rung: 3
+    title: "Eliminate One"
+    text: "₱45,000 ÷ 9 = ₱5,000 per part. The largest share is 4 parts."
+  - rung: 4
+    title: "Almost There"
+    text: "4 × ₱5,000 = ₱20,000. Look for this value."
+deconstruct_text: |
+  Step 1: Add ratio parts → 2+3+4 = 9 total parts
+  Step 2: Find value of one part → ₱45,000 ÷ 9 = ₱5,000
+  Step 3: Largest share = 4 × ₱5,000 = ₱20,000
+choice_explanations:
+  A:
+    text: "This is the middle share (3 parts × ₱5,000 = ₱15,000), not the largest."
+    trap_type: wrong_part
+  B:
+    text: "Dividing by an incorrect number of parts. Always use the total ratio parts."
+    trap_type: wrong_divisor
+  C:
+    text: "Correct! 4 parts × ₱5,000 = ₱20,000."
+    trap_type: null
+  D:
+    text: "Dividing ₱45,000 by 2 (smallest ratio). Divide by TOTAL parts (9), not individual."
+    trap_type: wrong_divisor
+next_time_rule: "Whenever you see a ratio, add up ALL parts first before dividing."
+status: live
+reviewed_by: null
+source_notes: "Common CSE pattern — ratio word problems in government salary contexts"

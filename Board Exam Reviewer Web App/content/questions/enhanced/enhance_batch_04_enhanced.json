@@ -1,0 +1,722 @@
+[
+  {
+    "id": "gen-const-002",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), within how many working days must public officials respond to letters and requests sent by the public?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 working days"
+      },
+      {
+        "key": "B",
+        "text": "10 working days"
+      },
+      {
+        "key": "C",
+        "text": "15 working days"
+      },
+      {
+        "key": "D",
+        "text": "30 working days"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Law Section",
+        "text": "RA 6713 Section 5(a) specifically mandates the timeframe for responding to public communications."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Response Mandate",
+        "text": "Section 5(a) requires a written response containing action taken on the letter or request."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Timeframe",
+        "text": "The law states 'within fifteen (15) working days from receipt thereof' — not 5, 10, or 30."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option C",
+        "text": "Option C is '15 working days', which matches the exact period in RA 6713 Section 5(a)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "5 working days is the period under ARTA (RA 11032) for simple transactions, not the RA 6713 baseline for responding to letters.",
+        "trap_type": "arta_timeframe_confusion"
+      },
+      "B": {
+        "text": "10 working days is not mentioned in RA 6713. Some students confuse this with the 10-day period for other administrative actions like filing a motion for reconsideration.",
+        "trap_type": "timeframe_error"
+      },
+      "C": {
+        "text": "Correct! RA 6713 Section 5(a) explicitly states: 'All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.'",
+        "trap_type": null
+      },
+      "D": {
+        "text": "30 working days is the deadline for filing SALN (Statement of Assets, Liabilities and Net Worth), not for responding to public communications.",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 Section 5(a) mandates responding to public letters within 15 working days. Remember: '15 for letters' — SALN is 30 days, ARTA is 3/5/7 days.",
+    "blueprint_id": "RA 6713 Section 5(a) — Prompt Action on Letters and Requests",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Identify the relevant law.** The question explicitly cites RA 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees).\n\n**Step 2: Locate the specific provision.** Section 5 of RA 6713 is titled 'Duties of Public Officials and Employees.' Subsection (a) is 'Act promptly on letters and requests.'\n\n**Step 3: Read the exact text.** The provision states: 'All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public. The response shall contain the action taken on the request.'\n\n**Step 4: Conclude the answer.** The mandated period is 15 working days, which corresponds to Option C.\n\n### ❌ Why the Distractors Fail\n- **5 working days (A):** This comes from ARTA (RA 11032), which classifies transactions as simple (3 days), complex (7 days), or highly technical (20 days). It does not apply to RA 6713's response requirement.\n- **10 working days (B):** No provision in RA 6713 uses 10 days. This may be confused with the 10-day period for filing a motion for reconsideration in administrative proceedings.\n- **30 working days (D):** This is the deadline for submitting SALN under RA 6713 Section 8, not for responding to public communications.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-001",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article III (Bill of Rights) of the 1987 Philippine Constitution, no person shall be deprived of life, liberty, or property without __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "due process of law"
+      },
+      {
+        "key": "B",
+        "text": "presidential approval"
+      },
+      {
+        "key": "C",
+        "text": "written authorization"
+      },
+      {
+        "key": "D",
+        "text": "judicial warrant"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Constitutional Article",
+        "text": "This is Section 1 of the Bill of Rights (Article III) of the 1987 Constitution."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Fundamental Guarantee",
+        "text": "It guarantees protection against arbitrary government action that deprives a person of life, liberty, or property."
+      },
+      {
+        "rung": 3,
+        "title": "Complete the Clause",
+        "text": "The exact phrase is: 'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'"
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'due process of law', which is the exact constitutional requirement."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is the verbatim text of Article III Section 1, known as the Due Process Clause.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Presidential approval is not a constitutional requirement for depriving a person of life, liberty, or property. Due process is a judicial safeguard, not an executive privilege.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "'Written authorization' is a vague administrative term not found in Article III Section 1. It may apply to specific government permits but not to the fundamental guarantee of due process.",
+        "trap_type": "administrative_distractor"
+      },
+      "D": {
+        "text": "'Judicial warrant' is required under Article III Section 2 for search and seizure, not for deprivation of life, liberty, or property under Section 1.",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article III Section 1 guarantees due process of law before deprivation of life, liberty, or property. Remember: 'Section 1 = Due Process; Section 2 = Warrant.'",
+    "blueprint_id": "1987 Philippine Constitution — Article III Section 1 Due Process Clause",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Identify the relevant constitutional article.** The question specifies Article III (Bill of Rights) of the 1987 Philippine Constitution.\n\n**Step 2: Locate the specific section.** Section 1 of Article III contains the Due Process and Equal Protection Clauses.\n\n**Step 3: Read the exact text.** Section 1 states: 'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'\n\n**Step 4: Match with options.** The phrase 'due process of law' is the correct completion, corresponding to Option A.\n\n### ❌ Why the Distractors Fail\n- **Presidential approval (B):** The Constitution does not grant the President the power to authorize deprivation of life, liberty, or property. Due process is a judicial concept enforced by courts.\n- **Written authorization (C):** This is not a constitutional term. It may be confused with administrative requirements like written permits, but it has no basis in the Bill of Rights.\n- **Judicial warrant (D):** This is from Section 2, which requires a warrant for searches and seizures. Section 1 deals with due process, not warrants.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-005",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'An applicant is granted an interview ONLY IF they pass the written examination and possess a bachelor's degree.'\nFact: Jose passed the written examination but does not possess a bachelor's degree.\nConclusion: Is Jose eligible for an interview?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, because passing the written exam is sufficient."
+      },
+      {
+        "key": "B",
+        "text": "No, because both conditions must be satisfied."
+      },
+      {
+        "key": "C",
+        "text": "Yes, if he submits an extension request."
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined from the rule."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze 'ONLY IF' Condition",
+        "text": "'ONLY IF' introduces necessary conditions. In logic, 'P ONLY IF Q' means Q is necessary for P. Here, P = interview, Q = pass exam AND have degree."
+      },
+      {
+        "rung": 2,
+        "title": "Check Requirements",
+        "text": "Requirement 1: Pass written exam (Jose has this). Requirement 2: Bachelor's degree (Jose does NOT have this)."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Jose's Status",
+        "text": "Since Jose lacks a bachelor's degree, one of the necessary conditions is false. For 'ONLY IF', all conditions must be true for the interview to happen."
+      },
+      {
+        "rung": 4,
+        "title": "Deduce Eligibility",
+        "text": "Because a necessary condition is missing, Jose is NOT eligible. The correct answer is 'No, because both conditions must be satisfied.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This treats passing the exam as sufficient, but 'ONLY IF' means both conditions are necessary. Passing alone is not enough.",
+        "trap_type": "sufficiency_fallacy"
+      },
+      "B": {
+        "text": "Correct! 'ONLY IF' requires all listed conditions to be true. Since Jose lacks a bachelor's degree, he is ineligible.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The rule does not mention any extension request or exception. This is a speculative addition not supported by the given information.",
+        "trap_type": "speculative_error"
+      },
+      "D": {
+        "text": "The rule clearly states the conditions. Since we know Jose fails one condition, the answer is determinable: he is not eligible.",
+        "trap_type": "indecision_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In 'ONLY IF' statements, all conditions after 'ONLY IF' are necessary. If any condition is false, the outcome is false. Think: 'P ONLY IF Q' = 'If P, then Q.'",
+    "blueprint_id": "Logical Reasoning — Necessary vs Sufficient Conditions",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Translate the rule into logical form.**\n'An applicant is granted an interview ONLY IF they pass the written examination and possess a bachelor's degree.'\nLet I = 'interview granted', E = 'pass exam', D = 'have degree'.\nThe rule is: I ONLY IF (E AND D). In logic, this is equivalent to: If I, then (E AND D). Or: I → (E ∧ D).\n\n**Step 2: Determine what is necessary.**\n'ONLY IF' means that (E AND D) is a necessary condition for I. If either E or D is false, then I must be false.\n\n**Step 3: Apply the facts.**\nJose passed the exam (E is true) but does not have a degree (D is false). Since D is false, (E AND D) is false. Therefore, I must be false — Jose is not eligible.\n\n**Step 4: Select the correct option.**\nOption B correctly states 'No, because both conditions must be satisfied.'\n\n### ❌ Why the Distractors Fail\n- **Option A:** Assumes passing the exam is sufficient, but 'ONLY IF' makes both conditions necessary, not either one sufficient.\n- **Option C:** Introduces an 'extension request' not mentioned in the rule. This is an irrelevant speculation.\n- **Option D:** Claims the answer cannot be determined, but the rule and facts are clear. The logical deduction is straightforward.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-004",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "LAWYER is to COURT as CIVIL SERVANT is to __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELECTION"
+      },
+      {
+        "key": "B",
+        "text": "AGENCY"
+      },
+      {
+        "key": "C",
+        "text": "PLAINTIFF"
+      },
+      {
+        "key": "D",
+        "text": "LAWSUIT"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Relationship",
+        "text": "A lawyer performs their professional duties in a court. The relationship is 'professional : primary workplace'."
+      },
+      {
+        "rung": 2,
+        "title": "Apply Relationship to Second Term",
+        "text": "A civil servant is a professional who works in a government office. What is the general term for that workplace?"
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Election is an event, plaintiff is a person, lawsuit is a legal action. Only 'agency' is a workplace where civil servants work."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Option B",
+        "text": "Lawyer : Court :: Civil Servant : Agency. Both are profession-to-workplace analogies."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Election is a process or event, not a workplace. A civil servant may work during elections, but that is not their primary workplace.",
+        "trap_type": "process_vs_place_error"
+      },
+      "B": {
+        "text": "Correct! A government agency is the primary workplace of a civil servant, just as a court is the primary workplace of a lawyer.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Plaintiff is a party in a court case, not a workplace. This confuses the role of a person with a location.",
+        "trap_type": "role_confusion"
+      },
+      "D": {
+        "text": "Lawsuit is a legal action or proceeding, not a workplace. A civil servant does not work in a 'lawsuit'.",
+        "trap_type": "object_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For analogies, first identify the exact relationship (e.g., profession to workplace, tool to user). Then find the option that mirrors that relationship.",
+    "blueprint_id": "Analytical Ability — Verbal Analogies (Workplace Association)",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Identify the relationship in the first pair.**\nLAWYER is to COURT. A lawyer works in a court; court is the workplace of a lawyer. The relationship is 'professional : primary workplace.'\n\n**Step 2: Apply the same relationship to the second term.**\nCIVIL SERVANT is to ?. A civil servant works in a government agency. The general term for a government office is 'agency.'\n\n**Step 3: Evaluate each option.**\n- ELECTION: An event, not a workplace.\n- AGENCY: A government agency is the workplace of a civil servant. Matches.\n- PLAINTIFF: A person, not a place.\n- LAWSUIT: A legal action, not a place.\n\n**Step 4: Select the correct option.**\nOption B (AGENCY) is the only one that fits the workplace relationship.\n\n### ❌ Why the Distractors Fail\n- **Election (A):** While civil servants may be involved in elections, 'election' is an event, not a workplace. The analogy requires a location.\n- **Plaintiff (C):** This is a role in a court case, not a workplace. It confuses the person with the place.\n- **Lawsuit (D):** This is a legal proceeding, not a physical or organizational workplace.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-003",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its ₱10,000,000 budget as follows: Infrastructure 40%, Health Services 30%, Education 20%, Administration 10%. How much more budget was allocated to Infrastructure than to Education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "₱2,000,000"
+      },
+      {
+        "key": "C",
+        "text": "₱3,000,000"
+      },
+      {
+        "key": "D",
+        "text": "₱4,000,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Percentage Difference",
+        "text": "Infrastructure is 40%, Education is 20%. The difference in percentage points is 40% - 20% = 20%."
+      },
+      {
+        "rung": 2,
+        "title": "Apply Percentage to Total",
+        "text": "Calculate 20% of the total budget of ₱10,000,000."
+      },
+      {
+        "rung": 3,
+        "title": "Perform Multiplication",
+        "text": "20% of ₱10,000,000 = 0.20 × 10,000,000 = ₱2,000,000."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Value",
+        "text": "Option B is ₱2,000,000, which matches the computed difference."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱1,000,000 is the difference between Education (20%) and Administration (10%), not between Infrastructure and Education.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Infrastructure (40%) minus Education (20%) = 20% of ₱10M = ₱2,000,000.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "₱3,000,000 is the difference between Infrastructure (40%) and Administration (10%), which is 30% of ₱10M, not the required difference.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "₱4,000,000 is the total allocation for Infrastructure (40% of ₱10M), not the difference between Infrastructure and Education.",
+        "trap_type": "total_vs_difference_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find 'how much more' between two percentages, subtract the percentages first, then multiply by the total. This avoids computing each amount separately.",
+    "blueprint_id": "Data Interpretation — Percentage Allocation Difference",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Identify the percentages.**\nInfrastructure = 40% of ₱10,000,000\nEducation = 20% of ₱10,000,000\n\n**Step 2: Compute the difference in percentage points.**\n40% - 20% = 20%\n\n**Step 3: Apply the percentage difference to the total budget.**\n20% of ₱10,000,000 = 0.20 × 10,000,000 = ₱2,000,000\n\n**Alternative method (compute each amount then subtract):**\nInfrastructure amount = 0.40 × 10,000,000 = ₱4,000,000\nEducation amount = 0.20 × 10,000,000 = ₱2,000,000\nDifference = ₱4,000,000 - ₱2,000,000 = ₱2,000,000\n\n**Step 4: Select the correct option.**\nOption B (₱2,000,000) matches the computed difference.\n\n### ❌ Why the Distractors Fail\n- **₱1,000,000 (A):** This is 10% of ₱10M, which is the difference between Education (20%) and Administration (10%). The student may have subtracted the wrong pair.\n- **₱3,000,000 (C):** This is 30% of ₱10M, the difference between Infrastructure (40%) and Administration (10%). Again, wrong pair.\n- **₱4,000,000 (D):** This is the full Infrastructure allocation (40% of ₱10M). The student may have forgotten to subtract Education's share.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-002",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next number in the series: 3, 7, 15, 31, 63, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "95"
+      },
+      {
+        "key": "B",
+        "text": "127"
+      },
+      {
+        "key": "C",
+        "text": "128"
+      },
+      {
+        "key": "D",
+        "text": "135"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at Differences",
+        "text": "Compute the differences between consecutive terms: 7-3=4, 15-7=8, 31-15=16, 63-31=32. Notice each difference is double the previous one."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Pattern in Differences",
+        "text": "The differences are 4, 8, 16, 32 — each term is multiplied by 2. So the next difference should be 32 × 2 = 64."
+      },
+      {
+        "rung": 3,
+        "title": "Find Next Difference",
+        "text": "Add the next difference to the last term: 63 + 64 = 127. Alternatively, use the formula (previous term × 2) + 1: (63 × 2) + 1 = 127."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Next Number",
+        "text": "Both methods give 127. Check the options: 127 is option B. The other options are common mistakes: 95 (adding 32 twice), 128 (confusing with 2^7), 135 (random guess)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "95 comes from adding 32 twice (63+32=95) instead of doubling the difference to 64. The student likely thought the difference pattern was constant at +32 rather than doubling.",
+        "trap_type": "difference_not_doubled"
+      },
+      "B": {
+        "text": "Correct! The pattern doubles differences (+64) or applies (2n + 1) -> (63 × 2) + 1 = 127.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "128 is 2^7, a common confusion where the student thinks the series follows powers of 2 (2^2-1=3, 2^3-1=7, etc.) but forgets to subtract 1, or simply picks the next power of 2.",
+        "trap_type": "off_by_one_power_of_two"
+      },
+      "D": {
+        "text": "135 has no clear relation to the pattern. It might come from adding 72 (63+72=135) or a random guess. No consistent rule produces this number.",
+        "trap_type": "speculative_guess"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For number series, check both difference growth (doubling, tripling) and multiplicative rules (×2+1, ×3-1). Always verify with two methods if possible.",
+    "blueprint_id": "Analytical Ability — Number Series Pattern Recognition",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Method 1: Differences**\n- Differences: 7-3=4, 15-7=8, 31-15=16, 63-31=32.\n- Pattern: Each difference doubles: 4, 8, 16, 32 → next difference = 32 × 2 = 64.\n- Next number: 63 + 64 = 127.\n\n**Method 2: Multiplicative Rule**\n- Each term is (previous × 2) + 1: (3×2)+1=7, (7×2)+1=15, (15×2)+1=31, (31×2)+1=63, (63×2)+1=127.\n\n**Why other options are wrong:**\n- 95: Adding 32 twice (63+32=95) — student didn't double the difference.\n- 128: Confusing with 2^7 = 128 — student forgot to subtract 1 or misapplied power rule.\n- 135: No logical pattern — likely a random guess.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-001",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Maria is a department head.\nWhich conclusion logically follows?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is not career service eligible."
+      },
+      {
+        "key": "B",
+        "text": "Maria is career service eligible."
+      },
+      {
+        "key": "C",
+        "text": "All career service eligibles are department heads."
+      },
+      {
+        "key": "D",
+        "text": "Maria will be promoted next year."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Set Inclusion",
+        "text": "Premise 1 says all department heads are inside the set of career service eligibles. Draw a Venn diagram: a small circle (department heads) inside a larger circle (career service eligibles)."
+      },
+      {
+        "rung": 2,
+        "title": "Place Individual in Set",
+        "text": "Premise 2 says Maria is a department head, so place her inside the department head circle. Since that circle is entirely inside the career service eligible circle, Maria must also be in that larger set."
+      },
+      {
+        "rung": 3,
+        "title": "Deduce Property",
+        "text": "If Maria is in the department head set, and all department heads are career service eligible, then Maria is definitely career service eligible. This is a valid deduction called Modus Ponens."
+      },
+      {
+        "rung": 4,
+        "title": "Select Matching Conclusion",
+        "text": "Option B states exactly that: 'Maria is career service eligible.' Option A contradicts the premises, Option C reverses the relationship (converse fallacy), and Option D introduces new information not given."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This directly contradicts Premise 1 and Premise 2. If all department heads are eligible and Maria is a department head, she cannot be ineligible. This is a logical contradiction.",
+        "trap_type": "contradiction_of_premises"
+      },
+      "B": {
+        "text": "Correct! Valid deductive conclusion using Modus Ponens: If All A are B, and X is A, then X is B.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is the converse fallacy: 'All A are B' does not imply 'All B are A.' There could be career service eligibles who are not department heads (e.g., other employees).",
+        "trap_type": "converse_fallacy"
+      },
+      "D": {
+        "text": "The premises say nothing about promotions. This conclusion introduces an unsupported assumption. Logical deductions must stay within the given information.",
+        "trap_type": "unsupported_assumption"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In categorical logic, 'All A are B' means A is a subset of B. If X is in A, then X is in B. Never reverse the relationship (converse fallacy).",
+    "blueprint_id": "Logical Reasoning — Categorical Syllogism (Modus Ponens)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Rule:** Modus Ponens (Affirming the Antecedent)\n- If All A are B (Premise 1)\n- And X is A (Premise 2)\n- Then X is B (Conclusion)\n\n**Apply to this question:**\n- A = department heads\n- B = career service eligible\n- X = Maria\n- Therefore: Maria is career service eligible.\n\n**Why other options fail:**\n- A: Contradicts the premises — if Maria is a department head, she must be eligible.\n- C: Converse fallacy — the premises don't say all eligible are department heads.\n- D: New information (promotion) not supported by premises.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-011",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office photocopier can produce 240 pages in 8 minutes. At the same rate, how many pages can it produce in 15 minutes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "350"
+      },
+      {
+        "key": "B",
+        "text": "400"
+      },
+      {
+        "key": "C",
+        "text": "450"
+      },
+      {
+        "key": "D",
+        "text": "480"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Unit Rate",
+        "text": "The copier produces 240 pages in 8 minutes. To find pages per minute, divide 240 by 8."
+      },
+      {
+        "rung": 2,
+        "title": "Pages Per Minute",
+        "text": "240 ÷ 8 = 30 pages per minute. So the copier prints 30 pages every minute."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply by New Time",
+        "text": "Now multiply the unit rate (30 pages/min) by the new time (15 minutes): 30 × 15."
+      },
+      {
+        "rung": 4,
+        "title": "Final Answer",
+        "text": "30 × 15 = 450 pages. Option C is correct. Common mistakes: 350 (30×11.67, wrong operation), 400 (30×13.33, wrong scaling), 480 (30×16, added 8+8=16 instead of 15)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "350 might come from 240 + 110 (adding 110 instead of 210) or from 30 × 11.67 (using wrong multiplier). No consistent method gives 350 from the given rate.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "400 could be 240 + 160 (adding 160 instead of 210) or 30 × 13.33 (using 13.33 minutes). The student may have miscalculated the unit rate or used an incorrect scaling factor.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! Unit rate = 240/8 = 30 pages/min. Then 30 × 15 = 450 pages.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "480 might come from 30 × 16 (using 16 minutes instead of 15) or from 240 × 2 (doubling the original output). The student added 8+8=16 minutes instead of using 15.",
+        "trap_type": "time_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For direct proportion, always find the unit rate first (pages per minute), then multiply by the new quantity. Avoid adding or guessing scaling factors.",
+    "blueprint_id": "Direct Proportion — Unit Rate Method",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Given:** 240 pages in 8 minutes.\n**Step 1:** Find unit rate: 240 ÷ 8 = 30 pages per minute.\n**Step 2:** Multiply by new time: 30 × 15 = 450 pages.\n\n**Alternative proportion method:**\n240/8 = x/15 → cross multiply: 240 × 15 = 8x → 3600 = 8x → x = 450.\n\n**Why other options are wrong:**\n- 350: No clear derivation from given data.\n- 400: Possibly 240 + 160 (wrong addition) or 30 × 13.33.\n- 480: 30 × 16 (used 16 min instead of 15) or 240 × 2 (doubled).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-012",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "If 5 government employees can process 75 applications in 3 days, how many applications can 8 employees process in the same number of days?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "110"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "125"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Per-Employee Output",
+        "text": "First, find how many applications one employee processes in 3 days: 75 applications ÷ 5 employees = 15 applications per employee."
+      },
+      {
+        "rung": 2,
+        "title": "Scale Up",
+        "text": "Now multiply the per-employee output (15) by the new number of employees (8): 15 × 8."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "15 × 8 = 120. So 8 employees can process 120 applications in 3 days."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Option C (120) is correct. Common mistakes: 100 (15×6.67), 110 (15×7.33), 125 (15×8.33) — all from incorrect scaling or arithmetic errors."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "100 might come from 75 + 25 (adding 25 instead of 45) or from 15 × 6.67 (using wrong multiplier). The student may have incorrectly scaled the number of employees.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "110 could be 75 + 35 (wrong addition) or 15 × 7.33 (using 7.33 employees). No consistent method yields 110 from the given data.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! Per employee output = 75/5 = 15. Then 15 × 8 = 120 applications.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "125 might come from 75 × (8/5) = 120, but then adding 5 due to rounding or miscalculation. Alternatively, 15 × 8.33 (using 8.33 employees).",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In direct proportion with constant days, find output per employee first, then multiply by new number of employees. Avoid adding or guessing.",
+    "blueprint_id": "Direct Proportion — Per-Unit Scaling",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Given:** 5 employees → 75 applications in 3 days.\n**Step 1:** Find per-employee output: 75 ÷ 5 = 15 applications per employee (in 3 days).\n**Step 2:** Multiply by new employees: 15 × 8 = 120 applications.\n\n**Alternative proportion:**\n5 employees / 75 apps = 8 employees / x apps → 5x = 75 × 8 → 5x = 600 → x = 120.\n\n**Why other options are wrong:**\n- 100: 15 × 6.67 (wrong multiplier) or 75 + 25.\n- 110: 15 × 7.33 or 75 + 35.\n- 125: 15 × 8.33 or miscalculation of 75 × (8/5).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-013",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "It takes 12 workers 8 days to complete a government building inspection project. How many days would it take 16 workers to complete the same project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Inverse Proportion",
+        "text": "More workers mean fewer days to complete the same work. This is an inverse proportion: workers × days = constant (total work)."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Equation",
+        "text": "Total work = 12 workers × 8 days = 96 worker-days. For 16 workers: 16 × D = 96."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Divide both sides by 16: D = 96 ÷ 16 = 6 days."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Option B (6 days) is correct. Common mistakes: 4 (dividing 8 by 2 instead of using inverse proportion), 10 (adding 2 days), 24 (multiplying 8×3 or using direct proportion)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4 days might come from 8 ÷ 2 (thinking doubling workers halves days, but workers increased from 12 to 16, not doubled). The ratio is 16/12 = 4/3, so days should be 8 × (12/16) = 6, not 4.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "Correct! Total work = 12 × 8 = 96 worker-days. For 16 workers: 96 ÷ 16 = 6 days.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "10 days might come from 8 + 2 (adding 2 days instead of subtracting) or from using direct proportion (8 × 16/12 ≈ 10.67, rounded down). The student applied direct proportion instead of inverse.",
+        "trap_type": "proportion_type_error"
+      },
+      "D": {
+        "text": "24 days might come from 8 × 3 (multiplying by 3) or from 12 × 2 (thinking more workers need more days). This is a direct proportion error — the student multiplied instead of dividing.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For work problems with constant total work, use inverse proportion: W1 × D1 = W2 × D2. More workers = fewer days.",
+    "blueprint_id": "Inverse Proportion — Workers vs Days",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Given:** 12 workers → 8 days.\n**Step 1:** Calculate total work in worker-days: 12 × 8 = 96 worker-days.\n**Step 2:** For 16 workers, days = total work ÷ workers = 96 ÷ 16 = 6 days.\n\n**Alternative inverse proportion:**\n12 × 8 = 16 × D → 96 = 16D → D = 6.\n\n**Why other options are wrong:**\n- 4: Halved days (8÷2) but workers didn't double (12 to 16 is 4/3 increase).\n- 10: Added 2 days or used direct proportion (8 × 16/12 ≈ 10.67).\n- 24: Multiplied instead of dividing (direct proportion error).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

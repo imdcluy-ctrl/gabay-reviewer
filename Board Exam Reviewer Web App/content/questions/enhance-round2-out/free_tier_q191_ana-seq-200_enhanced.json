@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-200",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Cyclic Alphanumeric Pattern Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Find the next item in the series: A1, C3, E5, G7, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I9"
+      },
+      {
+        "key": "B",
+        "text": "H8"
+      },
+      {
+        "key": "C",
+        "text": "J10"
+      },
+      {
+        "key": "D",
+        "text": "I8"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Split the Series in Two",
+        "text": "This series is actually two separate patterns woven together. Try looking at just the letters by themselves, and just the numbers by themselves. What do you notice?"
+      },
+      {
+        "rung": 2,
+        "title": "Spot the Jump in Each Pattern",
+        "text": "For the letters: A to C is a jump of 2 letters (skipping B). C to E is also a jump of 2. For the numbers: 1 to 3 is an increase of 2, and 3 to 5 is also an increase of 2. Both patterns are moving by the same amount."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Pattern Forward",
+        "text": "Starting from G, if you move forward 2 letters in the alphabet, what letter do you land on? And starting from 7, if you add 2, what number do you get? Combine them."
+      },
+      {
+        "rung": 4,
+        "title": "Check Your Combination",
+        "text": "The next letter should be I (since G + 2 = I), and the next number should be 9 (since 7 + 2 = 9). Put them together and you get I9. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. The letter advances by 2 positions in the alphabet (G to I) and the number increases by 2 (7 to 9). Both patterns are consistent, giving you I9.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mistake. H8 comes from advancing the letter by only 1 (G to H) and the number by only 1 (7 to 8). It's easy to fall into this 'add 1' trap when you're moving quickly, but the pattern is actually adding 2 each time.",
+        "trap_type": "off_by_one_error"
+      },
+      "C": {
+        "text": "J10 comes from advancing the letter by 3 (G to J) and the number by 3 (7 to 10). You might have thought the pattern was increasing by 3, but look back: the jumps are consistently 2, not 3. This is a step increment error.",
+        "trap_type": "step_increment_error"
+      },
+      "D": {
+        "text": "I8 is a mixed pattern. You got the letter right (I) but the number wrong (8 instead of 9). This often happens when you correctly spot the letter pattern but then accidentally add only 1 to the number. Remember, both patterns follow the same rule: add 2.",
+        "trap_type": "number_sequence_mismatch"
+      }
+    },
+    "next_time_rule": "When you see alphanumeric sequences, immediately split them into two separate tracks: letters and numbers. Check if both follow the same arithmetic rule. This 'split and compare' trick works for almost all pattern questions.",
+    "deconstruct_text": "Let's break this down together. The series is A1, C3, E5, G7. The first thing to do is separate the letters from the numbers. The letters are A, C, E, G. If you think of their positions in the alphabet, A is 1, C is 3, E is 5, G is 7. Notice that each letter is 2 positions ahead of the previous one. So from G (position 7), the next letter is I (position 9). Now look at the numbers: 1, 3, 5, 7. Each number increases by 2. So the next number is 9. Combine the letter and number: I9. That's your answer. The mental trick here is to always split the series into its components. Once you see that both the letters and numbers follow the same 'add 2' pattern, the answer becomes straightforward.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

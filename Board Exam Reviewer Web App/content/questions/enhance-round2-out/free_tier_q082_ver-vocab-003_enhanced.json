@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-003",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MANDATORY'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Voluntary"
+      },
+      {
+        "key": "C",
+        "text": "Compulsory"
+      },
+      {
+        "key": "D",
+        "text": "Discretionary"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary knowledge, specifically whether you know the meaning of 'mandatory' and can pick its synonym. Think about what 'mandatory' means in everyday life."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "A synonym is a word that has the same or nearly the same meaning as another word. So you're looking for the word that means the same as 'mandatory'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Let's look at each option. 'Optional' means you can choose to do it or not. 'Voluntary' means you do it by choice. 'Discretionary' means it's up to you to decide. All three imply choice. 'Compulsory' means it's required, no choice. Which one matches 'mandatory'?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Think of a sign that says 'Mandatory Evacuation' during a typhoon. Does that mean you can choose to stay, or you must leave? 'Compulsory' is the only word that captures that same sense of requirement."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Optional' means you have a choice, which is the exact opposite of 'mandatory.' It's easy to mix them up if you're rushing, but remember: mandatory means no choice, optional means you can choose.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Voluntary' means you do something because you want to, not because you have to. This is a common trap because both words relate to rules, but voluntary is about free will, while mandatory is about obligation.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Mandatory' and 'compulsory' both mean something is required by law, rule, or authority. In the civil service, mandatory training is the same as compulsory training—you have to do it.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Discretionary' means it's left to your own judgment or choice. A student might pick this because both sound like official terms, but discretionary allows freedom, while mandatory does not.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "Quick trick: Mandatory = compulsory = required. Both 'mandatory' and 'compulsory' start with consonants and mean 'no choice.' Their opposites—optional, voluntary, discretionary—start with vowels and mean 'freedom.'",
+    "blueprint_id": "Synonyms — Mandatory",
+    "deconstruct_text": "Let's break this down in a simple way. First, what does 'mandatory' mean? It means something is required—you have to do it, no ifs or buts. Think of it like a rule you can't skip. Now, look at the options. 'Optional' means you can choose to do it or not—that's the opposite. 'Voluntary' means you do it because you want to, not because you're forced—also opposite. 'Discretionary' means it's up to you to decide—again, opposite. Only 'compulsory' carries that same sense of being required. In the civil service, you'll hear about 'mandatory contributions' to SSS or GSIS—those are compulsory payments you can't opt out of. So the mental trick here is simple: when you see 'mandatory,' think 'compulsory' or 'required.' If an option sounds like it gives you a choice, it's wrong.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

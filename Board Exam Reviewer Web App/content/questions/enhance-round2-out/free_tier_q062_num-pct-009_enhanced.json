@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-009",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A laptop originally priced at P45,000 is sold at a 20% discount. What is the selling price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P34,000"
+      },
+      {
+        "key": "B",
+        "text": "P35,000"
+      },
+      {
+        "key": "C",
+        "text": "P36,000"
+      },
+      {
+        "key": "D",
+        "text": "P37,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a percentage discount problem. The key is to figure out how much money you're saving, then subtract that from the original price."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "To find the discount amount, multiply the original price by the discount rate (as a decimal). Remember: 20% means 20 out of 100, or 0.20."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Discount = P45,000 x 0.20. What do you get? That's the amount you're taking off. Now subtract that from P45,000."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Discount is P9,000. So selling price = P45,000 - P9,000. You're just one subtraction away from the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P34,000 is tempting if you accidentally subtract P11,000 instead of P9,000. That might happen if you miscalculate 20% as P11,000 or use a wrong percentage like 24%. The real discount is P9,000, so the correct selling price is higher.",
+        "trap_type": "discount_calculation_error"
+      },
+      "B": {
+        "text": "P35,000 looks clean, but it comes from subtracting P10,000—a nice round number that's easy to grab under time pressure. But 20% of P45,000 is P9,000, not P10,000. Double-check your multiplication: 0.20 x 45,000 = 9,000.",
+        "trap_type": "discount_calculation_error"
+      },
+      "C": {
+        "text": "Correct! You found 20% of P45,000 is P9,000, then subtracted to get P36,000. You could also think of it as paying 80% of the original price: P45,000 x 0.80 = P36,000. Either way, you nailed it.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P37,000 might come from subtracting only P8,000, which is less than the actual discount. Maybe you used 17.78% by mistake, or you added instead of subtracted. The discount is P9,000, so the selling price should be lower than P37,000.",
+        "trap_type": "discount_calculation_error"
+      }
+    },
+    "next_time_rule": "For any discount problem, remember: Selling Price = Original Price x (1 - Discount Rate). Convert the percentage to a decimal first, then multiply. It's faster and reduces errors.",
+    "blueprint_id": "Discount Computation",
+    "deconstruct_text": "Let's break this down simply. The laptop costs P45,000, and you're getting 20% off. First, find the discount amount: 20% of P45,000 means 0.20 times 45,000, which equals P9,000. That's your savings. Now subtract that from the original price: P45,000 minus P9,000 gives you P36,000. That's the selling price. A neat shortcut: instead of doing two steps, you can think of it as paying 80% of the original price (since 100% - 20% = 80%). So P45,000 times 0.80 also gives you P36,000. This one-step method is faster and helps you avoid mistakes under time pressure. The wrong answers come from miscalculating the discount—like thinking 20% is P10,000 or P11,000. Always double-check your multiplication: 20% of a number is just one-fifth of it, so 45,000 divided by 5 is 9,000. That's your mental anchor.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

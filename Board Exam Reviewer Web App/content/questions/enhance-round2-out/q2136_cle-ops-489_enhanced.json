@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-ops-489",
+    "category_id": "clerical-ability",
+    "subtopic_id": "clerical-operations",
+    "question_text": "A government employee has the following leave credits as of January 1: Vacation Leave = 15.5 days, Sick Leave = 12.25 days. During the year, she used 3.5 days of vacation leave and 2.75 days of sick leave. She also earned 1.25 days of vacation leave and 1.0 day of sick leave for the year. What is her total remaining leave balance (vacation + sick) at year-end?",
+    "options": [
+      {
+        "key": "A",
+        "text": "23.75 days"
+      },
+      {
+        "key": "B",
+        "text": "24.00 days"
+      },
+      {
+        "key": "C",
+        "text": "24.25 days"
+      },
+      {
+        "key": "D",
+        "text": "24.50 days"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2711",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

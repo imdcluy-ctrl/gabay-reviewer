@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-029",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses the subjunctive mood correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I wish I was the department head."
+      },
+      {
+        "key": "B",
+        "text": "I wish I were the department head."
+      },
+      {
+        "key": "C",
+        "text": "I wish I am the department head."
+      },
+      {
+        "key": "D",
+        "text": "I wish I be the department head."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your ear for a special verb mood we use when talking about things that aren't real or true right now. Think of it as the 'what if' mood."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "After the word 'wish', we always use 'were' for the verb 'to be', no matter who the subject is. So it's always 'I wish I were', 'she wishes she were', 'he wishes he were'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "The sentence starts with 'I wish', which is your signal. Now look at the verb that follows. Which option uses 'were'? That's your candidate."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Only one option uses 'were' after 'I wish'. The others use 'was', 'am', or 'be' -- all of which are wrong for this kind of wishful, hypothetical sentence. Pick the one with 'were'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one sounds natural in casual conversation, but it's actually a grammar trap. 'Was' is for talking about real, factual things that happened in the past. But this sentence is about a wish -- something that isn't true right now. For wishes, we need the subjunctive mood, which uses 'were' instead of 'was'. So even though 'I wish I was' might roll off the tongue, it's not correct in formal English.",
+        "trap_type": "mood_error"
+      },
+      "B": {
+        "text": "This is the correct choice. 'I wish I were' is the textbook example of the subjunctive mood. Even though the subject is 'I', we use 'were' instead of 'was' because the sentence expresses a wish about a situation that is contrary to fact (you are not actually the department head). This is one of those grammar rules that might feel strange at first, but it's a hallmark of polished English.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option uses 'am', which is the present tense form of 'to be'. The problem is that 'am' describes something that is true right now. But a wish, by definition, is about something that is not true. You can't say 'I wish I am' because that would mean you are both wishing to be something and already are that thing at the same time. It's a logical contradiction.",
+        "trap_type": "mood_error"
+      },
+      "D": {
+        "text": "This one uses the base form 'be', which you might have seen in other subjunctive constructions like 'I suggest that he be present'. But after the verb 'wish', we don't use 'be'. We use 'were'. It's easy to mix up the different subjunctive patterns, but remember: for wishes about the present, 'were' is the only correct choice.",
+        "trap_type": "mood_error"
+      }
+    },
+    "next_time_rule": "The 'Wish-Were' Rule: Whenever you see 'I wish', your brain should automatically reach for 'were' -- not 'was', not 'am', not 'be'. It's always 'I wish I were' for present wishes. Think of it as a fixed phrase.",
+    "blueprint_id": "Subjunctive Mood — Wishes",
+    "deconstruct_text": "Let's walk through this together. The key is recognizing that 'I wish' signals a hypothetical situation -- something that is not true in reality. In English, we have a special verb mood for these unreal situations called the subjunctive mood. For the verb 'to be', the subjunctive form is always 'were', regardless of the subject. So 'I wish I were' is correct, even though it might sound a bit formal. Now look at the wrong options: 'I wish I was' uses the indicative mood, which is for facts, not wishes. 'I wish I am' is a logical mess because 'am' states a present fact while 'wish' denies it. 'I wish I be' confuses two different subjunctive patterns. The mental trick here is simple: treat 'I wish I were' as a single unit in your mind. When you see 'I wish', just complete it with 'I were' automatically. This is one of those rules that separates good writers from great ones.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

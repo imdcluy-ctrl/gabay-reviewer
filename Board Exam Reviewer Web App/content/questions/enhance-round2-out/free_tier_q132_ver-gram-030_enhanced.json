@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-030",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence is grammatically correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have reached a decision."
+      },
+      {
+        "key": "B",
+        "text": "The committee has reached a decision."
+      },
+      {
+        "key": "C",
+        "text": "The committee are reaching a decision."
+      },
+      {
+        "key": "D",
+        "text": "The committee were reached a decision."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What Kind of Word Is 'Committee'?",
+        "text": "Think of 'committee' as a single unit, not a bunch of individuals. It's a collective noun, like 'team' or 'family'."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Collective Nouns",
+        "text": "In American English, collective nouns are treated as singular. So they pair with singular verbs like 'has', 'is', or 'reaches'."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Singular Verb",
+        "text": "Look at each verb: 'have' is plural, 'has' is singular, 'are' is plural, 'were' is plural. Only one option uses a singular verb."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the Wrong Ones",
+        "text": "Option A uses 'have' (plural), C uses 'are' (plural), and D uses 'were' (plural) plus a messy passive construction. Only B uses the singular 'has' correctly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one uses 'have', which is a plural verb. It's a very understandable mistake — you see 'committee' and think of all the people in it, so your brain reaches for a plural verb. But in American English, the group acts as one unit, so it needs the singular 'has'. Think of it this way: the committee itself, as a whole, reached the decision, not each member individually.",
+        "trap_type": "subject_verb_error"
+      },
+      "B": {
+        "text": "This is correct. 'Committee' is a singular collective noun, so it pairs with the singular verb 'has'. The sentence is clean and follows standard American English rules. Great choice.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Here, 'are' is a plural verb, which doesn't match the singular 'committee'. You might have picked this if you're used to British English, where collective nouns sometimes take plural verbs. But for this exam, American English is the standard, so singular is the way to go.",
+        "trap_type": "subject_verb_error"
+      },
+      "D": {
+        "text": "This one has two problems. First, 'were' is plural and doesn't agree with 'committee'. Second, the passive construction 'were reached' is awkward and doesn't make sense here — it sounds like the committee itself was reached, not that it made a decision. The active voice 'has reached' is much clearer and correct.",
+        "trap_type": "grammar_error"
+      }
+    },
+    "next_time_rule": "When you see a collective noun like 'committee', 'team', or 'staff', ask yourself: 'Is this group acting as one unit?' If yes, use a singular verb. The 'One Unit Test' will save you every time.",
+    "blueprint_id": "Subject-Verb — Collective Nouns 2",
+    "deconstruct_text": "Let's walk through this together. The subject is 'The committee', which is a collective noun — it names a group but treats it as a single thing. In American English, collective nouns are singular, so they need singular verbs. Now look at the verbs: 'have' is plural, 'has' is singular, 'are' is plural, and 'were' is plural. Only option B uses 'has', which matches the singular subject. Option D also has a passive voice issue — 'were reached' is confusing because it suggests someone reached the committee, not that the committee made a decision. The mental trick here is the 'One Unit Test': imagine the committee as a single person making a decision. Would you say 'He have reached' or 'He has reached'? Exactly — 'has'. That same logic applies.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

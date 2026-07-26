@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-001",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MITIGATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intensify"
+      },
+      {
+        "key": "B",
+        "text": "Aggravate"
+      },
+      {
+        "key": "C",
+        "text": "Alleviate"
+      },
+      {
+        "key": "D",
+        "text": "Complicate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a vocabulary question asking for a synonym, meaning a word that shares the same core meaning. Think about what 'mitigate' really means in everyday language."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "A synonym is a word that has the same or nearly the same meaning as another word. For 'mitigate,' the key idea is making something less severe or serious."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at each option. Does it mean to make something less severe? 'Intensify' and 'aggravate' both mean to make worse. 'Complicate' means to make more complex. Only one option matches the idea of reducing severity."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Think of a doctor giving medicine to 'alleviate' your pain. That's exactly what 'mitigate' means: to lessen or reduce the badness of something. The answer is the word that starts with 'A' and means to lighten a burden."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a common trap. 'Intensify' sounds a bit like 'intense,' which might make you think of strong effort, but it actually means to make something stronger or more severe. That's the opposite of mitigate. A smart student might pick this if they confuse the prefix 'mit-' with something related to strength, but the real root is from Latin 'mitis' meaning gentle.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "This is another easy mix-up, especially if you've seen legal or news terms like 'aggravating factors' versus 'mitigating factors.' They are direct opposites. Aggravate means to make a problem worse, while mitigate means to make it less bad. If you picked this, you might have remembered the legal pairing but swapped their meanings.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Perfect choice. Mitigate and alleviate are like twins in meaning: both mean to reduce the severity of something. In government reports, you'll see 'mitigating measures' to reduce risks, just like 'alleviate poverty' means to lessen poverty. They share the Latin root 'levis' meaning light or not heavy.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is tricky because mitigation can involve complex procedures, but the word itself doesn't mean complexity. 'Complicate' means to make something more difficult or tangled, which is not the same as reducing severity. If you chose this, you might have been thinking about the process rather than the core meaning of the word.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When looking for a synonym, first define the word in your own simple terms. For 'mitigate,' think 'make less bad.' Then scan the options for the one that matches that idea. If you see words that mean 'make worse' or 'make more complex,' cross them out immediately. The trick is to focus on the core action: lessening versus increasing.",
+    "blueprint_id": "Synonyms — Mitigate vs Alleviate",
+    "deconstruct_text": "Let's break this down in a way that sticks. First, get a clear picture of what 'mitigate' means. Imagine you're carrying a heavy backpack, and someone takes out half the books. That action of lightening your load is mitigation. It's about reducing the badness or severity of something.\n\nNow look at your options. 'Intensify' is like adding more books to the backpack. 'Aggravate' is like making the straps dig into your shoulders even more. 'Complicate' is like adding confusing knots to the straps. None of these lighten the load. Only 'alleviate' does the same thing as mitigate: it eases the burden.\n\nHere's a mental trick to lock this in: Think of the word 'alleviate' as having 'lev' in it, like 'lever' or 'elevate.' A lever helps lift weight, and to elevate something is to raise it up. But in this case, alleviating is about lifting the weight off someone's shoulders. Mitigate works the same way. So when you see 'mitigate,' immediately think 'lighten the load.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

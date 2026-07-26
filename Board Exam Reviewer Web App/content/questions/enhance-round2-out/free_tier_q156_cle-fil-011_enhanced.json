@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-011",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Filing 1: File correctly: Cruz, Dela Cruz, De la Cruz, Delos Cruz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dela Cruz, De la Cruz, Cruz, Delos Cruz"
+      },
+      {
+        "key": "B",
+        "text": "Cruz, De la Cruz, Dela Cruz, Delos Cruz"
+      },
+      {
+        "key": "C",
+        "text": "De la Cruz, Dela Cruz, Cruz, Delos Cruz"
+      },
+      {
+        "key": "D",
+        "text": "Delos Cruz, Cruz, Dela Cruz, De la Cruz"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is all about how we treat those fancy Spanish prefixes like 'De la', 'Dela', and 'Delos' when filing alphabetically. The key question is: do we ignore them, or do we treat them as part of the surname?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "In Philippine civil service filing, prefixes are considered part of the surname. So 'De la Cruz' is filed under 'D', not 'C'. And here's the tricky part: when comparing prefixes, spaces matter. A space comes before any letter in the alphabet."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "First, group by first letter. 'Cruz' starts with C, while the others start with D. Now, among the D surnames, compare letter by letter: 'De la' (D, e, space, l, a) vs 'Dela' (D, e, l, a). Since space comes before 'l', 'De la' comes first. Then 'Dela' vs 'Delos': 'a' comes before 'o', so 'Dela' before 'Delos'. Now, where does 'Cruz' fit? Since all have the same root 'Cruz', the one without a prefix is filed after those with prefixes."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "So the order is: De la Cruz (space before 'l'), then Dela Cruz (a before o), then Cruz (no prefix, after prefixed ones), then Delos Cruz. That matches option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This order puts Dela Cruz before De la Cruz. A smart student might think 'Dela' looks simpler, but alphabetically, 'De la' has a space after 'e', and in the alphabet, a space comes before the letter 'l'. So 'De la' should actually come first. It's a subtle trap that catches many people.",
+        "trap_type": "prefix_space_ordering"
+      },
+      "B": {
+        "text": "This order puts Cruz first, which seems logical because 'C' comes before 'D'. But here's the twist: when surnames share the same root (all are 'Cruz' at heart), the one without a prefix is filed after those with prefixes. So Cruz comes after De la and Dela, not before. It's a common mistake to think 'no prefix' means 'first'.",
+        "trap_type": "prefix_priority_reversal"
+      },
+      "C": {
+        "text": "Correct! This follows the filing rule perfectly: prefixes are part of the surname, spaces matter (so 'De la' before 'Dela'), and among same-root surnames, the one without a prefix comes after those with prefixes. Well done!",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This order starts with Delos Cruz, but 'Delos' has 'o' as its third letter, while 'De la' has a space and 'Dela' has 'a'. Since 'a' and space both come before 'o', Delos should be last among the D surnames. It's easy to mix up the order when you're rushing.",
+        "trap_type": "prefix_letter_order"
+      }
+    },
+    "next_time_rule": "When filing surnames with prefixes like 'De la', 'Dela', 'Delos', treat the prefix as part of the surname. Compare letter by letter, including spaces (space comes before any letter). And remember: among same-root surnames, the one without a prefix comes after those with prefixes.",
+    "blueprint_id": "Alphabetical Filing 1",
+    "deconstruct_text": "Let's walk through this step by step. We have four surnames: Cruz, Dela Cruz, De la Cruz, and Delos Cruz. The rule in Philippine civil service filing is that prefixes like 'De la', 'Dela', and 'Delos' are considered part of the surname. So we don't ignore them; we file them as they are written.\n\nFirst, look at the first letter of each surname. 'Cruz' starts with C, while the other three start with D. Now, here's the key insight: since all four surnames share the same root 'Cruz', the one without a prefix (just 'Cruz') is filed after those with prefixes. This might feel counterintuitive, but it's the standard rule.\n\nNow, let's order the three D surnames. Compare 'De la Cruz' and 'Dela Cruz' letter by letter: D is the same, e is the same, then we have a space in 'De la' versus the letter 'l' in 'Dela'. In alphabetical order, a space comes before any letter, so 'De la' comes before 'Dela'. Next, compare 'Dela Cruz' and 'Delos Cruz': D, e, l are the same, then 'a' in 'Dela' versus 'o' in 'Delos'. Since 'a' comes before 'o', 'Dela' comes before 'Delos'.\n\nSo the full order is: De la Cruz, Dela Cruz, Cruz, Delos Cruz. That's option C.\n\nHere's a mental trick for next time: think of the space as a 'super-letter' that comes before 'a'. And when you see same-root surnames, remember that 'no prefix' means 'after prefixes', not 'before'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

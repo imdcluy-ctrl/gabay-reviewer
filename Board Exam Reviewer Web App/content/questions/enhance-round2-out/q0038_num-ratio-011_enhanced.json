@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-011",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office photocopier can produce 240 pages in 8 minutes. At the same rate, how many pages can it produce in 15 minutes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "350"
+      },
+      {
+        "key": "B",
+        "text": "400"
+      },
+      {
+        "key": "C",
+        "text": "450"
+      },
+      {
+        "key": "D",
+        "text": "480"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Unit Rate",
+        "text": "Direct proportion 'to: pag tumaas ang oras, tataas din ang pages. Hanapin ang pages per 1 minute. 240 ÷ 8 = ?"
+      },
+      {
+        "rung": 2,
+        "title": "Pages Per Minute",
+        "text": "240 ÷ 8 = 30. Kada minuto, 30 pages ang nagagawa. 'Yan ang unit rate. Tandaan mo: 30 pages per minute."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply sa Bagong Oras",
+        "text": "Ngayon, multiply ang rate sa bagong oras: 30 × 15 = ? Siyempre, 15 minutes ito. Kaya 450 pages."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: 450",
+        "text": "30 × 15 = 450. Kaya sagot: 450 pages. Ang ibang sagot ay mula sa maling pag-compute o maling pagbasa ng oras."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you miscalculated the unit rate as 23.33, leading to 350. Always double-check division.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you added 160 instead of 210 to 240. Remember 7×30=210, not 160.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. The unit rate is 30 pages per minute; multiplying by 15 gives 450 pages.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used 16 minutes instead of 15, perhaps by adding 8+8. Read carefully.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Sa direct proportion, hanapin muna ang 'per one' rate. I-divide, tapos i-multiply sa bagong halaga. Iwasan ang maling hula.",
+    "blueprint_id": "Direct Proportion — Unit Rate Method",
+    "deconstruct_text": "Sa barangay hall, may photocopier na ginagamit ng mga opisyal para sa mga dokumento. Kung 240 pages ang nagagawa sa 8 minutes, ilan kaya sa 15 minutes? Ganyan ang kadalasang tanong kapag may budget meeting at kailangan magpadami ng kopya ng resolusyon.\n\nPara makuha ang sagot, alamin muna ang per minute rate: 240 ÷ 8 = 30 pages. Tapos, i-multiply sa 15 minutes: 30 × 15 = 450 pages. Kaya 450 pages ang sagot. Kung nalilito ka, tandaan mo: hanapin ang 'isang unit', saka palakihin.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

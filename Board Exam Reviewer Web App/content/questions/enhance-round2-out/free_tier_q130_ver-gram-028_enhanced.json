@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-028",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'By the time the manager arrived, the staff ___ the reports.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "already finish"
+      },
+      {
+        "key": "B",
+        "text": "already finished"
+      },
+      {
+        "key": "C",
+        "text": "have already finished"
+      },
+      {
+        "key": "D",
+        "text": "had already finished"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Timeline",
+        "text": "Imagine a timeline in your head. Two things happened in the past: the manager arrived, and the staff finished the reports. Which one came first? That's the key to unlocking this question."
+      },
+      {
+        "rung": 2,
+        "title": "The 'Earlier Past' Rule",
+        "text": "When you have two past events, the one that happened earlier needs a special tense called the past perfect. It's formed with 'had' plus the past participle of the verb (like 'finished'). Think of it as the 'past before the past.'"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Earlier Action",
+        "text": "The staff finished the reports *before* the manager walked in. So the blank is describing that earlier action. That means you need 'had already finished' to show the correct sequence."
+      },
+      {
+        "rung": 4,
+        "title": "Test Each Option Against the Timeline",
+        "text": "Try each option in the sentence. 'Already finish' is present tense — doesn't fit the past. 'Already finished' is simple past — it's past, but it doesn't show which came first. 'Have already finished' is present perfect — it connects to now, but the story is over. Only 'had already finished' places the finishing before the arrival."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one uses the base form of the verb, which is present tense. But the whole sentence is set in the past — the manager already arrived. So using present tense here is like wearing a swimsuit to a formal dinner; it just doesn't match the occasion. A smart student might rush and forget to shift the verb into the past.",
+        "trap_type": "tense_inconsistency"
+      },
+      "B": {
+        "text": "This is simple past tense, which is a step in the right direction because it's past. But it doesn't solve the puzzle of which event happened first. The phrase 'by the time' is a signal that you need to show the order of events. Simple past treats both actions as equal, but they're not — the finishing came before the arriving. A student might pick this thinking 'finished' is enough, but the sentence needs that extra layer of 'had' to clarify the sequence.",
+        "trap_type": "tense_inconsistency"
+      },
+      "C": {
+        "text": "This is present perfect tense, which links a past action to the present moment. But the manager's arrival is a completed event in the past, so there's no connection to now. It's easy to confuse present perfect with past perfect because they sound similar, but they serve different purposes. The student who picks this might be mixing up 'have' and 'had' — a common slip under time pressure.",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "This is the correct choice. 'Had already finished' is past perfect tense, which is exactly what you need when you have two past events and one happened before the other. The staff finished the reports first, then the manager arrived. This option makes that sequence crystal clear. Great job if you spotted it!",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "When you see 'by the time' followed by a past event, the action that happened earlier must be in past perfect: 'had' + past participle. Think of it as the 'earlier past' signal.",
+    "blueprint_id": "Tense Consistency — Past Perfect",
+    "deconstruct_text": "Let's walk through this together. The sentence is: 'By the time the manager arrived, the staff ___ the reports.' The phrase 'by the time' is your clue that we're dealing with two past events. First, picture the timeline: the staff finishing the reports happened before the manager arrived. So the blank needs a verb form that shows 'the past before the past.' That's the past perfect tense: 'had' plus the past participle of the verb. For 'finish,' the past participle is 'finished,' so you get 'had already finished.' Now check the other options: 'already finish' is present tense — doesn't belong in a past sentence. 'Already finished' is simple past — it's past, but it doesn't show which event came first. 'Have already finished' is present perfect — it connects to the present, but this story is fully in the past. Only 'had already finished' correctly places the finishing before the arrival. Here's a mental trick: whenever you see 'by the time' in a past context, immediately think 'had + V3' for the earlier action. It's like a reflex — train it, and you'll never miss this type of question.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

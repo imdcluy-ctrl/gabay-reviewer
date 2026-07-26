@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-006",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article III (Bill of Rights), what protects a person from unreasonable search and seizure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Right to counsel"
+      },
+      {
+        "key": "B",
+        "text": "Right against self-incrimination"
+      },
+      {
+        "key": "C",
+        "text": "Right against unreasonable search and seizure"
+      },
+      {
+        "key": "D",
+        "text": "Right to bail"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the Bill of Rights",
+        "text": "The Bill of Rights in our Constitution lists specific protections for individuals. Each right has a particular situation it covers. This question is asking about a specific situation: when authorities want to search your things or your home."
+      },
+      {
+        "rung": 2,
+        "title": "Match the right to the situation",
+        "text": "Imagine a police officer wants to enter your house or check your bag. Which right in the Bill of Rights directly addresses that scenario? It's the one that's named after exactly that situation."
+      },
+      {
+        "rung": 3,
+        "title": "Look at the options carefully",
+        "text": "Three of these options protect you in different situations: when you're being questioned (counsel), when you might be forced to confess (self-incrimination), or when you're arrested (bail). Only one option directly names the protection against searches."
+      },
+      {
+        "rung": 4,
+        "title": "The answer is in the name",
+        "text": "The right that protects you from unreasonable search and seizure is literally called the 'right against unreasonable search and seizure.' It's found in Article III, Section 2 of the Constitution. The other options protect different rights in different situations."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is easy to mix up because it's also a key protection in the Bill of Rights. But the right to counsel (Section 12) kicks in when you're being questioned by authorities, not when they're searching your things. Think of it this way: a lawyer helps you during interrogation, not during a search.",
+        "trap_type": "bill_of_rights_confusion"
+      },
+      "B": {
+        "text": "This right (Section 17) protects you from being forced to testify against yourself. It's about words and confessions, not about physical searches. A smart student might grab this because both involve 'rights against' something, but they protect against completely different things.",
+        "trap_type": "bill_of_rights_confusion"
+      },
+      "C": {
+        "text": "Correct! This is the exact right named in Article III, Section 2. The Constitution says: 'The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures... shall be inviolable.' It's the only option that directly addresses search and seizure.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "The right to bail (Section 13) is about getting released while waiting for trial. It applies after you've been arrested and detained. It has nothing to do with searches. A common mistake is lumping all 'rights of the accused' together, but each one applies to a specific stage of the legal process.",
+        "trap_type": "bill_of_rights_confusion"
+      }
+    },
+    "next_time_rule": "When a question asks which right protects against a specific situation, look for the option that has the exact same name as that situation. The Bill of Rights is like a set of tools - each tool has a specific job. Match the tool to the job by name.",
+    "blueprint_id": "Bill of Rights — Search and Seizure",
+    "deconstruct_text": "Here's how to think through this question calmly and clearly.\n\nThe question is asking: which right in the Bill of Rights protects you when authorities want to search your person, house, or belongings?\n\nLet's look at what each option actually does:\n\nOption A - Right to counsel: This is your right to have a lawyer. It applies when you're being questioned by police (custodial investigation), not when they're searching your things.\n\nOption B - Right against self-incrimination: This protects you from being forced to say something that could be used against you in court. It's about testimony, not about physical searches.\n\nOption C - Right against unreasonable search and seizure: This is exactly what we're looking for. It's found in Article III, Section 2, and it directly addresses the situation described in the question.\n\nOption D - Right to bail: This applies when you've been arrested and are waiting for trial. It's about getting temporary freedom, not about searches.\n\nThe key insight here is simple: the Bill of Rights has specific rights for specific situations. When the question mentions 'search and seizure,' look for the right that has those exact words in its name. It's like matching a key to a lock - the right key has the right shape.\n\nHere's a mental trick to remember this: Think of the Bill of Rights as a menu. Each item on the menu serves a different purpose. If you're hungry for protection against searches, you order the 'right against unreasonable search and seizure' - it's the only dish on the menu with that name.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

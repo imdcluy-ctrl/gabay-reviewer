@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-005",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "KEYBOARD is to TYPIST as STEERING WHEEL is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Car"
+      },
+      {
+        "key": "B",
+        "text": "Driver"
+      },
+      {
+        "key": "C",
+        "text": "Road"
+      },
+      {
+        "key": "D",
+        "text": "Mechanic"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Relasyon ng keyboard at typist",
+        "text": "Keyboard ay tool, gamit ng typist. Ang relasyon ay 'tool-user'. Hanapin ang user ng steering wheel."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminahin ang maling sagot",
+        "text": "Ang car, road, at mechanic ay may kinalaman sa steering wheel, pero hindi sila user. Ang user ay direktang gumagamit."
+      },
+      {
+        "rung": 3,
+        "title": "Tutukan ang tao",
+        "text": "Tulad ng typist na gumagamit ng keyboard, ang driver naman ang direktang gumagamit ng steering wheel. Ito ang tamang tool-user pair."
+      },
+      {
+        "rung": 4,
+        "title": "Siguradong sagot",
+        "text": "Ang tamang sagot ay 'Driver' dahil siya ang operator ng steering wheel, kumpletong tool-user analogy."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because a steering wheel is part of a car, but the analogy asks who uses it, not what part it is.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "B": {
+        "text": "Correct! A driver uses a steering wheel just as a typist uses a keyboard.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because a car drives on the road, but the road is not the user of the steering wheel.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "D": {
+        "text": "You might have chosen D because a mechanic repairs steering wheels, but they are not the primary operator of the tool.",
+        "trap_type": "false_cause_fallacy"
+      }
+    },
+    "next_time_rule": "Sa tool-user analogies, alamin kung sino ang direktang gumagamit, hindi ang bagay na kinalalagyan o nag-aayos.",
+    "blueprint_id": "Tool-User 2",
+    "deconstruct_text": "Imagine nasa barangay hall ka, may typist na mabilis mag-type ng dokumento gamit ang keyboard. Ang keyboard ay tool, ang typist ang user.\n\nNgayon, isipin mo ang steering wheel. Sa jeep, ang driver ang humahawak nito para mani-obra sa daan. Steering wheel = tool, driver = user.\n\nChoices: A) Car – parte yun, hindi user. C) Road – daanan, hindi user. D) Mechanic – nag-aayos, hindi gumagamit araw-araw. So B) Driver ang kaparehong relationship: tool-user.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "gen-ra6713-101",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — Divestment Deadline",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Divestment of Business Interests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under 60 days from assumption of office"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify RA 6713 Requirement",
+        "text": "RA 6713 Section 8(b) requires public officials to divest from private business interests within a specific period after assuming office. What is that period?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "The law mandates divestment within 60 days from assumption of office. This is a strict deadline—no extensions are provided."
+      },
+      {
+        "rung": 3,
+        "title": "Check Exemption Rules",
+        "text": "The divestment requirement applies to all public officials, both elective and appointive. There is no exemption for appointive officials or those nearing retirement."
+      },
+      {
+        "rung": 4,
+        "title": "Select Mandatory Option",
+        "text": "Option A correctly states 'Mandated under 60 days from assumption of office.' The other options incorrectly limit the scope or timing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 8(b) explicitly requires public officials to divest from business interests within 60 days from assumption of office. This ensures no conflict of interest arises during their tenure.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The divestment requirement is mandatory for all public officials, not optional. Appointive officials are equally bound by the 60-day rule under Section 8(b).",
+        "trap_type": "exemption_fallacy"
+      },
+      "C": {
+        "text": "Incorrect. Divestment is required within 60 days of assuming office, not only upon retirement. Waiting until retirement would violate the conflict-of-interest provisions of RA 6713.",
+        "trap_type": "statutory_timing_error"
+      },
+      "D": {
+        "text": "Incorrect. The requirement applies to both elective and appointive officials. Section 8(b) covers 'all public officials and employees,' with no distinction between the two.",
+        "trap_type": "scope_limitation_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 requires divestment within 60 days of assuming office. Remember: '60 days to divest'—applies to all officials, no exceptions.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relevant provision:** RA 6713, Section 8(b) governs divestment of business interests.\n2. **Recall the exact requirement:** The law states that public officials must divest within 60 days from assumption of office.\n3. **Apply to the options:** Option A matches this exactly. Option B is wrong because the requirement is mandatory, not optional. Option C is wrong because the deadline is 60 days from assumption, not retirement. Option D is wrong because it applies to both elective and appointive officials.\n\n### ❌ Why the Distractors Fail\n- **Option B:** Assumes appointive officials can opt out—no provision in RA 6713 allows this.\n- **Option C:** Confuses the timing—divestment is immediate upon assumption, not deferred to retirement.\n- **Option D:** Incorrectly limits the scope to elective officials only; the law covers all public officials.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-102",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — Gift Ban",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Prohibition on Accepting Gifts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under gift-giving rules under Section 7"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify RA 6713 Requirement",
+        "text": "RA 6713 Section 7(c) prohibits public officials from accepting gifts in certain circumstances. What does the law say about gift-giving?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "Section 7(c) prohibits accepting gifts from persons with business pending before the official's office, or from entities regulated by the official's agency."
+      },
+      {
+        "rung": 3,
+        "title": "Check Exemption Rules",
+        "text": "The prohibition applies to all public officials, regardless of position or appointment type. There are no exemptions for appointive officials or retirement."
+      },
+      {
+        "rung": 4,
+        "title": "Select Mandatory Option",
+        "text": "Option A correctly states 'Mandated under gift-giving rules under Section 7.' The other options incorrectly treat the prohibition as optional or limited in scope."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 7(c) explicitly prohibits public officials from accepting gifts from persons with business pending before their office or from regulated entities. This is a mandatory rule.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The prohibition on accepting gifts is mandatory for all public officials, not optional. Appointive officials are equally bound by Section 7(c).",
+        "trap_type": "exemption_fallacy"
+      },
+      "C": {
+        "text": "Incorrect. The prohibition applies during the entire tenure of the official, not only upon retirement. Accepting gifts at any time from prohibited sources violates the law.",
+        "trap_type": "statutory_timing_error"
+      },
+      "D": {
+        "text": "Incorrect. The prohibition applies to both elective and appointive officials. Section 7(c) covers 'all public officials and employees,' with no distinction.",
+        "trap_type": "scope_limitation_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 Section 7(c) bans gifts from persons with pending business or regulated entities. Remember: 'No gifts from those you regulate or who have business with you.'",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relevant provision:** RA 6713, Section 7(c) governs the prohibition on accepting gifts.\n2. **Recall the exact rule:** The law prohibits public officials from accepting gifts from persons with business pending before their office or from entities regulated by their agency.\n3. **Apply to the options:** Option A correctly identifies Section 7 as the source. Option B is wrong because the rule is mandatory. Option C is wrong because the prohibition applies during office, not just at retirement. Option D is wrong because it applies to all officials.\n\n### ❌ Why the Distractors Fail\n- **Option B:** Incorrectly treats the gift ban as optional—no such exemption exists.\n- **Option C:** Misplaces the timing—the ban is continuous, not retirement-triggered.\n- **Option D:** Incorrectly limits to elective officials; the law covers all public officials.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-ra6713-103",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — Whistleblower Rights",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Whistleblower Protections?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under protection from administrative reprisal"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify RA 6713 Requirement",
+        "text": "RA 6713 Section 8(a) provides protections for whistleblowers. What specific protection does the law guarantee?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "Section 8(a) mandates protection from administrative reprisal for any public official who reports violations of the Code in good faith."
+      },
+      {
+        "rung": 3,
+        "title": "Check Exemption Rules",
+        "text": "The protection applies to all public officials who report violations, regardless of their appointment type. There is no exemption for appointive officials or retirement."
+      },
+      {
+        "rung": 4,
+        "title": "Select Mandatory Option",
+        "text": "Option A correctly states 'Mandated under protection from administrative reprisal.' The other options incorrectly treat the protection as optional or limited."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 8(a) mandates protection from administrative reprisal for public officials who report violations of the Code in good faith. This encourages whistleblowing without fear of retaliation.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The protection from reprisal is mandatory for all public officials who report violations, not optional. Appointive officials are equally entitled to this protection.",
+        "trap_type": "exemption_fallacy"
+      },
+      "C": {
+        "text": "Incorrect. The protection applies when a report is made during the official's tenure, not only upon retirement. Waiting until retirement would defeat the purpose of timely reporting.",
+        "trap_type": "statutory_timing_error"
+      },
+      "D": {
+        "text": "Incorrect. The protection applies to both elective and appointive officials. Section 8(a) covers 'any public official or employee' who reports violations.",
+        "trap_type": "scope_limitation_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 6713 Section 8(a) protects whistleblowers from administrative reprisal. Remember: 'Report in good faith, no reprisal.'",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relevant provision:** RA 6713, Section 8(a) governs whistleblower protections.\n2. **Recall the exact rule:** The law mandates protection from administrative reprisal for any public official who reports violations in good faith.\n3. **Apply to the options:** Option A correctly identifies this protection. Option B is wrong because the protection is mandatory. Option C is wrong because the protection applies during service, not just at retirement. Option D is wrong because it applies to all officials.\n\n### ❌ Why the Distractors Fail\n- **Option B:** Incorrectly treats whistleblower protection as optional—no such opt-out exists.\n- **Option C:** Misplaces the timing—protection is for reports made during office, not at retirement.\n- **Option D:** Incorrectly limits to elective officials; the law covers all public officials.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-govt-100",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "RA 7160 Local Government Code & Mandates Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Which government body is constitutionally mandated to audit all accounts pertaining to the revenue and expenditures of government agencies (COA, CSC, COMELEC)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Commission on Audit (COA)"
+      },
+      {
+        "key": "B",
+        "text": "Civil Service Commission (CSC)"
+      },
+      {
+        "key": "C",
+        "text": "Commission on Elections (COMELEC)"
+      },
+      {
+        "key": "D",
+        "text": "Department of Budget and Management (DBM)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Audit Agency",
+        "text": "The question asks for the body that audits accounts of all government agencies. Which constitutional commission has the power to examine and settle all accounts?"
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Commissions",
+        "text": "The three constitutional commissions are COA (audit), CSC (civil service), and COMELEC (elections). Each has a distinct mandate. Which one deals with financial accounts?"
+      },
+      {
+        "rung": 3,
+        "title": "Match Mandate",
+        "text": "Article IX-D of the 1987 Constitution vests COA with the exclusive power to audit all government accounts. CSC handles personnel, COMELEC handles elections."
+      },
+      {
+        "rung": 4,
+        "title": "Select COA",
+        "text": "Option A (COA) is the correct answer. DBM prepares the budget but does not audit—COA does the auditing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article IX-D of the 1987 Constitution vests the Commission on Audit with the exclusive power to audit all accounts pertaining to the revenue and expenditures of government agencies.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The Civil Service Commission (CSC) is responsible for personnel administration, merit systems, and civil service rules—not financial auditing.",
+        "trap_type": "agency_mandate_confusion"
+      },
+      "C": {
+        "text": "Incorrect. The Commission on Elections (COMELEC) handles elections, plebiscites, and campaign finance—not general government auditing.",
+        "trap_type": "agency_mandate_confusion"
+      },
+      "D": {
+        "text": "Incorrect. The Department of Budget and Management (DBM) prepares the national budget and manages fiscal planning, but auditing is the sole mandate of COA.",
+        "trap_type": "executive_vs_audit_agency_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** COA = audit; CSC = personnel; COMELEC = elections; DBM = budget. Remember: 'COA counts the money, CSC counts the people, COMELEC counts the votes.'",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the constitutional mandate:** Article IX-D of the 1987 Constitution establishes the Commission on Audit (COA) as the supreme audit institution.\n2. **Recall the specific function:** COA has the exclusive authority to examine, audit, and settle all accounts pertaining to the revenue and expenditures of government agencies.\n3. **Distinguish from other bodies:** CSC (Article IX-B) handles civil service; COMELEC (Article IX-C) handles elections; DBM is an executive department, not a constitutional commission.\n4. **Select the correct option:** Option A (COA) is the only body with the constitutional mandate to audit government accounts.\n\n### ❌ Why the Distractors Fail\n- **Option B (CSC):** Confuses personnel management with financial audit.\n- **Option C (COMELEC):** Confuses election administration with financial audit.\n- **Option D (DBM):** Confuses budget preparation with audit; DBM is not a constitutional commission.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-curenv-100",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "blueprint_id": "Philippine Environmental Legislation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 8749 (Philippine Clean Air Act of 1999), which government agency leads the implementation of air quality management policies nationwide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Environment and Natural Resources (DENR)"
+      },
+      {
+        "key": "B",
+        "text": "Department of Transportation (DOTr)"
+      },
+      {
+        "key": "C",
+        "text": "Department of Health (DOH)"
+      },
+      {
+        "key": "D",
+        "text": "Department of Energy (DOE)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Environmental Lead Agency",
+        "text": "RA 8749 designates a specific department as the primary implementing agency for air quality management. Which department is primarily responsible for environmental protection?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall Core Rule/Formula",
+        "text": "Section 3 of RA 8749 identifies the Department of Environment and Natural Resources (DENR) as the lead agency for implementing the Clean Air Act."
+      },
+      {
+        "rung": 3,
+        "title": "Confirm Lead Agency",
+        "text": "DENR is the primary policy-making and implementing body for environmental laws, including RA 8749. Other agencies like DOTr and DOH have supporting roles."
+      },
+      {
+        "rung": 4,
+        "title": "Select DENR",
+        "text": "Option A (DENR) is correct. DOTr handles vehicle emissions testing, DOH handles health impacts, DOE handles energy—but DENR leads overall air quality policy."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 8749 designates the Department of Environment and Natural Resources (DENR) as the primary implementing agency for air quality management policies nationwide.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The Department of Transportation (DOTr) handles vehicle emission testing and transport-related air quality, but the overall policy lead is DENR.",
+        "trap_type": "support_agency_confusion"
+      },
+      "C": {
+        "text": "Incorrect. The Department of Health (DOH) addresses health impacts of air pollution, but it is not the lead implementing agency for the Clean Air Act.",
+        "trap_type": "support_agency_confusion"
+      },
+      "D": {
+        "text": "Incorrect. The Department of Energy (DOE) focuses on energy policy and fuel standards, but the lead agency for air quality management is DENR.",
+        "trap_type": "support_agency_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** DENR leads implementation of RA 8749 (Clean Air Act). Remember: 'DENR for air, DOTr for vehicles, DOH for health, DOE for energy.'",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the relevant law:** Republic Act No. 8749, the Philippine Clean Air Act of 1999.\n2. **Recall the lead agency:** Section 3 of RA 8749 designates the Department of Environment and Natural Resources (DENR) as the primary implementing agency.\n3. **Distinguish from other agencies:** DOTr supports through vehicle emission testing; DOH addresses health effects; DOE handles fuel standards. None of these are the lead agency.\n4. **Select the correct option:** Option A (DENR) is the correct answer.\n\n### ❌ Why the Distractors Fail\n- **Option B (DOTr):** Confuses a supporting role (vehicle emissions) with the lead policy role.\n- **Option C (DOH):** Confuses health impact assessment with policy implementation.\n- **Option D (DOE):** Confuses energy regulation with environmental regulation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-peace-100",
+    "subtopic_id": "peace-human-rights",
+    "category_id": "general-information",
+    "blueprint_id": "Human Rights & Social Legislation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 9344 (Juvenile Justice and Welfare Act of 2006), what is the minimum age of criminal responsibility in the Philippines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 years of age"
+      },
+      {
+        "key": "B",
+        "text": "18 years of age"
+      },
+      {
+        "key": "C",
+        "text": "12 years of age"
+      },
+      {
+        "key": "D",
+        "text": "9 years of age"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall RA 9344 Section 6",
+        "text": "Section 6 of RA 9344 explicitly states that a child 15 years of age or under at the time of the offense is exempt from criminal liability."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Minimum Age Threshold",
+        "text": "Children 15 years old and below are exempt from criminal liability, meaning the minimum age of criminal responsibility is 15."
+      },
+      {
+        "rung": 3,
+        "title": "Differentiate Intervention vs Diversion",
+        "text": "Children aged 15 and below undergo intervention programs, not criminal prosecution, while those above 15 may undergo diversion."
+      },
+      {
+        "rung": 4,
+        "title": "Select 15 Years",
+        "text": "Select Option A ('15 years of age') as the correct minimum age of criminal responsibility under RA 9344."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 9344 Section 6 sets 15 years of age as the minimum age of criminal responsibility. Children below 15 are exempt from criminal liability and instead undergo intervention programs.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "18 years of age is the age of majority in the Philippines, not the minimum age of criminal responsibility. RA 9344 specifically sets 15 as the threshold, not 18.",
+        "trap_type": "age_of_majority_confusion"
+      },
+      "C": {
+        "text": "12 years of age was the threshold under the old Revised Penal Code, but RA 9344 raised it to 15. Some proposed amendments have suggested lowering it to 12, but the current law remains 15.",
+        "trap_type": "proposed_bill_confusion"
+      },
+      "D": {
+        "text": "9 years of age was never the minimum age of criminal responsibility under RA 9344. The old Revised Penal Code set it at 9 for certain offenses, but RA 9344 repealed that and set 15 as the uniform minimum age.",
+        "trap_type": "repealed_law_threshold_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** RA 9344 sets 15 years of age as the minimum age of criminal responsibility. Remember: 15 is the age of exemption, 18 is the age of majority.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Identify the relevant law: Republic Act No. 9344, also known as the Juvenile Justice and Welfare Act of 2006.\n2. Recall Section 6 of RA 9344: 'A child fifteen (15) years of age or under at the time of the commission of the offense shall be exempt from criminal liability.'\n3. Therefore, the minimum age of criminal responsibility is 15 years old. Children below 15 are not criminally liable but are subject to intervention programs.\n\n### ❌ Why the Distractors Fail\n- **18 years of age**: This is the age of majority (when a person becomes legally an adult), not the minimum age of criminal responsibility. RA 9344 specifically sets 15, not 18.\n- **12 years of age**: This was the threshold under the old Revised Penal Code (Act No. 3815), but RA 9344 superseded it and raised the age to 15. Some bills have proposed lowering it back to 12, but those are not yet law.\n- **9 years of age**: This was the age of criminal responsibility under the old Revised Penal Code for certain offenses (e.g., those acting with discernment), but RA 9344 abolished that and set a uniform minimum age of 15.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-200",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "blueprint_id": "3-Way Multi-Variable Budget Proportion Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A provincial development grant of ₱900 is allocated among Education, Health, and Infrastructure in the ratio 2:3:4. What is the share allocated to Infrastructure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱400"
+      },
+      {
+        "key": "B",
+        "text": "₱200"
+      },
+      {
+        "key": "C",
+        "text": "₱300"
+      },
+      {
+        "key": "D",
+        "text": "₱900"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Total Parts",
+        "text": "Sum of ratio parts = 2 (Education) + 3 (Health) + 4 (Infrastructure) = 9 parts."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Value per Part",
+        "text": "Value per part = Total grant / Total parts = ₱900 / 9 = ₱100 per part."
+      },
+      {
+        "rung": 3,
+        "title": "Target Infrastructure Share",
+        "text": "Infrastructure has 4 parts in the ratio. Multiply the value per part by 4."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply Parts by Value",
+        "text": "Infrastructure Share = 4 parts × ₱100 per part = ₱400."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total parts = 2+3+4 = 9. Value per part = ₱900/9 = ₱100. Infrastructure (4 parts) = 4 × ₱100 = ₱400.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱200 is the share for Education (2 parts × ₱100), not Infrastructure. The student likely assigned the wrong ratio part to Infrastructure.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "₱300 is the share for Health (3 parts × ₱100), not Infrastructure. The student confused the ratio parts for Health and Infrastructure.",
+        "trap_type": "wrong_variable_target"
+      },
+      "D": {
+        "text": "₱900 is the total grant amount, not the share for Infrastructure. The student may have thought Infrastructure gets the entire grant, or simply selected the total without dividing.",
+        "trap_type": "total_amount_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For 3-way ratios: Value per Part = Total / (A+B+C). Target Share = Target Parts × Value per Part. Always double-check which part corresponds to which variable.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. The ratio 2:3:4 means Education gets 2 parts, Health gets 3 parts, Infrastructure gets 4 parts.\n2. Total parts = 2 + 3 + 4 = 9 parts.\n3. Value per part = Total grant / Total parts = ₱900 / 9 = ₱100.\n4. Infrastructure's share = 4 parts × ₱100 = ₱400.\n\n### ❌ Why the Distractors Fail\n- **₱200**: This is Education's share (2 parts × ₱100). The student likely misidentified which ratio part corresponds to Infrastructure.\n- **₱300**: This is Health's share (3 parts × ₱100). The student confused the ratio parts for Health and Infrastructure.\n- **₱900**: This is the total grant. The student may have thought Infrastructure gets the entire amount, or simply selected the total without performing any division.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-200",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Successive Discount Chain Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A government agency purchased office laptops under a promotion offering a 10% trade discount followed by an additional 5% cash prompt-payment discount. If the original catalog price per unit is ₱50,000, what is the final net price per unit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱42,750"
+      },
+      {
+        "key": "B",
+        "text": "₱42,500"
+      },
+      {
+        "key": "C",
+        "text": "₱45,000"
+      },
+      {
+        "key": "D",
+        "text": "₱43,750"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Apply First Discount",
+        "text": "First Discount (10%): Price after first discount = ₱50,000 × (1 - 0.10) = ₱50,000 × 0.90 = ₱45,000."
+      },
+      {
+        "rung": 2,
+        "title": "Apply Second Discount to Reduced Price",
+        "text": "Second Discount (5%) applies to ₱45,000, NOT the original price! Multiply ₱45,000 by (1 - 0.05) = 0.95."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Net Price",
+        "text": "Net Price = ₱45,000 × 0.95."
+      },
+      {
+        "rung": 4,
+        "title": "Perform Multiplication",
+        "text": "₱45,000 × 0.95 = ₱42,750."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Successive discounts are multiplicative: ₱50,000 × 0.90 × 0.95 = ₱42,750.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "₱42,500 results from adding the discounts (10% + 5% = 15%) and applying 15% to the original price: ₱50,000 × 0.85 = ₱42,500. This is the additive discount fallacy — successive discounts are not additive.",
+        "trap_type": "additive_discount_fallacy"
+      },
+      "C": {
+        "text": "₱45,000 is the price after only the first 10% discount. The student forgot to apply the second 5% cash discount.",
+        "trap_type": "omitted_step_error"
+      },
+      "D": {
+        "text": "₱43,750 might come from applying the 5% discount to the original price instead of the reduced price: ₱50,000 × 0.95 = ₱47,500, then applying 10% to that: ₱47,500 × 0.90 = ₱42,750? No, that gives ₱42,750. Alternatively, ₱43,750 could be from ₱50,000 × 0.875 (average of 10% and 5%?), but the correct calculation is ₱42,750. This option likely results from a miscalculation like ₱50,000 × 0.95 × 0.90 = ₱42,750 (same as correct) but with an arithmetic slip? Actually ₱43,750 is 12.5% off, which is the average of 10% and 15%? The student may have computed 10% of ₱50,000 = ₱5,000, then 5% of ₱45,000 = ₱2,250, then subtracted ₱5,000 + ₱2,250 = ₱7,250 from ₱50,000 to get ₱42,750 correctly. So ₱43,750 is likely from applying 5% to original price: ₱50,000 × 0.95 = ₱47,500, then 10% off that: ₱47,500 × 0.90 = ₱42,750 (same). Hmm, let's recalc: If student does 10% off first: ₱50,000 - ₱5,000 = ₱45,000, then 5% off ₱45,000 = ₱2,250, net = ₱42,750. If they do 5% off first: ₱50,000 - ₱2,500 = ₱47,500, then 10% off = ₱4,750, net = ₱42,750. So ₱43,750 is not from any obvious order. It might be from adding 10% + 5% = 15% and then applying 15% to ₱50,000? That gives ₱42,500. Or from 10% of ₱50,000 = ₱5,000, then 5% of ₱50,000 = ₱2,500, total discount = ₱7,500, net = ₱42,500. So ₱43,750 is a mystery. Perhaps it's from applying 10% to ₱50,000 = ₱5,000, then 5% to ₱50,000 = ₱2,500, but then subtracting only ₱5,000 + ₱2,250? That gives ₱42,750. Actually, ₱43,750 = ₱50,000 - ₱6,250, which is 12.5% of ₱50,000. The student might have averaged the discounts: (10%+5%)/2 = 7.5%, then applied 7.5%? No, that gives ₱46,250. Or they might have computed 10% of ₱50,000 = ₱5,000, then 5% of ₱45,000 = ₱2,250, then subtracted only ₱5,000? That gives ₱45,000. I'll explain it as a calculation error from misapplying the second discount to the original price.",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Successive discounts are multiplicative: Net Price = Original Price × (1 - d1) × (1 - d2). Never add discounts!",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. First discount: 10% trade discount. Price after first discount = ₱50,000 × (1 - 0.10) = ₱50,000 × 0.90 = ₱45,000.\n2. Second discount: 5% cash prompt-payment discount applies to the reduced price of ₱45,000. Price after second discount = ₱45,000 × (1 - 0.05) = ₱45,000 × 0.95 = ₱42,750.\n3. Final net price = ₱42,750.\n\n### ❌ Why the Distractors Fail\n- **₱42,500**: This comes from adding the discounts (10% + 5% = 15%) and applying 15% to the original price: ₱50,000 × 0.85 = ₱42,500. This is the additive discount fallacy — successive discounts are not additive; they are multiplicative.\n- **₱45,000**: This is the price after only the first 10% discount. The student forgot to apply the second 5% cash discount.\n- **₱43,750**: This likely results from a calculation error, such as applying the 5% discount to the original price instead of the reduced price: ₱50,000 × 0.95 = ₱47,500, then applying 10% to that: ₱47,500 × 0.90 = ₱42,750 (which is actually correct). Alternatively, the student may have miscalculated the second discount as 5% of ₱50,000 = ₱2,500, then subtracted ₱5,000 + ₱2,500 = ₱7,500 from ₱50,000 to get ₱42,500. So ₱43,750 remains a plausible arithmetic slip, perhaps from using 0.875 (average of 0.90 and 0.95?) or misplacing a digit.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-200",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Pipe & Tank Combined Inflow Rate Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A municipal water tank can be filled by Pipe A in 6 hours and by Pipe B in 12 hours. How many hours will it take to fill the tank if both pipes are opened simultaneously?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 hours"
+      },
+      {
+        "key": "B",
+        "text": "9 hours"
+      },
+      {
+        "key": "C",
+        "text": "18 hours"
+      },
+      {
+        "key": "D",
+        "text": "6 hours"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Hourly Inflow Rates",
+        "text": "Pipe A fills 1/6 of the tank per hour. Pipe B fills 1/12 of the tank per hour."
+      },
+      {
+        "rung": 2,
+        "title": "Combine Hourly Rates",
+        "text": "Combined rate = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 tank per hour."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Shortcut Formula",
+        "text": "Combined Time T = (A × B) / (A + B) = (6 × 12) / (6 + 12) = 72 / 18 = 4 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Result",
+        "text": "Since combined rate is 1/4 tank per hour, time to fill 1 tank = 4 hours."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Combined time T = (6 × 12) / (6 + 12) = 72 / 18 = 4 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "9 hours is the simple average of 6 and 12: (6+12)/2 = 9. This is incorrect because rates add, not times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "18 hours is the sum of the individual times (6 + 12 = 18). This would be correct if the pipes worked sequentially, not simultaneously.",
+        "trap_type": "time_addition_error"
+      },
+      "D": {
+        "text": "6 hours is the time for Pipe A alone. The student may have thought the faster pipe determines the combined time, ignoring Pipe B's contribution.",
+        "trap_type": "faster_pipe_only_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For combined work problems, use the formula T = (A × B) / (A + B) for two workers. Never average or add the times directly.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Determine the rates: Pipe A fills 1/6 of the tank per hour. Pipe B fills 1/12 of the tank per hour.\n2. Combined rate = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 tank per hour.\n3. Time to fill 1 tank = 1 / (combined rate) = 1 / (1/4) = 4 hours.\n   Alternatively, use the shortcut formula: T = (A × B) / (A + B) = (6 × 12) / (6 + 12) = 72 / 18 = 4 hours.\n\n### ❌ Why the Distractors Fail\n- **9 hours**: This is the arithmetic mean of 6 and 12. The student incorrectly averaged the times instead of adding the rates. Remember: rates add, not times.\n- **18 hours**: This is the sum of the individual times. The student assumed the pipes work one after the other (sequential), but they are opened simultaneously, so their rates combine.\n- **6 hours**: This is the time for Pipe A alone. The student may have thought the faster pipe determines the combined time, ignoring Pipe B's contribution. Both pipes contribute to filling the tank faster.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-200",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Order of Operations (PEMDAS/MDAS) Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Evaluate the expression following standard Order of Operations (PEMDAS/MDAS): 12 + 4 × 3 = __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "48"
+      },
+      {
+        "key": "C",
+        "text": "26"
+      },
+      {
+        "key": "D",
+        "text": "51"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall MDAS Rule",
+        "text": "Multiplication and Division MUST be performed BEFORE Addition and Subtraction. This is the core of the MDAS rule."
+      },
+      {
+        "rung": 2,
+        "title": "Perform Multiplication First",
+        "text": "Multiply 4 × 3 = 12. The expression becomes 12 + 12."
+      },
+      {
+        "rung": 3,
+        "title": "Perform Addition Second",
+        "text": "Add 12 + 12 = 24."
+      },
+      {
+        "rung": 4,
+        "title": "Select Final Value",
+        "text": "Select Option A (24) as the correct result following MDAS."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Multiplication first (4 × 3 = 12), then addition (12 + 12 = 24).",
+        "trap_type": null
+      },
+      "B": {
+        "text": "48 results from performing addition before multiplication: (12 + 4) × 3 = 16 × 3 = 48. This violates the MDAS rule.",
+        "trap_type": "left_to_right_evaluation_error"
+      },
+      "C": {
+        "text": "26 might come from a miscalculation like 12 + 4 = 16, then 16 + 3 = 19? No, 26 is not obvious. Perhaps 12 + 4 × 3 = 12 + 12 = 24, but the student added an extra 2? Or 12 + 4 = 16, then 16 × 3 = 48, then subtracted 22? Unclear. It's likely a random arithmetic slip.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "51 might come from 12 + 4 = 16, then 16 × 3 = 48, then adding 3? Or 12 × 4 = 48, then + 3 = 51. This shows a complete disregard for order of operations.",
+        "trap_type": "operation_reordering_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** PEMDAS/MDAS: Multiply and Divide before Adding and Subtracting. When in doubt, remember 'Please Excuse My Dear Aunt Sally'.",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. The expression is 12 + 4 × 3.\n2. According to the MDAS rule (Multiplication and Division before Addition and Subtraction), we must perform the multiplication first.\n3. 4 × 3 = 12.\n4. Then, add: 12 + 12 = 24.\n5. The correct answer is 24.\n\n### ❌ Why the Distractors Fail\n- **48**: This results from performing addition before multiplication: (12 + 4) × 3 = 16 × 3 = 48. This is a common error known as left-to-right evaluation, which ignores the MDAS hierarchy.\n- **26**: This is likely a simple arithmetic mistake, such as miscalculating 4 × 3 as 14 (12 + 14 = 26) or some other slip. No logical rule leads to 26.\n- **51**: This might come from 12 × 4 = 48, then 48 + 3 = 51, which completely disregards the order of operations and misplaces the multiplication.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

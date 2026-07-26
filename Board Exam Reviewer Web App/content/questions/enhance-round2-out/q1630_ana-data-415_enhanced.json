@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-415",
+    "category_id": "analytical-ability",
+    "subtopic_id": "data-interpretation",
+    "question_text": "A line graph compares the crime rate (per 100,000 people) and the unemployment rate (%) in a region over time. In 2020, crime rate was 120 and unemployment was 8%. In 2021, crime rate was 110 and unemployment was 9%. In 2022, crime rate was 130 and unemployment was 10%. In 2023, crime rate was 140 and unemployment was 11%. Which year had the highest crime rate relative to unemployment? (Crime rate per 1% unemployment)",
+    "options": [
+      {
+        "key": "A",
+        "text": "2020"
+      },
+      {
+        "key": "B",
+        "text": "2021"
+      },
+      {
+        "key": "C",
+        "text": "2022"
+      },
+      {
+        "key": "D",
+        "text": "2023"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1965",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

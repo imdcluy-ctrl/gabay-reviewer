@@ -1,0 +1,58 @@
+id: num-ratio-007
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 3
+is_free: true
+language: en
+tags: ["3-part-ratio", "budget-difference"]
+estimated_seconds: 100
+question_text: "A ₱90,000 community development grant is divided among three barangays A, B, and C in the ratio 1:2:3. What is the difference in grant amount between Barangay C and Barangay A?"
+options:
+  - key: A
+    text: "₱15,000"
+  - key: B
+    text: "₱30,000"
+  - key: C
+    text: "₱45,000"
+  - key: D
+    text: "₱60,000"
+correct: B
+blueprint_id: "Ratio and Proportion — calculating difference between ratio shares"
+hint_ladder:
+  - rung: 1
+    title: "Find Total Parts"
+    text: "Ratio A:B:C = 1:2:3. Total parts = 1 + 2 + 3 = 6."
+  - rung: 2
+    title: "Find Value per Part"
+    text: "₱90,000 ÷ 6 = ₱15,000 per part."
+  - rung: 3
+    title: "Find Ratio Difference"
+    text: "Barangay C has 3 parts, Barangay A has 1 part. Difference = 3 - 1 = 2 parts."
+  - rung: 4
+    title: "Calculate Amount"
+    text: "2 parts × ₱15,000 = ₱30,000."
+deconstruct_text: |
+  Total ratio parts = 1 + 2 + 3 = 6 parts
+  1 part = ₱90,000 ÷ 6 = ₱15,000
+  Barangay C = 3 × ₱15,000 = ₱45,000
+  Barangay A = 1 × ₱15,000 = ₱15,000
+  Difference = ₱45,000 - ₱15,000 = ₱30,000
+
+  Shortcut: Difference in parts = 3 - 1 = 2 parts → 2 × ₱15,000 = ₱30,000
+choice_explanations:
+  A:
+    text: "This is the value of 1 ratio part (Barangay A's share), not the difference."
+    trap_type: wrong_part
+  B:
+    text: "Correct! Barangay C (₱45,000) minus Barangay A (₱15,000) = ₱30,000."
+    trap_type: null
+  C:
+    text: "This is Barangay C's total share (3 parts × ₱15,000), not the difference between C and A."
+    trap_type: wrong_part
+  D:
+    text: "Adding C and A (3+1 = 4 parts × ₱15,000 = ₱60,000) instead of subtracting."
+    trap_type: formula_misapplication
+next_time_rule: "To find the difference between two shares, subtract their ratio numbers first, then multiply by the value of one part."
+status: live
+reviewed_by: null
+source_notes: "Grant distribution difference ratio problem"

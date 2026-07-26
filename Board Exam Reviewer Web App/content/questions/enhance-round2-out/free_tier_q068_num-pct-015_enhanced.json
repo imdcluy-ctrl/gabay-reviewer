@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-015",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A civil servant took a personal loan of P120,000 at 8% simple interest. Total to repay after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P129,600"
+      },
+      {
+        "key": "B",
+        "text": "P134,400"
+      },
+      {
+        "key": "C",
+        "text": "P139,200"
+      },
+      {
+        "key": "D",
+        "text": "P144,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a simple interest problem. You need to find the total amount to repay, which is the original loan plus the interest charged over the full loan period."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Simple interest is calculated as: Interest = Principal x Rate x Time. Remember that the rate must be in decimal form (8% becomes 0.08) and time must be in years."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Plug the numbers into the formula: Interest = 120,000 x 0.08 x 2. Multiply 120,000 by 0.08 first to get 9,600 (that's one year's interest). Then multiply that by 2 for the two-year period."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "You should have found the total interest is P19,200. Now just add that to the original principal of P120,000. What do you get?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P129,600. This is a common slip where you only calculate interest for one year (P9,600) and add it to the principal. But the loan is for two full years, so you need two years' worth of interest.",
+        "trap_type": "time_period_error_one_year"
+      },
+      "B": {
+        "text": "P134,400. This might happen if you accidentally used 1.5 years instead of 2, perhaps by mixing up the time or making a quick mental miscalculation. The interest for 1.5 years would be P14,400, but the correct period is 2 years.",
+        "trap_type": "time_period_error_one_point_five"
+      },
+      "C": {
+        "text": "Correct! You calculated the interest correctly: P120,000 x 0.08 x 2 = P19,200. Adding that to the principal gives P139,200. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P144,000. This answer suggests you might have added 20% of the principal instead of 16%. Remember, 8% per year for 2 years means 16% total interest, not 20%. Double-check your multiplication.",
+        "trap_type": "percentage_rate_error"
+      }
+    },
+    "next_time_rule": "For simple interest, always multiply the principal by the rate (as a decimal) and then by the number of years. A quick mental shortcut: find one year's interest first, then multiply by the number of years. Total repayment = principal + total interest.",
+    "blueprint_id": "Simple Interest — Loan Repayment",
+    "deconstruct_text": "Let's walk through this together. The key is to remember that simple interest means the interest is calculated only on the original principal, not on any accumulated interest. So first, convert the 8% annual rate to a decimal: 0.08. Then multiply the principal (P120,000) by that rate to get the interest for one year: P120,000 x 0.08 = P9,600. Since the loan is for 2 years, multiply that by 2: P9,600 x 2 = P19,200 in total interest. Finally, add the interest to the original loan amount: P120,000 + P19,200 = P139,200. A handy mental trick for simple interest problems is to think of it as 'principal times rate times time' — just make sure your rate is in decimal form and your time is in years. If you ever get confused, break it down: find one year's interest first, then scale it up.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

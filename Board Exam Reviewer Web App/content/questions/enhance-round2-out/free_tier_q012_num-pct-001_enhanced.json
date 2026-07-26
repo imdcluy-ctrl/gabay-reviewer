@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-001",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal health office received a budget increase from ₱800,000 to ₱1,000,000. What was the percentage increase in its budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "80%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the actual increase first",
+        "text": "Before you can find the percentage, you need to know how much the budget actually grew. Subtract the old budget from the new one."
+      },
+      {
+        "rung": 2,
+        "title": "Always use the original as your base",
+        "text": "When calculating a percentage increase, the 'whole' you're comparing against is always the original starting number. Don't accidentally use the new number as your base."
+      },
+      {
+        "rung": 3,
+        "title": "Set up the fraction",
+        "text": "Take the increase you found and put it over the original budget. Simplify that fraction as much as you can."
+      },
+      {
+        "rung": 4,
+        "title": "Convert your fraction to a percentage",
+        "text": "Once you have a simplified fraction like 1/4, just multiply it by 100 to get the percentage. You're almost there."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common trap. If you divide the increase (200,000) by the new budget (1,000,000), you get 20%. But remember, percentage increase is always calculated based on the original, smaller number. The new budget is the result, not the starting point.",
+        "trap_type": "wrong_base_error"
+      },
+      "B": {
+        "text": "This is correct. The increase is 200,000, and the original budget is 800,000. So the fraction is 200,000/800,000, which simplifies to 1/4, or 25%. Well done.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This might happen if you mis-simplify the fraction 200,000/800,000. It's easy to think it's 3/10 if you're rushing, but 200,000 goes into 800,000 exactly four times, giving you 1/4, not 3/10. Double-check your division.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "This is a classic mix-up. 80% is what you get if you divide the old budget by the new budget (800,000/1,000,000 = 0.80). That tells you the old budget is 80% of the new one, but the question asks for the percentage increase, not the ratio of old to new.",
+        "trap_type": "ratio_confusion"
+      }
+    },
+    "next_time_rule": "For percentage increase, always use the formula: (Change / Original) x 100. The original number is your anchor.",
+    "blueprint_id": "Numerical Ability — Percentage Increase",
+    "deconstruct_text": "Let's walk through this together. The question asks for the percentage increase, so the first thing we need is the actual amount of the increase. That's just the new budget minus the old budget: 1,000,000 minus 800,000 equals 200,000. Now, the key to any percentage problem is knowing what your 'whole' is. For a percentage increase, the whole is always the original, starting value. Here, that's 800,000. So we set up our fraction: increase over original, which is 200,000 over 800,000. Simplify that by dividing both top and bottom by 200,000, and you get 1/4. Finally, to turn a fraction into a percentage, multiply by 100. 1/4 times 100 is 25%. A quick mental trick for next time: if the new number is one and a quarter times the old number, the increase is 25%. If it's double, the increase is 100%. Think of it as 'how much extra did we add, compared to what we started with?'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

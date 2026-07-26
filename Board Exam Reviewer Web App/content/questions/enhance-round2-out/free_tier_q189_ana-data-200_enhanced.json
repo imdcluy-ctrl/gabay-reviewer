@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-200",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Stacked Bar Distribution Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Data Table: Municipal Waste Collection:\nOrganic: 100 Tons\nRecyclable: 150 Tons\nTotal: 250 Tons\n\nWhat percentage of total waste collected is Organic?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40%"
+      },
+      {
+        "key": "B",
+        "text": "60%"
+      },
+      {
+        "key": "C",
+        "text": "50%"
+      },
+      {
+        "key": "D",
+        "text": "30%"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a straightforward percentage problem. You're being asked how much of the whole pile is made up of one specific type of waste. Take a breath and locate the two numbers you need: the part (Organic) and the whole (Total)."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The formula for percentage is always the same: (Part divided by Whole) times 100. Think of it as asking, 'What fraction of the total is this piece?' then converting that fraction into a percentage."
+      },
+      {
+        "rung": 3,
+        "title": "Plug in the Numbers",
+        "text": "Your part is Organic at 100 tons. Your whole is the Total at 250 tons. So set it up as (100 / 250) x 100. Now just do the math step by step."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "100 divided by 250 equals 0.4. Multiply 0.4 by 100 and you get 40. That's your percentage. Look for 40% among the choices. Notice that 60% would be the Recyclable's share if you accidentally used that number instead."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. You took the Organic amount (100 tons) and divided it by the total (250 tons), then multiplied by 100 to get 40%. You nailed the part-whole relationship.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common slip. You calculated 150/250 instead of 100/250. That gives you the percentage for Recyclable waste, not Organic. The question asks specifically about Organic, so double-check which number you're using as the 'part'.",
+        "trap_type": "wrong_variable_target"
+      },
+      "C": {
+        "text": "50% would be correct if Organic were 125 tons, but it's 100. You might have averaged the two numbers or misread the table. When you see a clean number like 50%, it's worth pausing to verify your calculation isn't just a guess.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "30% would mean Organic is 75 tons, but the table clearly says 100. This could happen if you divided 100 by something other than 250, like 333 or another figure. Always confirm you're using the total as your denominator.",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "When finding a percentage, always ask yourself: 'What is the part, and what is the whole?' Then use the formula (Part / Whole) x 100. A quick mental shortcut: if the part is less than half the whole, your answer will be under 50%. Here, 100 is less than half of 250, so 40% makes sense.",
+    "deconstruct_text": "Let's walk through this together. The question gives you a simple table: Organic waste is 100 tons, Recyclable is 150 tons, and the total is 250 tons. You're asked what percentage of the total is Organic. The key is to identify your 'part' and your 'whole.' The part is Organic at 100 tons. The whole is the total at 250 tons. Now apply the percentage formula: (Part / Whole) x 100. So that's (100 / 250) x 100. Do the division first: 100 divided by 250 is 0.4. Then multiply by 100 to convert to a percentage: 0.4 x 100 = 40%. That's your answer. A great mental trick for exam speed is to simplify the fraction first. 100/250 reduces to 2/5 when you divide both by 50. And 2/5 as a percentage is 40%. This way, you avoid messy decimals and get the answer faster.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

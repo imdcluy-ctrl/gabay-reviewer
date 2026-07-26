@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-496",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "The Declaration of Policy in Section 2 of RA 6713 states that 'public office is a public trust.' Which of the following scenarios BEST exemplifies this principle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A mayor uses his position to secure a government loan for his family's business."
+      },
+      {
+        "key": "B",
+        "text": "A barangay captain prioritizes the repair of a bridge that serves the majority of residents over a road leading to a private subdivision."
+      },
+      {
+        "key": "C",
+        "text": "A congressman hires his wife as his chief of staff at a salary higher than the standard rate."
+      },
+      {
+        "key": "D",
+        "text": "A government employee accepts a gift from a supplier in exchange for faster processing of permits."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3115",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

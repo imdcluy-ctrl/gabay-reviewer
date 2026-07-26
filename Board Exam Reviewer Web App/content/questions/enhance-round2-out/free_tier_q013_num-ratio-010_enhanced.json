@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-010",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "An LGU inspection vehicle consumes 18 liters of gasoline to cover a distance of 210 kilometers. How many liters of gasoline will it consume for a 350-kilometer inspection trip?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 liters"
+      },
+      {
+        "key": "B",
+        "text": "28 liters"
+      },
+      {
+        "key": "C",
+        "text": "30 liters"
+      },
+      {
+        "key": "D",
+        "text": "35 liters"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Direct Relation",
+        "text": "Think about it: if you drive farther, you'll use more gas. That's a direct proportion—both distance and fuel increase together. So we're looking for a number bigger than 18."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Proportion",
+        "text": "Write it as liters over kilometers: 18/210 = X/350. Keep the same order on both sides—fuel on top, distance on bottom."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify Initial Ratio",
+        "text": "Before you cross-multiply big numbers, simplify 18/210. Both are divisible by 6, giving you 3/35. Much friendlier to work with."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for X",
+        "text": "Now you have 3/35 = X/350. Notice 350 is 35 times 10. So X is just 3 times 10, which is 30 liters. You're one step away."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25 liters is a tempting guess if you rounded something off or made a quick arithmetic slip. But if you set up the proportion correctly, you'll see the actual answer is a clean 30. Double-check your multiplication—it's easy to misplace a number under time pressure.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "28 liters might come from a rough estimate like 18/210 is about 0.0857, then multiplying by 350 gives roughly 30, not 28. Or maybe you tried 350 divided by 12.5? The key is to simplify the ratio first—it keeps your math neat and avoids these small errors.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! You recognized the direct proportion, simplified 18/210 to 3/35, and saw that 350 is 35 times 10, so the fuel is 3 times 10 = 30 liters. Clean and efficient.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 liters is a classic mix-up—it's the same number as the distance (350) divided by 10. It's easy to confuse the distance with the fuel amount when you're rushing. Remember, the fuel should be less than the distance in kilometers here, since 18 liters only covers 210 km.",
+        "trap_type": "number_confusion"
+      }
+    },
+    "next_time_rule": "Simplify the ratio first (divide both numbers by their greatest common factor) before cross-multiplying. It turns big scary numbers into small friendly ones.",
+    "blueprint_id": "Ratio and Proportion — vehicle fuel consumption proportion",
+    "deconstruct_text": "Here's how to think through this problem step by step.\n\nFirst, recognize that this is a direct proportion: more kilometers means more liters of gas. So we set up two equal ratios: 18 liters / 210 km = X liters / 350 km.\n\nNow, before you grab a calculator, simplify the left side. Both 18 and 210 are divisible by 6. 18 divided by 6 is 3, and 210 divided by 6 is 35. So the ratio becomes 3/35.\n\nNow you have 3/35 = X/350. Look at the denominators: 35 and 350. Notice that 350 is exactly 35 times 10. That means X must be 3 times 10, which is 30. So the answer is 30 liters.\n\nIf you prefer cross-multiplying, you'd do 3 times 350 = 1050, then divide by 35 to get 30. Either way works, but the simplification trick is faster and less error-prone.\n\nHere's a mental trick for next time: when you see a proportion with numbers that share a common factor, simplify first. It's like clearing the clutter off your desk before you start working—everything becomes clearer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

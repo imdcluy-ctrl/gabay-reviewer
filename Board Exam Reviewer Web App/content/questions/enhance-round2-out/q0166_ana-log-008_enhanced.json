@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-008",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'Only citizens aged 18 and above may vote.' Juan is 20 years old and a citizen. Therefore:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan may vote."
+      },
+      {
+        "key": "B",
+        "text": "Juan may not vote."
+      },
+      {
+        "key": "C",
+        "text": "Cannot be determined."
+      },
+      {
+        "key": "D",
+        "text": "Juan must register first."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tingnan ang rule conditions",
+        "text": "The rule: 'Only citizens aged 18+ may vote.' Checklist ng dalawang items: (1) citizen, (2) at least 18. Both must be met."
+      },
+      {
+        "rung": 2,
+        "title": "I-check si Juan",
+        "text": "Juan ay citizen, so checked. 20 years old siya, above 18, so checked. Lahat satisfied."
+      },
+      {
+        "rung": 3,
+        "title": "Diretsong apply ang rule",
+        "text": "Since both boxes ticked, the rule says 'may vote' – diretsong conclusion. No further kalkal."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang tamang sagot",
+        "text": "Option A matches exactly. Others either contradict (B), create doubt (C), or add extra requirement (D)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Juan satisfies both conditions, so the rule allows him to vote directly—no hidden requirements.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you hastily assumed something else disqualifies him, but both conditions are met, so 'may vote' stands.",
+        "trap_type": "hasty_generalization"
+      },
+      "C": {
+        "text": "You might have chosen C because you generalized that there might be hidden conditions, but the rule is clear and all given facts satisfy ...",
+        "trap_type": "hasty_generalization"
+      },
+      "D": {
+        "text": "You might have chosen D because you assumed registration is required, but the given rule only needs citizenship and age—no extras.",
+        "trap_type": "hasty_generalization"
+      }
+    },
+    "next_time_rule": "Treat clear rules like checklists: if both boxes ticked, conclusion follows. Don't overthink or add extra steps. Idiretso mo lang.",
+    "blueprint_id": "Conditional Logic — Sufficient Conditions",
+    "deconstruct_text": "Isipin mo, sa barangay elections, may rule: 'Only citizens aged 18 and above may vote.' Parang checklist 'yan. Check box 1: citizen ba si Juan? Oo. Box 2: at least 18 years old? Oo, 20 na siya. Kaya automatic, satisfy niya conditions.\n\nMental Trick: 'Checklist lang, walang 'pero'. Kapag citizen at 18+, automatic may vote. Huwag mong dagdagan ng registration o kung anuman. Idiretso mo lang—Juan may vote.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

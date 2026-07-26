@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-203",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article XI",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Impeachment of Constitutional Officers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article XI (Accountability)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the purpose of impeachment",
+        "text": "Impeachment is the process of holding high-ranking officials accountable for wrongdoing. Which part of the Constitution do you think would talk about accountability?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall the Constitution's structure",
+        "text": "The Constitution is organized by topic. Articles I through V cover foundational topics like territory, declaration of principles, bill of rights, and suffrage. Accountability comes later, after the branches of government."
+      },
+      {
+        "rung": 3,
+        "title": "Pinpoint the accountability article",
+        "text": "Article XI is titled 'Accountability of Public Officers.' It includes the impeachment process. So if you remember that impeachment is about holding officers accountable, you can connect it directly to Article XI."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the others",
+        "text": "Article I is about territory, Article III is about individual rights, and Article V is about voting. None of these deal with removing officials from office. Only Article XI fits."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article XI is all about Accountability of Public Officers, and impeachment is a key part of that accountability process. You connected the right topic to the right article.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I defines the National Territory—the physical boundaries of the country. A smart student might pick this because it's the first article and seems important, but it has nothing to do with impeachment or holding officials accountable.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual freedoms like speech and religion. It's easy to confuse this with legal proceedings, but impeachment is a political process under accountability, not a criminal trial.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V covers Suffrage—the right to vote. Some students might think impeachment involves voting (since Congress votes on it), but the article itself is about citizens' voting rights, not the removal of officials.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'impeachment,' immediately think 'accountability.' And when you think 'accountability,' remember Article XI. Use the mnemonic: 'After the 3 branches (VI, VII, VIII), comes Accountability at XI.'",
+    "deconstruct_text": "Let's walk through this together. The question asks which Article covers impeachment of constitutional officers. The key word here is 'impeachment'—which is all about holding officials accountable for misconduct. So you want the article that deals with accountability. In the 1987 Constitution, the first few articles cover foundational topics: Article I is National Territory, Article II is Declaration of Principles, Article III is Bill of Rights, Article IV is Citizenship, and Article V is Suffrage. Then come the branches of government: Legislative (VI), Executive (VII), and Judiciary (VIII). Right after that, Article XI is titled 'Accountability of Public Officers'—and that's where impeachment lives. The trick is to remember that impeachment is an accountability mechanism, not a right or a territorial matter. So when you see 'impeachment,' your brain should light up with 'Accountability = Article XI.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

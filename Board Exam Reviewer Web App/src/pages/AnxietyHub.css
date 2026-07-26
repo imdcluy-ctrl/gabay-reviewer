@@ -1,0 +1,89 @@
+.anxiety-hub-layout {
+  min-height: 100vh;
+  background: var(--color-bg-primary, #fafbfc);
+  padding-bottom: 3rem;
+}
+
+.anxiety-sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg-card, #ffffff);
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.anxiety-header-title h1 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0;
+}
+
+.anxiety-header-subtitle {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0;
+}
+
+.anxiety-main-content {
+  max-width: 760px;
+  margin: 1.5rem auto 0 auto;
+  padding: 0 1rem;
+}
+
+.anxiety-tabs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+  margin-bottom: 1rem;
+}
+
+.anxiety-tab-btn {
+  background: var(--color-bg-secondary, #f1f5f9);
+  border: 1px solid var(--color-border, #cbd5e1);
+  border-radius: var(--radius-md, 8px);
+  padding: 0.6rem 1rem;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary, #475569);
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: 48px;
+  transition: all 0.2s ease;
+}
+
+.anxiety-tab-btn:hover {
+  background: var(--color-bg-hover, #e2e8f0);
+  color: var(--color-text-primary, #0f172a);
+}
+
+.anxiety-tab-btn.active {
+  background: var(--color-brand-teal, #0d7377);
+  color: #ffffff;
+  border-color: var(--color-brand-teal, #0d7377);
+  font-weight: 600;
+}
+
+.anxiety-medical-disclaimer {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  background: var(--color-bg-secondary, #f8fafc);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #64748b);
+  line-height: 1.5;
+}
+
+.anxiety-medical-disclaimer p {
+  margin: 0;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-016",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses correct tense consistency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The director approved the memo and said it was satisfactory."
+      },
+      {
+        "key": "B",
+        "text": "The director approved the memo and says it was satisfactory."
+      },
+      {
+        "key": "C",
+        "text": "The director approves the memo and said it is satisfactory."
+      },
+      {
+        "key": "D",
+        "text": "The director approved the memo and says it is satisfactory."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tense Consistency",
+        "text": "Think about time. When two actions happen around the same moment, their verbs should usually match in tense. It's like wearing matching socks—if one is past, the other should be past too, unless there's a good reason to switch."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the tenses",
+        "text": "Look at each option and spot the verb tenses. Option A has 'approved' (past) and 'said' (past)—both in the past. Option B has 'approved' (past) and 'says' (present)—mixed. Option C has 'approves' (present) and 'said' (past)—mixed. Option D has 'approved' (past) and 'says' (present)—mixed."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule",
+        "text": "The director did two things: approved the memo and said something about it. Both happened at the same time in the past. So both verbs need to be in past tense. No reason to shift to present."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Only Option A keeps both verbs in the past tense: 'approved' and 'said'. The others mix past and present, which breaks the consistency rule. You're almost there—pick the one where the tenses match."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Both 'approved' and 'said' are in past tense, matching perfectly. The director did both actions in the past, so this sentence flows smoothly without any tense clash.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one might look okay at first glance, but 'approved' is past while 'says' is present. Since the director's approving and saying happened at the same time, both should be past. The mix creates a subtle inconsistency that can trip you up.",
+        "trap_type": "tense_inconsistency"
+      },
+      "C": {
+        "text": "Here, 'approves' is present but 'said' is past. If the director approves now, the saying should also be present ('says'). This mismatch makes the sentence feel off, like two different time periods are being mashed together.",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "Similar to option B, 'approved' (past) and 'says' (present) don't align. The director's actions are in the same time frame, so the tenses should match. This is a common trap—our ears might not catch it, but the rule is clear.",
+        "trap_type": "tense_inconsistency"
+      }
+    },
+    "next_time_rule": "When two verbs are joined by 'and' and refer to the same time period, keep them in the same tense. If one is past, the other should be past too. Think of it as a time team—they need to be in sync.",
+    "blueprint_id": "Tense Consistency",
+    "deconstruct_text": "Let's walk through this together. The key idea here is tense consistency: when two actions happen at the same time and are connected by 'and', their verbs should be in the same tense. Imagine you're telling a story about something that already happened—you'd use past tense throughout, not jump to present. Now, look at the options. Option A: 'approved' (past) and 'said' (past)—both in the past, consistent. Option B: 'approved' (past) and 'says' (present)—mixed. Option C: 'approves' (present) and 'said' (past)—mixed. Option D: 'approved' (past) and 'says' (present)—mixed. The director approved the memo and said it was satisfactory, both in the past. So only Option A keeps the tenses aligned. A quick mental trick: ask yourself, 'Did both actions happen at the same time?' If yes, match the tenses. If one happened earlier, you might need a different tense (like past perfect), but here they're simultaneous.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

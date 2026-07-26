@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-017",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "RECEIPT is to PURCHASE as DIPLOMA is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "School"
+      },
+      {
+        "key": "B",
+        "text": "Graduation"
+      },
+      {
+        "key": "C",
+        "text": "Study"
+      },
+      {
+        "key": "D",
+        "text": "Tuition"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin ang Resibo",
+        "text": "Ang resibo ay patunay na bumili ka. Sa analogy, anong dokumento ang katumbas ng diploma?"
+      },
+      {
+        "rung": 2,
+        "title": "Ano Pinapatunayan ng Diploma?",
+        "text": "Pinapatunayan ng diploma na graduate ka, hindi na nag-aral ka lang o nagbayad. Graduation ang sagot."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Distractors",
+        "text": "School – lugar; Study – proseso; Tuition – bayad. Wala sa mga ito ang pinapatunayan ng diploma."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Answer",
+        "text": "Ang tamang sagot ay Graduation. RECEIPT : PURCHASE :: DIPLOMA : GRADUATION."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'School' seems related, but a diploma proves graduation, not the institution.",
+        "trap_type": "location_confusion"
+      },
+      "B": {
+        "text": "Correct. A diploma serves as proof that you have graduated, mirroring how a receipt confirms a purchase.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you associate diploma with studying, but the relation is proof of completion, not the activity.",
+        "trap_type": "process_outcome_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because tuition is payment like purchase, but a diploma proves completion, not payment.",
+        "trap_type": "payment_confusion"
+      }
+    },
+    "next_time_rule": "Sa proof-action analogy, alamin kung anong eksaktong pangyayari ang pinapatunayan ng dokumento. Resibo → binili; Diploma → nagtapos.",
+    "blueprint_id": "Proof-Action",
+    "deconstruct_text": "**Rule:** 'Proof-action' ang relationship: unang salita (dokumento) ay ebidensya ng ikalawang salita (pangyayari). Halimbawa, sa barangay, 'yung resibo ni Aling Maria sa sari-sari store ay patunay na bumili siya ng mantika. Ganun din ang diploma: hawak mo 'yan, ibig ...\n\n1. Suriin ang relasyon: RECEIPT (resibo) → nagpapatunay ng PURCHASE (pagbili). 2. I-apply sa DIPLOMA: anong pangyayari ang pinapatunayan? Graduation (pagtatapos).\n\n3. Tingnan ang choices: A. School (eskuwelahan) – lugar ito, hindi pangyayari. B. Graduation – ito na 'yun! C. Study (pag-aaral) – proseso, hindi resulta. D. Tuition (matrikula) – bayad, hindi pinapatunayan. 4. Kumpirmahin: B ang tanging wasto.\n\n**Mental Trick:** Tandaan lang, “Resibo ko ‘to, binili ko ‘yan!” Ganun din sa diploma: “Diploma ko ‘to, graduate na ako!” Ganun kasimple!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

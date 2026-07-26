@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-011",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the value of sqrt(144)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ang square root?",
+        "text": "Ang square root ng number ay ang value na kapag pinagsama (multiplied) sa sarili niya, binibigay yung original."
+      },
+      {
+        "rung": 2,
+        "title": "Subukan ang mga choices",
+        "text": "I-check: 10×10=100, 11×11=121, 12×12=144, 13×13=169. Alin ang tamang product?"
+      },
+      {
+        "rung": 3,
+        "title": "Hanapin ang eksaktong 144",
+        "text": "Ang 12×12=144 eksakto. Ang iba ay sobra o kulang. Kaya 12 ang tamang square root."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang letra C",
+        "text": "Dahil 12 ang sagot at nasa option C ito, pindutin ang C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 10×10=100, but that square is not 144; check the required product.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because 11×11=121 is near, but it doesn't match 144; verify all squares.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 13×13=169 seems plausible, but it overshoots 144; double-check your squares.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "**Tandaan:** 12²=144, parang isang dosenang dosena ng itlog! Kabisaduhin squares 1-15.",
+    "blueprint_id": "Square Root",
+    "deconstruct_text": "Sa barangay fiesta, si Aling Rosa ay may 144 piraso ng kakanin. Gusto niyang ilagay ang mga ito sa isang square tray nang pantay-pantay. Ilang kakanin ang dapat nasa bawat gilid?\n\nAng square root ng 144 ay ang bilang na kapag minultiply sa sarili ay 144. Subukan natin ang bawat pagpipilian.\n\n10 × 10 = 100, kulang. 11 × 11 = 121, malapit pero hindi 144. 12 × 12 = 144, sakto! 13 × 13 = 169, sobra.\n\nKaya ang tamang sagot ay 12. Sa tray, 12 kakanin kada gilid.\n\n**Watch-Out Zone: reverse_operation_error** in action. Malapit ang 11, pero hindi 144. ...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-011",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "question_text": "Government 1: Which agency handles government auditing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CSC"
+      },
+      {
+        "key": "B",
+        "text": "COA"
+      },
+      {
+        "key": "C",
+        "text": "COMELEC"
+      },
+      {
+        "key": "D",
+        "text": "DILG"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the core job",
+        "text": "This question is testing whether you know which government body is specifically in charge of checking and verifying financial accounts."
+      },
+      {
+        "rung": 2,
+        "title": "A simple memory trick",
+        "text": "The word 'audit' is right there in the name of one of these agencies. Look for the agency whose name literally means 'to examine accounts.'"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate the others",
+        "text": "CSC handles hiring and employee rules. COMELEC runs elections. DILG works with local governments and police. Only one is about financial checking."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "COA stands for Commission on Audit. Think of it as the government's accountant and financial watchdog. The other agencies have completely different missions."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "CSC stands for Civil Service Commission. It's easy to mix up because it's also a constitutional commission, but its job is about people—hiring, promotions, discipline of government employees. Not about money or accounts at all.",
+        "trap_type": "personnel_vs_audit"
+      },
+      "B": {
+        "text": "Correct. COA, or Commission on Audit, is the constitutional body created under Article IX-D of the 1987 Constitution specifically to audit all government accounts. Think of it as the government's independent financial watchdog.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "COMELEC handles everything related to elections—voter registration, campaign rules, and vote counting. A smart student might pick this because it's another 'COM' commission, but auditing has nothing to do with elections.",
+        "trap_type": "elections_vs_audit"
+      },
+      "D": {
+        "text": "DILG is the Department of the Interior and Local Government. It supervises local government units and the Philippine National Police. It's a department, not a commission, and its focus is on governance and peace and order, not financial audits.",
+        "trap_type": "local_govt_vs_audit"
+      }
+    },
+    "next_time_rule": "Use the 'A is for Audit' trick: COA starts with 'CO' but think 'Audit'—it's the only agency whose name literally means to examine accounts. CSC = Civil Service (people), COMELEC = Elections (votes), DILG = Local Government (LGUs and police).",
+    "blueprint_id": "Government Agency 1",
+    "deconstruct_text": "The question asks which agency handles government auditing. The key is to match the function to the agency name. COA stands for Commission on Audit, and 'audit' means to examine and verify financial accounts. Under the 1987 Constitution, Article IX-D, COA is one of three independent constitutional commissions, each with a distinct role. CSC handles civil service matters like hiring and discipline. COMELEC manages elections. DILG, which is a department not a commission, oversees local governments and the police. So when you see 'auditing,' your mind should immediately go to COA. A simple mental framework: think of each agency's one-word core mission. COA = accounts. CSC = employees. COMELEC = elections. DILG = local units. If the question is about money and financial checking, it's always COA.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

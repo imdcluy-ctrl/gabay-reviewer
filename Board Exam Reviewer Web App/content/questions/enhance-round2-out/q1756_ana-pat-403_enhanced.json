@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ana-pat-403",
+    "category_id": "analytical-ability",
+    "subtopic_id": "pattern-recognition",
+    "question_text": "A sequence of figures shows arrows pointing in different directions and dots in different positions. Figure 1: an upward arrow with a dot above it. Figure 2: a rightward arrow with a dot to its right. Figure 3: a downward arrow with a dot below it. What should Figure 4 look like?",
+    "options": [
+      {
+        "key": "A",
+        "text": "leftward arrow with a dot to its left"
+      },
+      {
+        "key": "A",
+        "text": "leftward arrow with a dot above it"
+      },
+      {
+        "key": "C",
+        "text": "An upward arrow with a dot to its left"
+      },
+      {
+        "key": "A",
+        "text": "rightward arrow with a dot below it"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2131",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

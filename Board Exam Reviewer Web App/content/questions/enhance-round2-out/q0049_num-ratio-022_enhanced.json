@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-022",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government scholarship fund of P180,000 is divided among three students in the ratio 2:3:4. What is the largest individual scholarship?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P40,000"
+      },
+      {
+        "key": "B",
+        "text": "P60,000"
+      },
+      {
+        "key": "C",
+        "text": "P80,000"
+      },
+      {
+        "key": "D",
+        "text": "P90,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ilang Slice Lahat?",
+        "text": "I-add lang ang ratio numbers: 2+3+4 = 9. Imagine nine equal slices ng bibingka. Yung total parts ang foundation ng solution."
+      },
+      {
+        "rung": 2,
+        "title": "Value ng Isang Slice",
+        "text": "Hatiin ang total fund (₱180,000) sa total slices (9). 180,000 ÷ 9 = ₱20,000 per slice. Ito ang magic number."
+      },
+      {
+        "rung": 3,
+        "title": "Pinakamalaking Bahagi",
+        "text": "Tumingin sa ratio, ang pinakamalaking number ay 4. Multiply the slice value (₱20,000) by 4. 20,000 × 4 = ₱80,000. Diretso na!"
+      },
+      {
+        "rung": 4,
+        "title": "Double Check Bago Submit",
+        "text": "Add up all shares: 2×20k=40k, 3×20k=60k, 4×20k=80k -> total 180k. Pasok! Kaya laging unahin ang per part value."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you took the smallest ratio number (2) instead of the largest (4); 2 × ₱20,000 = ₱40,000, pero hindi iyon...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because you multiplied the middle ratio (3) by ₱20,000, not the highest; 3 × 20k = 60k, pero ang hinahanap ay pin...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "Correct. 4 parts × ₱20,000 = ₱80,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you assumed the largest share is half the total, ignoring the ratio; 50% ng ₱180,000 is ₱90,000.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "Sa ratio problems: I-add ang parts, hatiin ang total para makuha ang value per part, tapos i-multiply sa hinahanap na part. 'Parts muna, per part value, tapos target part.'",
+    "blueprint_id": "Part-to-Whole — Scholarship Distribution",
+    "deconstruct_text": "Let’s imagine the barangay scholarship committee in our barangay distributing funds. The ratio 2:3:4 means the total is cut into 2+3+4 = 9 equal slices, like slicing a bibingka into 9 pieces.\n\nThe total fund is ₱180,000, so each slice is worth ₱180,000 ÷ 9 = ₱20,000. Now, the largest share goes to the scholar with the highest ratio number, 4.\n\nSo, 4 slices × ₱20,000 = ₱80,000. The other shares (2 parts = ₱40,000, 3 parts = ₱60,000) add up to ₱180,000. Tama!\n\nMental Trick: Sa ratio problems, laging hanapin ang 'value per part' muna — hatiin ang total sa total parts. 'Slices muna bago bahagi' (Taglish: Slices first before sharing).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

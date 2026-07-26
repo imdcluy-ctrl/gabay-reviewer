@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-014",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A barangay has a total population of 2,400 people. The ratio of adults to children is 5:3. How many adults are in the barangay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1,200"
+      },
+      {
+        "key": "B",
+        "text": "1,400"
+      },
+      {
+        "key": "C",
+        "text": "1,500"
+      },
+      {
+        "key": "D",
+        "text": "1,600"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "A ratio like 5:3 is just a way of saying the whole population is divided into equal-sized parts. Adults get 5 of those parts, children get 3. How many total parts are there altogether?"
+      },
+      {
+        "rung": 2,
+        "title": "Find One Part",
+        "text": "If you know the total number of parts (5 + 3 = 8), and you know the total population (2,400), you can figure out how many people are in just one part. Divide the total by the number of parts."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Adults",
+        "text": "Each part is worth 300 people (2,400 divided by 8). Adults have 5 of these parts. So multiply 5 by 300 to get the number of adults."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "5 times 300 equals 1,500. That's the number of adults. Look for that among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "1,200 is exactly half of 2,400. It's a very natural mistake if you assume the population is split evenly between adults and children. But the ratio 5:3 tells us adults outnumber children, so the adult count must be more than half. This answer would only be correct if the ratio were 1:1.",
+        "trap_type": "half_population_fallacy"
+      },
+      "B": {
+        "text": "1,400 is a tempting middle ground, but there's no clean mathematical path to it from the given numbers. It might come from a rushed calculation like 2,400 times 5/8 and then rounding down, or from mixing up the parts. Trust the step-by-step method instead of guessing.",
+        "trap_type": "arbitrary_miscalculation"
+      },
+      "C": {
+        "text": "Correct! You add the ratio parts (5 + 3 = 8), divide the total population by that sum (2,400 divided by 8 = 300 per part), then multiply by the adults' share (5 times 300 = 1,500). Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "1,600 is two-thirds of 2,400, which would match a ratio of 2:1 or 4:2. This mistake often happens when someone reverses the ratio and thinks adults are 5 parts out of 3 total, or when they multiply 5 by 320 instead of 300. Always double-check your total parts.",
+        "trap_type": "ratio_reversal"
+      }
+    },
+    "next_time_rule": "For any part-to-whole ratio problem, remember the three-step dance: add the parts to find the total number of parts, divide the whole by that total to find the value of one part, then multiply by the part you need. Never split the total in half unless the ratio is exactly 1:1.",
+    "blueprint_id": "Part-to-Whole Ratio — Population Distribution",
+    "deconstruct_text": "Let's walk through this together. The ratio 5:3 tells us that for every 5 adults, there are 3 children. Think of the entire population as being divided into 8 equal slices: 5 slices for adults and 3 slices for children. Now, if 8 slices make up 2,400 people, then each slice must be 2,400 divided by 8, which is 300 people. Since adults have 5 of these slices, the number of adults is 5 times 300, which equals 1,500. The mental trick here is to always convert a ratio into concrete parts first. Ask yourself: 'How many total parts are there?' Then find the value of one part. From there, the answer is just multiplication away.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

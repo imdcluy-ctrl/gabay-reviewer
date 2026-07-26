@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-028",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 3:2:1 profit-sharing ratio is used for three government project partners. If total profit is P360,000, what is the difference between the largest and smallest share?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P90,000"
+      },
+      {
+        "key": "B",
+        "text": "P100,000"
+      },
+      {
+        "key": "C",
+        "text": "P120,000"
+      },
+      {
+        "key": "D",
+        "text": "P150,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "This ratio tells us how to split the total into equal-sized chunks. The numbers 3, 2, and 1 represent the number of chunks each partner gets. Start by figuring out how many chunks there are in total."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Chunk",
+        "text": "Once you know the total number of chunks, you can find the peso value of a single chunk by dividing the total profit by that number. Every chunk is worth the same amount."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Extreme Shares",
+        "text": "The largest share belongs to the partner with the most chunks (3 parts), and the smallest share belongs to the partner with the fewest (1 part). Multiply the value of one chunk by 3 and by 1 to get their actual shares."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You now have the largest share (3 chunks) and the smallest share (1 chunk). The question asks for the difference between them. Just subtract the smaller from the larger. That difference is your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P90,000. This is a tempting wrong turn. You might have accidentally subtracted the middle share (2 parts) from the largest (3 parts) and gotten 1 part, which is P60,000, then added something extra. Or you might have divided the total by 4 instead of 6. The key is to remember the difference is between the extremes: the partner with 3 parts and the partner with 1 part. That's a difference of 2 parts, not 1.",
+        "trap_type": "wrong_target_variable"
+      },
+      "B": {
+        "text": "P100,000. This number doesn't come from a clean ratio step, so it's likely a calculation slip. Perhaps you divided P360,000 by 3.6 by mistake, or you used the wrong ratio sum. Stick to the method: find the total parts (6), find the value per part (P60,000), then find the difference in parts between the largest and smallest (3 - 1 = 2 parts). Multiply: 2 x P60,000 = P120,000.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! P120,000. You nailed it. The total parts are 3+2+1=6. Each part is worth P360,000 divided by 6, which is P60,000. The largest share is 3 parts (P180,000) and the smallest is 1 part (P60,000). The difference is P180,000 minus P60,000, which equals P120,000. Great work.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P150,000. This is a common overestimation. You might have multiplied P360,000 by 5/12, or you might have subtracted 2 parts from 3 parts and then multiplied by the wrong per-part value. Remember, the difference in parts is 3 minus 1, which is 2 parts. Two parts at P60,000 each is P120,000, not P150,000.",
+        "trap_type": "partial_answer_error"
+      }
+    },
+    "next_time_rule": "When a ratio problem asks for the difference between the largest and smallest shares, first find the value of one part by dividing the total by the sum of the ratio numbers. Then multiply that value by the difference between the largest and smallest ratio numbers. That's your answer.",
+    "blueprint_id": "Ratio — Profit Share Difference",
+    "deconstruct_text": "Let's walk through this together. The ratio 3:2:1 tells us the profit is split into equal-sized chunks. The numbers 3, 2, and 1 are the number of chunks each partner gets. So first, add them up: 3 + 2 + 1 = 6 chunks in total. The total profit is P360,000, so each chunk is worth P360,000 divided by 6, which is P60,000. Now, the largest share belongs to the partner with 3 chunks: 3 times P60,000 equals P180,000. The smallest share belongs to the partner with 1 chunk: 1 times P60,000 equals P60,000. The question asks for the difference between these two: P180,000 minus P60,000 is P120,000. Here's a mental shortcut for next time: instead of calculating each share separately, just find the difference in the ratio numbers (3 minus 1 equals 2) and multiply that by the value of one part (2 times P60,000 equals P120,000). It's faster and keeps you from making arithmetic errors.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-006",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days. If 3 additional workers with the same work rate join the team, how many days will it take to finish the repair?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 days"
+      },
+      {
+        "key": "B",
+        "text": "8 days"
+      },
+      {
+        "key": "C",
+        "text": "9 days"
+      },
+      {
+        "key": "D",
+        "text": "18 days"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the relationship",
+        "text": "When you add more workers to a job, does the time go up or down? That's the key to solving this."
+      },
+      {
+        "rung": 2,
+        "title": "The magic constant",
+        "text": "In work problems, the total work stays the same. Multiply the original workers by the original days to find that constant."
+      },
+      {
+        "rung": 3,
+        "title": "Find your new numbers",
+        "text": "You now have 6 plus 3 workers. That's 9 people. And you already know the total work from the first hint."
+      },
+      {
+        "rung": 4,
+        "title": "One simple division",
+        "text": "Take the total work (72) and divide it by the new number of workers (9). That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided 72 by 12 (original workers) instead of by 9 (new workers).",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. With 6 workers needing 12 days, total work is 72 man-days; 9 workers finish in 72÷9 = 8 days.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you subtracted 3 days from 12, thinking adding 3 workers reduces 3 days.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you set up a direct proportion (6/12 = 9/x) instead of inverse, yielding 18.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "Workers × Days = constant. Multiply to find total work, then divide by new workers. Never use direct proportion.",
+    "blueprint_id": "Ratio and Proportion — inverse proportion manpower problems",
+    "deconstruct_text": "Ate tip: Isipin mo—may 6 DPWH workers sa barangay ninyo, inaayos nila ang kalsada ng 12 araw. Parang bayanihan, kapag dinagdagan mo pa ng 3, mas mabilis matatapos.\n\nUna, hanapin ang total work: i-multiply ang 6 workers × 12 days = 72 man-days. Yan ang constant—hindi nagbabago kahit ilan pa ang tumulong.\n\nNgayon 9 na sila (6 + 3). I-divide ang 72 sa 9, equals 8 days. Yan na! Mental Trick: ‘Workers × Days’ parang ‘Tao × Oras’ sa fiesta—more tao, mas mabilis maubos ang trabaho.\n\nIwas sa common trap: Wag mag direct proportion tulad ng 6/12 = 9/x, magiging 18. Laging inverse—mas marami manggagawa, mas kaunti ang araw.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-408",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A Civil Service Commission (CSC) regulation states: 'Only if you have a Civil Service Eligibility can you be appointed to a career position in the government.' Which of the following conclusions logically follows from this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If you have a Civil Service Eligibility, then you can be appointed to a career position."
+      },
+      {
+        "key": "B",
+        "text": "If you can be appointed to a career position, then you have a Civil Service Eligibility."
+      },
+      {
+        "key": "C",
+        "text": "Having a Civil Service Eligibility is sufficient for appointment to a career position."
+      },
+      {
+        "key": "D",
+        "text": "Not having a Civil Service Eligibility does not affect your chance of appointment."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Let's think about what the phrase 'only if' really means in a logical statement. It's a clue about what is absolutely required versus what is enough on its own."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's a simple rule: 'Only if A, then B' means A is a necessary condition for B. In other words, if B happens, then A must have happened first. Think of it like a key: you need a key to open a door, but having the key doesn't guarantee the door will open."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Apply that rule here. The statement says eligibility is necessary for appointment. So if someone gets appointed, what must be true about them? They must have eligibility. That's the direction the logic flows."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "You're almost there. The correct answer is the one that says appointment guarantees eligibility, not the other way around. Look for the option that matches 'If appointed, then eligible.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting because it sounds like a natural connection. But 'only if eligibility' doesn't mean that having eligibility automatically gets you the job. There could be other requirements like passing an interview or having the right degree. The original statement only says eligibility is necessary, not that it's enough by itself.",
+        "trap_type": "sufficiency_confusion"
+      },
+      "B": {
+        "text": "This is correct. The statement tells us that eligibility is a necessary condition for appointment. So if you see someone who has been appointed to a career position, you can logically conclude they must have Civil Service Eligibility. It's like saying: if you passed the exam, you must have studied.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option swaps the roles. The original says eligibility is necessary, but this one says it's sufficient. That's a common mix-up. Think of it this way: 'only if' points to a requirement, not a guarantee. Saying eligibility is sufficient would mean it's all you need, which the statement never claims.",
+        "trap_type": "sufficiency_necessity_swap"
+      },
+      "D": {
+        "text": "This directly goes against the statement. The regulation clearly says eligibility is required, so not having it definitely affects your chances. This option would only make sense if the original said something like 'Eligibility is optional,' which it doesn't.",
+        "trap_type": "direct_contradiction"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The key phrase is 'only if.' In logic, 'Only if A, then B' translates to: if B happens, then A must have happened. So here, 'Only if you have eligibility can you be appointed' means: if you are appointed, then you have eligibility. That's exactly what option B says. Now, why are the others wrong? Option A and C both treat eligibility as if it's enough to get the job, but the original only says it's required, not sufficient. Option D just ignores the requirement entirely. Here's a mental trick to remember this: think of 'only if' as pointing to a necessary condition, like a password. You need the password to log in, but having the password doesn't mean you'll log in successfully. The password is necessary, not sufficient. So when you see 'only if,' ask yourself: what is the necessary condition? That's the thing that must be true if the other thing happens.",
+    "next_time_rule": "When you see 'only if,' remember the password rule: 'Only if A, then B' means B implies A. A is necessary, not sufficient. So the correct logical conclusion always goes from the action to the requirement, not the other way around.",
+    "blueprint_id": "B-1771",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

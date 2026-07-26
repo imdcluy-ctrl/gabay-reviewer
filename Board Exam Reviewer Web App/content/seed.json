@@ -1,0 +1,2666 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Idiomatic Expression",
+        "text": "The adjective 'responsible' takes different prepositions depending on context."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Targets",
+        "text": "Responsible TO a person/superior vs responsible FOR a task/duty."
+      },
+      {
+        "rung": 3,
+        "title": "Check Target in Sentence",
+        "text": "'Overseeing regional operations' is a task/duty."
+      },
+      {
+        "rung": 4,
+        "title": "Select Preposition",
+        "text": "Tasks require 'responsible FOR'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Responsible FOR is used with tasks or duties.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect idiom. Responsible with is not standard English.",
+        "trap_type": "non_standard_idiom"
+      },
+      "C": {
+        "text": "Responsible TO is used when referring to a superior or authority (e.g. responsible to the Secretary).",
+        "trap_type": "idiom_target_confusion"
+      },
+      "D": {
+        "text": "Incorrect preposition choice.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "Use 'responsible FOR' with duties/tasks, and 'responsible TO' with authority figures.",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "Idiomatic Preposition Rule:\n- Responsible FOR + task/duty/action.\n- Responsible TO + authority figure/person (e.g. responsible to the President).\nSince 'overseeing operations' is a duty -> use 'responsible for'.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer AMEND the financial report. What is the synonym for AMEND?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Discard"
+      },
+      {
+        "key": "B",
+        "text": "Alter"
+      },
+      {
+        "key": "C",
+        "text": "Approve"
+      },
+      {
+        "key": "D",
+        "text": "Publish"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Context Clue",
+        "text": "Recommending changes to a report before final submission."
+      },
+      {
+        "rung": 2,
+        "title": "Root Meaning",
+        "text": "'Amend' means to modify, revise, or alter for correctness."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "To alter means to change or modify."
+      },
+      {
+        "rung": 4,
+        "title": "Select Matching Option",
+        "text": "Option B is 'Alter'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Discard means throw away, which is too destructive.",
+        "trap_type": "extreme_meaning_error"
+      },
+      "B": {
+        "text": "Correct! Alter means to modify or revise.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Approve means accept as is, opposite of amending.",
+        "trap_type": "antonym_error"
+      },
+      "D": {
+        "text": "Publish means release to public, independent of modifying.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "Amend means to alter, modify, or revise for accuracy.",
+    "blueprint_id": "Vocabulary — Synonyms of Legal and Audit Terms",
+    "deconstruct_text": "Amend = to revise, alter, or change for improvement/correctness.\nSynonym = Alter, Modify, Modify.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-006",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that maintains parallel structure.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The new administrative officer likes organizing files, drafting letters, and to answer phone inquiries."
+      },
+      {
+        "key": "B",
+        "text": "The new administrative officer likes organizing files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "C",
+        "text": "The new administrative officer likes to organize files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "D",
+        "text": "The new administrative officer likes file organization, drafting letters, and to answer phone inquiries."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify List Items",
+        "text": "The sentence lists three duties: organizing, drafting, answering."
+      },
+      {
+        "rung": 2,
+        "title": "Check Verb Forms",
+        "text": "All items in a list must use the same grammatical form (all gerunds -ing or all infinitives to...)."
+      },
+      {
+        "rung": 3,
+        "title": "Compare Sentence B",
+        "text": "Sentence B uses three gerunds: organizing, drafting, answering."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Parallelism",
+        "text": "Sentence B is parallel because all listed actions end in -ing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Breaks parallelism by mixing gerunds (organizing, drafting) with an infinitive (to answer).",
+        "trap_type": "faulty_parallelism"
+      },
+      "B": {
+        "text": "Correct! Uses parallel gerund phrases (organizing, drafting, answering).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Breaks parallelism by starting with infinitive 'to organize' followed by gerunds.",
+        "trap_type": "faulty_parallelism"
+      },
+      "D": {
+        "text": "Mixes noun phrase (file organization), gerund (drafting), and infinitive (to answer).",
+        "trap_type": "faulty_parallelism"
+      }
+    },
+    "next_time_rule": "Keep items in a series grammatically uniform (all -ing verbs or all to... infinitives).",
+    "blueprint_id": "Parallel Structure — Parallel Gerund Phrases",
+    "deconstruct_text": "Parallelism requires items in a series to share identical grammatical structure.\nOption B uses parallel gerunds: organizing, drafting, answering.\nOption A mixes gerunds with infinitive 'to answer'.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read the passage: 'Public accountability requires civil servants to perform duties with utmost integrity, efficiency, and dedication. Transparency in transactions ensures citizens maintain trust in government institutions.' What is the main idea of this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should receive higher salaries to maintain integrity."
+      },
+      {
+        "key": "B",
+        "text": "Public trust relies on accountable and transparent government service."
+      },
+      {
+        "key": "C",
+        "text": "Government transactions must be kept confidential to avoid public scrutiny."
+      },
+      {
+        "key": "D",
+        "text": "Efficiency is more important than integrity in public administration."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Focus on Core Concept",
+        "text": "Look at the two key words in the passage: accountability and transparency."
+      },
+      {
+        "rung": 2,
+        "title": "Connect Core Concepts to Outcome",
+        "text": "Accountability + transparency lead to public trust."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Unstated Claims",
+        "text": "The passage does not mention salaries or confidentiality."
+      },
+      {
+        "rung": 4,
+        "title": "Choose Summarizing Option",
+        "text": "Option B directly captures the relationship between trust, accountability, and transparency."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Out of scope. Salaries are not mentioned in the passage.",
+        "trap_type": "unstated_premise_error"
+      },
+      "B": {
+        "text": "Correct! Accurately summarizes that accountability and transparency build public trust.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Directly contradicts the passage's emphasis on transparency.",
+        "trap_type": "contradiction_error"
+      },
+      "D": {
+        "text": "False dichotomy. The passage emphasizes both integrity and efficiency equally.",
+        "trap_type": "false_dichotomy_error"
+      }
+    },
+    "next_time_rule": "The main idea must synthesize all key sentences without adding unmentioned assumptions.",
+    "blueprint_id": "Reading Comprehension — Identifying Main Idea",
+    "deconstruct_text": "The passage links public accountability and transaction transparency directly to citizen trust.\nOption B synthesizes both sentences accurately.\nOption A introduces unmentioned topics (salaries).\nOption C contradicts the passage (passage advocates transparency).\nOption D creates a false hierarchy between efficiency and integrity.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive ordering all agencies to update their personnel records. What is the closest synonym for MANDATORY?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Compulsory"
+      },
+      {
+        "key": "C",
+        "text": "Advisory"
+      },
+      {
+        "key": "D",
+        "text": "Temporary"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Clue",
+        "text": "The directive requires compliance by all agencies."
+      },
+      {
+        "rung": 2,
+        "title": "Root Meaning",
+        "text": "'Mandatory' comes from mandate — an official command that must be followed."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Antonyms",
+        "text": "'Optional' and 'Advisory' mean compliance is voluntary."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Compulsory' means required by law or rule, matching mandatory."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Direct antonym. Optional means voluntary.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Compulsory means required by authority or rule.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Advisory means offering recommendations, not binding requirements.",
+        "trap_type": "partial_definition_error"
+      },
+      "D": {
+        "text": "Refers to duration, not obligation.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "Mandatory means compulsory; it requires compliance by law or official command.",
+    "blueprint_id": "Vocabulary — Synonyms of Administrative Directives",
+    "deconstruct_text": "Mandatory means required by law, rule, or authority.\nSynonym = Compulsory (obligatory, required).\nAntonyms = Optional, Advisory, Discretionary.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-003",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that avoids a dangling modifier.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having completed the audit, the report was submitted to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "B",
+        "text": "Having completed the audit, the CPA submitted the report to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "C",
+        "text": "Walking into the office, the computer was left turned on overnight."
+      },
+      {
+        "key": "D",
+        "text": "While reviewing the documents, a syntax error was discovered by the clerk."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot Introductory Phrase",
+        "text": "'Having completed the audit' describes an action performed by a person."
+      },
+      {
+        "rung": 2,
+        "title": "Ask Who Performed Action",
+        "text": "Who completed the audit? A report cannot perform an audit!"
+      },
+      {
+        "rung": 3,
+        "title": "Check Subject Immediately Following Comma",
+        "text": "The noun immediately following the comma MUST be the logical actor."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Sentence",
+        "text": "In B, 'the CPA' immediately follows the comma, correctly attaching the action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Dangling modifier. Implies 'the report' completed the audit.",
+        "trap_type": "dangling_modifier_error"
+      },
+      "B": {
+        "text": "Correct! 'The CPA' is the logical subject performing the action 'having completed the audit'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Dangling modifier. Implies 'the computer' walked into the office.",
+        "trap_type": "dangling_modifier_error"
+      },
+      "D": {
+        "text": "Dangling modifier. Implies 'a syntax error' was reviewing documents.",
+        "trap_type": "dangling_modifier_error"
+      }
+    },
+    "next_time_rule": "Always place the person performing the action immediately after an introductory phrase.",
+    "blueprint_id": "Dangling Modifiers — Aligning Introductory Participle with Logical Subject",
+    "deconstruct_text": "A modifier dangles when the noun it modifies is missing or misplaced.\nIn A, 'the report' follows the comma -> implies report audited itself!\nIn B, 'the CPA' correctly follows the comma.\nIn C, 'the computer' cannot walk into an office.\nIn D, 'a syntax error' cannot review documents.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-002",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Select the sentence with the correct pronoun case for official communications.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Between you and I, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "B",
+        "text": "Between you and me, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "C",
+        "text": "The division chief awarded the commendation to he and his team."
+      },
+      {
+        "key": "D",
+        "text": "Him and the auditor inspected the procurement records yesterday."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Preposition",
+        "text": "Find the preposition in the introductory phrase."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Preposition Rule",
+        "text": "'Between' is a preposition and takes objective pronouns (me, him, her, us, them)."
+      },
+      {
+        "rung": 3,
+        "title": "Test Pronoun Pair",
+        "text": "'Between you and me' uses objective case 'me'."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Correct Choice",
+        "text": "Option B is correct because 'I' is nominative, while 'me' is objective."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Common hypercorrection. 'I' is nominative; preposition 'between' requires objective 'me'.",
+        "trap_type": "hypercorrection_error"
+      },
+      "B": {
+        "text": "Correct! 'Me' is in objective case following the preposition 'between'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Preposition 'to' requires objective pronoun 'him', not nominative 'he'.",
+        "trap_type": "pronoun_case_error"
+      },
+      "D": {
+        "text": "Subject of sentence requires nominative 'He', not objective 'Him'.",
+        "trap_type": "subject_pronoun_error"
+      }
+    },
+    "next_time_rule": "Prepositions (between, to, for, with) always take objective pronouns (me, him, her).",
+    "blueprint_id": "Pronoun Case — Object of Preposition",
+    "deconstruct_text": "Prepositions always require pronouns in the objective case.\n'Between' is a preposition -> requires 'you and me' (objective), NOT 'you and I' (nominative).\nIn C, 'to' takes objective 'him' ('to him and his team').\nIn D, subject position requires nominative 'He and the auditor'.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-001",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that adheres to standard Civil Service English grammar rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided to postpone the administrative hearing."
+      },
+      {
+        "key": "B",
+        "text": "Neither the supervisor nor the employees was aware of the memo."
+      },
+      {
+        "key": "C",
+        "text": "Neither the supervisor nor the employees were aware of the memo."
+      },
+      {
+        "key": "D",
+        "text": "The list of approved applicants were posted on the bulletin board."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Subject Structure",
+        "text": "Look at sentence C with 'Neither... nor...'."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Proximity Rule",
+        "text": "When subjects are connected by 'neither... nor', the verb agrees with the closer subject."
+      },
+      {
+        "rung": 3,
+        "title": "Check Subject Agreement",
+        "text": "'employees' (plural) is closer to the verb than 'supervisor' (singular)."
+      },
+      {
+        "rung": 4,
+        "title": "Verify Correct Verb Form",
+        "text": "Since 'employees' is plural, the plural verb 'were' is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Collective noun 'committee' acting as a single body requires singular verb 'has decided'.",
+        "trap_type": "collective_noun_error"
+      },
+      "B": {
+        "text": "Violates proximity rule: 'employees' is plural, so verb must be 'were', not 'was'.",
+        "trap_type": "proximity_agreement_error"
+      },
+      "C": {
+        "text": "Correct! The verb 'were' correctly agrees with the nearer plural subject 'employees'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Distracted by plural object 'applicants'. Main subject is singular 'list' -> requires 'was'.",
+        "trap_type": "prepositional_phrase_intervening"
+      }
+    },
+    "next_time_rule": "With 'neither/nor', align the verb with the subject closest to it.",
+    "blueprint_id": "Subject-Verb Agreement — Proximity Rule with Neither/Nor",
+    "deconstruct_text": "Rule 1: In 'Neither A nor B' constructions, the verb agrees with subject B (closest subject).\nIn sentence C, subject B is 'employees' (plural), so 'were' is correct.\nIn sentence A, collective noun 'committee' acting as a unit requires singular 'has'.\nIn sentence D, prepositional phrase 'of approved applicants' does not alter the head subject 'list' (singular -> 'was').\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-004",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long will it take to fill the reservoir if both pumps work together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.4 hours"
+      },
+      {
+        "key": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "key": "C",
+        "text": "5.0 hours"
+      },
+      {
+        "key": "D",
+        "text": "10.0 hours"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Hourly Work Rates",
+        "text": "Pump A fills 1/4 of reservoir per hour. Pump B fills 1/6 per hour."
+      },
+      {
+        "rung": 2,
+        "title": "Add Combined Hourly Rates",
+        "text": "1/4 + 1/6 = 3/12 + 2/12 = 5/12 per hour."
+      },
+      {
+        "rung": 3,
+        "title": "Invert for Total Time",
+        "text": "Total Time = 12 / 5 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Convert to Decimal",
+        "text": "12 / 5 = 2.4 hours (or 2 hours 24 minutes)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! T = (A × B) / (A + B) = (4 × 6) / (4 + 6) = 24 / 10 = 2.4 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Averaging 4 and 6 to 5 and dividing by 2 (2.5 hrs).",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "Averaging 4 and 6 (4+6)/2 = 5 hours.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "D": {
+        "text": "Adding 4 + 6 = 10 hours. Two pumps working together take LESS time than one pump alone!",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "Work shortcut for 2 workers: Time = (A × B) / (A + B).",
+    "blueprint_id": "Numerical Ability — Combined Work Formula (1/A + 1/B = 1/T)",
+    "deconstruct_text": "Rate A = 1/4 per hour\nRate B = 1/6 per hour\nCombined Rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 per hour\nTotal Time T = 12/5 = 2.4 hours\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-003",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A department secretary is currently twice as old as her assistant. Eight years ago, the sum of their ages was 38. How old is the secretary now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 years old"
+      },
+      {
+        "key": "B",
+        "text": "24 years old"
+      },
+      {
+        "key": "C",
+        "text": "36 years old"
+      },
+      {
+        "key": "D",
+        "text": "40 years old"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Assign Variables",
+        "text": "Let Assistant's age now = x. Then Secretary's age now = 2x."
+      },
+      {
+        "rung": 2,
+        "title": "Express Ages 8 Years Ago",
+        "text": "Assistant 8 yrs ago = x - 8. Secretary 8 yrs ago = 2x - 8."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up Equation",
+        "text": "(x - 8) + (2x - 8) = 38 -> 3x - 16 = 38."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for x and Secretary's Age",
+        "text": "3x = 54 -> x = 18 (Assistant). Secretary = 2x = 36."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the Assistant's age now (18), not the Secretary's age.",
+        "trap_type": "wrong_variable_target"
+      },
+      "B": {
+        "text": "Miscalculating 3x = 48.",
+        "trap_type": "calculation_error"
+      },
+      "C": {
+        "text": "Correct! Assistant = 18, Secretary = 2(18) = 36.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Adding 8 years to sum instead of subtracting from both.",
+        "trap_type": "equation_setup_error"
+      }
+    },
+    "next_time_rule": "Remember to subtract the past years from BOTH people when setting up age equations.",
+    "blueprint_id": "Numerical Ability — Algebraic Age Problems",
+    "deconstruct_text": "Let x = Assistant's age now\nSecretary's age now = 2x\n\n8 years ago:\nAssistant = x - 8\nSecretary = 2x - 8\nSum = (x - 8) + (2x - 8) = 38\n3x - 16 = 38\n3x = 54 -> x = 18\n\nSecretary's age now = 2 × 18 = 36 years old\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-002",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A LGU cooperative deposited ₱50,000 in a government savings account earning 6% simple annual interest. How much total interest will the account earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱3,000"
+      },
+      {
+        "key": "B",
+        "text": "₱6,000"
+      },
+      {
+        "key": "C",
+        "text": "₱9,000"
+      },
+      {
+        "key": "D",
+        "text": "₱59,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Simple Interest Formula",
+        "text": "Simple Interest (I) = Principal (P) × Rate (r) × Time (t)."
+      },
+      {
+        "rung": 2,
+        "title": "Convert Rate to Decimal",
+        "text": "6% = 0.06."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply Principal and Rate",
+        "text": "₱50,000 × 0.06 = ₱3,000 interest per year."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply by Years",
+        "text": "₱3,000 per year × 3 years = ₱9,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Interest for 1 year only (₱50,000 × 0.06 = ₱3,000).",
+        "trap_type": "missing_time_factor"
+      },
+      "B": {
+        "text": "Interest for 2 years only (₱3,000 × 2).",
+        "trap_type": "time_calculation_error"
+      },
+      "C": {
+        "text": "Correct! Simple Interest I = 50,000 × 0.06 × 3 = ₱9,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Total balance (Principal + Interest = ₱59,000), not interest earned.",
+        "trap_type": "balance_vs_interest_confusion"
+      }
+    },
+    "next_time_rule": "Simple Interest formula I = P × r × t calculates interest only; add P if total balance is requested.",
+    "blueprint_id": "Numerical Ability — Simple Interest Formula (I = P r t)",
+    "deconstruct_text": "Principal (P) = ₱50,000\nRate (r) = 6% = 0.06\nTime (t) = 3 years\nInterest (I) = P × r × t = 50,000 × 0.06 × 3 = 3,000 × 3 = ₱9,000\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-001",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal health office received a budget increase from ₱800,000 to ₱1,000,000. What was the percentage increase in its budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "80%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate Amount of Increase",
+        "text": "Subtract original budget from new budget: ₱1,000,000 - ₱800,000 = ₱200,000."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Base Value",
+        "text": "Percentage increase is always calculated over the ORIGINAL base (₱800,000), not the new amount."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up Fraction",
+        "text": "Increase / Original = 200,000 / 800,000 = 2/8 = 1/4."
+      },
+      {
+        "rung": 4,
+        "title": "Convert Fraction to Percentage",
+        "text": "1/4 = 0.25 = 25%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Divided increase by NEW budget (200,000 / 1,000,000 = 20%). Always divide by ORIGINAL base!",
+        "trap_type": "wrong_base_error"
+      },
+      "B": {
+        "text": "Correct! (200,000 / 800,000) × 100 = 25%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Rounding 25% up to 30%.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "Comparing original 800k to 1M directly.",
+        "trap_type": "ratio_confusion"
+      }
+    },
+    "next_time_rule": "Percentage change formula = (Change / Original Base) × 100.",
+    "blueprint_id": "Numerical Ability — Percentage Increase",
+    "deconstruct_text": "Amount of increase = ₱1,000,000 - ₱800,000 = ₱200,000\nPercentage Increase = (Increase / Original Base) × 100\n= (200,000 / 800,000) × 100 = (1/4) × 100 = 25%\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-010",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "An LGU inspection vehicle consumes 18 liters of gasoline to cover a distance of 210 kilometers. How many liters of gasoline will it consume for a 350-kilometer inspection trip?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 liters"
+      },
+      {
+        "key": "B",
+        "text": "28 liters"
+      },
+      {
+        "key": "C",
+        "text": "30 liters"
+      },
+      {
+        "key": "D",
+        "text": "35 liters"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Direct Relation",
+        "text": "More distance = MORE fuel consumed."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Proportion",
+        "text": "Liters / km = 18 / 210 = X / 350."
+      },
+      {
+        "rung": 3,
+        "title": "Simplify Initial Ratio",
+        "text": "18 / 210 simplifies by dividing by 6 → 3 / 35."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for X",
+        "text": "3 / 35 = X / 350 → X = 3 × 10 = 30 liters."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Calculating 350 ÷ 14.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Calculating 350 ÷ 12.5.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! 18 / 210 = 3 / 35. For 350 km, fuel = 3 × 10 = 30 liters.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Confusing distance 350 with fuel 35 liters.",
+        "trap_type": "number_confusion"
+      }
+    },
+    "next_time_rule": "Simplify ratios first before cross-multiplying large numbers to make mental calculations much faster.",
+    "blueprint_id": "Ratio and Proportion — vehicle fuel consumption proportion",
+    "deconstruct_text": "Direct proportion: 18 / 210 = X / 350\nSimplify 18/210:\nDivide numerator & denominator by 6 → 3 / 35\n\nSet equal: 3 / 35 = X / 350\nSince 350 = 35 × 10:\nX = 3 × 10 = 30 liters\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-009",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In an agency division, the ratio of permanent staff to casual staff is 4:3, and the ratio of casual staff to job order staff is 6:5. What is the ratio of permanent staff to job order staff?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:5"
+      },
+      {
+        "key": "B",
+        "text": "8:5"
+      },
+      {
+        "key": "C",
+        "text": "6:5"
+      },
+      {
+        "key": "D",
+        "text": "12:5"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Common Term",
+        "text": "Casual staff is the common term linking Permanent (P:C = 4:3) and Job Order (C:J = 6:5)."
+      },
+      {
+        "rung": 2,
+        "title": "Equalize Common Term",
+        "text": "In P:C it is 3; in C:J it is 6. LCM of 3 and 6 is 6."
+      },
+      {
+        "rung": 3,
+        "title": "Scale First Ratio",
+        "text": "Multiply P:C (4:3) by 2 → P:C becomes 8:6."
+      },
+      {
+        "rung": 4,
+        "title": "Combine and Extract P:J",
+        "text": "Now P:C:J = 8:6:5. Therefore, P:J = 8:5."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Taking the first number 4 and last number 5 directly without equalizing casual staff.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Equalizing casual staff to 6 gives P:C:J = 8:6:5, so P:J = 8:5.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Confusing C:J with P:J.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "Multiplying terms incorrectly (4×3 : 5).",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "When connecting two ratios (A:B and B:C), find the Least Common Multiple (LCM) of the common term B to combine them.",
+    "blueprint_id": "Ratio and Proportion — combining continued ratios (A:B and B:C to find A:C)",
+    "deconstruct_text": "Given:\nP : C = 4 : 3\nC : J = 6 : 5\n\nTo combine, make C equal in both ratios:\nMultiply P : C by 2 → 8 : 6\nC : J is already 6 : 5\n\nCombined ratio P : C : J = 8 : 6 : 5\nTherefore, Permanent : Job Order (P : J) = 8 : 5\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-008",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government printer uses 15 reams of paper to produce 600 training manuals. How many reams of paper are required to print 1,000 manuals of the same size?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 reams"
+      },
+      {
+        "key": "B",
+        "text": "22 reams"
+      },
+      {
+        "key": "C",
+        "text": "25 reams"
+      },
+      {
+        "key": "D",
+        "text": "30 reams"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Direct Proportion",
+        "text": "More manuals = MORE paper needed."
+      },
+      {
+        "rung": 2,
+        "title": "Find Reams per Manual",
+        "text": "Manuals per ream = 600 ÷ 15 = 40 manuals per ream."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate Reams Needed",
+        "text": "1,000 manuals ÷ 40 manuals/ream = 25 reams."
+      },
+      {
+        "rung": 4,
+        "title": "Verify by Cross Multiplication",
+        "text": "15 / 600 = X / 1000 → 600X = 15,000 → X = 25."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Calculating 1,000 ÷ 50.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Rounding 25 down or miscalculating the ratio.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! 40 manuals per ream. 1,000 ÷ 40 = 25 reams.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Dividing 1,000 by 33.3.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "In direct proportion, set up equal ratios (A1/B1 = A2/B2) and cross-multiply to solve for the unknown.",
+    "blueprint_id": "Ratio and Proportion — direct proportion supplies forecasting",
+    "deconstruct_text": "Direct proportion: 15 / 600 = X / 1,000\nMethod 1 (Unit Rate):\n600 manuals ÷ 15 reams = 40 manuals per ream\n1,000 manuals ÷ 40 = 25 reams\n\nMethod 2 (Cross Multiplication):\n600X = 15,000 → X = 25 reams\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-007",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A ₱90,000 community development grant is divided among three barangays A, B, and C in the ratio 1:2:3. What is the difference in grant amount between Barangay C and Barangay A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱30,000"
+      },
+      {
+        "key": "C",
+        "text": "₱45,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Total Parts",
+        "text": "Ratio A:B:C = 1:2:3. Total parts = 1 + 2 + 3 = 6."
+      },
+      {
+        "rung": 2,
+        "title": "Find Value per Part",
+        "text": "₱90,000 ÷ 6 = ₱15,000 per part."
+      },
+      {
+        "rung": 3,
+        "title": "Find Ratio Difference",
+        "text": "Barangay C has 3 parts, Barangay A has 1 part. Difference = 3 - 1 = 2 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Amount",
+        "text": "2 parts × ₱15,000 = ₱30,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the value of 1 ratio part (Barangay A's share), not the difference.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! Barangay C (₱45,000) minus Barangay A (₱15,000) = ₱30,000.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is Barangay C's total share (3 parts × ₱15,000), not the difference between C and A.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "Adding C and A (3+1 = 4 parts × ₱15,000 = ₱60,000) instead of subtracting.",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "To find the difference between two shares, subtract their ratio numbers first, then multiply by the value of one part.",
+    "blueprint_id": "Ratio and Proportion — calculating difference between ratio shares",
+    "deconstruct_text": "Total ratio parts = 1 + 2 + 3 = 6 parts\n1 part = ₱90,000 ÷ 6 = ₱15,000\nBarangay C = 3 × ₱15,000 = ₱45,000\nBarangay A = 1 × ₱15,000 = ₱15,000\nDifference = ₱45,000 - ₱15,000 = ₱30,000\n\nShortcut: Difference in parts = 3 - 1 = 2 parts → 2 × ₱15,000 = ₱30,000\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-006",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days. If 3 additional workers with the same work rate join the team, how many days will it take to finish the repair?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 days"
+      },
+      {
+        "key": "B",
+        "text": "8 days"
+      },
+      {
+        "key": "C",
+        "text": "9 days"
+      },
+      {
+        "key": "D",
+        "text": "18 days"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Inverse Proportion",
+        "text": "More workers = FEWER days needed to finish the work."
+      },
+      {
+        "rung": 2,
+        "title": "Calculate Total Man-Days",
+        "text": "Work = 6 workers × 12 days = 72 man-days."
+      },
+      {
+        "rung": 3,
+        "title": "Find New Worker Count",
+        "text": "6 original + 3 additional = 9 total workers."
+      },
+      {
+        "rung": 4,
+        "title": "Divide Work by New Workers",
+        "text": "72 man-days ÷ 9 workers = 8 days."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Dividing 12 days by 2.",
+        "trap_type": "formula_misapplication"
+      },
+      "B": {
+        "text": "Correct! Total work = 72 man-days. 72 man-days ÷ 9 workers = 8 days.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Subtracting 3 workers directly from 12 days.",
+        "trap_type": "misread_keyword"
+      },
+      "D": {
+        "text": "Treating this as direct proportion (6/12 = 9/X → X = 18 days). Remember: more workers = FEWER days!",
+        "trap_type": "formula_misapplication"
+      }
+    },
+    "next_time_rule": "For manpower and work time problems, use inverse proportion: (Workers × Days) is constant.",
+    "blueprint_id": "Ratio and Proportion — inverse proportion manpower problems",
+    "deconstruct_text": "Inverse proportion rule: W1 × D1 = W2 × D2\nTotal work = 6 workers × 12 days = 72 man-days\nNew worker count = 6 + 3 = 9 workers\nDays needed = 72 ÷ 9 = 8 days\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-005",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On an official LGU land survey map, a scale of 2 centimeters represents an actual distance of 5 kilometers. If two barangay halls are 7 centimeters apart on the map, what is their actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 km"
+      },
+      {
+        "key": "B",
+        "text": "17.5 km"
+      },
+      {
+        "key": "C",
+        "text": "20 km"
+      },
+      {
+        "key": "D",
+        "text": "35 km"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Proportion",
+        "text": "Map (cm) / Actual (km) = 2 / 5 = 7 / X."
+      },
+      {
+        "rung": 2,
+        "title": "Find 1 cm Representation",
+        "text": "If 2 cm = 5 km, then 1 cm = 5 ÷ 2 = 2.5 km."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply for 7 cm",
+        "text": "Actual distance = 7 cm × 2.5 km/cm."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Value",
+        "text": "7 × 2.5 = 17.5 kilometers."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Multiplying 7 by 2 instead of 2.5.",
+        "trap_type": "formula_misapplication"
+      },
+      "B": {
+        "text": "Correct! 1 cm = 2.5 km. 7 cm × 2.5 km/cm = 17.5 km.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Rounding 17.5 up to 20 or miscalculating 7 × 3.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "Cross-multiplying 7 × 5 = 35 without dividing by 2.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "In map scale problems, find what 1 unit on the map represents in real life first, then multiply.",
+    "blueprint_id": "Ratio and Proportion — map scale proportional reasoning",
+    "deconstruct_text": "Scale: 2 cm = 5 km → 1 cm = 2.5 km\nMap distance = 7 cm\nActual distance = 7 × 2.5 = 17.5 km\n\nAlternatively, cross-multiply:\n2 / 5 = 7 / X → 2X = 35 → X = 17.5 km\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-004",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A Provincial Capitol purchased 48 desktop computers and 32 printers for its field offices. Express the ratio of computers to printers in simplest form.",
+    "options": [
+      {
+        "key": "A",
+        "text": "4:3"
+      },
+      {
+        "key": "B",
+        "text": "3:2"
+      },
+      {
+        "key": "C",
+        "text": "2:3"
+      },
+      {
+        "key": "D",
+        "text": "6:4"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Write Initial Ratio",
+        "text": "Computers : Printers = 48 : 32."
+      },
+      {
+        "rung": 2,
+        "title": "Find Great Common Divisor",
+        "text": "What is the largest number that divides both 48 and 32?"
+      },
+      {
+        "rung": 3,
+        "title": "Divide by GCD",
+        "text": "Greatest Common Divisor is 16."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Simplest Form",
+        "text": "48 ÷ 16 = 3, and 32 ÷ 16 = 2. Ratio is 3:2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Dividing 48 by 12 and 32 by 8 (inconsistent divisor).",
+        "trap_type": "wrong_divisor"
+      },
+      "B": {
+        "text": "Correct! Dividing both 48 and 32 by their GCD (16) yields 3:2.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Reversing the terms (Printers to Computers ratio 2:3 instead of Computers to Printers).",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "Dividing by 8 gives 6:4, but 6:4 can still be reduced further to 3:2.",
+        "trap_type": "incomplete_simplification"
+      }
+    },
+    "next_time_rule": "Always divide ratio terms by their Greatest Common Divisor (GCD) until they cannot be simplified further.",
+    "blueprint_id": "Ratio and Proportion — simplifying ratios into lowest terms",
+    "deconstruct_text": "Computers = 48, Printers = 32\nRatio = 48 : 32\nDivide both terms by 16:\n48 ÷ 16 = 3\n32 ÷ 16 = 2\nSimplest ratio = 3:2\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-003",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A disaster relief fund of ₱120,000 is allocated to three barangays in proportion to their population ratio of 3:4:5. How much budget will the barangay with the smallest population receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱30,000"
+      },
+      {
+        "key": "B",
+        "text": "₱40,000"
+      },
+      {
+        "key": "C",
+        "text": "₱50,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Sum the Ratio",
+        "text": "Total parts = 3 + 4 + 5 = 12 parts."
+      },
+      {
+        "rung": 2,
+        "title": "Find One Part",
+        "text": "₱120,000 ÷ 12 = ₱10,000 per ratio part."
+      },
+      {
+        "rung": 3,
+        "title": "Smallest Barangay Share",
+        "text": "Smallest ratio = 3 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Value",
+        "text": "3 × ₱10,000 = ₱30,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Total parts = 12. ₱120,000 ÷ 12 = ₱10,000. Smallest = 3 × ₱10,000 = ₱30,000.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is the middle barangay share (4 parts × ₱10,000 = ₱40,000).",
+        "trap_type": "wrong_part"
+      },
+      "C": {
+        "text": "This is the largest barangay share (5 parts × ₱10,000 = ₱50,000).",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "Dividing ₱120,000 by 2.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "Always check whether the question asks for the smallest, largest, or specific ratio part before picking your answer.",
+    "blueprint_id": "Ratio and Proportion — dividing budget by population ratio",
+    "deconstruct_text": "Ratio = 3 : 4 : 5\nTotal parts = 12\nValue per part = ₱120,000 ÷ 12 = ₱10,000\nSmallest share (3 parts) = 3 × ₱10,000 = ₱30,000\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-002",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipal health center, the ratio of registered nurses to medical technologists is 5:2. If there are 35 registered nurses, how many medical technologists are employed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Given Values",
+        "text": "Ratio of Nurses : MedTechs is 5 : 2."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Multiplier",
+        "text": "If 5 parts = 35 nurses, how much is 1 part?"
+      },
+      {
+        "rung": 3,
+        "title": "Calculate One Part",
+        "text": "35 ÷ 5 = 7 nurses per part."
+      },
+      {
+        "rung": 4,
+        "title": "Final Multiply",
+        "text": "MedTechs = 2 parts × 7 = 14."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Dividing 35 by 3.5 or miscalculating 5 × 2.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Correct! 5 parts = 35, so 1 part = 7. MedTechs = 2 parts × 7 = 14.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Subtracting 20 from 35 instead of using ratio proportion.",
+        "trap_type": "formula_misapplication"
+      },
+      "D": {
+        "text": "Calculating 35 minus 15.",
+        "trap_type": "misread_keyword"
+      }
+    },
+    "next_time_rule": "In direct proportion ratios (A:B = Given:X), divide the given quantity by its corresponding ratio number to find the multiplier.",
+    "blueprint_id": "Ratio and Proportion — finding unknown quantity in direct proportion",
+    "deconstruct_text": "Nurses : MedTechs = 5 : 2\n5 parts = 35 nurses → 1 part = 35 ÷ 5 = 7\nMedTechs = 2 parts = 2 × 7 = 14\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-001",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office distributed ₱45,000 among three employees in the ratio 2:3:4. How much did the employee with the largest share receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱18,000"
+      },
+      {
+        "key": "C",
+        "text": "₱20,000"
+      },
+      {
+        "key": "D",
+        "text": "₱22,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "See the Pattern",
+        "text": "This is a ratio problem — you need to divide a total into parts."
+      },
+      {
+        "rung": 2,
+        "title": "Strip the Noise",
+        "text": "Add the ratio parts: 2+3+4 = 9 total parts."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate One",
+        "text": "₱45,000 ÷ 9 = ₱5,000 per part. The largest share is 4 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "4 × ₱5,000 = ₱20,000. Look for this value."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the middle share (3 parts × ₱5,000 = ₱15,000), not the largest.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Dividing by an incorrect number of parts. Always use the total ratio parts.",
+        "trap_type": "wrong_divisor"
+      },
+      "C": {
+        "text": "Correct! 4 parts × ₱5,000 = ₱20,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Dividing ₱45,000 by 2 (smallest ratio). Divide by TOTAL parts (9), not individual.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "Whenever you see a ratio, add up ALL parts first before dividing.",
+    "blueprint_id": "Ratio and Proportion — dividing a total amount into parts based on a given ratio",
+    "deconstruct_text": "Step 1: Add ratio parts → 2+3+4 = 9 total parts\nStep 2: Find value of one part → ₱45,000 ÷ 9 = ₱5,000\nStep 3: Largest share = 4 × ₱5,000 = ₱20,000\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-005",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Under standard government filing rules, how is the agency 'Department of Budget and Management' indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Budget and Management"
+      },
+      {
+        "key": "B",
+        "text": "Budget and Management Department of"
+      },
+      {
+        "key": "C",
+        "text": "Budget and Management Department"
+      },
+      {
+        "key": "D",
+        "text": "Management and Budget Department"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Government Agency Rule",
+        "text": "Government agencies are indexed first by their key location/function name, with 'Department of' transposed to the end."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Key Function",
+        "text": "Key function name is 'Budget and Management'."
+      },
+      {
+        "rung": 3,
+        "title": "Transpose Official Title",
+        "text": "Unit 1: Budget, Unit 2: and, Unit 3: Management, Unit 4: Department, Unit 5: of."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Indexing",
+        "text": "Option B is 'Budget and Management Department of'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Fails to transpose the generic 'Department of' prefix.",
+        "trap_type": "prefix_rule_violation"
+      },
+      "B": {
+        "text": "Correct! Indexed under distinctive name 'Budget and Management Department of'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Omits the preposition 'of'.",
+        "trap_type": "omission_error"
+      },
+      "D": {
+        "text": "Reverses the order of Budget and Management.",
+        "trap_type": "word_order_error"
+      }
+    },
+    "next_time_rule": "Index government departments by their distinctive name first, placing 'Department of' at the end.",
+    "blueprint_id": "Alphabetical Filing — Government Agency Indexing",
+    "deconstruct_text": "Filing Rule for Government Agencies:\nOfficial government departments are indexed under their distinctive name, with 'Department of' transposed to the end.\n'Department of Budget and Management' -> 'Budget and Management Department of'.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-004",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are they identical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, they are completely identical."
+      },
+      {
+        "key": "B",
+        "text": "No, the digits 41 and 14 are transposed."
+      },
+      {
+        "key": "C",
+        "text": "No, the prefix is different."
+      },
+      {
+        "key": "D",
+        "text": "No, the checksum letter is different."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Compare Prefix",
+        "text": "'PH-2026-' matches in both codes."
+      },
+      {
+        "rung": 2,
+        "title": "Compare Number Group",
+        "text": "Original has '8941', Copy has '8914'."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Difference",
+        "text": "The last two digits '41' in original are flipped to '14' in copy."
+      },
+      {
+        "rung": 4,
+        "title": "Select Explanation",
+        "text": "Option B correctly identifies the digit transposition."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Fails to notice the transposition of 41 to 14.",
+        "trap_type": "oversight_error"
+      },
+      "B": {
+        "text": "Correct! The digits 41 and 14 are transposed.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. The prefix PH-2026- is identical.",
+        "trap_type": "wrong_location_error"
+      },
+      "D": {
+        "text": "Incorrect. The checksum letter -X is identical.",
+        "trap_type": "wrong_location_error"
+      }
+    },
+    "next_time_rule": "Compare codes chunk-by-chunk to catch transposed digits (e.g. 41 vs 14).",
+    "blueprint_id": "Clerical Accuracy — Code Verification and Transposition Detection",
+    "deconstruct_text": "Code Original = PH-2026-8941-X\nCode Copy     = PH-2026-8914-X\nTransposition error in digits: 41 vs 14.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-003",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Which of the following words is correctly spelled?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accomodation"
+      },
+      {
+        "key": "B",
+        "text": "Accommodation"
+      },
+      {
+        "key": "C",
+        "text": "Acommodation"
+      },
+      {
+        "key": "D",
+        "text": "Accomadation"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Double Consonants",
+        "text": "Look for double 'c' and double 'm'."
+      },
+      {
+        "rung": 2,
+        "title": "Check 'c' Count",
+        "text": "The word has double 'cc'."
+      },
+      {
+        "rung": 3,
+        "title": "Check 'm' Count",
+        "text": "The word also has double 'mm'."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Spelling",
+        "text": "Accommodation contains both double 'cc' and double 'mm'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Missing the second 'm'.",
+        "trap_type": "missing_double_letter"
+      },
+      "B": {
+        "text": "Correct! Contains double 'cc' and double 'mm'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Missing the second 'c'.",
+        "trap_type": "missing_double_letter"
+      },
+      "D": {
+        "text": "Incorrect vowel 'a' in the third syllable.",
+        "trap_type": "vowel_substitution_error"
+      }
+    },
+    "next_time_rule": "Remember: Accommodation has double C and double M.",
+    "blueprint_id": "Clerical Ability — Standard Spelling Verification",
+    "deconstruct_text": "Spelling rule: Accommodation contains double 'c' and double 'm'.\nAc-com-mo-da-tion (2 c's, 2 m's).\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-002",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "According to standard filing rules, how should the business name 'St. Jude Medical Clinic' be indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "St Jude Medical Clinic"
+      },
+      {
+        "key": "B",
+        "text": "Saint Jude Medical Clinic"
+      },
+      {
+        "key": "C",
+        "text": "Jude Medical Clinic St"
+      },
+      {
+        "key": "D",
+        "text": "Medical Clinic St Jude"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Abbreviation Rule",
+        "text": "Abbreviations like St., Mt., Ft. are indexed as if spelled out in full."
+      },
+      {
+        "rung": 2,
+        "title": "Spell Out 'St.'",
+        "text": "'St.' is spelled out as 'Saint'."
+      },
+      {
+        "rung": 3,
+        "title": "Combine Name Units",
+        "text": "Unit 1: Saint, Unit 2: Jude, Unit 3: Medical, Unit 4: Clinic."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Indexing",
+        "text": "Option B is 'Saint Jude Medical Clinic'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Fails to spell out the abbreviation 'St.' to 'Saint'.",
+        "trap_type": "abbreviation_rule_violation"
+      },
+      "B": {
+        "text": "Correct! 'St.' is indexed as 'Saint'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Transposing 'St' to the end.",
+        "trap_type": "transposition_error"
+      },
+      "D": {
+        "text": "Indexing under Medical instead of Saint.",
+        "trap_type": "unit_order_error"
+      }
+    },
+    "next_time_rule": "Always index abbreviations (St., Mt., Ft.) as if spelled out in full (Saint, Mount, Fort).",
+    "blueprint_id": "Alphabetical Filing — Abbreviations (St. spelled as Saint)",
+    "deconstruct_text": "Filing Rule: Abbreviated titles and prefixes (St., Mt., Dr., Mr.) are indexed as if spelled out in full.\n'St.' -> 'Saint'.\nIndexed form: Saint Jude Medical Clinic.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-001",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange the following government employee names in correct alphabetical filing order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. De Leon, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "2, 3, 1, 4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Filing Rules for Prefixes",
+        "text": "Foreign prefixes (De, De la, Del) are filed as a single unit or letter by letter."
+      },
+      {
+        "rung": 2,
+        "title": "Compare First Letters",
+        "text": "De Castro (De C...), De la Cruz (De l...), De Leon (De L...), Del Rosario (Del R...)."
+      },
+      {
+        "rung": 3,
+        "title": "Sort Letter by Letter",
+        "text": "De C... comes first (3), then De l... (1), then De L... (4), then Del R... (2)."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Sequence",
+        "text": "Sequence is 3, 1, 4, 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Alphabetical order letter by letter: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2).",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Unsorted sequence as presented.",
+        "trap_type": "unsorted_error"
+      },
+      "C": {
+        "text": "Swapping De la Cruz and De Leon.",
+        "trap_type": "letter_sequence_error"
+      },
+      "D": {
+        "text": "Placing Del Rosario first.",
+        "trap_type": "prefix_sorting_error"
+      }
+    },
+    "next_time_rule": "File names with prefixes (De, De la, Del) letter by letter from left to right.",
+    "blueprint_id": "Alphabetical Filing — Prefix Surnames (De, De la, Del)",
+    "deconstruct_text": "Standard Filing Rules treat prefixes letter-by-letter:\n1. De Castro, Ana (D-E-C...) -> #3\n2. De la Cruz, Juan (D-E-L-A-C...) -> #1\n3. De Leon, Pedro (D-E-L-E...) -> #4\n4. Del Rosario, Maria (D-E-L-R...) -> #2\nOrder: 3, 1, 4, 2.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-005",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-info",
+    "question_text": "According to Article II Section 1 of the 1987 Constitution, the Philippines is a democratic and republican State. Where does sovereignty reside?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sovereignty resides in the President of the Philippines."
+      },
+      {
+        "key": "B",
+        "text": "Sovereignty resides in the Supreme Court."
+      },
+      {
+        "key": "C",
+        "text": "Sovereignty resides in the people and all government authority emanates from them."
+      },
+      {
+        "key": "D",
+        "text": "Sovereignty resides in the Armed Forces of the Philippines."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Article II Focus",
+        "text": "Article II outlines Declaration of Principles and State Policies."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Section 1 Text",
+        "text": "Section 1 defines the democratic nature of the Republic."
+      },
+      {
+        "rung": 3,
+        "title": "Source of Authority",
+        "text": "All government authority emanates from the citizens."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option C",
+        "text": "Option C is 'Sovereignty resides in the people and all government authority emanates from them.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "The President is an elected servant of the people, not the seat of sovereignty.",
+        "trap_type": "executive_overreach_error"
+      },
+      "B": {
+        "text": "The Judiciary interprets law, but sovereignty belongs to the people.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "Correct! Article II Section 1 states sovereignty resides in the people.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Article II Section 3 states military is protector of people, not sovereign.",
+        "trap_type": "military_supremacy_error"
+      }
+    },
+    "next_time_rule": "Article II Section 1 states that sovereignty resides in the people and all authority emanates from them.",
+    "blueprint_id": "1987 Philippine Constitution — Article II Section 1 Sovereignty of the People",
+    "deconstruct_text": "1987 Constitution Article II Section 1:\n'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.'\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-004",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-info",
+    "question_text": "What public document must all public officials and employees file under oath upon assumption of office and on or before April 30 of every year thereafter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement of Assets, Liabilities, and Net Worth (SALN)"
+      },
+      {
+        "key": "B",
+        "text": "Personal Data Sheet (PDS)"
+      },
+      {
+        "key": "C",
+        "text": "Individual Performance Commitment and Review (IPCR)"
+      },
+      {
+        "key": "D",
+        "text": "Certificate of Eligibility"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Financial Disclosure Document",
+        "text": "The law requires annual disclosure of financial status under oath."
+      },
+      {
+        "rung": 2,
+        "title": "Recall April 30 Deadline",
+        "text": "Section 8 specifies filing on or before April 30 annually."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Acronym",
+        "text": "It is known as the SALN."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is Statement of Assets, Liabilities, and Net Worth (SALN)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! SALN is required under oath on or before April 30 each year.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "PDS is CS Form 212 updated upon appointment/promotion, not annual April 30 requirement.",
+        "trap_type": "form_confusion"
+      },
+      "C": {
+        "text": "IPCR measures performance semi-annually, not financial disclosure under oath.",
+        "trap_type": "form_confusion"
+      },
+      "D": {
+        "text": "Proof of eligibility issued by CSC/PRC, not an annual financial declaration.",
+        "trap_type": "document_confusion"
+      }
+    },
+    "next_time_rule": "SALN (Statement of Assets, Liabilities, and Net Worth) must be filed under oath by April 30 every year.",
+    "blueprint_id": "RA 6713 Section 8 — Disclosure of Assets and Liabilities (SALN)",
+    "deconstruct_text": "RA 6713 Section 8:\n'Public officials and employees have an obligation to accomplish and submit declarations under oath of their assets, liabilities, net worth and financial and business interests... on or before April 30 of every year.'\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-003",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-info",
+    "question_text": "Under the 1987 Philippine Constitution, legislative power is vested in the Congress of the Philippines, which consists of __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Senate and the House of Representatives"
+      },
+      {
+        "key": "B",
+        "text": "The President and the Cabinet"
+      },
+      {
+        "key": "C",
+        "text": "The Supreme Court and Lower Courts"
+      },
+      {
+        "key": "D",
+        "text": "The Civil Service Commission and Commission on Audit"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Branch of Government",
+        "text": "Legislative power belongs to the law-making branch (Congress)."
+      },
+      {
+        "rung": 2,
+        "title": "Bicameral Structure",
+        "text": "Philippine Congress is bicameral (two chambers)."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Chambers",
+        "text": "Upper House = Senate; Lower House = House of Representatives."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'The Senate and the House of Representatives'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VI Section 1 specifies Senate and House of Representatives.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Vests Executive power (Article VII), not Legislative.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "Vests Judicial power (Article VIII), not Legislative.",
+        "trap_type": "branch_confusion"
+      },
+      "D": {
+        "text": "Independent Constitutional Commissions (Article IX), not Congress.",
+        "trap_type": "commission_confusion"
+      }
+    },
+    "next_time_rule": "Article VI Section 1 vests legislative power in the bicameral Congress (Senate & House of Representatives).",
+    "blueprint_id": "1987 Philippine Constitution — Article VI Section 1 Legislative Department",
+    "deconstruct_text": "1987 Constitution Article VI Section 1:\n'The legislative power shall be vested in the Congress of the Philippines which shall consist of a Senate and a House of Representatives, except to the extent reserved to the people by the provision on initiative and referendum.'\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-002",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-info",
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), within how many working days must public officials respond to letters and requests sent by the public?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 working days"
+      },
+      {
+        "key": "B",
+        "text": "10 working days"
+      },
+      {
+        "key": "C",
+        "text": "15 working days"
+      },
+      {
+        "key": "D",
+        "text": "30 working days"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Law Section",
+        "text": "RA 6713 Section 5 outlines duties of public officials."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Response Mandate",
+        "text": "Section 5(a) requires written response to public communications."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Timeframe",
+        "text": "The response containing action taken must be sent within 15 working days."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option C",
+        "text": "Option C is '15 working days'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Refers to ARTA 3-day/5-day classification, not RA 6713 baseline.",
+        "trap_type": "arta_timeframe_confusion"
+      },
+      "B": {
+        "text": "Common distractor number.",
+        "trap_type": "timeframe_error"
+      },
+      "C": {
+        "text": "Correct! RA 6713 Section 5(a) specifies 15 working days.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Refers to SALN submission deadline month, not communication response.",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "RA 6713 Section 5(a) mandates responding to public letters within 15 working days.",
+    "blueprint_id": "RA 6713 Section 5(a) — Prompt Action on Letters and Requests",
+    "deconstruct_text": "RA 6713 Section 5(a):\n'Act promptly on letters and requests. All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.'\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-001",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-info",
+    "question_text": "According to Article III (Bill of Rights) of the 1987 Philippine Constitution, no person shall be deprived of life, liberty, or property without __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "due process of law"
+      },
+      {
+        "key": "B",
+        "text": "presidential approval"
+      },
+      {
+        "key": "C",
+        "text": "written authorization"
+      },
+      {
+        "key": "D",
+        "text": "judicial warrant"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Constitutional Article",
+        "text": "This is Section 1 of the Bill of Rights (Article III)."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Fundamental Guarantee",
+        "text": "It guarantees fundamental protection against arbitrary government action."
+      },
+      {
+        "rung": 3,
+        "title": "Complete the Clause",
+        "text": "'...without due process of law, nor shall any person be denied the equal protection of the laws.'"
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'due process of law'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Verbatim text of Article III Section 1 Due Process Clause.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Irrelevant. Executive approval cannot override constitutional due process.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "Vague administrative term not found in Section 1.",
+        "trap_type": "administrative_distractor"
+      },
+      "D": {
+        "text": "Refers to Section 2 (Search and Seizure), not Section 1.",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "Article III Section 1 guarantees due process of law before deprivation of life, liberty, or property.",
+    "blueprint_id": "1987 Philippine Constitution — Article III Section 1 Due Process Clause",
+    "deconstruct_text": "1987 Constitution Article III Section 1:\n'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-005",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Rule: 'An applicant is granted an interview ONLY IF they pass the written examination and possess a bachelor's degree.'\nFact: Jose passed the written examination but does not possess a bachelor's degree.\nConclusion: Is Jose eligible for an interview?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, because passing the written exam is sufficient."
+      },
+      {
+        "key": "B",
+        "text": "No, because both conditions must be satisfied."
+      },
+      {
+        "key": "C",
+        "text": "Yes, if he submits an extension request."
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined from the rule."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze 'ONLY IF' Condition",
+        "text": "'ONLY IF' introduces necessary conditions. BOTH conditions are required."
+      },
+      {
+        "rung": 2,
+        "title": "Check Requirements",
+        "text": "Requirement 1: Pass written exam. Requirement 2: Bachelor's degree."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Jose's Status",
+        "text": "Jose has Requirement 1, but lacks Requirement 2."
+      },
+      {
+        "rung": 4,
+        "title": "Deduce Eligibility",
+        "text": "Failing one necessary condition makes Jose ineligible (No)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Treats a necessary condition as sufficient.",
+        "trap_type": "sufficiency_fallacy"
+      },
+      "B": {
+        "text": "Correct! 'ONLY IF' requires BOTH conditions to be true.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Speculative exception not mentioned in the rule.",
+        "trap_type": "speculative_error"
+      },
+      "D": {
+        "text": "Incorrect. The rule strictly determines eligibility.",
+        "trap_type": "indecision_error"
+      }
+    },
+    "next_time_rule": "In 'ONLY IF' rules, ALL listed conditions must be met for eligibility.",
+    "blueprint_id": "Logical Reasoning — Necessary vs Sufficient Conditions",
+    "deconstruct_text": "'ONLY IF' establishes necessary conditions.\nInterview -> Pass Exam AND Bachelor's Degree.\nSince Jose lacks a bachelor's degree, the necessary condition is false.\nTherefore, Jose is NOT eligible for an interview.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-004",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "LAWYER is to COURT as CIVIL SERVANT is to __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELECTION"
+      },
+      {
+        "key": "B",
+        "text": "AGENCY"
+      },
+      {
+        "key": "C",
+        "text": "PLAINTIFF"
+      },
+      {
+        "key": "D",
+        "text": "LAWSUIT"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Relationship",
+        "text": "A lawyer performs official duties in a court."
+      },
+      {
+        "rung": 2,
+        "title": "Apply Relationship to Second Term",
+        "text": "Where does a civil servant perform official duties?"
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "A civil servant performs official duties in a government agency."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Option B",
+        "text": "Lawyer : Court :: Civil Servant : Agency."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Refers to a process, not a primary workplace.",
+        "trap_type": "process_vs_place_error"
+      },
+      "B": {
+        "text": "Correct! An agency is the primary workplace of a civil servant.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Refers to a party in a court case, not a workplace.",
+        "trap_type": "role_confusion"
+      },
+      "D": {
+        "text": "Refers to a legal action, not a workplace.",
+        "trap_type": "object_confusion"
+      }
+    },
+    "next_time_rule": "Identify the exact relationship (profession to workplace) in the first pair before picking the answer.",
+    "blueprint_id": "Analytical Ability — Verbal Analogies (Workplace Association)",
+    "deconstruct_text": "Analogy type: Profession : Primary Workplace\nLawyer works in Court.\nCivil Servant works in Government Agency.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-003",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its ₱10,000,000 budget as follows: Infrastructure 40%, Health Services 30%, Education 20%, Administration 10%. How much more budget was allocated to Infrastructure than to Education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "₱2,000,000"
+      },
+      {
+        "key": "C",
+        "text": "₱3,000,000"
+      },
+      {
+        "key": "D",
+        "text": "₱4,000,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Percentage Difference",
+        "text": "Infrastructure % minus Education % = 40% - 20% = 20%."
+      },
+      {
+        "rung": 2,
+        "title": "Apply Percentage to Total",
+        "text": "Calculate 20% of ₱10,000,000."
+      },
+      {
+        "rung": 3,
+        "title": "Perform Multiplication",
+        "text": "0.20 × ₱10,000,000 = ₱2,000,000."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Value",
+        "text": "Option B is ₱2,000,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Difference between Education (20%) and Administration (10%).",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "Correct! 40% - 20% = 20% of ₱10M = ₱2,000,000.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Difference between Infrastructure (40%) and Administration (10%).",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "Total Infrastructure allocation (₱4M), not the difference.",
+        "trap_type": "total_vs_difference_confusion"
+      }
+    },
+    "next_time_rule": "Subtract percentages first before multiplying by total to find differences faster.",
+    "blueprint_id": "Data Interpretation — Percentage Allocation Difference",
+    "deconstruct_text": "Infrastructure = 40% of ₱10,000,000 = ₱4,000,000\nEducation = 20% of ₱10,000,000 = ₱2,000,000\nDifference = ₱4,000,000 - ₱2,000,000 = ₱2,000,000\n\nShortcut:\nPercentage difference = 40% - 20% = 20%\n20% of ₱10,000,000 = ₱2,000,000\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-002",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next number in the series: 3, 7, 15, 31, 63, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "95"
+      },
+      {
+        "key": "B",
+        "text": "127"
+      },
+      {
+        "key": "C",
+        "text": "128"
+      },
+      {
+        "key": "D",
+        "text": "135"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at Differences",
+        "text": "7-3=4, 15-7=8, 31-15=16, 63-31=32."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Pattern in Differences",
+        "text": "The differences are doubling: +4, +8, +16, +32."
+      },
+      {
+        "rung": 3,
+        "title": "Find Next Difference",
+        "text": "Next difference is 32 × 2 = +64."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Next Number",
+        "text": "63 + 64 = 127. Alternatively, (n × 2) + 1 -> (63 × 2) + 1 = 127."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Adding 32 twice instead of doubling the difference to 64.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Correct! Pattern doubles differences (+64) or applies (2n + 1) -> 127.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Confusing (2n + 1) with pure power of 2 (2^7 = 128).",
+        "trap_type": "off_by_one_error"
+      },
+      "D": {
+        "text": "Adding 72 instead of 64.",
+        "trap_type": "calculation_error"
+      }
+    },
+    "next_time_rule": "Check both difference growth (+4, +8, +16) and multiplier rules (×2 + 1) when solving number series.",
+    "blueprint_id": "Analytical Ability — Number Series Pattern Recognition",
+    "deconstruct_text": "Method 1 (Differences):\n+4, +8, +16, +32, +64\n63 + 64 = 127\n\nMethod 2 (Multiplier):\nEach term is (Previous × 2) + 1\n(3 × 2) + 1 = 7\n(7 × 2) + 1 = 15\n(15 × 2) + 1 = 31\n(31 × 2) + 1 = 63\n(63 × 2) + 1 = 127\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-001",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Maria is a department head.\nWhich conclusion logically follows?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is not career service eligible."
+      },
+      {
+        "key": "B",
+        "text": "Maria is career service eligible."
+      },
+      {
+        "key": "C",
+        "text": "All career service eligibles are department heads."
+      },
+      {
+        "key": "D",
+        "text": "Maria will be promoted next year."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Set Inclusion",
+        "text": "Department heads belong inside the set of Career Service Eligibles."
+      },
+      {
+        "rung": 2,
+        "title": "Place Individual in Set",
+        "text": "Maria is placed inside the Department Heads set."
+      },
+      {
+        "rung": 3,
+        "title": "Deduce Property",
+        "text": "Since Maria is in Department Heads, she MUST also be in Career Service Eligibles."
+      },
+      {
+        "rung": 4,
+        "title": "Select Matching Conclusion",
+        "text": "Option B is a valid direct deduction."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Direct contradiction of the premises.",
+        "trap_type": "contradiction_error"
+      },
+      "B": {
+        "text": "Correct! Valid deductive conclusion (Modus Ponens).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Converse fallacy. Saying All A are B does not mean All B are A.",
+        "trap_type": "converse_fallacy"
+      },
+      "D": {
+        "text": "Speculative assumption not contained in premises.",
+        "trap_type": "speculative_error"
+      }
+    },
+    "next_time_rule": "If All A are B and X is A, then X is definitely B (do not flip the direction).",
+    "blueprint_id": "Logical Reasoning — Categorical Syllogism (Modus Ponens)",
+    "deconstruct_text": "Classic Modus Ponens:\nAll A are B.\nX is A.\nTherefore, X is B.\nHere A = Department Heads, B = Career Service Eligible, X = Maria.\nMaria MUST be career service eligible.\n",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

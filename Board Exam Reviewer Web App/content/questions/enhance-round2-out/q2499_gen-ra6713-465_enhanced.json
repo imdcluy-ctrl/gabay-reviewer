@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-465",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "After retiring as a city legal officer, Atty. Rivera wants to open a private law practice. He plans to handle cases against the city government in matters that he previously handled while in office. Under RA 6713, which of the following statements is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Atty. Rivera may immediately practice law and handle any case, including those against the city, because his retirement ends all restrictions."
+      },
+      {
+        "key": "B",
+        "text": "Atty. Rivera is prohibited from practicing his profession for one year after retirement, but only for cases involving the city government."
+      },
+      {
+        "key": "C",
+        "text": "Atty. Rivera may practice law but is permanently barred from handling any case that he personally handled while in office."
+      },
+      {
+        "key": "D",
+        "text": "Atty. Rivera may practice law but is prohibited for two years from appearing before the city government on matters related to his former office."
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": null
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3084",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

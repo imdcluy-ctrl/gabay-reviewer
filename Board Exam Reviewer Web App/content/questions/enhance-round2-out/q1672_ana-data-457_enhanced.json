@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-457",
+    "category_id": "analytical-ability",
+    "subtopic_id": "data-interpretation",
+    "question_text": "The table below shows agricultural production volume (in metric tons) and value (in million pesos) for three crops across two regions. Region I: Rice volume 500, value 10,000; Corn volume 300, value 4,500; Coconut volume 200, value 3,000. Region II: Rice volume 400, value 8,000; Corn volume 350, value 5,250; Coconut volume 250, value 3,750. What is the total value of all crops in both regions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱34,500 million"
+      },
+      {
+        "key": "B",
+        "text": "₱35,000 million"
+      },
+      {
+        "key": "C",
+        "text": "₱35,500 million"
+      },
+      {
+        "key": "D",
+        "text": "₱36,000 million"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Complex data table (5x6): Agricultural production volume and value for various crops across different regions (Scenario 84)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

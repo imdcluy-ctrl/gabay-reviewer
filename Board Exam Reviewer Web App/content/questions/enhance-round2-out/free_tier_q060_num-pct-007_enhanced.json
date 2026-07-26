@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-007",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government cooperative deposited P100,000 in a bank that pays 4% simple interest per year. How much interest will it earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P8,000"
+      },
+      {
+        "key": "B",
+        "text": "P10,000"
+      },
+      {
+        "key": "C",
+        "text": "P12,000"
+      },
+      {
+        "key": "D",
+        "text": "P14,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient yourself",
+        "text": "This is a simple interest problem. The key is to remember that simple interest means the interest is earned only on the original principal each year, not on the accumulated amount."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "Simple Interest = Principal x Rate x Time. The rate must be in decimal form (4% = 0.04), and time must be in years."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule step by step",
+        "text": "First, find the interest for one year: P100,000 multiplied by 0.04 equals P4,000. That's what the cooperative earns each year."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "Now multiply that one-year interest by the number of years: P4,000 times 3 equals P12,000. That's the total interest after 3 years."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P8,000. This is a common slip where you might have used only 2 years instead of 3. It's easy to misread the time period under pressure. The interest per year is P4,000, so for 2 years it would be P8,000.",
+        "trap_type": "time_period_error"
+      },
+      "B": {
+        "text": "P10,000. This could happen if you accidentally used 2.5 years or mixed up the rate. For example, thinking 4% for 2.5 years gives P10,000. Always double-check that you're using the exact number of years given.",
+        "trap_type": "time_period_error"
+      },
+      "C": {
+        "text": "P12,000. Correct. You correctly multiplied the principal (P100,000) by the rate (0.04) to get P4,000 per year, then multiplied by 3 years to get P12,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P14,000. This might come from adding an extra year or miscalculating. Perhaps you used 3.5 years or added P2,000 by mistake. Stick to the formula and you'll avoid this.",
+        "trap_type": "time_period_error"
+      }
+    },
+    "next_time_rule": "Simple interest is just the annual interest multiplied by the number of years. Find the yearly amount first, then multiply. This keeps it simple and prevents time period errors.",
+    "blueprint_id": "Simple Interest — Cooperative Deposit",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The cooperative deposits P100,000 at 4% simple interest per year. Simple interest means the bank pays interest only on the original P100,000 each year, not on the growing balance. So first, find the interest for one year: 4% of P100,000 is P4,000 (just multiply 100,000 by 0.04). That's what they earn annually. Now, since they want the total after 3 years, multiply that yearly interest by 3: P4,000 times 3 equals P12,000. The mental trick here is to always find the one-year interest first. It's like figuring out your monthly savings and then multiplying by the number of months. Once you have that yearly amount, you just scale it up. This approach helps you avoid common mistakes like using the wrong number of years or misplacing a decimal.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

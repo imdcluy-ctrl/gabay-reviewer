@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-029",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipality, the ratio of male to female employees is 7:5. If there are 20 more male employees than female employees, how many female employees are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "55"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tingnan ang Ratio bilang Bahagi",
+        "text": "Ang 7:5 ay parang 7 piraso ng pizza para sa lalaki at 5 para sa babae. Bawat piraso ay 'part'. Ang tanong, ilang piraso ang lamang ng lalaki? (7-5=..."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang Gap ng Ratio",
+        "text": "Ang sobrang 20 empleyado, saan mapupunta? Sa 2 parts na lamang. Kaya: 2 parts = 20. Wag mo ilagay sa 5 parts! Dyan madaming nadadale."
+      },
+      {
+        "rung": 3,
+        "title": "Kunin ang Value ng Isang Part",
+        "text": "2 parts = 20, so 1 part = 10. Parang presyo sa palengke: 2 kahon ng sardinas = 20 piso, so 1 kahon = 10 piso. Ganun lang kasimple."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply para sa Female Count",
+        "text": "Babae = 5 parts. 5 × 10 = 50. Sagot: 50. Tandaan: gamitin ang gap para makuha ang value ng isang part, saka multiply sa target na group."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you set the female's 5 parts directly equal to the difference of 20, confusing which part is the gap.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because of a reversal in steps, perhaps subtracting 5 from the correct total instead of completing the unit-value...",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct. The gap in ratio (7-5=2) equals 20, so 1 part=10, females=5×10=50.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you added an extra 5 after correctly multiplying, possibly misapplying the ratio or doing an extra additi...",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Sa ratio with difference, hanapin ang gap ng ratio parts, i-divide ang actual difference para makuha ang 1 part, saka i-multiply sa target part.",
+    "blueprint_id": "Ratio — Finding from Difference",
+    "deconstruct_text": "Imagine mo real-life scenario: sa LGU ng barangay ninyo, may 7 lalaki sa bawat 5 babae na empleyado. Pero ang dami ng lalaki ay mas marami ng 20 kaysa babae. Parang minsan mas maraming lalaking kagawad kaysa babae. Ang ratio na 7:5 ay nagsasabi na may 2 parteng dagda...\n\nSo, 2 parts = 20 employees. Kaya 1 part = 10 employees. Ngayon, ang babae ay may 5 parts, kaya 5 × 10 = 50. Simple lang! Parang pagbibilang lang ng sardinas sa lata—bawat part ay isang batch. Mental trick: Lagi mong hanapin yung 'gap' ng ratio, at dun mo ikakabit yun...\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Pagkakamaling 5 parts = 20, i...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

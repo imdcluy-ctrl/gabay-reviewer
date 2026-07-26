@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-012",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "If 5 government employees can process 75 applications in 3 days, how many applications can 8 employees process in the same number of days?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "110"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "125"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Unit Rate First",
+        "text": "When you have a group doing work in the same time, find the per-person output. For 5 people doing 75 apps, each does how many?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Division",
+        "text": "Divide 75 by 5 to get 15 applications per employee in 3 days. That’s your key number."
+      },
+      {
+        "rung": 3,
+        "title": "Now Scale Up",
+        "text": "Now with 8 employees, multiply the per-person output (15) by 8. 15 × 8 = 120 applications."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You’ve got 120. Avoid traps: adding extra employees doesn’t mean adding a random number. Trust the per-unit method."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you added 25 (75+25=100), mistakenly thinking each new employee adds 25/3≈8.33 applications instead of th...",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you added 35 to 75, but no logical step leads to 110; always find the per-unit output first.",
+        "trap_type": "reverse_operation_error"
+      },
+      "C": {
+        "text": "Correct. Each employee processes 15 applications in 3 days (75÷5=15), so 8 employees process 15×8=120.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you multiplied 75 by 8/5 giving 120, then mistakenly added 5 more; remember, scaling directly doesn’t nee...",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "For constant-time direct proportion, find per-person output first; it's your scaling key. Never just add to the total.",
+    "blueprint_id": "Direct Proportion — Per-Unit Scaling",
+    "deconstruct_text": "Example: Sa Barangay San Roque, 5 employees processed 75 applications for their clearance drive in 3 days. Since time is the same, hanapin muna natin ang kaya ng isang tao.\n\n75 divided by 5 equals 15. So bawat isang empleyado, 15 applications ang kaya sa 3 araw.\n\nNgayon, kung 8 na sila, multiply lang: 15 x 8 = 120 applications.\n\nTandaan: always hanapin ang per-unit output. Parang kita ng isang tricycle driver sa isang araw—madali nang malaman kita ng walong drivers kapag alam mo ang per driver. Kaya iwasan magdagdag na lang basta. You got this!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,54 @@
+id: ver-gram-004
+subtopic: vocabulary-synonyms
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["vocabulary", "administrative-terms"]
+estimated_seconds: 45
+question_text: "The Civil Service Commission issued a MANDATORY directive ordering all agencies to update their personnel records. What is the closest synonym for MANDATORY?"
+options:
+  - key: A
+    text: "Optional"
+  - key: B
+    text: "Compulsory"
+  - key: C
+    text: "Advisory"
+  - key: D
+    text: "Temporary"
+correct: B
+blueprint_id: "Vocabulary — Synonyms of Administrative Directives"
+hint_ladder:
+  - rung: 1
+    title: "Contextual Clue"
+    text: "The directive requires compliance by all agencies."
+  - rung: 2
+    title: "Root Meaning"
+    text: "'Mandatory' comes from mandate — an official command that must be followed."
+  - rung: 3
+    title: "Eliminate Antonyms"
+    text: "'Optional' and 'Advisory' mean compliance is voluntary."
+  - rung: 4
+    title: "Select Synonym"
+    text: "'Compulsory' means required by law or rule, matching mandatory."
+deconstruct_text: |
+  Mandatory means required by law, rule, or authority.
+  Synonym = Compulsory (obligatory, required).
+  Antonyms = Optional, Advisory, Discretionary.
+choice_explanations:
+  A:
+    text: "Direct antonym. Optional means voluntary."
+    trap_type: antonym_confusion
+  B:
+    text: "Correct! Compulsory means required by authority or rule."
+    trap_type: null
+  C:
+    text: "Advisory means offering recommendations, not binding requirements."
+    trap_type: partial_definition_error
+  D:
+    text: "Refers to duration, not obligation."
+    trap_type: irrelevance_error
+next_time_rule: "Mandatory means compulsory; it requires compliance by law or official command."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Vocabulary Bank"

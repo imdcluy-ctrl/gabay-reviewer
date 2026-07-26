@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-028",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'COMPENSATORY' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Penal"
+      },
+      {
+        "key": "B",
+        "text": "Offsetting"
+      },
+      {
+        "key": "C",
+        "text": "Punitive"
+      },
+      {
+        "key": "D",
+        "text": "Retributive"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Compensatory means something that compensates, i.e., makes up for a loss, damage, or deficiency. It's about restoring balance."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The best synonym is 'Offsetting'. Think of compensatory damages in law — they are meant to offset the harm suffered."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "A, C, D are about punishment. Compensatory is about restoration, not punishment. Which means 'offsetting'?"
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is correct because 'offsetting' captures counterbalancing a loss, the essence of compensatory."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'penal' sounds legal, but compensatory is about making amends, not punishment.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct. Offsetting means counterbalancing, just like compensatory damages restore what was lost.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because punitive damages exist, but compensatory is for restoration, not punishment.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because retributive justice is well-known, but it's about payback, not compensating.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "Tandaan: Compensatory = offsetting. Pag may nasira, kailangan palitan, hindi parusahan!",
+    "blueprint_id": "Vocabulary — Compensatory",
+    "deconstruct_text": "Isipin mo si Tita Lorna, may sari-sari store sa barangay. Nasagi ng truck ang tindahan niya, nasira ang paninda. Yung insurance ng truck driver, nagbigay ng compensatory payment para ma-offset ang nawala, hindi para parusahan ang driver.\n\n‘Compensatory’ means serving to compensate—making up for a loss, damage, or injury. It’s about restoring balance, not punishing.\n\nHabang ang ‘penal’, ‘punitive’, at ‘retributive’ ay tungkol sa parusa, ang compensatory ay tungkol sa pagbabayad o pagpuno sa kulang. Kaya 'offsetting' ang tugma.\n\nMental trick: Tuwing marinig mo ang 'compensatory', isipin mo 'compensate'—kapag may nasira, kailangan palitan o i-offset, hindi parusahan. Kaya 'offsetting' ang sagot!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-403",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "A directory lists two street names: '3rd Avenue' and 'Third Avenue'. According to standard filing rules, which should come first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3rd Avenue, because numbers come before letters"
+      },
+      {
+        "key": "B",
+        "text": "Third Avenue, because spelled-out numbers come before digits"
+      },
+      {
+        "key": "C",
+        "text": "3rd Avenue, because digits are filed as if spelled out"
+      },
+      {
+        "key": "D",
+        "text": "Third Avenue, because 'T' comes before '3'"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is all about how filing rules treat numbers. Think about what happens when you see a digit like '3' in a name—do you file it as a number, or do you pretend it's written out as a word?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The golden rule here is simple: always file numbers as if they were spelled out. So '3rd' becomes 'Third' in your mind. That means both names are actually the same word for filing purposes."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Since '3rd Avenue' and 'Third Avenue' both become 'Third Avenue' when you apply the rule, you've got a tie. Filing systems need a way to break ties, and there's a standard one for this situation."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "When two names are identical after converting numbers to words, the tiebreaker is simple: the version with the digit comes first. So '3rd Avenue' edges out 'Third Avenue' by a hair."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common misunderstanding. Many people assume numbers automatically come before letters in filing, like in a simple alphabetical sort. But filing rules are more specific—they treat digits as if they were spelled out, so '3' isn't compared as a number at all. It's compared as 'Three'.",
+        "trap_type": "digit_before_letter_misconception"
+      },
+      "B": {
+        "text": "It's easy to think that spelling out a number gives it priority, but that's not how the rule works. Both digit and spelled-out versions are treated the same—they're both converted to the word form. So 'Third' and '3rd' are considered identical, not one ahead of the other.",
+        "trap_type": "spelled_out_priority"
+      },
+      "C": {
+        "text": "Exactly right. The rule says to file numbers as if they're spelled out, so '3rd' becomes 'Third'. That makes both names identical. The tiebreaker then kicks in: the version with the digit ('3rd Avenue') comes before the spelled-out version ('Third Avenue').",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one's tempting because it feels intuitive to compare the first character directly. But you can't compare 'T' and '3' as letters—the rule requires you to convert '3' to 'Three' first. Once you do that, both names start with 'T', so the comparison moves on.",
+        "trap_type": "direct_character_comparison"
+      }
+    },
+    "deconstruct_text": "Let's walk through this step by step. The core rule for filing names with numbers is this: always treat digits as if they were spelled out. So '3rd Avenue' becomes 'Third Avenue' in your filing system. 'Third Avenue' stays as is. Now you've got two identical names: 'Third Avenue' and 'Third Avenue'. That's a tie. Filing rules have a standard tiebreaker for this exact situation: when two names are identical after converting numbers to words, the version that uses the digit comes first. So '3rd Avenue' wins. The mental trick here is to think of it as a two-step process. Step one: translate all numbers to words and compare. Step two: if they match, the digit version gets priority. This keeps everything consistent and avoids confusion between spelled-out and numeric forms.",
+    "next_time_rule": "When filing names with numbers, first convert all digits to words. If the names become identical, the version with the digit comes first as the tiebreaker.",
+    "blueprint_id": "B-2373",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

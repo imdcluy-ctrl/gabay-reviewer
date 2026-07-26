@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient to Idiom",
+        "text": "The word 'responsible' does not pair freely with any preposition; it follows a specific idiomatic pattern based on what follows it."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the Rule",
+        "text": "English distinguishes between 'responsible for' (used with a task, duty, or outcome) and 'responsible to' (used with a person or authority figure)."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the Sentence",
+        "text": "The object of the preposition is 'overseeing the regional operations,' which is a task or duty, not a person. Therefore, the correct preposition must be the one that pairs with tasks."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow the Choice",
+        "text": "Since the object is a task, the only idiomatic preposition among the options that fits is 'for.' The other options either pair with persons or are not standard."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Responsible for' is the standard idiomatic expression when the object is a task, duty, or outcome, such as overseeing operations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "A student might choose 'with' because it sounds natural in phrases like 'tasked with' or 'charged with,' but 'responsible with' is not a standard English idiom. The correct preposition for a duty is 'for.'",
+        "trap_type": "analogy_misapplication"
+      },
+      "C": {
+        "text": "This is a common trap. 'Responsible to' is correct when referring to a person or authority (e.g., responsible to the board). A student might mistakenly apply it here because they recall the 'to' pattern but overlook that the object is a task, not a person.",
+        "trap_type": "idiom_target_confusion"
+      },
+      "D": {
+        "text": "A student might choose 'in' if they think of being 'in charge of' something, but 'responsible in' is not idiomatic. The correct preposition for a duty is 'for.'",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "When you see 'responsible,' ask: Is the object a task or a person? If it is a task, use 'for'; if it is a person or authority, use 'to.'",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "The key to this question is recognizing that 'responsible' is part of a fixed idiomatic pattern in English. The preposition that follows depends entirely on the nature of the object. If the object is a task, duty, or outcome, the correct preposition is 'for.' If the object is a person or an authority figure, the correct preposition is 'to.' In this sentence, the object is 'overseeing the regional operations,' which is clearly a task. Therefore, 'for' is the only correct choice. A useful mental trick is to imagine the sentence with a person instead: 'The director is responsible to the board.' If you can substitute a person and the sentence still makes sense, then 'to' might be correct. But here, substituting a person would change the meaning entirely. So, always check the object first. This approach will help you avoid the common trap of choosing 'to' when the object is a task.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

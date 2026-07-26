@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-402",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "If a municipality reaches an annual income of ₱50 million, then it becomes a city. Municipality A reached an annual income of ₱50 million. Which of the following conclusions is valid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Municipality A did not become a city."
+      },
+      {
+        "key": "B",
+        "text": "Municipality A became a city."
+      },
+      {
+        "key": "C",
+        "text": "Municipality A might become a city."
+      },
+      {
+        "key": "D",
+        "text": "Municipality A is not a city."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is a classic logic pattern. Look at the first sentence: it sets up a condition. When that condition happens, something else must follow. Think of it like a promise: 'If you finish your homework, then you can watch TV.' Now, what happens if the condition is actually met?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "There's a simple rule here called 'affirming the antecedent.' It means: if the 'if' part is true, then the 'then' part must also be true. You can't have the 'if' happen and the 'then' not happen—that would break the promise."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's map it out: The 'if' part is 'a municipality reaches ₱50 million income.' The 'then' part is 'it becomes a city.' The problem tells us that Municipality A definitely reached ₱50 million. So the 'if' part is true. What does that mean for the 'then' part?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Since the condition is met, the result is guaranteed. Municipality A reached ₱50 million, so it must have become a city. There's no 'maybe' about it—the rule says it's certain. Look for the option that expresses this certainty."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the opposite of what the logic tells us. If you think this, you might be mixing up cause and effect. The rule says: if income hits ₱50M, then city status follows. Since the income was reached, city status is guaranteed, not denied.",
+        "trap_type": "denying_antecedent_fallacy"
+      },
+      "B": {
+        "text": "Exactly right. The rule is a straight promise: when the condition (₱50M income) is met, the result (becoming a city) is certain. Municipality A met the condition, so it became a city. No doubt about it.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is too cautious. The word 'might' suggests uncertainty, but the logic here gives us certainty. If you picked this, you might be thinking of real-world exceptions, but in pure logic, when the 'if' happens, the 'then' is guaranteed. Stick to what the rule says.",
+        "trap_type": "weak_conclusion"
+      },
+      "D": {
+        "text": "This also denies the result. It's like saying 'if you finish your homework, you can watch TV' and then saying you finished your homework but didn't get to watch TV. That breaks the rule. The rule says the result must happen.",
+        "trap_type": "denying_antecedent_fallacy"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a simple way. The first sentence is a conditional statement: 'If a municipality reaches ₱50 million annual income, then it becomes a city.' Think of it as a logical promise. The 'if' part is the condition (let's call it P), and the 'then' part is the result (let's call it Q). So the rule is: If P, then Q. Now, the second sentence tells us that Municipality A satisfies P—it reached ₱50 million income. When the condition is true, the result must follow. This is a basic rule of logic called modus ponens, but you don't need the fancy name. Just remember: if the 'if' happens, the 'then' happens. So Municipality A became a city. Options A and D say it didn't, which breaks the rule. Option C says it 'might,' but the rule says it's certain. Only option B matches the logic perfectly. Here's a mental trick for next time: when you see 'If X, then Y' and the problem says 'X is true,' your brain should immediately think 'so Y is true.' It's like a domino falling—once the first domino tips, the second one must fall.",
+    "next_time_rule": "The Domino Rule: In an 'If P, then Q' statement, when P is confirmed true, Q is guaranteed true. No maybes, no opposites—just a straight logical fall.",
+    "blueprint_id": "B-1745",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

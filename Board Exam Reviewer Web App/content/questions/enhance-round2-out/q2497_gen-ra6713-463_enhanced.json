@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-463",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "A public school teacher, Ms. Santos, received a handcrafted thank-you card and a small box of chocolates from a student's parent during the holiday season. The total value of the items is approximately ₱200. Under RA 6713, which of the following is the most appropriate action for Ms. Santos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She should decline the gift because any gift from a parent is considered a prohibited act under the Code."
+      },
+      {
+        "key": "B",
+        "text": "She may accept the gift because it is of nominal value and given on a traditional occasion, but she must report it to her immediate superior."
+      },
+      {
+        "key": "C",
+        "text": "She may accept the gift without any reporting requirement because it is a personal token of gratitude."
+      },
+      {
+        "key": "D",
+        "text": "She should accept the gift but must donate it to the school's charity fund to avoid any appearance of impropriety."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3082",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

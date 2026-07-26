@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-510",
+    "category_id": "verbal-ability",
+    "subtopic_id": "grammar-correct-usage",
+    "question_text": "Identify the sentence with a dangling modifier from the DPWH executive summary: 'Having completed the bridge inspection, the report was submitted to the regional office.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having completed the bridge inspection, the report was submitted to the regional office."
+      },
+      {
+        "key": "B",
+        "text": "Having completed the bridge inspection, the engineer submitted the report to the regional office."
+      },
+      {
+        "key": "C",
+        "text": "After the bridge inspection was completed, the report was submitted to the regional office."
+      },
+      {
+        "key": "D",
+        "text": "The engineer submitted the report to the regional office after completing the bridge inspection."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1200",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

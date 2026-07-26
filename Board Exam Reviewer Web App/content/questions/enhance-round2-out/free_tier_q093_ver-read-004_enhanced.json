@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-004",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The Civil Service Commission (CSC) is the central personnel agency of the Philippine government. It is tasked with ensuring that all government appointments are based on merit and fitness.' The tone of this passage is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Critical"
+      },
+      {
+        "key": "B",
+        "text": "Sarcastic"
+      },
+      {
+        "key": "C",
+        "text": "Informative"
+      },
+      {
+        "key": "D",
+        "text": "Persuasive"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the author's main goal here. Is the author trying to share a fact, make you feel a certain way, or get you to agree with an opinion?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's a simple way to figure out tone: ask yourself if the passage is just giving you information (informative), trying to change your mind (persuasive), pointing out flaws (critical), or using hidden mockery (sarcastic)."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the words used: 'central personnel agency,' 'tasked with ensuring,' 'based on merit and fitness.' Do any of these words show strong emotion, judgment, or an attempt to convince you? Or do they just state what the CSC is and does?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The passage is purely factual and neutral. It doesn't praise or criticize the CSC, and it doesn't try to persuade you to take any action. The tone is simply sharing information. Which option matches that?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen 'critical' if you felt the passage was evaluating the CSC. But look closely—there are no negative words or complaints here. The passage simply describes the CSC's role without any judgment. A critical tone would use words like 'fails,' 'ineffective,' or 'problematic.'",
+        "trap_type": "tone_misattribution_critical"
+      },
+      "B": {
+        "text": "It's easy to mistake a straightforward statement for sarcasm if you're reading quickly. But sarcasm requires irony or mockery—saying the opposite of what you mean. This passage says exactly what it means, plainly and directly. There's no hidden joke or biting remark here.",
+        "trap_type": "tone_misattribution_sarcastic"
+      },
+      "C": {
+        "text": "Correct. The passage gives you clear, neutral facts about the CSC without any opinion, emotion, or attempt to sway you. That's the hallmark of an informative tone—just the facts, presented plainly.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have picked 'persuasive' if you thought the passage was trying to convince you that the CSC is important. But persuasive writing uses emotional language, calls to action, or arguments. This passage does none of that—it simply states what the CSC is and does, leaving you to form your own opinion.",
+        "trap_type": "tone_misattribution_persuasive"
+      }
+    },
+    "next_time_rule": "When identifying tone, ask yourself: 'Is the author just telling me something (informative), trying to change my mind (persuasive), pointing out a flaw (critical), or being ironic (sarcastic)?' If the passage is neutral and factual, it's almost always informative.",
+    "blueprint_id": "Tone/Purpose — CSC Description",
+    "deconstruct_text": "Let's walk through this together. The passage says: 'The Civil Service Commission (CSC) is the central personnel agency of the Philippine government. It is tasked with ensuring that all government appointments are based on merit and fitness.' Notice the language—it's all neutral and factual. Words like 'central personnel agency' and 'merit and fitness' simply describe what the CSC is and does. There's no emotional charge, no opinion, no attempt to make you feel a certain way. The author's only goal is to share information. Now, let's check each option. Option A, 'critical,' would require negative judgment—like saying the CSC is failing. That's not here. Option B, 'sarcastic,' would need irony or mockery—like saying 'Oh, the CSC is just perfect' when you mean the opposite. Not present. Option D, 'persuasive,' would try to convince you—like arguing that the CSC's work is vital. But the passage just states facts. That leaves Option C, 'informative,' which perfectly matches the neutral, fact-based presentation. Here's a mental trick for next time: imagine the author is a robot just reading a dictionary definition. If the passage sounds like something a robot would say without emotion, it's informative.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

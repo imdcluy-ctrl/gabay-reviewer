@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vocab-104",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — INDEMNIFY",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>indemnify</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "compensate"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "In government directives, 'indemnify' often relates to making someone whole after a loss — think of insurance or legal compensation."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Indemnify' comes from Latin 'indemnis' meaning unhurt. It means to protect against loss or damage, typically by paying compensation."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option directly means 'to pay for loss or damage'? 'Compensate' fits perfectly; 'ignore', 'delay', and 'expand' do not involve payment."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Compensate' is the exact synonym — it means to make amends or pay for loss, just like indemnify."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Indemnify' means to compensate for loss or damage. In this context, the directive aims to make up for any harm caused by the existing guidelines.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' is an antonym — indemnify involves active reparation, not neglect. A student might confuse 'indemnify' with 'indemnity' (exemption from liability), but here it means compensation.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' is unrelated — indemnify is about financial reparation, not postponement. This trap catches those who guess based on the word's length or unfamiliarity.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' is distantly related only in that both involve change, but indemnify specifically means to compensate, not to enlarge. This error arises from focusing on the prefix 'in-' as 'increase'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'INDEMNIFY' = compensate (to secure against loss or damage). Think of insurance indemnity — the company pays you for a loss.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the word:** 'indemnify' is a verb used in a legal/administrative context.\n2. **Recall the definition:** To indemnify means to compensate someone for harm or loss. It is commonly used in insurance and contracts.\n3. **Check the options:**\n   - A. 'compensate' — matches the definition exactly.\n   - B. 'ignore' — opposite meaning.\n   - C. 'delay' — unrelated.\n   - D. 'expand' — unrelated.\n4. **Select the best match:** 'Compensate' is the direct synonym.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** is an antonym — indemnify requires action, not inaction.\n- **'delay'** is unrelated — no temporal aspect in indemnify.\n- **'expand'** is unrelated — indemnify does not mean to enlarge.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-105",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — EMOLUMENT",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>emolument</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "remuneration"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "In government contexts, 'emolument' is a noun referring to compensation for services — think salary, wages, or fees."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Emolument' comes from Latin 'emolumentum' meaning profit or gain. It specifically means salary, wages, or other compensation from employment."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'payment for work'? 'Remuneration' is a direct match; 'ignore', 'delay', and 'expand' are unrelated."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Remuneration' is the exact synonym — it means payment or compensation for services rendered."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Emolument' means remuneration, especially salary or fees from employment. In this directive, it refers to compensation for work.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' is an antonym — emolument involves receiving payment, not disregarding. A student might confuse 'emolument' with 'emollient' (soothing), but the context is financial.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' is unrelated — emolument is about compensation, not time. This trap catches those who guess based on the word's formal sound.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' is distantly related only in that both involve increase, but emolument specifically means payment, not enlargement. This error arises from misinterpreting the prefix 'e-' as 'out'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'EMOLUMENT' = remuneration (salary or fee from employment). Remember: 'E' for 'earnings' — emolument is your earnings from work.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the word:** 'emolument' is a noun used in a legal/administrative context.\n2. **Recall the definition:** Emolument means salary, wages, or other compensation from employment.\n3. **Check the options:**\n   - A. 'remuneration' — matches the definition exactly.\n   - B. 'ignore' — opposite meaning.\n   - C. 'delay' — unrelated.\n   - D. 'expand' — unrelated.\n4. **Select the best match:** 'Remuneration' is the direct synonym.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** is an antonym — emolument involves receiving, not ignoring.\n- **'delay'** is unrelated — no temporal aspect in emolument.\n- **'expand'** is unrelated — emolument does not mean to enlarge.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-106",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — QUASHING",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>quashing</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "invalidating"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "In legal contexts, 'quashing' means to officially reject or set aside something — like a court quashing an indictment."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Quash' comes from Latin 'quassare' meaning to shake or shatter. It means to annul, suppress, or make void by legal decision."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'to make legally void'? 'Invalidating' is a perfect match; 'ignore', 'delay', and 'expand' do not carry legal nullification."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Invalidating' is the direct synonym — it means to render something invalid or void, just like quashing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Quashing' means invalidating or setting aside by legal authority. The directive aims to nullify the existing guidelines.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' is an antonym — quashing is an active legal act, not passive neglect. A student might think 'quash' means to quiet or ignore, but it means to annul.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' is unrelated — quashing is about cancellation, not postponement. This trap catches those who confuse 'quash' with 'squash' (to crush) but miss the legal nuance.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' is distantly related only in that both involve change, but quashing specifically means to nullify, not to enlarge. This error arises from misreading 'quash' as 'quash' meaning to spread.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'QUASHING' = invalidating (setting aside or suppressing by legal decision). Think of a judge 'quashing' a subpoena — making it void.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the word:** 'quashing' is a verb used in a legal/administrative context.\n2. **Recall the definition:** To quash means to annul, suppress, or make void by legal decision.\n3. **Check the options:**\n   - A. 'invalidating' — matches the definition exactly.\n   - B. 'ignore' — opposite meaning.\n   - C. 'delay' — unrelated.\n   - D. 'expand' — unrelated.\n4. **Select the best match:** 'Invalidating' is the direct synonym.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** is an antonym — quashing requires official action.\n- **'delay'** is unrelated — no temporal aspect in quashing.\n- **'expand'** is unrelated — quashing does not mean to enlarge.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-107",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — REQUISITION",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>requisition</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "formal demand"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "In government and military contexts, 'requisition' means an official request or demand for something, often property or supplies."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Requisition' comes from Latin 'requirere' meaning to seek. It means an authoritative demand or formal request, especially for resources."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'an official request'? 'Formal demand' is a direct match; 'ignore', 'delay', and 'expand' are unrelated."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Formal demand' is the exact synonym — it captures the authoritative and official nature of a requisition."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Requisition' means a formal demand or official order, often for property or supplies. The directive is making a formal demand regarding the guidelines.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' is an antonym — requisition involves active demand, not neglect. A student might confuse 'requisition' with 'requisite' (necessary), but the context is demand.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' is unrelated — requisition is about demand, not time. This trap catches those who guess based on the word's formal sound.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' is distantly related only in that both involve obtaining, but requisition specifically means to demand officially, not to enlarge. This error arises from misinterpreting 're-' as 'again' and 'quisition' as 'seek'.",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'REQUISITION' = formal demand (an official order laying claim to the use of property). Remember: 'Requisition' sounds like 'request' but is stronger — it's a demand.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the word:** 'requisition' is a noun used in a legal/administrative context.\n2. **Recall the definition:** Requisition means an official order or formal demand, especially for property or supplies.\n3. **Check the options:**\n   - A. 'formal demand' — matches the definition exactly.\n   - B. 'ignore' — opposite meaning.\n   - C. 'delay' — unrelated.\n   - D. 'expand' — unrelated.\n4. **Select the best match:** 'Formal demand' is the direct synonym.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** is an antonym — requisition requires action.\n- **'delay'** is unrelated — no temporal aspect in requisition.\n- **'expand'** is unrelated — requisition does not mean to enlarge.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-108",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — RESCIND",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>rescind</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "revoke"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "In legal contexts, 'rescind' means to cancel or repeal a law, contract, or agreement."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Rescind' comes from Latin 'rescindere' meaning to cut off. It means to revoke, cancel, or repeal formally."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'to cancel officially'? 'Revoke' is a direct match; 'ignore', 'delay', and 'expand' do not imply cancellation."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Revoke' is the exact synonym — it means to take back or cancel, just like rescind."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Rescind' means to revoke or cancel formally. The directive aims to revoke the existing guidelines.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' is an antonym — rescind is an active legal act, not passive neglect. A student might think 'rescind' means to disregard, but it means to cancel.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' is unrelated — rescind is about cancellation, not postponement. This trap catches those who confuse 'rescind' with 'reschedule'.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' is distantly related only in that both involve change, but rescind specifically means to cancel, not to enlarge. This error arises from misreading 're-' as 'again' and 'scind' as 'cut' but thinking of cutting open (expanding).",
+        "trap_type": "distantly_related_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'RESCIND' = revoke (to cancel or repeal a law or agreement). Think of 'scissors' — rescind cuts off a contract.",
+    "deconstruct_text": "### 📘 Governing Rule / Concept\nVocabulary precision in the civil service exam focuses on professional, administrative, and legal registers. Words must be interpreted based on their exact semantic definition and context.\n\n### 🔍 Step-by-Step Analysis\n1. **Identify the word:** 'rescind' is a verb used in a legal/administrative context.\n2. **Recall the definition:** To rescind means to revoke, cancel, or repeal formally.\n3. **Check the options:**\n   - A. 'revoke' — matches the definition exactly.\n   - B. 'ignore' — opposite meaning.\n   - C. 'delay' — unrelated.\n   - D. 'expand' — unrelated.\n4. **Select the best match:** 'Revoke' is the direct synonym.\n\n### ❌ Why the Distractors Fail\n- **'ignore'** is an antonym — rescind requires official action.\n- **'delay'** is unrelated — no temporal aspect in rescind.\n- **'expand'** is unrelated — rescind does not mean to enlarge.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-109",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Government Vocabulary — MITIGATE",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Commission issued an administrative directive to <u>mitigate</u> the existing guidelines.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "alleviate"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "expand"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Analysis",
+        "text": "The directive aims to 'mitigate' existing guidelines — this suggests reducing their severity or impact, not eliminating them."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Root Meaning",
+        "text": "'Mitigate' comes from Latin 'mitigare' meaning to soften or make mild. In government contexts, it means to lessen the harshness of rules."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Which option means 'to make less severe'? 'Alleviate' directly matches; 'ignore' is opposite, 'delay' is unrelated, 'expand' is opposite."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Alleviate' is the only synonym that means to reduce severity — exactly what 'mitigate' conveys in this directive."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Alleviate' means to make less severe, which is the exact definition of 'mitigate'. The Commission's directive softens the existing guidelines, not ignoring or expanding them.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Ignore' means to disregard entirely, which is the opposite of 'mitigate'. A directive to mitigate guidelines implies active adjustment, not neglect.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Delay' means to postpone, which is unrelated to reducing severity. Mitigating guidelines involves changing their content, not their timeline.",
+        "trap_type": "unrelated_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Expand' means to increase or enlarge, which is the opposite of making less severe. Mitigation reduces scope or impact, not expands it.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'MITIGATE' = alleviate (make less severe). Think of 'mitigate' as 'mild' — both start with 'mi-' and involve softening.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Understand the context:** The Commission issued a directive to 'mitigate' existing guidelines. This implies the guidelines are too harsh or strict, and the directive aims to soften them.\n2. **Define 'mitigate':** To make less severe, serious, or painful; to alleviate.\n3. **Evaluate each option:**\n   - **A. alleviate** — means to make less severe; matches exactly.\n   - **B. ignore** — means to disregard; opposite of mitigate.\n   - **C. delay** — means to postpone; unrelated to severity.\n   - **D. expand** — means to enlarge; opposite of reduce.\n4. **Conclusion:** Only 'alleviate' shares the core meaning of reducing severity.\n\n### ❌ Why Distractors Fail\n- **'ignore'** is an antonym — mitigating requires action, not neglect.\n- **'delay'** is unrelated — mitigation changes the nature of guidelines, not their timing.\n- **'expand'** is an antonym — mitigation reduces, not increases.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-100",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Policy Memo Analysis — Passage 1",
+    "difficulty_level": 2,
+    "question_text": "Read the passage: 'Under Memorandum Circular No. 14, all local government units are instructed to establish a dedicated Disaster Risk Reduction Management Office (DRRMO) to ensure rapid emergency response during typhoon seasons.'\n\nWhat is the main objective of Circular No. 14?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To mandates DRRMO establishment for faster emergency response."
+      },
+      {
+        "key": "B",
+        "text": "To allocate funds for road construction."
+      },
+      {
+        "key": "C",
+        "text": "To cancel all municipal holidays."
+      },
+      {
+        "key": "D",
+        "text": "To conduct elections for local officials."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Main Topic",
+        "text": "The passage explicitly states what Circular No. 14 instructs LGUs to do. Look for the action verb and its purpose."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Key Terms",
+        "text": "The key phrases are 'establish a dedicated DRRMO' and 'ensure rapid emergency response'. The objective combines both."
+      },
+      {
+        "rung": 3,
+        "title": "Match with Options",
+        "text": "Option A directly mentions DRRMO establishment and faster emergency response. Other options introduce topics not in the passage."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Answer",
+        "text": "Option A is a direct paraphrase of the passage's main instruction. No other option is supported by the text."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The passage explicitly states that LGUs are instructed to establish a DRRMO to ensure rapid emergency response. This is the direct main objective.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The passage mentions nothing about road construction or fund allocation. This is an out-of-scope distractor.",
+        "trap_type": "out_of_scope_distractor"
+      },
+      "C": {
+        "text": "Incorrect. The passage does not mention canceling holidays. This is a false statement not supported by any text.",
+        "trap_type": "false_statement_distractor"
+      },
+      "D": {
+        "text": "Incorrect. Elections are not referenced in the passage. This option introduces an unrelated topic.",
+        "trap_type": "out_of_scope_distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Base comprehension answers strictly on explicit text statements. If the passage doesn't mention it, it's not the answer.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Read the passage carefully:** The sentence states that Circular No. 14 instructs LGUs to establish a DRRMO to ensure rapid emergency response during typhoon seasons.\n2. **Identify the main objective:** The purpose clause is 'to ensure rapid emergency response'. The action is 'establish a dedicated DRRMO'.\n3. **Match with options:** Option A combines both: 'mandates DRRMO establishment for faster emergency response'.\n4. **Eliminate distractors:**\n   - B: Road construction — not mentioned.\n   - C: Cancel holidays — not mentioned.\n   - D: Elections — not mentioned.\n5. **Conclusion:** Only Option A is directly supported by the passage.\n\n### ❌ Why Distractors Fail\n- **B** introduces an unrelated infrastructure activity.\n- **C** presents a false statement not in the text.\n- **D** introduces an unrelated electoral process.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-100",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Workplace Function Analogy 1",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Civil Servant : Agency :: Judge : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Court"
+      },
+      {
+        "key": "B",
+        "text": "School"
+      },
+      {
+        "key": "C",
+        "text": "Hospital"
+      },
+      {
+        "key": "D",
+        "text": "Bank"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Primary Relationship",
+        "text": "A Civil Servant works in an Agency. This is a 'Person to Workplace' relationship. Identify the workplace for a Judge."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "A Judge's official workplace is a Court. Other options (School, Hospital, Bank) are workplaces for other professionals."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Workplace Target",
+        "text": "The analogy requires the specific institution where a Judge performs judicial functions. That is a Court, not a general workplace."
+      },
+      {
+        "rung": 4,
+        "title": "Select Target Workplace",
+        "text": "Court is the only option that matches the specific workplace of a Judge, just as Agency is for a Civil Servant."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Civil Servant works in an Agency; a Judge works in a Court. Both are person-to-workplace relationships.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A School is the workplace for a teacher or principal, not a Judge. This mismatches the professional role.",
+        "trap_type": "category_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Hospital is the workplace for a doctor or nurse, not a Judge. The role does not fit.",
+        "trap_type": "category_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Bank is the workplace for a banker or teller, not a Judge. This is a category mismatch.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Identify the exact relationship (e.g., Person to Workplace) and apply it identically. For analogies, the specific institution matters.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship in the first pair:** 'Civil Servant : Agency' — a civil servant works in or is employed by an agency. This is a 'worker to workplace' relationship.\n2. **Apply the same relationship to the second pair:** 'Judge : ?' — a judge works in a specific workplace.\n3. **Determine the correct workplace for a judge:** A judge presides over a court. Therefore, the answer is 'Court'.\n4. **Eliminate other options:**\n   - School: workplace for educators.\n   - Hospital: workplace for medical staff.\n   - Bank: workplace for financial professionals.\n5. **Conclusion:** Only 'Court' fits the worker-workplace relationship for a judge.\n\n### ❌ Why Distractors Fail\n- **School, Hospital, Bank** are all workplaces, but for different professions. They fail because the specific role (Judge) does not match those institutions.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-101",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Workplace Function Analogy 2",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Law : Legislature :: Ordinance : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sanggunian"
+      },
+      {
+        "key": "B",
+        "text": "School"
+      },
+      {
+        "key": "C",
+        "text": "Hospital"
+      },
+      {
+        "key": "D",
+        "text": "Bank"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Primary Relationship",
+        "text": "A Law is enacted by a Legislature. This is a 'Product to Producer' relationship. Identify the producer of an Ordinance."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "An Ordinance is a local law enacted by a Sanggunian (local legislative body). Other options are not legislative bodies."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Producer Target",
+        "text": "The analogy requires the specific body that creates an ordinance. That is a Sanggunian, not a school, hospital, or bank."
+      },
+      {
+        "rung": 4,
+        "title": "Select Target Producer",
+        "text": "Sanggunian is the only option that matches the legislative body that produces ordinances, just as Legislature produces laws."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Law is enacted by a Legislature; an Ordinance is enacted by a Sanggunian (local legislative council). Both are product-to-producer relationships.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A School does not enact ordinances. This mismatches the legislative function.",
+        "trap_type": "category_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Hospital does not enact ordinances. This is a category mismatch.",
+        "trap_type": "category_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Bank does not enact ordinances. This is a category mismatch.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Identify the exact relationship (e.g., Product to Producer) and apply it identically. For laws, the producer is a legislative body.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship in the first pair:** 'Law : Legislature' — a law is created or enacted by a legislature. This is a 'product to producer' relationship.\n2. **Apply the same relationship to the second pair:** 'Ordinance : ?' — an ordinance is a local law, so it must be enacted by a local legislative body.\n3. **Determine the correct producer for an ordinance:** In the Philippines, ordinances are enacted by the Sanggunian (local legislative council).\n4. **Eliminate other options:**\n   - School: educational institution, not legislative.\n   - Hospital: medical institution, not legislative.\n   - Bank: financial institution, not legislative.\n5. **Conclusion:** Only 'Sanggunian' fits the product-producer relationship for an ordinance.\n\n### ❌ Why Distractors Fail\n- **School, Hospital, Bank** are all institutions but not legislative bodies. They fail because they do not produce ordinances.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-102",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Workplace Function Analogy 3",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Audit : COA :: Taxation : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "BIR"
+      },
+      {
+        "key": "B",
+        "text": "School"
+      },
+      {
+        "key": "C",
+        "text": "Hospital"
+      },
+      {
+        "key": "D",
+        "text": "Bank"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Primary Relationship",
+        "text": "Audit is a function performed by COA (Commission on Audit). This is a 'Function to Agency' relationship."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "Taxation is a function performed by a specific government agency. Which agency handles taxation in the Philippines?"
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Agency Target",
+        "text": "The Bureau of Internal Revenue (BIR) is the agency responsible for taxation. Other options are not tax agencies."
+      },
+      {
+        "rung": 4,
+        "title": "Select Target Agency",
+        "text": "BIR is the only option that matches the agency responsible for taxation, just as COA is for audit."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Audit is the function of COA; Taxation is the function of BIR. Both are function-to-agency relationships.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A School does not handle taxation. This mismatches the government function.",
+        "trap_type": "category_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Hospital does not handle taxation. This is a category mismatch.",
+        "trap_type": "category_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Bank does not handle taxation (though it may collect taxes, it is not the primary tax agency). This is a category mismatch.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Identify the exact relationship (e.g., Function to Agency) and apply it identically. Know key Philippine government agencies and their functions.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship in the first pair:** 'Audit : COA' — audit is a function performed by the Commission on Audit (COA). This is a 'function to agency' relationship.\n2. **Apply the same relationship to the second pair:** 'Taxation : ?' — taxation is a function performed by a specific government agency.\n3. **Determine the correct agency for taxation:** In the Philippines, the Bureau of Internal Revenue (BIR) is the agency responsible for tax collection and enforcement.\n4. **Eliminate other options:**\n   - School: educational institution, not a tax agency.\n   - Hospital: medical institution, not a tax agency.\n   - Bank: financial institution, not primarily a tax agency.\n5. **Conclusion:** Only 'BIR' fits the function-agency relationship for taxation.\n\n### ❌ Why Distractors Fail\n- **School, Hospital, Bank** are all institutions but not the primary government agency for taxation. They fail because they do not perform the taxation function.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

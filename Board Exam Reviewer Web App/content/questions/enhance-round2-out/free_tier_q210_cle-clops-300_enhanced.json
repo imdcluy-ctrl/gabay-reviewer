@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-300",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Record Cross-Matching Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Cross-reference Form A with Form B:\nForm A Name: Santos, Maria Clara\nForm B Name: Santos, Maria Clara\nForm A Tax ID: 123-456-789\nForm B Tax ID: 123-456-798\n\nIs there a discrepancy between the records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, Tax ID numbers do not match (789 vs 798)."
+      },
+      {
+        "key": "B",
+        "text": "No, both forms are completely identical."
+      },
+      {
+        "key": "C",
+        "text": "Yes, the names do not match."
+      },
+      {
+        "key": "D",
+        "text": "Yes, Form B is missing."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the Obvious",
+        "text": "Look at both forms. What are the two main pieces of information given? Names and Tax IDs. Your job is to check if they match perfectly."
+      },
+      {
+        "rung": 2,
+        "title": "Compare Each Field One at a Time",
+        "text": "First, check the names. Are they exactly the same? Write down 'yes' or 'no.' Then, check the Tax IDs. Are they exactly the same? Write down 'yes' or 'no.'"
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Tiny Difference",
+        "text": "The names are identical, so that field is fine. Now look closely at the Tax IDs. Form A ends in 789, Form B ends in 798. The last two digits are swapped. That's a transposition error."
+      },
+      {
+        "rung": 4,
+        "title": "Connect the Error to the Answer",
+        "text": "Since the Tax IDs don't match, there is a discrepancy. Which option correctly points out that the Tax ID numbers are different? That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You caught the transposition error. The Tax IDs look almost identical, but the last two digits are swapped: 789 versus 798. That's a real discrepancy, and you spotted it.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "It's easy to glance at two forms that look similar and assume they're identical. But a careful check shows the Tax IDs are different. The names match, but the Tax IDs don't, so there is a discrepancy.",
+        "trap_type": "omitted_error_detection"
+      },
+      "C": {
+        "text": "This is a tempting mistake if you're rushing. You might see a discrepancy and assume it's the names, but the names are exactly the same. The real mismatch is in the Tax ID numbers.",
+        "trap_type": "false_location_error"
+      },
+      "D": {
+        "text": "Form B is clearly present and filled out with data. This option doesn't match the facts at all. It's a distractor meant to test if you're paying attention to what's actually in front of you.",
+        "trap_type": "false_statement_distractor"
+      }
+    },
+    "next_time_rule": "When cross-matching records, use the 'One Field at a Time' rule. Compare names first, then IDs, then dates, and so on. For numbers, read each digit individually, not as a whole. This catches sneaky transposition errors.",
+    "deconstruct_text": "Let's walk through this together. You have two forms, and you need to see if they match. Start with the names: Form A says 'Santos, Maria Clara' and Form B says 'Santos, Maria Clara.' That's a perfect match. Now the Tax IDs: Form A has 123-456-789, Form B has 123-456-798. Look at the last three digits: 789 versus 798. The 8 and 9 are swapped. That's a transposition error, a very common clerical mistake. So there is a discrepancy. Option A correctly identifies this. The mental trick here is to compare fields one at a time, and for numbers, compare digit by digit. Don't just glance at the whole number and think 'looks the same.' Read each digit carefully.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

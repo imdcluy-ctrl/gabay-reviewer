@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-015",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A number is 4 less than twice another. Their sum is 38. What are they?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 and 26"
+      },
+      {
+        "key": "B",
+        "text": "14 and 24"
+      },
+      {
+        "key": "C",
+        "text": "16 and 22"
+      },
+      {
+        "key": "D",
+        "text": "18 and 20"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hayaang x = Mas Maliit na Numero",
+        "text": "Gawing x ang mas maliit na bilang. Ang mas malaki ay \"doble ni x minus 4\": larger = 2x − 4."
+      },
+      {
+        "rung": 2,
+        "title": "Isulat ang Sum = 38",
+        "text": "Equation: x + (2x − 4) = 38. Pagsamahin ang like terms: 3x − 4 = 38."
+      },
+      {
+        "rung": 3,
+        "title": "Solve for x",
+        "text": "Magdagdag ng 4 sa magkabilang panig: 3x = 42. Hatiin sa 3: x = 14."
+      },
+      {
+        "rung": 4,
+        "title": "Kunin ang Mas Malaking Numero",
+        "text": "I-substitute ang x: 2(14) − 4 = 24. Kaya ang mga numero ay 14 at 24."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you set up the sum as x + (2x+4) instead of minus 4, leading to 12 and 26.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. 14 at 24 ang tamang presyo: 24 = 2×14−4 at 14+24 = 38.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you swapped the variable assignment, giving 16 and 22 instead of the correct pair.",
+        "trap_type": "reverse_operation_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you assumed the numbers should split 38 nearly equally, ignoring \"4 less than twice.\"",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** 'Less than' means subtract from the multiple. Write: larger = 2x − 4, then sum = x + (2x−4) = 38.",
+    "blueprint_id": "Two Numbers Relationship",
+    "deconstruct_text": "Sa palengke, si Aling Nena ay nagbebenta ng sachet ng kape at 3-in-1. Ang presyo ng 3-in-1 ay 4 pesos na mas mababa sa doble ng presyo ng sachet. Kung sabay mong binili, ang total ay 38 pesos. Alin ang mga presyo?\n\nHayaang x = presyo ng sachet. Kaya ang presyo ng 3-in-1 = 2x − 4. Total: x + (2x − 4) = 38 → 3x − 4 = 38 → 3x = 42 → x = 14 (sachet). 3-in-1 = 2(14) − 4 = 24. Sagot: 14 at 24.\n\n**Watch-Out Zone: reverse_operation_error** in action. '4 less than' madalas malito bil...\n\n### Bakit Mali ang Iba\n- **12 at 26**: Sum ok, pero 26 ay hindi 2×12−4. Nagkamali sa sign, ginawang 2x+4.\n- **16 at 22**: Sum ok, pero 22 ≠ 2×16−4 (28). Mali ang variable assignment.\n- **18 at 20**: Sum ok, pero 20 ≠ 2×18−4 (32). Nag-assume ng equal split.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

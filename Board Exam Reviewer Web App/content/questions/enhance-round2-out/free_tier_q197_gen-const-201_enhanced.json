@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-201",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article VII",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Executive Department (President and Cabinet)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article VII (Executive)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "Think about the three main branches of government. The question is asking about the Executive branch—the President and the Cabinet. Which part of the Constitution would logically lay out the rules for this branch?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The 1987 Constitution organizes the three branches in a clear sequence: Article VI covers the Legislative branch (Congress), Article VII covers the Executive branch (President), and Article VIII covers the Judicial branch (Courts). So the Executive is always Article VII."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Since the question is about the Executive Department, you're looking for the article that matches the second branch. That's Article VII. The other options—Article I (National Territory), Article III (Bill of Rights), and Article V (Suffrage)—are about different topics entirely, not a branch of government."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're down to choosing between Article VII and the others. Remember: Article VII is the Executive's home in the Constitution. The other articles listed don't define any branch's powers—they cover territory, rights, and voting. So the answer is clearly A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VII is the section of the 1987 Constitution that lays out everything about the Executive Department—the President's powers, qualifications, term, and the Cabinet's role. It's the go-to article for anything related to the executive branch.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Article I defines the national territory of the Philippines—its land, waters, and airspace. It's easy to confuse because it's the first article, but it has nothing to do with the Executive branch. A smart student might think 'first article = first branch,' but that's not how the Constitution is structured.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is the Bill of Rights, which protects individual freedoms like speech, religion, and due process. It's a very important part of the Constitution, but it doesn't define the powers or organization of the Executive. Some students might pick this because they remember studying it a lot, but it's about limiting government power, not structuring it.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "Article V covers suffrage—the right to vote. It's a specific topic about elections and who can vote, not about the Executive branch. This distractor tests whether you know that each article has a distinct subject, and that the Executive is covered separately in Article VII.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "Remember the branch order: Legislative (Article VI), Executive (Article VII), Judicial (Article VIII). Think of it as 'L-E-J' in Roman numerals: VI, VII, VIII. If the question mentions a branch, match it to its number in that sequence.",
+    "deconstruct_text": "Let's walk through this together. The question asks which Article of the 1987 Constitution governs the Executive Department—the President and Cabinet. The key is to know how the Constitution is organized. It's not random; it follows a logical order. First comes the National Territory (Article I), then Declaration of Principles (Article II), then Bill of Rights (Article III), and so on. But the three branches of government are grouped together in a neat sequence: Article VI for the Legislative (Congress), Article VII for the Executive (President), and Article VIII for the Judicial (Courts). So when you see 'Executive Department,' your brain should immediately jump to Article VII. The other options are all real articles, but they cover different things: Article I is about territory, Article III is about rights, and Article V is about voting. None of them define a branch of government. A helpful mental trick is to visualize the Constitution as a filing cabinet. The Executive branch's folder is labeled 'Article VII.' If someone asks you about the President's powers, you know exactly which drawer to open.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

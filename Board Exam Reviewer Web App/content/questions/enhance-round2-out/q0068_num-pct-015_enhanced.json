@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-015",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A civil servant took a personal loan of P120,000 at 8% simple interest. Total to repay after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P129,600"
+      },
+      {
+        "key": "B",
+        "text": "P134,400"
+      },
+      {
+        "key": "C",
+        "text": "P139,200"
+      },
+      {
+        "key": "D",
+        "text": "P144,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Simple interest problem: hanapin total na babayaran – principal plus total interest sa loob ng 2 taon. Hindi compounding, sa principal lang nagana ..."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Interest = Principal × Rate × Time. Gawaing decimal ang rate (8% → 0.08) at siguraduhing nasa taon ang time. I-multiply nang sunod-sunod."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Unahin ang 1 taon: P120,000 × 0.08 = P9,600. Ito ang interest kada taon. Para sa 2 taon, i-multiply sa 2: P9,600 × 2 = P19,200 total interest."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Total repayment = principal + total interest. I-add mo ang P19,200 sa P120,000. Anong sagot? Isipin mong parang nagdagdag ka lang ng tubo sa inutang."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you calculated only 1-year interest (P9,600) instead of 2 years.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you used 1.5 years instead of 2, giving P14,400 interest.",
+        "trap_type": "unit_conversion_trap"
+      },
+      "C": {
+        "text": "Correct.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used 20% total interest instead of 16% (8%×2).",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Simple interest formula: P×R×T. Compute annual interest (P120k×8%=P9,600), multiply by 2 years, add to principal. Check time period!",
+    "blueprint_id": "Simple Interest — Loan Repayment",
+    "deconstruct_text": "Alam mo, imagine nangyari kay Aling Nena, civil servant sa City Hall. Nag-loan siya ng P120,000 sa cooperative para sa sari-sari store, at 8% simple interest per year, payable in 2 years. Para malaman ang total, i-compute muna ang isang taong interest: P120,000 × 0.0...\n\nDahil 2 taon ang loan, multiply mo ulit: P9,600 × 2 = P19,200. So total interest is P19,200. Pagkatapos, i-add mo sa principal: P120,000 + P19,200 = P139,200.\n\nMental Trick (Taglish): Isipin mong 'Una, isang taon; tapos, times years'—parang pagbibilang ng jeepney fare kada pasahero, iniiscale mo sa bilang ng sakay. Kaya iwasan ang shortcut na 1 year lang; kumpletuhin ang term.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

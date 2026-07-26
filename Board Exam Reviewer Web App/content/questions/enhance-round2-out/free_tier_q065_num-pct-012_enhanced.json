@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-012",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P2,000,000 infrastructure project has 35% for labor, 45% for materials, and the rest for equipment. How much for equipment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P300,000"
+      },
+      {
+        "key": "B",
+        "text": "P350,000"
+      },
+      {
+        "key": "C",
+        "text": "P400,000"
+      },
+      {
+        "key": "D",
+        "text": "P450,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the leftover slice",
+        "text": "Think of the total budget as a whole pie. Labor takes 35% of the pie, materials take 45%. What percentage of the pie is left for equipment? Just subtract the slices you know from the whole."
+      },
+      {
+        "rung": 2,
+        "title": "The simple subtraction",
+        "text": "The whole pie is 100%. So equipment's share is 100% minus 35% minus 45%. That gives you a nice round number. What is it?"
+      },
+      {
+        "rung": 3,
+        "title": "Turn the percentage into cash",
+        "text": "You found that equipment gets 20% of the total. Now, 20% is the same as 0.20. So just multiply 0.20 by the total budget of P2,000,000. What do you get?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "20% of P2,000,000 is like finding 10% (which is P200,000) and then doubling it. So 10% is P200,000, and 20% is double that: P400,000. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is P300,000, which is 15% of the total. It's a common slip—you might have correctly figured out that equipment gets 20%, but then accidentally used 15% instead when calculating. Or maybe you subtracted 35% and 45% and got 20%, but then your mind jumped to 15% out of habit. Always double-check your final percentage before multiplying.",
+        "trap_type": "percentage_subtraction_error"
+      },
+      "B": {
+        "text": "P350,000 works out to 17.5% of the budget. This often happens when someone averages the two given percentages (35% and 45%) and gets 40%, then thinks the remainder is something like 60% minus something. Or maybe you just misremembered the leftover percentage. The key is to stick with the simple subtraction: 100 minus 35 minus 45 equals exactly 20, not 17.5.",
+        "trap_type": "percentage_subtraction_error"
+      },
+      "C": {
+        "text": "This is correct. Equipment gets the remainder after labor and materials: 100% minus 35% minus 45% equals 20%. Then 20% of P2,000,000 is 0.20 times 2,000,000, which gives you P400,000. Clean and straightforward.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P450,000 is 22.5% of the total. This might happen if you accidentally added 35% and 45% to get 80%, then thought the remainder was 30% instead of 20%. Or maybe you subtracted 35% from 45% to get 10%, then added that to 35% for some reason. The remainder is simply 100 minus the sum of the known percentages—no extra steps needed.",
+        "trap_type": "percentage_subtraction_error"
+      }
+    },
+    "next_time_rule": "When a budget is split into parts, always find the leftover percentage first by subtracting the given percentages from 100%. Then convert that percentage to a decimal and multiply by the total. It's just two steps: find the slice, then find its value.",
+    "blueprint_id": "Percentage — Budget Allocation",
+    "deconstruct_text": "Let's walk through this calmly. The project has a total budget of P2,000,000. We know labor takes 35% and materials take 45%. To find what's left for equipment, we add the known percentages: 35% plus 45% equals 80%. Now, the whole budget is 100%, so equipment gets 100% minus 80%, which is 20%. Once we have that, we just need to find 20% of P2,000,000. Remember, 20% is the same as 0.20. So multiply: 0.20 times 2,000,000 equals 400,000. That means equipment gets P400,000. A quick mental trick: 10% of 2,000,000 is 200,000 (just move the decimal one place left). Since 20% is double 10%, just double 200,000 to get 400,000. This two-step method—find the percentage first, then compute the value—will save you from common mistakes.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

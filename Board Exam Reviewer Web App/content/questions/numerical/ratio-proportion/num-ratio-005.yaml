@@ -1,0 +1,57 @@
+id: num-ratio-005
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["proportion", "map-scale"]
+estimated_seconds: 90
+question_text: "On an official LGU land survey map, a scale of 2 centimeters represents an actual distance of 5 kilometers. If two barangay halls are 7 centimeters apart on the map, what is their actual distance in kilometers?"
+options:
+  - key: A
+    text: "14 km"
+  - key: B
+    text: "17.5 km"
+  - key: C
+    text: "20 km"
+  - key: D
+    text: "35 km"
+correct: B
+blueprint_id: "Ratio and Proportion — map scale proportional reasoning"
+hint_ladder:
+  - rung: 1
+    title: "Set Up Proportion"
+    text: "Map (cm) / Actual (km) = 2 / 5 = 7 / X."
+  - rung: 2
+    title: "Find 1 cm Representation"
+    text: "If 2 cm = 5 km, then 1 cm = 5 ÷ 2 = 2.5 km."
+  - rung: 3
+    title: "Multiply for 7 cm"
+    text: "Actual distance = 7 cm × 2.5 km/cm."
+  - rung: 4
+    title: "Calculate Value"
+    text: "7 × 2.5 = 17.5 kilometers."
+deconstruct_text: |
+  Scale: 2 cm = 5 km → 1 cm = 2.5 km
+  Map distance = 7 cm
+  Actual distance = 7 × 2.5 = 17.5 km
+
+  Alternatively, cross-multiply:
+  2 / 5 = 7 / X → 2X = 35 → X = 17.5 km
+choice_explanations:
+  A:
+    text: "Multiplying 7 by 2 instead of 2.5."
+    trap_type: formula_misapplication
+  B:
+    text: "Correct! 1 cm = 2.5 km. 7 cm × 2.5 km/cm = 17.5 km."
+    trap_type: null
+  C:
+    text: "Rounding 17.5 up to 20 or miscalculating 7 × 3."
+    trap_type: arithmetic_error
+  D:
+    text: "Cross-multiplying 7 × 5 = 35 without dividing by 2."
+    trap_type: wrong_divisor
+next_time_rule: "In map scale problems, find what 1 unit on the map represents in real life first, then multiply."
+status: live
+reviewed_by: null
+source_notes: "LGU land survey map scale problem"

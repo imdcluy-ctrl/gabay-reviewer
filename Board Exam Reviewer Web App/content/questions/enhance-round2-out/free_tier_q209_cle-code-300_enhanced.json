@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-300",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Municipal Code Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Verify the matching between Region Code and Province:\nCode: NCR-039-MNL\nRecord: NCR-039-MLN\n\nIs there a mismatch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, 'MNL' vs 'MLN' (Letter transposition error)"
+      },
+      {
+        "key": "B",
+        "text": "No, both codes match perfectly"
+      },
+      {
+        "key": "C",
+        "text": "Yes, number 039 is incorrect"
+      },
+      {
+        "key": "D",
+        "text": "Yes, NCR prefix is incorrect"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the big picture",
+        "text": "This is a clerical verification task. The key is to compare the code and the record piece by piece, just like checking a serial number or a license plate. Don't rush—take it one block at a time."
+      },
+      {
+        "rung": 2,
+        "title": "The simple rule",
+        "text": "When verifying codes, break them into their natural parts (separated by dashes or spaces). Then compare each part side by side. If every part matches exactly, the codes are identical. If even one part differs, there's a mismatch."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule here",
+        "text": "The code and record both have three blocks: first block (NCR), second block (039), third block (MNL vs MLN). Compare the first two blocks—they look the same, right? Now look closely at the third block. The letters in 'MNL' and 'MLN' are almost the same, but the order of the last two letters is swapped."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "You've spotted that the third block is different: 'MNL' versus 'MLN'. That's a classic letter transposition error—where two letters are accidentally swapped. So there is a mismatch, and it's specifically in the last block. Which option describes exactly that?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. The third block shows 'MNL' in the code and 'MLN' in the record. The letters N and L are swapped, which is a letter transposition error. You caught it.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "It's easy to glance at these codes and think they're the same because they look so similar. But if you compare carefully, the third block is different. The trap here is rushing and missing the small but important difference in letter order.",
+        "trap_type": "omitted_error_detection"
+      },
+      "C": {
+        "text": "This one might trick you if you assume the error is in the number part. But look again: both codes have '039' in the second block. They match perfectly. The mismatch is elsewhere.",
+        "trap_type": "false_location_error"
+      },
+      "D": {
+        "text": "The prefix 'NCR' is identical in both the code and the record, so there's no error there. It's natural to check the first part first, but don't stop there—keep scanning all the way to the end.",
+        "trap_type": "false_location_error"
+      }
+    },
+    "next_time_rule": "When verifying codes, use the 'Three-Block Check': compare each block one by one, and pay extra attention to letter order—transpositions are sneaky and common.",
+    "deconstruct_text": "Let's walk through this together. The code is NCR-039-MNL and the record is NCR-039-MLN. Think of it like checking a tracking number or an ID code—you want to be sure every character is in the right place.\n\nFirst, break both into their natural blocks separated by dashes:\n- Block 1: NCR vs NCR — they match.\n- Block 2: 039 vs 039 — they match.\n- Block 3: MNL vs MLN — here's where it gets interesting. The letters are almost the same, but the N and L are swapped. That's a letter transposition error.\n\nSo yes, there is a mismatch, and it's specifically in the third block. Option A describes this perfectly.\n\nHere's a mental trick for next time: when verifying codes, imagine you're a detective scanning a line of evidence. Go block by block, and for each block, read it aloud in your head. If you read 'MNL' and then 'MLN', you'll hear the difference. This 'read-aloud' method helps catch transpositions that your eyes might gloss over.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

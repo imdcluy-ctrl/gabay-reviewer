@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-401",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "All regular employees are PhilHealth members. Some LGU workers are regular employees. Therefore, which of the following must be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "All LGU workers are PhilHealth members."
+      },
+      {
+        "key": "B",
+        "text": "Some LGU workers are PhilHealth members."
+      },
+      {
+        "key": "C",
+        "text": "No LGU workers are PhilHealth members."
+      },
+      {
+        "key": "D",
+        "text": "Some PhilHealth members are not LGU workers."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think of this as a Venn diagram puzzle. You have three groups: regular employees, PhilHealth members, and LGU workers. The first statement tells you that the entire 'regular employees' circle sits inside the 'PhilHealth members' circle. The second statement says that the 'LGU workers' circle overlaps with the 'regular employees' circle at least a little bit. What does that tell you about the overlap between LGU workers and PhilHealth members?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the key rule: when you know that all of one group is inside another, and you also know that some of a third group is inside the first group, then that 'some' part must also be inside the second group. It's like saying: if all dogs are mammals, and some pets are dogs, then those pets must be mammals too."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's apply that rule directly. The 'regular employees' are like the dogs, 'PhilHealth members' are like the mammals, and 'LGU workers' are like the pets. Since all regular employees are PhilHealth members, and some LGU workers are regular employees, then those particular LGU workers who are regular employees must also be PhilHealth members. So what can we say for sure about LGU workers and PhilHealth membership?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "We know for a fact that at least some LGU workers are PhilHealth members. But we don't know if all LGU workers are PhilHealth members, because the premise only says 'some' LGU workers are regular employees. The other LGU workers could be anything. So the only conclusion that must be true is that some LGU workers are PhilHealth members. That's option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a tempting overgeneralization. You might think, 'Well, if some LGU workers are regular employees and all regular employees are PhilHealth members, then maybe all LGU workers are PhilHealth members.' But the premise only says 'some' LGU workers are regular employees, not 'all.' The rest of the LGU workers could be anything — they might not be PhilHealth members at all. So we can't conclude that all of them are.",
+        "trap_type": "overgeneralization"
+      },
+      "B": {
+        "text": "This is the only conclusion that must be true. Here's the logic: the premise says some LGU workers are regular employees. And we know that all regular employees are PhilHealth members. So those specific LGU workers who are regular employees must also be PhilHealth members. That means at least some LGU workers are PhilHealth members. It's a rock-solid deduction.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This directly contradicts the reasoning we just did. If some LGU workers are regular employees, and all regular employees are PhilHealth members, then those LGU workers are PhilHealth members. So it's impossible that no LGU workers are PhilHealth members. This option is the opposite of what must be true.",
+        "trap_type": "contradictory_conclusion"
+      },
+      "D": {
+        "text": "This statement might be true in real life, but it's not something we can logically conclude from the given premises. The premises only talk about regular employees and LGU workers. They don't give us any information about PhilHealth members who are not LGU workers. So while this could be true, it doesn't have to be true based on what we know. In logic, we can only pick what must be true, not what might be true.",
+        "trap_type": "irrelevant_conclusion"
+      }
+    },
+    "deconstruct_text": "Let's walk through this step by step. We have two statements: (1) All regular employees are PhilHealth members. (2) Some LGU workers are regular employees. Think of it like a chain: the 'some LGU workers' that are regular employees are a small group that sits inside the 'regular employees' circle. And since the entire 'regular employees' circle sits inside the 'PhilHealth members' circle, that small group of LGU workers must also be inside the 'PhilHealth members' circle. So we know for sure that some LGU workers are PhilHealth members. Option A says 'all LGU workers' — that's too strong because we only know about 'some.' Option C says 'none' — that's impossible because we just proved 'some.' Option D talks about PhilHealth members who aren't LGU workers, which is irrelevant to our premises. Only option B is a necessary conclusion. Here's a mental trick for next time: think of it as a 'subset chain.' If all of Group A is inside Group B, and some of Group C is inside Group A, then that 'some' of Group C is automatically inside Group B. It's like a Russian nesting doll — the smallest doll (some LGU workers) is inside the middle doll (regular employees), which is inside the largest doll (PhilHealth members).",
+    "next_time_rule": "When you see 'all A are B' and 'some C are A,' remember the subset chain: that 'some C' must also be B. It's like tracing a path — if you're inside the first circle, and that circle is inside a bigger circle, you're automatically inside the bigger circle too.",
+    "blueprint_id": "B-1744",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

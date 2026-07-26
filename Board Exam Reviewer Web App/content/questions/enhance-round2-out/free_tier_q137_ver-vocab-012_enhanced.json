@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-012",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'AUSTERE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lavish"
+      },
+      {
+        "key": "B",
+        "text": "Severe"
+      },
+      {
+        "key": "C",
+        "text": "Comfortable"
+      },
+      {
+        "key": "D",
+        "text": "Indulgent"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word describes a certain quality of lifestyle or personality. Think about someone who lives very simply, without frills or excess."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The core meaning of 'austere' is strictness, harshness, or plainness. It's the opposite of anything luxurious, soft, or self-indulgent."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the options and ask yourself: which one means strict, harsh, or plain? 'Lavish' means the opposite. 'Comfortable' is about ease. 'Indulgent' is about giving in to pleasures. Only one fits."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Imagine a monk's simple room with a hard bed and no decorations. That's austere. Now, which word matches that image? It's 'severe'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common trap. 'Lavish' sounds like it could be related, but it actually means the exact opposite: rich, elaborate, and full of luxury. It's easy to mix up words that sound similar or feel like they belong in the same 'intense' category.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct. 'Severe' captures the strictness, harshness, and lack of comfort that 'austere' describes. Think of a severe judge or a severe winter—both are unyielding and plain.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a tempting distractor because 'comfortable' is a positive word, and sometimes we assume 'austere' might mean something cozy or simple in a good way. But 'austere' is about strictness and lack of ease, not comfort.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "This one trips up a lot of students. 'Indulgent' sounds like it could mean 'giving in to something,' but 'austere' is all about self-denial and discipline. They are opposites.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'austere,' immediately picture a bare room with a hard chair and no decorations. Then ask: 'Is this word about strictness and plainness, or about luxury and ease?' If it's about luxury, it's the opposite.",
+    "blueprint_id": "Vocabulary — Austere",
+    "deconstruct_text": "Let's break down 'austere' in a way that sticks. The word comes from a Greek root meaning 'harsh' or 'severe.' In everyday use, it describes something that is strict, plain, and without any frills. Think of a military barracks with no pillows, or a judge who never smiles. That's austere.\n\nNow, look at the options. 'Lavish' is the opposite—it's about excess and luxury. 'Comfortable' is about ease and relaxation, which is the opposite of strictness. 'Indulgent' means giving in to desires, which is the opposite of self-discipline. Only 'severe' matches the core idea of strictness and plainness.\n\nHere's a mental trick: The word 'austere' has the letters 'A-U-S' in it, like 'austerity.' When you hear 'austerity,' you think of tough times with no extras. That's exactly what 'austere' means. So, when you're stuck, just remember: 'austere = austerity = severe and plain.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

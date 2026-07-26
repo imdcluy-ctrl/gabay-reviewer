@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-002",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), within how many working days must public officials respond to letters and requests sent by the public?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 working days"
+      },
+      {
+        "key": "B",
+        "text": "10 working days"
+      },
+      {
+        "key": "C",
+        "text": "15 working days"
+      },
+      {
+        "key": "D",
+        "text": "30 working days"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is testing your recall of a specific time limit in RA 6713. The law is all about ethical standards for public servants, and one key duty is responding to the public. Think about which section deals with 'prompt action' on letters and requests."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Section 5 of RA 6713 lists the duties of public officials. Subsection (a) specifically says they must act promptly on letters and requests. The law gives a clear, fixed number of working days for this. It's not 5, 10, or 30."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "The exact wording from Section 5(a) is: 'All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.' So the answer is right there in the text."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "You're looking for the option that says '15 working days.' That's the exact period mandated by law. The other options are timeframes from different rules or laws, like SALN filing or ARTA."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "5 working days might sound familiar, but that's from a different law—the ARTA or Ease of Doing Business Act (RA 11032). ARTA sets 3 days for simple transactions and 7 for complex ones. RA 6713 is older and has its own separate 15-day rule for responding to letters. It's an easy mix-up if you've been studying both laws.",
+        "trap_type": "arta_timeframe_confusion"
+      },
+      "B": {
+        "text": "10 working days isn't mentioned anywhere in RA 6713 for this duty. You might be thinking of the 10-day period for filing a motion for reconsideration in some administrative cases, but that's a different process entirely. Stick to what the law actually says about responding to the public.",
+        "trap_type": "timeframe_error"
+      },
+      "C": {
+        "text": "Correct! RA 6713 Section 5(a) is crystal clear: public officials must respond to letters and requests within 15 working days. The response must also state what action was taken. This is a core duty under the Code of Conduct.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "30 working days is a common deadline in RA 6713, but it's for a different requirement—filing the SALN (Statement of Assets, Liabilities, and Net Worth) under Section 8. It's easy to confuse the two because they're in the same law, but remember: responding to the public is faster (15 days) than filing your assets (30 days).",
+        "trap_type": "section_confusion"
+      }
+    },
+    "next_time_rule": "When you see RA 6713 and 'respond to letters,' think '15 for letters.' It's a simple anchor: SALN is 30 days, ARTA is 3/7 days, but RA 6713 Section 5(a) is always 15 working days.",
+    "blueprint_id": "RA 6713 Section 5(a) — Prompt Action on Letters and Requests",
+    "deconstruct_text": "Let's walk through this together. The question is about RA 6713, the Code of Conduct for public officials. The key is to find the exact section that talks about responding to the public. That's Section 5, which lists the duties of officials. Subsection (a) is titled 'Act promptly on letters and requests.' The law says: 'All public officials and employees shall, within fifteen (15) working days from receipt thereof, respond to letters, telegrams or other means of communication sent by the public.' So the answer is 15 working days. Now, why might someone pick the other options? Option A (5 days) comes from a different law—ARTA or the Ease of Doing Business Act. Option B (10 days) isn't in RA 6713 at all; it might be confused with other administrative periods. Option D (30 days) is also from RA 6713, but it's for filing the SALN, not for responding to letters. The mental trick here is simple: when you see RA 6713 and 'letters,' anchor it to '15.' It's a clean, standalone rule that won't let you down.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

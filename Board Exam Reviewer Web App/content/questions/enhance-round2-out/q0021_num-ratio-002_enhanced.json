@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-002",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipal health center, the ratio of registered nurses to medical technologists is 5:2. If there are 35 registered nurses, how many medical technologists are employed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang Ratio",
+        "text": "Ratio ng nurses sa medtechs: 5:2. May 35 nurses. Ilang medtechs? Ang ratio ay parang recipe: 5 nurses, 2 medtechs."
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang Halaga ng Isang Part",
+        "text": "Ang 5 parts = 35 nurses. Divide 35 by 5 = 7. Bawat part ay 7 tao. Ito ang susi."
+      },
+      {
+        "rung": 3,
+        "title": "Gamitin ang Halaga ng Part",
+        "text": "Ngayon, 2 parts para sa medtechs. Multiply 2 by 7 = 14. Yan ang dami ng medtechs."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang Tamang Sagot",
+        "text": "Sa choices, 14 ang correct. Tandaan: unang hakbang, hanapin ang halaga ng isang part."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen 10 because you multiplied the ratio numbers 5 and 2 directly, forgetting to find the unit part.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. Five parts equal 35, so one part is 7; two parts for medtechs give 14.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen 15 because you subtracted 20 from 35, mistaking the difference for the answer.",
+        "trap_type": "reverse_operation_error"
+      },
+      "D": {
+        "text": "You might have chosen 20 because you used 4 parts (maybe 5-1) instead of the correct 2 parts for medtechs.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Sa ratio, unang hakbang: i-divide ang known quantity sa kanyang ratio number para makuha ang isang part, saka i-multiply sa kabila.",
+    "blueprint_id": "Ratio and Proportion — finding unknown quantity in direct proportion",
+    "deconstruct_text": "Sa Barangay San Roque Health Center, may 35 nurses. Ang ratio ng nurses sa medical technologists ay 5:2—parang sa isang maliit na team, para sa bawat 5 nurses, may 2 medtechs.\n\nPara malaman ang bilang ng medtechs, unahin ang halaga ng isang 'part'. Kung 5 parts = 35, isang part = 35 ÷ 5 = 7. Tapos, 2 parts para sa medtechs: 2 × 7 = 14. Kaya 14 ang sagot.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

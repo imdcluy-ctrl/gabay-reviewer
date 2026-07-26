@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-025",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A product's original price is P800. After a 15% markup, what is the new price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P880"
+      },
+      {
+        "key": "B",
+        "text": "P900"
+      },
+      {
+        "key": "C",
+        "text": "P920"
+      },
+      {
+        "key": "D",
+        "text": "P960"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Unahin ang 15% ng P800",
+        "text": "15% ng 800? Multiply mo: 0.15 × 800 = P120. 'Yan ang idadagdag na patong."
+      },
+      {
+        "rung": 2,
+        "title": "Idagdag sa original price",
+        "text": "Bagong presyo = original + patong = 800 + 120. Simple lang, 'di ba?"
+      },
+      {
+        "rung": 3,
+        "title": "Kalkulahin ang kabuuan",
+        "text": "800 plus 120 gives you 920. Kaya P920 ang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "I-verify gamit shortcut",
+        "text": "Multiply original by 1.15. 800 × 1.15 = 920. Confirmado!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 10% lang (80) ang naisip mong markup, hindi 15%.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because mali ang computation ng 15% as 100, at 800+100=900.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "C": {
+        "text": "Correct. 15% ng 800 is 120, kaya 800+120 = P920 ang bagong presyo.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 20% markup (160) ang ginamit mo imbes na 15%.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Mental Trick: Kapag markup, multiply original by (1 + rate). 15% → 1.15, so 800×1.15=920. Dali!",
+    "blueprint_id": "15% Markup",
+    "deconstruct_text": "Isipin mo si Aling Nena, nagtitinda ng cellphone cases sa Divisoria. Original price ng isang case ay P800, at nagdagdag siya ng 15% markup para may tubo. Ano ang bagong presyo?\n\nUna, kunin ang 15% ng P800: 0.15 × 800 = P120. Ito ang halaga ng markup o 'patong.'\n\nTapos, idagdag sa original price: P800 + P120 = P920. Puwede ring i-multiply ng 1.15: 800 × 1.15 = 920. Same lang!\n\n**Watch-Out Zone: wrong_base_percentage** – Baka 10% o 20% ang nalagay mo, o maling mul...\n\nMarkup shortcut: new = original × (1 + rate%). Kaya 800 × 1.15 = 920. Isipin mo presyo sa palengke na may dagdag na porsyento.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-024",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'AMENDMENT' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repeal"
+      },
+      {
+        "key": "B",
+        "text": "Deletion"
+      },
+      {
+        "key": "C",
+        "text": "Change or addition"
+      },
+      {
+        "key": "D",
+        "text": "Ratification"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about what happens when you 'amend' something in everyday life. You're not starting over or throwing it away, right? You're making it better or updating it."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The word 'amendment' comes from the Latin 'emendare,' which means 'to correct or improve.' So it's about fixing or improving something that already exists, not wiping it out."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Which one sounds like improving or updating something? Repeal and deletion both mean getting rid of something entirely. Ratification means giving approval. Only one option matches the idea of making a change or addition."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Imagine you have a contract with a friend. If you 'amend' it, you're not tearing it up (repeal), crossing everything out (deletion), or just saying 'yes' to it (ratification). You're adding a new clause or changing an existing one. That's exactly what option C describes."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common mix-up. Repeal means to cancel or revoke something completely, like when a law is struck down. But an amendment doesn't erase the whole thing, it just tweaks or adds to it. If you picked this, you might have been thinking of a more drastic action than what 'amendment' actually means.",
+        "trap_type": "repeal_confusion"
+      },
+      "B": {
+        "text": "Deletion sounds close because amendments can remove parts, but that's only half the story. An amendment can also add new parts or change existing ones. It's not just about taking away. If you chose this, you might have focused too much on one aspect of amending and missed the bigger picture.",
+        "trap_type": "deletion_bias"
+      },
+      "C": {
+        "text": "Exactly right. An amendment is any formal change or addition to a document, law, or agreement. It's about modifying what's already there, not replacing it entirely. Great job recognizing the core meaning.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one trips up a lot of people. Ratification is the act of formally approving or confirming something, like when a group votes to accept a proposed amendment. But the amendment itself is the change, not the approval of it. If you picked this, you might have confused the process of making a change official with the change itself.",
+        "trap_type": "ratification_confusion"
+      }
+    },
+    "next_time_rule": "Think of the word 'mend' inside 'amendment.' To mend something is to fix or improve it. So an amendment is always about making a change or addition to improve something, not about removing or approving it.",
+    "blueprint_id": "Vocabulary — Amendment",
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'amendment' has a helpful clue right inside it: 'mend.' When you mend a shirt, you don't throw it away or buy a new one. You fix the tear or add a patch. That's exactly what an amendment does to a document, law, or contract. It changes or adds something to make it better or more current.\n\nNow let's look at why the other options don't fit. Repeal means to completely cancel something, like when a law is erased from the books. That's way more extreme than an amendment. Deletion is just one small part of what an amendment can do, but it ignores the 'addition' part entirely. And ratification is the act of giving formal approval, which usually happens after an amendment is proposed. So ratification is about saying 'yes' to a change, not the change itself.\n\nHere's a mental trick to lock this in: whenever you see 'amendment,' ask yourself, 'Is this about fixing or improving something that already exists?' If the answer is yes, you're on the right track. The only option that matches that idea is 'change or addition.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

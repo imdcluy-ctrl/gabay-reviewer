@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vanal-103",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Workplace Function Analogy 4",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Constitution : Supreme Law :: Statute : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Act"
+      },
+      {
+        "key": "B",
+        "text": "School"
+      },
+      {
+        "key": "C",
+        "text": "Hospital"
+      },
+      {
+        "key": "D",
+        "text": "Bank"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Primary Relationship",
+        "text": "A Constitution is a type of Supreme Law — it is the foundational legal document. Identify the category: 'document type'."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "A Statute is also a type of legal document. What general category does a Statute belong to?"
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Target Category",
+        "text": "A Statute is a specific law passed by a legislature. The general term for such a law is an 'Act'."
+      },
+      {
+        "rung": 4,
+        "title": "Select Target",
+        "text": "The matching term is 'Act', as both are types of laws: Constitution is a Supreme Law, Statute is an Act."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Constitution is a type of Supreme Law, just as a Statute is a type of Act. Both pairs show a specific legal document belonging to a broader legal category.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'School' is an institution, not a type of legal document. A student might confuse 'Statute' with 'statute of limitations' and think of a school setting, but the analogy is about legal document types.",
+        "trap_type": "category_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. 'Hospital' is a healthcare institution, unrelated to legal documents. This distractor may attract those who think of 'statute' as a rule in a hospital, but the relationship is document type, not workplace.",
+        "trap_type": "category_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. 'Bank' is a financial institution. A student might associate 'statute' with banking regulations, but the analogy requires a legal document category, not a place.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, identify the exact relationship (e.g., specific document to general category). Here, 'Constitution' is a type of 'Supreme Law'; 'Statute' is a type of 'Act'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the relationship in the first pair.**\n- 'Constitution' is a specific legal document that belongs to the broader category 'Supreme Law'.\n- Relationship: Specific Document → General Category.\n\n**Step 2: Apply the same relationship to the second pair.**\n- 'Statute' is a specific legal document (a law passed by a legislature).\n- What is the general category for a Statute? It is an 'Act' (a formal written law).\n\n**Step 3: Verify the options.**\n- Option A ('Act') fits perfectly: Statute is a type of Act.\n- Options B, C, D are all institutions (School, Hospital, Bank), not legal document categories.\n\n**Why the distractors fail:**\n- 'School' is an institution, not a legal document type.\n- 'Hospital' is an institution, not a legal document type.\n- 'Bank' is an institution, not a legal document type.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-104",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Workplace Function Analogy 5",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Governor : Province :: Mayor : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Municipality"
+      },
+      {
+        "key": "B",
+        "text": "School"
+      },
+      {
+        "key": "C",
+        "text": "Hospital"
+      },
+      {
+        "key": "D",
+        "text": "Bank"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Determine Primary Relationship",
+        "text": "A Governor is the chief executive of a Province. This is a 'Person to Jurisdiction' relationship."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Pair",
+        "text": "A Mayor is the chief executive of what type of local government unit?"
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Target Jurisdiction",
+        "text": "In the Philippines, a Mayor governs a Municipality (or City). The equivalent of a Province for a Governor is a Municipality for a Mayor."
+      },
+      {
+        "rung": 4,
+        "title": "Select Target",
+        "text": "The matching term is 'Municipality'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Governor governs a Province, just as a Mayor governs a Municipality. Both are political subdivisions in the Philippines.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'School' is an educational institution, not a political unit. A student might think of a 'school mayor' but the analogy is about government jurisdictions.",
+        "trap_type": "category_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. 'Hospital' is a healthcare facility, not a political unit. This distractor may attract those who think of a 'hospital administrator' but the relationship is about elected officials and their jurisdictions.",
+        "trap_type": "category_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. 'Bank' is a financial institution, not a political unit. A student might associate 'mayor' with 'bank' through local business, but the analogy requires a government jurisdiction.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies about officials, identify the jurisdiction: Governor → Province, Mayor → Municipality, President → Country.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the relationship in the first pair.**\n- 'Governor' is the elected head of a 'Province'.\n- Relationship: Official → Political Unit.\n\n**Step 2: Apply the same relationship to the second pair.**\n- 'Mayor' is the elected head of a 'Municipality' (or City).\n- Therefore, the missing term is 'Municipality'.\n\n**Step 3: Verify the options.**\n- Option A ('Municipality') fits perfectly.\n- Options B, C, D are all non-political institutions.\n\n**Why the distractors fail:**\n- 'School' is not a political unit; a mayor does not govern a school.\n- 'Hospital' is not a political unit; a mayor does not govern a hospital.\n- 'Bank' is not a political unit; a mayor does not govern a bank.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-100",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Collocation 1",
+    "difficulty_level": 2,
+    "question_text": "Fill in the blank to complete the administrative statement: 'The project manager ensured that all civil works were executed in accordance __ approved engineering standards.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "with"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Fixed Expression",
+        "text": "The phrase 'in accordance' is part of a fixed prepositional expression. It always pairs with a specific preposition."
+      },
+      {
+        "rung": 2,
+        "title": "Recall the Correct Preposition",
+        "text": "The standard English idiom is 'in accordance WITH'. Think of similar phrases: 'in compliance with', 'in line with'."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Incorrect Options",
+        "text": "'To' is used in 'according to', not 'in accordance'. 'For' and 'by' do not form idiomatic phrases with 'in accordance'."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Preposition",
+        "text": "Choose Option A ('with')."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The idiomatic phrase is 'in accordance WITH'. This is the standard preposition used in formal English.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'In accordance to' is non-standard. The correct phrase is 'according to' (without 'in'). A student might confuse 'in accordance' with 'according'.",
+        "trap_type": "phrase_structure_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'In accordance for' is not idiomatic. The preposition 'for' is used with other phrases like 'in exchange for', not with 'in accordance'.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "Incorrect. 'In accordance by' is not idiomatic. The preposition 'by' is used with passive voice or means, not with 'in accordance'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember: 'in accordance WITH' vs 'according TO'. They are different phrases with different prepositions.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the fixed expression.**\n- The phrase 'in accordance' requires a specific preposition to form a standard English idiom.\n\n**Step 2: Recall the correct collocation.**\n- The correct idiom is 'in accordance WITH'. This is used to indicate conformity to rules or standards.\n\n**Step 3: Eliminate incorrect options.**\n- 'To' is used in 'according to', not 'in accordance'.\n- 'For' and 'by' do not form idiomatic phrases with 'in accordance'.\n\n**Step 4: Select the correct answer.**\n- Option A ('with') is the only correct choice.\n\n**Why the distractors fail:**\n- 'to': Confusion with 'according to'.\n- 'for': No idiomatic basis.\n- 'by': No idiomatic basis.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-100",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Contrapositive Equivalence — Legal Mandate",
+    "difficulty_level": 3,
+    "question_text": "Rule: 'If a municipality achieves a 95% revenue collection rate, then it is awarded the Seal of Good Local Governance.'\n\nWhich of the following statements is LOGICALLY EQUIVALENT to the rule above?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If a municipality is NOT awarded the Seal of Good Local Governance, then it did NOT achieve a 95% revenue collection rate."
+      },
+      {
+        "key": "B",
+        "text": "If a municipality achieves a 95% revenue collection rate, it might not receive the Seal."
+      },
+      {
+        "key": "C",
+        "text": "If a municipality is awarded the Seal, then it must have achieved a 95% revenue collection rate."
+      },
+      {
+        "key": "D",
+        "text": "If a municipality does NOT achieve 95% revenue collection, it cannot receive any award."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Contrapositive Rule",
+        "text": "A conditional statement 'If P, then Q' is logically equivalent to its contrapositive: 'If NOT Q, then NOT P'."
+      },
+      {
+        "rung": 2,
+        "title": "Identify P and Q",
+        "text": "P = 'achieves a 95% revenue collection rate'. Q = 'awarded the Seal of Good Local Governance'."
+      },
+      {
+        "rung": 3,
+        "title": "Form the Contrapositive",
+        "text": "Negate Q: 'NOT awarded the Seal'. Negate P: 'did NOT achieve 95%'. Then reverse: If NOT Q, then NOT P."
+      },
+      {
+        "rung": 4,
+        "title": "Match with Options",
+        "text": "Option A exactly states: 'If NOT awarded the Seal, then did NOT achieve 95%'. That is the contrapositive."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is the contrapositive of the original statement. In logic, 'If P, then Q' is equivalent to 'If NOT Q, then NOT P'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. This statement says the award is not guaranteed, but the original rule says it IS guaranteed. This contradicts the rule.",
+        "trap_type": "rule_contradiction"
+      },
+      "C": {
+        "text": "Incorrect. This is the converse (If Q, then P). The converse is NOT logically equivalent to the original. Example: A municipality could get the Seal for other reasons.",
+        "trap_type": "converse_fallacy"
+      },
+      "D": {
+        "text": "Incorrect. This is the inverse (If NOT P, then NOT Q). The inverse is NOT logically equivalent. Also, it says 'cannot receive any award', which is broader than the original rule.",
+        "trap_type": "inverse_fallacy"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The contrapositive ('If NOT Q, then NOT P') is the ONLY statement logically equivalent to 'If P, then Q'. Avoid confusing with converse or inverse.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the logical form.**\n- Original: If P, then Q.\n- P = 'achieves 95% revenue collection rate'\n- Q = 'awarded the Seal'\n\n**Step 2: Find the contrapositive.**\n- Contrapositive: If NOT Q, then NOT P.\n- NOT Q = 'NOT awarded the Seal'\n- NOT P = 'did NOT achieve 95%'\n- Statement: 'If a municipality is NOT awarded the Seal, then it did NOT achieve 95% revenue collection rate.'\n\n**Step 3: Compare with options.**\n- Option A matches exactly.\n- Option B contradicts the original (says 'might not' vs 'must').\n- Option C is the converse (invalid).\n- Option D is the inverse (invalid) and overgeneralizes.\n\n**Why the distractors fail:**\n- B: Contradicts the conditional guarantee.\n- C: Converse fallacy — the Seal could be awarded for other achievements.\n- D: Inverse fallacy — not achieving 95% does not preclude other awards.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-log-101",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Multi-Premise Deductive Logic Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Premise 1: All department heads are CSE Professional eligibles.\nPremise 2: Maria is a department head.\nConclusion: Which statement MUST be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is a CSE Professional eligible."
+      },
+      {
+        "key": "B",
+        "text": "Maria is a Civil Engineer."
+      },
+      {
+        "key": "C",
+        "text": "All CSE eligibles are department heads."
+      },
+      {
+        "key": "D",
+        "text": "Maria will be promoted next year."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Syllogism Form",
+        "text": "This is a classic categorical syllogism: All A are B. X is A. Therefore, X is B."
+      },
+      {
+        "rung": 2,
+        "title": "Map the Terms",
+        "text": "A = 'department heads', B = 'CSE Professional eligibles', X = 'Maria'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Deduction",
+        "text": "Since Maria is a department head (A), and all department heads are CSE eligibles (B), Maria must be a CSE eligible."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Valid Conclusion",
+        "text": "Option A ('Maria is a CSE Professional eligible') is the only statement that must be true based on the premises."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is a valid categorical deduction: All A are B, Maria is A, therefore Maria is B.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Civil Engineer' is not mentioned in the premises. The student might confuse 'CSE Professional eligible' with 'Civil Engineer', but they are different.",
+        "trap_type": "unsupported_assumption"
+      },
+      "C": {
+        "text": "Incorrect. This is the converse of Premise 1. 'All A are B' does NOT imply 'All B are A'. Some CSE eligibles may not be department heads.",
+        "trap_type": "illicit_conversion"
+      },
+      "D": {
+        "text": "Incorrect. Promotion is not mentioned in the premises. This is a speculative statement not supported by the given information.",
+        "trap_type": "speculative_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In categorical syllogisms: 'All A are B' + 'X is A' → 'X is B'. Do not assume the converse or add outside information.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the logical structure.**\n- Premise 1: All department heads (A) are CSE Professional eligibles (B).\n- Premise 2: Maria (X) is a department head (A).\n\n**Step 2: Apply the rule of categorical syllogism.**\n- If all A are B, and X is A, then X is B.\n- Therefore, Maria is a CSE Professional eligible.\n\n**Step 3: Evaluate each option.**\n- Option A: Matches the valid conclusion.\n- Option B: 'Civil Engineer' is not in the premises; it's an unwarranted assumption.\n- Option C: Illicit conversion — reverses the relationship.\n- Option D: Speculation about promotion, not supported.\n\n**Why the distractors fail:**\n- B: Assumes 'CSE Professional' means 'Civil Engineer', which is false.\n- C: Commits the fallacy of illicit conversion.\n- D: Adds information not present in the premises.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-data-100",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Bar Graph Rate of Growth Analysis Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Data Table: Annual Health Office Expenditure:\nYear 2024: ₱10 Million\nYear 2025: ₱15 Million\n\nWhat is the percentage increase in expenditure from 2024 to 2025?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50%"
+      },
+      {
+        "key": "B",
+        "text": "55%"
+      },
+      {
+        "key": "C",
+        "text": "45%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Difference",
+        "text": "Increase = ₱15M - ₱10M = ₱5M. Always subtract the earlier year from the later year."
+      },
+      {
+        "rung": 2,
+        "title": "Divide by Original Base Year",
+        "text": "Base Year (2024) = ₱10M. The denominator is always the original value, not the new value."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Percentage Formula",
+        "text": "Pct Increase = (5 / 10) × 100. This gives the fraction of the original that the increase represents."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate Result",
+        "text": "50%. Double-check: 50% of ₱10M is ₱5M, which matches the increase."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Pct Increase = ((15 - 10) / 10) × 100 = 50%.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Divided by 2025 budget instead of 2024 base year. (15-10)/15 = 33.3%, not 55%. 55% likely comes from 5.5/10 miscalculation.",
+        "trap_type": "wrong_base_year_divisor"
+      },
+      "C": {
+        "text": "45% would result from (15-10)/11.11 or similar miscalculation. The correct division is 5/10 = 0.5, not 0.45.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "100% would mean expenditure doubled from ₱10M to ₱20M, but the actual 2025 value is only ₱15M. The increase is ₱5M, not ₱10M.",
+        "trap_type": "multiplier_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Percentage Growth = [(New - Old) / Old] × 100. Always divide by the original (base) value.",
+    "deconstruct_text": "### Step 1: Calculate the increase\nExpenditure increased from ₱10M to ₱15M, so the increase is ₱15M - ₱10M = ₱5M.\n\n### Step 2: Divide by the original value\nThe original (base) value is the 2024 expenditure: ₱10M. So the fraction is ₱5M / ₱10M = 0.5.\n\n### Step 3: Convert to percentage\nMultiply by 100: 0.5 × 100 = 50%.\n\n### Why the distractors are wrong:\n- **55%**: This might come from dividing by ₱15M (the new value) instead of ₱10M, or from a miscalculation like 5.5/10.\n- **45%**: An arithmetic error, perhaps from 4.5/10 or misreading the numbers.\n- **100%**: This would mean the expenditure doubled, but the increase is only ₱5M, not ₱10M.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-pat-100",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Visual Rotation & Symbol Sequence Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Sequence: A square rotates 90 degrees clockwise at each step: Step 1 (Top-Left dot), Step 2 (Top-Right dot), Step 3 (Bottom-Right dot). Where will the dot be in Step 4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bottom-Left"
+      },
+      {
+        "key": "B",
+        "text": "Top-Left"
+      },
+      {
+        "key": "C",
+        "text": "Top-Right"
+      },
+      {
+        "key": "D",
+        "text": "Center"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Track Rotational Direction",
+        "text": "The dot moves 90 degrees clockwise around the four corners. Visualize the square's corners in order: top-left, top-right, bottom-right, bottom-left."
+      },
+      {
+        "rung": 2,
+        "title": "Follow Corner Sequence",
+        "text": "Top-Left ➔ Top-Right ➔ Bottom-Right ➔ ?. Each step moves to the next corner in clockwise order."
+      },
+      {
+        "rung": 3,
+        "title": "Determine Next Corner",
+        "text": "Clockwise from Bottom-Right is Bottom-Left. Imagine the square: after bottom-right, the next corner going clockwise is bottom-left."
+      },
+      {
+        "rung": 4,
+        "title": "Select Location",
+        "text": "Select Option A ('Bottom-Left'). The dot completes one full rotation after four steps."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Clockwise 90-degree rotation moves dot to Bottom-Left corner.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Top-Left is the starting position (Step 1), not Step 4. This would be a counterclockwise rotation or no rotation at all.",
+        "trap_type": "direction_reversal_error"
+      },
+      "C": {
+        "text": "Top-Right is Step 2, not Step 4. This skips two steps or moves only once.",
+        "trap_type": "step_skipping_error"
+      },
+      "D": {
+        "text": "The dot never moves to the center; it only moves to corners. Center would require a different pattern.",
+        "trap_type": "position_drift_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Clockwise 90° corner path: Top-Left ➔ Top-Right ➔ Bottom-Right ➔ Bottom-Left. Visualize the square's corners in order.",
+    "deconstruct_text": "### Step 1: Identify the pattern\nThe dot moves 90 degrees clockwise at each step. The corners of the square in clockwise order are: Top-Left, Top-Right, Bottom-Right, Bottom-Left.\n\n### Step 2: Apply the pattern\n- Step 1: Top-Left\n- Step 2: Top-Right (90° clockwise)\n- Step 3: Bottom-Right (another 90°)\n- Step 4: Bottom-Left (another 90°)\n\n### Step 3: Confirm the answer\nAfter three 90° rotations, the dot is at Bottom-Left. Option A is correct.\n\n### Why the distractors are wrong:\n- **Top-Left**: This is the starting position, not after three rotations.\n- **Top-Right**: This is after only one rotation.\n- **Center**: The dot never goes to the center; it only visits corners.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ana-seq-100",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Letter Position Sequence Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Find the next letter in the sequence: A, C, E, G, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I"
+      },
+      {
+        "key": "B",
+        "text": "H"
+      },
+      {
+        "key": "C",
+        "text": "J"
+      },
+      {
+        "key": "D",
+        "text": "K"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert Letters to Alphabet Position",
+        "text": "A = 1, C = 3, E = 5, G = 7. Write down the numerical positions to see the pattern clearly."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Pattern",
+        "text": "Positions increase by +2 each step (odd numbers). The sequence is all odd-numbered letters."
+      },
+      {
+        "rung": 3,
+        "title": "Find Next Number",
+        "text": "7 + 2 = 9. The next odd number after 7 is 9."
+      },
+      {
+        "rung": 4,
+        "title": "Convert Back to Letter",
+        "text": "9th letter of alphabet is I. Remember: A=1, B=2, C=3, D=4, E=5, F=6, G=7, H=8, I=9."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 9th letter is 'I' (+2 pattern).",
+        "trap_type": null
+      },
+      "B": {
+        "text": "H is the 8th letter, which would be +1 from G (7+1=8), but the pattern is +2, not +1.",
+        "trap_type": "off_by_one_error"
+      },
+      "C": {
+        "text": "J is the 10th letter, which would be +3 from G (7+3=10), but the pattern is +2.",
+        "trap_type": "step_increment_error"
+      },
+      "D": {
+        "text": "K is the 11th letter, which would be +4 from G (7+4=11), but the pattern is +2.",
+        "trap_type": "step_increment_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Convert letters to numbers (A=1, B=2...) to solve letter sequence patterns easily. Look for constant differences.",
+    "deconstruct_text": "### Step 1: Convert letters to numbers\nA=1, C=3, E=5, G=7. The sequence is: 1, 3, 5, 7.\n\n### Step 2: Identify the pattern\nThe numbers increase by 2 each time: 1+2=3, 3+2=5, 5+2=7. So the next number is 7+2=9.\n\n### Step 3: Convert back to letter\nThe 9th letter of the alphabet is I.\n\n### Why the distractors are wrong:\n- **H (8)**: This would be +1 from G, but the pattern is +2.\n- **J (10)**: This would be +3 from G, but the pattern is +2.\n- **K (11)**: This would be +4 from G, but the pattern is +2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-100",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Alphabetical Filing Rule — Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Arrange the following 4 official document records in correct alphabetical order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. Dela Peña, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "4, 3, 2, 1"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Prefixes Rule",
+        "text": "Filing rules treat prefixes (De, Del, Dela) as part of the surname. Compare the entire surname including the prefix."
+      },
+      {
+        "rung": 2,
+        "title": "Compare Letter by Letter",
+        "text": "De Castro (D-E-C) comes before De la Cruz (D-E-L-A-C) because 'C' comes before 'L'."
+      },
+      {
+        "rung": 3,
+        "title": "Compare Remaining Names",
+        "text": "Dela Peña (D-E-L-A-P) comes after De la Cruz (D-E-L-A-C) because 'P' comes after 'C'. Del Rosario (D-E-L-R) comes last because 'R' comes after 'P'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Order",
+        "text": "3 (De Castro) ➔ 1 (De la Cruz) ➔ 4 (Dela Peña) ➔ 2 (Del Rosario)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Order: De Castro (3) ➔ De la Cruz (1) ➔ Dela Peña (4) ➔ Del Rosario (2).",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This order ignores the alphabetical comparison of the prefix letters. De Castro (D-E-C) should come before De la Cruz (D-E-L), not after.",
+        "trap_type": "prefix_letter_comparison_error"
+      },
+      "C": {
+        "text": "This order places Dela Peña (4) before De la Cruz (1), but D-E-L-A-P comes after D-E-L-A-C because 'P' > 'C'.",
+        "trap_type": "letter_position_swap_error"
+      },
+      "D": {
+        "text": "This order is reversed. It starts with Dela Peña (4) which should be third, and ends with De Castro (3) which should be first.",
+        "trap_type": "order_reversal_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Compare names letter-by-letter starting from the first letter of the prefix (De, Del, Dela). Treat the prefix as part of the surname.",
+    "deconstruct_text": "### Step 1: Write surnames with prefixes\n- De Castro\n- De la Cruz\n- Dela Peña\n- Del Rosario\n\n### Step 2: Compare letter by letter\nAll start with 'D', then 'e'. Next letters:\n- De Castro: 'C'\n- De la Cruz: 'L' (after 'De ')\n- Dela Peña: 'L' (after 'De')\n- Del Rosario: 'L' (after 'Del')\n\nSince 'C' comes before 'L', De Castro is first.\n\n### Step 3: Compare the three with 'L'\n- De la Cruz: after 'De la', next is 'C'\n- Dela Peña: after 'Dela', next is 'P'\n- Del Rosario: after 'Del', next is 'R'\n\n'C' < 'P' < 'R', so order: De la Cruz, then Dela Peña, then Del Rosario.\n\n### Final order: 3, 1, 4, 2 (Option A).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-code-100",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — AFFECT",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'The new tax policy will directly __ small business owners.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "affect"
+      },
+      {
+        "key": "B",
+        "text": "effect"
+      },
+      {
+        "key": "C",
+        "text": "affected"
+      },
+      {
+        "key": "D",
+        "text": "effects"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Word Class",
+        "text": "The blank follows 'will directly', so it needs a base form verb. 'Affect' is a verb meaning 'to influence'."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Confused Pair",
+        "text": "'affect' vs 'effect': 'affect' is usually a verb, 'effect' is usually a noun. Here we need a verb."
+      },
+      {
+        "rung": 3,
+        "title": "Match Context Meaning",
+        "text": "The context requires 'affect' meaning 'to have an impact on'. 'Effect' as a verb means 'to bring about', which doesn't fit."
+      },
+      {
+        "rung": 4,
+        "title": "Select Word",
+        "text": "Select Option A ('affect'). The sentence means the policy will influence small business owners."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'affect' is the appropriate term for this context.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Effect' is usually a noun (e.g., 'the effect of the policy'). As a verb, it means 'to bring about', which doesn't fit here.",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "'Affected' is past tense, but the sentence uses 'will' (future tense), so the base form 'affect' is needed.",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "'Effects' is a plural noun, not a verb. The sentence requires a verb after 'will directly'.",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Affect' is a verb (to influence); 'effect' is usually a noun (a result). Remember: A = Action (verb), E = End result (noun).",
+    "deconstruct_text": "### Step 1: Determine the part of speech needed\nThe blank follows 'will directly', which requires a base form verb. 'Will' indicates future tense, so the verb should be in its base form.\n\n### Step 2: Choose between 'affect' and 'effect'\n- 'Affect' is a verb meaning 'to influence or have an impact on'.\n- 'Effect' is usually a noun meaning 'a result'. As a verb, it means 'to bring about', which is less common and doesn't fit the context of influencing small business owners.\n\n### Step 3: Eliminate other options\n- 'Affected' is past tense, but the sentence uses 'will' (future).\n- 'Effects' is a plural noun, not a verb.\n\n### Correct answer: 'affect' (Option A).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-415",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "In a government agency, 50 employees are GSIS members, 40 are PAG-IBIG members, and 30 are PhilHealth members. Additionally, 20 are members of both GSIS and PAG-IBIG, 15 are members of both GSIS and PhilHealth, 10 are members of both PAG-IBIG and PhilHealth, and 5 are members of all three. How many employees are members of at least one of the three?",
+    "options": [
+      {
+        "key": "A",
+        "text": "80"
+      },
+      {
+        "key": "B",
+        "text": "90"
+      },
+      {
+        "key": "C",
+        "text": "100"
+      },
+      {
+        "key": "D",
+        "text": "110"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This is about counting people who belong to overlapping groups. Think of three circles that overlap in pairs and all three together. You need to find the total unique count, not just add the numbers."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule for three overlapping sets: Start by adding the totals for each group. Then subtract the counts for each pair overlap (because you counted them twice). Finally, add back the count for the triple overlap (because you subtracted it too many times)."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Plug the numbers into the rule: 50 + 40 + 30 = 120. Then subtract the three pair overlaps: 20 + 15 + 10 = 45. So 120 - 45 = 75. Then add back the triple overlap of 5. What do you get?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "You're almost there. 75 + 5 = 80. That's the total number of employees who are members of at least one of the three agencies."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. You applied the inclusion-exclusion principle perfectly: add the singles (50+40+30=120), subtract the doubles (20+15+10=45), then add back the triple (5) to get 80. This accounts for all overlaps exactly once.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common near-miss. You likely subtracted the pair overlaps (120-45=75) but forgot to add back the 5 employees counted in all three groups. That small step is crucial because those 5 were subtracted three times but should only be subtracted once.",
+        "trap_type": "triple_omission"
+      },
+      "C": {
+        "text": "This might happen if you added the singles and the pair overlaps together instead of subtracting them. It's easy to lose track when numbers pile up. Remember: overlaps mean double-counting, so you subtract them, not add.",
+        "trap_type": "overcounting"
+      },
+      "D": {
+        "text": "This is what you get by simply adding 50+40+30 without considering any overlaps. But many employees belong to multiple agencies, so this counts them more than once. The real total must be less than 120.",
+        "trap_type": "simple_addition"
+      }
+    },
+    "deconstruct_text": "Let's break this down step by step. We have three groups: GSIS (50), PAG-IBIG (40), and PhilHealth (30). If we just add them, we get 120, but that counts people in multiple groups more than once. So we subtract the pair overlaps: GSIS and PAG-IBIG (20), GSIS and PhilHealth (15), PAG-IBIG and PhilHealth (10). That's 45 subtracted, giving us 75. But wait—those 5 people in all three groups were subtracted in each pair, so they got removed three times instead of once. We need to add them back once: 75 + 5 = 80. So 80 employees are members of at least one. The mental trick here is to think of it like untangling a knot: first pull the strands apart (add singles), then remove the tangles (subtract pairs), then fix the over-correction (add triple).",
+    "next_time_rule": "For three overlapping groups, remember the rhythm: add the singles, subtract the pairs, add the triple. Or think of it as: plus, minus, plus. It's like a dance step—once you know the pattern, you never miss it.",
+    "blueprint_id": "B-1778",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

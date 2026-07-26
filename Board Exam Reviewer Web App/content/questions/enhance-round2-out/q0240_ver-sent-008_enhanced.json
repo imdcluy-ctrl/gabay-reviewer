@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-008",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The new regulation is intended ___ improve service delivery.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang sumusunod na salita",
+        "text": "Tingnan ang salita pagkatapos ng blank: 'improve' ay isang verb. Ang preposisyon ay dapat magpakilala ng infinitive."
+      },
+      {
+        "rung": 2,
+        "title": "Alamin ang tamang partner",
+        "text": "Ang 'intended' ay laging may kasamang 'to' kapag verb ang susunod. Kung noun, 'for' ang gamit."
+      },
+      {
+        "rung": 3,
+        "title": "I-apply sa local na scenario",
+        "text": "Isipin ang barangay ordinance: 'intended to improve' ang tamang structure. 'For improve' ay mali dahil verb ang 'improve'."
+      },
+      {
+        "rung": 4,
+        "title": "Sigurado na? Piliin ang B",
+        "text": "Ang tamang sagot ay 'to'. Ito lang ang nagbibigay ng tamang grammatical connection sa kasunod na verb."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'intended for' is common, but it requires a noun (e.g., 'for residents'), not a verb.",
+        "trap_type": "preposition_misuse"
+      },
+      "B": {
+        "text": "Correct. 'to' is the only preposition that correctly links 'intended' with the base verb 'improve' to form an infinitive.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'aimed at' uses 'at', but 'intended' does not collocate with 'at' in this context.",
+        "trap_type": "preposition_misuse"
+      },
+      "D": {
+        "text": "You might have chosen D because 'in' can indicate purpose, but 'intended in' is not idiomatic before a verb like 'improve'.",
+        "trap_type": "preposition_misuse"
+      }
+    },
+    "next_time_rule": "Intended to + verb, intended for + noun. Tandaan: 'to improve' hindi 'for improve'. Parang jeepney sign: 'to Quiapo' may galaw, 'for hire' noun.",
+    "blueprint_id": "Prepositions — Intended To",
+    "deconstruct_text": "Isipin natin ang bagong ordinansa sa barangay tungkol sa waste segregation. Ang structure ng 'intended' ay sumusunod sa pattern: 'intended to + verb' o 'intended for + noun'.\n\nDito, ang salita pagkatapos ng blank ay 'improve'—isang verb. Kaya kailangan ng 'to' para mabuo ang infinitive na 'to improve'. Ang ibang options ('for', 'at', 'in') ay hindi idiomatic sa ganitong construction.\n\n**Watch-Out Zone: Preposition trap! 'Intended for' needs a noun, so 'for improve' is la...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

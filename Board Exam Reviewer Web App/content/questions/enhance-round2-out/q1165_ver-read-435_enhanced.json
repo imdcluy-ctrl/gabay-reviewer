@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-read-435",
+    "category_id": "verbal-ability",
+    "subtopic_id": "reading-comprehension",
+    "question_text": "Passage: 'COA Audit Observation Memorandum No. 2024-05, dated March 15, 2024, notes that the Municipality of San Juan failed to remit P2.5 million in withholding taxes for the third quarter of 2023. The memorandum also cites the lack of a complete inventory of government property as a recurring issue. It recommends that the Local Government Unit (LGU) strictly comply with tax remittance deadlines and conduct a full physical inventory within 60 days.'\n\nThe purpose of the passage is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Criticize the LGU for its failures"
+      },
+      {
+        "key": "B",
+        "text": "Inform the LGU of audit findings and recommend actions"
+      },
+      {
+        "key": "C",
+        "text": "Entertain readers with audit stories"
+      },
+      {
+        "key": "D",
+        "text": "Persuade the public to demand accountability"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-1410",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

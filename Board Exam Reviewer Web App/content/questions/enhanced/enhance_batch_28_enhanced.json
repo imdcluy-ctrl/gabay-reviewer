@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-ops-100",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "blueprint_id": "LCM Computation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Two Barangay patrol cars start their rounds from the municipal hall at the same time. Car A completes a round every 12 minutes, and Car B completes a round every 18 minutes. After how many minutes will both cars meet at the municipal hall again?",
+    "options": [
+      {
+        "key": "A",
+        "text": "36 minutes"
+      },
+      {
+        "key": "B",
+        "text": "6 minutes"
+      },
+      {
+        "key": "C",
+        "text": "216 minutes"
+      },
+      {
+        "key": "D",
+        "text": "42 minutes"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify LCM Requirement",
+        "text": "When two recurring events coincide again, find the Least Common Multiple (LCM) of their cycle times."
+      },
+      {
+        "rung": 2,
+        "title": "Find Prime Factors",
+        "text": "Prime factors: 12 = 2² × 3, 18 = 2 × 3². The LCM takes the highest power of each prime."
+      },
+      {
+        "rung": 3,
+        "title": "Apply LCM Formula",
+        "text": "LCM(A, B) = (A × B) / GCD(A, B). GCD of 12 and 18 is 6."
+      },
+      {
+        "rung": 4,
+        "title": "Calculate LCM",
+        "text": "LCM = (12 × 18) / 6 = 216 / 6 = 36 minutes. That's the time both cars meet again."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 36 minutes is the LCM of 12 and 18. Both cars will be at the municipal hall after 3 rounds of Car A and 2 rounds of Car B.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "6 minutes is the GCD of 12 and 18, not the LCM. The student likely confused GCD with LCM.",
+        "trap_type": "gcd_lcm_confusion"
+      },
+      "C": {
+        "text": "216 minutes is the product of 12 and 18 without dividing by the GCD. The student simply multiplied the two numbers.",
+        "trap_type": "unsimplified_product_error"
+      },
+      "D": {
+        "text": "42 minutes is the sum of 12 and 18 plus 12, a common error of adding the cycle times incorrectly.",
+        "trap_type": "extraneous_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Recurring coincidence time = Least Common Multiple (LCM) of individual cycle times. Use prime factorization or the formula (A×B)/GCD.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the problem:** We need the time when both cars are at the starting point simultaneously. This is the Least Common Multiple (LCM) of 12 and 18.\n2. **Find prime factors:** 12 = 2² × 3; 18 = 2 × 3².\n3. **Compute LCM:** Take the highest power of each prime: 2² × 3² = 4 × 9 = 36.\n   Alternatively, use the formula: LCM(12,18) = (12×18)/GCD(12,18). GCD is 6, so LCM = 216/6 = 36.\n4. **Conclusion:** After 36 minutes, Car A completes 3 rounds (36/12) and Car B completes 2 rounds (36/18), both at the hall.\n\n### ❌ Why the Distractors Fail\n- **6 minutes (B):** This is the GCD, not the LCM. The student likely confused the two concepts.\n- **216 minutes (C):** This is the product 12×18, but the LCM is smaller because it accounts for common factors. The student forgot to divide by the GCD.\n- **42 minutes (D):** This might come from adding 12+18+12 or another incorrect combination. No valid mathematical operation yields 42.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-100",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Subjunctive Mood — Formal Executive Mandates",
+    "difficulty_level": 2,
+    "question_text": "Choose the grammatically correct sentence for a formal administrative order: 'The Regional Director requested that every department chief __ a monthly compliance audit.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "submits"
+      },
+      {
+        "key": "B",
+        "text": "submit"
+      },
+      {
+        "key": "C",
+        "text": "submitted"
+      },
+      {
+        "key": "D",
+        "text": "would submit"
+      }
+    ],
+    "correct_option": "B",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Verbs Demanding Subjunctive Mood",
+        "text": "Verbs like 'requested', 'demand', 'recommend', 'require' trigger the subjunctive mood in the that-clause."
+      },
+      {
+        "rung": 2,
+        "title": "Understand Subjunctive Form",
+        "text": "The subjunctive mood uses the base form of the verb (no -s, -ed, or modal) regardless of the subject's number or person."
+      },
+      {
+        "rung": 3,
+        "title": "Analyze Subject and Base Form",
+        "text": "Even though 'every department chief' is singular third person, the subjunctive requires the base form 'submit', not 'submits'."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Base Verb",
+        "text": "The correct answer is 'submit' (Option B). The other options violate the subjunctive rule."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'submits' is the indicative singular form. After verbs of request, the subjunctive requires the base form 'submit'.",
+        "trap_type": "indicative_vs_subjunctive_confusion"
+      },
+      "B": {
+        "text": "Correct! 'requested that... submit' follows the subjunctive mood rule: base verb after demand/request verbs.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'submitted' is past tense. The subjunctive requires the base form, not a past tense.",
+        "trap_type": "tense_mismatch"
+      },
+      "D": {
+        "text": "'would submit' uses a modal auxiliary. The subjunctive does not use modals; it uses the bare base form.",
+        "trap_type": "modal_overuse"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** After verbs of request/recommendation/demand (e.g., requested that...), use the base verb (subjunctive). No -s, -ed, or modals.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the trigger:** The verb 'requested' is a demand/request verb that requires the subjunctive mood in the that-clause.\n2. **Apply the subjunctive rule:** In the subjunctive, the verb in the that-clause takes the base form, regardless of the subject. So 'every department chief' (singular) takes 'submit', not 'submits'.\n3. **Eliminate other options:**\n   - A: 'submits' is indicative, not subjunctive.\n   - C: 'submitted' is past tense.\n   - D: 'would submit' uses a modal, which is not allowed in the subjunctive.\n4. **Correct answer:** B: 'submit'.\n\n### ❌ Why the Distractors Fail\n- **submits (A):** The student used the regular third-person singular -s ending, forgetting the subjunctive rule.\n- **submitted (C):** The student used past tense, possibly thinking the request happened in the past, but the subjunctive requires the base form.\n- **would submit (D):** The student added 'would' as a polite form, but the subjunctive does not use modals.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-101",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Reported Speech Tense Shift Variant 1",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Reported Speech Tense Shift): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "Determine whether the pronoun acts as a subject or object in the clause. The blank is followed by the verb 'agreed', so it is the subject."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun is performing the action 'agreed', so it must be in the nominative/subjective case."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "Subjective case for plural third person is 'they'. Objective is 'them', possessive is 'their', reflexive is 'themselves'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Select Option A ('they'). The other options are incorrect cases."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'they' is the subjective case pronoun, acting as the subject of 'agreed'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'them' is objective case, used for objects, not subjects. Here the pronoun is the subject of 'agreed'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'themselves' is reflexive, used when the subject and object are the same. No reflexive action here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'their' is possessive, indicating ownership. The blank needs a subject pronoun, not a possessive.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use nominative pronouns (they, he, she, I, we) when performing the action of a verb. Subject position requires subjective case.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Analyze the sentence:** 'The committee members reviewed the draft, and __ agreed to submit...' The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. **Determine the required case:** The subject of a verb must be in the nominative (subjective) case.\n3. **Identify the correct pronoun:** The committee members are plural third person, so the subjective pronoun is 'they'.\n4. **Eliminate other options:**\n   - B: 'them' is objective (used for objects like 'gave it to them').\n   - C: 'themselves' is reflexive (used when subject and object are the same, e.g., 'they hurt themselves').\n   - D: 'their' is possessive (e.g., 'their report').\n5. **Correct answer:** A: 'they'.\n\n### ❌ Why the Distractors Fail\n- **them (B):** The student used the objective case instead of subjective, possibly confusing subject and object roles.\n- **themselves (C):** The student added '-selves' unnecessarily, thinking it emphasizes the committee, but no reflexive action is present.\n- **their (D):** The student used a possessive pronoun, which cannot serve as the subject of a verb.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-102",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Misplaced Modifier Correction Variant 2",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Misplaced Modifier Correction): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "Determine whether the pronoun acts as a subject or object in the clause. The blank is followed by the verb 'agreed', so it is the subject."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun is performing the action 'agreed', so it must be in the nominative/subjective case."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "Subjective case for plural third person is 'they'. Objective is 'them', possessive is 'their', reflexive is 'themselves'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Select Option A ('they'). The other options are incorrect cases."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'they' is the subjective case pronoun, acting as the subject of 'agreed'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'them' is objective case, used for objects, not subjects. Here the pronoun is the subject of 'agreed'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'themselves' is reflexive, used when the subject and object are the same. No reflexive action here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'their' is possessive, indicating ownership. The blank needs a subject pronoun, not a possessive.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use nominative pronouns (they, he, she, I, we) when performing the action of a verb. Subject position requires subjective case.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Analyze the sentence:** 'The committee members reviewed the draft, and __ agreed to submit...' The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. **Determine the required case:** The subject of a verb must be in the nominative (subjective) case.\n3. **Identify the correct pronoun:** The committee members are plural third person, so the subjective pronoun is 'they'.\n4. **Eliminate other options:**\n   - B: 'them' is objective (used for objects like 'gave it to them').\n   - C: 'themselves' is reflexive (used when subject and object are the same, e.g., 'they hurt themselves').\n   - D: 'their' is possessive (e.g., 'their report').\n5. **Correct answer:** A: 'they'.\n\n### ❌ Why the Distractors Fail\n- **them (B):** The student used the objective case instead of subjective, possibly confusing subject and object roles.\n- **themselves (C):** The student added '-selves' unnecessarily, thinking it emphasizes the committee, but no reflexive action is present.\n- **their (D):** The student used a possessive pronoun, which cannot serve as the subject of a verb.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-103",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Double Negative Elimination Variant 3",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Double Negative Elimination): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "Determine whether the pronoun acts as a subject or object in the clause. The blank is followed by the verb 'agreed', so it is the subject."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "The pronoun is performing the action 'agreed', so it must be in the nominative/subjective case."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "Subjective case for plural third person is 'they'. Objective is 'them', possessive is 'their', reflexive is 'themselves'."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "Select Option A ('they'). The other options are incorrect cases."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'they' is the subjective case pronoun, acting as the subject of 'agreed'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'them' is objective case, used for objects, not subjects. Here the pronoun is the subject of 'agreed'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "'themselves' is reflexive, used when the subject and object are the same. No reflexive action here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "'their' is possessive, indicating ownership. The blank needs a subject pronoun, not a possessive.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use nominative pronouns (they, he, she, I, we) when performing the action of a verb. Subject position requires subjective case.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Analyze the sentence:** 'The committee members reviewed the draft, and __ agreed to submit...' The blank is followed by the verb 'agreed', so it is the subject of the clause.\n2. **Determine the required case:** The subject of a verb must be in the nominative (subjective) case.\n3. **Identify the correct pronoun:** The committee members are plural third person, so the subjective pronoun is 'they'.\n4. **Eliminate other options:**\n   - B: 'them' is objective (used for objects like 'gave it to them').\n   - C: 'themselves' is reflexive (used when subject and object are the same, e.g., 'they hurt themselves').\n   - D: 'their' is possessive (e.g., 'their report').\n5. **Correct answer:** A: 'they'.\n\n### ❌ Why the Distractors Fail\n- **them (B):** The student used the objective case instead of subjective, possibly confusing subject and object roles.\n- **themselves (C):** The student added '-selves' unnecessarily, thinking it emphasizes the committee, but no reflexive action is present.\n- **their (D):** The student used a possessive pronoun, which cannot serve as the subject of a verb.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-104",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Relative Pronoun — Who vs Whom Variant 4",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Relative Pronoun — Who vs Whom): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Function of Pronoun",
+        "text": "The blank comes after 'and' and before 'agreed'. Ask: who performed the action of agreeing? The pronoun is the subject of the verb 'agreed'."
+      },
+      {
+        "rung": 2,
+        "title": "Check Subject Position",
+        "text": "Since the pronoun performs the action, it must be in the nominative (subjective) case. Nominative pronouns for third person plural: they, not them or their."
+      },
+      {
+        "rung": 3,
+        "title": "Select Subject Pronoun",
+        "text": "The subjective case for plural third person is 'they'. Option B 'them' is objective; Option D 'their' is possessive; Option C 'themselves' is reflexive."
+      },
+      {
+        "rung": 4,
+        "title": "Final Choice",
+        "text": "The only nominative pronoun among the choices is 'they' (Option A). It correctly serves as the subject of 'agreed'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the nominative (subjective) pronoun, correctly serving as the subject of the verb 'agreed'. The committee members (they) performed the action.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Them' is an objective case pronoun (used as object of verb or preposition). Here the pronoun is the subject of 'agreed', so nominative 'they' is required. A common error: using the object form when the subject form is needed.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "Incorrect. 'Themselves' is a reflexive pronoun, used when the subject and object are the same (e.g., 'They hurt themselves'). No reflexive action occurs here; the committee members simply agreed.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "Incorrect. 'Their' is a possessive pronoun, indicating ownership (e.g., 'their report'). The blank requires a subject for 'agreed', not a possessive. Using 'their' would create a fragment: 'their agreed' is ungrammatical.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To choose the correct pronoun case, identify its function in the clause. If it performs the action (subject), use nominative: I, you, he, she, it, we, they. If it receives the action (object), use objective: me, you, him, her, it, us, them.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the function of the blank.**\nThe sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'\nThe blank is followed by the verb 'agreed'. The pronoun in the blank is the one who performed the action of agreeing. Therefore, the pronoun functions as the **subject** of the verb 'agreed'.\n\n**Step 2: Determine the required pronoun case.**\nSubjects of verbs must be in the **nominative (subjective) case**. The nominative pronouns for third person plural are: **they**.\n\n**Step 3: Evaluate each option.**\n- **Option A: they** — nominative, correct as subject. ✅\n- **Option B: them** — objective case, used as object of verb or preposition. ❌\n- **Option C: themselves** — reflexive case, used when subject and object refer to the same entity. ❌\n- **Option D: their** — possessive case, indicates ownership. ❌\n\n**Step 4: Select the correct answer.**\nOnly 'they' fits the subject role. The correct choice is **Option A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-105",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Parallel Structure in Bulleted Memos Variant 5",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Parallel Structure in Bulleted Memos): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Clause Structure",
+        "text": "The sentence has two clauses joined by 'and': 'The committee members reviewed the draft' and '__ agreed to submit...'. The blank is the subject of the second clause."
+      },
+      {
+        "rung": 2,
+        "title": "Determine the Pronoun's Role",
+        "text": "The pronoun in the blank performs the action 'agreed'. In English, the subject of a verb must be in the nominative case. Which case is that for third person plural?"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Non-Nominative Options",
+        "text": "Option B 'them' is objective; Option C 'themselves' is reflexive; Option D 'their' is possessive. None of these can serve as the subject of a verb."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Correct Pronoun",
+        "text": "Only Option A 'they' is nominative. It correctly replaces 'the committee members' as the subject of 'agreed'. The sentence is parallel: both clauses have a clear subject."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the nominative pronoun that serves as the subject of the second clause, maintaining parallel structure with the first clause's subject 'The committee members'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Them' is objective case. Using it as a subject violates subject-verb agreement rules. The correct subject form is 'they'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "Incorrect. 'Themselves' is reflexive and would only be correct if the subject and object were the same (e.g., 'They reviewed themselves'). No such reflexive relationship exists here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "Incorrect. 'Their' is possessive, indicating ownership. It cannot function as a subject. The phrase 'their agreed' is ungrammatical.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In parallel structures, ensure each clause has a clear subject in the nominative case. For third person plural, use 'they' as the subject, not 'them', 'their', or 'themselves'.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Understand the sentence structure.**\nThe sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'\nIt consists of two independent clauses joined by 'and':\n- Clause 1: 'The committee members reviewed the draft'\n- Clause 2: '__ agreed to submit the recommendations before Friday'\n\n**Step 2: Identify the missing element.**\nThe blank is the subject of Clause 2. It refers back to 'The committee members', which is third person plural.\n\n**Step 3: Apply the rule of pronoun case.**\nSubjects of verbs must be in the nominative case. The nominative third person plural pronoun is **they**.\n\n**Step 4: Evaluate each option.**\n- **Option A: they** — nominative, correct as subject. ✅\n- **Option B: them** — objective, cannot be subject. ❌\n- **Option C: themselves** — reflexive, requires same subject and object. ❌\n- **Option D: their** — possessive, cannot be subject. ❌\n\n**Step 5: Conclusion.**\nOnly 'they' fits grammatically. The correct answer is **Option A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-106",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Dangling Participle Correction Variant 6",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Dangling Participle Correction): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Subject of 'Agreed'",
+        "text": "The verb 'agreed' needs a subject. Who agreed? The committee members. The pronoun replacing them must be in subject form."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Pronoun Cases",
+        "text": "Subject pronouns (nominative): I, you, he, she, it, we, they. Object pronouns: me, you, him, her, it, us, them. Possessive: my, your, his, her, its, our, their. Reflexive: myself, yourself, himself, herself, itself, ourselves, themselves."
+      },
+      {
+        "rung": 3,
+        "title": "Match the Pronoun to Its Role",
+        "text": "Since the pronoun is the subject, it must be a subject pronoun. For third person plural, that is 'they'."
+      },
+      {
+        "rung": 4,
+        "title": "Verify the Other Options",
+        "text": "'Them' is object, 'themselves' is reflexive, 'their' is possessive. None can be the subject of 'agreed'. Only 'they' works."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the subject pronoun that correctly replaces 'the committee members' and serves as the subject of 'agreed'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Them' is an object pronoun. Using it as a subject is a common error. The correct subject form is 'they'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "Incorrect. 'Themselves' is a reflexive pronoun, used when the subject and object are the same. Here, the subject is the committee members, and the action 'agreed' does not reflect back on them.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "Incorrect. 'Their' is a possessive pronoun, indicating ownership. It cannot function as a subject. The phrase 'their agreed' is ungrammatical.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a pronoun is the subject of a verb, always use the nominative case: I, you, he, she, it, we, they. Avoid using object, possessive, or reflexive pronouns as subjects.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Identify the verb that needs a subject.**\nThe sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'\nThe verb 'agreed' requires a subject. The blank is that subject.\n\n**Step 2: Determine the antecedent.**\nThe antecedent is 'The committee members', which is third person plural.\n\n**Step 3: Choose the correct pronoun case.**\nSince the pronoun is the subject of the verb, it must be in the nominative case. The nominative third person plural pronoun is **they**.\n\n**Step 4: Evaluate each option.**\n- **Option A: they** — nominative, correct. ✅\n- **Option B: them** — objective, incorrect for subject. ❌\n- **Option C: themselves** — reflexive, incorrect. ❌\n- **Option D: their** — possessive, incorrect. ❌\n\n**Step 5: Conclusion.**\nThe correct answer is **Option A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-107",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Subject-Verb Agreement — Neither/Nor Variant 7",
+    "difficulty_level": 3,
+    "question_text": "Identify the correct usage for official communication (Subject-Verb Agreement — Neither/Nor): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Subject of the Second Clause",
+        "text": "The sentence has two clauses: 'The committee members reviewed the draft' and '__ agreed to submit...'. The blank is the subject of the second clause. What pronoun can replace 'the committee members' as a subject?"
+      },
+      {
+        "rung": 2,
+        "title": "Apply Subject-Verb Agreement",
+        "text": "The verb 'agreed' is plural. The subject must be plural and in the nominative case. Which pronoun among the options is plural and nominative?"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Incorrect Cases",
+        "text": "'Them' is objective (used as object), 'themselves' is reflexive (used for emphasis or when subject=object), 'their' is possessive. None can be the subject of a verb."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Correct Answer",
+        "text": "Only 'they' is plural, nominative, and can serve as the subject of 'agreed'. The sentence is grammatically correct with 'they'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the nominative plural pronoun that agrees with the plural verb 'agreed' and correctly replaces 'the committee members' as the subject.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Them' is objective case. It cannot be the subject of a verb. The correct subject form is 'they'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "Incorrect. 'Themselves' is reflexive. It would only be correct if the subject performed an action on itself (e.g., 'They hurt themselves'). No such reflexive action occurs here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "Incorrect. 'Their' is possessive. It cannot function as a subject. Using 'their' would create an ungrammatical phrase 'their agreed'.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For subject-verb agreement, ensure the subject pronoun is in the nominative case and matches the verb in number. For third person plural, use 'they' with plural verbs.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Parse the sentence.**\nThe sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'\nIt contains two independent clauses joined by 'and':\n- Clause 1: 'The committee members reviewed the draft'\n- Clause 2: '__ agreed to submit the recommendations before Friday'\n\n**Step 2: Identify the subject of Clause 2.**\nThe blank is the subject of the verb 'agreed'. The antecedent is 'The committee members', which is third person plural.\n\n**Step 3: Apply pronoun case rules.**\nSubjects must be in the nominative case. The nominative third person plural pronoun is **they**.\n\n**Step 4: Check subject-verb agreement.**\n'They' is plural and agrees with the plural verb 'agreed'.\n\n**Step 5: Evaluate each option.**\n- **Option A: they** — nominative, plural, agrees with verb. ✅\n- **Option B: them** — objective, cannot be subject. ❌\n- **Option C: themselves** — reflexive, incorrect. ❌\n- **Option D: their** — possessive, incorrect. ❌\n\n**Step 6: Conclusion.**\nThe correct answer is **Option A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-108",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Pronoun Case after Prepositions Variant 8",
+    "difficulty_level": 2,
+    "question_text": "Identify the correct usage for official communication (Pronoun Case after Prepositions): 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "they"
+      },
+      {
+        "key": "B",
+        "text": "them"
+      },
+      {
+        "key": "C",
+        "text": "themselves"
+      },
+      {
+        "key": "D",
+        "text": "their"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Role of the Pronoun",
+        "text": "The blank comes after 'and' and before 'agreed'. Is it the subject of 'agreed' or the object of a preposition? There is no preposition before the blank; it is the subject."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Pronoun Case Rules",
+        "text": "After prepositions, we use objective case (e.g., 'to them', 'for him'). But here, the pronoun is not after a preposition; it is the subject of the verb 'agreed'. So nominative case is needed."
+      },
+      {
+        "rung": 3,
+        "title": "Select the Nominative Pronoun",
+        "text": "For third person plural, the nominative pronoun is 'they'. Options B, C, D are objective, reflexive, and possessive respectively — none are nominative."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Correct Answer",
+        "text": "Only 'they' (Option A) is nominative and can serve as the subject of 'agreed'. The other options are incorrect for this subject position."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'They' is the nominative pronoun, correctly serving as the subject of the verb 'agreed'. Note that there is no preposition before the blank, so the rule 'pronoun after preposition takes objective case' does not apply here.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Them' is objective case. Although pronouns after prepositions take objective case, here the pronoun is the subject of 'agreed', not the object of a preposition. The correct subject form is 'they'.",
+        "trap_type": "case_error_objective_as_subject"
+      },
+      "C": {
+        "text": "Incorrect. 'Themselves' is reflexive. It is used when the subject and object are the same (e.g., 'They hurt themselves'). No such reflexive relationship exists here.",
+        "trap_type": "unnecessary_reflexive"
+      },
+      "D": {
+        "text": "Incorrect. 'Their' is possessive. It cannot function as a subject. The phrase 'their agreed' is ungrammatical.",
+        "trap_type": "possessive_case_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Pronouns after prepositions take objective case (e.g., 'to them'), but pronouns that are subjects of verbs take nominative case (e.g., 'they agreed'). Always identify the pronoun's function first.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n\n**Step 1: Analyze the sentence structure.**\nThe sentence is: 'The committee members reviewed the draft, and __ agreed to submit the recommendations before Friday.'\nThe blank is located after the conjunction 'and' and before the verb 'agreed'. There is no preposition immediately before the blank.\n\n**Step 2: Determine the pronoun's grammatical function.**\nThe pronoun is the subject of the verb 'agreed'. It performs the action of agreeing.\n\n**Step 3: Apply the correct pronoun case rule.**\nSubjects of verbs require the nominative case. The nominative third person plural pronoun is **they**.\n\n**Step 4: Evaluate each option.**\n- **Option A: they** — nominative, correct as subject. ✅\n- **Option B: them** — objective, used as object of verb or preposition. ❌\n- **Option C: themselves** — reflexive, used when subject and object are the same. ❌\n- **Option D: their** — possessive, indicates ownership. ❌\n\n**Step 5: Conclusion.**\nThe correct answer is **Option A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-001",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its P10,000,000 budget: Infrastructure 40%, Education 25%, Health 20%, Agriculture 15%. How much more is allocated to Infrastructure than Health?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,500,000"
+      },
+      {
+        "key": "C",
+        "text": "P2,000,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,500,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Focus on What the Question Is Really Asking",
+        "text": "The question isn't asking for the individual amounts of Infrastructure or Health. It's asking for the difference between them. So first, find the gap in percentages."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Subtraction Rule",
+        "text": "When you see 'how much more' between two percentages of the same total, just subtract the smaller percentage from the larger one. Here, that's 40% minus 20%."
+      },
+      {
+        "rung": 3,
+        "title": "Turn That Percentage Gap Into Pesos",
+        "text": "Now take that percentage difference (20%) and multiply it by the total budget. So 20% of P10,000,000 is your answer. Remember, 'percent' means 'per hundred' so 20% is 0.20."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There — Check Your Math",
+        "text": "20% of P10,000,000 equals P2,000,000. That's the exact difference. Now look at the options — which one matches? You've got this."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is P1,000,000, which is only 10% of the budget. A smart student might get here by accidentally subtracting 30% from 40% (maybe mixing up Health's 20% with something else) or by misreading the percentages. It's an easy slip under time pressure.",
+        "trap_type": "percentage_point_miscalculation"
+      },
+      "B": {
+        "text": "P1,500,000 equals 15% of the budget. This is a classic case of grabbing the wrong number — Agriculture's 15% share. It's tempting to use a number that's already there, but remember, the question asks for the difference between Infrastructure and Health, not any single category.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "C": {
+        "text": "Exactly right. The difference in percentage is 20% (40% minus 20%), and 20% of P10,000,000 is P2,000,000. Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P2,500,000 is 25% of the budget, which matches Education's share. It's very common to accidentally pick a number from the list of percentages given, especially Education since it's the second one mentioned. But the question is about the gap between two specific categories, not any single one.",
+        "trap_type": "wrong_category_used"
+      }
+    },
+    "next_time_rule": "When a question asks 'how much more' between two percentages of the same total, always subtract the percentages first, then multiply by the total. Never grab a single percentage from the list — the difference is what matters.",
+    "blueprint_id": "Percentage Allocation Difference",
+    "deconstruct_text": "Let's walk through this together. The total budget is P10,000,000. Infrastructure gets 40%, Health gets 20%. The question is: how much more does Infrastructure get? That's a difference question. First, find the gap in percentages: 40% minus 20% equals 20%. Now, turn that 20% into actual pesos. Remember, 'percent' means 'out of a hundred,' so 20% is the same as 0.20. Multiply: 0.20 times P10,000,000 equals P2,000,000. That's your answer. The mental trick here is to always ask yourself: 'Am I looking for a single amount, or the gap between two amounts?' If it's a gap, subtract the percentages first. It saves you from having to compute each individual amount and then subtract, which is slower and riskier under time pressure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

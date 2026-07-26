@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-005",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's monthly salary was P25,000. She received a 12% salary increase. What is her new monthly salary?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P27,000"
+      },
+      {
+        "key": "B",
+        "text": "P27,500"
+      },
+      {
+        "key": "C",
+        "text": "P28,000"
+      },
+      {
+        "key": "D",
+        "text": "P28,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Increase First",
+        "text": "A 12% increase means we're adding 12% of the original salary to the original salary. So start by figuring out what 12% of P25,000 is."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Percentage Rule",
+        "text": "To find 12% of any number, multiply the number by 0.12. So here, it's 0.12 times 25,000."
+      },
+      {
+        "rung": 3,
+        "title": "Do the Math",
+        "text": "0.12 times 25,000 equals 3,000. That P3,000 is the raise amount. Now you just need to add it to the original salary."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Original salary of P25,000 plus the P3,000 raise gives you the new salary. Which option matches that sum?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P27,000. This one is a bit off. If you accidentally used 8% instead of 12%, you'd get an increase of P2,000, and P25,000 plus P2,000 equals P27,000. Or maybe you subtracted the increase by mistake. Either way, the raise here is too small.",
+        "trap_type": "percentage_miscalculation"
+      },
+      "B": {
+        "text": "P27,500. This looks like a 10% increase, which gives a raise of P2,500. It's a common slip—using a nice round percentage like 10% instead of the actual 12%. The raise should be a bit bigger than this.",
+        "trap_type": "wrong_percentage_rate"
+      },
+      "C": {
+        "text": "P28,000. This is correct. The raise is 12% of P25,000, which is P3,000. Adding that to the original gives P28,000. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P28,500. This one overshoots. It matches a 14% increase, giving a raise of P3,500. Maybe you added an extra 2% by mistake. The correct raise is P3,000, not P3,500.",
+        "trap_type": "wrong_percentage_rate"
+      }
+    },
+    "next_time_rule": "For any percentage increase, first find the increase amount by multiplying the original by the percentage (as a decimal), then add that to the original. Or use the shortcut: multiply the original by (1 + the percentage as a decimal). For a 12% increase, that's 25,000 times 1.12.",
+    "blueprint_id": "Percentage Increase — Salary Adjustment",
+    "deconstruct_text": "Let's break this down step by step. The original salary is P25,000, and the increase is 12%. The key is to remember that a percentage increase always means adding a portion of the original to itself. So first, find 12% of P25,000. To do that, convert 12% to a decimal by moving the decimal point two places left: 0.12. Then multiply: 0.12 times 25,000 equals 3,000. That P3,000 is the raise. Now add it to the original: 25,000 plus 3,000 equals 28,000. So the new salary is P28,000.\n\nHere's a mental trick that saves time: instead of doing two steps, you can multiply the original by 1.12. Why 1.12? Because 1 represents the whole original, and 0.12 is the increase. So 25,000 times 1.12 also gives you 28,000. This is a great shortcut for exam day—just remember: for an increase, use 1 plus the decimal.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

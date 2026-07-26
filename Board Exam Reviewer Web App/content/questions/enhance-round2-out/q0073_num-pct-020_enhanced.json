@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-020",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A high-value item costs P60,000. A 12% VAT is added. What is the total price including VAT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P65,200"
+      },
+      {
+        "key": "B",
+        "text": "P66,000"
+      },
+      {
+        "key": "C",
+        "text": "P67,200"
+      },
+      {
+        "key": "D",
+        "text": "P68,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang VAT",
+        "text": "Ang VAT ay 12% ng P60,000: 0.12 × 60,000 = P7,200."
+      },
+      {
+        "rung": 2,
+        "title": "Isama sa Original Price",
+        "text": "Total = P60,000 (original) + P7,200 (VAT)."
+      },
+      {
+        "rung": 3,
+        "title": "Direktang Multiplikasyon",
+        "text": "Puwede ring P60,000 × 1.12 = P67,200 agad."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: P67,200",
+        "text": "Kasama na ang VAT, ang babayaran mo ay P67,200."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you miscalculated VAT as P5,200, which is 8.67% not 12%. Common error kapag shinortcut ang computation.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "You might have chosen B because you used the common 10% VAT rate (P6,000) instead of 12%.",
+        "trap_type": "percent_vs_percentage_point"
+      },
+      "C": {
+        "text": "Correct. 12% of P60,000 is P7,200, total is P67,200.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you mistakenly applied 12% to P66,667, getting P8,000, or added P8,000 by error.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Total with VAT = Original Price × (1 + VAT rate). Dito: P60,000 × 1.12 = P67,200.",
+    "blueprint_id": "Tax Computation — VAT",
+    "deconstruct_text": "Isipin mo na bumibili ka ng laptop sa isang tindahan sa Gilmore na nagkakahalaga ng P60,000. Pagdating sa counter, sinisingil ka ng 12% Value-Added Tax (VAT) bilang pagsunod sa batas ng Bureau of Internal Revenue.\n\nUpang makuha ang kabuuang presyo, kunin muna ang VAT: 12% ng P60,000 ay P7,200 (0.12 × P60,000 = P7,200).\n\nIdagdag ito sa original price: P60,000 + P7,200 = P67,200. Puwede ring direktang i-multiply ang P60,000 sa 1.12 para makuha ang P67,200 agad.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,54 @@
+id: cle-fil-005
+subtopic: alphabetical-filing
+category: clerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["filing-rules", "governmental-agencies"]
+estimated_seconds: 60
+question_text: "Under standard government filing rules, how is the agency 'Department of Budget and Management' indexed?"
+options:
+  - key: A
+    text: "Department of Budget and Management"
+  - key: B
+    text: "Budget and Management Department of"
+  - key: C
+    text: "Budget and Management Department"
+  - key: D
+    text: "Management and Budget Department"
+correct: B
+blueprint_id: "Alphabetical Filing — Government Agency Indexing"
+hint_ladder:
+  - rung: 1
+    title: "Recall Government Agency Rule"
+    text: "Government agencies are indexed first by their key location/function name, with 'Department of' transposed to the end."
+  - rung: 2
+    title: "Identify Key Function"
+    text: "Key function name is 'Budget and Management'."
+  - rung: 3
+    title: "Transpose Official Title"
+    text: "Unit 1: Budget, Unit 2: and, Unit 3: Management, Unit 4: Department, Unit 5: of."
+  - rung: 4
+    title: "Select Correct Indexing"
+    text: "Option B is 'Budget and Management Department of'."
+deconstruct_text: |
+  Filing Rule for Government Agencies:
+  Official government departments are indexed under their distinctive name, with 'Department of' transposed to the end.
+  'Department of Budget and Management' -> 'Budget and Management Department of'.
+choice_explanations:
+  A:
+    text: "Fails to transpose the generic 'Department of' prefix."
+    trap_type: prefix_rule_violation
+  B:
+    text: "Correct! Indexed under distinctive name 'Budget and Management Department of'."
+    trap_type: null
+  C:
+    text: "Omits the preposition 'of'."
+    trap_type: omission_error
+  D:
+    text: "Reverses the order of Budget and Management."
+    trap_type: word_order_error
+next_time_rule: "Index government departments by their distinctive name first, placing 'Department of' at the end."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Government Agency Filing Rules"

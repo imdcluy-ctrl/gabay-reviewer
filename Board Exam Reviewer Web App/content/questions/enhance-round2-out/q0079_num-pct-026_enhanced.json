@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-026",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government agency's annual budget is P15,000,000. If 24% goes to personnel, how much is that?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P3,200,000"
+      },
+      {
+        "key": "B",
+        "text": "P3,400,000"
+      },
+      {
+        "key": "C",
+        "text": "P3,600,000"
+      },
+      {
+        "key": "D",
+        "text": "P3,800,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Convert 24% to decimal",
+        "text": "24% = 0.24. Multiply 15M times 0.24. O hatiin sa 100: 15M ÷ 100 = 150,000. Tapos i-times 24."
+      },
+      {
+        "rung": 2,
+        "title": "Cancel zeros shortcut",
+        "text": "15,000,000 × 24/100 = 150,000 × 24. Alisin ang dalawang zero: 15,000,000 ÷ 100 = 150,000."
+      },
+      {
+        "rung": 3,
+        "title": "Break into easy parts",
+        "text": "150k × 20 = 3,000,000; 150k × 4 = 600,000. Isipin mong bumibili ng 20+4 na kilo ng bigas sa palengke."
+      },
+      {
+        "rung": 4,
+        "title": "Check with neighbors",
+        "text": "24% ng 15M ay malapit sa 25% (3.75M) at 20% (3M). Dapat 3.6M, tama yan. Cancel-zero trick: (Total/100) × Percent."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you added only 200k after computing 150k×20, instead of adding 600k for 150k×4.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you multiplied 150k by 22 instead of 24, then rounded up.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. 24% ng 15M ay P3,600,000. Cancel zeros technique ang sagot!",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you mistakenly used 25% (P3.75M) and rounded up to P3.8M.",
+        "trap_type": "percent_vs_percentage_point"
+      }
+    },
+    "next_time_rule": "💡 Key Takeaway: For percent of a big number, divide by 100 first: (Total ÷ 100) × Percent. 24% of 15M = (15M/100) × 24 = 150k × 24.",
+    "blueprint_id": "Budget Allocation — Personnel",
+    "deconstruct_text": "Sa budget ng LGU na P15,000,000, 24% ay napupunta sa personnel. Gusto ni Kapitan malaman ang eksaktong halaga. Let's compute it, bes!\n\nConvert 24% to decimal: 0.24. Multiply: 0.24 × 15,000,000. O hatiin muna sa 100: 15,000,000 ÷ 100 = 150,000.\n\nThen multiply by 24: 150,000 × 20 = 3,000,000; 150,000 × 4 = 600,000. Add: P3,600,000. Ang dali, 'di ba?\n\nMental trick: isipin mong bumibili ng tinda sa palengke. Kung 24 items na tig-150k, total 3.6M. Sa exam, cancel zeros lang. ",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

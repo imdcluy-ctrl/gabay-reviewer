@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-008",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "Maria invested P50,000 at 6% simple interest. How long will it take for her investment to earn P9,000 in interest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 years"
+      },
+      {
+        "key": "B",
+        "text": "3 years"
+      },
+      {
+        "key": "C",
+        "text": "4 years"
+      },
+      {
+        "key": "D",
+        "text": "5 years"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Yearly interest muna!",
+        "text": "Simple interest: ang tubo kada taon ay pare-pareho. Para malaman ang tagal, alamin ang taunang tubo. I-multiply ang principal sa interest rate."
+      },
+      {
+        "rung": 2,
+        "title": "Kunin ang P50,000 × 6%",
+        "text": "Ang 6% ng P50,000 ay P3,000. Bawat taon, iyan ang kinikita ni Maria. Isipin mong ito ang ‘saulang’ tubo, parang kita sa tindahan."
+      },
+      {
+        "rung": 3,
+        "title": "Hatiin ang target na tubo",
+        "text": "Gusto natin ng P9,000. Ilang P3,000 ang kailangan? I-divide: P9,000 ÷ P3,000 = 3. Parang pagbibilang ng araw ng kita."
+      },
+      {
+        "rung": 4,
+        "title": "I-double check gamit ang formula",
+        "text": "I-plug sa I = P × r × t: 50,000 × 0.06 × 3 = 9,000. Perfect! Tandaan: ‘Yearly Muna, Saka Divide’ sa susunod na tanong."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you divided the target interest by a wrong amount, or used a 9% rate instead of 6%, leading to 2 years.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "Correct. Kinilala mo ang taunang tubo na P3,000 at hinati ang P9,000 dito—3 taon ang sagot. Simple lang!",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you miscalculated the yearly interest as P2,250, possibly by using a wrong rate or operation.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "D": {
+        "text": "You might have chosen D because you confused the total amount with the interest, solving for 59,000 instead of 9,000.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Sa simple interest na tanong ng oras, unahin ang yearly interest (P × r). Saka i-divide ang target interest dito. Tandaan: Y-I-M-S-D!",
+    "blueprint_id": "Simple Interest — Finding Time",
+    "deconstruct_text": "Isipin natin na nag-invest si Maria ng P50,000 sa isang kooperatiba sa inyong barangay, gaya ng ina-avail ng mga nagtitinda sa palengke. Simple interest ang usapan—tubo kada taon ay di nagbabago. Formula: I = P × r × t.\n\nAlamin muna ang taunang tubo: P50,000 × 6% (o 0.06) = P3,000. Bawat taon, P3,000 ang dagdag. Parang nag-iipon ka ng P3,000 taon-taon mula sa tindahan.\n\nNgayon, target natin ang P9,000 na tubo. I-divide ito sa yearly na P3,000: P9,000 ÷ P3,000 = 3 taon. Kasing-simple ng pag-budget: kung kada linggo may P500, ilang linggo para makaipon ng P1,500?\n\nCheck gamit ang formula: P50,000 × 0.06 × 3 = P9,000. Tama. Walang magic—basta simple interest, diretso lang ang division.\n\n**Watch-Out Zone: ratio_total_part_confusion** Huwag paghaluin ang tubo at kabuuang hal...\n\nMental Trick: Tandaan ang ‘YIMS’—Yearly Interest Muna, Saka Divide. Kunin ang taunang tubo (P × r), tapos hatiin ang target interest dito. Kaya kapag may nagsabi ng ‘simple interest time problem,’ isipin mo: YIMS!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

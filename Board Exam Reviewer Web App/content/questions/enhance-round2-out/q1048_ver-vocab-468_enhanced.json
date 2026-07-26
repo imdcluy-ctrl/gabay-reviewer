@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ver-vocab-468",
+    "category_id": "verbal-ability",
+    "subtopic_id": "vocabulary-synonyms",
+    "question_text": "A Commission on Audit (COA) report mentions that a local government unit maintains a 'revolving fund' for its disaster response operations. What does 'revolving fund' mean in this context?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fund that is continuously replenished as it is used, allowing for ongoing operations"
+      },
+      {
+        "key": "A",
+        "text": "fund that is used only once and then closed"
+      },
+      {
+        "key": "A",
+        "text": "fund that earns interest and is reinvested"
+      },
+      {
+        "key": "A",
+        "text": "fund that is allocated for capital expenditures only"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Financial/audit terms: meaning of 'revolving fund' in COA report (Variation 68)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-008",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank with the correct preposition: 'The newly appointed director is responsible __ overseeing the regional operations.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Idiomatic Expression",
+        "text": "The adjective 'responsible' pairs with different prepositions depending on whether the object is a task or a person."
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Targets",
+        "text": "Use 'responsible TO' when referring to a superior (e.g., responsible to the board), and 'responsible FOR' when referring to a duty or task."
+      },
+      {
+        "rung": 3,
+        "title": "Check Target in Sentence",
+        "text": "'Overseeing regional operations' is a task or duty, not a person. Therefore, the correct preposition must indicate responsibility for an activity."
+      },
+      {
+        "rung": 4,
+        "title": "Select Preposition",
+        "text": "Since the object is a task, the correct idiomatic preposition is 'for'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Responsible for' is the standard idiom when referring to a task or duty, such as overseeing operations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Responsible with' is not a standard English idiom. The correct preposition for tasks is 'for', not 'with'.",
+        "trap_type": "non_standard_idiom"
+      },
+      "C": {
+        "text": "'Responsible to' is used when referring to a person or authority (e.g., responsible to the Secretary). Since 'overseeing operations' is a task, 'to' is incorrect here.",
+        "trap_type": "idiom_target_confusion"
+      },
+      "D": {
+        "text": "'Responsible in' is not idiomatic in this context. The correct preposition for a duty is 'for', not 'in'.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'responsible FOR' with duties/tasks, and 'responsible TO' with authority figures.",
+    "blueprint_id": "Prepositional Idioms — Responsible For vs Responsible To",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the object of the preposition: 'overseeing the regional operations' is a task or duty.\n2. Recall the idiomatic rule: 'responsible for' is used with tasks; 'responsible to' is used with persons or authorities.\n3. Since the object is a task, the correct preposition is 'for'.\n\n### ❌ Why the Distractors Fail\n- **'with'**: Not a standard English idiom for 'responsible'. The correct pairing is 'for' or 'to'.\n- **'to'**: Would be correct if the object were a person (e.g., responsible to the director), but here the object is a task.\n- **'in'**: Incorrect; 'responsible in' is not a recognized idiomatic expression in this context.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer AMEND the financial report. What is the synonym for AMEND?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Discard"
+      },
+      {
+        "key": "B",
+        "text": "Alter"
+      },
+      {
+        "key": "C",
+        "text": "Approve"
+      },
+      {
+        "key": "D",
+        "text": "Publish"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Context Clue",
+        "text": "The auditor recommends a change to the report, implying modification for improvement, not rejection or approval."
+      },
+      {
+        "rung": 2,
+        "title": "Root Meaning",
+        "text": "'Amend' comes from Latin 'emendare' meaning to correct or improve, so it means to modify or revise."
+      },
+      {
+        "rung": 3,
+        "title": "Evaluate Options",
+        "text": "Discard means throw away; approve means accept as is; publish means release. Only 'alter' means to change."
+      },
+      {
+        "rung": 4,
+        "title": "Select Matching Option",
+        "text": "Option B 'Alter' is the closest synonym, meaning to change or modify."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Discard means to throw away or get rid of, which is too extreme. Amending implies improving, not discarding.",
+        "trap_type": "extreme_meaning_error"
+      },
+      "B": {
+        "text": "Correct! Alter means to change or modify, which is the exact meaning of amend in this context.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Approve means to accept as satisfactory, which is the opposite of amending. The auditor wants changes, not approval.",
+        "trap_type": "antonym_error"
+      },
+      "D": {
+        "text": "Publish means to make public, which is unrelated to the act of modifying the report.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Amend means to alter, modify, or revise for accuracy. Think of 'amendments' to a document.",
+    "blueprint_id": "Vocabulary — Synonyms of Legal and Audit Terms",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Understand the context: The auditor wants the treasurer to change the report to correct errors or improve it.\n2. Define 'amend': To make changes to a document, law, or report to improve it or correct mistakes.\n3. Match with options: 'Alter' means to change, which is the closest synonym. 'Discard', 'Approve', and 'Publish' do not involve modification.\n\n### ❌ Why the Distractors Fail\n- **Discard**: Too extreme; amending keeps the document but changes it.\n- **Approve**: Opposite meaning; amending implies changes are needed.\n- **Publish**: Irrelevant; publishing is about distribution, not modification.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-006",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that maintains parallel structure.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The new administrative officer likes organizing files, drafting letters, and to answer phone inquiries."
+      },
+      {
+        "key": "B",
+        "text": "The new administrative officer likes organizing files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "C",
+        "text": "The new administrative officer likes to organize files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "D",
+        "text": "The new administrative officer likes file organization, drafting letters, and to answer phone inquiries."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify List Items",
+        "text": "The sentence lists three duties: organizing files, drafting letters, and answering phone inquiries. Check their grammatical forms."
+      },
+      {
+        "rung": 2,
+        "title": "Check Verb Forms",
+        "text": "Parallel structure requires all items in a series to use the same grammatical form—all gerunds (-ing) or all infinitives (to + verb)."
+      },
+      {
+        "rung": 3,
+        "title": "Compare Sentence B",
+        "text": "Sentence B uses three gerunds: organizing, drafting, answering. This is consistent."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Parallelism",
+        "text": "Since all three items in Sentence B end in -ing, it maintains parallel structure. Other options mix forms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Breaks parallelism by mixing gerunds (organizing, drafting) with an infinitive (to answer). All items should be gerunds or all infinitives.",
+        "trap_type": "faulty_parallelism"
+      },
+      "B": {
+        "text": "Correct! Uses parallel gerund phrases (organizing, drafting, answering) consistently.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Breaks parallelism by starting with an infinitive 'to organize' followed by gerunds 'drafting' and 'answering'.",
+        "trap_type": "faulty_parallelism"
+      },
+      "D": {
+        "text": "Mixes a noun phrase 'file organization', a gerund 'drafting', and an infinitive 'to answer'. No consistent form.",
+        "trap_type": "faulty_parallelism"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Keep items in a series grammatically uniform—all -ing verbs or all to... infinitives. Don't mix forms.",
+    "blueprint_id": "Parallel Structure — Parallel Gerund Phrases",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the series: 'organizing files, drafting letters, and answering phone inquiries' in the correct sentence.\n2. Check grammatical form: All three are gerunds (verb + -ing).\n3. Compare with other options: Option A mixes gerunds with infinitive; Option C mixes infinitive with gerunds; Option D mixes noun, gerund, and infinitive.\n4. Conclusion: Only Option B maintains consistent parallel structure.\n\n### ❌ Why the Distractors Fail\n- **Option A**: 'organizing' and 'drafting' are gerunds, but 'to answer' is an infinitive—mix of forms.\n- **Option C**: Starts with infinitive 'to organize', then switches to gerunds 'drafting' and 'answering'.\n- **Option D**: 'file organization' is a noun phrase, 'drafting' is a gerund, 'to answer' is an infinitive—three different forms.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read the passage: 'Public accountability requires civil servants to perform duties with utmost integrity, efficiency, and dedication. Transparency in transactions ensures citizens maintain trust in government institutions.' What is the main idea of this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should receive higher salaries to maintain integrity."
+      },
+      {
+        "key": "B",
+        "text": "Public trust relies on accountable and transparent government service."
+      },
+      {
+        "key": "C",
+        "text": "Government transactions must be kept confidential to avoid public scrutiny."
+      },
+      {
+        "key": "D",
+        "text": "Efficiency is more important than integrity in public administration."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Focus on Core Concept",
+        "text": "The passage has two sentences: one about accountability and one about transparency. Both lead to a common outcome."
+      },
+      {
+        "rung": 2,
+        "title": "Connect Core Concepts to Outcome",
+        "text": "Accountability (with integrity, efficiency, dedication) and transparency together result in citizens' trust."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Unstated Claims",
+        "text": "The passage does not mention salaries, confidentiality, or ranking efficiency over integrity."
+      },
+      {
+        "rung": 4,
+        "title": "Choose Summarizing Option",
+        "text": "Option B directly states that public trust depends on accountability and transparency—the main idea."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Out of scope. The passage does not discuss salaries at all.",
+        "trap_type": "unstated_premise_error"
+      },
+      "B": {
+        "text": "Correct! Accurately summarizes that accountability and transparency build public trust.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Directly contradicts the passage's emphasis on transparency. The passage advocates openness, not confidentiality.",
+        "trap_type": "contradiction_error"
+      },
+      "D": {
+        "text": "False dichotomy. The passage emphasizes both integrity and efficiency equally, not one over the other.",
+        "trap_type": "false_dichotomy_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The main idea must synthesize all key sentences without adding unmentioned assumptions. Look for the common thread.",
+    "blueprint_id": "Reading Comprehension — Identifying Main Idea",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Read both sentences: First sentence discusses accountability with integrity, efficiency, dedication. Second sentence discusses transparency leading to trust.\n2. Identify the common theme: Both accountability and transparency contribute to public trust.\n3. Evaluate options: Option B captures this relationship. Option A introduces salaries (not mentioned). Option C contradicts transparency. Option D creates a false hierarchy.\n4. Conclusion: The main idea is that public trust relies on accountable and transparent service.\n\n### ❌ Why the Distractors Fail\n- **Option A**: Not supported; no mention of salaries.\n- **Option C**: Opposite of the passage's call for transparency.\n- **Option D**: The passage does not rank efficiency over integrity; both are valued equally.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive ordering all agencies to update their personnel records. What is the closest synonym for MANDATORY?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Compulsory"
+      },
+      {
+        "key": "C",
+        "text": "Advisory"
+      },
+      {
+        "key": "D",
+        "text": "Temporary"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Contextual Clue",
+        "text": "The directive 'orders' all agencies to comply, implying it is not optional but required."
+      },
+      {
+        "rung": 2,
+        "title": "Root Meaning",
+        "text": "'Mandatory' comes from 'mandate' meaning an official command that must be obeyed."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Antonyms",
+        "text": "'Optional' and 'Advisory' suggest choice or recommendation, which are opposites of mandatory."
+      },
+      {
+        "rung": 4,
+        "title": "Select Synonym",
+        "text": "'Compulsory' means required by law or rule, exactly matching the meaning of mandatory."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Direct antonym. Optional means voluntary, not required.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Compulsory means required by authority or rule, synonymous with mandatory.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Advisory means offering recommendations, not binding requirements. It is the opposite of mandatory.",
+        "trap_type": "partial_definition_error"
+      },
+      "D": {
+        "text": "Temporary means lasting for a limited time, which is unrelated to the concept of requirement. The directive is mandatory regardless of duration.",
+        "trap_type": "irrelevance_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Mandatory means compulsory; it requires compliance by law or official command. Think of 'mandate'.",
+    "blueprint_id": "Vocabulary — Synonyms of Administrative Directives",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Understand the context: The CSC issued a directive that 'orders' all agencies to act—this implies requirement, not choice.\n2. Define 'mandatory': Required by law, rule, or authority; obligatory.\n3. Match with options: 'Compulsory' is the direct synonym. 'Optional' and 'Advisory' are antonyms. 'Temporary' is unrelated.\n4. Conclusion: The closest synonym is 'compulsory'.\n\n### ❌ Why the Distractors Fail\n- **Optional**: Opposite meaning; mandatory means required, not optional.\n- **Advisory**: Suggests a recommendation, not a binding order.\n- **Temporary**: Refers to duration, not obligation; a directive can be both mandatory and temporary, but 'temporary' is not a synonym for 'mandatory'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-003",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that avoids a dangling modifier.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having completed the audit, the report was submitted to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "B",
+        "text": "Having completed the audit, the CPA submitted the report to the Bureau of Internal Revenue."
+      },
+      {
+        "key": "C",
+        "text": "Walking into the office, the computer was left turned on overnight."
+      },
+      {
+        "key": "D",
+        "text": "While reviewing the documents, a syntax error was discovered by the clerk."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot Introductory Phrase",
+        "text": "The phrase 'Having completed the audit' is a participial phrase that describes an action performed by a person, not a thing."
+      },
+      {
+        "rung": 2,
+        "title": "Ask Who Performed Action",
+        "text": "Who completed the audit? A report cannot perform an audit — only a person like a CPA can."
+      },
+      {
+        "rung": 3,
+        "title": "Check Subject Immediately Following Comma",
+        "text": "The noun immediately after the comma must be the logical actor. In A, 'the report' follows — but reports don't audit."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Sentence",
+        "text": "In B, 'the CPA' immediately follows the comma, correctly attaching the action to the person who performed it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Dangling modifier. The phrase 'Having completed the audit' implies that 'the report' completed the audit, which is illogical.",
+        "trap_type": "dangling_modifier_error"
+      },
+      "B": {
+        "text": "Correct! 'The CPA' is the logical subject performing the action 'having completed the audit', so the modifier is properly attached.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Dangling modifier. 'Walking into the office' implies that 'the computer' walked into the office, which is impossible.",
+        "trap_type": "dangling_modifier_error"
+      },
+      "D": {
+        "text": "Dangling modifier. 'While reviewing the documents' implies that 'a syntax error' was reviewing documents, which is nonsensical.",
+        "trap_type": "dangling_modifier_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always place the person performing the action immediately after an introductory participial phrase. If the subject can't logically do the action, the modifier dangles.",
+    "blueprint_id": "Dangling Modifiers — Aligning Introductory Participle with Logical Subject",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Identify the introductory participial phrase: 'Having completed the audit'.\n2. Determine who or what logically performs that action: only a person (e.g., a CPA) can complete an audit.\n3. Check the noun immediately after the comma: in A, it's 'the report' (illogical); in B, it's 'the CPA' (logical).\n4. Rule out C and D: 'Walking into the office' cannot modify 'the computer'; 'While reviewing the documents' cannot modify 'a syntax error'.\n5. Conclusion: Only B correctly attaches the modifier to the logical subject.\n\n### ❌ Why the Distractors Fail\n- **A:** Implies the report completed the audit — a report cannot perform actions.\n- **C:** Implies the computer walked into the office — a computer cannot walk.\n- **D:** Implies a syntax error reviewed documents — an error cannot review.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-002",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Select the sentence with the correct pronoun case for official communications.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Between you and I, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "B",
+        "text": "Between you and me, the regional director will approve the budget proposal."
+      },
+      {
+        "key": "C",
+        "text": "The division chief awarded the commendation to he and his team."
+      },
+      {
+        "key": "D",
+        "text": "Him and the auditor inspected the procurement records yesterday."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Preposition",
+        "text": "The word 'Between' is a preposition. Prepositions always require objective case pronouns."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Preposition Rule",
+        "text": "After a preposition, use objective pronouns: me, him, her, us, them — never I, he, she, we, they."
+      },
+      {
+        "rung": 3,
+        "title": "Test Pronoun Pair",
+        "text": "'Between you and me' uses 'me' (objective), which is correct. 'Between you and I' uses 'I' (nominative), which is wrong."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Correct Choice",
+        "text": "Option B is correct. Option A is a common hypercorrection; C and D also violate pronoun case rules."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Common hypercorrection. 'I' is nominative (subject case); the preposition 'between' requires the objective 'me'.",
+        "trap_type": "hypercorrection_error"
+      },
+      "B": {
+        "text": "Correct! 'Me' is in objective case following the preposition 'between', as required by standard grammar.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Preposition 'to' requires objective pronoun 'him', not nominative 'he'. Correct form: 'to him and his team'.",
+        "trap_type": "pronoun_case_error"
+      },
+      "D": {
+        "text": "Subject of sentence requires nominative 'He', not objective 'Him'. Correct form: 'He and the auditor inspected...'",
+        "trap_type": "subject_pronoun_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Prepositions (between, to, for, with, etc.) always take objective pronouns: me, him, her, us, them. Never use I, he, she, we, they after a preposition.",
+    "blueprint_id": "Pronoun Case — Object of Preposition",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Identify the preposition in each option: 'Between' (A, B), 'to' (C), none in D (subject position).\n2. Apply the rule: after a preposition, use objective case pronouns.\n3. For A: 'between you and I' — 'I' is nominative, should be 'me'.\n4. For B: 'between you and me' — 'me' is objective, correct.\n5. For C: 'to he and his team' — 'he' is nominative, should be 'him'.\n6. For D: 'Him and the auditor' is the subject — 'Him' is objective, should be 'He'.\n7. Conclusion: Only B follows the rule correctly.\n\n### ❌ Why the Distractors Fail\n- **A:** Hypercorrection — using 'I' after 'between' sounds formal but is grammatically wrong.\n- **C:** 'To' requires 'him', not 'he'.\n- **D:** Subject position requires 'He', not 'Him'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-001",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that adheres to standard Civil Service English grammar rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have decided to postpone the administrative hearing."
+      },
+      {
+        "key": "B",
+        "text": "Neither the supervisor nor the employees was aware of the memo."
+      },
+      {
+        "key": "C",
+        "text": "Neither the supervisor nor the employees were aware of the memo."
+      },
+      {
+        "key": "D",
+        "text": "The list of approved applicants were posted on the bulletin board."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Subject Structure",
+        "text": "Look at sentence C: 'Neither the supervisor nor the employees' — a compound subject connected by 'neither...nor'."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Proximity Rule",
+        "text": "With 'neither...nor' (and 'either...or'), the verb agrees with the subject closest to it."
+      },
+      {
+        "rung": 3,
+        "title": "Check Subject Agreement",
+        "text": "In C, 'employees' (plural) is closer to the verb than 'supervisor' (singular). So the verb must be plural."
+      },
+      {
+        "rung": 4,
+        "title": "Verify Correct Verb Form",
+        "text": "Since 'employees' is plural, the plural verb 'were' is correct. Option B uses 'was' (singular), which is wrong."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Collective noun 'committee' acting as a single body requires singular verb 'has decided', not 'have decided'.",
+        "trap_type": "collective_noun_error"
+      },
+      "B": {
+        "text": "Violates proximity rule: 'employees' is plural and closer to the verb, so the verb must be 'were', not 'was'.",
+        "trap_type": "proximity_agreement_error"
+      },
+      "C": {
+        "text": "Correct! The verb 'were' correctly agrees with the nearer plural subject 'employees' per the proximity rule.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Distracted by plural object 'applicants'. Main subject is singular 'list' -> requires 'was posted', not 'were posted'.",
+        "trap_type": "prepositional_phrase_intervening"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** With 'neither/nor' or 'either/or', the verb agrees with the subject closest to it. Ignore the first subject if it's farther from the verb.",
+    "blueprint_id": "Subject-Verb Agreement — Proximity Rule with Neither/Nor",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. For A: 'committee' is a collective noun acting as a unit — use singular verb 'has decided'.\n2. For B and C: apply the proximity rule for 'neither...nor'.\n3. In B: 'neither the supervisor nor the employees' — the closer subject is 'employees' (plural), so verb should be 'were', not 'was'.\n4. In C: same structure, but verb is 'were' — correct.\n5. For D: 'The list of approved applicants' — head noun is 'list' (singular), so verb is 'was posted'. The phrase 'of approved applicants' is just a modifier.\n6. Conclusion: Only C is correct.\n\n### ❌ Why the Distractors Fail\n- **A:** 'Committee' is singular when acting as a unit.\n- **B:** 'Was' is singular; should be 'were' to agree with 'employees'.\n- **D:** 'List' is singular; 'were' is plural.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-004",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long will it take to fill the reservoir if both pumps work together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.4 hours"
+      },
+      {
+        "key": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "key": "C",
+        "text": "5.0 hours"
+      },
+      {
+        "key": "D",
+        "text": "10.0 hours"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Hourly Work Rates",
+        "text": "Pump A fills 1/4 of the reservoir per hour. Pump B fills 1/6 per hour. These are the rates."
+      },
+      {
+        "rung": 2,
+        "title": "Add Combined Hourly Rates",
+        "text": "Combined rate = 1/4 + 1/6. Find common denominator: 3/12 + 2/12 = 5/12 of the reservoir per hour."
+      },
+      {
+        "rung": 3,
+        "title": "Invert for Total Time",
+        "text": "If 5/12 is filled in 1 hour, then 1 full reservoir takes the reciprocal: 12/5 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Convert to Decimal",
+        "text": "12/5 = 2.4 hours, which is 2 hours and 24 minutes. That's the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Using the formula T = (A × B) / (A + B) = (4 × 6) / (4 + 6) = 24 / 10 = 2.4 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This comes from averaging the two times (4 and 6) to get 5, then dividing by 2 — but that ignores the fact that rates add, not times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "This is the average of 4 and 6 (5 hours), which is incorrect because two pumps working together take less time than either alone.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "D": {
+        "text": "Adding 4 + 6 = 10 hours. This would be correct if the pumps worked sequentially, not simultaneously. Together they fill faster.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For two workers/pumps, use the shortcut: Time = (A × B) / (A + B). Never average the times — rates add, not times.",
+    "blueprint_id": "Numerical Ability — Combined Work Formula (1/A + 1/B = 1/T)",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Determine each pump's rate: Pump A fills 1/4 of the reservoir per hour; Pump B fills 1/6 per hour.\n2. Add the rates: 1/4 + 1/6 = 3/12 + 2/12 = 5/12 of the reservoir per hour.\n3. The combined rate means 5/12 of the reservoir is filled in 1 hour.\n4. To fill the whole reservoir (1), divide 1 by the combined rate: 1 ÷ (5/12) = 12/5 = 2.4 hours.\n5. Alternatively, use the formula T = (4 × 6) / (4 + 6) = 24/10 = 2.4 hours.\n\n### ❌ Why the Distractors Fail\n- **B (2.5 hrs):** Incorrectly averages the times: (4+6)/2 = 5, then divides by 2? Actually 2.5 is half of 5, a mistaken shortcut.\n- **C (5.0 hrs):** Simply the average of 4 and 6, ignoring that rates add.\n- **D (10.0 hrs):** Adds the times, as if pumps work one after another, not together.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-003",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A department secretary is currently twice as old as her assistant. Eight years ago, the sum of their ages was 38. How old is the secretary now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18 years old"
+      },
+      {
+        "key": "B",
+        "text": "24 years old"
+      },
+      {
+        "key": "C",
+        "text": "36 years old"
+      },
+      {
+        "key": "D",
+        "text": "40 years old"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Assign Variables",
+        "text": "Let the assistant's current age be x. Then the secretary's current age is 2x (twice as old)."
+      },
+      {
+        "rung": 2,
+        "title": "Express Ages 8 Years Ago",
+        "text": "Eight years ago, assistant was x - 8, secretary was 2x - 8."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up Equation",
+        "text": "Sum of ages 8 years ago: (x - 8) + (2x - 8) = 38. Simplify to 3x - 16 = 38."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for x and Secretary's Age",
+        "text": "3x = 54 → x = 18 (assistant's age). Secretary's age = 2 × 18 = 36."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the assistant's current age (18), not the secretary's. The question asks for the secretary's age.",
+        "trap_type": "wrong_variable_target"
+      },
+      "B": {
+        "text": "Possibly from incorrectly solving the equation, e.g., forgetting to double the assistant's age or miscomputing 3x = 54 as x = 12.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "C": {
+        "text": "Correct! Assistant = 18, Secretary = 2(18) = 36. Check: 8 years ago, 10 + 28 = 38.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This might come from adding 8 years to the sum instead of subtracting from both ages, e.g., thinking sum now is 38 + 16 = 54, then dividing incorrectly.",
+        "trap_type": "equation_setup_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In age problems, always define variables for current ages, then subtract the same number of years from both. Solve for the variable asked, not an intermediate value.",
+    "blueprint_id": "Numerical Ability — Algebraic Age Problems",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. Let x = assistant's current age. Then secretary's current age = 2x.\n2. Eight years ago: assistant = x - 8, secretary = 2x - 8.\n3. Sum of ages 8 years ago: (x - 8) + (2x - 8) = 38.\n4. Simplify: 3x - 16 = 38 → 3x = 54 → x = 18.\n5. Secretary's age now = 2 × 18 = 36.\n6. Check: 8 years ago, assistant was 10, secretary was 28, sum = 38. Correct.\n\n### ❌ Why the Distractors Fail\n- **A (18):** Correctly solves for x but answers the wrong person's age.\n- **B (24):** Possibly from 3x = 54 → x = 18, then 18 + 6 = 24 (random) or miscomputing 2x as 24.\n- **D (40):** Might think sum now is 38 + 16 = 54, then 54/2 = 27, then add 13? Not logical.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

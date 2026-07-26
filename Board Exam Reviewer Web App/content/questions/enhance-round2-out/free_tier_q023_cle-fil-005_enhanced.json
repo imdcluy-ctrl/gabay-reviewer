@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-005",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Under standard government filing rules, how is the agency 'Department of Budget and Management' indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Budget and Management"
+      },
+      {
+        "key": "B",
+        "text": "Budget and Management Department of"
+      },
+      {
+        "key": "C",
+        "text": "Budget and Management Department"
+      },
+      {
+        "key": "D",
+        "text": "Management and Budget Department"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About How You'd File a Government Agency",
+        "text": "When you file documents alphabetically, you don't file under 'The' or 'A'. Similarly, for government agencies, you don't file under 'Department of' — you move that part to the end."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule: Flip the Name",
+        "text": "Take the distinctive part of the name (the actual function or focus) and put it first. Then tack 'Department of' at the very end. So 'Department of Budget and Management' becomes 'Budget and Management Department of'."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Distinctive Words",
+        "text": "The words that tell you what this department actually does are 'Budget and Management'. Those go first. The words 'Department of' get moved to the back. And yes, you keep the word 'of' — don't drop it."
+      },
+      {
+        "rung": 4,
+        "title": "You're Almost There",
+        "text": "So the indexed version should start with 'Budget and Management', then have 'Department', and end with 'of'. That's exactly what option B says."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the original name as it appears in official documents, but filing rules require us to flip it. You wouldn't file a book titled 'The Great Gatsby' under 'T' for 'The', right? Same idea here — 'Department of' gets moved to the end so we can sort by the agency's actual function.",
+        "trap_type": "prefix_rule_violation"
+      },
+      "B": {
+        "text": "Perfect. You've correctly identified 'Budget and Management' as the distinctive part, placed it first, and moved 'Department of' to the end while keeping the word 'of'. This is exactly how government filing rules work.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You're so close! You correctly moved 'Department' to the end, but you forgot to include the word 'of'. In government filing, we keep that little word — it's part of the official name. Think of it like this: you wouldn't file 'Department of Education' as 'Education Department' because you'd lose the 'of' that connects the words.",
+        "trap_type": "omission_error"
+      },
+      "D": {
+        "text": "This one has the right idea of moving 'Department' to the end, but it scrambles the order of the distinctive words. The agency is about 'Budget and Management', not 'Management and Budget'. The order matters — it's part of the official name, just like you wouldn't say 'Management and Budget' for a department that's legally called 'Budget and Management'.",
+        "trap_type": "word_order_error"
+      }
+    },
+    "deconstruct_text": "Let me walk you through how to think about this, because once you get the pattern, these questions become automatic.\n\nThe key rule for filing government agencies is simple: take the distinctive part of the name — the words that describe what the agency actually does — and put those first. Then move 'Department of' to the very end.\n\nFor 'Department of Budget and Management', the distinctive part is 'Budget and Management'. That's the agency's core function. So we start with that: 'Budget and Management'. Then we add 'Department of' at the end, keeping both words: 'Budget and Management Department of'.\n\nHere's a mental trick that will save you on exam day: think of it like you're sorting a list of names by last name. You wouldn't file 'John Smith' under 'J' — you'd flip it to 'Smith, John'. Same logic here. 'Department of' is like the first name — it gets moved to the back so the distinctive name (the 'last name') comes first for alphabetical sorting.",
+    "next_time_rule": "When indexing government agencies, ask yourself: 'What is this department's actual job?' Put those words first, then tack 'Department of' at the end. Keep the word 'of' — it's part of the official name.",
+    "blueprint_id": "Alphabetical Filing — Government Agency Indexing",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

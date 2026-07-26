@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-023",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the sum of the first 10 positive integers? (1+2+...+10)",
+    "options": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "55"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Gamitin ang Sum Formula",
+        "text": "S = n(n+1)/2. Isipin mo parang nagbibilang ng tao sa jeep na sunod-sunod ang pagsakay."
+      },
+      {
+        "rung": 2,
+        "title": "Ilagay ang n=10",
+        "text": "Dahil 10 ang terms, i-plug sa formula: 10 × (10+1) / 2."
+      },
+      {
+        "rung": 3,
+        "title": "Multiply at Divide",
+        "text": "10 × 11 = 110; 110 ÷ 2 = 55. Parang naghahati ng merienda sa limang magkakaibigan."
+      },
+      {
+        "rung": 4,
+        "title": "Tamang Sagot: 55",
+        "text": "55 ang sagot. Pag may ganitong tanong, laging gamitin ang formula para iwas mali."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used n=9, giving 9×10/2=45 instead of 10 terms.",
+        "trap_type": "reverse_operation_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you averaged 1+10=11, ÷2=5, then ×10=50 instead of using 5.5.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. Using the formula 10×11/2 gives exactly 55.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you multiplied the last term by 6 (10×6=60), not the correct half.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "For sum of first n integers, always use n(n+1)/2. Double-check the count of terms—'yung n ay hindi dapat one less or more.",
+    "blueprint_id": "Sum of First n Numbers",
+    "deconstruct_text": "Sa sari-sari store, nagbibilang si Aling Nena ng candies: 1 sa unang garapon, 2 sa ikalawa, hanggang 10. Gamitin ang mnemonic: 'n times (n+1) over 2—parang pag-akyat sa hagdan, bawat hakbang may kasunod.' Kaya S = n(n+1)/2.\n\nDahil n=10, S = 10 × 11 ÷ 2. I-compute: 10 × 11 = 110, tapos 110 ÷ 2 = 55. Kaya 55 piraso ng candy ang kailangan ni Aling Nena para sa sampung garapon.\n\nAng ibang sagot ay mula sa maling pagkukwenta: 45 (sum ng 9 terms), 50 (maling average na 5 imbes 5.5), 60 (10×6, hindi tamang produkto). Iwasan ang mga ito sa pamamagitan ng pagsunod sa formula.\n\n**Watch-Out Zone: reverse_operation_error** in action. Using n=9? Count terms correctly!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

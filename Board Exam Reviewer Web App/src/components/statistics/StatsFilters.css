@@ -1,0 +1,38 @@
+.stats-filters-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.filters-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary, #64748b);
+}
+
+.filter-buttons-group {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: var(--color-bg-secondary, #f1f5f9);
+  border: 1px solid var(--color-border, #cbd5e1);
+  border-radius: var(--radius-full, 9999px);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary, #475569);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 40px;
+}
+
+.filter-btn.active {
+  background: var(--color-brand-teal, #0d7377);
+  color: #ffffff;
+  border-color: var(--color-brand-teal, #0d7377);
+  font-weight: 600;
+}

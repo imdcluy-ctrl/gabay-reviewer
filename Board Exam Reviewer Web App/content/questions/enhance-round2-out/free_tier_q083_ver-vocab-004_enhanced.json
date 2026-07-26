@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'AMICABLE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Friendly"
+      },
+      {
+        "key": "B",
+        "text": "Harmonious"
+      },
+      {
+        "key": "C",
+        "text": "Hostile"
+      },
+      {
+        "key": "D",
+        "text": "Pleasant"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, but more specifically, your ability to spot opposites. Before you even look at the options, take a moment to define 'amicable' in your own words. What kind of feeling or atmosphere does it describe?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The simple rule for any antonym question is this: once you know the meaning of the word, the antonym is its direct opposite. If 'amicable' means friendly and good-natured, then the antonym must mean unfriendly and ill-natured. Keep that contrast in mind."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now, look at your options. Three of them describe positive, cooperative relationships. One describes a negative, combative one. Your job is to find the one that doesn't belong with the others. Which word feels like the odd one out?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Think of it this way: an 'amicable divorce' is when two people part on good terms. The opposite would be a 'hostile divorce,' full of conflict and anger. The word 'hostile' is the only option that captures that sense of opposition."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very common slip-up. You might have read the question too quickly and looked for a synonym instead of an antonym. 'Friendly' is actually a synonym of 'amicable,' so it's the opposite of what we need. The trap here is reading the question carelessly under time pressure.",
+        "trap_type": "synonym_used"
+      },
+      "B": {
+        "text": "It's easy to see why this one might look right. 'Harmonious' sounds like a positive word, and you might have thought it was neutral enough to be an opposite. But 'harmonious' actually means getting along well, which is the same idea as 'amicable.' It's another synonym in disguise.",
+        "trap_type": "synonym_used"
+      },
+      "C": {
+        "text": "This is the correct answer. 'Hostile' is the direct and clear opposite of 'amicable.' If 'amicable' describes a friendly interaction, 'hostile' describes an unfriendly or antagonistic one. In the civil service, you might hear about 'amicable settlements' versus 'hostile negotiations.'",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is tricky because 'pleasant' isn't a perfect synonym for 'amicable,' but it shares the same positive, agreeable feeling. A student might pick this thinking it's different enough, but it still leans toward friendliness, not away from it. The opposite needs to be clearly negative.",
+        "trap_type": "synonym_used"
+      }
+    },
+    "next_time_rule": "For antonym questions, use the 'Opposite Test.' First, define the word in your head. Then, ask yourself: 'What is the exact opposite of that definition?' If the word feels positive, the answer will feel negative. If it's about peace, the answer is about conflict. Trust that gut feeling of contrast.",
+    "blueprint_id": "Antonyms — Amicable",
+    "deconstruct_text": "Let's walk through this together. The word 'amicable' comes from the Latin word for friend, and it describes a situation or relationship that is friendly, peaceful, and marked by goodwill. Think of it as the opposite of a fight.\n\nNow, the question asks for the antonym, which is just a fancy word for 'opposite.' So we need to find the word that means the exact opposite of friendly and peaceful.\n\nLook at your options:\n- 'Friendly' is basically the same thing. Not an opposite.\n- 'Harmonious' means things are working together smoothly. Again, same idea.\n- 'Pleasant' means nice and agreeable. Still in the same positive family.\n- 'Hostile' means unfriendly, antagonistic, and ready to fight. That's the direct opposite.\n\nThe mental trick here is to imagine a spectrum. On one end is 'amicable' (friendly), and on the other end is 'hostile' (unfriendly). The other options all cluster near the 'amicable' end. Your job is to find the word that's all the way on the other side.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-005",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's monthly salary was P25,000. She received a 12% salary increase. What is her new monthly salary?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P27,000"
+      },
+      {
+        "key": "B",
+        "text": "P27,500"
+      },
+      {
+        "key": "C",
+        "text": "P28,000"
+      },
+      {
+        "key": "D",
+        "text": "P28,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Dagdag Dapat",
+        "text": "Ang 12% increase ay nangangahulugang dadagdagan ang orihinal ng 12% nito. Una, alamin kung magkano ang 12% ng P25,000."
+      },
+      {
+        "rung": 2,
+        "title": "Simpleng Porsyento Rules",
+        "text": "Para makuha ang 12% ng kahit anong numero, i-multiply ang numero sa 0.12. Dito, 0.12 x 25,000."
+      },
+      {
+        "rung": 3,
+        "title": "Komputin ang Dagdag",
+        "text": "0.12 x 25,000 = 3,000. Ang P3,000 ay ang dagdag. Ngayon, idagdag mo ito sa orihinal na P25,000."
+      },
+      {
+        "rung": 4,
+        "title": "Malapit Ka Na!",
+        "text": "P25,000 (orihinal) + P3,000 (dagdag) = P28,000. Ito ang bagong sweldo! Aling opsyon ang tumutugma?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used 8% instead of 12%, giving an increase of P2,000, which added to P25,000 gives P27,000.",
+        "trap_type": "percentage_miscalculation"
+      },
+      "B": {
+        "text": "You might have chosen B because you mistakenly used 10% instead of 12%, getting a P2,500 raise resulting in P27,500.",
+        "trap_type": "wrong_percentage_rate"
+      },
+      "C": {
+        "text": "Correct. 12% of P25,000 is P3,000, so the new salary is P28,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you used 14% instead of 12%, giving a P3,500 raise resulting in P28,500.",
+        "trap_type": "wrong_percentage_rate"
+      }
+    },
+    "next_time_rule": "For percentage increase: original x (1 + decimal) = new amount. For 12%, use 1.12: P25,000 x 1.12 = P28,000.",
+    "blueprint_id": "Percentage Increase — Salary Adjustment",
+    "deconstruct_text": "Isipin mo yung jeepney fare na P13. Nagkaroon ng 12% increase. Paano kukuwentahin? Ganun din sa sweldo: P25,000 x 0.12 = P3,000 dagdag. Kaya bagong sweldo: P25,000 + P3,000 = P28,000.\n\nMental trick: 'Dagdag-sweldo shortcut' — original x (1 + decimal). For 12% increase, gawin 1.12. So 25,000 x 1.12 = 28,000 agad! Para 'to sa mabilisang exam.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

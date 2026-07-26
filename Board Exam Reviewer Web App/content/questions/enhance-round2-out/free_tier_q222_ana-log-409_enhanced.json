@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-409",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A DPWH project report states: 'The new bridge will either be paved with concrete or asphalt. It has been determined that the bridge will not be paved with asphalt.' What conclusion can be logically drawn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The bridge will be paved with concrete."
+      },
+      {
+        "key": "B",
+        "text": "The bridge will be paved with neither concrete nor asphalt."
+      },
+      {
+        "key": "C",
+        "text": "The bridge will be paved with both concrete and asphalt."
+      },
+      {
+        "key": "D",
+        "text": "The bridge will be paved with asphalt after all."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what the word 'either...or' means in this context. It's telling you there are exactly two possibilities, and only one of them can happen."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's a simple rule: when you have an 'either A or B' statement, and you find out that B is false, then A must be true. It's like having two doors and one is locked—you have to go through the other."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's apply that rule here. The report says the bridge will use either concrete or asphalt. Then it tells you asphalt is out. So what's left? The only remaining option is concrete."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "You're almost there. The correct answer is the one that says the bridge will be paved with concrete. It's the only logical choice given that asphalt has been ruled out."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is correct. The report gives you two possibilities—concrete or asphalt—and then eliminates asphalt. By simple logic, concrete is the only option left. It's like being told you can have coffee or tea, and then learning there's no tea. Coffee it is.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This might seem like a clever twist, but it actually goes against what the report says. The report clearly states the bridge will be paved with one of the two materials. Saying 'neither' contradicts that basic premise.",
+        "trap_type": "premise_contradiction"
+      },
+      "C": {
+        "text": "It's easy to get tripped up by the word 'or'—in everyday life, we sometimes use it to mean 'and/or.' But in logic, 'either...or' usually means one or the other, not both. The report doesn't say the bridge will use both materials.",
+        "trap_type": "exclusive_or_misinterpretation"
+      },
+      "D": {
+        "text": "This one directly ignores the information given. The report explicitly says the bridge will not be paved with asphalt. Choosing this option means you're disregarding a key piece of evidence.",
+        "trap_type": "direct_contradiction"
+      }
+    },
+    "deconstruct_text": "Let's walk through this step by step. The report gives you a clear 'either...or' statement: the bridge will be paved with concrete OR asphalt. Think of it as a fork in the road—only one path can be taken. Then you get a second piece of information: the bridge will NOT be paved with asphalt. That's like a roadblock closing off one path. So what's left? The only remaining path is concrete. That's the logical conclusion. Here's a mental trick to remember this: imagine you have two keys, but one doesn't fit the lock. You don't need to think hard—you just use the other key. In logic, this is called a disjunctive syllogism, but all it really means is: when you have two options and one is eliminated, the other wins by default.",
+    "next_time_rule": "When you see 'either A or B' and then 'not A,' the answer is always B. It's like a simple elimination game—cross out what's false, and what remains must be true.",
+    "blueprint_id": "B-1772",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

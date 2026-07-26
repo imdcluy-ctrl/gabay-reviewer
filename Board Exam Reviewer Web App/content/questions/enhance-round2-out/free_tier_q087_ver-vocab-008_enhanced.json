@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-008",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive. What does 'mandatory' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Required"
+      },
+      {
+        "key": "C",
+        "text": "Suggested"
+      },
+      {
+        "key": "D",
+        "text": "Advisory"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, specifically your understanding of the word 'mandatory'. Think about what it means when something is described as mandatory in everyday life, like a mandatory meeting or a mandatory requirement."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The word 'mandatory' comes from 'mandate,' which means an official order or command. So, 'mandatory' means something that is ordered or commanded—it's not a choice. The simple rule: mandatory = no choice, it must be done."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now, look at the options. Which one means 'must be done' or 'no choice'? 'Optional' means you have a choice. 'Suggested' means it's recommended but not required. 'Advisory' means it gives advice. Only one option captures the idea of being forced or required."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Think of a mandatory school uniform policy. You can't choose to wear your own clothes; you must wear the uniform. The word that describes that 'must' is 'required'. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common trap. 'Optional' is the direct opposite of 'mandatory'. A smart student might mix up words that sound similar or think of 'mandatory' as something you can choose to do, but it's actually the opposite. Remember, if something is optional, you have a choice; if it's mandatory, you don't.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Exactly right. 'Mandatory' means required, compulsory, or obligatory. It's something you must do because an authority, like the Civil Service Commission, has ordered it. Great job!",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a close but incorrect choice. 'Suggested' implies a recommendation, not a command. A student might pick this if they think 'mandatory' is just a strong suggestion, but it's actually a firm requirement. Think of it this way: a suggestion is a nice-to-do; mandatory is a must-do.",
+        "trap_type": "synonym_error"
+      },
+      "D": {
+        "text": "This is another synonym trap. 'Advisory' means giving advice or guidance, which is non-binding. A student might confuse 'advisory' with 'mandatory' because both are often used in official contexts, but they have very different meanings. Advisory is like a helpful tip; mandatory is a rule you must follow.",
+        "trap_type": "synonym_error"
+      }
+    },
+    "deconstruct_text": "Let's break this down simply. The word 'mandatory' comes from 'mandate,' which is an official order. So, 'mandatory' means something that is ordered—you have to do it. Now, look at the options: 'Optional' means you can choose, which is the opposite. 'Suggested' and 'Advisory' mean it's recommended but not forced. Only 'Required' matches the idea of being forced or ordered. Here's a mental trick: Think of the word 'mandate' as a command. If your boss gives you a mandate, you must follow it. So, 'mandatory' = 'must-do'. In the exam, when you see 'mandatory,' immediately think 'required' or 'compulsory.' This will help you avoid picking words that mean 'optional' or 'suggested.'",
+    "next_time_rule": "The 'Mandate Rule': When you see 'mandatory,' think 'mandate' = command = required. It's not a suggestion or a choice—it's a must. Use this to quickly eliminate any option that implies freedom of choice.",
+    "blueprint_id": "Vocabulary — Administrative Directives",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

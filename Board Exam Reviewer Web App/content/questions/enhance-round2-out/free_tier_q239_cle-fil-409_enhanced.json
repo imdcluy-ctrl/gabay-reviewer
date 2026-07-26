@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-409",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "Arrange these names correctly for filing:\n- MacArthur, Douglas\n- McArthur, John\n- Macapagal, Diosdado\n- Macaraig, Jose",
+    "options": [
+      {
+        "key": "A",
+        "text": "Macapagal, Diosdado; Macaraig, Jose; MacArthur, Douglas; McArthur, John"
+      },
+      {
+        "key": "B",
+        "text": "Macapagal, Diosdado; MacArthur, Douglas; Macaraig, Jose; McArthur, John"
+      },
+      {
+        "key": "C",
+        "text": "McArthur, John; MacArthur, Douglas; Macapagal, Diosdado; Macaraig, Jose"
+      },
+      {
+        "key": "D",
+        "text": "MacArthur, Douglas; McArthur, John; Macapagal, Diosdado; Macaraig, Jose"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This question is all about a special filing rule for names that start with 'Mac' or 'Mc'. Think of them as cousins—they're treated almost the same way in alphabetical order."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the golden rule: When filing, treat every 'Mc' as if it were spelled 'Mac'. So 'McArthur' becomes 'MacArthur' in your mind. This levels the playing field so you can sort them properly."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Now, convert all the names: you have Macapagal, Macaraig, MacArthur (from McArthur), and MacArthur (the original). Sort these as if they're all 'Mac' names. Compare letter by letter: Macapagal (p), Macaraig (r), MacArthur (t). Which comes first?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "After converting, the order is Macapagal (p comes before r), then Macaraig (r comes before t), then the two MacArthurs. For the tiebreaker between the two identical 'MacArthur' names, the one originally spelled 'McArthur' comes before 'MacArthur'. So the final order is: Macapagal, Macaraig, McArthur, MacArthur."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You nailed the 'Mac/Mc' rule. By treating 'McArthur' as 'MacArthur', you sorted Macapagal (p), then Macaraig (r), then the two MacArthurs (t). And you remembered the tiebreaker: the original 'Mc' version comes before the 'Mac' version. Perfect.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one almost got it, but it placed 'MacArthur' before 'Macaraig'. Remember, after converting 'Mc' to 'Mac', you compare the next letters: 'Macaraig' has an 'r' while 'MacArthur' has a 't'. Since 'r' comes before 't' in the alphabet, Macaraig should come first. A small slip in letter-by-letter comparison.",
+        "trap_type": "mac_mc_misorder"
+      },
+      "C": {
+        "text": "This order starts with 'McArthur', which is a common mistake. The rule says to treat 'Mc' as 'Mac' for sorting, so 'Macapagal' (with 'p') actually comes before any 'MacArthur' (with 't'). Always convert first, then sort—don't let the original spelling trick you into putting 'Mc' names first.",
+        "trap_type": "mc_before_mac"
+      },
+      "D": {
+        "text": "This one put 'MacArthur' at the very front, but 'Macapagal' should be first. After converting, you compare 'Macapagal' (p) and 'MacArthur' (t). Since 'p' comes before 't', Macapagal wins. It's easy to rush and assume longer or more familiar names come first, but careful letter-by-letter comparison is key.",
+        "trap_type": "macarthur_before_macapagal"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. The key trick for names starting with 'Mac' or 'Mc' is to treat them all as if they're spelled 'Mac'. So first, convert 'McArthur' to 'MacArthur' in your mind. Now your list is: Macapagal, Macaraig, MacArthur (from McArthur), and MacArthur (original). Next, sort these alphabetically by comparing letter by letter. All start with 'M-a-c-a', so look at the fifth letter: Macapagal has 'p', Macaraig has 'r', and both MacArthurs have 'r' as well? Wait—let's be precise: Macapagal (M-a-c-a-p), Macaraig (M-a-c-a-r), MacArthur (M-a-c-a-r-t-h-u-r). So after 'M-a-c-a', Macapagal's next letter is 'p', Macaraig's is 'r', and MacArthur's is 'r' too, but then 't'. So 'p' comes before 'r', so Macapagal is first. Then between Macaraig and MacArthur, compare the sixth letter: Macaraig has 'a' (M-a-c-a-r-a-i-g), MacArthur has 't' (M-a-c-a-r-t-h-u-r). 'a' comes before 't', so Macaraig is second. Now for the two MacArthurs: they're identical after conversion, so we use the tiebreaker rule—the name originally spelled with 'Mc' comes before the one spelled with 'Mac'. So McArthur comes before MacArthur. Final order: Macapagal, Macaraig, McArthur, MacArthur. That's option A. A handy mental trick: think of 'Mc' as 'Mac' in disguise. Always convert first, sort second, and if they're twins, the 'Mc' twin goes first.",
+    "next_time_rule": "When filing names starting with 'Mac' or 'Mc', mentally convert all 'Mc' to 'Mac', sort alphabetically, then for identical names, place the original 'Mc' version before the 'Mac' version.",
+    "blueprint_id": "B-2379",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

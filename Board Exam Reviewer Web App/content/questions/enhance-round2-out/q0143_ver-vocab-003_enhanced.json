@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-003",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MANDATORY'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Voluntary"
+      },
+      {
+        "key": "C",
+        "text": "Compulsory"
+      },
+      {
+        "key": "D",
+        "text": "Discretionary"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang tanong",
+        "text": "Vocabulary test ito. Kailangan mong hanapin ang salitang may kaparehong kahulugan ng 'mandatory'. Ano ba ang ibig sabihin ng 'mandatory'?"
+      },
+      {
+        "rung": 2,
+        "title": "Ihambing ang mga sagot",
+        "text": "'Optional' = may pagpipilian. 'Voluntary' = kusang-loob. 'Discretionary' = bahala ka. Lahat sila kabaliktaran. 'Compulsory' lang ang naiiba—sapilitan."
+      },
+      {
+        "rung": 3,
+        "title": "Eksena sa barangay",
+        "text": "Kung may 'mandatory evacuation' dahil sa bagyo, kailangan umalis ang lahat. Walang 'pwedeng hindi.' Ganyan din ang 'compulsory'—walang choice."
+      },
+      {
+        "rung": 4,
+        "title": "Halos ibigay na",
+        "text": "Sa PhilHealth, ang contribution ay mandatory. Ibig sabihin, compulsory, hindi optional. Kaya ang sagot, 'C'—Compulsory."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'optional' parang kabaliktaran, at baka nagmamadali ka. Pero 'optional' ay may choice, hindi required.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'voluntary' at 'mandatory' parehong tungkol sa gawain, pero ang voluntary ay kusang-loob, hindi sapilitan.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Mandatory' at 'compulsory' parehong nangangahulugang sapilitan o required ng batas o patakaran.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'discretionary' tunog legal, pero ibig sabihin ikaw ang magdedesisyon, hindi sapilitan.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Next time: kapag 'mandatory' or 'compulsory', isipin mong 'no choice'—parang pagbayad ng PhilHealth, required talaga.",
+    "blueprint_id": "Synonyms — Mandatory",
+    "deconstruct_text": "Sa tanong na 'Ano ang kasingkahulugan ng MANDATORY?', una, alamin natin ang ibig sabihin. Ang 'mandatory' ay nangangahulugang obligado o kinakailangan—walang choice.\n\nIsipin mo: sa barangay, kapag may mandatoryong pagpupulong, kailangan dumalo lahat. Hindi pwedeng 'bahala na,' di ba? Ganyan ang 'compulsory'—parehong may puwersa ng batas o tuntunin.\n\nAng 'Optional' (Choice A) ay kung gusto mo lang gawin. 'Voluntary' (B) ay kusang-loob, hindi sapilitan. 'Discretionary' (D) ay nasa iyo ang desisyon. Lahat sila kabaliktaran ng mandatory.\n\nAng tamang sagot ay 'Compulsory' (C). Sa government, halimbawa, ang PhilHealth contributions ay mandatory—ibig sabihin, compulsory, hindi pwedeng hindi bayaran. Kaya tandaan: mandatory = compulsory = required.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

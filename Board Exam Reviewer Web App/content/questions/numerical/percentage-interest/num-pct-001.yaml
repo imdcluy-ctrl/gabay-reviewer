@@ -1,0 +1,54 @@
+id: num-pct-001
+subtopic: percentage-interest
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["percentage", "budget-increase"]
+estimated_seconds: 75
+question_text: "A municipal health office received a budget increase from ₱800,000 to ₱1,000,000. What was the percentage increase in its budget?"
+options:
+  - key: A
+    text: "20%"
+  - key: B
+    text: "25%"
+  - key: C
+    text: "30%"
+  - key: D
+    text: "80%"
+correct: B
+blueprint_id: "Numerical Ability — Percentage Increase"
+hint_ladder:
+  - rung: 1
+    title: "Calculate Amount of Increase"
+    text: "Subtract original budget from new budget: ₱1,000,000 - ₱800,000 = ₱200,000."
+  - rung: 2
+    title: "Identify Base Value"
+    text: "Percentage increase is always calculated over the ORIGINAL base (₱800,000), not the new amount."
+  - rung: 3
+    title: "Set Up Fraction"
+    text: "Increase / Original = 200,000 / 800,000 = 2/8 = 1/4."
+  - rung: 4
+    title: "Convert Fraction to Percentage"
+    text: "1/4 = 0.25 = 25%."
+deconstruct_text: |
+  Amount of increase = ₱1,000,000 - ₱800,000 = ₱200,000
+  Percentage Increase = (Increase / Original Base) × 100
+  = (200,000 / 800,000) × 100 = (1/4) × 100 = 25%
+choice_explanations:
+  A:
+    text: "Divided increase by NEW budget (200,000 / 1,000,000 = 20%). Always divide by ORIGINAL base!"
+    trap_type: wrong_base_error
+  B:
+    text: "Correct! (200,000 / 800,000) × 100 = 25%."
+    trap_type: null
+  C:
+    text: "Rounding 25% up to 30%."
+    trap_type: arithmetic_error
+  D:
+    text: "Comparing original 800k to 1M directly."
+    trap_type: ratio_confusion
+next_time_rule: "Percentage change formula = (Change / Original Base) × 100."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Percentage Change Specification"

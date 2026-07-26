@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-411",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "In a filing system, you have three records: 'San Juan, Maria', 'Santa Maria, Jose', and 'Santos, Ana'. Which of the following is the correct alphabetical order?",
+    "options": [
+      {
+        "key": "A",
+        "text": "San Juan, Maria; Santa Maria, Jose; Santos, Ana"
+      },
+      {
+        "key": "B",
+        "text": "Santa Maria, Jose; San Juan, Maria; Santos, Ana"
+      },
+      {
+        "key": "C",
+        "text": "Santos, Ana; San Juan, Maria; Santa Maria, Jose"
+      },
+      {
+        "key": "D",
+        "text": "San Juan, Maria; Santos, Ana; Santa Maria, Jose"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "This question is all about how we treat names that start with 'San' and 'Santa' in a filing system. Think of them as part of the last name, not a separate title."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "When filing, we compare names letter by letter, just like in a dictionary. So 'San Juan' is compared as 'S-A-N- -J-U-A-N', and 'Santa Maria' as 'S-A-N-T-A- -M-A-R-I-A'."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Start comparing from the very first letter. All three start with 'S', then 'a', then 'n'. The fourth letter is where they differ: 'San Juan' has a space, 'Santa Maria' has 't', and 'Santos' has 't'. A space comes before any letter in the alphabet."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "So 'San Juan' is first because its fourth character is a space. Between 'Santa Maria' and 'Santos', compare the fifth letter: 'a' vs 'o'. Since 'a' comes before 'o', 'Santa Maria' comes second, and 'Santos' is last."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the correct order. When you file alphabetically, you treat 'San' and 'Santa' as part of the surname. Comparing letter by letter: 'San Juan' (S-A-N-space) comes before 'Santa Maria' (S-A-N-T) because a space comes before the letter 't'. Then 'Santa Maria' (S-A-N-T-A) comes before 'Santos' (S-A-N-T-O) because 'a' comes before 'o'. So the order is San Juan, Santa Maria, Santos.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This order puts 'Santa Maria' before 'San Juan', but that's a common mistake. If you compare them letter by letter, 'San Juan' has a space as its fourth character, while 'Santa Maria' has a 't'. Since a space comes before any letter in the alphabet, 'San Juan' should come first. It's easy to think 'Santa' sounds like it should come before 'San' because it's longer, but alphabetically, shorter comes first when the letters match up to a point.",
+        "trap_type": "prefix_order_confusion"
+      },
+      "C": {
+        "text": "This order starts with 'Santos', which is incorrect. A smart student might pick this if they think 'Santos' is a single word and should come before the two-word names. But when you compare 'Santos' (S-A-N-T-O) with 'Santa Maria' (S-A-N-T-A), the fifth letter decides it: 'a' comes before 'o', so 'Santa Maria' comes first. 'San Juan' also comes before 'Santos' because its fourth character is a space, which beats 't'.",
+        "trap_type": "surname_initial_misordering"
+      },
+      "D": {
+        "text": "This order correctly places 'San Juan' first, but then puts 'Santos' before 'Santa Maria'. The trap here is thinking that because 'Santos' is shorter, it might come before 'Santa Maria'. But alphabetically, you compare letter by letter until you find a difference. 'Santa Maria' and 'Santos' match up to the fourth letter 't', then the fifth letter: 'a' vs 'o'. Since 'a' comes before 'o', 'Santa Maria' comes second, not 'Santos'.",
+        "trap_type": "suffix_vs_prefix_misordering"
+      }
+    },
+    "deconstruct_text": "Let's walk through this like we're organizing a real filing cabinet. The key rule is that 'San' and 'Santa' are part of the surname, so we treat 'San Juan' as one last name, 'Santa Maria' as another, and 'Santos' as a third. Now, we compare them letter by letter, just like looking up a word in a dictionary.\n\nStart with the first letter: all three begin with 'S'. Second letter: all have 'a'. Third letter: all have 'n'. Now we hit the fourth letter. For 'San Juan', the fourth character is a space (since it's 'San' followed by a space, then 'Juan'). For 'Santa Maria', the fourth character is 't'. For 'Santos', the fourth character is also 't'. In alphabetical order, a space comes before any letter, so 'San Juan' is first.\n\nNow we compare 'Santa Maria' and 'Santos'. They match on the first four letters: S, a, n, t. The fifth letter is where they differ: 'Santa Maria' has 'a', and 'Santos' has 'o'. Since 'a' comes before 'o' in the alphabet, 'Santa Maria' comes second, and 'Santos' comes last.\n\nSo the final order is: San Juan, Maria; Santa Maria, Jose; Santos, Ana.\n\nHere's a mental trick to remember: When filing names with 'San' or 'Santa', imagine you're comparing them as if they were single words. Think of 'SANJUAN', 'SANTAMARIA', and 'SANTOS'. Now compare them letter by letter: SAN (space) vs SANT. The space makes 'SANJUAN' come first. Then SANT-A vs SANT-O: 'A' before 'O', so 'SANTAMARIA' comes before 'SANTOS'.",
+    "next_time_rule": "When filing names with 'San' or 'Santa', treat them as part of the surname and compare letter by letter. Remember: a space beats any letter, so 'San' always comes before 'Santa' or 'Santos'. Then compare the next different letter to decide the rest.",
+    "blueprint_id": "B-2381",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

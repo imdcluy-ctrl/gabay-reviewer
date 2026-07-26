@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ana-log-403",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "If an applicant passes the Civil Service Exam (CSE), then they receive an eligibility certificate. Juan did not receive an eligibility certificate. Which of the following conclusions is valid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan passed the CSE."
+      },
+      {
+        "key": "B",
+        "text": "Juan did not pass the CSE."
+      },
+      {
+        "key": "C",
+        "text": "Juan might have passed the CSE."
+      },
+      {
+        "key": "D",
+        "text": "Juan is not eligible for government employment."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think of this as a simple 'if-then' promise. The statement says: if you pass the exam, then you get a certificate. Now, Juan didn't get the certificate. What does that tell you about whether he passed?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the key rule: When you have an 'if P, then Q' statement, and you know that Q did NOT happen, then P could not have happened either. It's like saying: 'If it rains, the ground gets wet.' If the ground is dry, then it definitely didn't rain."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Let's label things: P = 'Juan passed the CSE', Q = 'Juan received a certificate'. The rule says: If P, then Q. We are told: not Q (no certificate). So what must be true about P? Apply the rain-ground analogy."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Since the certificate (Q) didn't happen, the condition that guarantees it (passing the CSE, or P) couldn't have happened either. So Juan must not have passed. That's the only logical conclusion."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a tempting but wrong leap. You might think, 'Well, maybe he passed but the certificate got lost.' But the logic doesn't allow that. The rule says passing *always* leads to a certificate. So if there's no certificate, passing is impossible. This mistake is called 'affirming the consequent' — assuming the effect proves the cause, which is a classic logical trap.",
+        "trap_type": "affirming_consequent_fallacy"
+      },
+      "B": {
+        "text": "This is the only airtight conclusion. The rule says passing guarantees a certificate. Since Juan has no certificate, he couldn't have passed. It's like knowing that if a switch is on, the light is on. If the light is off, the switch must be off. Simple and solid.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This feels safe because it's vague, but it's actually wrong. The logic here gives us a definite answer, not a maybe. Saying 'might have passed' ignores the clear chain: no certificate means no pass. It's like saying 'the ground might be wet' when you know it's bone dry.",
+        "trap_type": "weak_conclusion"
+      },
+      "D": {
+        "text": "This might be true in real life, but it's not something we can conclude from the given information. The premises only talk about the CSE and the certificate. There could be other ways to be eligible for government jobs. This answer goes beyond what the logic allows — it's like assuming a car has no engine just because it has a flat tire.",
+        "trap_type": "irrelevant_conclusion"
+      }
+    },
+    "deconstruct_text": "Let's walk through this step by step. The core statement is a conditional: 'If an applicant passes the CSE (P), then they receive an eligibility certificate (Q).' Think of it as a promise: passing the exam always results in getting that certificate. Now, we're told that Juan did not receive a certificate — that's 'not Q.' In logic, when you have 'If P, then Q' and you know that Q is false, you can safely conclude that P is also false. Why? Because if P were true, Q would have to be true (that's what the promise says). Since Q isn't true, P can't be true either. This valid reasoning is called 'modus tollens,' but you don't need to remember the fancy Latin name. Just remember the simple mental framework: **The Certificate Test**. Imagine the rule as a machine: you put in 'passing the exam,' and it always spits out 'a certificate.' If Juan didn't get a certificate, then he never put 'passing' into the machine. So the only valid conclusion is that Juan did not pass the CSE — option B.",
+    "next_time_rule": "**The Certificate Test**: When you see 'If P, then Q' and you're told 'not Q,' the only logical move is 'not P.' Always ask yourself: 'If the result didn't happen, could the cause have happened?' If the cause always leads to the result, then no result means no cause."
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-028",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'By the time the manager arrived, the staff ___ the reports.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "already finish"
+      },
+      {
+        "key": "B",
+        "text": "already finished"
+      },
+      {
+        "key": "C",
+        "text": "have already finished"
+      },
+      {
+        "key": "D",
+        "text": "had already finished"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Sequence",
+        "text": "The sentence has two past events: the manager's arrival and the staff finishing the reports. Which happened first?"
+      },
+      {
+        "rung": 2,
+        "title": "Past Perfect",
+        "text": "When two actions both occurred in the past, the earlier action uses 'had + past participle' (past perfect)."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Earlier Action",
+        "text": "The staff finished the reports BEFORE the manager arrived. So the blank needs past perfect: 'had already finished'."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Wrong Tenses",
+        "text": "'already finish' is present tense; 'already finished' is simple past (not earlier); 'have already finished' is present perfect (not past). Only 'had already finished' shows the earlier past action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'already finish' uses the base form of the verb, which is present tense. The sentence is set in the past (manager arrived), so present tense is incorrect. The student likely forgot to change the verb to a past form.",
+        "trap_type": "tense_inconsistency"
+      },
+      "B": {
+        "text": "'already finished' is simple past tense. While it is past, it does not show that the finishing occurred before the arriving. The student may think simple past is enough, but the phrase 'by the time' requires the earlier action to be in past perfect.",
+        "trap_type": "tense_inconsistency"
+      },
+      "C": {
+        "text": "'have already finished' is present perfect tense, which connects the past to the present. However, the manager's arrival is a completed past event, so the earlier action should be past perfect, not present perfect. The student may confuse present perfect with past perfect.",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "Correct! 'had already finished' is past perfect, correctly indicating that the staff finished the reports before the manager arrived. This follows the rule: for two past actions, use past perfect for the earlier one.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When you see 'by the time' + past event, the earlier action must be in past perfect (had + V3).",
+    "blueprint_id": "Tense Consistency — Past Perfect",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the time frame: 'By the time the manager arrived' sets the scene in the past. The manager's arrival is a past event.\n2. Determine the sequence: The staff finishing the reports happened before the manager arrived. So we have two past actions, one earlier than the other.\n3. Apply the grammar rule: For the earlier of two past actions, use the past perfect tense: 'had + past participle'.\n4. The correct verb form is 'had already finished'.\n\n### ❌ Why the Distractors Fail\n- **A: 'already finish'** — Present tense; does not match the past context.\n- **B: 'already finished'** — Simple past; does not show that finishing occurred before arriving.\n- **C: 'have already finished'** — Present perfect; implies relevance to the present, but the sentence is purely past.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-029",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses the subjunctive mood correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I wish I was the department head."
+      },
+      {
+        "key": "B",
+        "text": "I wish I were the department head."
+      },
+      {
+        "key": "C",
+        "text": "I wish I am the department head."
+      },
+      {
+        "key": "D",
+        "text": "I wish I be the department head."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Subjunctive Mood",
+        "text": "The subjunctive is used for wishes, hypotheticals, and contrary-to-fact statements. It often uses 'were' instead of 'was'."
+      },
+      {
+        "rung": 2,
+        "title": "The Verb After 'Wish'",
+        "text": "After the verb 'wish', we use the subjunctive mood. For the verb 'to be', the subjunctive form is always 'were', regardless of the subject."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the Options",
+        "text": "The sentence expresses a wish about a present situation (being department head). The correct subjunctive form is 'I wish I were'."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Wrong Forms",
+        "text": "'was' is indicative (used for facts); 'am' is present indicative; 'be' is base form (used in other subjunctive contexts, but not after 'wish'). Only 'were' is correct for present wishes."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'I wish I was' uses the indicative mood. 'Was' is used for factual statements (e.g., 'I was there'). After 'wish', we need the subjunctive 'were' to show that the situation is hypothetical or contrary to fact.",
+        "trap_type": "mood_error"
+      },
+      "B": {
+        "text": "Correct! 'I wish I were' uses the subjunctive mood properly. 'Were' is the correct subjunctive form for all persons when expressing a wish or hypothetical situation.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'I wish I am' uses the present indicative 'am'. This is incorrect because 'wish' requires the subjunctive mood, not the indicative. The student may think present tense is acceptable, but wishes are not factual.",
+        "trap_type": "mood_error"
+      },
+      "D": {
+        "text": "'I wish I be' uses the base form 'be'. While 'be' is used in some subjunctive constructions (e.g., 'I suggest that he be'), after 'wish' we use 'were', not 'be'. The student may be confusing different subjunctive patterns.",
+        "trap_type": "mood_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** After 'wish', always use 'were' (not 'was') for the verb 'to be', even with I, he, she, it.",
+    "blueprint_id": "Subjunctive Mood — Wishes",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Recognize the mood: The sentence expresses a wish ('I wish...'), which requires the subjunctive mood.\n2. Identify the verb: The verb 'to be' appears after 'I wish'. In the subjunctive, the correct form is 'were' for all persons.\n3. Check each option:\n   - A: 'was' — indicative, not subjunctive.\n   - B: 'were' — correct subjunctive.\n   - C: 'am' — present indicative.\n   - D: 'be' — base form, used in other subjunctive contexts but not after 'wish'.\n4. The correct answer is B.\n\n### ❌ Why the Distractors Fail\n- **A: 'I wish I was'** — Uses indicative 'was' instead of subjunctive 'were'.\n- **C: 'I wish I am'** — Uses present indicative 'am', which is factual, not hypothetical.\n- **D: 'I wish I be'** — Uses base form 'be', which is not the standard subjunctive after 'wish'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-030",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence is grammatically correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The committee have reached a decision."
+      },
+      {
+        "key": "B",
+        "text": "The committee has reached a decision."
+      },
+      {
+        "key": "C",
+        "text": "The committee are reaching a decision."
+      },
+      {
+        "key": "D",
+        "text": "The committee were reached a decision."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Collective Noun",
+        "text": "The word 'committee' is a collective noun — it refers to a group as a single unit."
+      },
+      {
+        "rung": 2,
+        "title": "Singular or Plural?",
+        "text": "In American English, collective nouns are usually treated as singular. So 'committee' takes a singular verb."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Singular Verb",
+        "text": "Among the options, 'has' is singular (have is plural, are is plural, were is plural). So 'has reached' is correct."
+      },
+      {
+        "rung": 4,
+        "title": "Check the Other Options",
+        "text": "A uses 'have' (plural), C uses 'are' (plural), D uses 'were' (plural) and also has incorrect passive voice. Only B uses the singular verb 'has'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'The committee have reached' uses the plural verb 'have'. In American English, 'committee' is singular, so it should take 'has'. The student may think 'committee' refers to multiple people and thus needs a plural verb, but the group acts as one unit.",
+        "trap_type": "subject_verb_error"
+      },
+      "B": {
+        "text": "Correct! 'The committee has reached' uses the singular verb 'has' to agree with the singular collective noun 'committee'. This is standard in American English.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'The committee are reaching' uses the plural verb 'are'. Again, 'committee' is singular, so 'are' is incorrect. The student may be using British English, where collective nouns can take plural verbs, but the exam follows American English.",
+        "trap_type": "subject_verb_error"
+      },
+      "D": {
+        "text": "'The committee were reached' is grammatically incorrect for two reasons: 'were' is plural and does not agree with singular 'committee', and the passive voice 'were reached' is awkward and ungrammatical in this context. The active voice 'has reached' is correct.",
+        "trap_type": "grammar_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In American English, collective nouns (committee, team, staff) are singular and take singular verbs (has, is, reaches).",
+    "blueprint_id": "Subject-Verb — Collective Nouns 2",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the subject: 'The committee' is a collective noun representing a group as a single entity.\n2. Determine number: In American English, collective nouns are singular. So the verb must be singular.\n3. Check verb forms:\n   - 'have' is plural → incorrect.\n   - 'has' is singular → correct.\n   - 'are' is plural → incorrect.\n   - 'were' is plural → incorrect.\n4. Also, option D uses passive voice incorrectly. The correct sentence is 'The committee has reached a decision.'\n\n### ❌ Why the Distractors Fail\n- **A: 'have reached'** — Plural verb with singular subject.\n- **C: 'are reaching'** — Plural verb with singular subject.\n- **D: 'were reached'** — Plural verb and incorrect passive construction.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-031",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence that avoids a run-on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The exam is difficult I need to study more."
+      },
+      {
+        "key": "B",
+        "text": "The exam is difficult, I need to study more."
+      },
+      {
+        "key": "C",
+        "text": "The exam is difficult, so I need to study more."
+      },
+      {
+        "key": "D",
+        "text": "The exam is difficult I need to study."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Run-On Sentence",
+        "text": "A run-on occurs when two independent clauses (complete sentences) are joined without proper punctuation or conjunction."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Clauses",
+        "text": "Each option has two clauses: 'The exam is difficult' and 'I need to study more'. Both can stand alone as sentences."
+      },
+      {
+        "rung": 3,
+        "title": "Correct Joining Methods",
+        "text": "To fix a run-on, use a comma + coordinating conjunction (for, and, nor, but, or, yet, so) or a semicolon. Option C uses a comma + 'so'."
+      },
+      {
+        "rung": 4,
+        "title": "Check Each Option",
+        "text": "A and D have no punctuation — run-ons. B has a comma but no conjunction — comma splice. C has comma + 'so' — correct. So C is the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'The exam is difficult I need to study more.' has two independent clauses with no punctuation or conjunction between them. This is a run-on sentence (specifically a fused sentence). The student may have omitted the comma and conjunction.",
+        "trap_type": "run_on_error"
+      },
+      "B": {
+        "text": "'The exam is difficult, I need to study more.' uses a comma alone to join two independent clauses. This is a comma splice, which is incorrect. A comma needs a coordinating conjunction (like 'so') to join independent clauses.",
+        "trap_type": "comma_splice_error"
+      },
+      "C": {
+        "text": "Correct! 'The exam is difficult, so I need to study more.' uses a comma followed by the coordinating conjunction 'so' to properly join the two independent clauses. This avoids both run-on and comma splice errors.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'The exam is difficult I need to study.' is another run-on sentence (fused sentence) with no punctuation or conjunction. The student may have omitted the conjunction and punctuation, similar to option A.",
+        "trap_type": "run_on_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To join two independent clauses, use a comma + one of the FANBOYS (for, and, nor, but, or, yet, so).",
+    "blueprint_id": "Run-On Sentences",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the clauses: Each option contains two independent clauses: 'The exam is difficult' and 'I need to study more'.\n2. Recognize the error: A run-on joins two independent clauses without proper punctuation or conjunction. A comma splice uses only a comma.\n3. Correct method: Use a comma + coordinating conjunction (e.g., 'so') to join them.\n4. Evaluate options:\n   - A: No punctuation → run-on.\n   - B: Comma only → comma splice.\n   - C: Comma + 'so' → correct.\n   - D: No punctuation → run-on.\n5. The correct answer is C.\n\n### ❌ Why the Distractors Fail\n- **A: No punctuation** — Fused sentence (run-on).\n- **B: Comma only** — Comma splice.\n- **D: No punctuation** — Fused sentence (run-on).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-032",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'The memo was addressed ___ the department heads.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "in"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Prepositional Idiom",
+        "text": "The verb 'address' (meaning to direct a communication) is followed by the preposition 'to' in standard English. It's a fixed expression: 'addressed to someone'."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Wrong Prepositions",
+        "text": "'Addressed for' is not idiomatic. 'Addressed at' might be used in other contexts (e.g., 'addressed at the meeting'), but not for recipients. 'Addressed in' is also incorrect."
+      },
+      {
+        "rung": 3,
+        "title": "Test with Examples",
+        "text": "Think of common phrases: 'The letter was addressed to the president.' 'The package was addressed to me.' The pattern is always 'addressed to'."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "The correct preposition is 'to'. So the sentence is: 'The memo was addressed to the department heads.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Addressed for' is not a standard English idiom. The preposition 'for' is used with other verbs (e.g., 'intended for'), but not with 'addressed' when referring to the recipient. The student may have confused 'addressed to' with 'intended for'.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "Correct! 'Addressed to' is the correct idiomatic prepositional phrase. When a memo, letter, or speech is directed to someone, we use 'to'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Addressed at' is not idiomatic for indicating the recipient. 'At' is used for locations or targets (e.g., 'aimed at'), but not for the person receiving a communication. The student may have used 'at' by analogy with 'aimed at'.",
+        "trap_type": "wrong_preposition"
+      },
+      "D": {
+        "text": "'Addressed in' is incorrect. 'In' is used for inclusion (e.g., 'addressed in the letter'), not for the recipient. The student may have thought 'in' indicates the document's content, but the blank requires the recipient.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The verb 'address' (meaning to send or direct) is always followed by the preposition 'to' when indicating the recipient.",
+    "blueprint_id": "Prepositional Idioms — Addressed To",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Recognize the verb: 'addressed' is used here meaning 'directed a communication to someone'.\n2. Recall the correct preposition: The idiomatic expression is 'addressed to' + recipient.\n3. Check each option:\n   - 'for' — not idiomatic.\n   - 'to' — correct.\n   - 'at' — not idiomatic for recipient.\n   - 'in' — not idiomatic for recipient.\n4. The correct answer is 'to'.\n\n### ❌ Why the Distractors Fail\n- **A: 'for'** — Not the correct preposition for 'addressed'.\n- **C: 'at'** — Incorrect; 'at' is used for locations, not recipients.\n- **D: 'in'** — Incorrect; 'in' is used for content, not recipient.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-035",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses correct tense?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She will finish the report before the meeting started."
+      },
+      {
+        "key": "B",
+        "text": "She had finished the report before the meeting started."
+      },
+      {
+        "key": "C",
+        "text": "She finishes the report before the meeting will start."
+      },
+      {
+        "key": "D",
+        "text": "She finished the report before the meeting will start."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Sequence",
+        "text": "Both actions (finishing report, meeting starting) happened in the past. The key is to show which occurred first."
+      },
+      {
+        "rung": 2,
+        "title": "Past perfect needed",
+        "text": "When two past actions happen, the earlier one uses 'had' + past participle (past perfect). The later one uses simple past."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the rule",
+        "text": "Finishing the report happened before the meeting started. So 'had finished' is for the earlier action, 'started' for the later."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B correctly uses 'had finished' (past perfect) for the earlier action and 'started' (simple past) for the later action."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Uses 'will finish' (future) with 'started' (past). The tenses don't match — you can't have a future action before a past action.",
+        "trap_type": "tense_inconsistency"
+      },
+      "B": {
+        "text": "Correct! 'Had finished' (past perfect) correctly shows the report completion happened before the meeting started (simple past).",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Uses 'finishes' (present) with 'will start' (future). The sequence is unclear and tenses are mismatched — present and future don't align.",
+        "trap_type": "tense_inconsistency"
+      },
+      "D": {
+        "text": "Uses 'finished' (past) with 'will start' (future). The tenses are inconsistent — a past action cannot be before a future action.",
+        "trap_type": "tense_inconsistency"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For two past actions, use past perfect ('had + past participle') for the earlier action and simple past for the later action. Think: 'earlier gets 'had'.",
+    "blueprint_id": "Tense Consistency — Sequence of Events",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Identify the two actions: 'finish the report' and 'meeting started'. Both are in the past.\n2. Determine the sequence: finishing the report happened before the meeting started.\n3. Rule: When two past actions occur, the earlier action uses past perfect (had + past participle), and the later action uses simple past.\n4. Apply: 'She had finished the report' (earlier) 'before the meeting started' (later).\n5. Check other options: A mixes future and past; C mixes present and future; D mixes past and future. Only B maintains correct tense sequence.\n\n### ❌ Why the Distractors Fail\n- **A:** 'will finish' (future) with 'started' (past) — inconsistent timeline.\n- **C:** 'finishes' (present) with 'will start' (future) — no clear sequence.\n- **D:** 'finished' (past) with 'will start' (future) — illogical order.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-011",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ELUCIDATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confuse"
+      },
+      {
+        "key": "B",
+        "text": "Complicate"
+      },
+      {
+        "key": "C",
+        "text": "Clarify"
+      },
+      {
+        "key": "D",
+        "text": "Obscure"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "The word 'elucidate' comes from Latin 'e-' (out) + 'lucidus' (clear). It means to make something clear or explain."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Think of words that mean 'to make clear' or 'to explain'. Which option fits?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The synonym is 'clarify', which also means to make something clear or understandable."
+      },
+      {
+        "rung": 4,
+        "title": "Tip",
+        "text": "Remember: 'elucidate' = e- (out) + lucid (clear). 'Lucid' means clear, so elucidate = to make clear."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Confuse' is the opposite of 'elucidate'. It means to make unclear, not to explain.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Complicate' means to make more complex, the opposite of making clear.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Clarify' means to make clear or explain, exactly matching 'elucidate'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Obscure' means to hide or make unclear, the opposite of 'elucidate'.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Break down unfamiliar words: 'e-' (out) + 'lucid' (clear) = elucidate (make clear). Look for synonyms that mean 'explain' or 'clarify'.",
+    "blueprint_id": "Vocabulary — Elucidate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'elucidate': to make something clear; to explain.\n2. Look at each option and determine its meaning:\n   - Confuse: to make unclear\n   - Complicate: to make complex\n   - Clarify: to make clear\n   - Obscure: to hide or make unclear\n3. The synonym is the word with the same meaning: 'clarify'.\n4. Verify: 'elucidate' and 'clarify' both mean to make something understandable.\n\n### ❌ Why the Distractors Fail\n- **A:** 'Confuse' is an antonym — it means to cause uncertainty.\n- **B:** 'Complicate' is an antonym — it means to make more difficult.\n- **D:** 'Obscure' is an antonym — it means to conceal or make vague.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-012",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'AUSTERE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lavish"
+      },
+      {
+        "key": "B",
+        "text": "Severe"
+      },
+      {
+        "key": "C",
+        "text": "Comfortable"
+      },
+      {
+        "key": "D",
+        "text": "Indulgent"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "'Austere' describes something that is strict, severe, or plain, without luxury or comfort."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Think of words like 'strict', 'harsh', or 'plain'. Which option matches?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The synonym is 'severe', which means strict or harsh in manner or appearance."
+      },
+      {
+        "rung": 4,
+        "title": "Tip",
+        "text": "Remember: 'austere' is often used to describe a simple, strict lifestyle — opposite of 'lavish' or 'indulgent'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Lavish' means rich, elaborate, or luxurious — the opposite of 'austere'.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! 'Severe' means strict, harsh, or plain, matching 'austere'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "'Comfortable' means providing ease and relaxation — opposite of the strictness of 'austere'.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "'Indulgent' means allowing oneself pleasures — the opposite of 'austere' self-discipline.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Austere' = severe, strict, plain. Think of a monk's lifestyle: simple and without luxury. Avoid options that suggest comfort or excess.",
+    "blueprint_id": "Vocabulary — Austere",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'austere': severe in manner or appearance; having no luxuries; strict.\n2. Evaluate each option:\n   - Lavish: very rich and elaborate (opposite)\n   - Severe: strict, harsh, plain (matches)\n   - Comfortable: providing physical ease (opposite)\n   - Indulgent: allowing excessive pleasure (opposite)\n3. The correct synonym is 'severe'.\n4. Confirm: Both 'austere' and 'severe' convey strictness and lack of luxury.\n\n### ❌ Why the Distractors Fail\n- **A:** 'Lavish' is an antonym — it means luxurious.\n- **C:** 'Comfortable' is an antonym — it suggests ease.\n- **D:** 'Indulgent' is an antonym — it suggests self-gratification.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-013",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PRAGMATIC'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Idealistic"
+      },
+      {
+        "key": "B",
+        "text": "Theoretical"
+      },
+      {
+        "key": "C",
+        "text": "Practical"
+      },
+      {
+        "key": "D",
+        "text": "Unrealistic"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "'Pragmatic' means dealing with things in a practical, realistic way — focusing on what works."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Think of words like 'practical', 'realistic', or 'sensible'. Which option fits?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The synonym is 'practical', which means concerned with actual use or results."
+      },
+      {
+        "rung": 4,
+        "title": "Tip",
+        "text": "Remember: 'pragmatic' people focus on results, not ideals. Opposite of 'idealistic' or 'theoretical'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Idealistic' means pursuing high ideals, often impractical — opposite of 'pragmatic'.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Theoretical' means based on theory rather than practice — opposite of 'pragmatic'.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Practical' means concerned with actual use or results, matching 'pragmatic'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Unrealistic' means not realistic — opposite of 'pragmatic' which is realistic.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Pragmatic' = practical, realistic. Think 'pragmatic' and 'practical' both start with 'p' and mean focusing on what works.",
+    "blueprint_id": "Vocabulary — Pragmatic",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'pragmatic': dealing with things sensibly and realistically; practical.\n2. Evaluate each option:\n   - Idealistic: pursuing ideals, often impractical (opposite)\n   - Theoretical: based on theory, not practice (opposite)\n   - Practical: concerned with actual use (matches)\n   - Unrealistic: not realistic (opposite)\n3. The correct synonym is 'practical'.\n4. Confirm: Both 'pragmatic' and 'practical' emphasize real-world results over ideals.\n\n### ❌ Why the Distractors Fail\n- **A:** 'Idealistic' is an antonym — it focuses on ideals.\n- **B:** 'Theoretical' is an antonym — it focuses on theory.\n- **D:** 'Unrealistic' is an antonym — it lacks realism.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-014",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'EQUITABLE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unfair"
+      },
+      {
+        "key": "B",
+        "text": "Biased"
+      },
+      {
+        "key": "C",
+        "text": "Fair and just"
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "'Equitable' comes from 'equity', which means fairness and justice. It describes something that is fair and impartial."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Think of words like 'fair', 'just', or 'impartial'. Which option matches?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The synonym is 'fair and just', which directly means treating everyone equally."
+      },
+      {
+        "rung": 4,
+        "title": "Tip",
+        "text": "Remember: 'equitable' = 'equal' + 'fair'. Think of 'equity' as fairness in law."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Unfair' is the opposite of 'equitable'. It means not just or impartial.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Biased' means showing prejudice, the opposite of being fair and impartial.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! 'Fair and just' means treating everyone equally, exactly matching 'equitable'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Arbitrary' means based on random choice, not on fairness or rules — opposite of 'equitable'.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Equitable' = fair and just. Think of 'equity' as fairness. Avoid options that suggest unfairness or bias.",
+    "blueprint_id": "Vocabulary — Equitable",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Define 'equitable': fair and impartial; just.\n2. Evaluate each option:\n   - Unfair: not fair (opposite)\n   - Biased: showing prejudice (opposite)\n   - Fair and just: treating everyone equally (matches)\n   - Arbitrary: based on random choice (opposite)\n3. The correct synonym is 'fair and just'.\n4. Confirm: Both 'equitable' and 'fair and just' emphasize impartiality and justice.\n\n### ❌ Why the Distractors Fail\n- **A:** 'Unfair' is an antonym — it means not just.\n- **B:** 'Biased' is an antonym — it means partial.\n- **D:** 'Arbitrary' is an antonym — it means without fairness.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

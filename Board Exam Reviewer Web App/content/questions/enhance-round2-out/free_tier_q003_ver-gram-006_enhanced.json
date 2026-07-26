@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-006",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Identify the sentence that maintains parallel structure.",
+    "options": [
+      {
+        "key": "A",
+        "text": "The new administrative officer likes organizing files, drafting letters, and to answer phone inquiries."
+      },
+      {
+        "key": "B",
+        "text": "The new administrative officer likes organizing files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "C",
+        "text": "The new administrative officer likes to organize files, drafting letters, and answering phone inquiries."
+      },
+      {
+        "key": "D",
+        "text": "The new administrative officer likes file organization, drafting letters, and to answer phone inquiries."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the List",
+        "text": "This sentence is describing three things the officer likes to do. Can you find all three items in the list? They're separated by commas and the word 'and'."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule of Lists",
+        "text": "Here's a simple rule: when you have a list of actions, every item should use the same grammatical form. Think of it like matching socks—they all need to look the same. Either all end in '-ing' (gerunds) or all start with 'to' (infinitives). Never mix them."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Look at each option and ask yourself: are all three items in the same form? Option B uses 'organizing', 'drafting', and 'answering'—all end in '-ing'. That's consistent. Now check the others—do you spot any that mix '-ing' with 'to' forms?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're looking for the sentence where all three actions are in the same form. Option B is the only one where every item is a gerund (verb + -ing). The others all mix gerunds with infinitives or noun phrases. Which one feels perfectly uniform?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one starts strong with two gerunds ('organizing', 'drafting'), but then switches to an infinitive ('to answer'). It's like wearing two matching shoes and one completely different one—the list loses its rhythm. Stick to one form throughout.",
+        "trap_type": "faulty_parallelism"
+      },
+      "B": {
+        "text": "This is the one. All three items—'organizing files', 'drafting letters', and 'answering phone inquiries'—are gerunds. They flow together smoothly because they share the same grammatical form. This is parallel structure at its best.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option does the opposite of A: it starts with an infinitive ('to organize') but then switches to gerunds ('drafting', 'answering'). The inconsistency breaks the pattern and makes the sentence feel unbalanced.",
+        "trap_type": "faulty_parallelism"
+      },
+      "D": {
+        "text": "This one is a triple threat of inconsistency. It uses a noun phrase ('file organization'), a gerund ('drafting'), and an infinitive ('to answer'). Three different forms in one list—definitely not parallel.",
+        "trap_type": "faulty_parallelism"
+      }
+    },
+    "next_time_rule": "When you see a list in a sentence, do the 'Form Check': scan each item and make sure they all match. If one item uses '-ing', they all should. If one uses 'to + verb', they all should. Consistency is key to parallel structure.",
+    "blueprint_id": "Parallel Structure — Parallel Gerund Phrases",
+    "deconstruct_text": "Let's walk through this together. The question asks us to find the sentence where all items in the list are in the same grammatical form—that's what parallel structure means. Think of it like a marching band: every member needs to step in the same rhythm for the performance to look polished.\n\nStart by identifying the list in each option. In Option B, the three items are 'organizing files', 'drafting letters', and 'answering phone inquiries'. Notice how each one ends with '-ing'? That's a gerund form, and they're all consistent. That's your parallel structure.\n\nNow look at the others. Option A has two gerunds but then throws in 'to answer'—an infinitive. Option C does the reverse: starts with an infinitive then switches to gerunds. Option D is the wild card with a noun phrase, a gerund, and an infinitive. None of them keep the same form throughout.\n\nHere's a mental trick for exam day: the 'Rhythm Test'. Read the list out loud in your head. If it sounds choppy or like the pattern changes midway, it's probably not parallel. Smooth and uniform is what you're after.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

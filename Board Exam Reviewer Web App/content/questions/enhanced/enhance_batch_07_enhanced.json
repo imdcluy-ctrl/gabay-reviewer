@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-pct-008",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "Maria invested P50,000 at 6% simple interest. How long will it take for her investment to earn P9,000 in interest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 years"
+      },
+      {
+        "key": "B",
+        "text": "3 years"
+      },
+      {
+        "key": "C",
+        "text": "4 years"
+      },
+      {
+        "key": "D",
+        "text": "5 years"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Formula: t = I/(P x r)",
+        "text": "Annual interest = 50,000 x 0.06 = 3,000. So each year, Maria earns P3,000."
+      },
+      {
+        "rung": 2,
+        "title": "Annual Interest",
+        "text": "P3,000 per year. Now we need to find how many years to reach P9,000."
+      },
+      {
+        "rung": 3,
+        "title": "Divide",
+        "text": "9,000 / 3,000 = 3. So it takes 3 years."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "3 years. Check: 50,000 x 0.06 x 3 = 9,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P2,000? That would be 50,000 x 0.06 x 2 = 6,000, not 9,000. The student might have divided 9,000 by 6,000 incorrectly or used half the rate.",
+        "trap_type": "time_calculation_error"
+      },
+      "B": {
+        "text": "Correct! Using I = P x r x t, we get 9,000 = 50,000 x 0.06 x t → t = 9,000 / 3,000 = 3 years.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "P12,000? That's 50,000 x 0.06 x 4 = 12,000, which is too high. The student may have added an extra year or miscomputed the annual interest.",
+        "trap_type": "time_calculation_error"
+      },
+      "D": {
+        "text": "P15,000? That's 50,000 x 0.06 x 5 = 15,000. The student likely used the total amount instead of the interest or forgot to subtract the principal.",
+        "trap_type": "time_calculation_error"
+      }
+    },
+    "next_time_rule": "Remember: Simple Interest formula I = P x r x t. Solve for t by dividing I by (P x r). Always compute annual interest first.",
+    "blueprint_id": "Simple Interest — Finding Time",
+    "deconstruct_text": "Step 1: Identify the known values. Principal (P) = P50,000, rate (r) = 6% = 0.06, interest earned (I) = P9,000.\nStep 2: Use the simple interest formula: I = P x r x t.\nStep 3: Substitute: 9,000 = 50,000 x 0.06 x t.\nStep 4: Compute P x r = 50,000 x 0.06 = 3,000.\nStep 5: Solve for t: t = 9,000 / 3,000 = 3 years.\n\nWhy the wrong answers fail:\n- 2 years gives I = 50,000 x 0.06 x 2 = 6,000, too low.\n- 4 years gives I = 12,000, too high.\n- 5 years gives I = 15,000, even higher.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-009",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A laptop originally priced at P45,000 is sold at a 20% discount. What is the selling price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P34,000"
+      },
+      {
+        "key": "B",
+        "text": "P35,000"
+      },
+      {
+        "key": "C",
+        "text": "P36,000"
+      },
+      {
+        "key": "D",
+        "text": "P37,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Discount Amount",
+        "text": "20% of 45,000 = 0.20 x 45,000 = 9,000. So the discount is P9,000."
+      },
+      {
+        "rung": 2,
+        "title": "Compute",
+        "text": "0.20 x 45,000 = 9,000. Now subtract from original price."
+      },
+      {
+        "rung": 3,
+        "title": "Subtract",
+        "text": "45,000 - 9,000 = 36,000."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "P36,000. Alternatively, 45,000 x (1 - 0.20) = 45,000 x 0.80 = 36,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P34,000 might come from subtracting 11,000 (a miscalculated discount) or using 24% discount. The correct discount is 9,000, not 11,000.",
+        "trap_type": "discount_calculation_error"
+      },
+      "B": {
+        "text": "P35,000 could be from subtracting 10,000 (a flat amount) or miscomputing 20% as 10,000. The correct discount is 9,000.",
+        "trap_type": "discount_calculation_error"
+      },
+      "C": {
+        "text": "Correct! Discount = 0.20 x 45,000 = 9,000. Selling price = 45,000 - 9,000 = 36,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P37,000 might come from subtracting 8,000 (using 17.78% discount) or adding instead of subtracting. The correct discount is 9,000.",
+        "trap_type": "discount_calculation_error"
+      }
+    },
+    "next_time_rule": "Selling price = Original price x (1 - discount rate). Compute discount amount first, then subtract.",
+    "blueprint_id": "Discount Computation",
+    "deconstruct_text": "Step 1: Original price = P45,000, discount rate = 20% = 0.20.\nStep 2: Discount amount = 0.20 x 45,000 = 9,000.\nStep 3: Selling price = 45,000 - 9,000 = 36,000.\nAlternatively: Selling price = 45,000 x (1 - 0.20) = 45,000 x 0.80 = 36,000.\n\nWhy the wrong answers fail:\n- P34,000: discount of 11,000 (wrong calculation).\n- P35,000: discount of 10,000 (wrong calculation).\n- P37,000: discount of 8,000 (wrong calculation).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-010",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A store marks up an item by 25% from its cost of P2,400. What is the marked price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P2,800"
+      },
+      {
+        "key": "B",
+        "text": "P2,900"
+      },
+      {
+        "key": "C",
+        "text": "P3,000"
+      },
+      {
+        "key": "D",
+        "text": "P3,200"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Markup Amount",
+        "text": "25% of 2,400 = 0.25 x 2,400 = 600. So the markup is P600."
+      },
+      {
+        "rung": 2,
+        "title": "Compute",
+        "text": "600. Now add to cost."
+      },
+      {
+        "rung": 3,
+        "title": "Add to Cost",
+        "text": "2,400 + 600 = 3,000."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "P3,000. Alternatively, 2,400 x (1 + 0.25) = 2,400 x 1.25 = 3,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P2,800 might come from adding 400 (a 16.67% markup) or subtracting instead of adding. The correct markup is 600.",
+        "trap_type": "markup_calculation_error"
+      },
+      "B": {
+        "text": "P2,900 could be from adding 500 (a 20.83% markup) or miscalculating 25% as 500. The correct markup is 600.",
+        "trap_type": "markup_calculation_error"
+      },
+      "C": {
+        "text": "Correct! Markup = 0.25 x 2,400 = 600. Marked price = 2,400 + 600 = 3,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P3,200 might come from adding 800 (a 33.33% markup) or using 2,400 x 1.333. The correct markup is 600.",
+        "trap_type": "markup_calculation_error"
+      }
+    },
+    "next_time_rule": "Marked price = Cost x (1 + markup rate). Compute markup amount first, then add to cost.",
+    "blueprint_id": "Markup Computation",
+    "deconstruct_text": "Step 1: Cost = P2,400, markup rate = 25% = 0.25.\nStep 2: Markup amount = 0.25 x 2,400 = 600.\nStep 3: Marked price = 2,400 + 600 = 3,000.\nAlternatively: Marked price = 2,400 x (1 + 0.25) = 2,400 x 1.25 = 3,000.\n\nWhy the wrong answers fail:\n- P2,800: markup of 400 (wrong calculation).\n- P2,900: markup of 500 (wrong calculation).\n- P3,200: markup of 800 (wrong calculation).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-011",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's gross monthly salary is P30,000. Deductions amount to P7,500. What percentage is deducted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "35%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Percentage Formula",
+        "text": "Percentage = (Part / Whole) x 100%. Here Part = deductions (7,500), Whole = gross salary (30,000)."
+      },
+      {
+        "rung": 2,
+        "title": "Plug Numbers",
+        "text": "(7,500 / 30,000) x 100%."
+      },
+      {
+        "rung": 3,
+        "title": "Divide First",
+        "text": "7,500 / 30,000 = 0.25."
+      },
+      {
+        "rung": 4,
+        "title": "Convert",
+        "text": "0.25 x 100% = 25%. So 25% is deducted."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20% would be 6,000 (0.20 x 30,000). The student might have divided 7,500 by 37,500 (gross + deductions) or used 7,500/37,500 = 0.20.",
+        "trap_type": "wrong_base_for_percentage"
+      },
+      "B": {
+        "text": "Correct! Percentage = (7,500 / 30,000) x 100% = 25%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "30% would be 9,000 (0.30 x 30,000). The student might have subtracted 7,500 from 30,000 to get 22,500, then used 7,500/22,500 = 0.333, or simply miscomputed.",
+        "trap_type": "wrong_base_for_percentage"
+      },
+      "D": {
+        "text": "35% would be 10,500 (0.35 x 30,000). The student might have added 7,500 to 30,000 to get 37,500, then used 7,500/37,500 = 0.20, but then added 15%? Unclear, but definitely wrong.",
+        "trap_type": "wrong_base_for_percentage"
+      }
+    },
+    "next_time_rule": "Percentage = (part / whole) x 100%. The whole is the gross salary, not the net or any other figure.",
+    "blueprint_id": "Percentage — Deduction Rate",
+    "deconstruct_text": "Step 1: Identify the part (deductions = P7,500) and the whole (gross salary = P30,000).\nStep 2: Use the percentage formula: Percentage = (Part / Whole) x 100%.\nStep 3: Compute: 7,500 / 30,000 = 0.25.\nStep 4: Convert to percentage: 0.25 x 100% = 25%.\n\nWhy the wrong answers fail:\n- 20%: uses wrong base (e.g., 7,500/37,500).\n- 30%: uses wrong base (e.g., 7,500/22,500).\n- 35%: uses wrong base or miscalculation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-012",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P2,000,000 infrastructure project has 35% for labor, 45% for materials, and the rest for equipment. How much for equipment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P300,000"
+      },
+      {
+        "key": "B",
+        "text": "P350,000"
+      },
+      {
+        "key": "C",
+        "text": "P400,000"
+      },
+      {
+        "key": "D",
+        "text": "P450,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Equipment Percentage",
+        "text": "100% - 35% - 45% = 20%. So equipment gets 20% of the total."
+      },
+      {
+        "rung": 2,
+        "title": "20% of Total",
+        "text": "2,000,000 x 0.20 = ?"
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "2,000,000 x 0.20 = 400,000."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "P400,000. So equipment allocation is P400,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P300,000 would be 15% of 2,000,000. The student might have subtracted 35% and 45% incorrectly (e.g., 100 - 35 - 45 = 20, but then used 15% by mistake).",
+        "trap_type": "percentage_subtraction_error"
+      },
+      "B": {
+        "text": "P350,000 would be 17.5% of 2,000,000. The student might have averaged 35% and 45% or miscomputed the remaining percentage.",
+        "trap_type": "percentage_subtraction_error"
+      },
+      "C": {
+        "text": "Correct! Equipment percentage = 100% - 35% - 45% = 20%. Amount = 20% of 2,000,000 = 0.20 x 2,000,000 = 400,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P450,000 would be 22.5% of 2,000,000. The student might have added 35% and 45% to get 80%, then used 20% but miscalculated as 450,000, or used 45% - 35% = 10% then added something.",
+        "trap_type": "percentage_subtraction_error"
+      }
+    },
+    "next_time_rule": "Remaining percentage = 100% - sum of known percentages. Then multiply by total budget.",
+    "blueprint_id": "Percentage — Budget Allocation",
+    "deconstruct_text": "Step 1: Total budget = P2,000,000.\nStep 2: Labor = 35%, Materials = 45%. Sum = 80%.\nStep 3: Equipment percentage = 100% - 80% = 20%.\nStep 4: Equipment amount = 20% of 2,000,000 = 0.20 x 2,000,000 = 400,000.\n\nWhy the wrong answers fail:\n- P300,000: uses 15% instead of 20%.\n- P350,000: uses 17.5% (maybe average of 35 and 45).\n- P450,000: uses 22.5% (maybe 45% - 35% = 10%, then added to 35%?).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-013",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A fish vendor bought fish for P800 and sold it for P1,040. What is the percentage profit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "35%"
+      },
+      {
+        "key": "D",
+        "text": "40%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Profit Amount",
+        "text": "First, find the profit: Selling Price minus Cost Price. P1,040 - P800 = P240."
+      },
+      {
+        "rung": 2,
+        "title": "Profit % Formula",
+        "text": "Percentage profit is (Profit / Cost Price) × 100%. The cost price is the original amount paid, P800."
+      },
+      {
+        "rung": 3,
+        "title": "Plug Values",
+        "text": "Substitute: (P240 / P800) × 100% = 0.3 × 100%."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "0.3 × 100% = 30%. So the correct answer is 30%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25%. This comes from computing (Profit / Selling Price) × 100% = (240/1040) × 100% ≈ 23%, then rounding to 25% or confusing the base. Always divide by cost, not selling price.",
+        "trap_type": "base_confusion_cost_vs_selling"
+      },
+      "B": {
+        "text": "Correct! Profit = P1,040 - P800 = P240. Percentage profit = (240/800) × 100% = 30%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "35%. This might come from adding 10% to the correct 30% or miscalculating 240/800 as 0.35. Verify: 240/800 = 0.3 exactly, not 0.35.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "D": {
+        "text": "40%. This results from using the selling price as base: (240/1040) × 100% ≈ 23%, not 40%. Or from incorrectly computing 240/600 = 0.4, but cost is 800, not 600.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Profit % = (Profit / Cost) × 100%. Always divide by the original cost, not the selling price.",
+    "blueprint_id": "Profit Margin Computation",
+    "deconstruct_text": "**Step 1: Compute the profit.** Profit = Selling Price - Cost Price = P1,040 - P800 = P240.\n\n**Step 2: Apply the percentage profit formula.** Percentage profit = (Profit / Cost Price) × 100% = (P240 / P800) × 100%.\n\n**Step 3: Simplify the fraction.** 240/800 = 0.3.\n\n**Step 4: Convert to percentage.** 0.3 × 100% = 30%.\n\n**Why the wrong answers are incorrect:**\n- **25%** (Option A): This would be correct if the profit were P200, but it's P240. Or it comes from dividing by selling price: 240/1040 ≈ 23%, then rounding incorrectly.\n- **35%** (Option C): Likely a calculation error, e.g., 240/800 = 0.35? No, 240/800 = 0.3 exactly.\n- **40%** (Option D): This would be the profit if the cost were P600, but the cost is P800. Or using selling price as base: 240/600 = 0.4, but that's not the formula.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-014",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A barangay's population increased from 3,000 to 3,600. What is the percentage increase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "18%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": "25%"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Increase Amount",
+        "text": "Find the increase: New population minus Original population. 3,600 - 3,000 = 600."
+      },
+      {
+        "rung": 2,
+        "title": "% Increase Formula",
+        "text": "Percentage increase = (Increase / Original) × 100%. The original is the starting value, 3,000."
+      },
+      {
+        "rung": 3,
+        "title": "Plug Values",
+        "text": "Substitute: (600 / 3,000) × 100% = 0.2 × 100%."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "0.2 × 100% = 20%. So the correct answer is 20%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "15%. This might come from dividing the increase by the new population: 600/3600 = 0.1667 ≈ 17%, not 15%. Or from a miscalculation like 600/4000 = 0.15.",
+        "trap_type": "base_confusion_original_vs_new"
+      },
+      "B": {
+        "text": "18%. Possibly from computing 600/3333 ≈ 0.18, or a rounding error. The correct division is 600/3000 = 0.2 exactly.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! Increase = 600. Percentage increase = (600/3000) × 100% = 20%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "25%. This would be correct if the increase were 750 (25% of 3000), but the increase is only 600. Or from dividing 600 by 2400 = 0.25, but original is 3000.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** % increase = (new - original) / original × 100%. Always divide by the original value.",
+    "blueprint_id": "Percentage Increase — Population",
+    "deconstruct_text": "**Step 1: Compute the increase.** Increase = New Population - Original Population = 3,600 - 3,000 = 600.\n\n**Step 2: Apply the percentage increase formula.** Percentage increase = (Increase / Original) × 100% = (600 / 3,000) × 100%.\n\n**Step 3: Simplify the fraction.** 600/3,000 = 0.2.\n\n**Step 4: Convert to percentage.** 0.2 × 100% = 20%.\n\n**Why the wrong answers are incorrect:**\n- **15%** (Option A): This would be 15% of 3,000 = 450, but the increase is 600. Or dividing by new population: 600/3600 ≈ 16.7%.\n- **18%** (Option B): No simple calculation yields 18% from these numbers; likely a random guess or arithmetic slip.\n- **25%** (Option D): 25% of 3,000 = 750, but the increase is only 600. Or dividing 600 by 2,400 (if mistakenly using 3,600-1,200) gives 0.25.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-015",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A civil servant took a personal loan of P120,000 at 8% simple interest. Total to repay after 2 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P129,600"
+      },
+      {
+        "key": "B",
+        "text": "P134,400"
+      },
+      {
+        "key": "C",
+        "text": "P139,200"
+      },
+      {
+        "key": "D",
+        "text": "P144,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Interest Formula",
+        "text": "Simple interest I = Principal × Rate × Time. Here, Principal = P120,000, Rate = 8% = 0.08, Time = 2 years."
+      },
+      {
+        "rung": 2,
+        "title": "Compute Interest",
+        "text": "I = 120,000 × 0.08 × 2 = 120,000 × 0.16 = 19,200."
+      },
+      {
+        "rung": 3,
+        "title": "Total Repayment",
+        "text": "Total = Principal + Interest = 120,000 + 19,200."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Total = P139,200. So the correct answer is P139,200."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P129,600. This results from using only 1 year of interest: 120,000 × 0.08 = 9,600, then adding to principal: 120,000 + 9,600 = 129,600. But the loan is for 2 years.",
+        "trap_type": "time_period_error_one_year"
+      },
+      "B": {
+        "text": "P134,400. This comes from computing interest as 120,000 × 0.08 × 1.5 = 14,400, then adding to principal. Possibly misreading 2 years as 1.5 years or a calculation error.",
+        "trap_type": "time_period_error_one_point_five"
+      },
+      "C": {
+        "text": "Correct! I = 120,000 × 0.08 × 2 = 19,200. Total = 120,000 + 19,200 = 139,200.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P144,000. This is simply 120,000 × 1.2 = 144,000, which would be a 20% total increase, not 8% per year for 2 years. Or using 120,000 × 0.08 × 2.5 = 24,000, then adding.",
+        "trap_type": "percentage_rate_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Total repayment = Principal + (P × r × t). For simple interest, multiply principal by rate and time in years.",
+    "blueprint_id": "Simple Interest — Loan Repayment",
+    "deconstruct_text": "**Step 1: Identify the variables.** Principal (P) = P120,000, Annual interest rate (r) = 8% = 0.08, Time (t) = 2 years.\n\n**Step 2: Compute simple interest.** I = P × r × t = 120,000 × 0.08 × 2 = 120,000 × 0.16 = 19,200.\n\n**Step 3: Compute total repayment.** Total = Principal + Interest = 120,000 + 19,200 = 139,200.\n\n**Why the wrong answers are incorrect:**\n- **P129,600** (Option A): This uses only 1 year of interest (120,000 × 0.08 = 9,600), forgetting the loan term is 2 years.\n- **P134,400** (Option B): This uses 1.5 years of interest (120,000 × 0.08 × 1.5 = 14,400), perhaps misreading 2 years as 18 months.\n- **P144,000** (Option D): This is 120,000 × 1.2, which implies a 20% total interest over 2 years, but the correct total interest is 16% (8% per year).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-016",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A jacket sold for P1,800 after a 10% discount. What was its original price?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,900"
+      },
+      {
+        "key": "B",
+        "text": "P1,950"
+      },
+      {
+        "key": "C",
+        "text": "P2,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,100"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Discount Relationship",
+        "text": "A 10% discount means the selling price is 90% of the original price. So 0.90 × Original = P1,800."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Equation",
+        "text": "Let Original = x. Then 0.90x = 1,800."
+      },
+      {
+        "rung": 3,
+        "title": "Solve for x",
+        "text": "Divide both sides by 0.90: x = 1,800 / 0.90."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "1,800 / 0.90 = 2,000. So the original price was P2,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1,900. This comes from adding 10% of the selling price to itself: 1,800 + 180 = 1,980, then rounding down to 1,900. But the discount is on the original price, not the selling price.",
+        "trap_type": "discount_on_selling_price"
+      },
+      "B": {
+        "text": "P1,950. Possibly from adding 150 (which is 10% of 1,500) or a miscalculation. The correct method: original = 1,800 / 0.9 = 2,000.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! Selling price = 90% of original. So original = 1,800 / 0.90 = 2,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P2,100. This results from adding 10% of the selling price: 1,800 + 180 = 1,980, then adding another 120 to reach 2,100. Or from 1,800 / 0.857 ≈ 2,100, but the correct divisor is 0.90.",
+        "trap_type": "wrong_base_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find original price after a discount: original = selling price / (1 - discount rate). Never add the discount percentage to the selling price.",
+    "blueprint_id": "Finding Original Price After Discount",
+    "deconstruct_text": "**Step 1: Understand the discount.** A 10% discount means the customer pays 90% of the original price. So Selling Price = 90% of Original.\n\n**Step 2: Set up the equation.** 0.90 × Original = P1,800.\n\n**Step 3: Solve for Original.** Original = P1,800 / 0.90 = P2,000.\n\n**Why the wrong answers are incorrect:**\n- **P1,900** (Option A): This is close to adding 10% of the selling price (1,800 + 180 = 1,980), but not exact. The correct addition is 10% of the original, which is 200, giving 2,000.\n- **P1,950** (Option B): No straightforward calculation yields this; likely a guess or arithmetic error.\n- **P2,100** (Option D): This would be the result if the discount were applied to the selling price incorrectly: 1,800 + 300 = 2,100, but 10% of 2,100 is 210, not 300.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-017",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government office spends 18% of its annual budget on electricity. If electricity costs P216,000 yearly, what is the total annual budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,100,000"
+      },
+      {
+        "key": "C",
+        "text": "P1,200,000"
+      },
+      {
+        "key": "D",
+        "text": "P1,300,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Percentage Relationship",
+        "text": "Electricity cost = 18% of total budget. So 0.18 × Budget = P216,000."
+      },
+      {
+        "rung": 2,
+        "title": "Set Up Equation",
+        "text": "Let Budget = B. Then 0.18B = 216,000."
+      },
+      {
+        "rung": 3,
+        "title": "Solve for B",
+        "text": "Divide both sides by 0.18: B = 216,000 / 0.18."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "216,000 / 0.18 = 1,200,000. So the total annual budget is P1,200,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1,000,000. This comes from dividing 216,000 by 0.216 (which is 21.6%) or from 216,000 / 0.216 = 1,000,000. But the correct percentage is 18%, not 21.6%.",
+        "trap_type": "percentage_rate_error"
+      },
+      "B": {
+        "text": "P1,100,000. This might result from 216,000 / 0.19636 ≈ 1,100,000, but the correct divisor is 0.18. Or from adding 216,000 to 884,000 (a random figure).",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct! Budget = 216,000 / 0.18 = 1,200,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P1,300,000. This could be from 216,000 / 0.16615 ≈ 1,300,000, but 18% is 0.18, not 0.166. Or from adding 216,000 to 1,084,000.",
+        "trap_type": "percentage_rate_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the total from a percentage portion: total = part / (percentage as decimal). For 18%, divide by 0.18.",
+    "blueprint_id": "Finding Total from Percentage Portion",
+    "deconstruct_text": "**Step 1: Understand the relationship.** Electricity cost (P216,000) is 18% of the total annual budget. So 0.18 × Budget = 216,000.\n\n**Step 2: Solve for Budget.** Budget = 216,000 / 0.18.\n\n**Step 3: Perform the division.** 216,000 ÷ 0.18 = 216,000 ÷ (18/100) = 216,000 × (100/18) = 216,000 × 5.555... = 1,200,000.\n\n**Why the wrong answers are incorrect:**\n- **P1,000,000** (Option A): This would be correct if the percentage were 21.6% (216,000/1,000,000 = 0.216), but it's 18%.\n- **P1,100,000** (Option B): 18% of 1,100,000 = 198,000, not 216,000. So this is too low.\n- **P1,300,000** (Option D): 18% of 1,300,000 = 234,000, which is higher than 216,000. So this is too high.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

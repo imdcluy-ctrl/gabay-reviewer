@@ -1,0 +1,61 @@
+id: num-ratio-009
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 3
+is_free: true
+language: en
+tags: ["continued-ratio", "employee-categories"]
+estimated_seconds: 110
+question_text: "In an agency division, the ratio of permanent staff to casual staff is 4:3, and the ratio of casual staff to job order staff is 6:5. What is the ratio of permanent staff to job order staff?"
+options:
+  - key: A
+    text: "4:5"
+  - key: B
+    text: "8:5"
+  - key: C
+    text: "6:5"
+  - key: D
+    text: "12:5"
+correct: B
+blueprint_id: "Ratio and Proportion — combining continued ratios (A:B and B:C to find A:C)"
+hint_ladder:
+  - rung: 1
+    title: "Identify Common Term"
+    text: "Casual staff is the common term linking Permanent (P:C = 4:3) and Job Order (C:J = 6:5)."
+  - rung: 2
+    title: "Equalize Common Term"
+    text: "In P:C it is 3; in C:J it is 6. LCM of 3 and 6 is 6."
+  - rung: 3
+    title: "Scale First Ratio"
+    text: "Multiply P:C (4:3) by 2 → P:C becomes 8:6."
+  - rung: 4
+    title: "Combine and Extract P:J"
+    text: "Now P:C:J = 8:6:5. Therefore, P:J = 8:5."
+deconstruct_text: |
+  Given:
+  P : C = 4 : 3
+  C : J = 6 : 5
+
+  To combine, make C equal in both ratios:
+  Multiply P : C by 2 → 8 : 6
+  C : J is already 6 : 5
+
+  Combined ratio P : C : J = 8 : 6 : 5
+  Therefore, Permanent : Job Order (P : J) = 8 : 5
+choice_explanations:
+  A:
+    text: "Taking the first number 4 and last number 5 directly without equalizing casual staff."
+    trap_type: wrong_part
+  B:
+    text: "Correct! Equalizing casual staff to 6 gives P:C:J = 8:6:5, so P:J = 8:5."
+    trap_type: null
+  C:
+    text: "Confusing C:J with P:J."
+    trap_type: wrong_part
+  D:
+    text: "Multiplying terms incorrectly (4×3 : 5)."
+    trap_type: formula_misapplication
+next_time_rule: "When connecting two ratios (A:B and B:C), find the Least Common Multiple (LCM) of the common term B to combine them."
+status: live
+reviewed_by: null
+source_notes: "Agency employment classification continued ratio problem"

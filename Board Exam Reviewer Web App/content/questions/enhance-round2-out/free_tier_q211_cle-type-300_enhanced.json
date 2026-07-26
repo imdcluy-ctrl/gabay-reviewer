@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-300",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Typing Accuracy Percentage Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A court stenographer typed 400 total words with 8 typing errors. What is the stenographer's typing ACCURACY percentage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "98%"
+      },
+      {
+        "key": "B",
+        "text": "2%"
+      },
+      {
+        "key": "C",
+        "text": "93%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is about accuracy, not errors. Accuracy means how much of what was typed was correct. Start by figuring out how many words were typed correctly."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Formula",
+        "text": "Accuracy is always: (Correct words / Total words) times 100. You know the total words (400) and the errors (8). So correct words = total words minus errors."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Formula",
+        "text": "Correct words = 400 minus 8 = 392. Now plug that into the formula: (392 / 400) times 100. See if you can simplify that fraction or do the division."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "392 divided by 400 equals 0.98. Multiply by 100 to get the percentage. That gives you 98%. Now look at the options and pick the one that matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "That's right. You correctly calculated accuracy as (400 minus 8) divided by 400, which is 392/400 or 0.98, and then multiplied by 100 to get 98%. You kept your focus on accuracy, not errors.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mix-up. You calculated the error rate (8/400 = 2%) instead of the accuracy rate. Accuracy and error rate are opposites: accuracy = 100% minus error rate. So if the error rate is 2%, accuracy is 98%. Next time, ask yourself: am I finding the mistakes or the successes?",
+        "trap_type": "error_vs_accuracy_confusion"
+      },
+      "C": {
+        "text": "This looks like a simple arithmetic slip. Maybe you divided 392 by 400 and got 0.93 instead of 0.98. It happens under time pressure. A quick check: 392/400 is the same as 98/100, which is clearly 0.98, not 0.93. Always simplify the fraction first if you can.",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "It's tempting to think that because the errors seem small, accuracy is perfect. But 8 errors out of 400 words means something went wrong. Accuracy of 100% would require zero errors. Always account for every error when calculating accuracy.",
+        "trap_type": "omitted_error_step"
+      }
+    },
+    "next_time_rule": "Accuracy percentage = (Total words minus errors) divided by total words, times 100. Or, if it's faster: accuracy = 100% minus error rate. Never confuse accuracy with error rate.",
+    "deconstruct_text": "Let's walk through this together. The stenographer typed 400 words total and made 8 errors. To find accuracy, we first need the number of correctly typed words: 400 minus 8 equals 392 correct words. Accuracy is the ratio of correct words to total words, expressed as a percentage. So we take 392 divided by 400, which gives us 0.98. Multiply by 100, and we get 98%. That's the answer. A quick mental trick for next time: if you ever find yourself calculating the error rate instead, just remember that accuracy and error rate are two sides of the same coin. Error rate is errors divided by total. Accuracy is correct divided by total. They always add up to 100%. So if you accidentally find the error rate first, just subtract it from 100% to get the accuracy.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

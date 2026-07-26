@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-100",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Contrapositive Equivalence — Legal Mandate",
+    "difficulty_level": 3,
+    "question_text": "Rule: 'If a municipality achieves a 95% revenue collection rate, then it is awarded the Seal of Good Local Governance.'\n\nWhich of the following statements is LOGICALLY EQUIVALENT to the rule above?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If a municipality is NOT awarded the Seal of Good Local Governance, then it did NOT achieve a 95% revenue collection rate."
+      },
+      {
+        "key": "B",
+        "text": "If a municipality achieves a 95% revenue collection rate, it might not receive the Seal."
+      },
+      {
+        "key": "C",
+        "text": "If a municipality is awarded the Seal, then it must have achieved a 95% revenue collection rate."
+      },
+      {
+        "key": "D",
+        "text": "If a municipality does NOT achieve 95% revenue collection, it cannot receive any award."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the logic pattern",
+        "text": "This question is testing your understanding of a classic logical move. The original statement has an 'if...then...' structure. There is exactly one other way to say the same thing that is always true."
+      },
+      {
+        "rung": 2,
+        "title": "The contrapositive rule",
+        "text": "For any 'If P, then Q' statement, the logically equivalent version is 'If NOT Q, then NOT P.' You flip the two parts and negate both. This is called the contrapositive, and it always matches the original."
+      },
+      {
+        "rung": 3,
+        "title": "Apply it to this problem",
+        "text": "Here, P is 'achieves 95% revenue collection' and Q is 'awarded the Seal.' So NOT Q is 'NOT awarded the Seal,' and NOT P is 'did NOT achieve 95%.' Putting it together: If NOT Q, then NOT P."
+      },
+      {
+        "rung": 4,
+        "title": "Find the match",
+        "text": "Look for the option that says: 'If a municipality is NOT awarded the Seal, then it did NOT achieve 95% revenue collection rate.' That is your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is exactly right. You've identified the contrapositive, which is the only statement that is logically equivalent to the original. In logic, 'If P, then Q' always means the same as 'If NOT Q, then NOT P.' Great work spotting it.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one actually contradicts the original rule. The original says achieving 95% guarantees the Seal, but this option says it might not happen. A smart test-taker might pick this if they confuse 'logically equivalent' with 'related idea,' but they are opposites here.",
+        "trap_type": "rule_contradiction"
+      },
+      "C": {
+        "text": "This is a common trap called the converse. It flips the order without negating: 'If Q, then P.' Many people assume this is the same, but it's not. For example, a municipality could earn the Seal for other achievements like excellent health programs, so getting the Seal doesn't prove they hit 95% revenue. The converse is not logically equivalent.",
+        "trap_type": "converse_fallacy"
+      },
+      "D": {
+        "text": "This is the inverse, another classic trap. It negates both parts without flipping: 'If NOT P, then NOT Q.' This is also not equivalent. Plus, it overreaches by saying 'cannot receive any award,' which goes beyond the original rule. The original only talks about the Seal, not all awards.",
+        "trap_type": "inverse_fallacy"
+      }
+    },
+    "next_time_rule": "When you see 'If P, then Q,' immediately ask yourself: 'What is the contrapositive?' That is 'If NOT Q, then NOT P.' It is the only safe equivalent. Watch out for the converse (flip only) and inverse (negate only) — they are tempting but wrong.",
+    "deconstruct_text": "Let's walk through this together. The original rule is a classic 'If P, then Q' statement. Here, P is 'achieves a 95% revenue collection rate' and Q is 'awarded the Seal of Good Local Governance.' In logic, the only statement that is guaranteed to mean the same thing is the contrapositive: 'If NOT Q, then NOT P.' That translates to: 'If a municipality is NOT awarded the Seal, then it did NOT achieve a 95% revenue collection rate.' That is exactly option A.\n\nNow, why are the others wrong? Option B says the opposite of the rule — it suggests the award is not guaranteed, but the rule says it is. Option C is the converse (If Q, then P), which is a common mistake. Just because the Seal is awarded doesn't mean it was for revenue collection; it could be for other reasons. Option D is the inverse (If NOT P, then NOT Q), which is also not equivalent. It also goes too far by saying 'cannot receive any award,' which is not part of the original rule.\n\nHere is a mental trick for exam day: Think of the contrapositive as the 'flip and negate' move. If you ever see an 'if...then...' statement and need its logical twin, just flip the two parts and add 'not' to each. That is your answer every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-005",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On an official LGU land survey map, a scale of 2 centimeters represents an actual distance of 5 kilometers. If two barangay halls are 7 centimeters apart on the map, what is their actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 km"
+      },
+      {
+        "key": "B",
+        "text": "17.5 km"
+      },
+      {
+        "key": "C",
+        "text": "20 km"
+      },
+      {
+        "key": "D",
+        "text": "35 km"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang Scale",
+        "text": "Tingnan ang ratio: 2 cm sa mapa = 5 km sa totoong distansya. Pareho lang ang relasyon. Parang recipe: sa bawat 2 cm, 5 km ang katapat."
+      },
+      {
+        "rung": 2,
+        "title": "Unit Scale Rule",
+        "text": "Hanapin kung ilang km ang 1 cm. Hatiin ang 5 km sa 2: 5 ÷ 2 = 2.5 km per cm. Ito ang 'multiplier' mo. O gumamit ng proportion: 2/5 = 7/x."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Dito",
+        "text": "Multiply ang 7 cm sa scale factor na 2.5 km/cm. Pwede mong isipin: 7 × 2 = 14, plus 7 × 0.5 = 3.5. Total ay 14 + 3.5 = 17.5 km."
+      },
+      {
+        "rung": 4,
+        "title": "Cross-Check",
+        "text": "Cross-multiply: 2x = 7 × 5 → 2x = 35 → x = 17.5. Pareho ang sagot. Tandaan: huwag kakalimutan ang '2' sa ratio."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you multiplied 7 and 2 nalang, naiwan ang 5 sa scale. Parang 2 cm = 2 km, pero 5 km talaga yun.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. Nakuha mo ang unit scale na 2.5 km/cm at minultiply sa 7, o nag-cross-multiply nang tama. Perfect!",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because nag-round up ka mula 17.5 o nagkamali sa multiplication (e.g., 7 × 2.86 ≈ 20). Double-check ang arithmetic.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because minultiply mo 7 × 5 nang hindi hinati sa 2. Tandaan, 2 cm = 5 km, hindi 1 cm = 5 km.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "Hanapin unit scale: hatiin real dist. sa map cm (5÷2=2.5 km/cm). Multiply sa bagong map cm. O cross-multiply: map1/real1=map2/real2.",
+    "blueprint_id": "Ratio and Proportion — map scale proportional reasoning",
+    "deconstruct_text": "Ate/Kuya guide: Isipin natin parang nagpaplano si Kapitan ng Barangay ng ruta ng parada. May official map siya mula sa LGU survey. Nakasulat: 2 cm = 5 km.\n\nSo, kung 2 cm ang layo sa mapa, 5 km ang lalakarin. Proportion yan—doble ng mapa, doble ng totoong layo. Una, alamin natin ang katumbas ng 1 cm: 5 km ÷ 2 = 2.5 km bawat cm.\n\nNgayon, ang tanong ay 7 cm sa mapa. Multiply: 7 × 2.5 km = 17.5 km. Pwede rin via proportion: 2/5 = 7/x. Cross-multiply: 2x = 35, x = 17.5.\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Madalas malito sa alin ang i-...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

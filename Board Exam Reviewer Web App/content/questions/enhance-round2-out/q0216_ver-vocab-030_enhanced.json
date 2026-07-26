@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-030",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'ADVOCATE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oppose"
+      },
+      {
+        "key": "B",
+        "text": "Publicly support"
+      },
+      {
+        "key": "C",
+        "text": "Ignore"
+      },
+      {
+        "key": "D",
+        "text": "Criticize"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What's the root?",
+        "text": "Advocate comes from 'ad' (to) + 'vocare' (to call). Parang tinatawag mo ang suporta ng iba para sa isang adhikain."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate the negative",
+        "text": "Tanggalin mo agad ang Oppose, Ignore, at Criticize kasi lahat sila ay negative o walang pakialam. Ang advocate ay positive action."
+      },
+      {
+        "rung": 3,
+        "title": "Pin-point the public support",
+        "text": "Yung 'publicly support' ay may kasamang salitang 'publicly'—ibig sabihin tahasang pagkilos, hindi tahimik na sang-ayon lang. Yun ang advocate."
+      },
+      {
+        "rung": 4,
+        "title": "Remember the barangay captain",
+        "text": "Isipin mo si Kapitan na todo-suporta sa budget: yan ang advocate. Sa exam, hanapin ang salitang nagpapakita ng aktibong pagtulong."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 'oppose' is synonymous, but advocate means to support, not to fight against.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct. Advocate means to publicly support a cause or policy, like a barangay captain pushing for a health center.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you confused it with 'avoid,' but advocate is about active engagement, not ignoring.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "D": {
+        "text": "You might have chosen D because you associated it with legal criticism, but advocate in general use means to promote, not find fault.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Pag nakita mo ang 'advocate,' isipin mo agad na 'to publicly support'—walang halong pagkontra o pananahimik. Simplehan lang!",
+    "blueprint_id": "Vocabulary — Advocate",
+    "deconstruct_text": "Sa barangay ninyo, si Kapitan ay nag-aadvocate na palakihin ang budget para sa health center. Ibig sabihin, todo-suporta siya at hindi lang puro salita. 'Advocate' ay hindi nangangahulugang tumututol o pumipintas.\n\nMadaling tandaan: 'Advo' parang 'advance,' kaya hindi ka aatras—sa halip, isusulong mo! Sa exam, kapag may advocate, ang pinakamalapit na kahulugan ay 'publicly support' dahil laging may aksyon at hindi passive.\n\n**Watch-Out Zone: synonym_antonym_inversion** in action. Akala mo kalaban, pero ally pala!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-100",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Invoice Discrepancy Verification Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A clerk is auditing a supplier invoice for 10 office chairs priced at ₱250 per unit. The invoice total lists ₱3,000. What is the variance between the invoice total and the actual computed total?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱500 overcharge"
+      },
+      {
+        "key": "B",
+        "text": "₱500 undercharge"
+      },
+      {
+        "key": "C",
+        "text": "₱250 overcharge"
+      },
+      {
+        "key": "D",
+        "text": "₱0 (No variance)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with what you know",
+        "text": "You have two numbers: the unit price and the quantity. Before you even look at the invoice total, figure out what the correct total should be. That's your anchor."
+      },
+      {
+        "rung": 2,
+        "title": "The simple multiplication rule",
+        "text": "Expected total = quantity times unit price. Here, that's 10 chairs times 250 pesos each. Do that multiplication in your head or on scratch paper."
+      },
+      {
+        "rung": 3,
+        "title": "Now compare the two totals",
+        "text": "You've got your expected total (2,500) and the invoice says 3,000. One is bigger than the other. Subtract the smaller from the larger to find the gap. That gap is the variance."
+      },
+      {
+        "rung": 4,
+        "title": "Decide the direction",
+        "text": "Since the invoice amount (3,000) is bigger than what it should be (2,500), the difference of 500 is an overcharge. The supplier is charging you more than they should."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You did the math right: 10 chairs times 250 pesos each gives an expected total of 2,500 pesos. The invoice says 3,000, which is 500 pesos more. That's an overcharge of exactly 500 pesos.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You got the right number (500) but flipped the direction. It's easy to do under pressure—you might have subtracted the invoice from the expected total instead of the other way around. Remember: the invoice is higher, so it's an overcharge, not an undercharge.",
+        "trap_type": "variance_direction_error"
+      },
+      "C": {
+        "text": "This one is tricky. You might have noticed that 3,000 divided by 10 chairs gives 300 per chair, which is 50 more than 250. Then maybe you multiplied that 50 by only 5 chairs instead of all 10, or you halved the total discrepancy by mistake. The full difference across all 10 chairs is 500 pesos.",
+        "trap_type": "single_unit_variance_error"
+      },
+      "D": {
+        "text": "It's tempting to trust the invoice at face value, especially when the numbers look round and clean. But a good clerk always double-checks. The expected total is 2,500, not 3,000. There is definitely a variance here.",
+        "trap_type": "omitted_verification_error"
+      }
+    },
+    "next_time_rule": "For any invoice check, always compute the expected total first: Quantity x Unit Price. Then find the variance: Invoice Total minus Expected Total. A positive result means overcharge; a negative result means undercharge. This two-step process keeps you from mixing up the direction.",
+    "deconstruct_text": "Let's walk through this like a real clerk would. First, ignore the invoice total for a moment and figure out what the correct amount should be. You have 10 chairs at 250 pesos each. Ten times 250 is 2,500—that's your expected total. Now look at the invoice: it says 3,000 pesos. Compare the two: 3,000 minus 2,500 gives you 500. Since the invoice is higher, that 500 is an overcharge. The mental trick here is to always compute the expected total first, then compare. That way, you're not influenced by what the invoice says. Think of it like this: the expected total is your truth, and the invoice is what someone else claims. Your job is to find the gap and say whether they're charging you too much or too little.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

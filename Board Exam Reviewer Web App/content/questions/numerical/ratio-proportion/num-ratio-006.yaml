@@ -1,0 +1,55 @@
+id: num-ratio-006
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["inverse-proportion", "manpower"]
+estimated_seconds: 90
+question_text: "A road maintenance team of 6 DPWH workers can repair a barangay road in 12 days. If 3 additional workers with the same work rate join the team, how many days will it take to finish the repair?"
+options:
+  - key: A
+    text: "6 days"
+  - key: B
+    text: "8 days"
+  - key: C
+    text: "9 days"
+  - key: D
+    text: "18 days"
+correct: B
+blueprint_id: "Ratio and Proportion — inverse proportion manpower problems"
+hint_ladder:
+  - rung: 1
+    title: "Identify Inverse Proportion"
+    text: "More workers = FEWER days needed to finish the work."
+  - rung: 2
+    title: "Calculate Total Man-Days"
+    text: "Work = 6 workers × 12 days = 72 man-days."
+  - rung: 3
+    title: "Find New Worker Count"
+    text: "6 original + 3 additional = 9 total workers."
+  - rung: 4
+    title: "Divide Work by New Workers"
+    text: "72 man-days ÷ 9 workers = 8 days."
+deconstruct_text: |
+  Inverse proportion rule: W1 × D1 = W2 × D2
+  Total work = 6 workers × 12 days = 72 man-days
+  New worker count = 6 + 3 = 9 workers
+  Days needed = 72 ÷ 9 = 8 days
+choice_explanations:
+  A:
+    text: "Dividing 12 days by 2."
+    trap_type: formula_misapplication
+  B:
+    text: "Correct! Total work = 72 man-days. 72 man-days ÷ 9 workers = 8 days."
+    trap_type: null
+  C:
+    text: "Subtracting 3 workers directly from 12 days."
+    trap_type: misread_keyword
+  D:
+    text: "Treating this as direct proportion (6/12 = 9/X → X = 18 days). Remember: more workers = FEWER days!"
+    trap_type: formula_misapplication
+next_time_rule: "For manpower and work time problems, use inverse proportion: (Workers × Days) is constant."
+status: live
+reviewed_by: null
+source_notes: "DPWH road maintenance inverse proportion problem"

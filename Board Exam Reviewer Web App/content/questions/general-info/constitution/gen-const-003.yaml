@@ -1,0 +1,53 @@
+id: gen-const-003
+subtopic: philippine-constitution
+category: general-info
+difficulty: 2
+is_free: true
+language: en
+tags: ["philippine-constitution", "branches-of-government"]
+estimated_seconds: 60
+question_text: "Under the 1987 Philippine Constitution, legislative power is vested in the Congress of the Philippines, which consists of __?"
+options:
+  - key: A
+    text: "The Senate and the House of Representatives"
+  - key: B
+    text: "The President and the Cabinet"
+  - key: C
+    text: "The Supreme Court and Lower Courts"
+  - key: D
+    text: "The Civil Service Commission and Commission on Audit"
+correct: A
+blueprint_id: "1987 Philippine Constitution — Article VI Section 1 Legislative Department"
+hint_ladder:
+  - rung: 1
+    title: "Identify Branch of Government"
+    text: "Legislative power belongs to the law-making branch (Congress)."
+  - rung: 2
+    title: "Bicameral Structure"
+    text: "Philippine Congress is bicameral (two chambers)."
+  - rung: 3
+    title: "Identify Chambers"
+    text: "Upper House = Senate; Lower House = House of Representatives."
+  - rung: 4
+    title: "Select Option A"
+    text: "Option A is 'The Senate and the House of Representatives'."
+deconstruct_text: |
+  1987 Constitution Article VI Section 1:
+  'The legislative power shall be vested in the Congress of the Philippines which shall consist of a Senate and a House of Representatives, except to the extent reserved to the people by the provision on initiative and referendum.'
+choice_explanations:
+  A:
+    text: "Correct! Article VI Section 1 specifies Senate and House of Representatives."
+    trap_type: null
+  B:
+    text: "Vests Executive power (Article VII), not Legislative."
+    trap_type: branch_confusion
+  C:
+    text: "Vests Judicial power (Article VIII), not Legislative."
+    trap_type: branch_confusion
+  D:
+    text: "Independent Constitutional Commissions (Article IX), not Congress."
+    trap_type: commission_confusion
+next_time_rule: "Article VI Section 1 vests legislative power in the bicameral Congress (Senate & House of Representatives)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "1987 Philippine Constitution Article VI Section 1"

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-011",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "Constitution 1: Which branch of government has the power of impeachment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "President"
+      },
+      {
+        "key": "B",
+        "text": "Congress"
+      },
+      {
+        "key": "C",
+        "text": "Supreme Court"
+      },
+      {
+        "key": "D",
+        "text": "Ombudsman"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about which branch of government is designed to check the power of the other branches. Impeachment is a key check and balance."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The power to impeach is split into two parts: the House of Representatives starts the process by voting on articles of impeachment, and the Senate conducts the trial. Both are chambers of the same branch."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Since the House and Senate are both part of Congress, the power of impeachment belongs to the legislative branch. The President, Supreme Court, and Ombudsman are not part of Congress."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The correct answer is the branch that includes both the House of Representatives and the Senate. That's Congress."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to think the President might have a hand in impeachment since they're the highest official, but the President is the one who can be impeached, not the one who does the impeaching. Impeachment is a power of the legislative branch to hold the executive branch accountable.",
+        "trap_type": "executive_vs_legislative"
+      },
+      "B": {
+        "text": "Correct. Under Article XI of the 1987 Constitution, the House of Representatives initiates impeachment, and the Senate conducts the trial. Since both are chambers of Congress, the legislative branch holds the impeachment power.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The Supreme Court is the judicial branch, and its job is to interpret laws, not to initiate or conduct impeachment trials. While the Chief Justice presides over a presidential impeachment trial in the Senate, that's a ceremonial role, not a grant of power to the Court itself.",
+        "trap_type": "judicial_vs_legislative"
+      },
+      "D": {
+        "text": "The Ombudsman investigates and prosecutes government officials for corruption, which sounds similar to impeachment, but it's a separate process. Impeachment is a political process reserved for Congress under the Constitution, not an investigative function of the Ombudsman.",
+        "trap_type": "ombudsman_vs_congress"
+      }
+    },
+    "next_time_rule": "Remember: 'House initiates, Senate adjudicates' — both are Congress. Impeachment is a legislative check on the executive and judiciary.",
+    "blueprint_id": "Constitution 1",
+    "deconstruct_text": "The key to this question is knowing that impeachment is a two-step process, and both steps happen within the legislative branch. First, the House of Representatives votes on whether to bring charges (articles of impeachment). If a majority approves, the case moves to the Senate, which conducts the trial and decides whether to convict. Since the House and Senate are the two chambers of Congress, the power of impeachment belongs to Congress as a whole. The President is the one who can be impeached, not the one who does the impeaching. The Supreme Court only gets involved if the validity of the impeachment process is challenged in court. The Ombudsman handles criminal cases against officials, but impeachment is a separate political process. A quick mental trick: whenever you see 'impeachment,' immediately think 'Congress' because it's the branch that checks the others through this power.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

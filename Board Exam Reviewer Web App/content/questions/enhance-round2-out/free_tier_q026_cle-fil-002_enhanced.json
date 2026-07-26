@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-002",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "According to standard filing rules, how should the business name 'St. Jude Medical Clinic' be indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "St Jude Medical Clinic"
+      },
+      {
+        "key": "B",
+        "text": "Saint Jude Medical Clinic"
+      },
+      {
+        "key": "C",
+        "text": "Jude Medical Clinic St"
+      },
+      {
+        "key": "D",
+        "text": "Medical Clinic St Jude"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Abbreviation",
+        "text": "Look closely at the business name. There's a common abbreviation hiding in plain sight. Standard filing rules have a special way of handling these."
+      },
+      {
+        "rung": 2,
+        "title": "The Golden Rule for Abbreviations",
+        "text": "Here's a simple rule you can always count on: when you see an abbreviation like St., Mt., or Ft. in a name, you must spell it out completely. Think of it as translating a short form into its full, official version."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "So 'St.' becomes 'Saint'. Now, write down the full name with 'Saint' in place of 'St.' Keep every word in the exact same order as the original. What do you get?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Your result should be 'Saint Jude Medical Clinic'. Now scan the options. Only one matches this exactly. Remember, we never shuffle the words around in standard indexing."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one keeps 'St.' as is. It's a very natural mistake because we see 'St.' all the time in everyday life. But in the world of filing, abbreviations must be spelled out fully to keep everything consistent and easy to find. Think of it like this: if you filed 'St. Paul' and 'Saint Paul' separately, you'd never find them together.",
+        "trap_type": "abbreviation_rule_violation"
+      },
+      "B": {
+        "text": "This is exactly right. You've correctly spelled out 'St.' as 'Saint' and kept the original word order. This is the standard way to index such names, ensuring that all variations of 'Saint' are filed together.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option moves 'St' to the end, which is a common trap. It might feel logical to put the abbreviation last, but filing rules are strict about keeping the original order of words. Plus, 'St' is still abbreviated here, which is another strike against it.",
+        "trap_type": "transposition_error"
+      },
+      "D": {
+        "text": "This one starts with 'Medical', which is a big clue that something's off. The first indexing unit should be the very first word of the business name after we've spelled out any abbreviations. That word is 'Saint', not 'Medical'. This option also keeps 'St' abbreviated.",
+        "trap_type": "unit_order_error"
+      }
+    },
+    "next_time_rule": "When you see an abbreviation like St., Mt., or Ft. in a name, immediately spell it out in your mind (Saint, Mount, Fort). Then, keep every word in its original order. That's your filing shortcut.",
+    "blueprint_id": "Alphabetical Filing — Abbreviations (St. spelled as Saint)",
+    "deconstruct_text": "Let's walk through this together. The business name is 'St. Jude Medical Clinic'. The first thing to notice is the 'St.' — that's an abbreviation for 'Saint'. Standard filing rules are very clear: we must always spell out abbreviations like this. So 'St.' becomes 'Saint'. Now, we write the name with the full word: 'Saint Jude Medical Clinic'. Notice we didn't change the order of any words. The name stays exactly as it was, just with the abbreviation expanded. That's it. Compare this to the options, and you'll see that only Option B matches perfectly. Option A keeps the abbreviation, which is incorrect. Options C and D both reorder the words, which is not allowed in standard filing. The key mental trick here is to think of abbreviations as secret codes that you must decode into their full form before you can file anything.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-100",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — SALN Filing",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Statement of Assets, Liabilities, and Net Worth (SALN)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under 30 days after assumption of office"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is about a specific requirement under RA 6713, the ethical code for public servants. Think about the core purpose of this law: promoting transparency and accountability. What document would help achieve that from day one?"
+      },
+      {
+        "rung": 2,
+        "title": "Recall the Simple Rule",
+        "text": "RA 6713 requires SALN filing at three key moments: when you start, every year, and when you leave. The question focuses on the very first filing. The law gives a specific number of days to do it after taking office."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "The initial filing must happen within 30 days after assuming office. Now look at the options. Which one matches this mandatory, time-bound requirement? Notice that options B, C, and D all try to limit or exempt certain groups from filing."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "The law covers almost all public officials and employees, both elective and appointive. The only exceptions are very specific (like honorary or casual workers). So the correct answer is the one that states the mandatory 30-day rule, which applies to everyone covered."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Section 8 of RA 6713 clearly states that all public officials and employees must file their SALN within 30 days after assuming office. This is a mandatory, non-negotiable first step in ensuring transparency from the very start of one's public service.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common misunderstanding. You might think that appointive officials (those appointed, not elected) have a different, perhaps lighter, requirement. But the law makes no such distinction. Appointive officials are fully covered and must file their SALN just like everyone else. The only exceptions are for specific roles like honorary officials or laborers.",
+        "trap_type": "exception_overgeneralization"
+      },
+      "C": {
+        "text": "It's easy to assume that SALN filing is only an exit requirement, like a final clearance. But the law actually requires three filings: when you start, every year, and when you leave. Focusing only on retirement misses the initial and annual filings, which are just as important.",
+        "trap_type": "statutory_period_confusion"
+      },
+      "D": {
+        "text": "You might think that because elective officials are voted into office, they are the ones who need to be most transparent. However, RA 6713 applies to all public officials and employees, whether they are elected or appointed. The law's goal is to ensure accountability across the entire public service, not just one group.",
+        "trap_type": "exception_overgeneralization"
+      }
+    },
+    "next_time_rule": "Remember the 'Three Filing Moments' for SALN under RA 6713: Start (within 30 days of assumption), Stay (every year by April 30), and Stop (within 30 days of separation). This rule applies to all public officials and employees, unless they are explicitly exempted by law.",
+    "deconstruct_text": "Let's break this down simply. The question asks about the SALN requirement under RA 6713. The key is knowing that this law applies to almost everyone in public service, from the president to a barangay secretary. The only exceptions are people serving in an honorary capacity, laborers, and casual or temporary workers. Everyone else must file.\n\nNow, when do they file? The law specifies three instances: first, within 30 days after assuming office; second, every year on or before April 30; and third, within 30 days after leaving the service. The question is specifically asking about the statutory requirement, and option A correctly states the initial 30-day rule.\n\nHere's a mental trick to remember this: Think of the SALN as a 'financial fingerprint' you leave at three key points in your public service journey. You leave one when you enter (within 30 days), one every year to show you're clean, and one when you exit. This 'Entry, Annual, Exit' framework will help you recall the three filing deadlines instantly.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

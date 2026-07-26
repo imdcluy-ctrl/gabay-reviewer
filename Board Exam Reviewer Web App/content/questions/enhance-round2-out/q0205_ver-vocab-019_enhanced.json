@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-019",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'TRANSPARENT' mean in a government context?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secretive"
+      },
+      {
+        "key": "B",
+        "text": "Hidden"
+      },
+      {
+        "key": "C",
+        "text": "Open and accountable"
+      },
+      {
+        "key": "D",
+        "text": "Confusing"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin ang Malinaw na Bintana",
+        "text": "Isipin mo ang isang malinaw na bintana—walang nakaharang, kita lahat. 'Yan ang literal ng 'transparent'. Sa gobyerno, pareho: bukas, walang tinatago."
+      },
+      {
+        "rung": 2,
+        "title": "Ang Government Twist",
+        "text": "Sa gobyerno, transparent means nakikita ng mamamayan ang decisions at pondo. Hindi nakatago, accountable ang officials."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Opposites",
+        "text": "Tatlo sa choices ang kabaligtaran—secretive, hidden, confusing. Alisin mo ang mga antonym, ang matitira ay tamang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "The Final Clue",
+        "text": "Ang tamang sagot ay pinagsamang 'open' at 'accountable.' Bukas para makita ng tao, at accountable para may pananagutan."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you confused 'transparent' with its antonym 'secretive.' But transparent means open, not secretive.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'hidden' seems similar to 'not seen,' but transparent means openly seen, not concealed.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. In government, transparent means open and accountable—everything is visible and officials are answerable.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'confusing' sounds like not clear, but transparent actually means crystal clear and easy to understand.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Remember: transparent sa gobyerno = open and accountable. Mental trick: 'see-through' governance—kita ng tao ang lahat, may pananagutan.",
+    "blueprint_id": "Vocabulary — Transparency",
+    "deconstruct_text": "Sa CSE, 'transparent' sa gobyerno = open and accountable. Isipin mo ang bintana ng Barangay Hall: kung malinis, kita mo lahat ng ginagawa sa loob. Ganyan din sa budget—kapag transparent, nakapaskil ang breakdown ng pondo, walang tinatago. Kaya option C ang tama.\n\nYung options A (Secretive), B (Hidden), at D (Confusing) ay kabaligtaran—mga antonym. Kung secretive ang opisina, hindi mo makikita ang records. So ang mental trick: transparent = 'see-through.' Sa exam, hanapin mo 'yung idea ng pagiging bukas at may pananagutan. Wal...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

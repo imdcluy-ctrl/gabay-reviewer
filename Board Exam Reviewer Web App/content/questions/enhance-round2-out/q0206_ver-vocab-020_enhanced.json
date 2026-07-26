@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-020",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'CONCISE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Brief"
+      },
+      {
+        "key": "B",
+        "text": "Succinct"
+      },
+      {
+        "key": "C",
+        "text": "Verbose"
+      },
+      {
+        "key": "D",
+        "text": "Short"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Unawain ang Salita",
+        "text": "Bago pumili, isipin ang kahulugan ng 'concise'—ibig sabihin 'maikli pero kumpleto'"
+      },
+      {
+        "rung": 2,
+        "title": "Hanapin ang Kabaligtaran",
+        "text": "Ang antonym ay salitang kabaligtaran. Kung concise ay maikli, dapat mahaba o maraming sinasabi ang antonym."
+      },
+      {
+        "rung": 3,
+        "title": "Suriin ang Choices",
+        "text": "Tingnan ang A, B, D—lahat sila ay nangangahulugang maikli. Parang tatlong piso na pare-pareho ang halaga, pero isa (C) ang kakaiba."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: Verbose",
+        "text": "Ang 'verbose' na ibig sabihin 'masyadong maraming salita' ay eksaktong kabaligtaran. Parang chismis na mahaba pero walang laman, yun ang antonym!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'brief' is a synonym of 'concise'—kaya nalito ka sa tanong na antonym.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'succinct' means concise, too—kaya it's a trap if you rush.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Verbose' means wordy, the direct opposite—tulad ng mahaba-habang sermon na walang katapusan.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'short' seems like the opposite, but it's still a synonym.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "Kapag antonym, hanapin ang kabaligtaran. Kung tatlong choices magkakasingkahulugan sa given word, yung naiiba ay most likely sagot.",
+    "blueprint_id": "Antonyms — Concise",
+    "deconstruct_text": "Alalahanin mo nung nasa barangay hall ka, may memo na sobrang haba pero wala namang kwenta—yun ay 'verbose.' Pero kung maikli pero kumpleto, tulad ng jeepney sign na 'Sucat-Pasay'—wala nang paligoy-ligoy—yun ay 'concise.'\n\nKaya ang kabaligtaran ng concise ay verbose. Ganyan din sa exam: tatlong choices (A, B, D) ay pare-parehong maikli, pero isa (C) lang ang maraming salita. Kaya pag naghahanap ng antonym, hanapin mo yung naiiba, parang palengke—kung lahat ng isda maliit, yung malaki a...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

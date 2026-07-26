@@ -1,0 +1,33 @@
+.global-disclaimer-footer {
+  width: 100%;
+  padding: 1.5rem 1rem 5rem 1rem;
+  background-color: var(--color-bg-primary);
+  border-top: 1px solid var(--color-border);
+  margin-top: 2rem;
+}
+
+.disclaimer-footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.disclaimer-footer-text {
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0 0 0.75rem 0;
+}
+
+.disclaimer-link {
+  color: var(--color-brand-teal);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.disclaimer-copyright {
+  font-size: 0.72rem;
+  color: var(--color-text-tertiary, #888);
+  margin: 0;
+}

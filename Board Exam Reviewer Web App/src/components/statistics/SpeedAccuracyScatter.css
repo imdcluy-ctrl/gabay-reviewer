@@ -1,0 +1,121 @@
+.speed-scatter-card {
+  background: var(--color-bg-card, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.scatter-header {
+  margin-bottom: 1.25rem;
+}
+
+.scatter-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0 0 0.25rem 0;
+}
+
+.scatter-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0;
+}
+
+.scatter-quadrant-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+  height: 180px;
+  margin-bottom: 1.25rem;
+}
+
+.quadrant {
+  padding: 0.75rem;
+  border-radius: var(--radius-md, 8px);
+  display: flex;
+  align-items: flex-start;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.q-top-left {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.q-top-right {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.q-bottom-left {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.q-bottom-right {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.scatter-table-fallback {
+  overflow-x: auto;
+}
+
+.scatter-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.scatter-table th {
+  background: var(--color-bg-secondary, #f8fafc);
+  color: var(--color-text-secondary, #64748b);
+  font-weight: 600;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--color-border, #e2e8f0);
+}
+
+.scatter-table td {
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--color-border, #f1f5f9);
+  color: var(--color-text-primary, #1e293b);
+}
+
+.mono-col {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.8rem;
+}
+
+.diag-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.diag-badge.mastered {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.diag-badge.optimal-pacing {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.diag-badge.rushed-error-risk {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.diag-badge.time-waster-risk {
+  background: #fee2e2;
+  color: #b91c1c;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-007",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A ₱90,000 community development grant is divided among three barangays A, B, and C in the ratio 1:2:3. What is the difference in grant amount between Barangay C and Barangay A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱30,000"
+      },
+      {
+        "key": "C",
+        "text": "₱45,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin mo ang pie slices",
+        "text": "Ang ratio 1:2:3 ay parang paghahati ng pie sa 1+2+3 equal na piraso. Ilang piraso lahat?"
+      },
+      {
+        "rung": 2,
+        "title": "Halaga ng isang slice",
+        "text": "Kapag alam mo na ang total slices, i-divide ang ₱90,000 sa bilang na 'yan. 'Yan ang worth ng isang slice."
+      },
+      {
+        "rung": 3,
+        "title": "Difference ng slices",
+        "text": "Imbis na i-compute ang bawat share, tingnan mo lang ang diprensya: C (3) minus A (1) = 2 slices."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply sa slice value",
+        "text": "Multiply ang 2 slices sa halaga ng isang slice (₱15,000). Diretso ₱30,000 na agad ang sagot!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you found ₱15,000 per part but forgot to compute the difference.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "Correct. The difference is 2 parts, each worth ₱15,000, so ₱30,000.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you grabbed Barangay C's share (₱45,000) without subtracting A's.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you added instead of subtracted—2 parts difference, not 4 parts sum.",
+        "trap_type": "ratio_total_part_confusion"
+      }
+    },
+    "next_time_rule": "Sa ratio difference, bawasin muna ang ratio numbers bago i-multiply sa value per part. Iwas mali!",
+    "blueprint_id": "Ratio and Proportion — calculating difference between ratio shares",
+    "deconstruct_text": "Alam mo, sa barangay level, madalas may grant mula sa MSWDO para sa feeding program. Imagine, tatlong barangay — A, B, at C — share ng ₱90,000 sa ratio na 1:2:3. Parang paghahati ng budget para sa pambili ng bigas, gulay, at karne. Ganito.\n\nAng first step: totalin ang ratio parts. 1+2+3 = 6 equal parts. Tapos, hatiin ang ₱90,000 sa 6, so ₱15,000 per part. 'Yan na ang halaga ng bawat 'slice'.\n\nNow, shortcut time! Instead of computing each share, tingnan ang difference ng parts ni C (3) at A (1). 3-1 = 2 parts. Multiply mo sa ₱15,000 per part, diretso ₱30,000 agad ang sagot. Hindi ka na mag-aaksaya ng oras.\n\nPinapakita nito na kapag nagmamadali, baka makuha mo ang shares ni A (₱15,000) o C (₱45,000) o ma-add mo pa sila (₱60,000). Pero ang tamang difference ay ₱30,000. Ngayon, ready ka na para sa mga ratio problems—basta hanapin mo muna yung difference ng parts!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

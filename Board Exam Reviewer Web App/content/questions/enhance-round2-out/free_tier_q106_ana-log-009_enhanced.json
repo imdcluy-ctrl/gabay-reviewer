@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-009",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "All civil servants are government employees. Some government employees are engineers. Therefore:",
+    "options": [
+      {
+        "key": "A",
+        "text": "All engineers are civil servants."
+      },
+      {
+        "key": "B",
+        "text": "Some civil servants are engineers."
+      },
+      {
+        "key": "C",
+        "text": "No conclusion can be drawn."
+      },
+      {
+        "key": "D",
+        "text": "All civil servants are engineers."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the Groups",
+        "text": "Imagine three circles: one for government employees, one for civil servants, and one for engineers. The first sentence tells you that the civil servants circle sits entirely inside the government employees circle. Now, where can the engineers circle go?"
+      },
+      {
+        "rung": 2,
+        "title": "The Key Rule for 'Some'",
+        "text": "When a statement says 'some government employees are engineers,' it only guarantees that the engineers circle overlaps with the government employees circle somewhere. It does not tell you where that overlap happens."
+      },
+      {
+        "rung": 3,
+        "title": "Test Both Possibilities",
+        "text": "Could the overlap between engineers and government employees happen entirely outside the civil servants circle? Yes. Could it also happen partly inside the civil servants circle? Yes. Since both are possible, you cannot be certain of any specific link between civil servants and engineers."
+      },
+      {
+        "rung": 4,
+        "title": "Spot the Certainty Gap",
+        "text": "The trap here is thinking that because some government employees are engineers, and all civil servants are government employees, then some civil servants must be engineers. But that's like saying because some fruits are red and all apples are fruits, then some apples must be red. The red fruits could be strawberries, not apples."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This would mean every engineer works in civil service, but the premises only tell us that some government employees are engineers. Those engineers could be working in other government roles outside civil service, like in public works or health departments. You are flipping the relationship and making it much broader than the evidence allows.",
+        "trap_type": "overreach_conversion"
+      },
+      "B": {
+        "text": "This feels like a natural guess because you might think: if all civil servants are government employees, and some government employees are engineers, then surely some civil servants are engineers. But the 'some' in the second premise might refer to government employees who are not civil servants. It is possible that no civil servant is an engineer, so this conclusion is not guaranteed.",
+        "trap_type": "overreach_some"
+      },
+      "C": {
+        "text": "Correct. The premises give us a definite link between civil servants and government employees, and a partial link between government employees and engineers, but no definite link between civil servants and engineers. They could overlap, or they could be completely separate groups. Without more information, you cannot draw a certain conclusion.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This would mean every civil servant is an engineer, but the premises never say anything about civil servants needing to be engineers. Civil servants could be accountants, lawyers, or administrators. You are assuming a connection that the statements do not support.",
+        "trap_type": "overreach_all"
+      }
+    },
+    "next_time_rule": "When you see 'All A are B' and 'Some B are C,' remember this: the 'some' could be anywhere inside B, including entirely outside A. You cannot conclude anything definite about A and C unless the premises force them to overlap.",
+    "blueprint_id": "Syllogisms — 'Some' Statements",
+    "deconstruct_text": "Let's walk through this step by step. First, picture the groups. The first statement, 'All civil servants are government employees,' tells us that the civil servants group is a smaller circle completely inside the larger government employees circle. The second statement, 'Some government employees are engineers,' tells us that the engineers circle overlaps with the government employees circle somewhere, but it does not specify where. Now, here is the critical insight: that overlap could be in the part of the government employees circle that is outside the civil servants circle. For example, imagine government employees include both civil servants and public health workers. If some government employees are engineers, those engineers might all be public health workers, not civil servants. In that case, no civil servant is an engineer. But it is also possible that some civil servants are engineers. Since both scenarios are possible, you cannot draw a definite conclusion. The mental trick here is what I call the 'Somewhere Else' rule: when 'some B are C' and all A are inside B, the 'some' might be happening in the part of B that is not A. Always check whether the overlap is forced to include A or could happen elsewhere.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

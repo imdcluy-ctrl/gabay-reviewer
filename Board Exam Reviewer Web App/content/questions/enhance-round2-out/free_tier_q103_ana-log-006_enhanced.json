@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-006",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Premise 1: All department heads are career service eligible.\nPremise 2: Mr. Reyes is a department head.\nConclusion: Therefore, Mr. Reyes is career service eligible.\nThis is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modus Tollens"
+      },
+      {
+        "key": "B",
+        "text": "Modus Ponens"
+      },
+      {
+        "key": "C",
+        "text": "Fallacy"
+      },
+      {
+        "key": "D",
+        "text": "Inductive reasoning"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look at the Structure",
+        "text": "Notice how the argument flows: it starts with a general rule, then applies it to a specific person. This is a classic deductive pattern, not a guess or a probability."
+      },
+      {
+        "rung": 2,
+        "title": "The If-Then Rule",
+        "text": "Think of it this way: 'If you are a department head, then you are eligible.' The argument says Mr. Reyes is a department head, so it concludes he is eligible. This is called affirming the first part (the antecedent) to get the second part (the consequent)."
+      },
+      {
+        "rung": 3,
+        "title": "Compare with the Other Patterns",
+        "text": "Modus Tollens would go the opposite way: 'If you are a department head, then you are eligible. Mr. Reyes is not eligible. Therefore, he is not a department head.' That's not what we have here. Also, a fallacy would be an invalid argument, but this one is perfectly valid. And inductive reasoning deals with probabilities, not certainties."
+      },
+      {
+        "rung": 4,
+        "title": "Name That Pattern",
+        "text": "The pattern where you affirm the antecedent (P) and conclude the consequent (Q) is called Modus Ponens. In simple terms: If P then Q. P is true. So Q must be true. That's exactly what's happening here."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Modus Tollens is a different pattern. It works like this: 'If P then Q. Not Q. Therefore not P.' In our case, that would mean: 'If you are a department head, then you are eligible. Mr. Reyes is not eligible. Therefore, he is not a department head.' But our argument doesn't deny the consequent; it affirms the antecedent. So this is a mismatch.",
+        "trap_type": "logic_error"
+      },
+      "B": {
+        "text": "Correct. This is a textbook example of Modus Ponens. The structure is: If P (department head) then Q (eligible). P is true (Mr. Reyes is a department head). Therefore, Q is true (he is eligible). It's a valid deductive argument where the conclusion necessarily follows from the premises.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A fallacy is an error in reasoning that makes an argument invalid. But this argument is perfectly valid—if the premises are true, the conclusion must be true. There's no logical flaw here. So calling it a fallacy would be incorrect.",
+        "trap_type": "logic_error"
+      },
+      "D": {
+        "text": "Inductive reasoning deals with probabilities and generalizations from specific cases. For example, 'Most department heads I know are eligible, so Mr. Reyes is probably eligible.' But this argument is deductive—it gives a certain conclusion based on the premises, not a probable one.",
+        "trap_type": "logic_error"
+      }
+    },
+    "next_time_rule": "Remember the 'If-Then' shortcut: Modus Ponens affirms the first part (P) to get the second part (Q). Modus Tollens denies the second part (not Q) to deny the first part (not P). Think of it as 'Ponens = Positive affirmation' and 'Tollens = Taking away the conclusion.'",
+    "blueprint_id": "Categorical Syllogism — Modus Ponens",
+    "deconstruct_text": "Let's break this down in a way that sticks. The argument has a simple structure: it gives you a general rule (All department heads are eligible), then tells you a specific fact (Mr. Reyes is a department head), and then draws a conclusion (So he is eligible). This is a classic deductive pattern where the conclusion is guaranteed if the premises are true.\n\nNow, how do we name this pattern? Think of it as a logical machine. The rule is: 'If you are a department head, then you are eligible.' That's an 'If P then Q' statement. The second premise says 'P is true' (Mr. Reyes is a department head). So the machine outputs 'Q is true' (he is eligible). This act of affirming the first part (the antecedent) to get the second part (the consequent) is called Modus Ponens.\n\nHere's a mental trick to keep it straight: 'Ponens' sounds like 'positive' or 'affirm.' In Modus Ponens, you affirm the first part. 'Tollens' sounds like 'take away' or 'deny.' In Modus Tollens, you deny the second part. So if you see an argument that says 'If P then Q, and P is true, so Q is true,' you're looking at Modus Ponens. If you see 'If P then Q, and Q is false, so P is false,' that's Modus Tollens.\n\nIn this question, the argument clearly affirms the antecedent (Mr. Reyes is a department head) and concludes the consequent (he is eligible). That's Modus Ponens. The other options don't fit: Modus Tollens would require denying the consequent, a fallacy would be an invalid argument (this one is valid), and inductive reasoning deals with probabilities, not certainties.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

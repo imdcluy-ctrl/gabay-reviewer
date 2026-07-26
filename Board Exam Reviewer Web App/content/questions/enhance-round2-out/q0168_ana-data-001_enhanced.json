@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-data-001",
+    "subtopic_id": "data-interpretation",
+    "category_id": "analytical-ability",
+    "question_text": "An LGU allocated its P10,000,000 budget: Infrastructure 40%, Education 25%, Health 20%, Agriculture 15%. How much more is allocated to Infrastructure than Health?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,000,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,500,000"
+      },
+      {
+        "key": "C",
+        "text": "P2,000,000"
+      },
+      {
+        "key": "D",
+        "text": "P2,500,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hanapin ang hinahanap: Difference ba?",
+        "text": "Huwag mag-compute ng individual amounts. Basahin muli: 'how much more'. Ibig sabihin, subtraction muna."
+      },
+      {
+        "rung": 2,
+        "title": "i-subtract ang percentages (40% - 20%)",
+        "text": "Simple lang: 40% minus 20% = 20%. Itong 20% ang gagamitin, hindi 15%, 25%, o 40%."
+      },
+      {
+        "rung": 3,
+        "title": "Convert ang gap to pesos: multiply",
+        "text": "20% ng P10M = 0.20 × P10,000,000 = P2,000,000. Ganun lang kadali!"
+      },
+      {
+        "rung": 4,
+        "title": "Check options: P2M ba ang nasa Choices?",
+        "text": "Kung may P2,000,000, yun na! Confidence boost: Tama ang iyong gap method. Mag-move on na."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because nalito sa percentages at nakapag-compute ng 10%, na hindi tama ang gap.",
+        "trap_type": "wrong_percentage_used"
+      },
+      "B": {
+        "text": "You might have chosen B because ginamit ang Agriculture's 15% imbes na i-subtract ang Infrastructure at Health.",
+        "trap_type": "wrong_category_used"
+      },
+      "C": {
+        "text": "Correct. 20% ng P10M ay P2M—simple lang ang difference.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because pinili ang Education's 25%, nang hindi kinukuha ang gap.",
+        "trap_type": "wrong_category_used"
+      }
+    },
+    "next_time_rule": "Kapag 'how much more', subtract percentages muna, saka multiply. Hindi kailangan i-compute ang lahat ng individual.",
+    "blueprint_id": "Percentage Allocation Difference",
+    "deconstruct_text": "Okay, let's break it down, ha. Imagine nasa LGU meeting tayo, pinag-uusapan ang P10M budget. Infrastructure 40%, Health 20%. Ang tanong: 'Magkano ang mas malaki?' So difference ang kailangan.\n\nMental trick: 'Gap muna, multiply later!' Isipin mo, parang sa palengke, alam mo ang presyo bawat kilo. Bago ka magcompute ng total, alamin mo muna ang difference sa timbang o presyo.\n\nKaya dito: 40% minus 20% = 20% gap. Tapos, 20% ng P10,000,000 = P2,000,000. Kasing simple no'n. Tandaan, huwag magulo sa dami ng numbers—focus lang sa hinahanap na difference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

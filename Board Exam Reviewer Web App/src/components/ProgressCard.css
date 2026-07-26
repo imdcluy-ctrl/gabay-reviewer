@@ -1,0 +1,67 @@
+.progress-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  min-height: 120px;
+}
+
+.progress-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pc-icon {
+  font-size: 1.8rem;
+}
+
+.pc-ring-wrapper {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pc-ring-svg {
+  transform: rotate(-90deg);
+}
+
+.pc-ring-bg {
+  fill: none;
+  stroke: var(--color-bg-secondary);
+}
+
+.pc-ring-fill {
+  fill: none;
+  stroke: var(--color-brand-teal);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 500ms ease-out;
+}
+
+.pc-ring-text {
+  position: absolute;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.progress-card-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.pc-name {
+  font-size: var(--size-sm);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+
+.pc-sub {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,53 @@
+id: gen-const-005
+subtopic: philippine-constitution
+category: general-info
+difficulty: 2
+is_free: true
+language: en
+tags: ["philippine-constitution", "sovereignty"]
+estimated_seconds: 60
+question_text: "According to Article II Section 1 of the 1987 Constitution, the Philippines is a democratic and republican State. Where does sovereignty reside?"
+options:
+  - key: A
+    text: "Sovereignty resides in the President of the Philippines."
+  - key: B
+    text: "Sovereignty resides in the Supreme Court."
+  - key: C
+    text: "Sovereignty resides in the people and all government authority emanates from them."
+  - key: D
+    text: "Sovereignty resides in the Armed Forces of the Philippines."
+correct: C
+blueprint_id: "1987 Philippine Constitution — Article II Section 1 Sovereignty of the People"
+hint_ladder:
+  - rung: 1
+    title: "Identify Article II Focus"
+    text: "Article II outlines Declaration of Principles and State Policies."
+  - rung: 2
+    title: "Recall Section 1 Text"
+    text: "Section 1 defines the democratic nature of the Republic."
+  - rung: 3
+    title: "Source of Authority"
+    text: "All government authority emanates from the citizens."
+  - rung: 4
+    title: "Select Option C"
+    text: "Option C is 'Sovereignty resides in the people and all government authority emanates from them.'"
+deconstruct_text: |
+  1987 Constitution Article II Section 1:
+  'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.'
+choice_explanations:
+  A:
+    text: "The President is an elected servant of the people, not the seat of sovereignty."
+    trap_type: executive_overreach_error
+  B:
+    text: "The Judiciary interprets law, but sovereignty belongs to the people."
+    trap_type: branch_confusion
+  C:
+    text: "Correct! Article II Section 1 states sovereignty resides in the people."
+    trap_type: null
+  D:
+    text: "Article II Section 3 states military is protector of people, not sovereign."
+    trap_type: military_supremacy_error
+next_time_rule: "Article II Section 1 states that sovereignty resides in the people and all authority emanates from them."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "1987 Philippine Constitution Article II Section 1"

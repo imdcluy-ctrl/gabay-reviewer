@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-026",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'Neither the president nor the board members ___ in favor of the proposal.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This sentence uses a special pairing: 'neither...nor'. When you see this, the verb doesn't automatically match the first subject. There's a specific rule about which subject the verb should agree with."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "With 'neither...nor' (and also 'either...or'), the verb agrees with the subject that is closest to it. Think of it as the verb being a polite listener—it pays more attention to the person standing right next to it."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the two subjects: 'the president' (singular) and 'the board members' (plural). Which one is closer to the blank where the verb goes? It's 'the board members'. Since that's plural, the verb must be plural too."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Among the options, only one is a plural verb: 'are'. The others—'is', 'was', and 'has been'—are all singular. So the answer is the one that matches the plural 'board members'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a very natural mistake. Your brain might latch onto 'the president' because it's the first subject you read, and 'is' sounds fine with it. But the rule says the verb must agree with the subject closest to it, which is 'the board members' (plural), not 'the president' (singular).",
+        "trap_type": "subject_verb_error"
+      },
+      "B": {
+        "text": "Perfect. 'Are' is the plural verb that correctly agrees with 'the board members', the subject closest to the blank. You've applied the 'neither...nor' proximity rule correctly.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a double mismatch. First, 'was' is singular, but the verb needs to be plural to agree with 'board members'. Second, the sentence is in the present tense (it's stating a current position), so a past tense verb like 'was' doesn't fit the timeline.",
+        "trap_type": "subject_verb_error"
+      },
+      "D": {
+        "text": "'Has been' is a singular verb form, so it doesn't agree with the plural 'board members'. It also introduces a perfect tense (has been) that isn't needed here—the sentence is simply stating a current state of being, which calls for a simple present verb.",
+        "trap_type": "subject_verb_error"
+      }
+    },
+    "next_time_rule": "When you see 'neither...nor' or 'either...or', use the 'Proximity Rule': the verb agrees with the subject closest to it. Ignore the farther subject entirely—it's the neighbor that matters.",
+    "blueprint_id": "Subject-Verb — Neither/Nor Rule",
+    "deconstruct_text": "Let's walk through this together. The sentence is: 'Neither the president nor the board members ___ in favor of the proposal.' The key here is the pairing 'neither...nor'. When you use this structure, you're connecting two subjects, but the verb doesn't have to agree with both. Instead, it only agrees with the subject that's closer to it. Think of it like this: the verb is a bit nearsighted—it only sees the subject standing right next to it. In our sentence, the subjects are 'the president' (singular) and 'the board members' (plural). The one closer to the blank is 'the board members', which is plural. So we need a plural verb. Looking at the options: 'is' (singular), 'are' (plural), 'was' (singular past), 'has been' (singular present perfect). Only 'are' is plural and present tense, which fits perfectly. The mental trick here is simple: when you see 'neither...nor' or 'either...or', ignore the first subject and focus only on the one right before the verb. That's your guide.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

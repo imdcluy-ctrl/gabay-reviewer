@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-sent-002",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The applicant must submit all requirements ___ the deadline.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "by"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About Time Prepositions",
+        "text": "This question is testing your knowledge of which preposition to use when talking about deadlines. Each preposition has a specific job when it comes to time."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Here's a handy guide: 'by' means on or before a deadline. 'On' is for specific days like Monday. 'In' is for longer periods like months or years. 'At' is for exact times like 5 PM."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option in the Sentence",
+        "text": "Try saying the sentence with each option. 'Submit on the deadline' sounds like you must submit exactly that day. 'Submit in the deadline' doesn't make sense. 'Submit at the deadline' feels off. 'Submit by the deadline' sounds natural and correct."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The word 'deadline' itself gives you a clue. A deadline is a time limit, so you need a preposition that means 'on or before' that limit. Only one option fits that meaning perfectly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'On the deadline' is a common mistake. 'On' is for specific days like 'on Friday' or 'on March 15th'. A deadline isn't a day you're pinpointing; it's a cutoff point. So 'on' implies you must submit exactly that day, which misses the 'or before' part of a deadline.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "'In the deadline' sounds awkward because 'in' is used for longer periods like 'in June' or 'in 2025'. A deadline is a specific point in time, not a duration. So this option just doesn't work grammatically.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Correct! 'By the deadline' is the standard way to say you need to submit on or before that time. It covers both submitting early and submitting exactly on the last day. This is the preposition that naturally pairs with 'deadline'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'At the deadline' is a tempting choice because 'at' is used for specific times like 'at noon'. But 'deadline' isn't a clock time; it's a date or cutoff. So 'at' feels unnatural here. Stick with 'by' for deadlines.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "deconstruct_text": "Let's break this down simply. The sentence is about a deadline, which is a time limit. You need a preposition that means 'on or before' that limit. The word 'by' does exactly that. Think of it this way: if your boss says 'submit by Friday', you can submit Thursday or Friday morning. That flexibility is what 'by' gives you. Now look at the other options. 'On' would force you to submit exactly Friday, no earlier. 'In' is for periods like 'in a week'. 'At' is for exact times like 'at 3 PM'. None of those fit a deadline. So the trick here is simple: whenever you see the word 'deadline', your brain should automatically think 'by'. It's like a mental shortcut. Just remember: deadlines and 'by' are best friends.",
+    "next_time_rule": "When you see 'deadline' in a sentence, immediately think 'by'. It's the only preposition that means 'on or before' that cutoff point. For everything else: 'on' for days, 'in' for months/years, 'at' for clock times.",
+    "blueprint_id": "Prepositions — Deadlines",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-025",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A class of 40 students has 60% girls. After some girls leave, girls become 50%. How many girls left?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Initial strawberry count",
+        "text": "60% of 40 candies = 24 strawberry. Chocolate = 40 – 24 = 16."
+      },
+      {
+        "rung": 2,
+        "title": "Let x = sold strawberry candies",
+        "text": "After selling, strawberry = 24 – x, total candies = 40 – x. New percent: (24 – x)/(40 – x) = 50% = 0.5."
+      },
+      {
+        "rung": 3,
+        "title": "Solve the equation",
+        "text": "(24 – x) = 0.5(40 – x) → 24 – x = 20 – 0.5x → 24 – 20 = x – 0.5x → 4 = 0.5x → x = 8."
+      },
+      {
+        "rung": 4,
+        "title": "Answer: 8 strawberry sold",
+        "text": "Check: New strawberry = 16, new total = 32, 16/32 = 50%. Kaya 8 ang nabentang strawberry candies."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used the original total: (24 – x)/40 = 0.5, giving x = 4, then mistakenly added 2.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "Correct.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you thought girls should equal boys (16) after removal, so x=8, then mistakenly added 2 to get 10.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because you confused percentage points with percent: 60%–50%=10% of 40=4, then tripled to 12.",
+        "trap_type": "percent_vs_percentage_point"
+      }
+    },
+    "next_time_rule": "When part of a set leaves, both total and part change. Set equation: (original part – x)/(original total – x) = new percentage. Solve for x.",
+    "blueprint_id": "Percentage with Removal",
+    "deconstruct_text": "**Watch-Out Zone: wrong_base_percentage** in action. Laging gamitin ang bagong total.\n\nImagine a sari-sari store near the palengke. Nag-order ng 40 candies: 60% strawberry (24 piraso), 40% chocolate (16 piraso). Matapos ibenta ang ilang strawberry candies, ang natirang strawberry ay 50% na lang ng lahat ng candies.\n\nSet up natin: let x = bilang ng nabentang strawberry candies. Pagkatapos, strawberry = 24 – x, total candies = 40 – x. Dapat (24 – x)/(40 – x) = 0.5. Multiply both sides by (40 – x): 24 – x = 0.5(40 – x) → 24 – x = 20 – 0.5x. Combine: 24 – 20 = x – 0.5x → 4 = 0.5x → ...\n\nKaya 8 strawberry candies ang nabenta. Check: bagong strawberry = 16, bagong total = 32, at 16/32 = 50%. Perfect!\n\nTandaan ang Taglish mnemonic: 'Kapag may umalis, bagong part over bagong total equals bagong percent.' Parang sa budget ng barangay: kung may natanggal na pondo para sa health center, i-update ang kabuuang pondo bago kalkulahin ang porsyento ng natirang health budget.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

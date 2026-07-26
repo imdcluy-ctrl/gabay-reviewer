@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-449",
+    "category_id": "general-information",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "question_text": "Which of the following best distinguishes a violation of RA 6713 (Code of Conduct) from a violation of RA 3019 (Anti-Graft and Corrupt Practices Act)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 6713 covers ethical standards, while RA 3019 covers criminal acts of corruption."
+      },
+      {
+        "key": "B",
+        "text": "RA 6713 applies only to elected officials, while RA 3019 applies to all public officers."
+      },
+      {
+        "key": "C",
+        "text": "RA 6713 imposes only administrative penalties, while RA 3019 imposes only criminal penalties."
+      },
+      {
+        "key": "D",
+        "text": "RA 6713 requires disclosure of assets, while RA 3019 requires divestment of interests."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3068",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

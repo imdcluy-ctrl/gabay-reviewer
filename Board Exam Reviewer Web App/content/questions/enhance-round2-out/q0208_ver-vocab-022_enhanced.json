@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-022",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PROCUREMENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sale"
+      },
+      {
+        "key": "B",
+        "text": "Purchase"
+      },
+      {
+        "key": "C",
+        "text": "Donation"
+      },
+      {
+        "key": "D",
+        "text": "Exchange"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient: Gobyerno Context",
+        "text": "Sa barangay, kapag kailangan ng bagong gamit, nagpo-procure sila. Ano ibig sabihin? Nagbabayad sila para makuha 'yun."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Procurement = Formal Buying",
+        "text": "Ang core meaning: mag-acquire ng goods/services by paying. Hindi 'yan bigay, swap, o benta — may perang involved."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Tanggalin ang opposites",
+        "text": "Check options: 'Sale' — selling, 'Donation' — walang bayad, 'Exchange' — trade. Alin ang may payment? 'Purchase'."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away: Sagot Purchase",
+        "text": "Halos pareho ng meaning. 'Procurement' is formal buying; 'purchase' is the direct synonym. Kaya B ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'sale' sounds like a transaction, pero ito ang pagbebenta, hindi pagbili—kabaligtaran ng procurement.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct. Procurement means acquiring by purchase, gaya ng pagbili ng gobyerno ng supplies gamit ang pondo—it's formal buying.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'donation' ay pagkuha rin ng bagay, pero walang bayad—procurement requires payment.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "You might have chosen D because 'exchange' involves getting something, pero palitan lang 'yan, hindi direct purchase with money.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "When you see 'procurement,' think 'purchase'—formal buying. Payment is key; distinct from sale, donation, or exchange.",
+    "blueprint_id": "Vocabulary — Procurement",
+    "deconstruct_text": "Simple lang. Ang 'procurement' galing sa 'procure'—ibig sabihin kumuha o bumili ng kailangan. Sa gobyerno, kapag nag-procure ng bagong equipment, bumibili sila gamit ang budget. Halimbawa, ang barangay nag-procure ng dump truck—binili nila ito. Kaya synonym: purchase.\n\nAng kalituhan: 'Sale' ay bentahan—kabaligtaran. 'Donation' ay walang bayad. 'Exchange' ay swap, walang pera. Lahat ito walang direktang payment. Sa procurement, essential ang pagbabayad para makuha ang gamit. Kaya dapat payment ang focus.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

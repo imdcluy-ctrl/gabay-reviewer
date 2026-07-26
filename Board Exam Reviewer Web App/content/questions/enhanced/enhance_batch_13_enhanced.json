@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-gram-012",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence does NOT contain a dangling modifier?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walking down the hall, the paintings caught his attention."
+      },
+      {
+        "key": "B",
+        "text": "Driving to work, the traffic was heavy."
+      },
+      {
+        "key": "C",
+        "text": "Having reviewed the documents, the report was approved."
+      },
+      {
+        "key": "D",
+        "text": "After submitting the application, the applicant waited for a response."
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Dangling Modifier",
+        "text": "A dangling modifier occurs when the introductory phrase does not logically attach to the subject of the main clause. The subject must be the doer of the action in the phrase."
+      },
+      {
+        "rung": 2,
+        "title": "Check Each Option",
+        "text": "For each sentence, ask: Who is walking? Who is driving? Who reviewed? Who submitted? The subject of the main clause should answer that question."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Correct One",
+        "text": "In option D, 'the applicant' is the one who submitted the application, so the modifier attaches correctly. In the others, the subject cannot perform the action (paintings can't walk, traffic can't drive, report can't review)."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "D is the only sentence where the introductory phrase logically modifies the subject."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Walking down the hall' implies a person walking, but the subject 'paintings' cannot walk. This is a classic dangling modifier: the modifier has no logical subject to attach to.",
+        "trap_type": "dangling_modifier_paintings"
+      },
+      "B": {
+        "text": "Incorrect. 'Driving to work' requires a driver, but the subject 'traffic' cannot drive. The modifier dangles because the doer is missing from the main clause.",
+        "trap_type": "dangling_modifier_traffic"
+      },
+      "C": {
+        "text": "Incorrect. 'Having reviewed the documents' needs a reviewer, but the subject 'report' cannot review. The modifier is left dangling without a logical subject.",
+        "trap_type": "dangling_modifier_report"
+      },
+      "D": {
+        "text": "Correct! 'After submitting the application' logically attaches to 'the applicant' — the applicant is the one who submits. This sentence has no dangling modifier.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To spot a dangling modifier, find the introductory phrase and ask: who or what is performing that action? That person/thing must be the subject of the main clause.",
+    "blueprint_id": "Dangling Modifiers — Identifying Correct Sentences",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n\n**Step 1: Understand the rule.** A dangling modifier is an introductory phrase that does not clearly and logically refer to the subject of the main clause. The subject must be the doer of the action in the phrase.\n\n**Step 2: Analyze each option.**\n- **Option A:** 'Walking down the hall' — who is walking? The subject is 'the paintings,' but paintings cannot walk. ❌ Dangling.\n- **Option B:** 'Driving to work' — who is driving? The subject is 'the traffic,' but traffic cannot drive. ❌ Dangling.\n- **Option C:** 'Having reviewed the documents' — who reviewed? The subject is 'the report,' but a report cannot review. ❌ Dangling.\n- **Option D:** 'After submitting the application' — who submitted? The subject is 'the applicant,' and an applicant can submit. ✅ No dangling modifier.\n\n**Step 3: Conclusion.** Only option D correctly attaches the introductory phrase to a logical subject.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-013",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Choose the sentence with correct parallel structure:",
+    "options": [
+      {
+        "key": "A",
+        "text": "She likes reading, to write, and painting."
+      },
+      {
+        "key": "B",
+        "text": "She likes to read, write, and to paint."
+      },
+      {
+        "key": "C",
+        "text": "She likes reading, writing, and painting."
+      },
+      {
+        "key": "D",
+        "text": "She likes to read, writing, and paint."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Parallel Structure",
+        "text": "In a list, all items must share the same grammatical form. Mixing gerunds (-ing) with infinitives (to + verb) breaks parallelism."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Forms",
+        "text": "Look at each option: Are all items gerunds (reading, writing, painting) or all infinitives (to read, to write, to paint)? A mix is incorrect."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Consistent One",
+        "text": "Option C uses three gerunds: reading, writing, painting. Options A, B, and D mix forms (e.g., reading, to write, painting)."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "C is the only sentence with consistent parallel structure."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'reading' and 'painting' are gerunds, but 'to write' is an infinitive. The list mixes forms, breaking parallelism.",
+        "trap_type": "parallel_mix_gerund_infinitive"
+      },
+      "B": {
+        "text": "Incorrect. 'to read' and 'to paint' are infinitives, but 'write' is a bare infinitive without 'to.' The list is inconsistent: either all should have 'to' or none.",
+        "trap_type": "parallel_mix_infinitive_bare"
+      },
+      "C": {
+        "text": "Correct! All three items are gerunds: reading, writing, painting. The structure is perfectly parallel.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'to read' is an infinitive, 'writing' is a gerund, and 'paint' is a bare infinitive. Three different forms in one list — a clear parallelism error.",
+        "trap_type": "parallel_mix_three_forms"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For parallel structure, ensure all items in a series use the same form: all gerunds (-ing) or all infinitives (to + verb). Never mix them.",
+    "blueprint_id": "Parallel Structure — Gerund Phrases",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n\n**Step 1: Understand the rule.** Parallel structure requires that items in a series share the same grammatical form. Common forms are gerunds (verb+ing) and infinitives (to+verb).\n\n**Step 2: Examine each option.**\n- **Option A:** 'reading' (gerund), 'to write' (infinitive), 'painting' (gerund) — mixed forms ❌.\n- **Option B:** 'to read' (infinitive), 'write' (bare infinitive), 'to paint' (infinitive) — inconsistent use of 'to' ❌.\n- **Option C:** 'reading', 'writing', 'painting' — all gerunds ✅.\n- **Option D:** 'to read' (infinitive), 'writing' (gerund), 'paint' (bare infinitive) — three different forms ❌.\n\n**Step 3: Conclusion.** Only option C maintains consistent parallel structure.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-016",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the LCM of 12 and 18?",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "List Multiples of 12",
+        "text": "Multiples of 12: 12, 24, 36, 48, 60, ... The LCM must appear in this list."
+      },
+      {
+        "rung": 2,
+        "title": "List Multiples of 18",
+        "text": "Multiples of 18: 18, 36, 54, 72, ... The LCM must also appear in this list."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Smallest Common",
+        "text": "Look for the smallest number that appears in both lists. 36 is the first common multiple (12×3, 18×2)."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "36 is the least common multiple of 12 and 18."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 24 is a multiple of 12 (12×2) but not of 18 (18×1.33). It is not a common multiple.",
+        "trap_type": "multiple_of_only_one"
+      },
+      "B": {
+        "text": "Incorrect. 30 is not a multiple of 12 (12×2.5) nor of 18 (18×1.67). It is a common multiple of neither.",
+        "trap_type": "not_a_multiple"
+      },
+      "C": {
+        "text": "Correct! 36 is the smallest number divisible by both 12 (12×3) and 18 (18×2).",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 48 is a multiple of 12 (12×4) but not of 18 (18×2.67). It is also larger than the LCM.",
+        "trap_type": "multiple_of_only_one"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the LCM, list multiples of each number until you find the smallest common one. Alternatively, use prime factorization: 12=2²×3, 18=2×3² → LCM=2²×3²=36.",
+    "blueprint_id": "LCM Computation",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n\n**Step 1: Understand LCM.** The Least Common Multiple (LCM) of two numbers is the smallest positive integer that is a multiple of both.\n\n**Step 2: List multiples.**\n- Multiples of 12: 12, 24, 36, 48, 60, ...\n- Multiples of 18: 18, 36, 54, 72, ...\n\n**Step 3: Find common multiples.** The common multiples are numbers appearing in both lists: 36, 72, ... The smallest is 36.\n\n**Step 4: Verify.** 36 ÷ 12 = 3, 36 ÷ 18 = 2. Both are integers.\n\n**Step 5: Conclusion.** The LCM of 12 and 18 is 36.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-017",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the GCF of 24 and 36?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "List Factors of 24",
+        "text": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. The GCF must be in this list."
+      },
+      {
+        "rung": 2,
+        "title": "List Factors of 36",
+        "text": "Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The GCF must also be in this list."
+      },
+      {
+        "rung": 3,
+        "title": "Find Common Factors",
+        "text": "Common factors: 1, 2, 3, 4, 6, 12. The greatest among them is 12."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "12 is the greatest common factor of 24 and 36."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 4 is a common factor (24÷4=6, 36÷4=9), but it is not the greatest. The GCF is larger.",
+        "trap_type": "common_factor_not_greatest"
+      },
+      "B": {
+        "text": "Incorrect. 6 is a common factor (24÷6=4, 36÷6=6), but 12 is larger and also common.",
+        "trap_type": "common_factor_not_greatest"
+      },
+      "C": {
+        "text": "Incorrect. 8 is a factor of 24 (24÷8=3) but not of 36 (36÷8=4.5). It is not a common factor.",
+        "trap_type": "factor_of_only_one"
+      },
+      "D": {
+        "text": "Correct! 12 divides both 24 (24÷12=2) and 36 (36÷12=3), and no larger number does.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the GCF, list all factors of each number and pick the largest common one. Alternatively, use prime factorization: 24=2³×3, 36=2²×3² → GCF=2²×3=12.",
+    "blueprint_id": "GCF Computation",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n\n**Step 1: Understand GCF.** The Greatest Common Factor (GCF) of two numbers is the largest positive integer that divides both numbers without remainder.\n\n**Step 2: List factors.**\n- Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24.\n- Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36.\n\n**Step 3: Identify common factors.** Common factors: 1, 2, 3, 4, 6, 12.\n\n**Step 4: Pick the greatest.** The largest common factor is 12.\n\n**Step 5: Conclusion.** The GCF of 24 and 36 is 12.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-019",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Evaluate: 10 - 3 x 2 + 8 / 4",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Order of Operations (MDAS)",
+        "text": "Multiplication and division must be done before addition and subtraction. Work from left to right for MD and then AS."
+      },
+      {
+        "rung": 2,
+        "title": "Perform Multiplication and Division",
+        "text": "3 × 2 = 6, and 8 ÷ 4 = 2. The expression becomes: 10 - 6 + 2."
+      },
+      {
+        "rung": 3,
+        "title": "Then Addition and Subtraction",
+        "text": "Now work left to right: 10 - 6 = 4, then 4 + 2 = 6."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The correct result is 6."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Following MDAS: 3×2=6, 8÷4=2, then 10-6+2=6.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. This likely comes from doing left-to-right without MDAS: 10-3=7, 7×2=14, 14+8=22, 22÷4=5.5 (not 9). Alternatively, 10-3×2=10-6=4, then 4+8=12, 12÷4=3 (not 9). No simple path gives 9; it's a common guess.",
+        "trap_type": "left_to_right_error"
+      },
+      "C": {
+        "text": "Incorrect. This might come from doing 10-3=7, 7×2=14, 14+8=22, 22÷4=5.5 (not 12). Or from 3×2=6, 8÷4=2, then 10-6=4, 4+2=6 (not 12). A possible error: 10-3×2+8÷4 = 10-6+2 = 6, but if you add before subtract: 10-(6+2)=10-8=2 (not 12). 12 is not a typical MDAS mistake.",
+        "trap_type": "addition_before_subtraction"
+      },
+      "D": {
+        "text": "Incorrect. This likely results from ignoring MDAS entirely and computing left to right: 10-3=7, 7×2=14, 14+8=22, 22÷4=5.5 (not 18). Or from 10-3=7, 7×2=14, 14+8=22 (not 18). 18 might come from 3×2=6, 8÷4=2, then 10+6+2=18 (adding instead of subtracting).",
+        "trap_type": "addition_instead_of_subtraction"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always apply MDAS: Multiply and Divide first (left to right), then Add and Subtract (left to right). Never go left to right without respecting operation precedence.",
+    "blueprint_id": "MDAS Practice",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n\n**Step 1: Recall MDAS rule.** Multiplication and Division have higher precedence than Addition and Subtraction. Perform MD from left to right, then AS from left to right.\n\n**Step 2: Apply to the expression.**\nExpression: 10 - 3 × 2 + 8 ÷ 4\n- First, multiplication: 3 × 2 = 6\n- Division: 8 ÷ 4 = 2\n- Now expression becomes: 10 - 6 + 2\n\n**Step 3: Perform addition and subtraction left to right.**\n- 10 - 6 = 4\n- 4 + 2 = 6\n\n**Step 4: Conclusion.** The correct answer is 6.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-021",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "How many seconds are in 2 hours?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3,600"
+      },
+      {
+        "key": "B",
+        "text": "5,400"
+      },
+      {
+        "key": "C",
+        "text": "7,200"
+      },
+      {
+        "key": "D",
+        "text": "14,400"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "1 hour in seconds",
+        "text": "1 hour = 60 minutes × 60 seconds = 3,600 seconds."
+      },
+      {
+        "rung": 2,
+        "title": "Multiply by 2",
+        "text": "2 hours = 2 × 3,600 seconds = ?"
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "2 × 3,600 = 7,200."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Therefore, 2 hours = 7,200 seconds."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "3,600 seconds is the number of seconds in 1 hour, not 2. The student likely forgot to multiply by 2.",
+        "trap_type": "one_hour_only"
+      },
+      "B": {
+        "text": "5,400 seconds might come from incorrectly converting 2 hours as 1.5 hours (3,600 × 1.5) or a miscalculation like 2 × 2,700.",
+        "trap_type": "half_hour_added"
+      },
+      "C": {
+        "text": "Correct! 2 hours × 60 minutes/hour × 60 seconds/minute = 7,200 seconds.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "14,400 seconds is double the correct answer, possibly from multiplying 3,600 by 4 instead of 2, or confusing hours with half-days.",
+        "trap_type": "doubled_correct"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To convert hours to seconds, multiply by 3,600 (60 × 60). For multiple hours, multiply that result by the number of hours.",
+    "blueprint_id": "Time Conversion Seconds",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Know the conversion: 1 hour = 60 minutes, 1 minute = 60 seconds.\n2. So 1 hour = 60 × 60 = 3,600 seconds.\n3. For 2 hours: 2 × 3,600 = 7,200 seconds.\n\n### ❌ Why the Distractors Fail\n- **3,600 (A):** Only accounts for 1 hour, not 2.\n- **5,400 (B):** Possibly from 1.5 hours or a multiplication error.\n- **14,400 (D):** Double the correct answer, perhaps from multiplying by 4 instead of 2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-023",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is the sum of the first 10 positive integers? (1+2+...+10)",
+    "options": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "55"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Use the formula",
+        "text": "Sum of first n positive integers = n(n+1)/2."
+      },
+      {
+        "rung": 2,
+        "title": "Plug in n=10",
+        "text": "Sum = 10 × (10+1) / 2 = 10 × 11 / 2."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "10 × 11 = 110; 110 / 2 = 55."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The sum is 55."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "45 is the sum of the first 9 positive integers (9×10/2 = 45). The student likely used n=9 instead of n=10.",
+        "trap_type": "off_by_one_nine"
+      },
+      "B": {
+        "text": "50 might come from incorrectly averaging 1 and 10 (5.5) and multiplying by 10, but forgetting to divide by 2? Actually 5.5×10=55, so 50 is a guess or from 10×5.",
+        "trap_type": "average_miscalculation"
+      },
+      "C": {
+        "text": "Correct! Using the formula: 10×11/2 = 55.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "60 might come from 10×6, or from adding 1 to 10 incorrectly (e.g., 10×12/2 = 60, using n=12).",
+        "trap_type": "n_plus_two"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For sum of first n integers, use n(n+1)/2. Double-check that n matches the count of terms.",
+    "blueprint_id": "Sum of First n Numbers",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The formula for the sum of the first n positive integers is S = n(n+1)/2.\n2. Here n = 10, so S = 10 × (10+1) / 2 = 10 × 11 / 2.\n3. 10 × 11 = 110; 110 ÷ 2 = 55.\n\n### ❌ Why the Distractors Fail\n- **45 (A):** Sum of first 9 integers (9×10/2).\n- **50 (B):** Possibly from 10×5 or a miscalculation.\n- **60 (D):** From using n=11 (11×12/2=66) or n=12 (12×13/2=78) — not 60 exactly, but a common wrong formula like 10×6.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-024",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 3/8 as a decimal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25"
+      },
+      {
+        "key": "B",
+        "text": "0.3"
+      },
+      {
+        "key": "C",
+        "text": "0.375"
+      },
+      {
+        "key": "D",
+        "text": "0.4"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Divide numerator by denominator",
+        "text": "3 ÷ 8 = ?"
+      },
+      {
+        "rung": 2,
+        "title": "Set up long division",
+        "text": "8 goes into 3.0 zero times, so 0. then 30 ÷ 8 = 3 remainder 6."
+      },
+      {
+        "rung": 3,
+        "title": "Continue dividing",
+        "text": "Bring down 0: 60 ÷ 8 = 7 remainder 4. Bring down 0: 40 ÷ 8 = 5. So 0.375."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "3/8 = 0.375."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "0.25 is 1/4 or 2/8, not 3/8. The student may have confused 3/8 with 1/4.",
+        "trap_type": "quarter_confusion"
+      },
+      "B": {
+        "text": "0.3 is a rounded approximation of 3/8? Actually 3/8=0.375, so 0.3 is too low. Possibly from 3÷10=0.3.",
+        "trap_type": "divide_by_ten"
+      },
+      "C": {
+        "text": "Correct! 3 ÷ 8 = 0.375 exactly.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "0.4 is 2/5 or 4/10. The student may have thought 3/8 ≈ 0.4 because 3/7.5=0.4, or rounded up incorrectly.",
+        "trap_type": "over_rounding"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To convert a fraction to a decimal, divide the numerator by the denominator. For 3/8, long division gives 0.375.",
+    "blueprint_id": "Fraction to Decimal",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Divide 3 by 8: 3 ÷ 8 = 0.375.\n2. Long division: 8 into 3.0 = 0.3 (since 8×3=24, remainder 6). Bring down 0 → 60, 8×7=56, remainder 4. Bring down 0 → 40, 8×5=40, remainder 0. So 0.375.\n\n### ❌ Why the Distractors Fail\n- **0.25 (A):** 1/4 = 0.25, not 3/8.\n- **0.3 (B):** 3/10 = 0.3, but denominator is 8, not 10.\n- **0.4 (D):** 2/5 = 0.4, or rounding 0.375 up.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ops-025",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Simplify: 5^2 - 3^2",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Compute each exponent",
+        "text": "5^2 = 5 × 5 = 25; 3^2 = 3 × 3 = 9."
+      },
+      {
+        "rung": 2,
+        "title": "Subtract",
+        "text": "25 - 9 = ?"
+      },
+      {
+        "rung": 3,
+        "title": "Result",
+        "text": "25 - 9 = 16."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The simplified expression is 16."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4 might come from (5-3)^2 = 2^2 = 4, incorrectly applying difference of squares without squaring first.",
+        "trap_type": "difference_then_square"
+      },
+      "B": {
+        "text": "8 could be from 5^2=25, 3^2=9, then 25-9=16, but then mistakenly taking square root? Or from 5-3=2, then 2×4? Not clear, but 8 is a common wrong answer.",
+        "trap_type": "unknown_error"
+      },
+      "C": {
+        "text": "Correct! 5^2 - 3^2 = 25 - 9 = 16.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "22 might come from 5^2=25, then subtracting 3 (not 3^2) gives 22, or from 5^2 - 3 = 25-3=22.",
+        "trap_type": "subtract_three_not_squared"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always compute exponents before subtraction. 5^2 - 3^2 ≠ (5-3)^2.",
+    "blueprint_id": "Exponents and Subtraction",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Compute each power: 5^2 = 25, 3^2 = 9.\n2. Subtract: 25 - 9 = 16.\n\n### ❌ Why the Distractors Fail\n- **4 (A):** Mistakenly computes (5-3)^2 = 2^2 = 4.\n- **8 (B):** Possibly from 5^2=25, 3^2=9, then 25-9=16, then halved? Or 5-3=2, 2×4=8? No clear path.\n- **22 (D):** Subtracts 3 instead of 3^2: 25-3=22.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-018",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A rectangle's length is twice its width. The perimeter is 54 meters. What is the width?",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define variables",
+        "text": "Let w = width. Then length = 2w."
+      },
+      {
+        "rung": 2,
+        "title": "Perimeter formula",
+        "text": "Perimeter = 2(length + width) = 2(2w + w) = 2(3w) = 6w."
+      },
+      {
+        "rung": 3,
+        "title": "Set equal to given perimeter",
+        "text": "6w = 54. Divide both sides by 6: w = 9."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The width is 9 meters."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "7 meters: If width=7, length=14, perimeter=2(7+14)=42, not 54. This might come from solving 2(w+2w)=54 → 3w=27 → w=9, but then subtracting 2? Or from 54/2=27, then 27/3=9, but then 9-2=7.",
+        "trap_type": "off_by_two"
+      },
+      "B": {
+        "text": "8 meters: If width=8, length=16, perimeter=2(8+16)=48, not 54. Possibly from 54/2=27, then 27/3=9, then 9-1=8.",
+        "trap_type": "off_by_one"
+      },
+      "C": {
+        "text": "Correct! Width=9, length=18, perimeter=2(9+18)=54.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "10 meters: If width=10, length=20, perimeter=2(10+20)=60, not 54. Might come from 54/2=27, then 27/2.7=10, or from adding 1 to 9.",
+        "trap_type": "overestimate"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For rectangle perimeter problems, write P=2(l+w). Substitute l in terms of w, then solve for w.",
+    "blueprint_id": "Rectangle Perimeter Problem",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Let w = width. Length = 2w.\n2. Perimeter = 2(length + width) = 2(2w + w) = 2(3w) = 6w.\n3. Set 6w = 54 → w = 54/6 = 9.\n4. Width = 9 meters. Check: length=18, perimeter=2(9+18)=54.\n\n### ❌ Why the Distractors Fail\n- **7 (A):** Would give perimeter 42.\n- **8 (B):** Would give perimeter 48.\n- **10 (D):** Would give perimeter 60.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

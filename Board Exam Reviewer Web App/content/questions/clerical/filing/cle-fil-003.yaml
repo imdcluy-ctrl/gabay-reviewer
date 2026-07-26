@@ -1,0 +1,53 @@
+id: cle-fil-003
+subtopic: coding-spelling
+category: clerical-ability
+difficulty: 1
+is_free: true
+language: en
+tags: ["spelling", "clerical-accuracy"]
+estimated_seconds: 45
+question_text: "Which of the following words is correctly spelled?"
+options:
+  - key: A
+    text: "Accomodation"
+  - key: B
+    text: "Accommodation"
+  - key: C
+    text: "Acommodation"
+  - key: D
+    text: "Accomadation"
+correct: B
+blueprint_id: "Clerical Ability — Standard Spelling Verification"
+hint_ladder:
+  - rung: 1
+    title: "Identify Double Consonants"
+    text: "Look for double 'c' and double 'm'."
+  - rung: 2
+    title: "Check 'c' Count"
+    text: "The word has double 'cc'."
+  - rung: 3
+    title: "Check 'm' Count"
+    text: "The word also has double 'mm'."
+  - rung: 4
+    title: "Select Correct Spelling"
+    text: "Accommodation contains both double 'cc' and double 'mm'."
+deconstruct_text: |
+  Spelling rule: Accommodation contains double 'c' and double 'm'.
+  Ac-com-mo-da-tion (2 c's, 2 m's).
+choice_explanations:
+  A:
+    text: "Missing the second 'm'."
+    trap_type: missing_double_letter
+  B:
+    text: "Correct! Contains double 'cc' and double 'mm'."
+    trap_type: null
+  C:
+    text: "Missing the second 'c'."
+    trap_type: missing_double_letter
+  D:
+    text: "Incorrect vowel 'a' in the third syllable."
+    trap_type: vowel_substitution_error
+next_time_rule: "Remember: Accommodation has double C and double M."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Spelling Bank"

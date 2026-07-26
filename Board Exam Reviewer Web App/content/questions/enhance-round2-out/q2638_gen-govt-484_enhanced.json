@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-484",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-government",
+    "question_text": "The Philippine Amusement and Gaming Corporation (PAGCOR) is a government-owned and controlled corporation (GOCC) that regulates and operates gambling activities. Which of the following best describes the governance structure of PAGCOR?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is headed by a Board of Directors appointed by the President, with the Chairman and CEO serving at the pleasure of the President."
+      },
+      {
+        "key": "B",
+        "text": "It is directly under the Office of the President and managed by a single Administrator appointed by the President."
+      },
+      {
+        "key": "C",
+        "text": "It is governed by a Commission composed of five members appointed by the President for a fixed term of seven years."
+      },
+      {
+        "key": "D",
+        "text": "It is a subsidiary of the Department of Finance and managed by the Secretary of Finance."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3223",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

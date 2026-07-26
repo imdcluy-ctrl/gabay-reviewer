@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-020",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'CONCISE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Brief"
+      },
+      {
+        "key": "B",
+        "text": "Succinct"
+      },
+      {
+        "key": "C",
+        "text": "Verbose"
+      },
+      {
+        "key": "D",
+        "text": "Short"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is testing your vocabulary, specifically your ability to spot a word's opposite. Before you look at the choices, take a moment to clearly define 'concise' in your own mind."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "An antonym is a word with the opposite meaning. So if 'concise' means 'brief and to the point,' its antonym must mean 'long-winded' or 'using too many words.'"
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the choices. Three of them are actually synonyms of 'concise'—words that mean the same thing. Can you spot which three are similar? The one that stands out as different is your answer."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "Options A, B, and D (brief, succinct, short) all describe something that doesn't waste words. The only option that describes something that uses too many words is 'verbose.' That's your antonym."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Not quite. 'Brief' is actually a synonym of 'concise'—it means short and to the point. If you picked this, you might have misread the question as asking for a synonym instead of an antonym. It's a common slip under time pressure, so always double-check what the question is really asking.",
+        "trap_type": "synonym_confusion"
+      },
+      "B": {
+        "text": "Close, but no. 'Succinct' is another synonym of 'concise,' meaning expressed clearly in few words. This is the opposite of what the question asks for. A good trick: if a word feels like it belongs in the same family as the given word, it's probably not the antonym.",
+        "trap_type": "synonym_confusion"
+      },
+      "C": {
+        "text": "Exactly right. 'Verbose' means using or expressed in more words than are needed—the direct opposite of 'concise.' You've got a sharp eye for word meanings.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Not quite. 'Short' is a synonym of 'concise' when talking about length or duration. It doesn't mean the opposite. This is a tricky one because 'short' feels different from 'brief' or 'succinct,' but in this context, they all point in the same direction.",
+        "trap_type": "synonym_confusion"
+      }
+    },
+    "next_time_rule": "When hunting for an antonym, first lock in the meaning of the given word, then scan for the option that feels like its opposite. If three choices seem to cluster around the same idea, the odd one out is usually your answer.",
+    "blueprint_id": "Antonyms — Concise",
+    "deconstruct_text": "Let's walk through this together. The word 'concise' means giving a lot of information clearly in just a few words—think of it as 'brief but complete.' So we're looking for its opposite, a word that means the exact reverse: using more words than necessary, or being long-winded.\n\nNow look at the options. 'Brief,' 'succinct,' and 'short' all describe something that doesn't waste words. They're synonyms of 'concise.' If you picked any of these, you might have been moving too fast or accidentally read the question as asking for a synonym—it happens to the best of us.\n\nThe only option that stands apart is 'verbose,' which means wordy or overly talkative. That's your antonym.\n\nHere's a mental trick for next time: when you see an antonym question, quickly group the choices into two camps—words that mean the same as the given word, and words that don't. The one that doesn't fit the group is usually your answer. It's like a game of 'spot the difference.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

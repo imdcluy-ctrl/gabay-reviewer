@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-008",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government printer uses 15 reams of paper to produce 600 training manuals. How many reams of paper are required to print 1,000 manuals of the same size?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 reams"
+      },
+      {
+        "key": "B",
+        "text": "22 reams"
+      },
+      {
+        "key": "C",
+        "text": "25 reams"
+      },
+      {
+        "key": "D",
+        "text": "30 reams"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is all about how things scale together. When you print more manuals, you naturally need more paper. The key is figuring out exactly how much more."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "In a direct proportion, the ratio between the two quantities stays constant. So reams divided by manuals (or manuals divided by reams) will always give the same number."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "Find out how many manuals you get from one ream. Divide 600 manuals by 15 reams. That gives you 40 manuals per ream. Now use that number for the new situation."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "If one ream makes 40 manuals, then to make 1,000 manuals, you simply divide 1,000 by 40. What do you get? That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20 reams is a tempting wrong answer if you accidentally divide 1,000 by 50 instead of 40, or if you miscalculate the unit rate. It's a simple arithmetic slip, but the correct path gives you 25.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "22 reams is close but not quite right. There's no clean calculation that leads here. It might come from a rounding error or a misstep in cross-multiplication. Stick with the unit rate method to stay accurate.",
+        "trap_type": "arithmetic_error"
+      },
+      "C": {
+        "text": "Correct! You figured out that 15 reams produce 600 manuals, so each ream makes 40 manuals. To get 1,000 manuals, you need 1,000 divided by 40, which is exactly 25 reams. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "30 reams is a common mistake if you think, '1,000 is a bit more than 600, so I'll add a few more reams.' But that's not precise enough. The exact math shows you need 25 reams, not 30. Always calculate the unit rate to avoid guessing.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "When you see 'more of this means more of that,' find the unit rate first. Divide to get 'one unit worth,' then multiply or divide to scale up. It's your anchor in any proportion problem.",
+    "blueprint_id": "Ratio and Proportion — direct proportion supplies forecasting",
+    "deconstruct_text": "Let's walk through this together. The problem tells us that 15 reams of paper make 600 manuals. Since printing more manuals requires more paper, we're dealing with a direct proportion. The smartest move here is to find the unit rate: how many manuals does one ream produce? Divide 600 by 15, and you get 40 manuals per ream. Now, we need 1,000 manuals. So we divide 1,000 by 40, which gives us 25 reams. That's your answer. You could also set up a proportion: 15 reams over 600 manuals equals X reams over 1,000 manuals. Cross-multiply: 15 times 1,000 equals 600 times X, so 15,000 equals 600X, and X equals 25. Either way, you land on 25 reams. The mental trick here is to always ask yourself, 'What's the value of one?' Once you know that, scaling up or down becomes a breeze.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

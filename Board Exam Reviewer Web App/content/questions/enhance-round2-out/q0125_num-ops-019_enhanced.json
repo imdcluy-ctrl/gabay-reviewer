@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-019",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "Evaluate: 10 - 3 x 2 + 8 / 4",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alalahanin ang MDAS Rule",
+        "text": "Multiply at Divide muna bago Add at Subtract, always left-to-right sa bawat grupo. Parang sa jeep: unahin ang bumababa bago sumakay!"
+      },
+      {
+        "rung": 2,
+        "title": "Gawin ang Multiplication at Division",
+        "text": "3 × 2 = 6, at 8 ÷ 4 = 2. So ang expression ay nagiging: 10 - 6 + 2."
+      },
+      {
+        "rung": 3,
+        "title": "Add at Subtract left-to-right",
+        "text": "10 - 6 = 4, tapos 4 + 2 = 6. Parang sa budget: ikaltas muna gastos bago dagdagan."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot",
+        "text": "Ang tamang resulta ay 6. Kung nakuha mo, galing! Patuloy lang, Ate/Kuya."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Following MDAS: 3×2=6, 8÷4=2, then 10-6+2=6—parang natirang barya mo sa pambili ng ticket at prize.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you computed left-to-right: 10-3=7, 7×2=14, 14+8=22, 22÷4=5.5—hindi 9, common guess lang ito.",
+        "trap_type": "left_to_right_error"
+      },
+      "C": {
+        "text": "You might have chosen C because you added before subtracting, giving 10-(6+2)=2, but 2 is not an option, so 12 was a random guess.",
+        "trap_type": "addition_before_subtraction"
+      },
+      "D": {
+        "text": "You might have chosen D because you added all numbers after MD: 10+6+2=18, forgetting to subtract.",
+        "trap_type": "addition_instead_of_subtraction"
+      }
+    },
+    "next_time_rule": "**Next Time:** Unahin ang Multiply/Divide, then Add/Subtract left-to-right. MDAS lagi—parang respeto sa Math!",
+    "blueprint_id": "MDAS Practice",
+    "deconstruct_text": "**Step 1:** Isipin mo na nasa barangay raffle ka. Meron kang ₱10. Bumili ka ng 3 tiket na tig-₱2, so nagastos mo ay 3×2 = ₱6. Tapos nanalo ka ng premyong ₱8 na hahatiin sa 4 na manlalaro, kaya ₱2 ang makuha mo. So ang pera mo: 10 - 6 + 2.\n\n**Step 2:** Sundin ang MDAS: unahin ang multiplication at division. 3×2 = 6, 8÷4 = 2. Ang expression ay magiging: 10 - 6 + 2.\n\n**Step 3:** Saka mag-add at subtract nang left-to-right. 10 - 6 = 4, tapos 4 + 2 = 6. Kaya ₱6 na lang ang natira—saktong pang-merienda!",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

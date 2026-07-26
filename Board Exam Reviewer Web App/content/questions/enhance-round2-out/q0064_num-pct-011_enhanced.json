@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-011",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's gross monthly salary is P30,000. Deductions amount to P7,500. What percentage is deducted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "25%"
+      },
+      {
+        "key": "C",
+        "text": "30%"
+      },
+      {
+        "key": "D",
+        "text": "35%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Right Numbers",
+        "text": "This is a 'part of whole' problem. Find the 'part' (the deduction) and the 'whole' (original salary before deductions)."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Percentage Rule",
+        "text": "Use the formula: (Part / Whole) x 100. Part is the smaller deducted amount, Whole is the full gross salary."
+      },
+      {
+        "rung": 3,
+        "title": "Plug In Your Numbers",
+        "text": "Your Part is P7,500. Your Whole is P30,000. So the calculation is (7,500 / 30,000) x 100."
+      },
+      {
+        "rung": 4,
+        "title": "Do the Math",
+        "text": "First, divide 7,500 by 30,000. You get 0.25. Then multiply 0.25 by 100 to get 25%."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you used net pay (P22,500) as the whole, getting 20% instead of using gross salary.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "B": {
+        "text": "Correct. You identified the deduction as the part and the gross salary as the whole to get 25%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you mistakenly used the net pay as the base, giving 33.3%.",
+        "trap_type": "wrong_base_percentage"
+      },
+      "D": {
+        "text": "You might have chosen D because a calculation slip like adding or subtracting wrongly gave you 35%.",
+        "trap_type": "wrong_base_percentage"
+      }
+    },
+    "next_time_rule": "Always identify the original 'whole': the amount before deductions. Then use (Part / Whole) x 100.",
+    "blueprint_id": "Percentage — Deduction Rate",
+    "deconstruct_text": "Imagine you’re a Barangay Treasurer checking your payslip. Gross salary: P30,000. Then you see deductions: P7,500 for taxes, GSIS, PhilHealth. The question: what percentage of your gross is being deducted?\n\nDon’t panic. The formula is simple: divide the part (deduction) by the whole (gross salary) then multiply by 100. (P7,500 / P30,000) x 100 = 25%.\n\nTandaan: ang 'whole' ay palaging ang original amount before any bawas. Wag gumamit ng net pay as the base — that's a classic trap.\n\nNow you know: whenever HR hands you that payslip, you can quickly compute your deduction rate. Sipag at diskarte, pasado ka!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

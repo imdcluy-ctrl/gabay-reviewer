@@ -1,0 +1,53 @@
+id: ver-gram-007
+subtopic: vocabulary-synonyms
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["vocabulary", "official-documents"]
+estimated_seconds: 45
+question_text: "The auditor recommended that the municipal treasurer AMEND the financial report. What is the synonym for AMEND?"
+options:
+  - key: A
+    text: "Discard"
+  - key: B
+    text: "Alter"
+  - key: C
+    text: "Approve"
+  - key: D
+    text: "Publish"
+correct: B
+blueprint_id: "Vocabulary — Synonyms of Legal and Audit Terms"
+hint_ladder:
+  - rung: 1
+    title: "Context Clue"
+    text: "Recommending changes to a report before final submission."
+  - rung: 2
+    title: "Root Meaning"
+    text: "'Amend' means to modify, revise, or alter for correctness."
+  - rung: 3
+    title: "Evaluate Options"
+    text: "To alter means to change or modify."
+  - rung: 4
+    title: "Select Matching Option"
+    text: "Option B is 'Alter'."
+deconstruct_text: |
+  Amend = to revise, alter, or change for improvement/correctness.
+  Synonym = Alter, Modify, Modify.
+choice_explanations:
+  A:
+    text: "Discard means throw away, which is too destructive."
+    trap_type: extreme_meaning_error
+  B:
+    text: "Correct! Alter means to modify or revise."
+    trap_type: null
+  C:
+    text: "Approve means accept as is, opposite of amending."
+    trap_type: antonym_error
+  D:
+    text: "Publish means release to public, independent of modifying."
+    trap_type: irrelevance_error
+next_time_rule: "Amend means to alter, modify, or revise for accuracy."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Vocabulary Bank"

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-101",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Article IX — Constitutional Commissions (CSC, COMELEC, COA)",
+    "difficulty_level": 2,
+    "question_text": "Under Article IX of the 1987 Philippine Constitution, which principle guarantees that 'independent constitutional body'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Independence"
+      },
+      {
+        "key": "B",
+        "text": "Executive Order"
+      },
+      {
+        "key": "C",
+        "text": "Judicial Discretion"
+      },
+      {
+        "key": "D",
+        "text": "Legislative Franchise"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Right Article",
+        "text": "Think about which part of the Constitution specifically talks about the CSC, COMELEC, and COA. That's Article IX, and it has a special word that describes how these bodies should operate."
+      },
+      {
+        "rung": 2,
+        "title": "The Key Word in Section 1",
+        "text": "Open your mental copy of Article IX, Section 1. The very first sentence describes these commissions with a powerful word that means 'free from control.' What is that word?"
+      },
+      {
+        "rung": 3,
+        "title": "Match the Word to the Principle",
+        "text": "The Constitution says these commissions 'shall be independent.' So the principle that guarantees their status is simply that word itself. Now look at the options—which one is that exact word?"
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate the Outsiders",
+        "text": "The other options are all actions or powers belonging to specific branches of government—the President (Executive Order), courts (Judicial Discretion), or Congress (Legislative Franchise). The principle for constitutional commissions is none of those; it's the one that keeps them separate from all branches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article IX, Section 1 of the 1987 Constitution is crystal clear: 'The constitutional commissions... shall be independent.' This independence is the bedrock principle that protects the CSC, COMELEC, and COA from being bossed around by the President, Congress, or the courts. It's their constitutional shield.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is tempting if you mix up the powers of the President with the structure of the Constitution. An Executive Order is a directive issued by the President to manage the executive branch. It's a tool of the executive, not a principle that guarantees independence. The commissions need to be free from executive orders, not defined by them.",
+        "trap_type": "provision_misattribution"
+      },
+      "C": {
+        "text": "You might pick this if you're thinking about how courts have the freedom to decide cases. But Judicial Discretion is about a judge's power to make rulings within the law. It applies to the judicial branch, not to the constitutional commissions. The commissions have their own kind of freedom—independence from all branches, not just the power to decide cases.",
+        "trap_type": "branch_function_confusion"
+      },
+      "D": {
+        "text": "This one sounds official, but a Legislative Franchise is actually a special privilege or license granted by Congress, like a TV station franchise. It has nothing to do with the structural independence of the CSC, COMELEC, or COA. The commissions don't need a franchise to exist—they need constitutional independence.",
+        "trap_type": "branch_function_confusion"
+      }
+    },
+    "next_time_rule": "When you see 'Article IX' and 'constitutional commissions,' your brain should immediately whisper: 'Independence.' That's the magic word in Section 1. If an option sounds like something a specific branch of government does (President, courts, Congress), it's probably not the principle that keeps the commissions free from all of them.",
+    "deconstruct_text": "Let's walk through this together. The question asks for the principle that guarantees an 'independent constitutional body' under Article IX. First, remember what Article IX covers: the Constitutional Commissions—the Civil Service Commission (CSC), the Commission on Elections (COMELEC), and the Commission on Audit (COA). Now, open Article IX, Section 1 in your mind. The very first sentence says these commissions 'shall be independent.' That's not just a description—it's the constitutional principle itself. The word 'independence' is the answer. Now look at the other options. Executive Order is something the President issues. Judicial Discretion is what judges use in court. Legislative Franchise is a privilege Congress grants. None of these are principles that define the status of the commissions. The commissions are designed to be separate from all three branches, and the Constitution uses the word 'independent' to make that clear. So when you see this kind of question, your mental shortcut is: Article IX plus constitutional commissions equals independence. That's the one-word principle that guarantees their freedom.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

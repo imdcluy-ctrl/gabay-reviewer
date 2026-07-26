@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-020",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A hose can fill a 600-liter government water tank in 4 hours. Another hose can fill the same tank in 6 hours. How much water can they fill together in 1 hour?",
+    "options": [
+      {
+        "key": "A",
+        "text": "200 L"
+      },
+      {
+        "key": "B",
+        "text": "225 L"
+      },
+      {
+        "key": "C",
+        "text": "250 L"
+      },
+      {
+        "key": "D",
+        "text": "275 L"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Terms of Rates",
+        "text": "Instead of focusing on the whole tank, ask: how much water does each hose deliver in just one hour? That's the key to any 'working together' problem."
+      },
+      {
+        "rung": 2,
+        "title": "Find Each Hose's Hourly Output",
+        "text": "Hose A fills 600 liters in 4 hours, so in 1 hour it fills 600 divided by 4. Hose B fills 600 liters in 6 hours, so in 1 hour it fills 600 divided by 6. Calculate those two numbers."
+      },
+      {
+        "rung": 3,
+        "title": "Combine Their Efforts",
+        "text": "When both hoses are open at the same time, their hourly outputs simply add up. Take the two numbers you found and add them together."
+      },
+      {
+        "rung": 4,
+        "title": "Match Your Sum to the Options",
+        "text": "You should have gotten 150 liters per hour for Hose A and 100 liters per hour for Hose B. Adding them gives 250 liters per hour. Since the question asks for the amount in exactly 1 hour, that's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "200 L. This is a tempting shortcut if you only looked at one hose and guessed. Maybe you thought, 'Hose A does 150 L/hr, so maybe the other adds 50?' Or you might have mistakenly used 600 divided by 3 hours (an average of the times). The trap is forgetting that both hoses contribute, and their rates need to be calculated separately first.",
+        "trap_type": "single_rate_error"
+      },
+      "B": {
+        "text": "225 L. This often comes from a very natural but wrong instinct: averaging. You might have averaged the two times (4 and 6 hours to get 5 hours) and then divided 600 by 5 to get 120 L/hr, then added something extra. Or you averaged the two rates (150 and 100 to get 125) and then added 100. The core mistake is treating a combined work problem like a simple average problem. In real life, two hoses don't 'average' their flow—they add it.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "Correct! 250 L. You found each hose's rate: Hose A fills 150 liters in one hour (600/4), and Hose B fills 100 liters in one hour (600/6). When they work together, their rates combine: 150 + 100 = 250 liters in one hour. You avoided the averaging trap and remembered that rates add when efforts combine.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "275 L. This is very close to the right answer, which suggests you were on the right track but made a small arithmetic slip. Perhaps you calculated one rate as 150 and the other as 125 (maybe you divided 600 by 4.8 by mistake), or you added 150 + 125. Double-check your division: 600 divided by 6 is exactly 100, not 125. A tiny error in the rate calculation throws off the whole sum.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "For any 'working together' problem, always convert each worker's total job into a rate per unit time first. Then add the rates. Never average the times or the rates—that's the most common trap.",
+    "blueprint_id": "Combined Flow Rates",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The secret to any 'working together' problem is to stop thinking about the whole job and start thinking about what happens in just one unit of time—in this case, one hour.\n\nFirst, find the rate of Hose A. It fills 600 liters in 4 hours. So in 1 hour, it fills 600 divided by 4, which is 150 liters. That's its personal hourly output.\n\nNext, find the rate of Hose B. It fills the same 600 liters in 6 hours. So in 1 hour, it fills 600 divided by 6, which is 100 liters.\n\nNow, here's the intuitive leap: when both hoses are open, they don't compete—they cooperate. Their water flows combine. So in one hour, Hose A contributes 150 liters and Hose B contributes 100 liters. Together, that's 150 + 100 = 250 liters.\n\nThe question asks for the amount in exactly 1 hour, so 250 liters is your answer.\n\nHere's a mental trick to carry with you: think of it like two people filling buckets. If one person can fill 3 buckets per hour and another can fill 2 buckets per hour, working together they fill 5 buckets per hour. You never average their speeds—you add them. Same logic applies here.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

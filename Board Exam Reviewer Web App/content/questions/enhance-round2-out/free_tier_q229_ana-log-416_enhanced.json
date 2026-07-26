@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-416",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A government policy states: 'Employees must wear IDs and uniforms.' Under which condition is this policy violated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "An employee wears an ID but no uniform."
+      },
+      {
+        "key": "B",
+        "text": "An employee wears a uniform but no ID."
+      },
+      {
+        "key": "C",
+        "text": "An employee wears neither ID nor uniform."
+      },
+      {
+        "key": "D",
+        "text": "An employee wears both ID and uniform."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what the word 'and' really means in a rule. When a policy says you must do two things, what happens if you only do one of them?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's a simple way to remember it: a rule that says 'A and B' is like needing both keys to open a lock. If you have only one key, does the lock open? No. So the rule is broken even if you have just one of the two things."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Now look at the options. Options A and B each have one requirement met but one missing. That means the rule is broken in both cases. Option C has both missing, so it's also broken. Option D has both, so it's fine. The question asks for a condition where the policy is violated. But here's the twist: which option is the clearest, most undeniable violation?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Think about it this way: if you were the supervisor checking compliance, which employee would you immediately flag as not following the rule at all? The one missing both items is the most obvious violation. Options A and B are also violations, but they might make you pause and think. The question wants the condition where there's no doubt the policy is broken."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a tricky one. You might think wearing an ID is enough, but the policy says 'and uniforms' -- both are required. So wearing only an ID does violate the rule. A smart test-taker might pick this because they see the ID and think 'at least they have something,' but the rule demands everything. This is a partial compliance trap.",
+        "trap_type": "partial_compliance_misconception"
+      },
+      "B": {
+        "text": "Same idea as option A, just flipped. Having a uniform but no ID still breaks the rule because both are needed. It's easy to fall for this if you think the uniform is the main requirement, but the policy doesn't rank them -- it requires both equally.",
+        "trap_type": "partial_compliance_misconception"
+      },
+      "C": {
+        "text": "Correct. When an employee has neither the ID nor the uniform, it's a clear and complete violation of the policy. There's no gray area here -- both requirements are missing, so the rule is definitely broken. This is the most straightforward answer.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one is the opposite of a violation -- it's full compliance. If you picked this, you might have misread the question as 'which condition satisfies the policy?' instead of 'which condition violates it?' Always double-check what the question is actually asking before you answer.",
+        "trap_type": "compliance_mistaken_as_violation"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The policy says employees must wear IDs AND uniforms. The key word here is 'and' -- it's a conjunction, meaning both conditions have to be true at the same time. Think of it like a checklist: you need to check off both boxes. If even one box is unchecked, the rule is broken.\n\nNow, here's where it gets interesting. Options A and B each have one box checked and one unchecked. So technically, they are violations too. But the question asks for 'a condition' under which the policy is violated, and option C is the only one where both boxes are completely empty. It's the most undeniable violation.\n\nWhy is C the best answer? Because in exam logic, when a rule says 'must do both,' the clearest violation is doing neither. Options A and B might make you argue 'well, at least they have one,' but option C leaves no room for debate. The employee is completely non-compliant.\n\nHere's a mental trick for next time: when you see a rule with 'and,' imagine a door with two locks. You need two different keys to open it. If you have no keys at all, you definitely can't open the door. If you have only one key, you also can't open it, but the most obvious failure is having zero keys. For exam purposes, when asked for a violation of an 'and' rule, look for the option where both parts are missing -- it's the safest bet.",
+    "next_time_rule": "For an 'and' rule, the most undeniable violation is when both conditions are missing. When in doubt, pick the option where nothing is satisfied.",
+    "blueprint_id": "B-1779",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

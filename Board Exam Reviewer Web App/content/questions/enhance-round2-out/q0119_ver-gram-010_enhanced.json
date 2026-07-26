@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-010",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'Neither the manager nor the employees ___ satisfied with the new policy.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "are"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "has been"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This sentence uses a special pairing: 'neither...nor'. When you see this structure, there's a simple rule about which noun the verb should match."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "With 'neither...nor' (and also 'either...or'), the verb agrees with the noun that is closer to it. Think of it as the verb being polite and looking..."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the two nouns: 'the manager' and 'the employees'. Which one is right before the blank? It's 'employees'. So the verb must match 'employees'."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "'Employees' is plural, so you need a plural verb in the present tense. Among the options, only one word fits that description. Which one is it?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'manager' is singular and the first subject, but in 'neither...nor', verb agrees with nearer 'employees' ...",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. The plural 'are' matches the closest subject 'employees' in present tense.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'was' is past tense singular, but the sentence needs present plural for 'employees'.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D because 'has been' is singular, but you need plural 'have been' or simple present 'are'.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "For 'neither...nor' / 'either...or', the verb follows the nearest subject. Tanong mo lang: 'Sino katabi ng blank?'",
+    "blueprint_id": "Subject-Verb Agreement — Neither/Nor Proximity",
+    "deconstruct_text": "Kapag 'neither...nor' ang gamit, laging tandaan: ang verb ay sumusunod sa subject na pinakamalapit sa kanya, hindi sa unang subject. Parang sa pila, yung nasa harap ang priority.\n\nSa isang meeting ng barangay, pinag-usapan ang bagong curfew. 'Neither the kapitan nor the kagawads are satisfied.' Dahil 'kagawads' plural, 'are' dapat.\n\nMental trick: Isipin mo ang verb ay parang batang nagtatanong, 'Sino ba katabi ko?' Kung plural, plural din ang sagot. Kaya sa 'employees', 'are' ang sagot, hindi 'is'.\n\nSubukan mong baliktarin: 'Neither the employees nor the manager is satisfied.' Ngayon 'manager' singular na ang katabi, kaya 'is' na. Practice mo 'to, sure pass!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

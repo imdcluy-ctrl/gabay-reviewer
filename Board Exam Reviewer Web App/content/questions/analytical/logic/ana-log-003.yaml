@@ -1,0 +1,58 @@
+id: ana-log-003
+subtopic: data-interpretation
+category: analytical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["data-interpretation", "lgu-budget"]
+estimated_seconds: 90
+question_text: "An LGU allocated its ₱10,000,000 budget as follows: Infrastructure 40%, Health Services 30%, Education 20%, Administration 10%. How much more budget was allocated to Infrastructure than to Education?"
+options:
+  - key: A
+    text: "₱1,000,000"
+  - key: B
+    text: "₱2,000,000"
+  - key: C
+    text: "₱3,000,000"
+  - key: D
+    text: "₱4,000,000"
+correct: B
+blueprint_id: "Data Interpretation — Percentage Allocation Difference"
+hint_ladder:
+  - rung: 1
+    title: "Find Percentage Difference"
+    text: "Infrastructure % minus Education % = 40% - 20% = 20%."
+  - rung: 2
+    title: "Apply Percentage to Total"
+    text: "Calculate 20% of ₱10,000,000."
+  - rung: 3
+    title: "Perform Multiplication"
+    text: "0.20 × ₱10,000,000 = ₱2,000,000."
+  - rung: 4
+    title: "Select Correct Value"
+    text: "Option B is ₱2,000,000."
+deconstruct_text: |
+  Infrastructure = 40% of ₱10,000,000 = ₱4,000,000
+  Education = 20% of ₱10,000,000 = ₱2,000,000
+  Difference = ₱4,000,000 - ₱2,000,000 = ₱2,000,000
+
+  Shortcut:
+  Percentage difference = 40% - 20% = 20%
+  20% of ₱10,000,000 = ₱2,000,000
+choice_explanations:
+  A:
+    text: "Difference between Education (20%) and Administration (10%)."
+    trap_type: wrong_part
+  B:
+    text: "Correct! 40% - 20% = 20% of ₱10M = ₱2,000,000."
+    trap_type: null
+  C:
+    text: "Difference between Infrastructure (40%) and Administration (10%)."
+    trap_type: wrong_part
+  D:
+    text: "Total Infrastructure allocation (₱4M), not the difference."
+    trap_type: total_vs_difference_confusion
+next_time_rule: "Subtract percentages first before multiplying by total to find differences faster."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "LGU Budget Data Interpretation"

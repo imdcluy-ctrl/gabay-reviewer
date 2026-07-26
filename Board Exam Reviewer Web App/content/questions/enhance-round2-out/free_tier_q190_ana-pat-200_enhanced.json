@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-pat-200",
+    "subtopic_id": "pattern-recognition",
+    "category_id": "analytical-ability",
+    "blueprint_id": "3D Rotation & Overlapping Figures Variant 1",
+    "difficulty_level": 3,
+    "question_text": "A 3D cube with different shaded symbols on each face is flipped forward once, then turned 90 degrees right. Which face is now facing UP?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Original Back Face"
+      },
+      {
+        "key": "B",
+        "text": "The Original Front Face"
+      },
+      {
+        "key": "C",
+        "text": "The Original Top Face"
+      },
+      {
+        "key": "D",
+        "text": "The Original Bottom Face"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Picture the First Move",
+        "text": "Imagine you're holding the cube and you flip it forward, like tipping it toward you. This is a vertical rotation. Which faces swap places? The Back goes to the Top, and the Top goes to the Front."
+      },
+      {
+        "rung": 2,
+        "title": "Now Picture the Second Move",
+        "text": "Turning the cube 90 degrees to the right is a horizontal spin, like a lazy Susan. This only changes which face is in front, back, left, or right. It does not touch the top or bottom at all."
+      },
+      {
+        "rung": 3,
+        "title": "Connect the Two Moves",
+        "text": "Since the second move is purely horizontal, whatever face ended up on top after the first flip stays on top. So the question becomes: after the forward flip, which face is on top?"
+      },
+      {
+        "rung": 4,
+        "title": "Identify the Top Face",
+        "text": "After the forward flip, the Original Back face is now on top. The right turn doesn't change that. So the face facing up is the Original Back face."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The forward flip moves the Original Back face to the top. The right turn spins the cube horizontally, leaving the top face unchanged. So the Original Back face is now facing up.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. If you reverse the flip direction in your mind, you might think the Front goes to the top. But flipping forward actually sends the Front to the bottom, not the top.",
+        "trap_type": "spatial_reversal_error"
+      },
+      "C": {
+        "text": "It's easy to assume the Original Top face stays on top, but the forward flip changes that. The Top face moves to the Front position during the flip, so it's no longer on top.",
+        "trap_type": "initial_flip_mistake"
+      },
+      "D": {
+        "text": "This might happen if you think the flip sends the Bottom to the top, or if you mix up the sequence of moves. Actually, the Bottom moves to the Back during the forward flip.",
+        "trap_type": "spatial_rotation_error"
+      }
+    },
+    "next_time_rule": "Remember: horizontal turns (left/right) never change the top or bottom face. Only vertical flips (forward/backward) change which face is up. So focus on the flip first, then ignore the turn for the top face.",
+    "deconstruct_text": "Let's walk through this step by step, like you're actually holding a cube. Start with the cube in front of you. Label the faces in your mind: Front (facing you), Back (away from you), Top, Bottom, Left, Right.\n\nFirst move: flip the cube forward, toward you. This is a 90-degree rotation around the left-right axis. Here's what happens:\n- The Original Back face swings up to become the new Top.\n- The Original Top face tips forward to become the new Front.\n- The Original Front face goes down to become the new Bottom.\n- The Original Bottom face goes back to become the new Back.\n\nSo after the flip, the face on top is the Original Back face.\n\nSecond move: turn the cube 90 degrees to the right. This is a rotation around the vertical axis (top-bottom). Think of spinning a globe on its stand. The top and bottom stay exactly where they are. Only the front, back, left, and right faces change positions.\n\nSince the top face doesn't change during a horizontal turn, the face on top after both moves is still the Original Back face.\n\nHere's a mental trick for exam day: whenever you see a sequence of cube moves, separate them into vertical flips and horizontal turns. Only vertical flips affect the top and bottom. Horizontal turns just shuffle the sides. So for any question about which face ends up on top, you can ignore all the left and right turns and just track the flips.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

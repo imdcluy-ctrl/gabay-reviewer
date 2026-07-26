@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-seq-002",
+    "subtopic_id": "sequence-series",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next: Z, Y, X, W, ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "V"
+      },
+      {
+        "key": "B",
+        "text": "U"
+      },
+      {
+        "key": "C",
+        "text": "T"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a letter sequence. Say the letters out loud: Z, Y, X, W. Saan papunta? Paatras sa alphabet, sunod-sunod."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Each letter is the one before it. So W is followed by V. Isipin mo 'yung reverse alphabet, parang jeepney route numbers na pababa."
+      },
+      {
+        "rung": 3,
+        "title": "Apply It Now",
+        "text": "From W, one step back gives V. Huwag kang lalaktaw—kung hindi constant, magulo. Check mo na hanggang dulo, V ang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Kabisaduhin ang reverse alphabet: Z, Y, X, W, V, U, T, S... The sequence is just reading off one letter at a time. So after W comes V."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. One step paatras from W lands on V. Walang skip, sunod-sunod lang sa reverse alphabet.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen U because you assumed a skip, pero the step is exactly one letter. V muna bago U.",
+        "trap_type": "sequence_pattern_inversion"
+      },
+      "C": {
+        "text": "You might have chosen T because you took three steps back, pero constant one-step lang. Hindi lumalaki agad.",
+        "trap_type": "sequence_pattern_inversion"
+      },
+      "D": {
+        "text": "You might have chosen S because you jumped too far, pero huwag mag-madali. The pattern is just reverse order, isa-isa.",
+        "trap_type": "sequence_pattern_inversion"
+      }
+    },
+    "next_time_rule": "Sa letter sequences, alamin ang step size. I-recite ang alphabet paatras o pasulong para malaman kung one step lang o nag-i-skip. Constant dapat.",
+    "blueprint_id": "Reverse Alphabet Sequence",
+    "deconstruct_text": "Imagine nasa tricycle terminal ka, pila ng mga tricycle paatras: una si Z, sunod Y, X, W. Ganyan lang sila, sunod-sunod, walang pasaway na lumaktaw.\n\nSo ang pattern: bawat letra umuurong ng isang hakbang paatras. Pagkatapos ng W, natural na V ang susunod. Recite the reverse alphabet—Z, Y, X, W, V, U, T, S—makikita mo, effortless.\n\nAng mga maling sagot U, T, S, nag-skip kaya napahamak. 'Wag mag-assume na lumalaktaw; constant ang step. Stick to one backward step lang.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

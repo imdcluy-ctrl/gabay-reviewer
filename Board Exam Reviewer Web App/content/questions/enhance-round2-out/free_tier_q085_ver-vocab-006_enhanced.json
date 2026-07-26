@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-006",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ADVERSE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Favorable"
+      },
+      {
+        "key": "B",
+        "text": "Beneficial"
+      },
+      {
+        "key": "C",
+        "text": "Unfavorable"
+      },
+      {
+        "key": "D",
+        "text": "Helpful"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the word 'adverse' in everyday situations. Have you ever heard of 'adverse weather conditions' or an 'adverse reaction' to a medicine? What kind of feeling do those phrases give you?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Here's a simple trick: 'Adverse' is related to the word 'adversary' — someone who is against you. So 'adverse' always carries a negative, opposing meaning. It's never positive."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Three of them are clearly positive words: favorable, beneficial, helpful. Only one option has a negative meaning. Which one is it?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "If something is adverse, it works against you — it's the opposite of favorable. So the synonym you're looking for is the one that means 'not favorable' or 'harmful'. That's 'unfavorable'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is actually the opposite of 'adverse'. If you picked this, you might have thought the prefix 'ad-' means 'toward' or 'good', like in 'advantage'. But 'adverse' comes from a Latin word meaning 'turned against'. So 'favorable' is an antonym, not a synonym.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Beneficial' means something that produces good results — again, the complete opposite of 'adverse'. This is a common trap when you're not quite sure of the word's meaning and just guess based on a vague positive feeling. Remember: adverse is always negative.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Exactly right. 'Adverse' and 'unfavorable' are perfect synonyms. Both describe something that works against you or creates difficulties. Think of it this way: if the weather is adverse, it's unfavorable for going outside.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Helpful' is another positive word that means the opposite of 'adverse'. You might have chosen this because it sounds neutral or because you were thinking of 'aid' or 'assist'. But adverse things are never helpful — they're obstacles.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "The Adversary Rule: 'Adverse' is negative, just like your 'adversary' (enemy). If you're unsure, ask yourself: 'Is this word positive or negative?' Adverse is always negative — so its synonym must also be negative.",
+    "blueprint_id": "Synonyms — Adverse",
+    "deconstruct_text": "Let's break this down in a way that sticks. First, get a feel for the word 'adverse' by thinking about where you've seen it. 'Adverse weather conditions' means bad weather — storms, heavy rain, things that ruin your plans. An 'adverse reaction' to medication means a negative side effect. So right away, you know 'adverse' is a negative word.\n\nNow, here's a mental trick that will save you on exam day: connect 'adverse' to 'adversary'. An adversary is an enemy or opponent — someone who is against you. So 'adverse' means 'against you' or 'working against your interests'. It's never positive.\n\nLook at the options. Three of them — favorable, beneficial, helpful — are all positive words. They describe things that are good for you. Only one option is negative: 'unfavorable'. That's your match.\n\nIf you picked any of the positive words, you fell into the antonym trap. It's easy to do when you're under time pressure and your brain grabs the first word that sounds familiar. But now you have a simple rule: adverse = adversary = negative. Always pick the negative synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

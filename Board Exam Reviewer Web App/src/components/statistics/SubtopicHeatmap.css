@@ -1,0 +1,114 @@
+.subtopic-heatmap-card {
+  background: var(--color-bg-card, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.heatmap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.heatmap-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0 0 0.25rem 0;
+}
+
+.heatmap-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0;
+}
+
+.heatmap-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  font-size: 0.75rem;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--color-text-secondary, #475569);
+}
+
+.heatmap-categories-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.category-group-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-brand-teal, #0d7377);
+  margin: 0 0 0.6rem 0;
+}
+
+.subtopics-chips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.65rem;
+}
+
+.heatmap-chip {
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-md, 8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.825rem;
+  border: 1px solid transparent;
+}
+
+.heatmap-chip.high {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #15803d;
+}
+
+.heatmap-chip.mid {
+  background: #fef3c7;
+  border-color: #fde047;
+  color: #b45309;
+}
+
+.heatmap-chip.low {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #b91c1c;
+}
+
+.heatmap-chip.insufficient_data {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #64748b;
+}
+
+.chip-subtopic-name {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 0.4rem;
+}
+
+.chip-pct {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-weight: 700;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}

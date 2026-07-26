@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-002",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "STETHOSCOPE is to DOCTOR as COMPUTER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Patient"
+      },
+      {
+        "key": "B",
+        "text": "Hospital"
+      },
+      {
+        "key": "C",
+        "text": "Programmer"
+      },
+      {
+        "key": "D",
+        "text": "Medicine"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient: Anong Relasyon?",
+        "text": "Hanapin ang koneksyon ng unang pares. Sa stethoscope at doctor, ito ay tool at ang gumagamit nito."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Tool-User Pattern",
+        "text": "Sa tool-user analogy, ang unang salita ang gamit, ang pangalawa ang professional na gumagamit nito sa trabaho."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Sino Gumagamit?",
+        "text": "Computer ang tool. Sino ang propesyonal na computer ang primary tool? Hindi pasyente, hindi ospital—programmer."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away: Ang Tamang Sagot",
+        "text": "Programmer lang ang tao na ang trabaho ay puro computer. Lahat ng iba ay related sa doktor pero hindi user."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because patient is someone a doctor treats, but the relationship is tool-to-user, not doctor-to-patient.",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "You might have chosen B because hospital is where a doctor works, confusing location with the user of the computer.",
+        "trap_type": "hasty_generalization"
+      },
+      "C": {
+        "text": "Correct. A programmer uses a computer as their primary tool, just as a doctor uses a stethoscope.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because medicine is something a doctor prescribes, but that's an associated object, not the user.",
+        "trap_type": "hasty_generalization"
+      }
+    },
+    "next_time_rule": "For tool-user analogies, always identify who uses the tool as their main instrument. Don't be distracted by related concepts.",
+    "blueprint_id": "Tool-User Relationship",
+    "deconstruct_text": "Imagine a barangay health center in a small town like Baler. The midwife uses a stethoscope to check patients' heartbeats. The stethoscope is her tool, she is the user. That's tool-user relationship.\n\nNow, sa call center dito sa Pinas, ano ang gamit ng ahente? Computer. Sino ang user? Hindi pasyente, hindi ospital, kundi ang ahente—parang programmer na gamit ang computer para magtrabaho. Simple, right?\n\nThought process: focus lang sa relasyon ng tool-to-user. Hindi lahat ng related sa doktor ay user. So kapag nakita mo ang computer, isipin mo agad: sinong gumagamit nito bilang pangunahing instrumento sa trabaho? 'Yan ang tamang sagot.\n\nMental Trick: Kapag may tool-user analogy, isipin 'sino ang hawak?' Stethoscope = Doktor. Computer = Programmer. Iwasan 'yung related lang pero hindi user.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

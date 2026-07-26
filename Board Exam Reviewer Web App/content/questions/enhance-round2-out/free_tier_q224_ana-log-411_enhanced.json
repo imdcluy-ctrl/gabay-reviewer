@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-411",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "A COA auditor concludes: 'The agency has a high level of unliquidated cash advances, therefore the agency's financial management is inefficient.' Which of the following must be assumed for this conclusion to be valid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unliquidated cash advances are always a sign of inefficiency."
+      },
+      {
+        "key": "B",
+        "text": "Some agencies with high unliquidated cash advances are efficient."
+      },
+      {
+        "key": "C",
+        "text": "The agency has enough funds to cover the cash advances."
+      },
+      {
+        "key": "D",
+        "text": "The cash advances were used for personal purposes."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about what the auditor is doing here. They're looking at one piece of evidence—high unliquidated cash advances—and jumping to a big conclusion about the agency's overall financial management. For that jump to make sense, there has to be a hidden link between the evidence and the conclusion. What's that link?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "An assumption is something that must be true for the argument to work. If the assumption were false, the whole argument would fall apart. So ask yourself: if this statement were NOT true, would the auditor's conclusion still hold? That's your test."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "The auditor is saying: 'Because there are many unliquidated cash advances, the agency is inefficient.' This only makes sense if having many unliquidated cash advances is a reliable sign of inefficiency. Look for the option that makes that connection direct and absolute."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "The correct answer is the one that says there's a direct, universal link between the two. If even one agency could have high unliquidated cash advances and still be efficient, the auditor's conclusion wouldn't be valid. Which option closes that loophole completely?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is the hidden link the auditor needs. The argument only works if high unliquidated cash advances are always a sign of inefficiency. If there were even one exception where an agency had high unliquidated advances but was still efficient, the auditor's conclusion wouldn't necessarily follow. Option A makes that connection absolute, which is exactly what the argument requires.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a tempting choice if you're thinking about what would make the argument stronger, but it actually does the opposite. If some agencies with high unliquidated cash advances are efficient, then the auditor can't automatically conclude that this agency is inefficient just because of those advances. This statement weakens the argument rather than being a necessary assumption.",
+        "trap_type": "weakening_statement"
+      },
+      "C": {
+        "text": "You might pick this if you're thinking about whether the agency can afford to have those advances outstanding. But the argument isn't about whether the agency has enough money—it's about whether having those advances means the agency is inefficient. Even if the agency has plenty of funds, the auditor's point about inefficiency could still stand or fall on its own. This option misses the logical connection entirely.",
+        "trap_type": "irrelevant_premise"
+      },
+      "D": {
+        "text": "This one feels juicy because it seems to give a reason why the advances might be a problem. But the auditor's conclusion is about general inefficiency, not about fraud or misuse. The argument doesn't need to assume the advances were used for personal purposes—it just needs to assume that having them is a sign of inefficiency. This option goes too specific and adds an unnecessary detail.",
+        "trap_type": "over_specification"
+      }
+    },
+    "deconstruct_text": "Let's break this down like a detective examining a chain of reasoning. The auditor gives us one fact: the agency has a high level of unliquidated cash advances. From that single fact, they conclude: the agency's financial management is inefficient. But wait—how did we get from point A to point B? There's a gap in the logic. The only way to bridge that gap is to assume that high unliquidated cash advances always point to inefficiency. That's what option A gives us. Without that assumption, the argument is just a non sequitur—a conclusion that doesn't follow from the evidence. Think of it this way: if you see dark clouds and conclude it will rain, you're assuming dark clouds always lead to rain. If dark clouds sometimes pass without rain, your conclusion isn't valid. Same logic here. The mental trick for assumption questions is to ask yourself: 'What's the missing piece that connects the evidence to the conclusion?' Then look for the option that fills that gap completely.",
+    "next_time_rule": "For assumption questions, use the 'Missing Link' test: identify the evidence and the conclusion, then ask what statement must be true for the evidence to lead directly to the conclusion. If you can imagine the statement being false and the argument still working, it's not a necessary assumption.",
+    "blueprint_id": "B-1774",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

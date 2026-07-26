@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-017",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government agency received a budget of P240,000 divided among 3 departments in the ratio 1:2:3. How much more does the largest share get compared to the smallest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P40,000"
+      },
+      {
+        "key": "B",
+        "text": "P60,000"
+      },
+      {
+        "key": "C",
+        "text": "P80,000"
+      },
+      {
+        "key": "D",
+        "text": "P120,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "When you see a ratio like 1:2:3, imagine the budget is sliced into equal-sized pieces. How many total pieces are there? Add up the numbers in the ratio to find out."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Piece",
+        "text": "Once you know the total number of pieces, divide the total budget by that number. That tells you how much each single piece is worth."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Two Shares You Need",
+        "text": "The smallest share gets 1 piece. The largest gets 3 pieces. Multiply the value of one piece by 1 and by 3 to find the actual amounts for each."
+      },
+      {
+        "rung": 4,
+        "title": "The Final Step",
+        "text": "The question asks 'how much more' the largest gets compared to the smallest. That means you subtract the smallest amount from the largest amount. You're almost there!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P40,000 is actually the value of just one part in the ratio. That's the amount the smallest department gets. But the question isn't asking for the smallest share — it's asking for the difference between the largest and smallest. A common trap is to stop too early after finding the value per part.",
+        "trap_type": "partial_answer_smallest_share"
+      },
+      "B": {
+        "text": "P60,000 might come from a few different miscalculations. Perhaps you subtracted 1 part from 3 parts and got 2 parts, but then multiplied by P30,000 instead of P40,000. Or maybe you thought the difference between the middle and smallest shares was the answer. The correct difference is 2 parts times P40,000, which equals P80,000.",
+        "trap_type": "wrong_difference_calculation"
+      },
+      "C": {
+        "text": "Correct! The largest share (3 parts) is P120,000, and the smallest share (1 part) is P40,000. The difference is P120,000 minus P40,000, which gives you P80,000. Well done.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P120,000 is the amount the largest department receives. It's easy to see this number and think it's the answer, especially if you're rushing. But the question asks for 'how much more' — that's a comparison, so you need to subtract the smallest share from this amount.",
+        "trap_type": "partial_answer_largest_share"
+      }
+    },
+    "next_time_rule": "When a problem asks for the difference between two shares in a ratio, first find the value of one part. Then multiply by the difference in the ratio numbers. Here, the difference in ratio is 3 minus 1 equals 2 parts. Two parts times P40,000 equals P80,000. This shortcut saves you from having to calculate each share separately.",
+    "blueprint_id": "Ratio — Difference Between Shares",
+    "deconstruct_text": "Let's walk through this together. The budget of P240,000 is split into three parts with a ratio of 1:2:3. Think of it like slicing a pie into 1+2+3 = 6 equal slices. Each slice is worth P240,000 divided by 6, which is P40,000. The smallest department gets 1 slice, or P40,000. The largest gets 3 slices, or 3 times P40,000, which is P120,000. The question asks 'how much more' the largest gets compared to the smallest. That means we subtract: P120,000 minus P40,000 equals P80,000. A quick mental trick for next time: once you know the value per part, just multiply it by the difference in the ratio numbers. Here, the difference between 3 and 1 is 2, so 2 times P40,000 gives you P80,000 instantly.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

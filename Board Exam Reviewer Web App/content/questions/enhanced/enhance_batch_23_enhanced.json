@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-read-009",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The success of the barangay Development Council depends largely on the active participation of its members. When community members contribute their ideas and resources, projects are more likely to address actual needs.' What can be inferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Community participation is unimportant."
+      },
+      {
+        "key": "B",
+        "text": "Government should fund all projects."
+      },
+      {
+        "key": "C",
+        "text": "Active participation improves project outcomes."
+      },
+      {
+        "key": "D",
+        "text": "Barangay councils are ineffective."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Key Clause",
+        "text": "The passage says 'When community members contribute... projects are more likely to address actual needs.' This directly links participation to better outcomes."
+      },
+      {
+        "rung": 2,
+        "title": "Inference Direction",
+        "text": "An inference must be a logical conclusion from the text, not an assumption. Which option is directly supported by the cause-effect relationship stated?"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Contradictions",
+        "text": "Option A says participation is unimportant, but the passage says it's key. Option D says councils are ineffective, but the passage focuses on success. Option B introduces government funding, which is not mentioned."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only Option C restates the passage's core idea: active participation leads to projects that address actual needs, i.e., improves outcomes."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This directly contradicts the passage, which states that success depends on active participation. A student choosing this likely misread 'depends on' as 'does not depend on' or overlooked the positive tone.",
+        "trap_type": "contradicts_passage"
+      },
+      "B": {
+        "text": "The passage never mentions government funding. This is an unsupported leap — a student might assume that if participation is important, then government should fund, but the text only discusses community contribution.",
+        "trap_type": "unsupported_assumption"
+      },
+      "C": {
+        "text": "Correct! The passage explicitly states that when members participate, projects address actual needs, so active participation improves outcomes.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "The passage says success depends on participation, not that councils are ineffective. A student might misinterpret 'depends on' as implying councils are weak, but the text is about potential, not failure.",
+        "trap_type": "overgeneralization"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When inferring, ask: 'Is this directly supported by the text?' If not, it's likely a distractor. Stick to the evidence given.",
+    "blueprint_id": "Inference — Community Participation",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Identify the main claim:** The passage states that the success of the Barangay Development Council depends on active participation.\n2. **Find the supporting detail:** 'When community members contribute... projects are more likely to address actual needs.'\n3. **Form the inference:** Participation → better project outcomes. This is a direct logical conclusion.\n4. **Match to options:** Option C ('Active participation improves project outcomes') perfectly captures this inference.\n\n### ❌ Why the Distractors Fail\n- **Option A** contradicts the passage's central claim.\n- **Option B** introduces an external topic (government funding) not discussed.\n- **Option D** misinterprets the passage's positive message as negative.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-005",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "KEYBOARD is to TYPIST as STEERING WHEEL is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Car"
+      },
+      {
+        "key": "B",
+        "text": "Driver"
+      },
+      {
+        "key": "C",
+        "text": "Road"
+      },
+      {
+        "key": "D",
+        "text": "Mechanic"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship",
+        "text": "A keyboard is a tool used by a typist. The relationship is 'tool' to 'user'. What is the steering wheel's user?"
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Objects",
+        "text": "Car, road, and mechanic are related to steering wheel, but they are not the user. The user is the person who operates it."
+      },
+      {
+        "rung": 3,
+        "title": "Focus on the Person",
+        "text": "Just as a typist uses a keyboard, a driver uses a steering wheel. The analogy pairs a tool with its primary human operator."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct answer is 'Driver' because it completes the tool-user relationship exactly as in the first pair."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A car is the vehicle that contains the steering wheel, not the user. A student might think 'steering wheel is part of a car' but the analogy is about who uses it, not what it belongs to.",
+        "trap_type": "part_to_whole_confusion"
+      },
+      "B": {
+        "text": "Correct! A driver uses a steering wheel, just as a typist uses a keyboard.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A road is where the car drives, not the user of the steering wheel. This distractor tests if the student confuses the environment with the user.",
+        "trap_type": "environment_confusion"
+      },
+      "D": {
+        "text": "A mechanic repairs the steering wheel, but does not use it as a primary operator. This is a related but incorrect relationship (repairer vs. user).",
+        "trap_type": "role_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In tool-user analogies, identify the person who actively operates the tool. Don't confuse with the object it belongs to or the person who maintains it.",
+    "blueprint_id": "Tool-User 2",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Determine the relationship in the first pair:** KEYBOARD is a tool used by a TYPIST. Relationship = tool : user.\n2. **Apply the same relationship to the second pair:** STEERING WHEEL is a tool. Who uses it? A driver.\n3. **Check the options:** Only 'Driver' fits the user role. Car is the object, road is the environment, mechanic is a repairer.\n4. **Conclusion:** The correct answer is B (Driver).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-006",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "PATIENT is to HOSPITAL as STUDENT is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Book"
+      },
+      {
+        "key": "B",
+        "text": "Teacher"
+      },
+      {
+        "key": "C",
+        "text": "School"
+      },
+      {
+        "key": "D",
+        "text": "Desk"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship",
+        "text": "A patient goes to a hospital for medical care. The relationship is 'person' to 'place where they receive service'. Where does a student go for education?"
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Objects and People",
+        "text": "Book and desk are objects a student uses, not a place. Teacher is a person, not a place. Only one option is a location."
+      },
+      {
+        "rung": 3,
+        "title": "Focus on the Place",
+        "text": "Just as a hospital is the institution for patients, a school is the institution for students. The analogy pairs a person with the institution they attend."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct answer is 'School' because it completes the person-place relationship exactly as in the first pair."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A book is a tool for learning, not a place. A student might associate books with students, but the analogy requires a location, not an object.",
+        "trap_type": "object_confusion"
+      },
+      "B": {
+        "text": "A teacher is a person, not a place. This distractor tests if the student confuses the person who provides the service with the institution.",
+        "trap_type": "person_place_confusion"
+      },
+      "C": {
+        "text": "Correct! A student goes to school, just as a patient goes to a hospital.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "A desk is a piece of furniture, not a place. This is another object that might be associated with students but does not fit the person-place relationship.",
+        "trap_type": "object_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In person-place analogies, identify the institution or location where the person typically receives a service. Avoid objects or other people.",
+    "blueprint_id": "Person-Place Relationship",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Determine the relationship in the first pair:** PATIENT is a person who goes to HOSPITAL for treatment. Relationship = person : place.\n2. **Apply the same relationship to the second pair:** STUDENT is a person. Where does a student go for education? School.\n3. **Check the options:** Only 'School' is a place. Book and desk are objects; teacher is a person.\n4. **Conclusion:** The correct answer is C (School).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-007",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "SEED is to PLANT as EDUCATION is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Book"
+      },
+      {
+        "key": "B",
+        "text": "Knowledge"
+      },
+      {
+        "key": "C",
+        "text": "Teacher"
+      },
+      {
+        "key": "D",
+        "text": "School"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship",
+        "text": "A seed grows into or produces a plant. The relationship is 'source' to 'result' or 'cause' to 'effect'. What does education produce?"
+      },
+      {
+        "rung": 2,
+        "title": "Think of the Outcome",
+        "text": "Education leads to knowledge, just as a seed leads to a plant. Book, teacher, and school are means of education, not the result."
+      },
+      {
+        "rung": 3,
+        "title": "Distinguish Means from End",
+        "text": "A seed is the starting point; a plant is the end result. Education is the process; knowledge is the end result. The other options are tools or locations."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct answer is 'Knowledge' because it is the product of education, just as a plant is the product of a seed."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "A book is a tool for education, not the result. A student might think 'education uses books' but the analogy is about what education produces, not what it uses.",
+        "trap_type": "means_vs_end"
+      },
+      "B": {
+        "text": "Correct! Education produces knowledge, just as a seed produces a plant.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A teacher is a provider of education, not the result. This distractor tests if the student confuses the source with the outcome.",
+        "trap_type": "source_vs_result"
+      },
+      "D": {
+        "text": "A school is a place where education happens, not the result. This is a location, not a product.",
+        "trap_type": "location_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In cause-effect analogies, identify what the first thing produces or leads to. Don't confuse the process or tools with the end result.",
+    "blueprint_id": "Cause-Effect 2",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Determine the relationship in the first pair:** SEED grows into PLANT. Relationship = cause : effect or source : product.\n2. **Apply the same relationship to the second pair:** EDUCATION is a process. What is its product? Knowledge.\n3. **Check the options:** Book, teacher, and school are all related to education but are not the product. Only knowledge is the direct result.\n4. **Conclusion:** The correct answer is B (Knowledge).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-008",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "SPEEDOMETER is to SPEED as THERMOMETER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Heat"
+      },
+      {
+        "key": "B",
+        "text": "Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Mercury"
+      },
+      {
+        "key": "D",
+        "text": "Weather"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship",
+        "text": "A speedometer measures speed. The relationship is 'instrument' to 'what it measures'. What does a thermometer measure?"
+      },
+      {
+        "rung": 2,
+        "title": "Distinguish Related Concepts",
+        "text": "Heat is related to temperature but is not the same. Mercury is a substance inside some thermometers. Weather is a broader concept. The instrument measures a specific quantity."
+      },
+      {
+        "rung": 3,
+        "title": "Focus on the Measured Quantity",
+        "text": "Just as speed is the quantity measured by a speedometer, temperature is the quantity measured by a thermometer. The other options are either related but not the direct measurement."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct answer is 'Temperature' because it is the specific quantity that a thermometer measures, exactly parallel to speed for a speedometer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Heat is a form of energy, not the quantity directly measured by a thermometer. A thermometer measures temperature, which indicates heat but is not heat itself. This is a common confusion.",
+        "trap_type": "related_but_not_measured"
+      },
+      "B": {
+        "text": "Correct! A thermometer measures temperature, just as a speedometer measures speed.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Mercury is the liquid inside some thermometers, but it is not what the instrument measures. This distractor tests if the student confuses the mechanism with the measurement.",
+        "trap_type": "mechanism_vs_measurement"
+      },
+      "D": {
+        "text": "Weather is a broad condition that includes temperature, but a thermometer specifically measures temperature, not weather. This is too general.",
+        "trap_type": "overgeneralization"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In instrument-measure analogies, identify the specific quantity the instrument measures. Avoid related but incorrect concepts like the mechanism or broader categories.",
+    "blueprint_id": "Instrument-Measure",
+    "deconstruct_text": "### 📘 Step-by-Step Analysis\n1. **Determine the relationship in the first pair:** SPEEDOMETER measures SPEED. Relationship = instrument : measured quantity.\n2. **Apply the same relationship to the second pair:** THERMOMETER is an instrument. What does it measure? Temperature.\n3. **Check the options:** Heat is related but not the direct measurement; mercury is a component; weather is too broad. Only temperature is the exact quantity.\n4. **Conclusion:** The correct answer is B (Temperature).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-009",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "TIME is to HOURS as DISTANCE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Speed"
+      },
+      {
+        "key": "B",
+        "text": "Travel"
+      },
+      {
+        "key": "C",
+        "text": "Kilometers"
+      },
+      {
+        "key": "D",
+        "text": "Duration"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Unit-Measurement",
+        "text": "The relationship is: a quantity is measured in a specific unit. Time is measured in hours. What unit measures distance?"
+      },
+      {
+        "rung": 2,
+        "title": "Distance is measured in?",
+        "text": "Distance is measured in units like kilometers, meters, or miles. Which option is a unit of distance?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Kilometers is a unit of distance, just as hours are a unit of time. The analogy is quantity : unit of measurement."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Kilometers'. Speed is a rate, travel is an action, duration is a time interval — none are units."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Speed is a rate (distance per time), not a unit of distance. The student may have confused 'distance' with 'speed' because they are related in physics, but the analogy requires a unit of measurement, not a derived quantity.",
+        "trap_type": "rate_confusion"
+      },
+      "B": {
+        "text": "Travel is an action or process, not a unit. The student may have thought of 'distance traveled' but the analogy pairs a quantity with its standard unit, not an associated activity.",
+        "trap_type": "action_vs_unit"
+      },
+      "C": {
+        "text": "Correct! Kilometers is a unit of distance, just as hours are a unit of time. The relationship is quantity : unit of measurement.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Duration is a measure of time, not distance. The student may have picked a word related to time because the first pair involves time, but the second pair is about distance.",
+        "trap_type": "category_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, identify the relationship (e.g., quantity : unit). For distance, think of units like kilometers, meters, or miles — not rates or actions.",
+    "blueprint_id": "Quantity-Unit",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n1. Identify the relationship in the first pair: TIME is measured in HOURS. So the relationship is 'quantity : its standard unit of measurement'.\n2. Apply the same relationship to DISTANCE: what is the standard unit of distance? Kilometers (or meters, miles, etc.).\n3. Among the options, only 'Kilometers' is a unit of distance.\n- 'Speed' is a rate (distance/time), not a unit.\n- 'Travel' is an action.\n- 'Duration' is a measure of time.\n4. Therefore, the correct answer is C: Kilometers.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-010",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "WATER is to THIRST as FOOD is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hunger"
+      },
+      {
+        "key": "B",
+        "text": "Taste"
+      },
+      {
+        "key": "C",
+        "text": "Cook"
+      },
+      {
+        "key": "D",
+        "text": "Eat"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Remedy-Problem",
+        "text": "The relationship is: something that satisfies a need. Water satisfies thirst. What does food satisfy?"
+      },
+      {
+        "rung": 2,
+        "title": "Food satisfies?",
+        "text": "Food satisfies hunger. The analogy is 'remedy : problem'. Which option is the problem that food remedies?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Hunger is the need that food satisfies, just as thirst is the need that water satisfies."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Hunger'. Taste is a sensation, cook is an action, eat is an action — none are the problem that food solves."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Food satisfies hunger, just as water satisfies thirst. The relationship is 'remedy : problem'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Taste is a sensory experience related to food, but it is not the problem that food solves. The student may have associated food with taste, but the analogy requires the need that food fulfills.",
+        "trap_type": "associated_feature"
+      },
+      "C": {
+        "text": "Cook is an action performed on food, not a need. The student may have thought of preparing food, but the analogy is about satisfying a basic need.",
+        "trap_type": "action_vs_need"
+      },
+      "D": {
+        "text": "Eat is the action of consuming food, not the need itself. The student may have confused the verb with the noun representing the need.",
+        "trap_type": "verb_vs_noun"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, look for relationships like 'remedy : problem'. Water remedies thirst; food remedies hunger. Think of the core need each item addresses.",
+    "blueprint_id": "Remedy-Problem",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n1. Identify the relationship in the first pair: WATER satisfies THIRST. So the relationship is 'remedy : problem'.\n2. Apply the same relationship to FOOD: what problem does food satisfy? Hunger.\n3. Among the options, only 'Hunger' is the problem that food remedies.\n- 'Taste' is a quality of food, not a problem.\n- 'Cook' is an action.\n- 'Eat' is an action.\n4. Therefore, the correct answer is A: Hunger.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-011",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "BUDGET is to FINANCE as CURRICULUM is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "School"
+      },
+      {
+        "key": "B",
+        "text": "Education"
+      },
+      {
+        "key": "C",
+        "text": "Teacher"
+      },
+      {
+        "key": "D",
+        "text": "Student"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Plan-Field",
+        "text": "The relationship is: a plan or framework within a specific field. A budget is a financial plan. What field does a curriculum belong to?"
+      },
+      {
+        "rung": 2,
+        "title": "Curriculum is a plan for?",
+        "text": "A curriculum is an educational plan. So the field is education. Which option represents the field of study or practice?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Education is the field that curriculum belongs to, just as finance is the field that budget belongs to."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Education'. School is a place, teacher and student are roles — none are the field."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "School is a place where curriculum is used, but the analogy requires the field of study, not the location. The student may have associated curriculum with school, but the relationship is 'plan : field'.",
+        "trap_type": "location_vs_field"
+      },
+      "B": {
+        "text": "Correct! Curriculum is a plan for education, just as budget is a plan for finance. The relationship is 'plan : field'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Teacher is a person who implements the curriculum, not the field. The student may have thought of who uses the curriculum, but the analogy is about the domain.",
+        "trap_type": "role_vs_field"
+      },
+      "D": {
+        "text": "Student is a recipient of the curriculum, not the field. The student may have thought of who the curriculum serves, but the analogy requires the broader field.",
+        "trap_type": "recipient_vs_field"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, identify the relationship as 'plan : field'. A budget is a plan in finance; a curriculum is a plan in education. Look for the domain, not the people or places.",
+    "blueprint_id": "Plan-Field",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n1. Identify the relationship in the first pair: BUDGET is a plan within FINANCE. So the relationship is 'plan : field'.\n2. Apply the same relationship to CURRICULUM: curriculum is a plan within which field? Education.\n3. Among the options, only 'Education' is the field.\n- 'School' is a location.\n- 'Teacher' and 'Student' are roles.\n4. Therefore, the correct answer is B: Education.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-012",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "CONTRACT is to AGREEMENT as LAW is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Court"
+      },
+      {
+        "key": "B",
+        "text": "Legislation"
+      },
+      {
+        "key": "C",
+        "text": "Judge"
+      },
+      {
+        "key": "D",
+        "text": "Lawyer"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Category",
+        "text": "The relationship is: a specific type of a broader category. A contract is a type of agreement. What broader category does a law belong to?"
+      },
+      {
+        "rung": 2,
+        "title": "Law is a type of?",
+        "text": "Law is a type of legislation (or rule/statute). Which option is the broader category that includes laws?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Legislation is the broader category that includes laws, just as agreement is the broader category that includes contracts."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Legislation'. Court is a place, judge and lawyer are roles — none are the category."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Court is a place where laws are applied, not a category of law. The student may have associated law with court, but the analogy requires a broader category, not a venue.",
+        "trap_type": "venue_vs_category"
+      },
+      "B": {
+        "text": "Correct! Law is a type of legislation, just as contract is a type of agreement. The relationship is 'specific : broader category'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Judge is a person who interprets laws, not a category. The student may have thought of who works with law, but the analogy is about classification.",
+        "trap_type": "role_vs_category"
+      },
+      "D": {
+        "text": "Lawyer is a professional who practices law, not a category. The student may have confused the profession with the broader class of legal rules.",
+        "trap_type": "profession_vs_category"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, identify 'specific : broader category'. A contract is a type of agreement; a law is a type of legislation. Look for the general class, not associated people or places.",
+    "blueprint_id": "Type-Category",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n1. Identify the relationship in the first pair: CONTRACT is a type of AGREEMENT. So the relationship is 'specific : broader category'.\n2. Apply the same relationship to LAW: law is a type of what broader category? Legislation (or statute/rule).\n3. Among the options, only 'Legislation' is the broader category.\n- 'Court' is a place.\n- 'Judge' and 'Lawyer' are roles.\n4. Therefore, the correct answer is B: Legislation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-013",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "CANDLE is to WAX as PAPER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pen"
+      },
+      {
+        "key": "B",
+        "text": "Wood pulp"
+      },
+      {
+        "key": "C",
+        "text": "Write"
+      },
+      {
+        "key": "D",
+        "text": "Book"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Product-Material",
+        "text": "The relationship is: a product and the material it is made from. A candle is made of wax. What material is paper made from?"
+      },
+      {
+        "rung": 2,
+        "title": "Paper is made of?",
+        "text": "Paper is made from wood pulp (or plant fibers). Which option is the raw material for paper?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Wood pulp is the material paper is made from, just as wax is the material candles are made from."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The word that completes the analogy under the same logical relationship is 'Wood pulp'. Pen is a tool, write is an action, book is a product — none are the raw material."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Pen is a tool used to write on paper, not the material paper is made from. The student may have associated paper with pen, but the analogy requires the raw material.",
+        "trap_type": "tool_vs_material"
+      },
+      "B": {
+        "text": "Correct! Paper is made from wood pulp, just as candles are made from wax. The relationship is 'product : raw material'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Write is an action performed on paper, not a material. The student may have thought of what you do with paper, but the analogy is about composition.",
+        "trap_type": "action_vs_material"
+      },
+      "D": {
+        "text": "Book is a product made from paper, not the material itself. The student may have confused the final product with the raw material.",
+        "trap_type": "product_vs_material"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, identify 'product : raw material'. Candle is made of wax; paper is made of wood pulp. Think of what something is made from, not what it is used for.",
+    "blueprint_id": "Product-Material",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n1. Identify the relationship in the first pair: CANDLE is made of WAX. So the relationship is 'product : raw material'.\n2. Apply the same relationship to PAPER: paper is made from what raw material? Wood pulp (or plant fibers).\n3. Among the options, only 'Wood pulp' is the raw material.\n- 'Pen' is a tool.\n- 'Write' is an action.\n- 'Book' is a product made from paper.\n4. Therefore, the correct answer is B: Wood pulp.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

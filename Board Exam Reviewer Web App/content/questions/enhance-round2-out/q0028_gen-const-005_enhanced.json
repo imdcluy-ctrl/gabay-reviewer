@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-005",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article II Section 1 of the 1987 Constitution, the Philippines is a democratic and republican State. Where does sovereignty reside?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sovereignty resides in the President of the Philippines."
+      },
+      {
+        "key": "B",
+        "text": "Sovereignty resides in the Supreme Court."
+      },
+      {
+        "key": "C",
+        "text": "Sovereignty resides in the people and all government authority emanates from them."
+      },
+      {
+        "key": "D",
+        "text": "Sovereignty resides in the Armed Forces of the Philippines."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Alalahanin ang Batayan",
+        "text": "Ang tanong ay tungkol sa Artikulo II ng 1987 Constitution. Isipin mo: 'demokratiko at republikano'—saan galing ang tunay na kapangyarihan?"
+      },
+      {
+        "rung": 2,
+        "title": "Golden Rule: 'Tao ang Boss'",
+        "text": "'Sovereignty resides in the people'—iyan ang puso ng Saligang Batas. Hindi mula sa posisyon, kundi sa mamamayan."
+      },
+      {
+        "rung": 3,
+        "title": "Sipiin ang Seksyon 1",
+        "text": "Direktang sambit: 'Sovereignty resides in the people and all government authority emanates from them.' Lahat ng sangay ay nagmula sa taong bayan."
+      },
+      {
+        "rung": 4,
+        "title": "Piliin ang Tamang Opsyon",
+        "text": "Hanapin ang opsyon na direktang sumisipi sa nasabing probisyon. Iyon ang C—sovereignty sa tao, hindi sa pangulo, korte, o militar."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought the President, as head of state, holds sovereignty, but Article II says it resides in the peo...",
+        "trap_type": "unqualified_generalization"
+      },
+      "B": {
+        "text": "You might have chosen B because the Supreme Court interprets laws, but sovereignty belongs to the people, not any branch.",
+        "trap_type": "jurisdiction_misattribution"
+      },
+      "C": {
+        "text": "Correct. This directly quotes Article II, Section 1: sovereignty resides in the people, and all government authority comes from them.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because the military protects the nation, but sovereignty is rooted in the civilian populace, not armed forces.",
+        "trap_type": "constitutional_article_confusion"
+      }
+    },
+    "next_time_rule": "Sovereignty = tao. Lagi mong tandaan ang Art. II, Sec. 1: 'Sovereignty resides in the people...' Pag may nakita kang 'sovereignty' sa exam, isipin mo agad ang taong bayan!",
+    "blueprint_id": "1987 Philippine Constitution — Article II Section 1 Sovereignty of the People",
+    "deconstruct_text": "Kunwari, eleksyon sa barangay: bawat residente bumoboto para sa bagong kapitan. Hindi dahil ang kapitan ang may hawak ng kapangyarihan, kundi dahil ang tao ang tunay na nagmamay-ari ng poder.\n\nAng kapitan ay nagsisilbi lamang sa utos ng mga botante. Ganyan din sa buong bansa – ang Presidente, Korte Suprema, at militar ay pawang nagmumula ang poder sa mga tao, ayon sa Artikulo II, Seksyon 1.\n\nKaya ang tamang sagot ay mismong sipi: 'Sovereignty resides in the people and all government authority emanates from them.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

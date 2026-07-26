@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-016",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'NEFARIOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Good"
+      },
+      {
+        "key": "B",
+        "text": "Virtuous"
+      },
+      {
+        "key": "C",
+        "text": "Wicked"
+      },
+      {
+        "key": "D",
+        "text": "Honorable"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Get the Vibe First",
+        "text": "This word has a very strong emotional charge. Think about whether it feels positive, neutral, or negative. Let your gut guide you before you even look at the choices."
+      },
+      {
+        "rung": 2,
+        "title": "The Sound Test",
+        "text": "Say the word out loud: ne-FAIR-ee-us. Does it sound like something nice or something sinister? Words often carry their meaning in their sound. This one has a dark, heavy feel to it."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate the Bright Side",
+        "text": "Look at the options. Three of them are clearly positive words that describe good people or actions. If nefarious feels negative, those three can't be right. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "The Last One Standing",
+        "text": "After removing the three positive choices, only one option remains. That's your answer. It's the only word that matches the dark, villainous vibe of nefarious."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a classic trap. If you're rushing, you might think 'nefarious' sounds fancy and associate it with something positive. But 'good' is actually the opposite. Nefarious describes someone who is thoroughly evil, like a movie villain who kicks puppies for fun. 'Good' belongs to the opposite team entirely.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Virtuous means having high moral standards, being righteous and pure. It's easy to see why someone might pick this if they think nefarious sounds like 'fairy' or something whimsical. But the word actually comes from Latin roots meaning 'crime' and 'wrong.' A virtuous person is the last thing nefarious describes.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Exactly right. Nefarious means wicked, evil, villainous. Think of a mustache-twirling villain in an old movie, or a corrupt official who steals from the poor. That's nefarious. 'Wicked' is its perfect partner in crime.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Honorable is another positive word that sounds noble and respectable. If you picked this, you might have been tricked by the similar starting letter 'n' or the length of the word. But honorable describes someone you'd want as a role model, while nefarious describes someone you'd want behind bars.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. Nefarious comes from the Latin word 'nefas,' which means crime or wrongdoing. Think of it as describing someone who is 'not fair' in the most extreme sense. Here's a simple trick: whenever you see a word you don't know, first decide if it feels positive or negative. Nefarious feels dark and heavy, like a storm cloud. Now look at the options. Three of them are sunny and bright: good, virtuous, honorable. Only one is dark: wicked. That's your match. The mental framework here is what I call the 'Vibe Check.' Before you even think about definitions, ask yourself: does this word feel good, bad, or neutral? Then eliminate everything that doesn't match that vibe. It's fast, it's intuitive, and it works under time pressure.",
+    "next_time_rule": "When you meet an unfamiliar word, do a quick Vibe Check first. Is it positive, negative, or neutral? Then eliminate the options that don't match that feeling. For nefarious, remember the 'ne' prefix often means 'not' or 'against' — so nefarious is 'against fairness,' meaning evil.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

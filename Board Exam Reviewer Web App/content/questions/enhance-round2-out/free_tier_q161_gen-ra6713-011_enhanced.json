@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-011",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "RA 6713 1: What is the primary purpose of RA 6713?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase government salaries"
+      },
+      {
+        "key": "B",
+        "text": "Set ethical standards for public officials"
+      },
+      {
+        "key": "C",
+        "text": "Create new government agencies"
+      },
+      {
+        "key": "D",
+        "text": "Regulate private businesses"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the title",
+        "text": "The full name of RA 6713 is a big clue. It's called the 'Code of Conduct and Ethical Standards for Public Officials and Employees.' What does that tell you about its main goal?"
+      },
+      {
+        "rung": 2,
+        "title": "Think about the word 'ethics'",
+        "text": "When a law has 'ethical standards' right in its title, its main job is to set rules for right and wrong behavior. It's not about money or creating new offices."
+      },
+      {
+        "rung": 3,
+        "title": "Who does it apply to?",
+        "text": "The law specifically covers 'public officials and employees.' So its purpose is about how people in government should act, not about private companies or general salary rules."
+      },
+      {
+        "rung": 4,
+        "title": "Narrow it down",
+        "text": "Three options are about money, agencies, or private business. Only one is about how public servants should behave with integrity and accountability. That's the heart of RA 6713."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to assume a law about government workers might be about their pay, but RA 6713 isn't that law. Salary increases fall under a different law, the Salary Standardization Law (RA 6758). This option mixes up 'ethics' with 'economics.'",
+        "trap_type": "salary_vs_ethics"
+      },
+      "B": {
+        "text": "Exactly right. RA 6713 was created to make sure public officials and employees act with honesty, integrity, and accountability. Its whole purpose is to set the ethical standards for everyone in government service.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This is a common mix-up. Some laws do create new agencies, but RA 6713 isn't one of them. It doesn't establish any new government body; it simply sets the rules for how existing officials and employees should behave.",
+        "trap_type": "agency_creation_vs_ethics"
+      },
+      "D": {
+        "text": "It's understandable to think a law about standards might apply to everyone, but RA 6713 is specifically for public servants. Private businesses are regulated by other laws like the Labor Code or Corporation Code. This option confuses the public and private sectors.",
+        "trap_type": "public_vs_private"
+      }
+    },
+    "next_time_rule": "When you see 'RA 6713,' immediately think 'Ethics for Gov't Officials.' If an option talks about salaries, agencies, or private business, it's a distraction. The core is always about right conduct in public service.",
+    "blueprint_id": "RA 6713 1",
+    "deconstruct_text": "Let's break this down simply. The first thing to notice is the law's full title: 'Code of Conduct and Ethical Standards for Public Officials and Employees.' That name is your biggest hint. It tells you two key things: first, it's about ethics and conduct, and second, it applies to people working in government. Now look at the options. Option A talks about salary increases. That's a different law entirely (RA 6758). Option C is about creating agencies, which RA 6713 doesn't do. Option D extends the law to private businesses, but the title clearly says 'public officials.' That leaves Option B, which perfectly matches the law's purpose: setting ethical standards for those in public office. The mental trick here is simple: always let the full title of a law guide you. If the title says 'ethics,' the answer will be about right and wrong behavior, not about money, structures, or the private sector.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

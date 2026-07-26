@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-004",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long will it take to fill the reservoir if both pumps work together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.4 hours"
+      },
+      {
+        "key": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "key": "C",
+        "text": "5.0 hours"
+      },
+      {
+        "key": "D",
+        "text": "10.0 hours"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in terms of rates, not times",
+        "text": "Instead of focusing on the total hours each pump takes alone, ask: how much of the reservoir does each pump fill in just one hour? Pump A fills 1/4, Pump B fills 1/6. That's their hourly rates."
+      },
+      {
+        "rung": 2,
+        "title": "Combine the rates by adding them",
+        "text": "When both pumps work together, their hourly rates add up. So add 1/4 + 1/6. To do that, find a common denominator. 1/4 becomes 3/12, and 1/6 becomes 2/12. Together, they fill 5/12 of the reservoir each hour."
+      },
+      {
+        "rung": 3,
+        "title": "Flip the combined rate to get total time",
+        "text": "If 5/12 of the reservoir is filled in 1 hour, then filling the entire reservoir (which is 1 whole, or 12/12) takes the reciprocal of 5/12. That's 12/5 hours. You're basically asking: how many times does 5/12 fit into 1?"
+      },
+      {
+        "rung": 4,
+        "title": "Convert the fraction to a decimal",
+        "text": "12 divided by 5 equals 2.4. So the answer is 2.4 hours. That's 2 hours and 24 minutes. Look for that among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! When two pumps work together, their rates add. Pump A fills 1/4 per hour, Pump B fills 1/6 per hour. Combined rate is 1/4 + 1/6 = 5/12 per hour. Time to fill the whole reservoir is the reciprocal: 12/5 = 2.4 hours. A handy shortcut is the formula (A x B) / (A + B) = (4 x 6) / (4 + 6) = 24/10 = 2.4.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is tricky. You might have averaged the two times (4 and 6) to get 5, then halved it to 2.5, thinking that two pumps would cut the time in half. But that's not how combined work problems work. Rates add, not times. The correct combined time is always less than the average of the individual times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "This is simply the average of 4 and 6 hours. It's a natural guess, but it ignores a key principle: working together always takes less time than either pump alone. If Pump A alone takes 4 hours, two pumps together can't possibly take 5 hours. That would be slower, not faster.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "D": {
+        "text": "Adding 4 + 6 = 10 hours would make sense if the pumps worked one after the other, not at the same time. But the problem says they work together, so their efforts combine. Together, they fill the reservoir much faster than either one alone.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "For combined work problems, never average the times. Instead, use the shortcut: Time = (A x B) / (A + B). This works for two workers, pumps, or pipes. Remember: rates add, times don't.",
+    "blueprint_id": "Numerical Ability — Combined Work Formula (1/A + 1/B = 1/T)",
+    "deconstruct_text": "The key to this problem is shifting your thinking from 'time to complete' to 'rate per hour.' Pump A fills 1/4 of the reservoir each hour. Pump B fills 1/6 each hour. When they work together, you add those rates: 1/4 + 1/6. Find a common denominator (12), so it's 3/12 + 2/12 = 5/12 of the reservoir per hour. Now, if 5/12 is filled in one hour, then filling the whole reservoir (12/12) takes the reciprocal: 12/5 = 2.4 hours. A faster way is the formula (4 x 6) / (4 + 6) = 24/10 = 2.4. The mental trick here is to always convert 'time to finish' into 'how much per hour.' That turns a confusing word problem into a simple fraction addition.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

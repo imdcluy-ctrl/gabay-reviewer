@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-pct-008",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "Maria invested P50,000 at 6% simple interest. How long will it take for her investment to earn P9,000 in interest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 years"
+      },
+      {
+        "key": "B",
+        "text": "3 years"
+      },
+      {
+        "key": "C",
+        "text": "4 years"
+      },
+      {
+        "key": "D",
+        "text": "5 years"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the big picture",
+        "text": "This is a simple interest problem, which means the interest earned each year is the same. Your job is to find how many years it takes for those equal yearly earnings to add up to P9,000."
+      },
+      {
+        "rung": 2,
+        "title": "Find the yearly interest first",
+        "text": "The formula for simple interest is I = P x r x t. But before you solve for t, figure out how much interest Maria earns in just one year. Multiply the principal (P50,000) by the rate (6% or 0.06). That gives you P3,000 per year."
+      },
+      {
+        "rung": 3,
+        "title": "Now think in terms of equal payments",
+        "text": "If Maria earns P3,000 each year, and she wants to earn a total of P9,000, how many years does she need? You're essentially dividing the total interest goal by the yearly interest."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there",
+        "text": "Divide P9,000 by P3,000. That's 9 divided by 3, which equals 3. So it takes 3 years. You can double-check: P50,000 x 0.06 x 3 = P9,000. It matches perfectly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you rushed. Two years would only earn P6,000 in interest (P50,000 x 0.06 x 2). You might have mistakenly divided P9,000 by something other than the yearly interest, or you might have thought the rate was 9% instead of 6%. Always compute the annual interest first.",
+        "trap_type": "time_calculation_error"
+      },
+      "B": {
+        "text": "Correct! You recognized that the yearly interest is P3,000, and then divided the target interest of P9,000 by that amount to get 3 years. Clean and simple.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Four years would earn P12,000 in interest, which is too much. You might have added an extra year by accident, or you might have miscalculated the annual interest as P2,250 instead of P3,000. Double-check your multiplication of P50,000 by 0.06.",
+        "trap_type": "time_calculation_error"
+      },
+      "D": {
+        "text": "Five years would earn P15,000 in interest, which is way over the target. This often happens when someone confuses the total amount (principal plus interest) with just the interest itself. Remember, the question asks for the time to earn P9,000 in interest, not to have P59,000 in total.",
+        "trap_type": "time_calculation_error"
+      }
+    },
+    "next_time_rule": "For simple interest problems asking for time, always compute the annual interest first (P x r). Then divide the target interest by that yearly amount. It's like asking: 'If I save P3,000 each year, how many years to reach P9,000?'",
+    "blueprint_id": "Simple Interest — Finding Time",
+    "deconstruct_text": "Let's walk through this together. The simple interest formula is I = P x r x t, where I is the interest earned, P is the principal, r is the annual rate, and t is the time in years. Here, we know I = P9,000, P = P50,000, and r = 6% or 0.06. We need t.\n\nFirst, find the interest earned in one year: P50,000 x 0.06 = P3,000. That's your yearly interest.\n\nNow, think of it this way: each year, Maria earns P3,000. To reach P9,000, she needs to go through enough years so that the total adds up. So divide the target interest by the yearly interest: P9,000 / P3,000 = 3 years.\n\nYou can verify by plugging back into the formula: P50,000 x 0.06 x 3 = P9,000. It works.\n\nA quick mental trick: whenever you see a simple interest problem asking for time, just remember the phrase 'Yearly first, then divide.' Compute the yearly interest, then divide the total interest goal by that number. It turns a formula into a simple division problem.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

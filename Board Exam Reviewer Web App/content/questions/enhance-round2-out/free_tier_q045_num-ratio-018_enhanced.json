@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-018",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "On a government survey map, the scale is 1:50,000. If two barangays are 8 cm apart on the map, what is the actual distance in kilometers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 km"
+      },
+      {
+        "key": "B",
+        "text": "3 km"
+      },
+      {
+        "key": "C",
+        "text": "4 km"
+      },
+      {
+        "key": "D",
+        "text": "5 km"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "What the Scale Actually Tells You",
+        "text": "A scale of 1:50,000 is a ratio. It means that 1 unit on the map equals 50,000 of the same units in the real world. So if you measure in centimeters on the map, the real distance is also in centimeters."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Multiplication Step",
+        "text": "You have 8 centimeters on the map. Multiply that by the scale's second number (50,000) to get the real distance in centimeters. So 8 times 50,000 equals 400,000 centimeters."
+      },
+      {
+        "rung": 3,
+        "title": "The Conversion Trick",
+        "text": "Now you need to turn centimeters into kilometers. Remember this handy fact: 1 kilometer equals 100,000 centimeters. So to convert, you divide your centimeter total by 100,000."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You have 400,000 centimeters. Divide that by 100,000. What do you get? That number is your answer in kilometers."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a common slip-up. You might have divided 400,000 by 200,000 instead of 100,000, or maybe you divided 8 by 4 and forgot the scale entirely. The key is to remember that there are exactly 100,000 centimeters in a kilometer, not 200,000.",
+        "trap_type": "unit_conversion_error"
+      },
+      "B": {
+        "text": "This answer usually comes from a slightly off conversion factor, like dividing by 133,333. It's an easy mistake when you're rushing. Stick with the clean number: 1 km = 100,000 cm, and you'll land on the right answer.",
+        "trap_type": "unit_conversion_error"
+      },
+      "C": {
+        "text": "That's it. You correctly multiplied 8 cm by 50,000 to get 400,000 cm, and then divided by 100,000 to convert to 4 km. You handled the scale and the unit conversion perfectly.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This one often happens when you use the wrong conversion factor, like dividing by 80,000 instead of 100,000. It's a small slip, but it changes the answer. Remember that the conversion from centimeters to kilometers always uses 100,000.",
+        "trap_type": "unit_conversion_error"
+      }
+    },
+    "next_time_rule": "For any map scale problem, use this two-step formula: Real distance (in cm) = Map distance x Scale denominator. Then, to get kilometers, divide that result by 100,000. It's always the same clean conversion.",
+    "blueprint_id": "Map Scale — Proportional Distance",
+    "deconstruct_text": "Let's walk through this together. The scale 1:50,000 is a promise: every 1 centimeter you measure on the map stands for 50,000 real centimeters on the ground. So for your 8 cm measurement, the real distance is 8 multiplied by 50,000, which gives you 400,000 centimeters. Now, the question asks for kilometers. Here's the mental trick: think of the word 'centimeter.' 'Centi' means one-hundredth, so there are 100 centimeters in a meter. And 'kilo' means a thousand, so there are 1,000 meters in a kilometer. That means 1 kilometer is 100 times 1,000, which is 100,000 centimeters. So you take your 400,000 centimeters and divide by 100,000. The result is 4 kilometers. The wrong answers all come from using a different conversion number, like 200,000 or 80,000. But if you lock in that 100,000 figure, you'll never get lost.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

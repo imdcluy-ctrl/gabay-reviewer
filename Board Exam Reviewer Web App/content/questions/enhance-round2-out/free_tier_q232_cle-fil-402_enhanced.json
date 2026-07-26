@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-402",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "A government office has multiple employees with the surname 'Garcia'. Their first names are: Ana, Jose, Maria, and Juan. What is the CORRECT alphabetical filing order for these individuals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Garcia, Ana; Garcia, Jose; Garcia, Juan; Garcia, Maria"
+      },
+      {
+        "key": "B",
+        "text": "Garcia, Ana; Garcia, Juan; Garcia, Jose; Garcia, Maria"
+      },
+      {
+        "key": "C",
+        "text": "Garcia, Maria; Garcia, Juan; Garcia, Jose; Garcia, Ana"
+      },
+      {
+        "key": "D",
+        "text": "Garcia, Jose; Garcia, Ana; Garcia, Maria; Garcia, Juan"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "When everyone shares the same last name, you need to look at their first names to decide who goes first. Think of it like sorting a list of names in a phone book."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The rule is simple: if the surnames are identical, you file alphabetically by the first name. Compare the first names letter by letter, just like you would with any word."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Here, all four first names start with different letters except for Jose and Juan, which both start with J. For those two, you need to compare the second letter: 'o' in Jose versus 'u' in Juan."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Alphabetically, Ana comes first because A is the earliest letter. Then among the J names, Jose comes before Juan because 'o' comes before 'u' in the alphabet. Maria comes last. So the order is: Ana, Jose, Juan, Maria."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Since all surnames are Garcia, you sort by first name. Ana starts with A, then Jose and Juan both start with J, but Jose's second letter 'o' comes before Juan's 'u', so Jose goes first. Maria starts with M, so she comes last. The order is Ana, Jose, Juan, Maria.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one almost got it right by starting with Ana, but it puts Juan before Jose. The trap here is forgetting to compare letter by letter. Jose and Juan both start with J, but when you look at the second letter, 'o' (in Jose) comes before 'u' (in Juan) in the alphabet. So Jose should come first.",
+        "trap_type": "first_name_misordering"
+      },
+      "C": {
+        "text": "This order is completely reversed, starting with Maria instead of Ana. It might be tempting if you're thinking of alphabetical order from Z to A, or if you just mixed up the direction. Remember, alphabetical filing always goes from A to Z, so Ana (starting with A) should be first.",
+        "trap_type": "reverse_order"
+      },
+      "D": {
+        "text": "This one starts with Jose instead of Ana. The mistake here is skipping over Ana entirely. Even though all names have the same surname, you still need to look at the first letter of each first name. Ana's 'A' comes before Jose's 'J', so Ana should be first.",
+        "trap_type": "first_name_skip"
+      }
+    },
+    "deconstruct_text": "Let's walk through this together. When you're filing names alphabetically and the surnames are all the same, you simply shift your focus to the first names. Here, everyone is a Garcia, so we ignore the surname and sort the first names: Ana, Jose, Maria, and Juan. Now, arrange them alphabetically. Ana is the clear first because A comes before J and M. For Jose and Juan, both start with J, so you compare the second letter: 'o' versus 'u'. Since 'o' comes before 'u' in the alphabet, Jose goes before Juan. Maria, starting with M, comes last. So the correct order is: Garcia, Ana; Garcia, Jose; Garcia, Juan; Garcia, Maria. A quick mental trick for next time: when surnames match, treat the first names as if they were the only names. Compare them letter by letter, just like you would with any word in a dictionary.",
+    "next_time_rule": "When surnames are identical, file by first name alphabetically. Compare letter by letter, starting from the first letter of the first name.",
+    "blueprint_id": "B-2372",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

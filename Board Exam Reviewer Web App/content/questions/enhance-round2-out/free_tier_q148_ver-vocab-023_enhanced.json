@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-023",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'SUBSIDIARY' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Primary"
+      },
+      {
+        "key": "B",
+        "text": "Main"
+      },
+      {
+        "key": "C",
+        "text": "Secondary"
+      },
+      {
+        "key": "D",
+        "text": "Independent"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about the word 'subsidiary' in terms of hierarchy or importance. Is it at the top, the middle, or the bottom of a structure?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The prefix 'sub-' means under, below, or less important. So 'subsidiary' describes something that is subordinate or supporting, not the main thing."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. 'Primary' and 'Main' both mean first or most important—that's the opposite of 'sub-'. 'Independent' means free from control, also opposite. Which option means 'less important' or 'supporting'?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "In business, a subsidiary company is owned and controlled by a larger parent company. It's not the main company—it's the one that plays a supporting role. That's exactly what 'secondary' means."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you're rushing. 'Primary' sounds important and official, but it's actually the opposite of 'subsidiary.' The prefix 'sub-' means under, so subsidiary is below or less important—not first. A smart guess here might come from mixing up 'sub-' with 'super-' (above).",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "'Main' is another word that feels right if you're not paying close attention to the prefix. But 'main' means chief or principal, which is the exact opposite of 'subsidiary.' This is a classic trap where your brain grabs the first familiar synonym without checking the prefix.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Subsidiary' means secondary in importance or subordinate. Think of it as something that supports or is under something else—like a subsidiary company under a parent company. The prefix 'sub-' is your clue: under, below, lesser.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Independent' might seem like a good match if you think 'subsidiary' sounds like something that stands on its own. But it's the opposite. A subsidiary is dependent on a larger entity, while independent means free from control. The prefix 'sub-' gives away the relationship: it's under something, not separate.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "When you see a word starting with 'sub-', immediately think 'under, below, or less important.' That prefix is your shortcut: subsidiary = secondary, subordinate, supporting. If an option means 'first' or 'chief,' it's the opposite.",
+    "blueprint_id": "Vocabulary — Subsidiary",
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'subsidiary' comes from the prefix 'sub-', which means under or below. So anything subsidiary is underneath something else in importance or authority. In business, a subsidiary company is owned and controlled by a parent company—it's not the main player, but a supporting one. Now look at the options: 'Primary' and 'Main' both mean first or most important, which is the opposite. 'Independent' means not controlled by anyone, also opposite. Only 'Secondary' captures that idea of being lesser in rank or supporting. The mental trick here is simple: whenever you see 'sub-', think 'under.' That one move will save you from picking the wrong answer every time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

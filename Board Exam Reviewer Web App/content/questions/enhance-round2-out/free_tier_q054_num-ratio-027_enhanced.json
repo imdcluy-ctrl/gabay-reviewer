@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-027",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a government bidding process, the ratio of winning to losing bids is 1:5. If there were 48 total bids, how many were winning bids?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "A ratio like 1:5 tells you how the total is split into equal-sized parts. Winning gets 1 part, losing gets 5 parts. How many parts are there in total?"
+      },
+      {
+        "rung": 2,
+        "title": "Find the Total Parts",
+        "text": "Add the numbers in the ratio: 1 + 5 = 6 total parts. These 6 parts together represent all 48 bids. So each part is worth the same amount."
+      },
+      {
+        "rung": 3,
+        "title": "Value of One Part",
+        "text": "If 6 parts equal 48 bids, then one part equals 48 divided by 6. That gives you the number of bids in each part. Try that division."
+      },
+      {
+        "rung": 4,
+        "title": "Winning Bids Are One Part",
+        "text": "Winning bids are just 1 part. So once you know the value of one part (48 / 6 = 8), you have your answer: 8 winning bids. Check: losing would be 5 x 8 = 40, and 8 + 40 = 48."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 bids. This is a common slip where someone divides 48 by 8 instead of 6. Maybe they thought the total parts were 8 (from 1+5+? or a misread), but the correct total is 1+5=6. So 48 divided by 6 gives 8, not 6. Watch the addition carefully.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "Correct! 8 winning bids. Total parts = 1+5=6. Value per part = 48/6=8. Winning = 1 part = 8. Losing = 5 parts = 40. Total checks out at 48.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "10 bids. This doesn't come from a clean ratio step. It might be a guess or a miscalculation like 48 x 1/4.8. The right fraction for winning is 1 out of 6 total parts, so 48 x 1/6 = 8. Stick to the part-to-whole method.",
+        "trap_type": "ratio_error"
+      },
+      "D": {
+        "text": "12 bids. This happens if you mistakenly think the ratio is 1:3 (since 1+3=4) and take 1/4 of 48. But the ratio is 1:5, so total parts are 6, not 4. Always add both numbers in the ratio first.",
+        "trap_type": "ratio_error"
+      }
+    },
+    "next_time_rule": "For any ratio problem, first add the parts to get the total. Then divide the whole amount by that total to find the value of one part. Multiply that by the part you need.",
+    "blueprint_id": "Part-to-Whole — Bidding Proportions",
+    "deconstruct_text": "Let's walk through this like a quick mental checklist. The ratio 1:5 means for every 1 winning bid, there are 5 losing bids. Together, that's 1 + 5 = 6 equal parts that make up all 48 bids. So each part is worth 48 divided by 6, which is 8 bids. Winning bids are just 1 part, so that's 8. You can double-check: losing bids would be 5 parts times 8, which is 40, and 8 + 40 = 48. Everything fits. The trick here is to always find the total number of parts first. Don't jump to multiplying or dividing without that step. A good mental framework is: ratio parts add up to total parts, total amount divided by total parts gives value per part, then multiply by the part you want.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

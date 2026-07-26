@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-200",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Net WPM Calculation with Penalty Variant 1",
+    "difficulty_level": 3,
+    "question_text": "In a 5-minute Civil Service typing exam, an applicant typed 300 total words with 5 uncorrected errors. What is the applicant's NET typing speed in Words Per Minute (Net WPM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "59 WPM"
+      },
+      {
+        "key": "B",
+        "text": "60 WPM"
+      },
+      {
+        "key": "C",
+        "text": "54 WPM"
+      },
+      {
+        "key": "D",
+        "text": "295 WPM"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about what 'net' really means",
+        "text": "In typing tests, 'net' speed isn't just how fast you type—it's how fast you type accurately. Errors cost you. So the formula subtracts mistakes from your total words before finding your per-minute rate. What operation does that suggest?"
+      },
+      {
+        "rung": 2,
+        "title": "The simple formula to hold in your mind",
+        "text": "Net WPM = (Total words typed - Number of errors) / Time in minutes. Errors are a penalty, so you remove them from the total first, then divide by time."
+      },
+      {
+        "rung": 3,
+        "title": "Plug in the numbers step by step",
+        "text": "You have 300 total words and 5 errors. So your net words are 300 minus 5, which equals 295. Now, you typed those 295 accurate words over 5 minutes. What's 295 divided by 5?"
+      },
+      {
+        "rung": 4,
+        "title": "You're almost there—just one small calculation left",
+        "text": "295 divided by 5 is 59. That's your net WPM. Compare this to the options and see which one matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You remembered to subtract the errors first: 300 minus 5 gives 295 net words, then divide by 5 minutes to get 59 WPM. Well done—you handled the penalty exactly right.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common slip. You calculated gross WPM (300 divided by 5 equals 60) but forgot to subtract the 5 errors. In typing exams, errors are a penalty that reduces your score, so you have to remove them before dividing. Next time, think: 'Errors first, then divide.'",
+        "trap_type": "gross_vs_net_confusion"
+      },
+      "C": {
+        "text": "This answer suggests a mix-up in the order of operations. You might have divided first (300 divided by 5 equals 60) and then subtracted 5, getting 55—but that's not 54. Or you tried (300 minus 5) divided by 5 and miscalculated 295 divided by 5. The correct order is always subtract errors first, then divide. Double-check your arithmetic.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You correctly found the net word count (295) but forgot to divide by the 5 minutes. The question asks for words per minute, not total net words. Always check the unit: if it asks for 'per minute,' you must divide by time.",
+        "trap_type": "total_vs_rate_confusion"
+      }
+    },
+    "next_time_rule": "For any 'net' calculation with penalties, always subtract the penalties first, then divide by time. Think: 'Penalties come before the rate.'",
+    "deconstruct_text": "Let's walk through this together. The key idea is that 'net' speed penalizes you for mistakes. So you start with your total words typed—300 in this case. Then you subtract the uncorrected errors, which are 5. That gives you 295 net words. Now, you typed those over 5 minutes, so to find your speed per minute, you divide 295 by 5. That's 59 WPM. A quick mental trick: whenever you see 'net' and 'errors' in a typing problem, remember the phrase 'Errors first, then divide.' It will keep you from accidentally calculating gross speed or forgetting to divide by time.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

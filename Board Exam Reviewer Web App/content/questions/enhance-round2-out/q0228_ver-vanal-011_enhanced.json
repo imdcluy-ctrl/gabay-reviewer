@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-011",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "BUDGET is to FINANCE as CURRICULUM is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "School"
+      },
+      {
+        "key": "B",
+        "text": "Education"
+      },
+      {
+        "key": "C",
+        "text": "Teacher"
+      },
+      {
+        "key": "D",
+        "text": "Student"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Plan-Field Pattern",
+        "text": "Budget is a plan in the field of Finance. So the analogy is 'plan : field'. What is the field for Curriculum?"
+      },
+      {
+        "rung": 2,
+        "title": "Curriculum's Domain",
+        "text": "A curriculum is an educational plan, so its field is Education. Not just any place or person involved."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Distractors",
+        "text": "School (A) is a location; Teacher (C) and Student (D) are roles. None represent the field itself. So the field is Education."
+      },
+      {
+        "rung": 4,
+        "title": "Correct Answer",
+        "text": "Thus, the answer is Education, matching the 'plan : field' relationship exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because curriculum is used in school, but the analogy needs a field, not a place.",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "Correct. Budget is a finance plan, and curriculum is an education plan, so the relationship is plan : field.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because teachers implement curriculum, but the analogy is about the domain, not the person.",
+        "trap_type": "false_cause_fallacy"
+      },
+      "D": {
+        "text": "You might have chosen D because students learn from curriculum, but the field is education, not the learners.",
+        "trap_type": "false_cause_fallacy"
+      }
+    },
+    "next_time_rule": "In 'plan:field' analogies, focus on the broad domain not the specific place or role.",
+    "blueprint_id": "Plan-Field",
+    "deconstruct_text": "A barangay captain creates a budget (plan) for finance to allocate funds for projects.\n\nA school principal designs a curriculum (plan) for education to guide lessons for students.\n\nSo, the relationship is plan : field. The field for curriculum is Education, not the school building (place) or the people (teacher/student).",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-015",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in the blank: 'If I ___ you, I would accept the promotion.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "am"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This sentence is about something that isn't true right now—you are not the other person. When you talk about imaginary or impossible situations, English uses a special mood. Let's figure out which one."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "For hypothetical 'if' clauses (things that are contrary to fact), the verb 'to be' always takes the form 'were'—no matter if the subject is I, he, she, or it. Think of it as the 'universe-shifter' word."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Look at the phrase 'If I ___ you.' Since you are not actually that person, this is a classic hypothetical. The rule says we need the subjunctive form of 'be,' which is 'were' for all subjects. So the blank should be 'were.'"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "You're almost there! The correct choice is the one that sounds a bit old-fashioned or formal in everyday speech but is the standard for imaginary situations. It's not 'was' (which is for real past events) and not 'am' (which is for real present). It's the word that starts with 'w.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Am' is the present tense form for real situations. Saying 'If I am you' doesn't work because it treats an impossible scenario as if it's actually happening. The subjunctive mood is needed here to signal that this is just a hypothetical thought.",
+        "trap_type": "indicative_in_subjunctive"
+      },
+      "B": {
+        "text": "'Was' is the past tense form we use for real events that happened. In casual conversation, many people say 'If I was you,' but in formal writing and exams, the subjunctive 'were' is the correct choice for these imaginary 'if' clauses. Think of 'were' as the formal, proper version.",
+        "trap_type": "informal_was_for_subjunctive"
+      },
+      "C": {
+        "text": "Correct! 'Were' is the subjunctive form of 'to be,' and it's used for all subjects (I, you, he, she, it, we, they) when talking about hypothetical or contrary-to-fact situations. This is the standard in formal English.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Be' is the base form of the verb, like what you'd see in a dictionary or after 'to' (to be). It can't stand alone as the main verb in a clause like this. 'If I be you' is not grammatically correct in standard English.",
+        "trap_type": "infinitive_in_finite_position"
+      }
+    },
+    "next_time_rule": "For any hypothetical 'if' clause (something that isn't true now), always use 'were' for the verb 'to be'—no matter the subject. Just remember: 'If I were, if he were, if she were, if it were.' It's the universal hypothetical helper.",
+    "blueprint_id": "Subjunctive Mood — If I Were",
+    "deconstruct_text": "Let's walk through this together. The sentence 'If I ___ you, I would accept the promotion' is talking about a situation that isn't real—you are not actually that person. When we imagine something that's contrary to fact, English uses what's called the subjunctive mood. For the verb 'to be,' the subjunctive form is always 'were,' regardless of the subject. So whether it's 'I,' 'he,' 'she,' or 'it,' you use 'were.' Now, let's check the other options: 'am' is for real present situations, so it doesn't fit an imaginary one. 'Was' is for real past events, and while it's common in casual speech, it's not the standard for formal writing. 'Be' is just the base form and can't function as the main verb here. That leaves 'were,' which is the correct choice. A quick mental trick for next time: whenever you see 'If I' followed by a hypothetical scenario, your brain should automatically reach for 'were.' It's like a reflex—'If I were...' just sounds right in formal English.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vocab-025",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'ALLEGATION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proven fact"
+      },
+      {
+        "key": "B",
+        "text": "Claim without proof"
+      },
+      {
+        "key": "C",
+        "text": "Legal judgment"
+      },
+      {
+        "key": "D",
+        "text": "Final verdict"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "An allegation is a statement that someone has done something wrong, but it has not yet been proven. Think of it as an accusation that still needs evidence."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct synonym is 'Claim without proof'. The word 'allegation' is often used in legal and administrative contexts to describe an unproven assertion."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "Substitute each option into a sentence like 'The senator denied the ______ of corruption.' Only 'Claim without proof' fits the meaning of an unproven accusation."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is correct because 'allegation' specifically means an unproven claim, not a proven fact, judgment, or verdict."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Proven fact' is the opposite of an allegation. An allegation is unproven by definition. This is a 'word_strength_error' trap where the student picks a stronger, more conclusive term.",
+        "trap_type": "word_strength_error"
+      },
+      "B": {
+        "text": "Correct! Allegation = a claim or assertion made without proof, often in a legal or formal context.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Legal judgment' is a formal decision by a court, which comes after evidence is presented. An allegation precedes any judgment. This is a 'distractor' trap confusing a later stage with the initial claim.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "Incorrect. 'Final verdict' is the conclusive outcome of a trial, not the initial accusation. This is a 'distractor' trap that confuses the end result with the starting claim.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** An allegation is an unproven accusation. Remember: 'Allegation' starts with 'A' for 'Accusation' — not yet proven.",
+    "blueprint_id": "Vocabulary — Allegation",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Allegation' means a claim or assertion that someone has done something illegal or wrong, typically made without proof.\n2. **Identify the core idea:** The key element is the lack of proof. An allegation is not a fact; it is an accusation that needs to be investigated.\n3. **Evaluate each option:**\n   - **A: Proven fact** — This is the opposite; a fact is already established.\n   - **B: Claim without proof** — This matches the definition exactly.\n   - **C: Legal judgment** — This is a court's decision after a trial, not the initial claim.\n   - **D: Final verdict** — This is the outcome of a trial, not the starting accusation.\n4. **Conclusion:** Only option B correctly captures the meaning of 'allegation'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-026",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'CONSENSUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disagreement"
+      },
+      {
+        "key": "B",
+        "text": "Majority vote"
+      },
+      {
+        "key": "C",
+        "text": "General agreement"
+      },
+      {
+        "key": "D",
+        "text": "Debate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Consensus refers to a situation where everyone in a group agrees on something. It is not just a simple majority; it implies broad or unanimous agreement."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "The correct synonym is 'General agreement'. Think of a group decision where all members are on the same page."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "Imagine a committee that reaches a consensus on a policy. Does that mean they disagreed, voted by majority, debated, or generally agreed? The answer is general agreement."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C is correct because 'consensus' means general agreement, not disagreement, a majority vote, or a debate."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Disagreement' is the antonym of consensus. Consensus implies harmony, not conflict. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Majority vote' is a decision-making method that does not require full agreement. Consensus often aims for near-unanimity, not just a majority. This is a 'distractor' trap confusing a related but distinct concept.",
+        "trap_type": "distractor"
+      },
+      "C": {
+        "text": "Correct! 'General agreement' is the precise meaning of consensus: a collective opinion or position reached by a group as a whole.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Debate' is a discussion where opposing arguments are put forward, often leading to disagreement. Consensus is the opposite — it is the result after debate when agreement is reached. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Consensus = general agreement. Remember: 'Con-' means 'together', 'sensus' means 'feeling' — feeling together.",
+    "blueprint_id": "Vocabulary — Consensus",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Consensus' means a general agreement among a group of people. It is not necessarily unanimous but reflects a collective opinion.\n2. **Distinguish from related terms:**\n   - 'Majority vote' is a formal decision by more than half; consensus is broader and often seeks unanimity.\n   - 'Debate' is the process of discussion; consensus is the outcome.\n   - 'Disagreement' is the opposite.\n3. **Evaluate each option:**\n   - **A: Disagreement** — Opposite meaning.\n   - **B: Majority vote** — A method, not the definition.\n   - **C: General agreement** — Correct definition.\n   - **D: Debate** — A process that may lead to consensus, but not the same.\n4. **Conclusion:** Option C is the correct synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-027",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'DILIGENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lazy"
+      },
+      {
+        "key": "B",
+        "text": "Hardworking"
+      },
+      {
+        "key": "C",
+        "text": "Careless"
+      },
+      {
+        "key": "D",
+        "text": "Negligent"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Diligent describes someone who is careful and persistent in their work. It implies thoroughness and dedication."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The best synonym is 'Hardworking'. A diligent person puts in consistent effort and attention to detail."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Options A, C, and D are all negative traits (lazy, careless, negligent) that are opposites of diligent. Only option B is positive and matches."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is correct because 'hardworking' is the direct synonym of 'diligent'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Lazy' is the antonym of diligent. A diligent person is the opposite of lazy. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Diligent means hardworking, industrious, and showing careful effort.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Careless' is the opposite of diligent, which implies carefulness. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Incorrect. 'Negligent' means failing to take proper care, which is the opposite of diligent. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Diligent = hardworking. Remember: 'Diligent' sounds like 'diligence' — putting in effort.",
+    "blueprint_id": "Vocabulary — Diligent",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Diligent' means having or showing care and conscientiousness in one's work or duties.\n2. **Identify the core trait:** The key is consistent effort and attention. Synonyms include hardworking, industrious, and assiduous.\n3. **Evaluate each option:**\n   - **A: Lazy** — Opposite; avoids work.\n   - **B: Hardworking** — Matches the definition.\n   - **C: Careless** — Opposite; lacks attention.\n   - **D: Negligent** — Opposite; fails to care.\n4. **Conclusion:** Only option B is a synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-028",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'COMPENSATORY' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Penal"
+      },
+      {
+        "key": "B",
+        "text": "Offsetting"
+      },
+      {
+        "key": "C",
+        "text": "Punitive"
+      },
+      {
+        "key": "D",
+        "text": "Retributive"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Compensatory means something that compensates, i.e., makes up for a loss, damage, or deficiency. It is about restoring balance."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The best synonym is 'Offsetting'. Think of compensatory damages in law — they are meant to offset the harm suffered."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "Options A, C, and D all relate to punishment (penal, punitive, retributive). Compensatory is about making amends, not punishing. Which option means 'making up for'?"
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is correct because 'offsetting' captures the idea of counterbalancing a loss, which is the essence of compensatory."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Penal' relates to punishment, not compensation. Compensatory measures are about restitution, not penalty. This is an 'antonym_confusion' trap confusing two different legal concepts.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Compensatory means serving to compensate or offset, such as compensatory damages in civil law.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Punitive' means inflicting punishment, which is the opposite of compensatory. Punitive damages punish, while compensatory damages restore. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Incorrect. 'Retributive' means characterized by punishment or revenge, not compensation. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Compensatory = offsetting. Remember: 'Compensate' means to make up for something, not to punish.",
+    "blueprint_id": "Vocabulary — Compensatory",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** 'Compensatory' means intended to compensate for loss, damage, or injury. It is about making amends or restoring balance.\n2. **Distinguish from punitive terms:**\n   - 'Penal', 'punitive', and 'retributive' all relate to punishment.\n   - 'Compensatory' is about restitution, not punishment.\n3. **Evaluate each option:**\n   - **A: Penal** — Relates to punishment.\n   - **B: Offsetting** — Means counterbalancing, which matches compensation.\n   - **C: Punitive** — Relates to punishment.\n   - **D: Retributive** — Relates to revenge.\n4. **Conclusion:** Only option B is a synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-029",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'DELEGATE' mean as a verb?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore"
+      },
+      {
+        "key": "B",
+        "text": "Assign responsibility"
+      },
+      {
+        "key": "C",
+        "text": "Take over"
+      },
+      {
+        "key": "D",
+        "text": "Delay"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "To delegate means to entrust a task or responsibility to another person, typically someone who works under you. It is a key management skill."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The correct synonym is 'Assign responsibility'. When you delegate, you give authority to someone else to complete a task."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "A manager delegates tasks to their team. Does the manager ignore the tasks, assign them, take them over, or delay them? The logical action is to assign."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B is correct because 'delegate' means to assign responsibility to another person."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Ignore' is the opposite of delegate. Delegation involves active assignment, not neglect. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Delegate means to assign responsibility or authority to another person to carry out a task.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Take over' means to assume control oneself, which is the opposite of delegating. Delegation means giving control to someone else. This is an 'antonym_confusion' trap.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Incorrect. 'Delay' means to postpone, which is unrelated to delegation. Delegation is about distributing work, not putting it off. This is a 'distractor' trap.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Delegate = assign responsibility. Remember: 'Delegate' means to send tasks down, not to do them yourself.",
+    "blueprint_id": "Vocabulary — Delegate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word:** As a verb, 'delegate' means to give a task or responsibility to another person, usually a subordinate.\n2. **Identify the core action:** The key is transferring authority, not retaining it.\n3. **Evaluate each option:**\n   - **A: Ignore** — Opposite; delegation involves active assignment.\n   - **B: Assign responsibility** — Matches the definition.\n   - **C: Take over** — Opposite; delegation means giving away, not taking.\n   - **D: Delay** — Unrelated; delegation is about distribution, not postponement.\n4. **Conclusion:** Only option B is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-030",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'ADVOCATE' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oppose"
+      },
+      {
+        "key": "B",
+        "text": "Publicly support"
+      },
+      {
+        "key": "C",
+        "text": "Ignore"
+      },
+      {
+        "key": "D",
+        "text": "Criticize"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Advocate comes from Latin 'advocatus' meaning 'to call to one's aid'. In modern English, it means to speak or write in favor of a cause, policy, or person."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Opposites",
+        "text": "Options A (Oppose), C (Ignore), and D (Criticize) are all negative actions. Advocate is a positive action — so eliminate any word that means to work against something."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Positive Action",
+        "text": "Only option B (Publicly support) is a positive action. The word 'publicly' is key — advocacy is done openly, not privately."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm with Context",
+        "text": "In civil service contexts, an advocate is someone who actively promotes a policy or reform. The correct synonym is 'Publicly support'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Oppose' is the antonym of advocate. A student choosing this may have confused 'advocate' with 'adversary' or misread the question as asking for the opposite meaning.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Advocate means to publicly support or recommend a particular cause or policy.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Ignore' means to disregard or pay no attention, which is the opposite of actively supporting something. This error may stem from confusing 'advocate' with 'avoid'.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Incorrect. 'Criticize' means to express disapproval, which is the opposite of advocacy. This mistake may occur if the student associates 'advocate' with legal arguments and mistakenly thinks it involves criticism.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Advocate = to publicly support. Remember: an advocate is someone who speaks FOR a cause, not against it.",
+    "blueprint_id": "Vocabulary — Advocate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the word**: 'Advocate' is a verb meaning to publicly recommend or support a particular cause or policy.\n2. **Identify the part of speech**: It is a verb, so we need another verb as a synonym.\n3. **Eliminate opposites**: Options A (Oppose), C (Ignore), and D (Criticize) all express negative or neutral actions, not positive support.\n4. **Select the correct synonym**: Option B (Publicly support) matches the definition exactly.\n\n### ❌ Why the Distractors Fail\n- **Oppose**: This is the direct antonym. A student might confuse 'advocate' with 'adversary' (an opponent).\n- **Ignore**: This means to disregard, which is neither support nor opposition. The student may have guessed a neutral word.\n- **Criticize**: This means to find fault, the opposite of support. The student may have thought of a lawyer (advocate) who criticizes evidence, but the general meaning is support.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-005",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The principle of check and balance ensures that no single branch of government becomes too powerful. Each branch has the ability to limit the powers of the other branches.' What is this passage about?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Why power should be concentrated"
+      },
+      {
+        "key": "B",
+        "text": "How branches limit each other"
+      },
+      {
+        "key": "C",
+        "text": "The weakness of government"
+      },
+      {
+        "key": "D",
+        "text": "The role of the President"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Topic",
+        "text": "The passage introduces 'the principle of check and balance' and explains its purpose: to prevent any branch from becoming too powerful."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Key Action",
+        "text": "The second sentence says 'Each branch has the ability to limit the powers of the other branches.' This is the core idea."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Irrelevant Options",
+        "text": "Option A (power concentration) contradicts the passage. Option C (weakness) is not mentioned. Option D (President's role) is too specific."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Best Summary",
+        "text": "Option B directly states the main idea: how branches limit each other. This matches the passage exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. The passage says checks and balances prevent concentration of power, not that power should be concentrated. This is a direct contradiction of the text.",
+        "trap_type": "opposite_meaning"
+      },
+      "B": {
+        "text": "Correct! The passage explains that each branch can limit the others, which is the essence of checks and balances.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. The passage does not discuss government weakness; it describes a mechanism to maintain balance. This option introduces an unsupported negative tone.",
+        "trap_type": "unsupported_inference"
+      },
+      "D": {
+        "text": "Incorrect. The passage is about all three branches, not just the President. This option focuses on one branch, missing the broader principle.",
+        "trap_type": "over_specificity"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Main idea questions ask for the central point. Look for the sentence that summarizes the entire passage. Here, 'each branch limits the others' is the core.",
+    "blueprint_id": "Main Idea — Checks and Balances",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Read the passage carefully**: The first sentence states the purpose of checks and balances (prevent any branch from becoming too powerful). The second explains how (each branch limits the others).\n2. **Identify the main idea**: The passage is about how the system works — mutual limitation.\n3. **Evaluate each option**:\n   - A: Opposite — the passage prevents concentration, not advocates it.\n   - B: Matches the explanation of mutual limitation.\n   - C: Unsupported — no mention of weakness.\n   - D: Too narrow — the passage covers all branches, not just the President.\n4. **Select B** as the correct answer.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-006",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'RA 6713 requires all public officials to file a Statement of Assets, Liabilities, and Net Worth (SALN). This ensures transparency and accountability in government service.' What is the purpose of the SALN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To increase taxes"
+      },
+      {
+        "key": "B",
+        "text": "To ensure transparency and accountability"
+      },
+      {
+        "key": "C",
+        "text": "To evaluate job performance"
+      },
+      {
+        "key": "D",
+        "text": "To determine promotions"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate the Purpose",
+        "text": "The passage explicitly states: 'This ensures transparency and accountability in government service.' The word 'This' refers to the SALN requirement."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Key Phrase",
+        "text": "The phrase 'ensures transparency and accountability' directly answers the question about purpose."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Unrelated Options",
+        "text": "Options A (increase taxes), C (evaluate performance), and D (determine promotions) are not mentioned in the passage. They are common misconceptions about SALN."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Correct Answer",
+        "text": "Option B is a direct quote from the passage. The purpose of SALN is to ensure transparency and accountability."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. The passage does not mention taxes. SALN is about disclosing assets, not increasing taxes. This distractor plays on the idea that financial disclosure might lead to higher taxes, but it's not stated.",
+        "trap_type": "unsupported_association"
+      },
+      "B": {
+        "text": "Correct! The passage explicitly states that SALN ensures transparency and accountability.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. The passage does not link SALN to job performance evaluation. SALN is a disclosure requirement, not a performance metric.",
+        "trap_type": "unsupported_inference"
+      },
+      "D": {
+        "text": "Incorrect. The passage does not mention promotions. While SALN may be used for background checks, its stated purpose is transparency and accountability, not determining promotions.",
+        "trap_type": "unsupported_inference"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When a passage explicitly states the purpose, quote it directly. SALN's purpose is transparency and accountability — not taxes, performance, or promotions.",
+    "blueprint_id": "Supporting Details — SALN Purpose",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Read the passage**: RA 6713 requires SALN filing. The second sentence says 'This ensures transparency and accountability.'\n2. **Identify the referent**: 'This' refers to the SALN requirement.\n3. **Answer the question**: The purpose is to ensure transparency and accountability.\n4. **Check each option**:\n   - A: Not mentioned.\n   - B: Directly stated.\n   - C: Not mentioned.\n   - D: Not mentioned.\n5. **Select B**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-007",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'While the city's revenue increased by 8% this year, its expenditures grew by 12%. This raised concerns about fiscal sustainability among local officials.' What does 'fiscal sustainability' refer to?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ability to maintain financial health"
+      },
+      {
+        "key": "B",
+        "text": "Increasing taxes"
+      },
+      {
+        "key": "C",
+        "text": "Reducing services"
+      },
+      {
+        "key": "D",
+        "text": "Hiring more staff"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Context",
+        "text": "Revenue increased by 8% but expenditures grew by 12% — meaning the city is spending more than it earns. This creates a deficit."
+      },
+      {
+        "rung": 2,
+        "title": "Define 'Fiscal'",
+        "text": "'Fiscal' relates to government revenue and spending. So 'fiscal sustainability' is about the government's ability to manage its finances over time."
+      },
+      {
+        "rung": 3,
+        "title": "Define 'Sustainability'",
+        "text": "'Sustainability' means the ability to continue or maintain something long-term. Combined, it means maintaining financial health over time."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Distractors",
+        "text": "Options B, C, and D are possible responses to fiscal problems, but they are not definitions of 'fiscal sustainability'. The term itself means the ability to maintain financial health."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Fiscal sustainability refers to the ability of a government to maintain its financial health over the long term, ensuring it can meet its obligations without excessive debt.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. Increasing taxes is a possible action to achieve fiscal sustainability, but it is not the definition of the term. The student may have confused a solution with the concept itself.",
+        "trap_type": "means_end_confusion"
+      },
+      "C": {
+        "text": "Incorrect. Reducing services is another possible response to fiscal stress, but it is not what 'fiscal sustainability' means. The student may have associated the term with austerity measures.",
+        "trap_type": "means_end_confusion"
+      },
+      "D": {
+        "text": "Incorrect. Hiring more staff would increase expenditures, worsening fiscal sustainability. This option is the opposite of what the term implies. The student may have misread 'sustainability' as 'growth'.",
+        "trap_type": "opposite_meaning"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Fiscal sustainability = long-term financial health. Don't confuse the definition with possible solutions like tax increases or service cuts.",
+    "blueprint_id": "Vocabulary in Context — Fiscal Sustainability",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Analyze the context**: Revenue up 8%, expenditures up 12% → spending exceeds revenue, raising concerns.\n2. **Break down the term**: 'Fiscal' = government finance; 'sustainability' = ability to maintain over time.\n3. **Combine**: Fiscal sustainability = the ability to maintain financial health over the long term.\n4. **Evaluate options**:\n   - A: Correct definition.\n   - B: A possible action, not the definition.\n   - C: Another possible action, not the definition.\n   - D: Opposite effect (increases spending).\n5. **Select A**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-008",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The CSC Memorandum Circular No. 1 series of 2020 reiterates the prohibition on receiving gifts from private individuals conducting business with the government.' The tone of this passage is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Humorous"
+      },
+      {
+        "key": "B",
+        "text": "Direct and regulatory"
+      },
+      {
+        "key": "C",
+        "text": "Casual"
+      },
+      {
+        "key": "D",
+        "text": "Sarcastic"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Source",
+        "text": "The passage is from a 'CSC Memorandum Circular' — an official government document. Official documents use formal, authoritative language."
+      },
+      {
+        "rung": 2,
+        "title": "Look at the Verbs",
+        "text": "The verb 'reiterates' means to say again, often used in official contexts. 'Prohibition' is a strong, formal word meaning a ban."
+      },
+      {
+        "rung": 3,
+        "title": "Consider the Purpose",
+        "text": "The purpose is to remind officials of a rule. This is not meant to entertain (humorous), be informal (casual), or mock (sarcastic)."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Tone",
+        "text": "The tone is direct (states the rule clearly) and regulatory (enforces a regulation). Option B matches."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. A memorandum circular is a serious official document. There is no joke or lighthearted language. The student may have misread the passage as informal.",
+        "trap_type": "tone_misjudgment"
+      },
+      "B": {
+        "text": "Correct! The passage uses formal, authoritative language typical of government regulations. It directly states a prohibition.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. The language is formal ('reiterates', 'prohibition'), not casual. Casual tone would use words like 'reminds' or 'says'. The student may have overlooked the official source.",
+        "trap_type": "tone_misjudgment"
+      },
+      "D": {
+        "text": "Incorrect. Sarcasm involves mockery or irony, which is absent here. The passage is straightforward. The student may have misinterpreted 'reiterates' as implying annoyance.",
+        "trap_type": "tone_misjudgment"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Official government documents use a direct and regulatory tone. Look for formal vocabulary like 'reiterates', 'prohibition', and 'memorandum circular'.",
+    "blueprint_id": "Tone/Purpose — CSC Memorandum",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the document type**: CSC Memorandum Circular — an official government issuance.\n2. **Analyze the language**: 'Reiterates' (formal), 'prohibition' (strong, legal term), 'conducting business' (formal phrasing).\n3. **Determine the tone**: The language is straightforward, authoritative, and regulatory — not humorous, casual, or sarcastic.\n4. **Match with options**:\n   - A: No humor.\n   - B: Direct and regulatory — correct.\n   - C: Not casual.\n   - D: No sarcasm.\n5. **Select B**.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

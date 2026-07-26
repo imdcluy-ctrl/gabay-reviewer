@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-003",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "TRAINING is to SKILL as PRACTICE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Theory"
+      },
+      {
+        "key": "B",
+        "text": "Mastery"
+      },
+      {
+        "key": "C",
+        "text": "Book"
+      },
+      {
+        "key": "D",
+        "text": "Exam"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Connection",
+        "text": "Think about what training does. It's an activity that produces something specific. What does training produce? That's the relationship you need to copy."
+      },
+      {
+        "rung": 2,
+        "title": "Name the Outcome",
+        "text": "Training gives you skill. So the first word is the process, and the second word is the result. Now, what is the direct result of practice? Not just any result, but the main one."
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "For each choice, ask: 'Does practice directly produce this?' Theory comes before practice. Books and exams are tools or events, not outcomes. Only one option is the natural end result of practicing something."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "When you practice the piano, you don't end up with a book or an exam. You end up playing better. That's mastery. Same with training and skill. Practice and mastery are a perfect pair."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Theory is what you study before you practice. It's the foundation, not the result. A smart student might pick this because theory and practice often go together, but the relationship here is cause and effect, not preparation and action.",
+        "trap_type": "confused_with_foundation"
+      },
+      "B": {
+        "text": "Correct. Practice leads to mastery, just as training leads to skill. Both are processes that produce a higher level of ability. This is a clean cause-and-effect analogy.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A book can guide your practice, but it's not what practice creates. This is a common trap: confusing something that supports the process with the actual outcome of the process.",
+        "trap_type": "associated_object"
+      },
+      "D": {
+        "text": "An exam tests what you've learned, but it's not the direct result of practicing. Practice helps you prepare, but the real outcome is mastery of the subject. The exam is just a measurement, not the product.",
+        "trap_type": "confused_with_test"
+      }
+    },
+    "next_time_rule": "In cause-effect analogies, always ask: 'What does the first word directly produce or create?' The answer is the second word. Practice produces mastery, just like training produces skill.",
+    "blueprint_id": "Cause-Effect Relationship",
+    "deconstruct_text": "Let's break this down simply. The first pair is TRAINING and SKILL. Training is something you do, and skill is what you get from it. So the relationship is: process leads to outcome. Now look at the second pair. PRACTICE is also a process. What is its natural outcome? When you practice something over and over, you get better at it. You don't just learn theory, you don't write a book, and you don't just pass an exam. You achieve mastery. That's the direct result. So the analogy is: TRAINING is to SKILL as PRACTICE is to MASTERY. A quick mental trick for next time: think of the first word as the 'engine' and the second word as the 'product.' What does the engine produce?",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

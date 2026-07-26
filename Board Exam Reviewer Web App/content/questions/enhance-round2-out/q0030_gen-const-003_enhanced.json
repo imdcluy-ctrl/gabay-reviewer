@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-003",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "Under the 1987 Philippine Constitution, legislative power is vested in the Congress of the Philippines, which consists of __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Senate and the House of Representatives"
+      },
+      {
+        "key": "B",
+        "text": "The President and the Cabinet"
+      },
+      {
+        "key": "C",
+        "text": "The Supreme Court and Lower Courts"
+      },
+      {
+        "key": "D",
+        "text": "The Civil Service Commission and Commission on Audit"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Branch of Government",
+        "text": "Think about which branch is responsible for making laws. That’s the legislative branch, and in the Philippines, it’s called Congress."
+      },
+      {
+        "rung": 2,
+        "title": "Bicameral Structure",
+        "text": "Congress is bicameral—two houses. This is stated in Article VI of the 1987 Constitution."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Chambers",
+        "text": "The two houses are the Senate (upper) and the House of Representatives (lower). Together, they make up Congress."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A matches exactly: the Senate and the House of Representatives. Art. VI, Sec. 1 ng Constitution ang basis nito."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Art. VI, Sec. 1 vests legislative power in Congress, composed of the Senate and the House of Representatives.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because the President and Cabinet are powerful, but they execute laws—making laws is Congress's job.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "You might have chosen C because courts interpret laws, but they don't create them—that's Congress's exclusive role.",
+        "trap_type": "branch_confusion"
+      },
+      "D": {
+        "text": "You might have chosen D because the CSC and COA are constitutional bodies, but they are oversight, not legislative.",
+        "trap_type": "commission_confusion"
+      }
+    },
+    "next_time_rule": "Legislative power = Congress = Senate + House. Branch Test: Makes laws=Legislative, Enforces=Executive, Interprets=Judiciary.",
+    "blueprint_id": "1987 Philippine Constitution — Article VI Section 1 Legislative Department",
+    "deconstruct_text": "Isipin mo nasa barangay hall tayo. May session ang Sanggunian, nagpapasa ng ordinansa—iyan ang local na batas. Pero sa national level, ang gumagawa ng batas ay ang Congress.\n\nDalawa ang bahay: Senado (Upper House) at Kamara de Representantes (Lower House). Parang jeepney: dalawang compartment, iisa ang ruta—paggawa ng batas. Bawal sumakay ang Presidente o Korte, kanya-kanyang sakayan yan.\n\nMnemonics: 'Congress = Con (container) ng Senado at House.' Tandaan: yung 'Con' parang lalagyan ng dalawang chambers. At 'Legislative' parang 'list' nila ang mga batas. Legal basis: Art. VI, Sec. 1, 1987 Constitution.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

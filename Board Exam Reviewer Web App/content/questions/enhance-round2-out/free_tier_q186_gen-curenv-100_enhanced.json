@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-100",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "blueprint_id": "Philippine Environmental Legislation Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 8749 (Philippine Clean Air Act of 1999), which government agency leads the implementation of air quality management policies nationwide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Environment and Natural Resources (DENR)"
+      },
+      {
+        "key": "B",
+        "text": "Department of Transportation (DOTr)"
+      },
+      {
+        "key": "C",
+        "text": "Department of Health (DOH)"
+      },
+      {
+        "key": "D",
+        "text": "Department of Energy (DOE)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is about which government department is the main boss for the Clean Air Act. Think about which agency's name literally has 'Environment' in it."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "The law itself, RA 8749, names the lead agency in its first few sections. The agency responsible for the environment overall is the one that leads air quality management."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "DENR is the primary agency for all environmental laws in the Philippines. The other agencies have smaller, supporting roles: DOTr checks vehicle emissions, DOH studies health effects, DOE sets fuel standards. None of them lead the whole policy."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The answer is the department that oversees the environment as a whole. That's DENR. The others are partners, not the leader."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. RA 8749 clearly designates DENR as the lead agency for implementing air quality management policies nationwide. Think of DENR as the captain of the ship, with other agencies as crew members handling specific tasks.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. DOTr does handle vehicle emission testing, which is part of air quality, but they are not the lead agency. It's like thinking the person who checks your ticket is the airline CEO. DOTr supports DENR's overall policy, not the other way around.",
+        "trap_type": "support_agency_confusion"
+      },
+      "C": {
+        "text": "DOH is concerned with the health effects of air pollution, like respiratory illnesses. But managing air quality policy is different from treating its consequences. DOH is a valuable partner, but not the lead.",
+        "trap_type": "support_agency_confusion"
+      },
+      "D": {
+        "text": "DOE focuses on energy production and fuel standards. While cleaner fuels help air quality, that's just one piece of the puzzle. The overall strategy for clean air belongs to DENR.",
+        "trap_type": "support_agency_confusion"
+      }
+    },
+    "next_time_rule": "Remember the 'DENR First' rule: For any major environmental law in the Philippines, DENR is almost always the lead agency. Other agencies have supporting roles, not the top job.",
+    "deconstruct_text": "Let's walk through this together. The question asks who leads air quality management under the Clean Air Act. The key is to remember that RA 8749 is an environmental law, so the lead agency is the one responsible for the environment overall: DENR. The other options are all agencies that have related but supporting roles. DOTr deals with vehicles and transport emissions, DOH handles health impacts, and DOE manages energy and fuel standards. They all contribute, but they don't lead the policy. A simple mental trick is to ask yourself: 'If I had to pick one department that is the main boss for the environment, which one would it be?' That's DENR. So when you see a question about which agency leads a major environmental law, your first instinct should be DENR, unless the law specifically says otherwise.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

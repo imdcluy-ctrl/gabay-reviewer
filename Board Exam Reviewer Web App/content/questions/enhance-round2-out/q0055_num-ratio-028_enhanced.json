@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-028",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 3:2:1 profit-sharing ratio is used for three government project partners. If total profit is P360,000, what is the difference between the largest and smallest share?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P90,000"
+      },
+      {
+        "key": "B",
+        "text": "P100,000"
+      },
+      {
+        "key": "C",
+        "text": "P120,000"
+      },
+      {
+        "key": "D",
+        "text": "P150,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "The ratio 3:2:1 means the profit is divided into equal chunks. Add 3+2+1=6 total chunks. Each chunk gets an equal share of P360,000."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Chunk",
+        "text": "Divide P360,000 by 6 = P60,000 per chunk. Each partner's share is simply their number of chunks × P60,000."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Extreme Shares",
+        "text": "Largest share = 3 chunks × P60,000 = P180,000. Smallest share = 1 chunk × P60,000 = P60,000."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Subtract smallest from largest: P180,000 – P60,000 = P120,000. Shortcut: 3–1=2 chunks difference, so 2 × P60,000 = P120,000."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you mistakenly compared the largest and middle shares instead of largest and smallest, forgetting the 3–1...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "B": {
+        "text": "You might have chosen B because you miscalculated the total parts or the value per part—double-check that the ratios sum to 6, not 5 or a...",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "Correct. With 6 total parts at P60,000 each, the difference is (3–1)×P60,000 = P120,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you overestimated by using the wrong operation order—first get the correct per-part value from the total,...",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "For difference between largest and smallest ratio shares, sum the ratios, then multiply (largest–smallest) by the value per part.",
+    "blueprint_id": "Ratio — Profit Share Difference",
+    "deconstruct_text": "Okay, let’s break it down, kapatid. The 3:2:1 ratio means the profit from the barangay project is divided into equal parts. Each partner gets shares in these proportions. First, we sum the ratio numbers: 3 + 2 + 1 = 6 total parts.\n\nThe total profit is P360,000. So each part’s value = P360,000 ÷ 6 = P60,000. Largest share: 3 parts × P60,000 = P180,000. Smallest share: 1 part × P60,000 = P60,000.\n\nDifference = P180,000 – P60,000 = P120,000. Mental shortcut: difference in ratio is 3–1=2 parts. 2 × P60,000 = P120,000 agad. Laging double-check kung hanggang saan ang comparison para iwas sa trap.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'AMICABLE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Friendly"
+      },
+      {
+        "key": "B",
+        "text": "Harmonious"
+      },
+      {
+        "key": "C",
+        "text": "Hostile"
+      },
+      {
+        "key": "D",
+        "text": "Pleasant"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Oryentasyon: Alamin ang Direksyon",
+        "text": "Tandaan: Ang hanap mo ay antonym, hindi synonym. 'Amicable' = friendly. Hanapin ang opposite."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Positive vs Negative",
+        "text": "Kung ang word ay positive (friendly, peaceful), ang antonym ay dapat negative (hostile, unfriendly). Wag magkamali."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Check the Choices",
+        "text": "Tingnan mo: A Friendly, B Harmonious, D Pleasant — lahat yan positive vibes. Si C Hostile lang ang negative, kaya yan ang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "Clue: Real-World Analogy",
+        "text": "Sa barangay, amicable settlement = peaceful usapan. Ang kabaligtaran: hostile away. Kaya Hostile ang tamang antonym."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you read too fast and picked the synonym 'Friendly', not the opposite.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because 'Harmonious' also means peaceful, a synonym not antonym.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "C": {
+        "text": "Correct. 'Hostile' means unfriendly and antagonistic, the exact opposite of 'amicable'.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because 'Pleasant' seems like a mild opposite, but it's still positive, not hostile.",
+        "trap_type": "synonym_antonym_inversion"
+      }
+    },
+    "next_time_rule": "For antonym questions, first define the word, then find its direct opposite. Positive to negative, peace to conflict.",
+    "blueprint_id": "Antonyms — Amicable",
+    "deconstruct_text": "Sa barangay mediation, kapag nag-areglo ang dalawang nagtatalo, 'amicable settlement' ang tawag—mapayapa, walang bangayan. Kaya ang 'amicable' ay nangangahulugang friendly at harmonious.\n\nAng tanong ay antonym, hindi synonym. Tatlo sa choices—Friendly, Harmonious, Pleasant—ay pawang magkakaparehong timpla ng pagiging maayos. Ang Hostile lang ang naiiba, dahil ito'y mapanlaban at puno ng alitan.\n\nMental trick: Isipin mo, ang 'amicable' parang magkaibigang nagkasundo sa barangay. Ang kabaliktaran? 'Hostile'—parang away sa barangay na walang kibuan. Pag antonym, hanapin yung salitang may kontrahan.\n\n**Watch-Out Zone: synonym_antonym_inversion** in action. Pumili ng opposite, hindi syno...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

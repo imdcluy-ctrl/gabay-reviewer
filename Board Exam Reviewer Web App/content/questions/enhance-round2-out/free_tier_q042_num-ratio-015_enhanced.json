@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-015",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office has 3 divisions: Administration, Finance, and Operations in the ratio 2:3:5. If the total staff is 200, how many staff are in Finance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "80"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "A ratio is just a way of saying 'for every 2 people in Admin, there are 3 in Finance and 5 in Operations.' So the whole office is made up of 2 + 3 + 5 = 10 equal-sized parts. Can you see how many people each part represents?"
+      },
+      {
+        "rung": 2,
+        "title": "Find One Part",
+        "text": "If 10 parts make up 200 people, then 1 part is simply 200 divided by 10. That gives you the value of a single part. What do you get?"
+      },
+      {
+        "rung": 3,
+        "title": "Finance Gets 3 Parts",
+        "text": "Finance has 3 of those parts. So once you know the value of 1 part, just multiply it by 3 to find Finance's staff count. You're almost there."
+      },
+      {
+        "rung": 4,
+        "title": "The Final Step",
+        "text": "One part equals 20 people (200 / 10 = 20). Finance has 3 parts, so 3 times 20 equals 60. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "40 is the number for Administration, which has 2 parts. It's an easy mistake if you're rushing and grab the first division you see, but the question specifically asks for Finance, which has 3 parts.",
+        "trap_type": "wrong_division_selected"
+      },
+      "B": {
+        "text": "Correct. Finance has 3 out of 10 total parts. So 3/10 of 200 is 60. You matched the right part to the right division.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "80 is the number for Operations, which has 5 parts. It's tempting to pick the biggest number, but the question is about Finance, not Operations. Always double-check which division is being asked.",
+        "trap_type": "wrong_division_selected"
+      },
+      "D": {
+        "text": "100 is half of the total. This would only be correct if Finance had 5 parts (half of 10). You might have assumed Finance was the largest division, but the ratio tells us Operations is the biggest. Let the numbers guide you, not assumptions.",
+        "trap_type": "half_total_fallacy"
+      }
+    },
+    "next_time_rule": "When a ratio question asks for a specific group, first find the total number of parts, then the value of one part, then multiply by the group's parts. Always match the part count to the group name.",
+    "blueprint_id": "Part-to-Whole Ratio — Department Staffing",
+    "deconstruct_text": "Let's walk through this together. The ratio 2:3:5 tells us the staff is split into 10 equal parts (2 + 3 + 5 = 10). Since the total staff is 200, each part is worth 200 / 10 = 20 people. Finance has 3 of those parts, so Finance has 3 x 20 = 60 staff. The trick here is to resist the urge to grab the first or biggest number you see. Instead, break it down: total parts, value per part, then multiply for the group you need. A handy mental shortcut is to think of the ratio as slices of a pie. The whole pie is 200, cut into 10 slices. Each slice is 20 people. Finance gets 3 slices. That's 60.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

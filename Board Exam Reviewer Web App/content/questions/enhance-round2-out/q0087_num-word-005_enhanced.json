@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-005",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A car travels from City A to B at 60 km/h and returns at 40 km/h. Average speed for round trip?",
+    "options": [
+      {
+        "key": "A",
+        "text": "48 km/h"
+      },
+      {
+        "key": "B",
+        "text": "50 km/h"
+      },
+      {
+        "key": "C",
+        "text": "52 km/h"
+      },
+      {
+        "key": "D",
+        "text": "55 km/h"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Average Speed Formula",
+        "text": "Average speed = total distance / total time. Hindi pwedeng i-average lang ang speeds dahil magkaiba ang oras."
+      },
+      {
+        "rung": 2,
+        "title": "Assume distance",
+        "text": "Pumili ng convenient distance, like LCM ng 60 at 40: 120 km. Parang isang biyahe mula Manila to Baguio?"
+      },
+      {
+        "rung": 3,
+        "title": "Times",
+        "text": "Going: 120/60 = 2 hrs. Return: 120/40 = 3 hrs. Total distance = 240 km, total time = 5 hrs."
+      },
+      {
+        "rung": 4,
+        "title": "Compute",
+        "text": "Average speed = 240 km / 5 h = 48 km/h. Option A ang sagot!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Total distance ÷ total time = 48 km/h. Tamang sagot gamit ang harmonic mean.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because you simply averaged 60 and 40, forgetting that the travel times are different.",
+        "trap_type": "ratio_total_part_confusion"
+      },
+      "C": {
+        "text": "You might have chosen C because of a calculation error, perhaps adding 2 to the simple average of 50.",
+        "trap_type": "order_of_operations_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you miscalculated by adding 5 to the simple average of 50.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "**Key Takeaway:** Average speed = total distance ÷ total time. Iwasan ang simpleng pag-average ng speeds kung magkaiba ang oras!",
+    "blueprint_id": "Average Speed Harmonic Mean",
+    "deconstruct_text": "Halimbawa, nag-drive ka mula sa inyong LGU office sa Vigan papuntang seminar sa Laoag. Papunta, mabilis sa highway, 60 km/h. Pauwi, traffic sa bayan kaya 40 km/h lang. Alamin ang average speed.\n\nGamitin ang formula: Average speed = total distance ÷ total time. Hindi simple average ng speeds dahil magkaiba ang oras na ginugol sa bawat speed.\n\nPumili ng convenient distance, gamit ang Least Common Multiple ng 60 at 40: 120 km one way. Kaya total distance = 240 km.\n\nOras papunta: 120 km / 60 km/h = 2 oras. Oras pauwi: 120 km / 40 km/h = 3 oras. Total time = 5 oras.\n\nAverage speed = 240 km / 5 h = 48 km/h.\n\n**Watch-Out Zone: ratio_total_part_confusion** in action. Hindi puwede simpleng average.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

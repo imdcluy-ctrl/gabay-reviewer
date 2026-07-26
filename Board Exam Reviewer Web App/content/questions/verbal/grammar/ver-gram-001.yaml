@@ -1,0 +1,55 @@
+id: ver-gram-001
+subtopic: grammar-correct-usage
+category: verbal-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["subject-verb-agreement", "civil-service-english"]
+estimated_seconds: 60
+question_text: "Choose the sentence that adheres to standard Civil Service English grammar rules."
+options:
+  - key: A
+    text: "The committee have decided to postpone the administrative hearing."
+  - key: B
+    text: "Neither the supervisor nor the employees was aware of the memo."
+  - key: C
+    text: "Neither the supervisor nor the employees were aware of the memo."
+  - key: D
+    text: "The list of approved applicants were posted on the bulletin board."
+correct: C
+blueprint_id: "Subject-Verb Agreement — Proximity Rule with Neither/Nor"
+hint_ladder:
+  - rung: 1
+    title: "Identify Subject Structure"
+    text: "Look at sentence C with 'Neither... nor...'."
+  - rung: 2
+    title: "Recall Proximity Rule"
+    text: "When subjects are connected by 'neither... nor', the verb agrees with the closer subject."
+  - rung: 3
+    title: "Check Subject Agreement"
+    text: "'employees' (plural) is closer to the verb than 'supervisor' (singular)."
+  - rung: 4
+    title: "Verify Correct Verb Form"
+    text: "Since 'employees' is plural, the plural verb 'were' is correct."
+deconstruct_text: |
+  Rule 1: In 'Neither A nor B' constructions, the verb agrees with subject B (closest subject).
+  In sentence C, subject B is 'employees' (plural), so 'were' is correct.
+  In sentence A, collective noun 'committee' acting as a unit requires singular 'has'.
+  In sentence D, prepositional phrase 'of approved applicants' does not alter the head subject 'list' (singular -> 'was').
+choice_explanations:
+  A:
+    text: "Collective noun 'committee' acting as a single body requires singular verb 'has decided'."
+    trap_type: collective_noun_error
+  B:
+    text: "Violates proximity rule: 'employees' is plural, so verb must be 'were', not 'was'."
+    trap_type: proximity_agreement_error
+  C:
+    text: "Correct! The verb 'were' correctly agrees with the nearer plural subject 'employees'."
+    trap_type: null
+  D:
+    text: "Distracted by plural object 'applicants'. Main subject is singular 'list' -> requires 'was'."
+    trap_type: prepositional_phrase_intervening
+next_time_rule: "With 'neither/nor', align the verb with the subject closest to it."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE English Grammar Specification — Subject-Verb Proximity Rule"

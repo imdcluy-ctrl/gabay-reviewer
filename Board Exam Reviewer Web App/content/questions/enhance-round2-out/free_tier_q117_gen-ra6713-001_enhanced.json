@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-001",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "Under RA 6713 (Code of Conduct), what document must public officials disclose their assets, liabilities, and business interests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Income Tax Return"
+      },
+      {
+        "key": "B",
+        "text": "SALN (Statement of Assets, Liabilities, and Net Worth)"
+      },
+      {
+        "key": "C",
+        "text": "Bank Statement"
+      },
+      {
+        "key": "D",
+        "text": "Audit Report"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This question is about a specific law that governs how public officials must be transparent about their personal finances. Think about the document that's famously required for all government employees, from the president down to local officials."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "RA 6713, or the Code of Conduct and Ethical Standards for Public Officials, requires every public official to file a document that lists everything they own, everything they owe, and any businesses they're involved in. The law is very specific about which document this is."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at the options. Which one is a document that an official personally prepares and submits to their office? An Income Tax Return goes to the BIR, a Bank Statement comes from your bank, and an Audit Report is done by an external auditor. Only one option is something the official themselves files as a sworn statement."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The answer is a four-letter acronym that starts with 'S' and is famously associated with government transparency. It's the document that newspapers often check to see if officials are getting richer while in office. You've probably heard it mentioned in the news."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "It's easy to see why someone might pick this. After all, an Income Tax Return (ITR) does list your income and some assets. But here's the key difference: the ITR goes to the Bureau of Internal Revenue for tax purposes, not to the public office for ethical disclosure. RA 6713 specifically requires a different document that covers not just income, but all assets, liabilities, and business interests in much more detail. Think of the ITR as your report to the taxman, while the SALN is your transparency report to the people.",
+        "trap_type": "financial_document_confusion"
+      },
+      "B": {
+        "text": "Correct. RA 6713, particularly Sections 7 and 8, is very clear: every public official must file a Statement of Assets, Liabilities, and Net Worth (SALN). This document is the cornerstone of the government's transparency and anti-corruption efforts. It requires officials to declare everything they own, everything they owe, and any businesses they have interests in, both upon entering office and annually thereafter. The SALN is a sworn statement that can be accessed by the public, making it a powerful tool for accountability.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A bank statement is a private record from your bank showing your transactions. While it might contain some financial information, it's not a document you file with your office. More importantly, it doesn't cover all the things RA 6713 requires, like liabilities (debts) and business interests. Choosing this option might come from thinking 'bank statement = proof of money,' but the law requires a comprehensive, sworn declaration, not a simple bank printout.",
+        "trap_type": "financial_document_confusion"
+      },
+      "D": {
+        "text": "An audit report is prepared by an independent auditor (like the Commission on Audit) to check the financial statements of an organization. It's not something a public official personally files to disclose their own assets. This trap might catch someone who confuses 'audit' with 'checking' or 'reviewing' finances. But remember, the official is the one making the disclosure, not an external party auditing them.",
+        "trap_type": "financial_document_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The question is really asking: 'Under RA 6713, what's the specific form that public officials use to show their wealth?' The answer is the SALN, which stands for Statement of Assets, Liabilities, and Net Worth.\n\nHere's a simple way to remember it. Think of the SALN as a 'financial selfie' that every government official has to take and share. It's a snapshot of what they own (assets), what they owe (liabilities), and what's left over (net worth). The law requires this to promote transparency and prevent corruption.\n\nNow, why not the other options? The Income Tax Return (ITR) is for the BIR and focuses on income and taxes. A Bank Statement is just a record from one bank. An Audit Report is done by someone else checking an organization's books. None of these are the personal, sworn declaration that RA 6713 mandates.\n\n**Mental Framework:** When you see 'RA 6713' and 'disclosure of assets,' immediately think 'SALN.' It's the only document that fits. A good trick is to remember the acronym: SALN = Show All, Legally Needed. It's the document that ensures public officials are transparent about their wealth.",
+    "next_time_rule": "When you see RA 6713 and the words 'assets,' 'liabilities,' or 'business interests,' your brain should instantly light up with 'SALN.' It's the only document that covers all three. Think of it as the 'transparency form' for public officials.",
+    "blueprint_id": "RA 6713 — SALN Requirement",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

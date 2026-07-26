@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-ra6713-103",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "blueprint_id": "RA 6713 Section Standard — Whistleblower Rights",
+    "difficulty_level": 2,
+    "question_text": "Under Republic Act No. 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees), what is the statutory requirement regarding Whistleblower Protections?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandated under protection from administrative reprisal"
+      },
+      {
+        "key": "B",
+        "text": "Optional for appointive officials"
+      },
+      {
+        "key": "C",
+        "text": "Required only upon retirement"
+      },
+      {
+        "key": "D",
+        "text": "Applicable only to elective officials"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is about a specific protection the law gives to public officials who report wrongdoing. Think about what would encourage someone to speak up without fear."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Section 8(a) of RA 6713 says that any public official or employee who reports a violation of the Code in good faith must be protected from administrative reprisal. That means no punishment for doing the right thing."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Now check each option against that rule. Is the protection optional for some officials? No, it's mandatory for everyone. Does it only kick in at retirement? No, it applies when the report is made during service. Does it only cover elective officials? No, it covers all public officials."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The correct answer is the one that says the protection is mandated, meaning it's a required guarantee under the law. That's option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 8(a) mandates protection from administrative reprisal for any public official or employee who reports a violation of the Code in good faith. This is a key safeguard that encourages whistleblowing without fear of retaliation.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one is tempting if you think some officials might be exempt, but the law doesn't make it optional for anyone. The protection is mandatory for all public officials who report violations in good faith, whether they are appointive or not. There's no opt-out clause here.",
+        "trap_type": "exemption_fallacy"
+      },
+      "C": {
+        "text": "You might pick this if you think whistleblower protections only matter after an official's career ends, but that misses the point. The protection applies the moment a report is made during the official's tenure. Waiting until retirement would defeat the whole purpose of encouraging timely reporting of wrongdoing.",
+        "trap_type": "statutory_timing_error"
+      },
+      "D": {
+        "text": "This is a common mistake if you assume the law only covers elected officials. But Section 8(a) explicitly says 'any public official or employee,' which includes both elective and appointive officials. The protection is broad, not narrow.",
+        "trap_type": "scope_limitation_error"
+      }
+    },
+    "next_time_rule": "Remember the 'Good Faith Shield' rule: RA 6713 Section 8(a) shields any public official who reports a violation in good faith from administrative reprisal. It's mandatory, applies during service, and covers everyone.",
+    "deconstruct_text": "Let's walk through this together. The question asks about the statutory requirement for whistleblower protections under RA 6713. The key is in Section 8(a), which says that any public official or employee who reports a violation of the Code in good faith must be protected from administrative reprisal. That means the law doesn't just suggest it—it mandates it. Now, look at the options. Option A says 'Mandated under protection from administrative reprisal,' which matches exactly. Option B says it's optional for appointive officials, but the law makes no such exception—it's mandatory for everyone. Option C says it's required only upon retirement, but the protection applies when the report is made during service, not after. Option D says it's only for elective officials, but the law covers 'any public official or employee.' So the correct answer is A. Here's a mental trick: think of it as the 'Good Faith Shield'—if you report in good faith, the law shields you from retaliation, no matter who you are or when you report.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

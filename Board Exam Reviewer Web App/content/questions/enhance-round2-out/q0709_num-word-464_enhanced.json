@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-464",
+    "category_id": "numerical-ability",
+    "subtopic_id": "word-problems-algebra",
+    "question_text": "During the COA flag ceremony, the minute hand and hour hand of the office clock overlap at a certain time. At exactly what time between 9:00 AM and 10:00 AM do the two hands overlap?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9:49 and 1/11 minutes"
+      },
+      {
+        "key": "B",
+        "text": "9:48 and 2/11 minutes"
+      },
+      {
+        "key": "C",
+        "text": "9:47 and 3/11 minutes"
+      },
+      {
+        "key": "D",
+        "text": "9:50 minutes"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "Clock problems: when hands overlap during COA flag ceremony (Variation 104)",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

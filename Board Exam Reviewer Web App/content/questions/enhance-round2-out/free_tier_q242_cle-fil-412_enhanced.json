@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-412",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "You have four employee records: 'Juan Reyes Jr.', 'Juan Reyes III', 'Juan Reyes IV', and 'Juan Reyes Sr.'. What is the correct filing order?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan Reyes III; Juan Reyes IV; Juan Reyes Jr.; Juan Reyes Sr."
+      },
+      {
+        "key": "B",
+        "text": "Juan Reyes Jr.; Juan Reyes III; Juan Reyes IV; Juan Reyes Sr."
+      },
+      {
+        "key": "C",
+        "text": "Juan Reyes Sr.; Juan Reyes Jr.; Juan Reyes III; Juan Reyes IV"
+      },
+      {
+        "key": "D",
+        "text": "Juan Reyes Jr.; Juan Reyes Sr.; Juan Reyes III; Juan Reyes IV"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "All four names are exactly the same except for the suffix at the end. So the key here is knowing the official filing rule for suffixes like Jr., Sr., and Roman numerals."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "Here's the simple rule: When names are identical, file suffixes in this order: no suffix first, then Jr., then Sr., then Roman numerals in numerical order (II, III, IV, etc.). Think of it as a hierarchy: Junior comes before Senior, and both come before numbered generations."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Apply the rule to our four names. Jr. comes first because it's the 'Junior' designation. Then come the Roman numerals: III and IV. Since III is smaller than IV, III comes before IV. Finally, Sr. comes last because 'Senior' is filed after all numbered suffixes."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "So the correct sequence is: Juan Reyes Jr. (first), then Juan Reyes III (second), then Juan Reyes IV (third), and finally Juan Reyes Sr. (fourth). This matches option B exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This order puts III and IV before Jr. It's a common mistake if you think Roman numerals are filed alphabetically (where 'I' comes before 'J'). But the official rule is that Jr. always comes before Roman numerals, regardless of alphabetical order.",
+        "trap_type": "suffix_roman_numerical_order"
+      },
+      "B": {
+        "text": "This is correct. Jr. comes first, then Roman numerals in ascending order (III then IV), and Sr. last. This follows the standard filing rule for identical names with suffixes.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This order puts Sr. first, which is a natural mistake if you think 'Senior' means 'older' and should come first. But in filing, 'Senior' is treated as a suffix that comes after Jr. and Roman numerals.",
+        "trap_type": "suffix_senior_first_confusion"
+      },
+      "D": {
+        "text": "This order correctly places Jr. first, but then puts Sr. before III and IV. It's easy to think Sr. comes right after Jr., but the rule says Roman numerals come before Sr.",
+        "trap_type": "suffix_misordering"
+      }
+    },
+    "deconstruct_text": "When you see four names that are identical except for suffixes, your brain might want to sort them alphabetically. If you did that, 'III' and 'IV' (starting with 'I') would come before 'Jr.' (starting with 'J') and 'Sr.' (starting with 'S'). But that's not the rule here. The Civil Service Exam follows a specific filing convention for generational suffixes. Think of it like a timeline: Jr. represents the younger generation, so it comes first. Then come the numbered generations in order: II, III, IV, and so on. Finally, Sr. represents the oldest generation and comes last. So for our set: Jr. is first, then III (since it's smaller than IV), then IV, and Sr. brings up the rear. A quick mental trick: remember the phrase 'Junior, Numbers, Senior' to lock in the order. Jr. always leads, Roman numerals follow in numerical order, and Sr. closes the file.",
+    "next_time_rule": "For identical names with suffixes, remember: Junior first, then Roman numerals in order (II, III, IV...), then Senior last. Jr. always beats Roman numerals, and Sr. always comes after them.",
+    "blueprint_id": "B-2382",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

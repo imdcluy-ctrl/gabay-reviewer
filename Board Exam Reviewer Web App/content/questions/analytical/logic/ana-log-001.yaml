@@ -1,0 +1,57 @@
+id: ana-log-001
+subtopic: logical-reasoning
+category: analytical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["syllogism", "logical-deduction"]
+estimated_seconds: 75
+question_text: "Premise 1: All department heads are career service eligible.\nPremise 2: Maria is a department head.\nWhich conclusion logically follows?"
+options:
+  - key: A
+    text: "Maria is not career service eligible."
+  - key: B
+    text: "Maria is career service eligible."
+  - key: C
+    text: "All career service eligibles are department heads."
+  - key: D
+    text: "Maria will be promoted next year."
+correct: B
+blueprint_id: "Logical Reasoning — Categorical Syllogism (Modus Ponens)"
+hint_ladder:
+  - rung: 1
+    title: "Identify Set Inclusion"
+    text: "Department heads belong inside the set of Career Service Eligibles."
+  - rung: 2
+    title: "Place Individual in Set"
+    text: "Maria is placed inside the Department Heads set."
+  - rung: 3
+    title: "Deduce Property"
+    text: "Since Maria is in Department Heads, she MUST also be in Career Service Eligibles."
+  - rung: 4
+    title: "Select Matching Conclusion"
+    text: "Option B is a valid direct deduction."
+deconstruct_text: |
+  Classic Modus Ponens:
+  All A are B.
+  X is A.
+  Therefore, X is B.
+  Here A = Department Heads, B = Career Service Eligible, X = Maria.
+  Maria MUST be career service eligible.
+choice_explanations:
+  A:
+    text: "Direct contradiction of the premises."
+    trap_type: contradiction_error
+  B:
+    text: "Correct! Valid deductive conclusion (Modus Ponens)."
+    trap_type: null
+  C:
+    text: "Converse fallacy. Saying All A are B does not mean All B are A."
+    trap_type: converse_fallacy
+  D:
+    text: "Speculative assumption not contained in premises."
+    trap_type: speculative_error
+next_time_rule: "If All A are B and X is A, then X is definitely B (do not flip the direction)."
+status: live
+reviewed_by: "Antigravity Human QA"
+source_notes: "CSE Analytical Ability — Syllogistic Deductions"

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-025",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the meaning of 'ALLEGATION'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proven fact"
+      },
+      {
+        "key": "B",
+        "text": "Claim without proof"
+      },
+      {
+        "key": "C",
+        "text": "Legal judgment"
+      },
+      {
+        "key": "D",
+        "text": "Final verdict"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about the difference between something that is stated and something that is proven. Think about news reports where someone is accused of something, but the investigation is still ongoing."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "An allegation is an assertion made without evidence. The key is that it hasn't been verified yet. It's the starting point of an inquiry, not the conclusion."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Try plugging each option into this sentence: 'The lawyer presented the ______ to the court, but the judge reminded everyone that it was not yet proven.' Only one option makes sense here."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly Give Away",
+        "text": "The word 'allegation' shares its root with 'allege,' which means to assert without proof. The correct answer is the option that directly captures this idea of an unproven assertion."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is tempting if you think an allegation is a strong accusation, but 'proven fact' is actually the opposite. A fact is something established with evidence, while an allegation is just a claim waiting to be tested. The trap here is confusing the strength of the word with certainty.",
+        "trap_type": "word_strength_error"
+      },
+      "B": {
+        "text": "Exactly right. An allegation is simply a claim or assertion made without proof. It's the accusation itself, not the evidence or the outcome. Think of it as the starting line of a legal process, not the finish line.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "It's easy to see why this might seem right since allegations often appear in legal settings. But a 'legal judgment' is the court's official decision after hearing all the evidence. An allegation comes way before that, at the very beginning. This trap mixes up the timeline of a case.",
+        "trap_type": "distractor"
+      },
+      "D": {
+        "text": "A 'final verdict' is the ultimate conclusion of a trial, the last word. An allegation is just the first word, the initial claim. This trap confuses the end result with the starting point. Remember, a verdict ends the story; an allegation begins it.",
+        "trap_type": "distractor"
+      }
+    },
+    "next_time_rule": "Think of 'allegation' as an 'accusation awaiting proof.' The word starts with 'A' for 'accusation' and ends with 'tion' like 'suspicion' — both are unproven. If an option sounds like a final, proven outcome, it's likely wrong.",
+    "blueprint_id": "Vocabulary — Allegation",
+    "deconstruct_text": "Let's break this down simply. The word 'allegation' comes from the Latin 'allegare,' meaning to bring forward or assert. The core idea is that someone is making a claim, but no proof has been provided yet. It's a formal way of saying 'accusation without evidence.' Now, look at the options. Option A, 'proven fact,' is the exact opposite — a fact is already established. Option C, 'legal judgment,' and Option D, 'final verdict,' both refer to the conclusion of a legal process, not the initial claim. Only Option B, 'Claim without proof,' captures the essence of an allegation. A handy mental trick: imagine a courtroom scene. The prosecutor makes an allegation first. Then evidence is presented. Then the judge gives a judgment. Then the jury delivers a verdict. The allegation is always the first step, never the last.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

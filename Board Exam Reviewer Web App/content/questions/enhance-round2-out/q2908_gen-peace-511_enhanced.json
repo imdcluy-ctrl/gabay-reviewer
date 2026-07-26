@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-peace-511",
+    "category_id": "general-information",
+    "subtopic_id": "peace-human-rights",
+    "question_text": "A 15-year-old girl is recruited by a syndicate to sell illegal drugs. Under RA 7610 (Special Protection of Children Against Abuse, Exploitation and Discrimination Act), which of the following best describes the legal status of the girl?",
+    "options": [
+      {
+        "key": "A",
+        "text": "She is a criminal offender and should be prosecuted as an adult."
+      },
+      {
+        "key": "B",
+        "text": "She is a child in conflict with the law but also a victim of exploitation."
+      },
+      {
+        "key": "C",
+        "text": "She is immune from any legal action because she is a minor."
+      },
+      {
+        "key": "D",
+        "text": "She is considered a witness and cannot be held liable for any offense."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-3493",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

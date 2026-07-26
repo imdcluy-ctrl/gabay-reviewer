@@ -1,0 +1,58 @@
+id: num-ratio-010
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["proportion", "fuel-consumption"]
+estimated_seconds: 80
+question_text: "An LGU inspection vehicle consumes 18 liters of gasoline to cover a distance of 210 kilometers. How many liters of gasoline will it consume for a 350-kilometer inspection trip?"
+options:
+  - key: A
+    text: "25 liters"
+  - key: B
+    text: "28 liters"
+  - key: C
+    text: "30 liters"
+  - key: D
+    text: "35 liters"
+correct: C
+blueprint_id: "Ratio and Proportion — vehicle fuel consumption proportion"
+hint_ladder:
+  - rung: 1
+    title: "Identify Direct Relation"
+    text: "More distance = MORE fuel consumed."
+  - rung: 2
+    title: "Set Up Proportion"
+    text: "Liters / km = 18 / 210 = X / 350."
+  - rung: 3
+    title: "Simplify Initial Ratio"
+    text: "18 / 210 simplifies by dividing by 6 → 3 / 35."
+  - rung: 4
+    title: "Solve for X"
+    text: "3 / 35 = X / 350 → X = 3 × 10 = 30 liters."
+deconstruct_text: |
+  Direct proportion: 18 / 210 = X / 350
+  Simplify 18/210:
+  Divide numerator & denominator by 6 → 3 / 35
+
+  Set equal: 3 / 35 = X / 350
+  Since 350 = 35 × 10:
+  X = 3 × 10 = 30 liters
+choice_explanations:
+  A:
+    text: "Calculating 350 ÷ 14."
+    trap_type: arithmetic_error
+  B:
+    text: "Calculating 350 ÷ 12.5."
+    trap_type: arithmetic_error
+  C:
+    text: "Correct! 18 / 210 = 3 / 35. For 350 km, fuel = 3 × 10 = 30 liters."
+    trap_type: null
+  D:
+    text: "Confusing distance 350 with fuel 35 liters."
+    trap_type: number_confusion
+next_time_rule: "Simplify ratios first before cross-multiplying large numbers to make mental calculations much faster."
+status: live
+reviewed_by: null
+source_notes: "LGU vehicle fuel consumption ratio problem"

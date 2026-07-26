@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-002",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "A data encoder made 8 errors in a 400-entry form. What is the error rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1%"
+      },
+      {
+        "key": "B",
+        "text": "2%"
+      },
+      {
+        "key": "C",
+        "text": "3%"
+      },
+      {
+        "key": "D",
+        "text": "4%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient: Hanapin ang Fraction",
+        "text": "Tanong ay error rate, ibig sabihin anong porsyento ng entries ang may error. Hanapin ang fraction: errors / total entries."
+      },
+      {
+        "rung": 2,
+        "title": "Rule: Formula ng Porsyento",
+        "text": "Formula: Rate = (part ÷ whole) × 100%. Parang diskwento sa tindahan, hinahanap ang part per hundred."
+      },
+      {
+        "rung": 3,
+        "title": "Apply: Isaksak ang Numbers",
+        "text": "I-compute: 8 errors ÷ 400 entries = 0.02. Multiply by 100%: 0.02 × 100% = 2%. Kaya 2% ang error rate."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There: Piliin ang Sagot",
+        "text": "2% ang sagot. Check mo: 2% ng 400 ay 8. Kaya option B ang tama. Sure na sure!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you mistakenly moved the decimal, getting 0.01 instead of 0.02. 1% of 400 is just 4 errors.",
+        "trap_type": "decimal_shift_error"
+      },
+      "B": {
+        "text": "Correct. 8/400 = 0.02, and 0.02 × 100% = 2%. Tama ka, galing!",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you added 1% to 2% by mistake. 3% of 400 is 12, not 8.",
+        "trap_type": "addition_error"
+      },
+      "D": {
+        "text": "You might have chosen D because you misapplied 8 as 4% of 400 without dividing properly. 4% of 400 is 16 errors.",
+        "trap_type": "percentage_misconception"
+      }
+    },
+    "next_time_rule": "Mental trick: Rate = (part ÷ whole) × 100. Parang discount sa palengke: fraction, times 100 para percentage.",
+    "blueprint_id": "Error Rate Percentage",
+    "deconstruct_text": "Isipin mo nag-eencode ka ng birth certificates sa Barangay Hall. May 400 records, 8 ang may maling spelling ng pangalan.\n\nPara malaman ang error rate, kunin mo fraction ng errors sa total: 8/400 = 0.02.\n\nMultiply by 100% para maging porsyento: 2%. Check: 2% ng 400 ay 8. Kaya B.\n\nSa exam, laging tandaan: rate = (part ÷ total) × 100%, parang pagkuha ng suki discount sa palengke.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

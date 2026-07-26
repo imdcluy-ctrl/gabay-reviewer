@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-ratio-002",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipal health center, the ratio of registered nurses to medical technologists is 5:2. If there are 35 registered nurses, how many medical technologists are employed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Given Values",
+        "text": "The ratio Nurses:MedTechs is 5:2, and there are 35 nurses. You need to find the number of MedTechs."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Multiplier",
+        "text": "Since 5 parts correspond to 35 nurses, divide 35 by 5 to find the value of one part."
+      },
+      {
+        "rung": 3,
+        "title": "Calculate One Part",
+        "text": "35 ÷ 5 = 7. So each part in the ratio represents 7 individuals."
+      },
+      {
+        "rung": 4,
+        "title": "Final Multiply",
+        "text": "MedTechs correspond to 2 parts: 2 × 7 = 14. Look for 14 among the options."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10 comes from incorrectly dividing 35 by 3.5 or multiplying 5 by 2 and subtracting from 35. The correct method is to find the value of one part (7) then multiply by 2.",
+        "trap_type": "arithmetic_error"
+      },
+      "B": {
+        "text": "Correct! 5 parts = 35, so 1 part = 7. MedTechs = 2 parts × 7 = 14.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "15 results from subtracting 20 from 35 instead of using the ratio proportion. The ratio requires division, not subtraction.",
+        "trap_type": "formula_misapplication"
+      },
+      "D": {
+        "text": "20 comes from mistakenly using 4 parts (maybe confusing with another ratio) or calculating 35 ÷ 7 × 4. The correct multiplier is 2, not 4.",
+        "trap_type": "wrong_part_multiplier"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In direct proportion ratios (A:B = Given:X), divide the given quantity by its corresponding ratio number to find the multiplier, then multiply by the other ratio number.",
+    "blueprint_id": "Ratio and Proportion — finding unknown quantity in direct proportion",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The ratio of nurses to medtechs is 5:2. This means for every 5 nurses, there are 2 medtechs.\n2. We are given 35 nurses. Since 5 parts = 35, one part = 35 ÷ 5 = 7.\n3. Medtechs correspond to 2 parts, so number of medtechs = 2 × 7 = 14.\n\n### ❌ Why the Distractors Fail\n- **10**: This might come from dividing 35 by 3.5 (incorrect operation) or from 5 × 2 = 10, ignoring the given total.\n- **15**: This is 35 − 20, a subtraction error. The problem requires proportional division, not subtraction.\n- **20**: This could be from using 4 parts (maybe confusing with another ratio) or from 35 ÷ 7 × 4 = 20, but the correct multiplier for medtechs is 2.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-001",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A government office distributed ₱45,000 among three employees in the ratio 2:3:4. How much did the employee with the largest share receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱15,000"
+      },
+      {
+        "key": "B",
+        "text": "₱18,000"
+      },
+      {
+        "key": "C",
+        "text": "₱20,000"
+      },
+      {
+        "key": "D",
+        "text": "₱22,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "See the Pattern",
+        "text": "This is a ratio problem where a total amount is divided into parts. The largest share corresponds to the biggest ratio number (4)."
+      },
+      {
+        "rung": 2,
+        "title": "Strip the Noise",
+        "text": "Add all ratio parts: 2 + 3 + 4 = 9 total parts. The total amount ₱45,000 is divided into 9 equal parts."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate One",
+        "text": "Value of one part = ₱45,000 ÷ 9 = ₱5,000. The largest share is 4 parts."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "4 × ₱5,000 = ₱20,000. That's the largest share. Look for this value among the options."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱15,000 is the middle share (3 parts × ₱5,000), not the largest. The largest share corresponds to 4 parts.",
+        "trap_type": "wrong_part"
+      },
+      "B": {
+        "text": "₱18,000 might come from dividing ₱45,000 by 2.5 or using an incorrect divisor. Always divide by total parts (9).",
+        "trap_type": "wrong_divisor"
+      },
+      "C": {
+        "text": "Correct! 4 parts × ₱5,000 = ₱20,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "₱22,500 comes from dividing ₱45,000 by 2 (the smallest ratio number). You must divide by the total parts (9), not an individual ratio number.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Whenever you see a ratio, add up ALL parts first before dividing the total.",
+    "blueprint_id": "Ratio and Proportion — dividing a total amount into parts based on a given ratio",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The ratio 2:3:4 means the total is divided into 2 + 3 + 4 = 9 equal parts.\n2. Value of one part = ₱45,000 ÷ 9 = ₱5,000.\n3. The largest share corresponds to the largest ratio number (4), so largest share = 4 × ₱5,000 = ₱20,000.\n\n### ❌ Why the Distractors Fail\n- **₱15,000**: This is the share for 3 parts (middle employee), not the largest.\n- **₱18,000**: This might result from dividing ₱45,000 by 2.5 (incorrect divisor) or from 3 × ₱6,000 (wrong part value).\n- **₱22,500**: This is ₱45,000 ÷ 2, using the smallest ratio number instead of the total parts.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-005",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Under standard government filing rules, how is the agency 'Department of Budget and Management' indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Department of Budget and Management"
+      },
+      {
+        "key": "B",
+        "text": "Budget and Management Department of"
+      },
+      {
+        "key": "C",
+        "text": "Budget and Management Department"
+      },
+      {
+        "key": "D",
+        "text": "Management and Budget Department"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Government Agency Rule",
+        "text": "Government agencies are indexed by their distinctive name first, with 'Department of' transposed to the end."
+      },
+      {
+        "rung": 2,
+        "title": "Identify Key Function",
+        "text": "The distinctive name is 'Budget and Management'. This should come first in the index."
+      },
+      {
+        "rung": 3,
+        "title": "Transpose Official Title",
+        "text": "The full index order should be: Budget, and, Management, Department, of. Note that 'of' is retained at the end."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Indexing",
+        "text": "Option B is 'Budget and Management Department of' — exactly matching the rule."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is the original title, not indexed. Government filing rules require transposing 'Department of' to the end.",
+        "trap_type": "prefix_rule_violation"
+      },
+      "B": {
+        "text": "Correct! Indexed under distinctive name 'Budget and Management' with 'Department of' transposed to the end.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This omits the word 'of' at the end. The rule requires retaining 'of' after 'Department' in the transposed form.",
+        "trap_type": "omission_error"
+      },
+      "D": {
+        "text": "This reverses the order of 'Budget' and 'Management'. The correct order is 'Budget and Management', not 'Management and Budget'.",
+        "trap_type": "word_order_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Index government departments by their distinctive name first, placing 'Department of' at the end.",
+    "blueprint_id": "Alphabetical Filing — Government Agency Indexing",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Standard filing rule for government agencies: Transpose 'Department of' to the end, keeping the distinctive name first.\n2. Distinctive name: 'Budget and Management'.\n3. Transposed form: 'Budget and Management Department of'.\n4. This matches option B.\n\n### ❌ Why the Distractors Fail\n- **A**: Keeps 'Department of' at the beginning — violates the transposition rule.\n- **C**: Omits 'of' at the end — the rule requires retaining 'of' after 'Department'.\n- **D**: Reverses 'Budget' and 'Management' — the correct order is 'Budget and Management'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-004",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are they identical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, they are completely identical."
+      },
+      {
+        "key": "B",
+        "text": "No, the digits 41 and 14 are transposed."
+      },
+      {
+        "key": "C",
+        "text": "No, the prefix is different."
+      },
+      {
+        "key": "D",
+        "text": "No, the checksum letter is different."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Compare Prefix",
+        "text": "Both codes start with 'PH-2026-'. The prefix is identical, so option C is wrong."
+      },
+      {
+        "rung": 2,
+        "title": "Compare Number Group",
+        "text": "Original has '8941', Copy has '8914'. The last four digits differ."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Difference",
+        "text": "In the original, the last two digits are '41'; in the copy, they are '14'. This is a transposition error."
+      },
+      {
+        "rung": 4,
+        "title": "Select Explanation",
+        "text": "Option B correctly identifies the transposition of 41 to 14. The checksum letter '-X' is the same in both."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This overlooks the transposition of '41' to '14' in the number group. The codes are not identical.",
+        "trap_type": "oversight_error"
+      },
+      "B": {
+        "text": "Correct! The digits 41 and 14 are transposed between the original and copy.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "The prefix 'PH-2026-' is identical in both codes. The difference is in the number group, not the prefix.",
+        "trap_type": "wrong_location_error"
+      },
+      "D": {
+        "text": "Both codes end with '-X', so the checksum letter is identical. The difference is in the digits, not the letter.",
+        "trap_type": "wrong_location_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Compare codes chunk-by-chunk to catch transposed digits (e.g. 41 vs 14).",
+    "blueprint_id": "Clerical Accuracy — Code Verification and Transposition Detection",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. Compare each segment of the two codes:\n   - Prefix: Both have 'PH-2026-' → identical.\n   - Number group: Original '8941' vs Copy '8914' → different.\n   - Checksum: Both have '-X' → identical.\n2. The difference is a transposition of the last two digits: '41' in original becomes '14' in copy.\n3. Therefore, the codes are not identical due to digit transposition.\n\n### ❌ Why the Distractors Fail\n- **A**: Fails to notice the transposition error.\n- **C**: Incorrectly claims the prefix differs; it is actually identical.\n- **D**: Incorrectly claims the checksum letter differs; it is identical.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-003",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Which of the following words is correctly spelled?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accomodation"
+      },
+      {
+        "key": "B",
+        "text": "Accommodation"
+      },
+      {
+        "key": "C",
+        "text": "Acommodation"
+      },
+      {
+        "key": "D",
+        "text": "Accomadation"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Double Consonants",
+        "text": "The correct spelling of 'accommodation' has two sets of double consonants: 'cc' and 'mm'."
+      },
+      {
+        "rung": 2,
+        "title": "Check 'c' Count",
+        "text": "The word starts with 'a', then has double 'c': 'acc'. Options with single 'c' (like 'Acommodation') are wrong."
+      },
+      {
+        "rung": 3,
+        "title": "Check 'm' Count",
+        "text": "After 'o', there should be double 'm': 'mm'. Options with single 'm' (like 'Accomodation') are wrong."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Spelling",
+        "text": "Option B 'Accommodation' has both double 'cc' and double 'mm'. Option D has a vowel error ('a' instead of 'o')."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Missing one 'm' — the correct spelling has double 'mm'. Common error: writing 'accomodation' with only one 'm'.",
+        "trap_type": "missing_double_letter"
+      },
+      "B": {
+        "text": "Correct! Contains double 'cc' and double 'mm'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Missing one 'c' — the correct spelling has double 'cc'. Also missing one 'm'? Actually has double 'm'? No, 'Acommodation' has single 'c' and double 'm'? Wait: 'Acommodation' has single 'c' and double 'm'? Let's check: A-c-o-m-m-o-d-a-t-i-o-n — that's single 'c' and double 'm'. So missing one 'c'.",
+        "trap_type": "missing_double_letter"
+      },
+      "D": {
+        "text": "Uses 'a' instead of 'o' in the third syllable: 'accomadation' vs correct 'accommodation'. Vowel substitution error.",
+        "trap_type": "vowel_substitution_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Remember: Accommodation has double C and double M — think 'a double bed needs double C and double M'.",
+    "blueprint_id": "Clerical Ability — Standard Spelling Verification",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. The correct spelling of the word meaning 'a place to stay' is 'accommodation'.\n2. It has two pairs of double consonants: 'cc' after 'a', and 'mm' after 'o'.\n3. Check each option:\n   - A: 'Accomodation' — missing one 'm' (only one 'm').\n   - B: 'Accommodation' — has both 'cc' and 'mm'.\n   - C: 'Acommodation' — missing one 'c' (only one 'c').\n   - D: 'Accomadation' — has 'a' instead of 'o' in the third syllable.\n4. Only option B is correct.\n\n### ❌ Why the Distractors Fail\n- **A**: Missing one 'm' — common error.\n- **C**: Missing one 'c' — another common error.\n- **D**: Vowel substitution — 'a' for 'o'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-002",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "According to standard filing rules, how should the business name 'St. Jude Medical Clinic' be indexed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "St Jude Medical Clinic"
+      },
+      {
+        "key": "B",
+        "text": "Saint Jude Medical Clinic"
+      },
+      {
+        "key": "C",
+        "text": "Jude Medical Clinic St"
+      },
+      {
+        "key": "D",
+        "text": "Medical Clinic St Jude"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Abbreviation Rule",
+        "text": "Standard filing rules require that abbreviations like 'St.', 'Mt.', and 'Ft.' be indexed as if they were spelled out in full. This prevents confusion between abbreviated and full forms."
+      },
+      {
+        "rung": 2,
+        "title": "Spell Out 'St.'",
+        "text": "The abbreviation 'St.' is spelled out as 'Saint'. So 'St. Jude' becomes 'Saint Jude' in the indexed form."
+      },
+      {
+        "rung": 3,
+        "title": "Combine Name Units",
+        "text": "After spelling out, the name units become: Unit 1 = Saint, Unit 2 = Jude, Unit 3 = Medical, Unit 4 = Clinic. The order remains the same as the original business name."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Indexing",
+        "text": "Option B is 'Saint Jude Medical Clinic' — the only option that spells out 'St.' and keeps the original word order. Options C and D incorrectly reorder the units."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option keeps the abbreviation 'St.' instead of spelling it out as 'Saint'. Standard filing rules require abbreviations to be indexed in full, so this is incorrect.",
+        "trap_type": "abbreviation_rule_violation"
+      },
+      "B": {
+        "text": "Correct! 'Saint Jude Medical Clinic' properly spells out the abbreviation 'St.' as 'Saint' and maintains the original word order, following standard filing rules.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option transposes the order by placing 'St' at the end. Filing rules do not allow reordering of words; the indexed form must follow the original sequence. Additionally, 'St' is not spelled out.",
+        "trap_type": "transposition_error"
+      },
+      "D": {
+        "text": "This option indexes under 'Medical' instead of 'Saint', which is incorrect. The first indexing unit should be the first word of the business name after spelling out abbreviations, which is 'Saint'.",
+        "trap_type": "unit_order_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Always index abbreviations (St., Mt., Ft.) as if spelled out in full (Saint, Mount, Fort). Do not reorder words.",
+    "blueprint_id": "Alphabetical Filing — Abbreviations (St. spelled as Saint)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Identify the abbreviation.** The business name 'St. Jude Medical Clinic' contains the abbreviation 'St.' for Saint.\n\n**Step 2: Apply the filing rule.** Standard filing rules state that abbreviated titles and prefixes (St., Mt., Dr., Mr.) are indexed as if spelled out in full. So 'St.' becomes 'Saint'.\n\n**Step 3: Write the indexed form.** After spelling out, the name becomes 'Saint Jude Medical Clinic'. The word order remains unchanged.\n\n**Step 4: Compare with options.** Option B is 'Saint Jude Medical Clinic', which matches. Option A keeps 'St' (not spelled out). Options C and D reorder the words, which is not allowed.\n\n### ❌ Why the Distractors Fail\n- **Option A ('St Jude Medical Clinic'):** Fails to spell out 'St.' to 'Saint'. This is a common oversight.\n- **Option C ('Jude Medical Clinic St'):** Reorders the words and keeps 'St' abbreviated. Filing rules require original order and full spelling.\n- **Option D ('Medical Clinic St Jude'):** Indexes under 'Medical' instead of 'Saint', and also fails to spell out 'St'. The first unit should be 'Saint'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "cle-fil-001",
+    "subtopic_id": "alphabetical-filing",
+    "category_id": "clerical-ability",
+    "question_text": "Arrange the following government employee names in correct alphabetical filing order:\n1. De la Cruz, Juan\n2. Del Rosario, Maria\n3. De Castro, Ana\n4. De Leon, Pedro",
+    "options": [
+      {
+        "key": "A",
+        "text": "3, 1, 4, 2"
+      },
+      {
+        "key": "B",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "key": "C",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "key": "D",
+        "text": "2, 3, 1, 4"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Filing Rules for Prefixes",
+        "text": "Foreign prefixes like 'De', 'De la', and 'Del' are filed as part of the surname. They are compared letter by letter, including the space and capitalization."
+      },
+      {
+        "rung": 2,
+        "title": "Compare First Letters",
+        "text": "All surnames start with 'De'. Compare the next characters: De Castro has 'C', De la Cruz has 'l', De Leon has 'L', Del Rosario has 'l' (since 'Del' is 'D-e-l')."
+      },
+      {
+        "rung": 3,
+        "title": "Sort Letter by Letter",
+        "text": "Letter-by-letter comparison: 'De C...' (3) comes before 'De l...' (1) because 'C' < 'l'. Then 'De L...' (4) comes before 'Del R...' (2) because 'L' < 'R'. Note: 'De la' and 'Del' both have 'l' as the third character, but 'De la' has a space then 'a', while 'Del' has no space; however, space comes before letters, so 'De la' (1) comes before 'Del' (2)."
+      },
+      {
+        "rung": 4,
+        "title": "Select Correct Sequence",
+        "text": "The correct order is: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). So the sequence is 3, 1, 4, 2, which is Option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Alphabetical order letter by letter: De Castro (3), De la Cruz (1), De Leon (4), Del Rosario (2). This follows the rule that prefixes are filed as part of the surname.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This option lists the names in the original order given, not sorted. It ignores the alphabetical rule entirely.",
+        "trap_type": "unsorted_error"
+      },
+      "C": {
+        "text": "This sequence (3, 4, 1, 2) places De Leon (4) before De la Cruz (1). But 'De L' comes after 'De l' because 'L' (uppercase) is considered after 'l' (lowercase) in ASCII, but in standard filing, case is ignored; however, letter-by-letter, 'De l' (space then 'a') comes before 'De L' (no space, 'e')? Actually, 'De la' has 'a' after space, 'De Leon' has 'e' after space; 'a' < 'e', so De la Cruz should come before De Leon. So this order is wrong.",
+        "trap_type": "letter_sequence_error"
+      },
+      "D": {
+        "text": "This sequence (2, 3, 1, 4) starts with Del Rosario (2), which should be last because 'Del R' comes after 'De C', 'De l', and 'De L'.",
+        "trap_type": "prefix_sorting_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** File names with prefixes (De, De la, Del) letter by letter from left to right. Treat the prefix as part of the surname.",
+    "blueprint_id": "Alphabetical Filing — Prefix Surnames (De, De la, Del)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Understand the rule.** For surnames with prefixes like 'De', 'De la', 'Del', the entire prefix is considered part of the surname. Filing is done letter by letter, ignoring spaces and capitalization.\n\n**Step 2: Write each surname as a single string for comparison.**\n- De Castro → 'Decastro'\n- De la Cruz → 'Delacruz'\n- De Leon → 'Deleon'\n- Del Rosario → 'Delrosario'\n\n**Step 3: Sort alphabetically.**\n- 'Decastro' (De Castro) comes first because 'c' < 'l'.\n- 'Delacruz' (De la Cruz) comes next because 'a' < 'e' and 'a' < 'r'.\n- 'Deleon' (De Leon) comes third because 'e' < 'r'.\n- 'Delrosario' (Del Rosario) comes last.\n\n**Step 4: Map back to original numbers.** De Castro = 3, De la Cruz = 1, De Leon = 4, Del Rosario = 2. Sequence: 3, 1, 4, 2.\n\n### ❌ Why the Distractors Fail\n- **Option B (1, 2, 3, 4):** Assumes the given order is correct, but it is not sorted.\n- **Option C (3, 4, 1, 2):** Places De Leon before De la Cruz, but 'De la' comes before 'De L' because 'a' < 'e'.\n- **Option D (2, 3, 1, 4):** Starts with Del Rosario, which should be last because 'r' > 'c', 'l', and 'l'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-005",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "According to Article II Section 1 of the 1987 Constitution, the Philippines is a democratic and republican State. Where does sovereignty reside?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sovereignty resides in the President of the Philippines."
+      },
+      {
+        "key": "B",
+        "text": "Sovereignty resides in the Supreme Court."
+      },
+      {
+        "key": "C",
+        "text": "Sovereignty resides in the people and all government authority emanates from them."
+      },
+      {
+        "key": "D",
+        "text": "Sovereignty resides in the Armed Forces of the Philippines."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Article II Focus",
+        "text": "Article II of the 1987 Constitution is titled 'Declaration of Principles and State Policies'. Section 1 specifically defines the nature of the Philippine state."
+      },
+      {
+        "rung": 2,
+        "title": "Recall Section 1 Text",
+        "text": "Section 1 states: 'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.'"
+      },
+      {
+        "rung": 3,
+        "title": "Source of Authority",
+        "text": "The phrase 'sovereignty resides in the people' means that ultimate political power belongs to the citizens, not to any branch of government or military."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option C",
+        "text": "Option C directly quotes the constitutional text: 'Sovereignty resides in the people and all government authority emanates from them.' This is the correct answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "The President is the head of the executive branch but is not the sovereign. Sovereignty belongs to the people; the President derives authority from them.",
+        "trap_type": "executive_overreach_error"
+      },
+      "B": {
+        "text": "The Supreme Court exercises judicial power, but sovereignty is not vested in any court. The Constitution explicitly places sovereignty in the people.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "Correct! Article II Section 1 explicitly states that sovereignty resides in the people and all government authority emanates from them.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "The Armed Forces are the protector of the people (Article II Section 3), but they are not the sovereign. Sovereignty is a civil concept, not military.",
+        "trap_type": "military_supremacy_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article II Section 1: 'Sovereignty resides in the people and all government authority emanates from them.' Memorize this exact phrase.",
+    "blueprint_id": "1987 Philippine Constitution — Article II Section 1 Sovereignty of the People",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Locate the relevant provision.** The question explicitly cites Article II Section 1 of the 1987 Constitution.\n\n**Step 2: Recall the exact text.** Article II Section 1 reads: 'The Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.'\n\n**Step 3: Identify the key phrase.** The phrase 'Sovereignty resides in the people' directly answers the question.\n\n**Step 4: Match with options.** Option C contains the exact wording. Options A, B, and D incorrectly attribute sovereignty to specific institutions.\n\n### ❌ Why the Distractors Fail\n- **Option A (President):** The President is an elected official, not the source of sovereignty. Sovereignty is inherent in the people.\n- **Option B (Supreme Court):** The Judiciary interprets laws but does not hold sovereignty.\n- **Option D (Armed Forces):** The military's role is to protect the state, not to be the sovereign.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-004",
+    "subtopic_id": "ra-6713-code-of-conduct",
+    "category_id": "general-information",
+    "question_text": "What public document must all public officials and employees file under oath upon assumption of office and on or before April 30 of every year thereafter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement of Assets, Liabilities, and Net Worth (SALN)"
+      },
+      {
+        "key": "B",
+        "text": "Personal Data Sheet (PDS)"
+      },
+      {
+        "key": "C",
+        "text": "Individual Performance Commitment and Review (IPCR)"
+      },
+      {
+        "key": "D",
+        "text": "Certificate of Eligibility"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Financial Disclosure Document",
+        "text": "The law requires public officials to annually disclose their financial status under oath. This is a key anti-corruption measure under RA 6713."
+      },
+      {
+        "rung": 2,
+        "title": "Recall April 30 Deadline",
+        "text": "Section 8 of RA 6713 specifies that the document must be filed 'on or before April 30 of every year'. This is a fixed annual deadline."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Acronym",
+        "text": "The document is commonly known by its acronym SALN, which stands for Statement of Assets, Liabilities, and Net Worth."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'Statement of Assets, Liabilities, and Net Worth (SALN)'. This matches the description exactly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! RA 6713 Section 8 requires all public officials and employees to file a SALN under oath upon assumption of office and on or before April 30 every year.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "The Personal Data Sheet (CS Form 212) is updated upon appointment or promotion, not annually by April 30. It does not require a financial disclosure under oath.",
+        "trap_type": "form_confusion"
+      },
+      "C": {
+        "text": "The IPCR is a performance evaluation tool used semi-annually, not a financial disclosure document. It is not filed under oath.",
+        "trap_type": "form_confusion"
+      },
+      "D": {
+        "text": "A Certificate of Eligibility (e.g., from CSC or PRC) is a one-time document proving qualifications, not an annual filing requirement.",
+        "trap_type": "document_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** SALN (Statement of Assets, Liabilities, and Net Worth) must be filed under oath by April 30 every year under RA 6713.",
+    "blueprint_id": "RA 6713 Section 8 — Disclosure of Assets and Liabilities (SALN)",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Identify the law.** The question refers to RA 6713, the Code of Conduct and Ethical Standards for Public Officials and Employees.\n\n**Step 2: Locate the specific provision.** Section 8 of RA 6713 mandates the filing of a 'Statement of Assets, Liabilities, and Net Worth' (SALN).\n\n**Step 3: Note the filing schedule.** The SALN must be filed under oath upon assumption of office and on or before April 30 of every year thereafter.\n\n**Step 4: Match with options.** Option A is the SALN. Options B, C, and D are other documents but do not meet the annual April 30 under-oath requirement.\n\n### ❌ Why the Distractors Fail\n- **Option B (PDS):** Filed upon appointment/promotion, not annually. Not a financial disclosure.\n- **Option C (IPCR):** A performance review tool, not a sworn financial statement.\n- **Option D (Certificate of Eligibility):** A one-time credential, not an annual filing.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "gen-const-003",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "question_text": "Under the 1987 Philippine Constitution, legislative power is vested in the Congress of the Philippines, which consists of __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Senate and the House of Representatives"
+      },
+      {
+        "key": "B",
+        "text": "The President and the Cabinet"
+      },
+      {
+        "key": "C",
+        "text": "The Supreme Court and Lower Courts"
+      },
+      {
+        "key": "D",
+        "text": "The Civil Service Commission and Commission on Audit"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Branch of Government",
+        "text": "Legislative power is the power to make laws. Under the principle of separation of powers, this belongs to the legislative branch, which is Congress."
+      },
+      {
+        "rung": 2,
+        "title": "Bicameral Structure",
+        "text": "The Philippine Congress is bicameral, meaning it has two separate chambers. This is established in Article VI of the Constitution."
+      },
+      {
+        "rung": 3,
+        "title": "Identify Chambers",
+        "text": "The two chambers are the Senate (upper house) and the House of Representatives (lower house). Together they form Congress."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is 'The Senate and the House of Representatives'. This is the correct composition of Congress as per Article VI Section 1."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Article VI Section 1 of the 1987 Constitution vests legislative power in Congress, which consists of the Senate and the House of Representatives.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "The President and the Cabinet constitute the executive branch (Article VII), not the legislative branch. They implement laws, not make them.",
+        "trap_type": "branch_confusion"
+      },
+      "C": {
+        "text": "The Supreme Court and lower courts form the judicial branch (Article VIII), which interprets laws, not makes them.",
+        "trap_type": "branch_confusion"
+      },
+      "D": {
+        "text": "The Civil Service Commission and Commission on Audit are independent constitutional commissions (Article IX), not part of Congress.",
+        "trap_type": "commission_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Article VI Section 1: Legislative power is vested in Congress, which consists of the Senate and the House of Representatives.",
+    "blueprint_id": "1987 Philippine Constitution — Article VI Section 1 Legislative Department",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Identify the branch.** The question asks about legislative power, which is the power to enact laws.\n\n**Step 2: Recall the constitutional provision.** Article VI Section 1 of the 1987 Constitution states: 'The legislative power shall be vested in the Congress of the Philippines which shall consist of a Senate and a House of Representatives.'\n\n**Step 3: Determine the composition.** Congress is bicameral: the Senate (upper house) and the House of Representatives (lower house).\n\n**Step 4: Match with options.** Option A correctly lists both chambers. Options B, C, and D refer to other branches or bodies.\n\n### ❌ Why the Distractors Fail\n- **Option B (President and Cabinet):** These are part of the executive branch, not the legislative.\n- **Option C (Supreme Court and Lower Courts):** These are the judicial branch.\n- **Option D (CSC and COA):** These are independent constitutional commissions, not part of Congress.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

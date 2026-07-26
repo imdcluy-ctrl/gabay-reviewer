@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-019",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A recipe for a government feeding program requires 3 kg of rice for 12 children. How many kg of rice are needed for 30 children?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.5 kg"
+      },
+      {
+        "key": "B",
+        "text": "6.5 kg"
+      },
+      {
+        "key": "C",
+        "text": "7.5 kg"
+      },
+      {
+        "key": "D",
+        "text": "8.0 kg"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find the Core Relationship",
+        "text": "This is a direct proportion problem. The key is figuring out how much rice one child needs. Start by dividing the known rice amount by the known number of children."
+      },
+      {
+        "rung": 2,
+        "title": "The Unit Rate Rule",
+        "text": "In any direct proportion, find the 'per one' amount first. Here, divide 3 kg by 12 children to get the rice per child. That's your building block."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Unit Rate",
+        "text": "Once you have the rice per child (0.25 kg), multiply it by the new number of children (30). This gives you the total rice needed."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "0.25 kg multiplied by 30 equals 7.5 kg. That's the only option that matches this simple multiplication. Look for it among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "5.5 kg. A smart student might get this if they accidentally used 22 children instead of 30 when multiplying the per-child amount (0.25 x 22 = 5.5). It's a simple slip in the multiplier, not a misunderstanding of the concept itself.",
+        "trap_type": "wrong_multiplier"
+      },
+      "B": {
+        "text": "6.5 kg. This could happen if you mistakenly used 26 children instead of 30 (0.25 x 26 = 6.5). The per-child rate is correct, but the multiplier got jumbled under time pressure. It's a common arithmetic slip.",
+        "trap_type": "wrong_multiplier"
+      },
+      "C": {
+        "text": "Correct! 7.5 kg. You found the rice per child (3 divided by 12 equals 0.25 kg) and then scaled it up for 30 children (0.25 times 30 equals 7.5 kg). Perfect use of the unit rate method.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "8.0 kg. This might come from using 32 children instead of 30 (0.25 x 32 = 8.0). The per-child rate is right, but the multiplier is off by just a little. Double-check your multiplication to catch these small errors.",
+        "trap_type": "wrong_multiplier"
+      }
+    },
+    "next_time_rule": "In direct proportion problems, always find the 'per one' unit first. Divide the known total by the known quantity to get the unit rate, then multiply by the new quantity. This two-step method keeps your math clean and catches multiplier mistakes.",
+    "blueprint_id": "Direct Proportion — Feeding Program",
+    "deconstruct_text": "Let's walk through this together. The problem says 3 kg of rice feeds 12 children. That's our starting point. Since more children need more rice, this is a direct proportion. The cleanest way to solve it is to find the unit rate, which is the amount of rice for just one child. Divide 3 kg by 12 children: 3 divided by 12 equals 0.25 kg per child. Now, for 30 children, simply multiply that unit rate by 30: 0.25 times 30 equals 7.5 kg. That's your answer. You can also double-check by noticing that 30 children is 2.5 times 12 children (30 divided by 12 equals 2.5), so the rice should also be 2.5 times 3 kg, which is 7.5 kg. Both methods give the same result. The mental trick here is the 'Unit Rate Method': find the per-one amount first, then scale up. It works for any direct proportion problem, whether it's rice for children, kilometers per hour, or cost per item.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

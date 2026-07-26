@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-word-009",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Two municipal trucks leave depot in opposite directions: 40 km/h and 50 km/h. When will they be 270 km apart?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2h"
+      },
+      {
+        "key": "B",
+        "text": "2.5h"
+      },
+      {
+        "key": "C",
+        "text": "3h"
+      },
+      {
+        "key": "D",
+        "text": "3.5h"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Isipin ang Direksyon",
+        "text": "Kapag magkasalungat ang galaw, ang bilis nila ay pinagsasama. So 40 + 50 = 90 km/h ang relative speed."
+      },
+      {
+        "rung": 2,
+        "title": "Gamitin ang Distance Formula",
+        "text": "Oras = Distansya ÷ Bilis. Dito, 270 km ÷ 90 km/h = 3 oras. Simplehan lang, parang pagbibilang ng oras sa biyahe."
+      },
+      {
+        "rung": 3,
+        "title": "I-check ang Sagot Mo",
+        "text": "Sa 3 oras, nakakalayo ng 120 km ang isa, 150 km ang isa. Total 270 km. Tama! Kaya C ang sagot."
+      },
+      {
+        "rung": 4,
+        "title": "Huwag Magulo sa Subtraction",
+        "text": "Common mistake: binabawas ang speeds. Sa opposite, addition. Isipin parang layo nila nag-aadd up, hindi nagkakalapit."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you mistakenly used a relative speed of 135 km/h (40+50 doubled?), leading to 270/135=2h.",
+        "trap_type": "relative_speed_miscalculation"
+      },
+      "B": {
+        "text": "You might have chosen B because you divided 270 by the average speed (45 km/h) and then incorrectly halved the result to get 2.5h.",
+        "trap_type": "average_speed_fallacy"
+      },
+      "C": {
+        "text": "Correct. When moving in opposite directions, add the speeds (40+50=90 km/h), then divide distance: 270 ÷ 90 = 3 hours.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you subtracted the speeds (50-40=10 km/h) then divided 270 by 10, misplacing the decimal to get 3.5h.",
+        "trap_type": "reverse_operation_error"
+      }
+    },
+    "next_time_rule": "Kapag magkasalungat, i-add ang speeds; kapag magkasunod, i-subtract. Time = Distance ÷ Relative Speed. Dali!",
+    "blueprint_id": "Opposite Direction Problem",
+    "deconstruct_text": "Imagine two LGU delivery trucks from the municipal hall in Tarlac heading to opposite barangays—one to the north at 40 km/h, the other to the south at 50 km/h. Since they go opposite directions, their separation speed adds up: 40 + 50 = 90 km/h.\n\nTo find how long until they're 270 km apart, use Time = Distance / Relative Speed. So 270 km divided by 90 km/h gives exactly 3 hours. That's option C.\n\n**Watch-Out Zone: reverse_operation_error** in action. Opposite directions need additio...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

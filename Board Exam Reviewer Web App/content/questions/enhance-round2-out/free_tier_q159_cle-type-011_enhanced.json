@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-type-011",
+    "subtopic_id": "typing-speed-accuracy",
+    "category_id": "clerical-ability",
+    "question_text": "Typing 1: An employee typed 300 words in 10 minutes. WPM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "28"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This is a straightforward rate problem. You're looking for how many words the employee can type in a single minute. Think of it like speed: if you drive 300 kilometers in 10 hours, what's your speed per hour?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The formula is simple: Words Per Minute equals total words divided by total minutes. No fancy conversions needed here."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Plug in the numbers: 300 words divided by 10 minutes. You can cancel the zeros to make it even easier: 30 divided by 1."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "300 divided by 10 is 30. That's your answer. Look for 30 among the choices."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "25 is a tempting wrong answer if you accidentally divide 300 by 12 instead of 10. Maybe you misread the minutes or added an extra 2 in your head. But the time is clearly 10 minutes, so 300 divided by 10 gives 30, not 25.",
+        "trap_type": "division_by_wrong_time"
+      },
+      "B": {
+        "text": "28 doesn't come from any clean division of 300 by 10. It might be a rounding error or a guess. Stick to the basic operation: total words divided by total minutes. No shortcuts or approximations needed here.",
+        "trap_type": "arithmetic_miscalculation"
+      },
+      "C": {
+        "text": "Correct. 300 words divided by 10 minutes equals exactly 30 words per minute. Clean and simple.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 might come from adding 5 to the correct answer or from a mental slip like dividing 350 by 10. But the total is 300, not 350. Always double-check the numbers you're working with.",
+        "trap_type": "arithmetic_miscalculation"
+      }
+    },
+    "next_time_rule": "For any 'per unit' problem, just divide the total by the number of units. Here, words per minute means total words divided by total minutes. Cancel zeros to simplify: 300/10 is the same as 30/1.",
+    "blueprint_id": "Typing Speed 1",
+    "deconstruct_text": "Let's walk through this together. The question asks for words per minute, or WPM. That's a rate: how many words are typed in one minute. The formula is always total words divided by total minutes. Here, we have 300 words and 10 minutes. So we do 300 divided by 10. A quick way: cancel the zeros. 300 has two zeros, 10 has one. Cancel one zero from each, and you get 30 divided by 1, which is 30. That's your answer: 30 WPM. The trick is to not overthink it. Some people might accidentally use 12 minutes or add extra numbers, but the problem gives you exactly what you need. Just divide and you're done.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

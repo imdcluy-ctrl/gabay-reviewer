@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-024",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The data indicates a problem."
+      },
+      {
+        "key": "B",
+        "text": "The data indicate a problem."
+      },
+      {
+        "key": "C",
+        "text": "The data are indicates a problem."
+      },
+      {
+        "key": "D",
+        "text": "The data is indicating a problem."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano nga ba ang 'data'?",
+        "text": "Ito, parang 'datum' ang singular. Sa formal English, 'data' ay plural, kaya kailangan ng plural verb."
+      },
+      {
+        "rung": 2,
+        "title": "Trick: Palitan mo ng 'facts'!",
+        "text": "Isipin mong 'facts' ang 'data'. Kung 'facts indicate' hindi 'facts indicates', ganun din sa 'data'."
+      },
+      {
+        "rung": 3,
+        "title": "I-check ang mga choices",
+        "text": "Option A 'indicates' (singular), B 'indicate' (plural), C may dalawang verb 'are indicates', D 'is indicating' (singular)."
+      },
+      {
+        "rung": 4,
+        "title": "Almost there: Piliin ang tama!",
+        "text": "Ang tamang sagot ay B, 'The data indicate a problem.' Walang extra verbs, simple plural lang."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'data' sounds singular in everyday convo, but in formal English it's plural; 'indicates' is singular.",
+        "trap_type": "subject_verb_agreement_misled"
+      },
+      "B": {
+        "text": "Correct. 'Data' is plural so the verb is 'indicate' with no 's', just like 'facts indicate'.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because both 'are' and 'indicates' seem logical, but you only need one main verb: 'indicate'.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D because 'is indicating' sounds continuous, but 'data' requires plural 'are', not 'is'.",
+        "trap_type": "subject_verb_agreement_misled"
+      }
+    },
+    "deconstruct_text": "Imagine you're at the barangay hall, compiling data about the number of families who received ayuda. You write: 'The data indicate that 300 families benefited.' Tama 'yan, because 'data' is plural like 'facts'.\n\nMental Trick: Pag nakita mo ang 'data', palitan sa isip ng 'facts'. If 'facts indicate' sounds right, 'data indicate' is right. Parang jeepney sign: 'Facts indicate' ang route, not 'facts indicates'.\n\n**Watch-Out Zone: subject_verb_agreement_misled** 'Data is' casual, exam plural.",
+    "next_time_rule": "Facts Test: Pag nakita mo ang 'data', palitan ng 'facts' sa isip. Kung 'facts indicate' tama, 'data indicate' din.",
+    "blueprint_id": "Data as Plural",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

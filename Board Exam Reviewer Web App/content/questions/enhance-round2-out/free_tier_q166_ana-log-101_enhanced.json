@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-101",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "blueprint_id": "Multi-Premise Deductive Logic Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Premise 1: All department heads are CSE Professional eligibles.\nPremise 2: Maria is a department head.\nConclusion: Which statement MUST be true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maria is a CSE Professional eligible."
+      },
+      {
+        "key": "B",
+        "text": "Maria is a Civil Engineer."
+      },
+      {
+        "key": "C",
+        "text": "All CSE eligibles are department heads."
+      },
+      {
+        "key": "D",
+        "text": "Maria will be promoted next year."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look for the Pattern",
+        "text": "This is a classic logical pattern where you're given two statements and asked what must follow. Think of it like a chain: if one thing leads to another, and you have the first link, what do you know for sure?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Here's the key rule: If 'All A are B' and 'X is A', then 'X is B'. It's like saying if all fruits are edible and an apple is a fruit, then an apple is edible. You can't go wrong with that logic."
+      },
+      {
+        "rung": 3,
+        "title": "Map It Out",
+        "text": "In this problem, 'A' stands for 'department heads' and 'B' stands for 'CSE Professional eligibles'. Maria is 'X'. So, if all department heads are CSE eligibles, and Maria is a department head, what does that force to be true about Maria?"
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're looking for the one statement that absolutely must be true based only on what's given. It's the direct result of plugging Maria into the rule. The answer is right in front of you—it's the option that says Maria belongs to the group that all department heads belong to."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is a rock-solid deduction. Since all department heads are CSE Professional eligibles, and Maria is a department head, she must be a CSE Professional eligible. No ifs, ands, or buts.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a tempting mistake. You might see 'CSE' and think 'Civil Engineer,' but they're completely different things. CSE stands for 'Career Service Professional'—it's a civil service eligibility, not an engineering license. The premises never mention engineering at all, so you can't assume it.",
+        "trap_type": "unsupported_assumption"
+      },
+      "C": {
+        "text": "This one flips the logic backwards. Just because all department heads are CSE eligibles doesn't mean all CSE eligibles are department heads. Think of it like this: all poodles are dogs, but not all dogs are poodles. The original statement only goes one way.",
+        "trap_type": "illicit_conversion"
+      },
+      "D": {
+        "text": "This is pure speculation. Nothing in the premises says anything about promotions or what happens next year. You can only work with what's given—don't add your own assumptions or guesses.",
+        "trap_type": "speculative_error"
+      }
+    },
+    "next_time_rule": "When you see 'All A are B' and 'X is A', your brain should instantly go to 'X is B'. That's the only safe conclusion. Never flip it around or add outside info.",
+    "deconstruct_text": "Let's walk through this together. The problem gives you two pieces of information: first, that every department head has CSE Professional eligibility, and second, that Maria is a department head. Think of it like a membership card—if being a department head automatically gives you CSE eligibility, and Maria has that department head card, then she definitely has CSE eligibility too. That's option A, and it's the only thing you can be 100% sure of.\n\nNow, why are the other options wrong? Option B tricks you by making you think 'CSE' means 'Civil Engineer,' but it doesn't. Option C reverses the relationship—it's like saying because all squares are rectangles, all rectangles must be squares, which isn't true. Option D just makes up something about promotions that isn't in the premises.\n\nHere's a mental trick to use next time: the 'Membership Rule.' Imagine a club where all members have a special badge. If you know someone is a member, they must have the badge. But having the badge doesn't automatically make you a member, and you can't guess what happens to them next year. Stick to what the premises directly say.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

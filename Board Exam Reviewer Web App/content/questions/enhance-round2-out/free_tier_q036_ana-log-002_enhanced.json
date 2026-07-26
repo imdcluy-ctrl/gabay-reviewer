@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-002",
+    "subtopic_id": "logical-reasoning",
+    "category_id": "analytical-ability",
+    "question_text": "Find the next number in the series: 3, 7, 15, 31, 63, __?",
+    "options": [
+      {
+        "key": "A",
+        "text": "95"
+      },
+      {
+        "key": "B",
+        "text": "127"
+      },
+      {
+        "key": "C",
+        "text": "128"
+      },
+      {
+        "key": "D",
+        "text": "135"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Start with the gaps between numbers",
+        "text": "Look at how much each number jumps to get to the next one. From 3 to 7 is a jump of 4, from 7 to 15 is a jump of 8, and so on. What do you notice about these jumps?"
+      },
+      {
+        "rung": 2,
+        "title": "Spot the pattern in the jumps",
+        "text": "The jumps are 4, 8, 16, 32. Each jump is exactly double the one before it. So if the last jump was 32, what should the next jump be?"
+      },
+      {
+        "rung": 3,
+        "title": "Use the jump to find the next number",
+        "text": "The next jump should be 32 times 2, which is 64. Now add that to the last number in the series: 63 plus 64 equals what? There's also another way: each number is just the previous number times 2, plus 1. Try that too."
+      },
+      {
+        "rung": 4,
+        "title": "Check your answer against the options",
+        "text": "Both methods give you 127. That's option B. The other options are common slip-ups: 95 comes from adding 32 again instead of doubling it, and 128 is a close cousin if you forget to subtract 1 from a power of 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is a classic trap. You might have noticed the jumps were getting bigger, but then accidentally added the same jump of 32 again (63 + 32 = 95) instead of doubling it to 64. It's an easy mistake when you're moving fast — just remember that the jumps themselves are growing, not staying the same.",
+        "trap_type": "difference_not_doubled"
+      },
+      "B": {
+        "text": "You've got it. The pattern here is that each jump doubles: 4, 8, 16, 32, so the next jump is 64. Adding that to 63 gives you 127. Another way to see it is that every number is just the previous one times 2, plus 1. Both paths lead to the same answer.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one is very close, and it's a common head-fake. You might have noticed the numbers are one less than powers of 2 (like 3 is 2 squared minus 1, 7 is 2 cubed minus 1, and so on). But then you might have grabbed the next power of 2 (128) without remembering to subtract that 1. The actual number is 127, which is 2 to the 7th power minus 1.",
+        "trap_type": "off_by_one_power_of_two"
+      },
+      "D": {
+        "text": "This number doesn't follow any consistent rule from the series. It might have been a guess, or maybe you tried a different pattern that didn't hold up. When you're stuck, always go back to checking the jumps between numbers — that's usually your best clue.",
+        "trap_type": "speculative_guess"
+      }
+    },
+    "next_time_rule": "For number series, always start by looking at the gaps between terms. If those gaps follow a pattern (like doubling, tripling, or adding a constant), you've found your key. When in doubt, try two methods: check the gaps, and also see if each term relates to the one before it by a simple operation like multiply by 2 and add 1.",
+    "blueprint_id": "Analytical Ability — Number Series Pattern Recognition",
+    "deconstruct_text": "Let's walk through this together. The series is 3, 7, 15, 31, 63, and we need the next number. The first thing to do is look at the jumps between numbers. From 3 to 7 is a jump of 4. From 7 to 15 is a jump of 8. From 15 to 31 is a jump of 16. From 31 to 63 is a jump of 32. Do you see it? Each jump is exactly double the one before it: 4, 8, 16, 32. So the next jump should be 32 times 2, which is 64. Add that to the last number: 63 plus 64 equals 127. That's our answer. There's another way to see this pattern too. Notice that 7 is 3 times 2 plus 1. 15 is 7 times 2 plus 1. 31 is 15 times 2 plus 1. So each number is just the previous number times 2, plus 1. Applying that: 63 times 2 is 126, plus 1 is 127. Both methods agree. The wrong answers often come from common slip-ups. Option A (95) happens when you add 32 again instead of doubling it. Option C (128) is what you get if you see the powers of 2 pattern but forget to subtract the 1. Option D (135) is just a guess. The mental trick here is simple: when you see a series, always check the gaps first. If they're growing in a predictable way, you've cracked the code.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

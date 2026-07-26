@@ -1,0 +1,140 @@
+.box-breathing-card {
+  background: var(--color-bg-card, #ffffff);
+  border: 1px solid var(--color-border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  text-align: center;
+}
+
+.breathing-title {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin: 0 0 0.25rem 0;
+}
+
+.breathing-subtitle {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #64748b);
+  margin: 0 0 1.5rem 0;
+}
+
+.breathing-visual-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 240px;
+}
+
+.breathing-circle-outer {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--color-brand-teal, #0d7377) 15%, transparent);
+  border: 3px solid var(--color-brand-teal, #0d7377);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-out;
+}
+
+/* Reduced motion accessibility rule (INV-027d) */
+@media (prefers-reduced-motion: reduce) {
+  .breathing-circle-outer {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+.breathing-circle-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breathing-count-number {
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-brand-teal, #0d7377);
+  line-height: 1;
+}
+
+.breathing-phase-name {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary, #0f172a);
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.breathing-instruction {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-primary, #1e293b);
+  margin-top: 1.25rem;
+}
+
+.breathing-cycle-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted, #94a3b8);
+  background: var(--color-bg-secondary, #f1f5f9);
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-full, 9999px);
+  margin-top: 0.5rem;
+}
+
+.breathing-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btn-breath-primary {
+  background: var(--color-brand-teal, #0d7377);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md, 8px);
+  padding: 0.65rem 1.25rem;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.btn-breath-secondary {
+  background: var(--color-bg-secondary, #e2e8f0);
+  color: var(--color-text-primary, #0f172a);
+  border: none;
+  border-radius: var(--radius-md, 8px);
+  padding: 0.65rem 1.25rem;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.btn-breath-text {
+  background: none;
+  border: none;
+  color: var(--color-text-muted, #64748b);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.btn-breath-text:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

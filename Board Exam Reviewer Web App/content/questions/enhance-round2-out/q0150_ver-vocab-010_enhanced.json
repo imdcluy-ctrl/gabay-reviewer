@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-010",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'LITIGIOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Peaceful"
+      },
+      {
+        "key": "B",
+        "text": "Settlement-prone"
+      },
+      {
+        "key": "C",
+        "text": "Tending to sue"
+      },
+      {
+        "key": "D",
+        "text": "Arbitration"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Connect to 'Litigation'",
+        "text": "Ang 'litigation' ay lawsuit sa korte. So 'litigious' means someone na mahilig mag-demanda, yung tipong bawat away, gusto niyang umabot sa korte."
+      },
+      {
+        "rung": 2,
+        "title": "Suffix -ous = 'full of'",
+        "text": "Suffix -ous ay nangangahulugang 'puno ng' o 'madalas.' Litigious = puno ng lawsuit, laging naghahabol ng kaso. Ito ay adjective."
+      },
+      {
+        "rung": 3,
+        "title": "I-eliminate ang mga distractor",
+        "text": "A (peaceful) ay kabaligtaran. B (settlement-prone) ay gusto ng ayos, hindi demanda. D (arbitration) ay noun, process. Tanging C (tending to sue) an..."
+      },
+      {
+        "rung": 4,
+        "title": "Isipin ang Kapitbahay",
+        "text": "Kung may kapitbahay kang lahat ng maliit na bagay, reklamo agad sa barangay para mag-file ng kaso, siya ay litigious. Ganun lang kadali 'yun!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'peaceful' seems positive but it's the opposite of lawsuit-happy litigious.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "You might have chosen B because settlement-prone seems court-related, but it means avoiding lawsuits, not starting them.",
+        "trap_type": "semantic_shift_trap"
+      },
+      "C": {
+        "text": "Correct. 'Litigious' means having a tendency to sue or engage in lawsuits.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because arbitration is a legal term, but it's a noun for out-of-court resolution, not an adjective for suing.",
+        "trap_type": "false_cognate_trap"
+      }
+    },
+    "deconstruct_text": "Isipin mo nasa barangay hall, may kapitbahay na lahat na lang pinapa-barangay at gusto pang umabot sa korte. That's litigious — mapapel sa demanda, laging handang magsampa ng kaso. Ang root word ay 'litigation', ibig sabihin lawsuit.\n\nTaglish mnemonic: Tandaan: LITI- parang 'litigasyon' sa barangay; -GIOUS parang 'dyosis' pero 'dyos-' ay hindi, basta -ous ay 'full of.' So litigious = full of lawsuits. Now check options: A. Peaceful — kabaligtaran. B. Settlement-prone — gusto pa ng ayos, hindi dema...\n\n**Watch-Out Zone: synonym_antonym_inversion** — 'Peaceful' is opposite of litigation-ha...",
+    "next_time_rule": "Think: 'Litigious' = full of lawsuits. Link it to 'litigation' (lawsuit). If the word ends in -ous and is about law, it means prone to that action.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,57 @@
+id: num-ratio-004
+subtopic: ratio-proportion
+category: numerical-ability
+difficulty: 2
+is_free: true
+language: en
+tags: ["simplification", "office-equipment"]
+estimated_seconds: 60
+question_text: "A Provincial Capitol purchased 48 desktop computers and 32 printers for its field offices. Express the ratio of computers to printers in simplest form."
+options:
+  - key: A
+    text: "4:3"
+  - key: B
+    text: "3:2"
+  - key: C
+    text: "2:3"
+  - key: D
+    text: "6:4"
+correct: B
+blueprint_id: "Ratio and Proportion — simplifying ratios into lowest terms"
+hint_ladder:
+  - rung: 1
+    title: "Write Initial Ratio"
+    text: "Computers : Printers = 48 : 32."
+  - rung: 2
+    title: "Find Great Common Divisor"
+    text: "What is the largest number that divides both 48 and 32?"
+  - rung: 3
+    title: "Divide by GCD"
+    text: "Greatest Common Divisor is 16."
+  - rung: 4
+    title: "Calculate Simplest Form"
+    text: "48 ÷ 16 = 3, and 32 ÷ 16 = 2. Ratio is 3:2."
+deconstruct_text: |
+  Computers = 48, Printers = 32
+  Ratio = 48 : 32
+  Divide both terms by 16:
+  48 ÷ 16 = 3
+  32 ÷ 16 = 2
+  Simplest ratio = 3:2
+choice_explanations:
+  A:
+    text: "Dividing 48 by 12 and 32 by 8 (inconsistent divisor)."
+    trap_type: wrong_divisor
+  B:
+    text: "Correct! Dividing both 48 and 32 by their GCD (16) yields 3:2."
+    trap_type: null
+  C:
+    text: "Reversing the terms (Printers to Computers ratio 2:3 instead of Computers to Printers)."
+    trap_type: wrong_part
+  D:
+    text: "Dividing by 8 gives 6:4, but 6:4 can still be reduced further to 3:2."
+    trap_type: incomplete_simplification
+next_time_rule: "Always divide ratio terms by their Greatest Common Divisor (GCD) until they cannot be simplified further."
+status: live
+reviewed_by: null
+source_notes: "Office equipment ratio simplification problem"

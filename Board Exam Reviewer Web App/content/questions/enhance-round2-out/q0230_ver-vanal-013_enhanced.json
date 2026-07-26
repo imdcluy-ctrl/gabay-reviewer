@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-013",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "CANDLE is to WAX as PAPER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pen"
+      },
+      {
+        "key": "B",
+        "text": "Wood pulp"
+      },
+      {
+        "key": "C",
+        "text": "Write"
+      },
+      {
+        "key": "D",
+        "text": "Book"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Product-Material ba?",
+        "text": "Ang relationship: ang isang bagay ay gawa sa material. 'Candle is made of wax.' Kaya ang tanong: ano raw material ng paper?"
+      },
+      {
+        "rung": 2,
+        "title": "Raw material ng papel?",
+        "text": "Paper ay gawa sa wood pulp o plant fibers. Hindi ba 'yun ang hinahanap? Which option is the raw material?"
+      },
+      {
+        "rung": 3,
+        "title": "Kaya Wood Pulp ang sagot!",
+        "text": "Wood pulp ang raw material ng paper, tulad ng wax sa candle. Walang ibang option na raw material."
+      },
+      {
+        "rung": 4,
+        "title": "Bakit hindi A, C, D?",
+        "text": "Pen ay tool, write ay action, book ay finished product. Lahat 'yan ay hindi raw material kaya mali."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you associated paper with a pen, but the analogy asks for the material paper is made of, not a tool.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "B": {
+        "text": "Correct. Paper is made from wood pulp, just as a candle is made from wax; the relationship is product to raw material.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because you thought of writing, but the analogy is about what paper is made from, not an action done on it.",
+        "trap_type": "literal_meaning_misinterpretation"
+      },
+      "D": {
+        "text": "You might have chosen D because a book is made from paper, but the analogy requires the raw material of paper, not a product of paper.",
+        "trap_type": "literal_meaning_misinterpretation"
+      }
+    },
+    "next_time_rule": "Sa product-material analogies, use 'Ano ang gawa nito?' not 'Ano ang gamit?' Isipin kandila-wax, papel-wood pulp. Tandaan 'yan!",
+    "blueprint_id": "Product-Material",
+    "deconstruct_text": "Isipin mo ikaw ay bumili ng kandila sa tindahan ni Aling Nena para sa birthday ng kapatid mo. Ang kandila ay gawa sa wax. Ngayon, sa eskwelahan, ang papel na gamit mo sa project ay gawa sa wood pulp. Iyan ang product-material relationship.\n\nMadali lang tandaan: 'Kandila sa wax, papel sa wood pulp.' Ang Pen (gamit), Write (aksyon), at Book (tapos na produkto) ay hindi raw material. Minsan, nalilito tayo sa gamit imbes na sa gawa.\n\nMental Trick: 'Pag product-material, isiping ano'ng sangkap? Hindi kung ano ang pwedeng gawin dito. Kaya nga, candle-wax, paper-wood pulp. Gets mo na, 'di ba?'",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

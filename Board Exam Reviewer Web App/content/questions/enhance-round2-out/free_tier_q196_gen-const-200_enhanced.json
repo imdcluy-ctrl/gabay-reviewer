@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-200",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "1987 Constitution Structure — Article VI",
+    "difficulty_level": 2,
+    "question_text": "Under the 1987 Philippine Constitution, which Article governs the powers, qualifications, and organization of the Legislative Department (Senate and House of Representatives)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Article VI (Legislative)"
+      },
+      {
+        "key": "B",
+        "text": "Article I (National Territory)"
+      },
+      {
+        "key": "C",
+        "text": "Article III (Bill of Rights)"
+      },
+      {
+        "key": "D",
+        "text": "Article V (Suffrage)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think about the big picture",
+        "text": "The Constitution is like a blueprint for the entire government. It's divided into articles, each covering a major part of how the country runs. This question is asking about the branch that makes the laws."
+      },
+      {
+        "rung": 2,
+        "title": "Match the branch to its article",
+        "text": "There's a simple pattern to remember: Article VI is for the Legislative branch (Congress), Article VII is for the Executive branch (the President), and Article VIII is for the Judicial branch (the Courts)."
+      },
+      {
+        "rung": 3,
+        "title": "Rule out the other articles",
+        "text": "Article I is about the physical land and waters of the Philippines. Article III is a list of your fundamental rights as a citizen. Article V is about who gets to vote. None of these describe how the Senate and House of Representatives are set up."
+      },
+      {
+        "rung": 4,
+        "title": "You're almost there",
+        "text": "Since the Legislative Department is all about making laws, and we know that's covered by Article VI, you can confidently pick that option. It's the only one that directly matches the branch of government in the question."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Article VI is the home of the Legislative Department. It lays out everything from how many senators there are to the qualifications needed to be a representative. Think of it as the operating manual for Congress.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a common mix-up. Article I is the very first article, so it's easy to assume it covers the first branch of government. But Article I is actually about the National Territory—the land, sea, and air that make up the Philippines. The Legislative branch comes later, in Article VI.",
+        "trap_type": "article_number_confusion"
+      },
+      "C": {
+        "text": "Article III is one of the most famous parts of the Constitution because it protects your rights—freedom of speech, religion, and due process, to name a few. It's easy to see why a student might pick this, but it doesn't describe how the government is organized; it describes what the government cannot do to you.",
+        "trap_type": "article_number_confusion"
+      },
+      "D": {
+        "text": "This one is a bit of a trick. 'Suffrage' sounds a bit like 'Senate,' but they are very different things. Article V is about the right to vote, not the structure of the Senate. It's a reminder to read the terms carefully and not just go by a similar-sounding word.",
+        "trap_type": "article_number_confusion"
+      }
+    },
+    "next_time_rule": "Remember the 'Three Branches, Three Articles' rule: Legislative = Article VI, Executive = Article VII, Judiciary = Article VIII. If you memorize that simple sequence, you'll never get this type of question wrong.",
+    "deconstruct_text": "The key to this question is knowing how the 1987 Constitution is organized. It's not a random list; it follows a logical order. The first few articles set the stage: Article I defines the country's territory, Article II lays out the principles and policies of the state. Then, it gets into the nitty-gritty of the government's structure. The three branches of government are covered in three consecutive articles: Article VI for the Legislative (Congress), Article VII for the Executive (President), and Article VIII for the Judicial (Courts). So when you see a question about the Senate or the House of Representatives, your mind should immediately jump to Article VI. The other options are all real articles, but they cover different topics: territory, rights, and voting. The trick is to not just recognize the article numbers, but to connect them to their specific functions. A great mental shortcut is to think of the Constitution as a house: Article I is the foundation (territory), Article III is the rulebook for the people (Bill of Rights), and Article VI is the room where the laws are made (Legislative).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

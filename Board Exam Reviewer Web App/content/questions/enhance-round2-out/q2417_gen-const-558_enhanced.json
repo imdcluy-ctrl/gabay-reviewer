@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-558",
+    "category_id": "general-information",
+    "subtopic_id": "philippine-constitution",
+    "question_text": "A group of farmers in Nueva Ecija are demanding that the government distribute to them the unused agricultural lands of a large hacienda. Under Article XIII of the 1987 Constitution, which of the following best describes the state's mandate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The state has no obligation to distribute private agricultural lands because property rights are inviolable."
+      },
+      {
+        "key": "B",
+        "text": "The state shall promote agrarian reform and distribute lands to farmers, subject to just compensation to landowners."
+      },
+      {
+        "key": "C",
+        "text": "The state may distribute lands only if the landowners voluntarily offer them for sale."
+      },
+      {
+        "key": "D",
+        "text": "The state shall confiscate all large agricultural estates without compensation and distribute them to farmers."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Key Term",
+        "text": "Focus on the core concept being asked in the question prompt."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Distractors",
+        "text": "Rule out options that do not match the core rule or facts."
+      },
+      {
+        "rung": 3,
+        "title": "Apply Core Principle",
+        "text": "Recall the fundamental Philippine exam rule for this topic."
+      },
+      {
+        "rung": 4,
+        "title": "Final Verification",
+        "text": "Which choice aligns 100% with the correct Philippine standard?"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "B": {
+        "text": "You might have chosen B because of a common reading error.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      },
+      "D": {
+        "text": "You might have chosen D because of a common reading error.",
+        "trap_type": "cognitive_distractor_misread"
+      }
+    },
+    "deconstruct_text": "Step 1: Deconstruct Prompt\nAnalyze the question requirement carefully.\n\nStep 2: Core Concept\nApply standard civil service rules.\n\n**Watch-Out Zone: distractor_trap** in action. Avoid hasty conclusions.\n\nStep 3: Verification\nConfirm the correct choice fits all criteria.\n\nMental Trick: Kapag nag-aalinlangan, basahin ulit ang main concept!",
+    "next_time_rule": "Always re-read the core prompt key terms before confirming your final choice.",
+    "blueprint_id": "B-2992",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

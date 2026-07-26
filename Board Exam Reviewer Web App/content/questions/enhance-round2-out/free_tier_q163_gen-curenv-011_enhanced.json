@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-curenv-011",
+    "subtopic_id": "current-events-environment",
+    "category_id": "general-information",
+    "question_text": "Environment 1: Which law addresses solid waste management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RA 8749"
+      },
+      {
+        "key": "B",
+        "text": "RA 9003"
+      },
+      {
+        "key": "C",
+        "text": "RA 9275"
+      },
+      {
+        "key": "D",
+        "text": "RA 9729"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "Think about what 'solid waste' means—trash, garbage, recyclables. Which law sounds like it deals with managing that?"
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "Each of these RA numbers corresponds to a major environmental law in the Philippines. The key is matching the law to its focus: air, water, climate, or solid waste."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "RA 9003 is the Ecological Solid Waste Management Act. The others are: RA 8749 (Clean Air Act), RA 9275 (Clean Water Act), and RA 9729 (Climate Change Act). So which one is about garbage?"
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "You're looking for the law that deals with trash, segregation, and recycling. That's RA 9003. The others handle pollution in air, water, or climate change."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "RA 8749 is the Philippine Clean Air Act of 1999. It focuses on air pollution—emissions from vehicles and factories—not on garbage or solid waste. A smart guess if you mix up 'environmental laws,' but this one is about what we breathe, not what we throw away.",
+        "trap_type": "air_vs_solid_waste"
+      },
+      "B": {
+        "text": "Correct. RA 9003, the Ecological Solid Waste Management Act of 2000, is the law that governs how we handle garbage, from segregation at home to recycling and disposal. It's the go-to law for anything related to solid waste.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "RA 9275 is the Philippine Clean Water Act of 2004. It deals with water quality—rivers, lakes, and wastewater—not solid waste. Easy to confuse if you think 'waste' includes water pollution, but solid waste is specifically about trash.",
+        "trap_type": "water_vs_solid_waste"
+      },
+      "D": {
+        "text": "RA 9729 is the Climate Change Act of 2009. It's about adapting to climate change and reducing carbon emissions, not managing garbage. A common mix-up because environmental laws often overlap in people's minds, but this one is about the climate, not the trash can.",
+        "trap_type": "climate_vs_solid_waste"
+      }
+    },
+    "next_time_rule": "Think of the number 9003 as '9-0-0-3' and remember 'Waste starts with W, which is the 23rd letter—close to 9-0-0-3? No, but just memorize: Solid Waste = RA 9003. For the others, use the first letter: Air = 8749 (A is 1st, 8+7+4+9=28, no... just remember: Clean Air = 8749, Clean Water = 9275, Climate = 9729).",
+    "blueprint_id": "Environment 1",
+    "deconstruct_text": "Let's break this down simply. The question asks which law covers solid waste management—basically, garbage, trash, and recycling. You have four RA numbers, each tied to a major Philippine environmental law. Here's the quick map: RA 8749 is the Clean Air Act (air pollution), RA 9003 is the Ecological Solid Waste Management Act (solid waste), RA 9275 is the Clean Water Act (water pollution), and RA 9729 is the Climate Change Act (climate adaptation). So the correct answer is RA 9003. The trick is to associate each number with its element: air, solid waste, water, or climate. A mental shortcut: 'Solid Waste' has two S's, and 9003 has two zeros—that's a stretch, but it works. Better yet, just remember the sequence: 8749 (air), 9003 (solid), 9275 (water), 9729 (climate). Practice matching them a few times, and you'll lock it in.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

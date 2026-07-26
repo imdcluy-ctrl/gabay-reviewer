@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-read-001",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Read: 'Public accountability requires that civil servants answer not only to their superiors but also to the citizens they serve. This dual accountability ensures that government actions remain transparent and aligned with the public interest.' What is the main idea?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Civil servants should only answer to superiors."
+      },
+      {
+        "key": "B",
+        "text": "Accountability to citizens is optional."
+      },
+      {
+        "key": "C",
+        "text": "Civil servants are accountable to both superiors and citizens."
+      },
+      {
+        "key": "D",
+        "text": "Government actions are always transparent."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Key Phrase",
+        "text": "The phrase 'not only to their superiors but also to the citizens' directly indicates two groups to whom civil servants are accountable."
+      },
+      {
+        "rung": 2,
+        "title": "Main Point",
+        "text": "The passage emphasizes 'dual accountability' — meaning accountability to two parties, not just one."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The correct answer must include both 'superiors' and 'citizens' as the objects of accountability."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C exactly captures the dual accountability described: 'Civil servants are accountable to both superiors and citizens.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option says civil servants should only answer to superiors, but the passage explicitly states they answer to both superiors and citizens. The word 'only' contradicts the text.",
+        "trap_type": "contradicts_explicit_text"
+      },
+      "B": {
+        "text": "This option claims accountability to citizens is optional, but the passage states it is required ('requires that civil servants answer... to the citizens'). The word 'optional' directly contradicts the mandatory language.",
+        "trap_type": "contradicts_mandatory_language"
+      },
+      "C": {
+        "text": "Correct! The passage explicitly states that civil servants answer to both superiors and citizens, which is the main idea.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This option says government actions are 'always' transparent, but the passage only says dual accountability 'ensures' transparency — not that it is guaranteed in all cases. The word 'always' is an extreme overstatement.",
+        "trap_type": "extreme_language_overgeneralization"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The main idea is often found in the first sentence. Look for the sentence that summarizes the entire paragraph — here it's the first sentence about dual accountability.",
+    "blueprint_id": "Identifying Main Idea",
+    "deconstruct_text": "**Step 1:** Identify the topic sentence. The first sentence states: 'Public accountability requires that civil servants answer not only to their superiors but also to the citizens they serve.' This is the main idea.\n\n**Step 2:** The second sentence explains the purpose of this dual accountability: to ensure transparency and alignment with public interest. It supports but does not replace the main idea.\n\n**Step 3:** Evaluate each option:\n- Option A says 'only to superiors' — contradicts 'not only... but also'.\n- Option B says 'optional' — contradicts 'requires'.\n- Option C matches the first sentence exactly.\n- Option D says 'always transparent' — the passage says 'ensures' not 'always'.\n\n**Conclusion:** Option C is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-002",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'Republic Act No. 9003, also known as the Ecological Solid Waste Management Act, mandates the establishment of Materials Recovery Facilities (MRFs) in every barangay. The law aims to reduce waste through segregation, recycling, and composting.' What is the purpose of RA 9003?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To build more landfills"
+      },
+      {
+        "key": "B",
+        "text": "To reduce waste through proper management"
+      },
+      {
+        "key": "C",
+        "text": "To ban all plastic use"
+      },
+      {
+        "key": "D",
+        "text": "To fine littering offenders"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Key Phrase",
+        "text": "The passage explicitly states: 'The law aims to reduce waste through segregation, recycling, and composting.'"
+      },
+      {
+        "rung": 2,
+        "title": "Purpose vs. Means",
+        "text": "The purpose is 'to reduce waste' — the means are MRFs, segregation, recycling, and composting."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Look for the option that states the purpose, not a specific method or unrelated action."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option B directly quotes the purpose: 'To reduce waste through proper management' (management includes segregation, recycling, composting)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option says 'to build more landfills,' but the law focuses on waste reduction through MRFs and recycling — not expanding landfills. Landfills are the opposite of the law's goal.",
+        "trap_type": "opposite_of_purpose"
+      },
+      "B": {
+        "text": "Correct! The passage explicitly states the law 'aims to reduce waste through segregation, recycling, and composting,' which is proper waste management.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option says 'to ban all plastic use,' but the passage mentions nothing about banning plastic. It focuses on waste management, not prohibition of specific materials.",
+        "trap_type": "unmentioned_detail"
+      },
+      "D": {
+        "text": "This option says 'to fine littering offenders,' but the passage does not mention fines or penalties. The law is about establishing MRFs and waste reduction, not enforcement against littering.",
+        "trap_type": "unmentioned_detail"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When asked for the purpose of a law, look for phrases like 'aims to' or 'purpose is' in the passage. The purpose is usually stated directly.",
+    "blueprint_id": "Supporting Details — RA 9003",
+    "deconstruct_text": "**Step 1:** Locate the sentence that states the law's purpose: 'The law aims to reduce waste through segregation, recycling, and composting.'\n\n**Step 2:** Identify the key phrase: 'aims to reduce waste.' This is the purpose.\n\n**Step 3:** Evaluate each option:\n- Option A: 'build more landfills' — not mentioned; opposite of reduction.\n- Option B: 'reduce waste through proper management' — matches the stated aim.\n- Option C: 'ban all plastic use' — not mentioned.\n- Option D: 'fine littering offenders' — not mentioned.\n\n**Conclusion:** Option B is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-003",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'Despite the city's efforts to improve traffic flow, congestion has worsened over the past year. The number of registered vehicles increased by 15%, while road capacity grew by only 3%.' What can be inferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Traffic will improve next year."
+      },
+      {
+        "key": "B",
+        "text": "Road capacity increased faster than vehicles."
+      },
+      {
+        "key": "C",
+        "text": "Vehicle growth outpaced road infrastructure."
+      },
+      {
+        "key": "D",
+        "text": "The city did nothing about traffic."
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Compare the Numbers",
+        "text": "Vehicles increased by 15%, road capacity by only 3%. Which grew more?"
+      },
+      {
+        "rung": 2,
+        "title": "Draw the Inference",
+        "text": "Since vehicles grew much faster than road capacity, there are more vehicles competing for limited road space — causing worse congestion."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The inference is that vehicle growth outpaced road infrastructure — meaning roads couldn't keep up with the number of vehicles."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C directly states this inference: 'Vehicle growth outpaced road infrastructure.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option predicts improvement next year, but the passage provides no data about future trends. It only describes the past year's worsening congestion.",
+        "trap_type": "unsupported_prediction"
+      },
+      "B": {
+        "text": "This option says road capacity increased faster than vehicles, but the numbers show the opposite: vehicles increased 15%, road capacity only 3%.",
+        "trap_type": "reversed_comparison"
+      },
+      "C": {
+        "text": "Correct! The 15% vehicle increase vs. 3% road capacity increase directly supports the inference that vehicle growth outpaced road infrastructure.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This option says the city did nothing, but the passage states the city made 'efforts to improve traffic flow.' It just wasn't enough to keep up with vehicle growth.",
+        "trap_type": "contradicts_explicit_text"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For inference questions, combine the facts given to draw a logical conclusion. Here, comparing the percentages leads to the inference that vehicle growth outpaced infrastructure.",
+    "blueprint_id": "Inference — Traffic Congestion",
+    "deconstruct_text": "**Step 1:** Identify the facts: vehicles increased 15%, road capacity increased 3%.\n\n**Step 2:** Compare: 15% > 3%, so vehicles grew faster than road capacity.\n\n**Step 3:** Draw the inference: Since more vehicles are using roads that haven't expanded much, congestion worsened. This means vehicle growth outpaced road infrastructure.\n\n**Step 4:** Evaluate options:\n- Option A: No data on future.\n- Option B: Reverses the comparison.\n- Option C: Matches the inference.\n- Option D: Contradicts 'city's efforts.'\n\n**Conclusion:** Option C is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-read-004",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "question_text": "Passage: 'The Civil Service Commission (CSC) is the central personnel agency of the Philippine government. It is tasked with ensuring that all government appointments are based on merit and fitness.' The tone of this passage is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Critical"
+      },
+      {
+        "key": "B",
+        "text": "Sarcastic"
+      },
+      {
+        "key": "C",
+        "text": "Informative"
+      },
+      {
+        "key": "D",
+        "text": "Persuasive"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Purpose",
+        "text": "The passage simply states facts about the CSC — its role and task. There is no opinion, criticism, or attempt to convince."
+      },
+      {
+        "rung": 2,
+        "title": "Look for Emotional Language",
+        "text": "Words like 'central personnel agency' and 'merit and fitness' are neutral and factual. No positive or negative adjectives are used."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The tone is objective and factual, which is best described as 'informative.'"
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Option C ('Informative') matches the neutral, fact-based presentation of the passage."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option says 'critical,' but the passage does not criticize the CSC. It simply describes its role without any negative judgment.",
+        "trap_type": "tone_misattribution_critical"
+      },
+      "B": {
+        "text": "This option says 'sarcastic,' but there is no irony, mockery, or hidden meaning. The passage is straightforward and factual.",
+        "trap_type": "tone_misattribution_sarcastic"
+      },
+      "C": {
+        "text": "Correct! The passage presents objective information about the CSC without opinion or persuasion, making the tone informative.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This option says 'persuasive,' but the passage does not try to convince the reader of anything. It merely states facts.",
+        "trap_type": "tone_misattribution_persuasive"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Informative tone = neutral, factual, no opinion. Look for absence of emotional or evaluative language.",
+    "blueprint_id": "Tone/Purpose — CSC Description",
+    "deconstruct_text": "**Step 1:** Read the passage and note the language: 'central personnel agency,' 'tasked with ensuring,' 'based on merit and fitness.' All are neutral, factual statements.\n\n**Step 2:** Determine the author's purpose: to inform the reader about the CSC's role, not to criticize, mock, or persuade.\n\n**Step 3:** Evaluate each option:\n- Option A: Critical — no criticism present.\n- Option B: Sarcastic — no irony or mockery.\n- Option C: Informative — matches the factual presentation.\n- Option D: Persuasive — no attempt to convince.\n\n**Conclusion:** Option C is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-001",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "LAWYER is to COURT as CIVIL SERVANT is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Office"
+      },
+      {
+        "key": "B",
+        "text": "Agency"
+      },
+      {
+        "key": "C",
+        "text": "Courtroom"
+      },
+      {
+        "key": "D",
+        "text": "Judge"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the Relationship",
+        "text": "A lawyer works in a court. What is the general workplace for a civil servant?"
+      },
+      {
+        "rung": 2,
+        "title": "Specific vs. General",
+        "text": "'Court' is a specific type of workplace for a lawyer. For a civil servant, the general workplace is a government 'agency.'"
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Distractors",
+        "text": "'Office' is too vague (anyone can have an office). 'Courtroom' is too specific (only for lawyers/judges). 'Judge' is a person, not a place."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "The correct analogy is: lawyer works in court; civil servant works in an agency. Option B is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This option says 'office,' but 'office' is too general — many professionals work in an office. The analogy requires a specific type of workplace like 'court' for a lawyer. 'Agency' is the standard term for a civil servant's workplace.",
+        "trap_type": "too_general"
+      },
+      "B": {
+        "text": "Correct! A civil servant works in a government agency, just as a lawyer works in a court. Both are specific workplaces for their respective professions.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This option says 'courtroom,' but a courtroom is a specific part of a court where lawyers appear. A civil servant does not work in a courtroom; that would be a false parallel.",
+        "trap_type": "false_parallel"
+      },
+      "D": {
+        "text": "This option says 'judge,' but a judge is a person, not a workplace. The relationship is professional-to-workplace, not professional-to-professional.",
+        "trap_type": "category_error_person_vs_place"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In analogies, first identify the relationship (e.g., professional : workplace). Then find the option that maintains the same relationship. Avoid options that are too general or belong to a different category.",
+    "blueprint_id": "Workplace Associations",
+    "deconstruct_text": "**Step 1:** Determine the relationship between 'lawyer' and 'court.' A lawyer works in a court — it's a professional-to-workplace relationship.\n\n**Step 2:** Apply the same relationship to 'civil servant.' A civil servant works in a government agency.\n\n**Step 3:** Evaluate each option:\n- Option A: 'Office' — too general; any professional can have an office.\n- Option B: 'Agency' — specific workplace for civil servants.\n- Option C: 'Courtroom' — too specific; civil servants don't work in courtrooms.\n- Option D: 'Judge' — a person, not a workplace.\n\n**Conclusion:** Option B is correct.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-002",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "STETHOSCOPE is to DOCTOR as COMPUTER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Patient"
+      },
+      {
+        "key": "B",
+        "text": "Hospital"
+      },
+      {
+        "key": "C",
+        "text": "Programmer"
+      },
+      {
+        "key": "D",
+        "text": "Medicine"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tool-User",
+        "text": "A stethoscope is a tool used by a doctor. Identify the relationship: tool to its primary user."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the User",
+        "text": "Now, think: who primarily uses a computer as a professional tool? A programmer uses a computer to write code and develop software."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the Second Pair",
+        "text": "The analogy is STETHOSCOPE:DOCTOR :: COMPUTER:?. The second word must be the professional who uses the computer as their primary instrument."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "Among the options, only 'Programmer' fits the tool-user relationship. Patient, Hospital, and Medicine are related to a doctor's context but not the user of a computer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Patient is a person a doctor treats, not a user of a computer. This confuses the relationship: the second term should be the user of the tool, not the recipient of the service.",
+        "trap_type": "wrong_relationship"
+      },
+      "B": {
+        "text": "Hospital is a place where a doctor works, not a user of a computer. This shifts the relationship from tool-user to tool-location.",
+        "trap_type": "location_confusion"
+      },
+      "C": {
+        "text": "Correct! A programmer uses a computer as a primary tool, just as a doctor uses a stethoscope. The relationship is tool to its professional user.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Medicine is a substance a doctor prescribes, not a user of a computer. This confuses the relationship with a product or object associated with the first term.",
+        "trap_type": "associated_object"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In tool-user analogies, identify the professional who uses the tool as a primary instrument. Avoid options that are related to the first term but not the user.",
+    "blueprint_id": "Tool-User Relationship",
+    "deconstruct_text": "### 📖 Step-by-Step Analysis\n1. Identify the relationship in the first pair: STETHOSCOPE is a tool used by DOCTOR. This is a tool-user relationship.\n2. Apply the same relationship to the second pair: COMPUTER is a tool used by whom?\n3. Among the options, only 'Programmer' is a professional who uses a computer as a primary tool.\n4. Eliminate distractors: Patient (recipient), Hospital (location), Medicine (product) are all related to a doctor but not the user of a computer.\n\n### ❌ Why the Distractors Fail\n- **Patient**: A doctor treats patients, but a patient does not use a computer as a professional tool.\n- **Hospital**: A doctor works in a hospital, but a hospital is a place, not a user.\n- **Medicine**: A doctor prescribes medicine, but medicine is a substance, not a user.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-003",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "TRAINING is to SKILL as PRACTICE is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Theory"
+      },
+      {
+        "key": "B",
+        "text": "Mastery"
+      },
+      {
+        "key": "C",
+        "text": "Book"
+      },
+      {
+        "key": "D",
+        "text": "Exam"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Cause-Effect",
+        "text": "Training is a process that leads to acquiring a skill. Identify the relationship: process to its outcome."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Outcome",
+        "text": "Now, think: what is the outcome of practice? Practice leads to mastery, which is a high level of proficiency."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the Second Pair",
+        "text": "The analogy is TRAINING:SKILL :: PRACTICE:?. The second word must be the result or outcome of practice."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "Among the options, only 'Mastery' is the direct outcome of practice. Theory, Book, and Exam are related but not the result of practice itself."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Theory is the conceptual foundation, not the outcome of practice. Practice applies theory to achieve mastery, but theory itself is not the result.",
+        "trap_type": "confused_with_foundation"
+      },
+      "B": {
+        "text": "Correct! Practice leads to mastery, just as training leads to skill. Both are processes that result in improved ability.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "A book is a source of information, not the outcome of practice. Practice may involve books, but the result is not a book.",
+        "trap_type": "associated_object"
+      },
+      "D": {
+        "text": "An exam is a test of skill, not the outcome of practice. Practice prepares for exams, but the direct result is mastery, not the exam itself.",
+        "trap_type": "confused_with_test"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In cause-effect analogies, identify the direct result of the process. Practice yields mastery, just as training yields skill.",
+    "blueprint_id": "Cause-Effect Relationship",
+    "deconstruct_text": "### 📖 Step-by-Step Analysis\n1. Identify the relationship in the first pair: TRAINING is a process that results in SKILL. This is a cause-effect relationship.\n2. Apply the same relationship to the second pair: PRACTICE is a process that results in what?\n3. Among the options, only 'Mastery' is the direct outcome of practice.\n4. Eliminate distractors: Theory (foundation), Book (source), Exam (test) are not the direct result of practice.\n\n### ❌ Why the Distractors Fail\n- **Theory**: Practice is based on theory, but theory is not the outcome; it's the starting point.\n- **Book**: A book may guide practice, but practice does not produce a book.\n- **Exam**: Practice may help pass an exam, but the immediate result is mastery of the subject.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vanal-004",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "FILIPINO is to FILIPINOS as CITIZEN is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Country"
+      },
+      {
+        "key": "B",
+        "text": "Nationality"
+      },
+      {
+        "key": "C",
+        "text": "Citizens"
+      },
+      {
+        "key": "D",
+        "text": "People"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Singular-Plural",
+        "text": "FILIPINO is the singular form, and FILIPINOS is the plural form. Identify the relationship: singular noun to its plural."
+      },
+      {
+        "rung": 2,
+        "title": "Identify the Plural",
+        "text": "Now, think: what is the plural of 'citizen'? The plural is 'citizens'."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to the Second Pair",
+        "text": "The analogy is FILIPINO:FILIPINOS :: CITIZEN:?. The second word must be the plural form of 'citizen'."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "Among the options, only 'Citizens' is the correct plural. Country, Nationality, and People are related but not the plural of citizen."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Country is a place, not the plural of citizen. This confuses the relationship with a location associated with citizenship.",
+        "trap_type": "location_confusion"
+      },
+      "B": {
+        "text": "Nationality is an abstract concept, not the plural of citizen. A citizen has a nationality, but the word itself is not the plural form.",
+        "trap_type": "abstract_concept"
+      },
+      "C": {
+        "text": "Correct! Citizens is the plural of citizen, just as Filipinos is the plural of Filipino. The relationship is singular to plural.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "People is a collective noun, not the direct plural of citizen. While citizens are people, 'people' is not the standard plural form of 'citizen'.",
+        "trap_type": "collective_noun"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In singular-plural analogies, look for the exact plural form of the given noun. Avoid words that are related but not the direct plural.",
+    "blueprint_id": "Part-Whole (Singular-Plural)",
+    "deconstruct_text": "### 📖 Step-by-Step Analysis\n1. Identify the relationship in the first pair: FILIPINO (singular) to FILIPINOS (plural). This is a singular-plural relationship.\n2. Apply the same relationship to the second pair: CITIZEN (singular) to ? (plural).\n3. The plural of 'citizen' is 'citizens'.\n4. Eliminate distractors: Country (location), Nationality (abstract), People (collective) are not the plural form.\n\n### ❌ Why the Distractors Fail\n- **Country**: A citizen belongs to a country, but 'country' is not the plural of 'citizen'.\n- **Nationality**: A citizen has a nationality, but 'nationality' is not the plural form.\n- **People**: 'People' is a collective noun for persons, but the specific plural of 'citizen' is 'citizens'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-001",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The government is committed ___ providing quality public service.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Idiomatic Expression",
+        "text": "The adjective 'committed' is always followed by the preposition 'to' in standard English. This is a fixed idiomatic pairing."
+      },
+      {
+        "rung": 2,
+        "title": "Test Each Option",
+        "text": "Say each option aloud: 'committed on providing' sounds wrong; 'committed in providing' is ungrammatical; 'committed for providing' is non-standard. Only 'committed to providing' is correct."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "In the sentence, the blank must be filled with the preposition that correctly completes the phrase 'committed ___ providing'. The correct preposition is 'to'."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "The correct choice is 'to', as in 'committed to providing'. This is the only option that forms a grammatically correct and idiomatic expression."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'Committed on' is incorrect. The preposition 'on' is used with 'commit' in other contexts (e.g., 'commit a crime on someone'), but not with the adjective 'committed' followed by a gerund.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "'Committed in' is incorrect. 'In' is used with 'commit' in phrases like 'commit in writing', but not with the adjective 'committed' followed by a gerund.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Correct! 'Committed to' is the standard idiomatic expression. The phrase 'committed to providing' means dedicated to the act of providing.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'Committed for' is incorrect. 'For' is used with 'commit' in legal contexts (e.g., 'committed for trial'), but not with the adjective 'committed' followed by a gerund.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The adjective 'committed' always takes the preposition 'to'. Memorize common adjective-preposition pairs: committed to, interested in, capable of, etc.",
+    "blueprint_id": "Prepositions — Committed To",
+    "deconstruct_text": "### 📖 Step-by-Step Analysis\n1. Identify the word that governs the preposition: the adjective 'committed'.\n2. Recall the standard idiomatic pairing: 'committed to' + gerund (verb+ing) or noun.\n3. Apply to the sentence: 'committed to providing' is correct.\n4. Eliminate other prepositions: 'on', 'in', 'for' do not form standard expressions with 'committed' in this context.\n\n### ❌ Why the Distractors Fail\n- **on**: 'Committed on' is not a standard English expression.\n- **in**: 'Committed in' is used in different contexts (e.g., 'committed in error'), not with a gerund.\n- **for**: 'Committed for' is used in legal contexts (e.g., 'committed for trial'), not with a gerund.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-sent-002",
+    "subtopic_id": "sentence-completion",
+    "category_id": "verbal-ability",
+    "question_text": "Fill in: 'The applicant must submit all requirements ___ the deadline.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "by"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Preposition for Deadlines",
+        "text": "When referring to a deadline, the preposition 'by' is used to mean 'on or before' that time. 'On' is for specific days, 'in' for months/years, 'at' for specific times."
+      },
+      {
+        "rung": 2,
+        "title": "Test Each Option",
+        "text": "Say each option aloud: 'submit on the deadline' implies exactly on that day; 'submit in the deadline' is ungrammatical; 'submit at the deadline' is non-standard; 'submit by the deadline' is correct."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "In the sentence, the blank must be filled with the preposition that correctly indicates the time limit. The correct preposition is 'by'."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm the Answer",
+        "text": "The correct choice is 'by', as in 'submit by the deadline'. This means on or before the deadline, which is the standard usage."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "'On the deadline' is incorrect because 'on' is used for specific days (e.g., 'on Monday'), not for deadlines. It implies exactly on that day, not before.",
+        "trap_type": "wrong_preposition"
+      },
+      "B": {
+        "text": "'In the deadline' is ungrammatical. 'In' is used for longer periods (e.g., 'in March', 'in 2024'), not for a specific deadline.",
+        "trap_type": "wrong_preposition"
+      },
+      "C": {
+        "text": "Correct! 'By the deadline' means on or before the specified time. This is the standard preposition for deadlines.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "'At the deadline' is non-standard. 'At' is used for specific times (e.g., 'at 5 PM'), not for deadlines in this context.",
+        "trap_type": "wrong_preposition"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Use 'by' with deadlines to mean 'on or before'. For specific days use 'on', for months use 'in', for times use 'at'.",
+    "blueprint_id": "Prepositions — Deadlines",
+    "deconstruct_text": "### 📖 Step-by-Step Analysis\n1. Identify the context: a deadline is a time limit.\n2. Recall the preposition for deadlines: 'by' means on or before that time.\n3. Apply to the sentence: 'submit by the deadline' is correct.\n4. Eliminate other prepositions: 'on' (specific day), 'in' (longer period), 'at' (specific time) are not appropriate for deadlines.\n\n### ❌ Why the Distractors Fail\n- **on**: 'On the deadline' is incorrect because 'on' is for days, not deadlines.\n- **in**: 'In the deadline' is ungrammatical; 'in' is for months, years, or durations.\n- **at**: 'At the deadline' is non-standard; 'at' is for precise times like 'at noon'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

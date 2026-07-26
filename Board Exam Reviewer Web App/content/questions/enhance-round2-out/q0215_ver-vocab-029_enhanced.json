@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vocab-029",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'DELEGATE' mean as a verb?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore"
+      },
+      {
+        "key": "B",
+        "text": "Assign responsibility"
+      },
+      {
+        "key": "C",
+        "text": "Take over"
+      },
+      {
+        "key": "D",
+        "text": "Delay"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ang Delegate?",
+        "text": "Ang 'delegate' bilang verb ay magbigay ng tungkulin o responsibilidad sa ibang tao, lalo na sa nasasakupan mo."
+      },
+      {
+        "rung": 2,
+        "title": "Kasingkahulugan",
+        "text": "Ang tamang kasingkahulugan ay 'Assign responsibility'. Ibig sabihin, ipinapasa mo ang awtoridad para tapusin ang isang gawain."
+      },
+      {
+        "rung": 3,
+        "title": "Sa Barangay Sitwasyon",
+        "text": "Bilang kapitan ng barangay, sa fiesta ay nag-delegate ka ng tasks: si Kagawad sa pagkain, si Tanod sa seguridad. Ina-assign mo, hindi sinosolo."
+      },
+      {
+        "rung": 4,
+        "title": "Tamang Sagot",
+        "text": "Kaya ang sagot ay B. Ang 'delegate' ay nangangahulugang mag-assign ng responsibility sa iba, hindi ikaw ang gagawa ng lahat."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 'Ignore' sounds like pagwawalang-bahala, but delegate is active assignment, not neglect.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "B": {
+        "text": "Correct.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because 'Take over' seems like taking charge, but delegate means giving control away, not seizing it.",
+        "trap_type": "synonym_antonym_inversion"
+      },
+      "D": {
+        "text": "You might have chosen D because 'Delay' sounds like postponing, but delegate is about distributing work, not putting it off.",
+        "trap_type": "semantic_shift_trap"
+      }
+    },
+    "next_time_rule": "Delegate = mag-assign ng responsibility. Huwag mong solohin ang trabaho, i-DELEGATE mo!",
+    "blueprint_id": "Vocabulary — Delegate",
+    "deconstruct_text": "Sa isang lokal na opisina ng gobyerno, si Kapitan ay may maraming papeles. Imbes na siya ang gumawa ng lahat, nag-delegate siya ng mga gawain sa mga kagawad. Ang ibig sabihin ng 'delegate' ay magpasa o mag-assign ng responsibilidad sa iba, lalo na sa mga nasa ilalim mo.\n\nNgayon, suriin natin ang mga pagpipilian:\nA. Ignore — kabaliktaran, dahil ang delegate ay aktibong pagbibigay, hindi pagwawalang-bahala.\nB. Assign responsibility — eksaktong kahulugan.\nC. Take over — ibig sabihin, ikaw ang kukuha ng kontrol, hindi mo ibinibigay.\nD. D...\n\nKaya ang tamang sagot ay B. Tandaan, ang mag-delegate ay magtiwala sa iba, hindi pagsosolo ng trabaho.",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

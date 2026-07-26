@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-ratio-024",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "The ratio of coconut oil to soap base in a livelihood production is 3:7. If 21 liters of soap base is used, how many liters of coconut oil are needed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Set Up Proportion",
+        "text": "The ratio oil:base = 3:7. You know base = 21 L. Write the proportion: oil/21 = 3/7."
+      },
+      {
+        "rung": 2,
+        "title": "Find Value of One Part",
+        "text": "Since 7 parts of base = 21 L, each part = 21 ÷ 7 = 3 L. This is the key to scaling the ratio."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Oil Quantity",
+        "text": "Oil has 3 parts. Multiply: 3 parts × 3 L per part = 9 L. That's the amount needed."
+      },
+      {
+        "rung": 4,
+        "title": "Confirm Answer",
+        "text": "The correct answer is 9 L. Check: 9:21 simplifies to 3:7, matching the given ratio."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 L. This comes from mistakenly using the base's 7 parts as the multiplier for oil (3 × 2 = 6) instead of finding the per-part value first. The correct step is 21 ÷ 7 = 3 L per part, then 3 × 3 = 9 L.",
+        "trap_type": "wrong_multiplier_used"
+      },
+      "B": {
+        "text": "7 L. This is the value of one part (21 ÷ 7 = 3) rounded up or confused with the base's part count. Oil has 3 parts, not 7, so 3 × 3 = 9 L is correct.",
+        "trap_type": "confused_part_count"
+      },
+      "C": {
+        "text": "8 L. This might come from adding the ratio numbers (3+7=10) and then subtracting from 21 (21-10=11) or other guesswork. The correct method is to find per-part value: 21 ÷ 7 = 3, then 3 × 3 = 9.",
+        "trap_type": "addition_subtraction_error"
+      },
+      "D": {
+        "text": "Correct! 9 L. Step-by-step: 7 parts = 21 L → 1 part = 3 L → oil = 3 parts × 3 L = 9 L. The ratio 9:21 simplifies to 3:7.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In a ratio problem, always find the value of one part first by dividing the known quantity by its ratio number, then multiply by the other ratio number.",
+    "blueprint_id": "Direct Proportion — Livelihood Ratio",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Understand the ratio:** Coconut oil : Soap base = 3 : 7. This means for every 3 parts oil, there are 7 parts base.\n2. **Identify the known:** Soap base used = 21 liters. This corresponds to the '7' in the ratio.\n3. **Find the value of one part:** 7 parts = 21 L → 1 part = 21 ÷ 7 = 3 L.\n4. **Calculate oil needed:** Oil has 3 parts → 3 parts × 3 L/part = 9 L.\n5. **Verify:** 9 L oil : 21 L base = 9÷3 : 21÷3 = 3:7, which matches the given ratio.\n\n### ❌ Why Other Options Are Wrong\n- **6 L (A):** Incorrectly multiplies oil's ratio number (3) by 2 instead of using per-part value. The correct multiplier is 3 L per part, not 2.\n- **7 L (B):** Confuses the number of parts for base (7) with the oil quantity. Oil has 3 parts, each worth 3 L, so 9 L.\n- **8 L (C):** Likely from adding ratio numbers (3+7=10) and subtracting from 21 (21-10=11) or other arithmetic errors. The correct approach is division then multiplication.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-025",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 50-hectare government farm is planted with corn and rice in the ratio 2:3. How many hectares are planted with rice?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 ha"
+      },
+      {
+        "key": "B",
+        "text": "25 ha"
+      },
+      {
+        "key": "C",
+        "text": "30 ha"
+      },
+      {
+        "key": "D",
+        "text": "35 ha"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Total Parts",
+        "text": "The ratio corn:rice = 2:3. Add the parts: 2 + 3 = 5 total parts. This represents the entire 50 ha."
+      },
+      {
+        "rung": 2,
+        "title": "Value of One Part",
+        "text": "Divide total area by total parts: 50 ha ÷ 5 = 10 ha per part. Each part in the ratio equals 10 ha."
+      },
+      {
+        "rung": 3,
+        "title": "Rice Portion",
+        "text": "Rice has 3 parts. Multiply: 3 parts × 10 ha/part = 30 ha. That's the area for rice."
+      },
+      {
+        "rung": 4,
+        "title": "Check Your Answer",
+        "text": "Corn would be 2 × 10 = 20 ha. Total 20+30=50 ha, matching the given total. So rice = 30 ha."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "20 ha. This is the area for corn (2 parts × 10 ha), not rice. The question asks for rice, which has 3 parts. Always check which part of the ratio is being asked.",
+        "trap_type": "wrong_target_variable"
+      },
+      "B": {
+        "text": "25 ha. This comes from dividing the total by 2 (50÷2=25) instead of by total parts (5). The correct step is 50 ÷ 5 = 10 ha per part, then 3 × 10 = 30 ha.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! 30 ha. Total parts = 2+3=5. Value per part = 50÷5=10 ha. Rice = 3×10=30 ha. Total checks out: 20+30=50 ha.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "35 ha. This might come from adding 50 and 3 to get 53, then subtracting 18, or from 50×3/4=37.5 rounded. The correct method: 50÷5=10, then 3×10=30.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For part-to-whole ratio problems: add ratio parts to get total parts, divide the whole by total parts to find per-part value, then multiply by the target part.",
+    "blueprint_id": "Part-to-Whole — Farm Land Allocation",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Interpret the ratio:** Corn : Rice = 2 : 3. Total parts = 2 + 3 = 5.\n2. **Find per-part value:** Total area = 50 ha. One part = 50 ha ÷ 5 = 10 ha.\n3. **Calculate rice area:** Rice corresponds to 3 parts → 3 × 10 ha = 30 ha.\n4. **Verify:** Corn area = 2 × 10 = 20 ha. Total = 20 + 30 = 50 ha, consistent with the problem.\n\n### ❌ Why Other Options Are Wrong\n- **20 ha (A):** This is the corn area, not rice. The question specifically asks for rice. Always double-check which ratio component is required.\n- **25 ha (B):** Results from dividing total by 2 (50÷2=25), perhaps confusing the ratio 2:3 with half. The correct divisor is total parts (5).\n- **35 ha (D):** Likely from 50×3/4=37.5 rounded down or other miscalculations. The correct fraction for rice is 3/5 of 50 = 30.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-026",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A DPWH crew of 6 workers can finish a road repair in 24 days. After 6 days, 2 more workers join. How many total days will the entire project take?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "19.5"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate Total Work",
+        "text": "Total work = 6 workers × 24 days = 144 worker-days. This is the constant amount of work needed."
+      },
+      {
+        "rung": 2,
+        "title": "Work Completed in First 6 Days",
+        "text": "In 6 days, 6 workers did 6 × 6 = 36 worker-days. Subtract from total: 144 - 36 = 108 worker-days remaining."
+      },
+      {
+        "rung": 3,
+        "title": "Work After New Workers Join",
+        "text": "After 6 days, crew becomes 6+2=8 workers. Time needed = remaining work ÷ new crew size = 108 ÷ 8 = 13.5 days."
+      },
+      {
+        "rung": 4,
+        "title": "Total Project Duration",
+        "text": "Add initial 6 days to the 13.5 days: 6 + 13.5 = 19.5 days total. That's the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "16 days. This might come from assuming the work is simply halved: 24÷1.5=16, ignoring the work already done. Correct approach: compute remaining work and divide by new crew size.",
+        "trap_type": "partial_answer_error"
+      },
+      "B": {
+        "text": "18 days. Possibly from 24 - 6 = 18, mistakenly thinking the 6 days already worked are simply subtracted. But the crew size increased, so the remaining work takes less than 18 days.",
+        "trap_type": "proportion_type_error"
+      },
+      "C": {
+        "text": "Correct! 19.5 days. Total work = 6×24=144 worker-days. Work done in 6 days = 6×6=36. Remaining = 108. New crew = 8 workers. Time = 108÷8=13.5 days. Total = 6+13.5=19.5 days.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "22 days. This could be from 24 - (6/8)×24 = 24 - 18 = 6, then 6+? or other confusion. The correct method uses worker-days: total work is constant, adjust for crew size changes.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For multi-stage work problems: compute total work in worker-days, subtract work already done, then divide remaining work by the new number of workers.",
+    "blueprint_id": "Inverse Proportion — Multi-Stage Work",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Compute total work:** 6 workers × 24 days = 144 worker-days (constant).\n2. **Work done in first 6 days:** 6 workers × 6 days = 36 worker-days.\n3. **Remaining work:** 144 - 36 = 108 worker-days.\n4. **New crew size:** 6 + 2 = 8 workers.\n5. **Time to finish remaining work:** 108 ÷ 8 = 13.5 days.\n6. **Total project time:** 6 days (initial) + 13.5 days = 19.5 days.\n\n### ❌ Why Other Options Are Wrong\n- **16 days (A):** Incorrectly assumes the work rate doubles after adding workers, ignoring the work already done. The correct calculation accounts for the 36 worker-days already completed.\n- **18 days (B):** Simply subtracts 6 from 24, ignoring the change in crew size. With more workers, the remaining work should take less than 18 days.\n- **22 days (D):** Likely from miscalculating the remaining work or misapplying inverse proportion. The correct remaining time is 13.5 days, not 16 or 18.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-027",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a government bidding process, the ratio of winning to losing bids is 1:5. If there were 48 total bids, how many were winning bids?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts in Ratio",
+        "text": "Winning : Losing = 1 : 5. Total parts = 1 + 5 = 6. This represents all 48 bids."
+      },
+      {
+        "rung": 2,
+        "title": "Value of One Part",
+        "text": "Divide total bids by total parts: 48 ÷ 6 = 8 bids per part. Each part in the ratio equals 8 bids."
+      },
+      {
+        "rung": 3,
+        "title": "Winning Bids",
+        "text": "Winning bids correspond to 1 part. So winning bids = 1 × 8 = 8. That's the answer."
+      },
+      {
+        "rung": 4,
+        "title": "Double-Check",
+        "text": "Losing bids = 5 × 8 = 40. Total = 8 + 40 = 48, matching the given total. So winning = 8."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "6 bids. This comes from dividing 48 by 8 (48÷8=6) or from 48×1/8=6, but the correct fraction for winning is 1/6, not 1/8. Total parts are 6, so 48÷6=8.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "B": {
+        "text": "Correct! 8 winning bids. Total parts = 1+5=6. Value per part = 48÷6=8. Winning = 1×8=8. Losing = 5×8=40. Total = 48.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "10 bids. This might be from 48×1/4.8 or other miscalculation. The correct fraction is 1/6 of 48 = 8. Remember: winning ratio part is 1 out of 6 total parts.",
+        "trap_type": "ratio_error"
+      },
+      "D": {
+        "text": "12 bids. This could be from 48×1/4=12, confusing the ratio 1:5 with 1:3 (since 1+3=4). The correct total parts are 6, so 48÷6=8.",
+        "trap_type": "ratio_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** The fraction for a part is its ratio number divided by the sum of all ratio numbers. For winning: 1/(1+5)=1/6 of total.",
+    "blueprint_id": "Part-to-Whole — Bidding Proportions",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Understand the ratio:** Winning : Losing = 1 : 5. Total parts = 1 + 5 = 6.\n2. **Find per-part value:** Total bids = 48. One part = 48 ÷ 6 = 8 bids.\n3. **Calculate winning bids:** Winning corresponds to 1 part → 1 × 8 = 8 bids.\n4. **Verify:** Losing = 5 × 8 = 40. Total = 8 + 40 = 48, consistent.\n\n### ❌ Why Other Options Are Wrong\n- **6 bids (A):** Results from dividing 48 by 8 instead of 6. The total parts are 6 (1+5), not 8.\n- **10 bids (C):** No clear arithmetic path; likely a guess or miscalculation. The correct fraction is 1/6 of 48 = 8.\n- **12 bids (D):** Comes from using 1/4 of 48 (since 1+3=4), but the ratio is 1:5, so total parts = 6.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-028",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A 3:2:1 profit-sharing ratio is used for three government project partners. If total profit is P360,000, what is the difference between the largest and smallest share?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P90,000"
+      },
+      {
+        "key": "B",
+        "text": "P100,000"
+      },
+      {
+        "key": "C",
+        "text": "P120,000"
+      },
+      {
+        "key": "D",
+        "text": "P150,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Total Parts in Ratio",
+        "text": "The ratio is 3:2:1. Add all parts: 3+2+1=6 total parts. This represents the entire P360,000 profit."
+      },
+      {
+        "rung": 2,
+        "title": "Value of One Part",
+        "text": "Divide total profit by total parts: P360,000 ÷ 6 = P60,000 per part. Each part in the ratio equals P60,000."
+      },
+      {
+        "rung": 3,
+        "title": "Largest and Smallest Shares",
+        "text": "Largest share (3 parts) = 3 × P60,000 = P180,000. Smallest share (1 part) = 1 × P60,000 = P60,000."
+      },
+      {
+        "rung": 4,
+        "title": "Compute the Difference",
+        "text": "Difference = P180,000 - P60,000 = P120,000. That's the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P90,000. This might come from subtracting the middle share (2×60K=120K) from the largest (180K) = 60K, or from 360K/4=90K. The correct difference is between largest (3 parts) and smallest (1 part): 180K-60K=120K.",
+        "trap_type": "wrong_target_variable"
+      },
+      "B": {
+        "text": "P100,000. Possibly from 360K×1/3.6 or other miscalculation. The correct per-part value is 60K, so difference = (3-1)×60K = 120K.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "Correct! P120,000. Total parts = 3+2+1=6. Per part = 360K÷6=60K. Largest = 3×60K=180K. Smallest = 1×60K=60K. Difference = 180K-60K=120K.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P150,000. This could be from 360K×5/12=150K or from subtracting 2 parts from 3 parts and multiplying incorrectly. The correct difference is (3-1)×60K=120K.",
+        "trap_type": "partial_answer_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Difference = (largest ratio number - smallest ratio number) × value per part. Find per-part value by dividing total by sum of ratio numbers.",
+    "blueprint_id": "Ratio — Profit Share Difference",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Total parts:** 3 + 2 + 1 = 6 parts.\n2. **Value per part:** P360,000 ÷ 6 = P60,000.\n3. **Largest share (3 parts):** 3 × P60,000 = P180,000.\n4. **Smallest share (1 part):** 1 × P60,000 = P60,000.\n5. **Difference:** P180,000 - P60,000 = P120,000.\n\n### ❌ Why Other Options Are Wrong\n- **P90,000 (A):** Might come from subtracting the middle share (P120,000) from the largest (P180,000) = P60,000, or from dividing total by 4. The correct difference is between the extreme ratio numbers (3 and 1).\n- **P100,000 (B):** No clear arithmetic path; likely a miscalculation. The correct per-part value is P60,000, so difference = (3-1)×60K = P120,000.\n- **P150,000 (D):** Possibly from 360K×5/12=150K or from using wrong ratio numbers. The correct difference is P120,000.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-029",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a municipality, the ratio of male to female employees is 7:5. If there are 20 more male employees than female employees, how many female employees are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "55"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Difference in Ratio",
+        "text": "The ratio difference between male and female is 7 - 5 = 2 parts. This 2 parts equals the actual difference of 20 employees."
+      },
+      {
+        "rung": 2,
+        "title": "Value of 1 Part",
+        "text": "If 2 parts = 20, then 1 part = 20 ÷ 2 = 10 employees."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Female Employees",
+        "text": "Female employees correspond to 5 parts. Multiply: 5 parts × 10 employees per part = 50."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Thus, there are 50 female employees. Option C is correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "40. This would result if you mistakenly set 5 parts = 20 (dividing 20 by 5 instead of 2) and then multiplied 7 parts by 4 to get 28 males, but the difference would be -12, not +20. The correct step is to find the value of 1 part from the difference of 2 parts.",
+        "trap_type": "ratio_part_misassignment"
+      },
+      "B": {
+        "text": "45. This might come from incorrectly assuming the difference is 1 part (7-5=2, but misread as 1) and then setting 1 part = 20, so females = 5×20=100? No, 45 is not a multiple of 10. Possibly a miscalculation: 20/2=10, then 5×10=50, but 45 suggests subtracting 5 instead of adding? Not plausible. More likely: 20 more males means males = females+20, ratio 7:5 => (f+20)/f = 7/5 => 5f+100=7f => 2f=100 => f=50. 45 would come from 5f+100=7f-? No clear path.",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "50. Correct. The difference in ratio parts is 2, which equals 20 employees, so 1 part = 10. Female employees = 5 parts × 10 = 50.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "55. This could be from solving 7x - 5x = 20 => 2x=20 => x=10, then females = 5x+5 = 55 (adding an extra 5). Or from misreading the ratio as 7:5.5? Not standard. The correct computation yields 50.",
+        "trap_type": "extra_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When given a ratio and a difference, find the value of one ratio part by dividing the actual difference by the difference in ratio parts. Then multiply by the required part.",
+    "blueprint_id": "Ratio — Finding from Difference",
+    "deconstruct_text": "Step 1: Let the common factor be x. Then males = 7x, females = 5x.\nStep 2: The difference is 7x - 5x = 2x = 20.\nStep 3: Solve for x: x = 20 ÷ 2 = 10.\nStep 4: Female employees = 5x = 5 × 10 = 50.\n\nWhy the distractors fail:\n- 40: If you mistakenly set 5x = 20 (thinking females = difference), then x=4, males=28, difference=12, not 20.\n- 45: No clean derivation; likely an arithmetic slip like 5×9=45.\n- 55: Possibly adding 5 to the correct answer (50+5) or miscomputing 5x+5.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-ratio-030",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A hose fills a tank at 30 liters per minute. Another hose fills at 50 liters per minute. What is the ratio of the first hose's rate to the second?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3:5"
+      },
+      {
+        "key": "B",
+        "text": "5:3"
+      },
+      {
+        "key": "C",
+        "text": "3:8"
+      },
+      {
+        "key": "D",
+        "text": "5:8"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Write the Ratio",
+        "text": "First hose rate : Second hose rate = 30 : 50."
+      },
+      {
+        "rung": 2,
+        "title": "Simplify by Dividing by Common Factor",
+        "text": "Both 30 and 50 are divisible by 10. Divide each term by 10."
+      },
+      {
+        "rung": 3,
+        "title": "Simplest Form",
+        "text": "30 ÷ 10 = 3, 50 ÷ 10 = 5. So the ratio is 3:5."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "The ratio of the first hose's rate to the second is 3:5, which is option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "3:5. Correct. The ratio 30:50 simplifies to 3:5 by dividing both terms by 10.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "5:3. This is the inverse ratio (second to first). The question asks for first to second, so the order is reversed.",
+        "trap_type": "inverted_ratio"
+      },
+      "C": {
+        "text": "3:8. This might come from adding the rates (30+50=80) and then using 30:80 = 3:8, but the question asks for the ratio of the first to the second, not to the total.",
+        "trap_type": "ratio_to_sum"
+      },
+      "D": {
+        "text": "5:8. This could be from using the second rate to total (50:80 = 5:8) or from inverting and adding. Not the requested ratio.",
+        "trap_type": "ratio_to_sum_inverted"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When asked for a ratio of A to B, write A:B and simplify by dividing both terms by their greatest common divisor (GCD).",
+    "blueprint_id": "Simplifying Ratios — Flow Rates",
+    "deconstruct_text": "Step 1: Identify the two rates: first hose = 30 L/min, second hose = 50 L/min.\nStep 2: Write the ratio of first to second: 30 : 50.\nStep 3: Simplify by dividing both terms by their GCD, which is 10: 30÷10 = 3, 50÷10 = 5.\nStep 4: The simplified ratio is 3:5.\n\nWhy the distractors fail:\n- 5:3: Reverses the order (second to first).\n- 3:8: Uses the sum (30+50=80) as the second term, giving 30:80 = 3:8.\n- 5:8: Uses second to sum (50:80 = 5:8).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-005",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government employee's monthly salary was P25,000. She received a 12% salary increase. What is her new monthly salary?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P27,000"
+      },
+      {
+        "key": "B",
+        "text": "P27,500"
+      },
+      {
+        "key": "C",
+        "text": "P28,000"
+      },
+      {
+        "key": "D",
+        "text": "P28,500"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate the Increase Amount",
+        "text": "12% of P25,000 = 0.12 × 25,000."
+      },
+      {
+        "rung": 2,
+        "title": "Compute the Increase",
+        "text": "0.12 × 25,000 = 3,000. So the increase is P3,000."
+      },
+      {
+        "rung": 3,
+        "title": "Add to Original Salary",
+        "text": "New salary = Original salary + Increase = 25,000 + 3,000."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "25,000 + 3,000 = 28,000. So the new salary is P28,000 (option C)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P27,000. This would be a 8% increase (25,000 × 0.08 = 2,000; 25,000+2,000=27,000) or 12% of 25,000 = 3,000, but then subtracted? 25,000+3,000=28,000, not 27,000. Possibly used 12% of 25,000 = 3,000 but then added only 2,000? No clear path.",
+        "trap_type": "percentage_miscalculation"
+      },
+      "B": {
+        "text": "P27,500. This is a 10% increase (25,000 × 0.10 = 2,500; 25,000+2,500=27,500). The student might have used 10% instead of 12%.",
+        "trap_type": "wrong_percentage_rate"
+      },
+      "C": {
+        "text": "P28,000. Correct. Increase = 0.12 × 25,000 = 3,000. New salary = 25,000 + 3,000 = 28,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P28,500. This would be a 14% increase (25,000 × 0.14 = 3,500; 25,000+3,500=28,500). The student might have used 14% instead of 12%.",
+        "trap_type": "wrong_percentage_rate"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For percentage increase, compute the increase as (rate × original) and add to original. Alternatively, multiply original by (1 + rate).",
+    "blueprint_id": "Percentage Increase — Salary Adjustment",
+    "deconstruct_text": "Step 1: Original salary = P25,000. Increase rate = 12% = 0.12.\nStep 2: Increase amount = 0.12 × 25,000 = 3,000.\nStep 3: New salary = 25,000 + 3,000 = 28,000.\n\nWhy the distractors fail:\n- P27,000: Could be from using 8% (25,000×0.08=2,000; 25,000+2,000=27,000) or a calculation error.\n- P27,500: Using 10% increase (25,000×0.10=2,500; 25,000+2,500=27,500).\n- P28,500: Using 14% increase (25,000×0.14=3,500; 25,000+3,500=28,500).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-006",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A municipal office's budget of P800,000 was reduced by 15% due to austerity measures. What is the new budget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P640,000"
+      },
+      {
+        "key": "B",
+        "text": "P660,000"
+      },
+      {
+        "key": "C",
+        "text": "P680,000"
+      },
+      {
+        "key": "D",
+        "text": "P720,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Calculate the Reduction Amount",
+        "text": "15% of P800,000 = 0.15 × 800,000."
+      },
+      {
+        "rung": 2,
+        "title": "Compute the Reduction",
+        "text": "0.15 × 800,000 = 120,000. So the budget is reduced by P120,000."
+      },
+      {
+        "rung": 3,
+        "title": "Subtract from Original",
+        "text": "New budget = Original budget - Reduction = 800,000 - 120,000."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "800,000 - 120,000 = 680,000. So the new budget is P680,000 (option C)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P640,000. This is 80% of the original (800,000 × 0.80 = 640,000), which would be a 20% reduction, not 15%.",
+        "trap_type": "wrong_percentage_rate"
+      },
+      "B": {
+        "text": "P660,000. This is 82.5% of the original (800,000 × 0.825 = 660,000), which doesn't correspond to a common percentage. Possibly a calculation error: 800,000 - 140,000 = 660,000 (using 17.5% reduction).",
+        "trap_type": "arithmetic_slip"
+      },
+      "C": {
+        "text": "P680,000. Correct. Reduction = 0.15 × 800,000 = 120,000. New budget = 800,000 - 120,000 = 680,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P720,000. This is 90% of the original (800,000 × 0.90 = 720,000), which would be a 10% reduction. The student might have used 10% instead of 15%.",
+        "trap_type": "wrong_percentage_rate"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For percentage decrease, compute the reduction as (rate × original) and subtract from original. Alternatively, multiply original by (1 - rate).",
+    "blueprint_id": "Percentage Decrease — Budget Reduction",
+    "deconstruct_text": "Step 1: Original budget = P800,000. Reduction rate = 15% = 0.15.\nStep 2: Reduction amount = 0.15 × 800,000 = 120,000.\nStep 3: New budget = 800,000 - 120,000 = 680,000.\n\nWhy the distractors fail:\n- P640,000: Using 20% reduction (800,000 × 0.80 = 640,000).\n- P660,000: Possibly 800,000 - 140,000 = 660,000 (17.5% reduction) or arithmetic error.\n- P720,000: Using 10% reduction (800,000 × 0.90 = 720,000).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-007",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A government cooperative deposited P100,000 in a bank that pays 4% simple interest per year. How much interest will it earn after 3 years?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P8,000"
+      },
+      {
+        "key": "B",
+        "text": "P10,000"
+      },
+      {
+        "key": "C",
+        "text": "P12,000"
+      },
+      {
+        "key": "D",
+        "text": "P14,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Simple Interest Formula",
+        "text": "Simple Interest (I) = Principal (P) × Rate (r) × Time (t). Here, P = 100,000, r = 4% = 0.04, t = 3 years."
+      },
+      {
+        "rung": 2,
+        "title": "Plug in the Values",
+        "text": "I = 100,000 × 0.04 × 3."
+      },
+      {
+        "rung": 3,
+        "title": "Compute Annual Interest",
+        "text": "First, 100,000 × 0.04 = 4,000. That's the interest for one year."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply by Number of Years",
+        "text": "4,000 × 3 = 12,000. So the total interest after 3 years is P12,000 (option C)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P8,000. This would be the interest for 2 years (4,000 × 2 = 8,000) or using 4% for 2 years only. The student might have used t=2 instead of t=3.",
+        "trap_type": "time_period_error"
+      },
+      "B": {
+        "text": "P10,000. This could be from using 4% for 2.5 years (4,000 × 2.5 = 10,000) or a miscalculation like 100,000 × 0.10 = 10,000 (using 10% rate).",
+        "trap_type": "time_period_error"
+      },
+      "C": {
+        "text": "P12,000. Correct. I = 100,000 × 0.04 × 3 = 12,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P14,000. This might be from using 4% for 3.5 years (4,000 × 3.5 = 14,000) or adding an extra 2,000. No standard error pattern.",
+        "trap_type": "time_period_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Simple interest = Principal × Rate × Time. Ensure time is in the same units as the rate (years).",
+    "blueprint_id": "Simple Interest — Cooperative Deposit",
+    "deconstruct_text": "Step 1: Identify the variables: Principal (P) = P100,000, annual interest rate (r) = 4% = 0.04, time (t) = 3 years.\nStep 2: Apply the simple interest formula: I = P × r × t.\nStep 3: Compute: I = 100,000 × 0.04 × 3 = 100,000 × 0.12 = 12,000.\n\nWhy the distractors fail:\n- P8,000: Using t=2 years (4,000 × 2).\n- P10,000: Using t=2.5 years or wrong rate.\n- P14,000: Using t=3.5 years or arithmetic error.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

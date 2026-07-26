@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-code-102",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "blueprint_id": "Commonly Confused Words — COUNCIL",
+    "difficulty_level": 2,
+    "question_text": "Choose the correctly spelled word to complete the sentence: 'The city __ voted unanimously to pass the ordinance.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "council"
+      },
+      {
+        "key": "B",
+        "text": "counsel"
+      },
+      {
+        "key": "C",
+        "text": "counciled"
+      },
+      {
+        "key": "D",
+        "text": "counsels"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a classic case of two words that sound almost identical but have completely different jobs. The blank needs to be the subject of the verb 'voted' — so it has to be a noun that names a group of people who can vote."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Think of 'council' as the group that meets in a hall to make decisions. Think of 'counsel' as the advice you get from a lawyer or a trusted friend. One is a body of people; the other is guidance or the act of giving it."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule Here",
+        "text": "The sentence is about a city body that voted. That's a group of people, not advice. So you need the word that means an assembly. Also, check the grammar: 'counciled' isn't a real word, and 'counsels' would be the wrong form for this spot."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "Only one option is a noun that means a group of people who meet to govern or make decisions. That's 'council.' The others either mean advice, don't exist, or are the wrong verb form."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. 'Council' is exactly the word you need here — it's a noun that refers to an assembly of people gathered to discuss or decide on matters. In this sentence, the city council is the group doing the voting.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is a very common mix-up. 'Counsel' can be a noun meaning advice or a verb meaning to give advice. It's easy to see why someone would pick it — it sounds just like 'council.' But a city body that votes is always a 'council,' not 'counsel.' Think of it this way: you seek counsel from a lawyer, but you elect a council to represent you.",
+        "trap_type": "homophone_confusion"
+      },
+      "C": {
+        "text": "This one might look plausible if you're trying to make 'council' into a verb, but it's not a real word in standard English. 'Council' is a noun, and you can't just add '-ed' to it. The trap here is thinking you need a past-tense verb, but the sentence already has 'voted' — the blank needs a noun.",
+        "trap_type": "inflection_error"
+      },
+      "D": {
+        "text": "This is a clever trap. 'Counsels' is a real word — it's the third-person singular form of the verb 'to counsel' (he counsels) or the plural of the noun 'counsel' (pieces of advice). But neither works here. The sentence needs a singular noun for a group, and the correct plural of 'council' is 'councils,' not 'counsels.'",
+        "trap_type": "plural_error"
+      }
+    },
+    "next_time_rule": "Here's a simple trick that will never fail you: 'Council' has a 'c' like in 'committee' — both are groups of people. 'Counsel' has an 's' like in 'suggest' — both are about giving advice. When you see a sentence about a group voting, deciding, or meeting, your brain should immediately reach for 'council.'",
+    "deconstruct_text": "Let's walk through this together. The sentence says 'The city ___ voted unanimously.' The word that goes in the blank is the subject of the verb 'voted,' so it has to be a noun that names a group of people who can vote. Now look at your options. Option A, 'council,' is a noun that means exactly that — an assembly of people convened for governance or deliberation. That fits perfectly. Option B, 'counsel,' is a common homophone that means advice or the act of giving advice. A city council can vote; a piece of counsel cannot. Option C, 'counciled,' isn't a standard English word at all — someone might have tried to turn the noun 'council' into a verb, but that's not how English works. Option D, 'counsels,' is either the verb form of 'counsel' or its plural noun form, but neither refers to a voting body. The correct plural of 'council' is 'councils.' So only option A works. The mental trick here is simple: whenever you see a sentence about a group that meets, decides, or votes, think 'council' — the word with the 'c' for 'committee.' Whenever you see a sentence about advice or guidance, think 'counsel' — the word with the 's' for 'suggest.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

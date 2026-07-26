@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-003",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A disaster relief fund of ₱120,000 is allocated to three barangays in proportion to their population ratio of 3:4:5. How much budget will the barangay with the smallest population receive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱30,000"
+      },
+      {
+        "key": "B",
+        "text": "₱40,000"
+      },
+      {
+        "key": "C",
+        "text": "₱50,000"
+      },
+      {
+        "key": "D",
+        "text": "₱60,000"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think in Parts",
+        "text": "When you see a ratio like 3:4:5, imagine you're slicing a whole pie into equal-sized pieces. The numbers tell you how many pieces each barangay gets. First, figure out how many total pieces there are."
+      },
+      {
+        "rung": 2,
+        "title": "Find the Value of One Piece",
+        "text": "Once you know the total number of pieces, divide the total fund by that number. That gives you the value of each single piece. This is your key to unlocking everything."
+      },
+      {
+        "rung": 3,
+        "title": "Identify the Smallest Share",
+        "text": "The smallest population gets the smallest number of pieces. Look at the ratio: which number is the smallest? That's the number of pieces for the barangay you're asked about."
+      },
+      {
+        "rung": 4,
+        "title": "Multiply to Get the Answer",
+        "text": "Now just multiply the value of one piece by the number of pieces the smallest barangay gets. You're one simple calculation away from the answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! You found the value per part (₱120,000 ÷ 12 = ₱10,000) and multiplied by the smallest barangay's 3 parts. That gives ₱30,000. Great work keeping track of which barangay the question asked for.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is the middle barangay's share (4 parts × ₱10,000). It's a common slip—you did the math right but answered for the wrong barangay. The question specifically asks for the smallest population, which corresponds to the smallest ratio number (3).",
+        "trap_type": "wrong_part"
+      },
+      "C": {
+        "text": "This is the largest barangay's share (5 parts × ₱10,000). It's easy to grab the biggest number in the ratio, but the question asks for the smallest. Always double-check which part of the ratio matches what's being asked.",
+        "trap_type": "wrong_part"
+      },
+      "D": {
+        "text": "This answer usually comes from a calculation error. You might have divided ₱120,000 by 6 instead of 12 (getting ₱20,000 per part) and then multiplied by 3. Or you might have divided by 2. Remember: total parts = 3 + 4 + 5 = 12, not 6.",
+        "trap_type": "wrong_divisor"
+      }
+    },
+    "next_time_rule": "In any ratio allocation problem, first sum the parts to find the total number of shares. Then divide the total amount by that sum to get the value of one share. Finally, multiply by the specific part number the question asks about—not the biggest or middle one unless that's what's requested.",
+    "blueprint_id": "Ratio and Proportion — dividing budget by population ratio",
+    "deconstruct_text": "Let's walk through this together. The ratio 3:4:5 tells us how the ₱120,000 fund is split. Think of it like this: for every 3 pesos the smallest barangay gets, the middle one gets 4, and the largest gets 5. So the total number of 'shares' is 3 + 4 + 5 = 12. Now, divide the total fund by the total shares: ₱120,000 ÷ 12 = ₱10,000 per share. The smallest barangay has 3 shares, so its budget is 3 × ₱10,000 = ₱30,000. The mental trick here is to always ask yourself: 'Which part of the ratio am I solving for?' before you multiply. That simple check saves you from accidentally picking the middle or largest barangay's share.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

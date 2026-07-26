@@ -1,0 +1,229 @@
+.exam-review-layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.review-status-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.review-sticky-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-6);
+  background-color: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.review-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.review-header-left h1 {
+  font-family: var(--font-heading);
+  font-size: var(--size-base);
+  margin: 0;
+}
+
+.review-filters {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: var(--size-xs);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.filter-btn.active {
+  background-color: var(--color-brand-teal);
+  color: #FFFFFF;
+  border-color: var(--color-brand-teal);
+  font-weight: 700;
+}
+
+.review-body-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+  .review-body-grid {
+    grid-template-columns: 1fr 340px;
+  }
+}
+
+.review-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.review-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--size-xs);
+}
+
+.q-index-badge {
+  font-weight: 700;
+  color: var(--color-brand-teal);
+}
+
+.result-tag {
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+}
+
+.result-tag.correct {
+  background-color: rgba(34, 197, 94, 0.15);
+  color: #22C55E;
+}
+
+.result-tag.incorrect {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #EF4444;
+}
+
+.pacing-tag {
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono);
+}
+
+.review-stem-text {
+  font-family: var(--font-body);
+  font-size: var(--size-lg);
+  line-height: 1.6;
+  font-weight: 500;
+  margin: 0;
+}
+
+.review-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.review-option-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  font-size: var(--size-base);
+}
+
+.review-option-item.correct-target {
+  border-color: #22C55E;
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+.review-option-item.chosen-wrong {
+  border-color: #EF4444;
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.key-badge {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: var(--size-xs);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+}
+
+.text-body {
+  flex-grow: 1;
+}
+
+.mark-badge {
+  font-size: var(--size-xs);
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.mark-badge.correct {
+  background-color: #22C55E;
+  color: #FFFFFF;
+}
+
+.mark-badge.wrong {
+  background-color: #EF4444;
+  color: #FFFFFF;
+}
+
+.socratic-review-layers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.socratic-review-layers h3 {
+  font-family: var(--font-heading);
+  font-size: var(--size-base);
+  margin: 0;
+}
+
+.review-nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-palette-aside {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.review-palette-aside h3 {
+  font-family: var(--font-heading);
+  font-size: var(--size-base);
+  margin: 0;
+}

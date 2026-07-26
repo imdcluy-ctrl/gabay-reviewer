@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-022",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence avoids a comma splice?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The meeting ended, everyone went home."
+      },
+      {
+        "key": "B",
+        "text": "The meeting ended; everyone went home."
+      },
+      {
+        "key": "C",
+        "text": "The meeting ended everyone went home."
+      },
+      {
+        "key": "D",
+        "text": "The meeting ended, and everyone went home."
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Spot the Two Complete Thoughts",
+        "text": "Read each sentence and ask yourself: are there two complete sentences here that could stand alone? For example, 'The meeting ended' is a full sentence, and 'everyone went home' is also a full sentence. The question is how they're connected."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule for Joining Sentences",
+        "text": "When you have two complete sentences (independent clauses), you can't just glue them together with a comma alone. That's a comma splice. You need either a period, a semicolon, or a comma plus a joining word like 'and,' 'but,' or 'so.'"
+      },
+      {
+        "rung": 3,
+        "title": "Test Each Option",
+        "text": "Option A uses only a comma between the two sentences—that's a comma splice. Option B uses a semicolon, which is correct but not the only way. Option C has no punctuation at all—that's a run-on. Option D uses a comma plus the word 'and.' Which one follows the rule perfectly?"
+      },
+      {
+        "rung": 4,
+        "title": "The Key Difference",
+        "text": "Option D is the only one that uses a comma with a coordinating conjunction ('and'). This is the classic, safe way to join two complete sentences without making a comma splice. Option B is also grammatically correct with a semicolon, but the question specifically asks for a sentence that avoids a comma splice, and D is the most straightforward example of that fix."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a classic comma splice. You have two complete sentences—'The meeting ended' and 'everyone went home'—but they're only connected by a comma. In grammar, a comma alone isn't strong enough to hold two full sentences together. It's like trying to link two train cars with a piece of string.",
+        "trap_type": "comma_splice_error"
+      },
+      "B": {
+        "text": "A semicolon is actually a correct way to join two independent clauses, so this sentence is grammatically fine. But the question asks which sentence 'avoids a comma splice,' and while this one does, it uses a semicolon instead of the more common comma-plus-conjunction fix. The intended answer is D because it shows the most typical way to avoid a comma splice. If you picked B, you weren't wrong about grammar—you just missed what the question was specifically looking for.",
+        "trap_type": "partial_answer_error"
+      },
+      "C": {
+        "text": "This is a run-on sentence, also called a fused sentence. There's no punctuation or connecting word between the two complete thoughts. It reads like a rushed, breathless statement. While it's not a comma splice, it's still incorrect because the two sentences are just smashed together.",
+        "trap_type": "run_on_error"
+      },
+      "D": {
+        "text": "This is the correct choice. It takes two complete sentences—'The meeting ended' and 'everyone went home'—and joins them properly with a comma followed by the coordinating conjunction 'and.' This is the safest, most straightforward way to avoid a comma splice. Think of the comma and 'and' as a team: the comma signals a pause, and 'and' does the actual connecting work.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "When you see two complete sentences next to each other, remember the 'Comma + FANBOYS' rule: a comma alone is never enough. You need a comma plus one of these joining words: for, and, nor, but, or, yet, so. Or you can use a semicolon or a period. But if the question asks about avoiding a comma splice specifically, look for that comma + conjunction combo.",
+    "blueprint_id": "Comma Splices — Correction",
+    "deconstruct_text": "Let's walk through this together. The key is recognizing that both 'The meeting ended' and 'everyone went home' are complete sentences on their own. They each have a subject and a verb and express a full thought. Now, when you want to connect two complete sentences, you have a few options: you can use a period to make two separate sentences, a semicolon to link them closely, or a comma with a coordinating conjunction like 'and,' 'but,' or 'so.' Option A uses only a comma—that's the comma splice we're trying to avoid. Option C uses no punctuation at all—that's a run-on. Option B uses a semicolon, which is grammatically correct, but the question is specifically testing whether you know the comma-plus-conjunction fix. Option D gives you exactly that: a comma followed by 'and.' That's the textbook way to avoid a comma splice. Here's a mental trick to remember: imagine two train cars. A comma alone is too weak to connect them—they'll come apart. A semicolon is like a strong coupler, but a comma plus a conjunction is like using both a coupler and a safety chain. That's the most secure connection.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,44 @@
+.pwa-install-banner {
+  position: fixed;
+  bottom: calc(var(--bottom-nav-height) + var(--space-2));
+  left: var(--space-4);
+  right: var(--space-4);
+  max-width: 560px;
+  margin: 0 auto;
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-brand-teal);
+  border-radius: var(--radius-xl);
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  box-shadow: var(--shadow-lg);
+  z-index: 40;
+  animation: slideUpSheet 300ms ease-out;
+}
+
+.pwa-banner-text {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.pwa-icon {
+  font-size: 1.25rem;
+}
+
+.pwa-banner-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.pwa-dismiss-btn {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+  padding: var(--space-1);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-clops-001",
+    "subtopic_id": "clerical-operations",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8491-X'. How many characters differ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Align and Scan Methodically",
+        "text": "When verifying serial numbers (like ballot box IDs), write the two codes one above the other so you can compare each character without missing anyt..."
+      },
+      {
+        "rung": 2,
+        "title": "Transposition = Two Changes",
+        "text": "A swap of digits (transposition) means two characters have changed, not one. Think: dalawang pasahero nagpalit ng upuan, dalawang upuan nagbago ng ..."
+      },
+      {
+        "rung": 3,
+        "title": "Compare Each Position",
+        "text": "Original: PH-2026-8941-X, Copy: PH-2026-8491-X. Check position 9: 9 vs 4 (different), position 10: 4 vs 9 (different), rest identical. That’s two d..."
+      },
+      {
+        "rung": 4,
+        "title": "Count Individually",
+        "text": "Don't group the swap as one mistake. Count each mismatched character. Answer is 2."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you assumed the codes are identical without checking closely. The digits 9 and 4 are swapped, so they dif...",
+        "trap_type": "hasty_generalization"
+      },
+      "B": {
+        "text": "You might have chosen B because you saw the swap and thought of it as one error, but a transposition involves two separate character chan...",
+        "trap_type": "hasty_generalization"
+      },
+      "C": {
+        "text": "Correct. You carefully compared each position and counted two differences—the swapped 9 and 4.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you miscounted or included extra mismatches. Only two characters differ—the 9 and 4 that swapped.",
+        "trap_type": "hasty_generalization"
+      }
+    },
+    "next_time_rule": "When comparing codes, always align them character by character. A transposition (swap) counts as two differences, not one.",
+    "blueprint_id": "Data Comparison — Transposition Detection",
+    "deconstruct_text": "Let's imagine you're an election officer verifying COMELEC ballot box IDs. The original is PH-2026-8941-X, but the printed list shows PH-2026-8491-X. One slip could mix up precinct results—compare carefully.\n\nWrite them one on top of the other: Original: PH-2026-8941-X, Copy: PH-2026-8491-X. Now compare each position. The first eight characters (PH-2026-) are identical. Then you see: position 9: 9 vs 4 — different; position 10: 4 vs 9 — different; the rest match.\n\nSo exactly two characters differ. Here's the mental trick: Pag may swap, isipin mo agad, 'Dalawa ang difference!' Hindi lang isa. Bawat karakter na nagbago ay hiwalay na bilang. Parang dalawang pasahero na nagpalit ng upuan—dalawang upuan ang may bagong laman.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

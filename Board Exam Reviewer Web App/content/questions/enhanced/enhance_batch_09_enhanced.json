@@ -1,0 +1,722 @@
+[
+  {
+    "id": "num-pct-028",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P5,000 investment earned P750 simple interest over 3 years. Annual rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4%"
+      },
+      {
+        "key": "B",
+        "text": "5%"
+      },
+      {
+        "key": "C",
+        "text": "6%"
+      },
+      {
+        "key": "D",
+        "text": "7%"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Recall Simple Interest Formula",
+        "text": "Simple interest I = P × r × t. Here I = 750, P = 5,000, t = 3. Solve for r."
+      },
+      {
+        "rung": 2,
+        "title": "Isolate the Rate",
+        "text": "r = I / (P × t) = 750 / (5,000 × 3) = 750 / 15,000."
+      },
+      {
+        "rung": 3,
+        "title": "Compute the Decimal",
+        "text": "750 ÷ 15,000 = 0.05. Convert to percent: 0.05 × 100 = 5%."
+      },
+      {
+        "rung": 4,
+        "title": "Check Against Options",
+        "text": "The only option matching 5% is B. Options A, C, D are off by 1% each, likely from misplacing decimals or using wrong time."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "₱27,000. This comes from computing 15% of the gross salary (₱180,000) instead of the basic pay (₱150,000). The withholding tax rate applies only to basic pay — allowances are excluded from the tax base under BIR rules.",
+        "trap_type": "wrong_rate_and_base"
+      },
+      "B": {
+        "text": "Correct! Using I = Prt: 750 = 5,000 × r × 3 → r = 750/15,000 = 0.05 = 5%.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "₱27,000. This comes from computing 15% of the gross salary (₱180,000) instead of the basic pay (₱150,000). The withholding tax rate applies only to basic pay — allowances are excluded from the tax base under BIR rules.",
+        "trap_type": "wrong_rate_and_base"
+      },
+      "D": {
+        "text": "₱27,000. This comes from computing 15% of the gross salary (₱180,000) instead of the basic pay (₱150,000). The withholding tax rate applies only to basic pay — allowances are excluded from the tax base under BIR rules.",
+        "trap_type": "wrong_rate_and_base"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For simple interest, always write I = Prt first. Then plug in and solve for the unknown. Double-check that you used the correct time period (years) and principal amount.",
+    "blueprint_id": "Simple Interest — Annual Rate",
+    "deconstruct_text": "Step 1: Identify the formula for simple interest: I = P × r × t, where I = interest earned, P = principal, r = annual rate (decimal), t = time in years.\nStep 2: Substitute given values: I = 750, P = 5,000, t = 3 → 750 = 5,000 × r × 3.\nStep 3: Simplify: 750 = 15,000 × r.\nStep 4: Solve for r: r = 750 / 15,000 = 0.05.\nStep 5: Convert to percent: 0.05 × 100 = 5%.\n\nWhy the distractors are wrong:\n- 4%: If you mistakenly used t = 3.75 (e.g., 3 years 9 months) or swapped P and I, you might get 4%.\n- 6%: Using I = 900 (maybe misread 750 as 900) or P = 5,000, t = 3 gives 6%.\n- 7%: Using I = 1,050 or forgetting to divide by t (750/5,000 = 0.15 = 15%, then incorrectly dividing by 2).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-pct-029",
+    "subtopic_id": "percentage-interest",
+    "category_id": "numerical-ability",
+    "question_text": "A P1,200,000 building depreciates 8% per year. Value after 1 year?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P1,084,000"
+      },
+      {
+        "key": "B",
+        "text": "P1,096,000"
+      },
+      {
+        "key": "C",
+        "text": "P1,104,000"
+      },
+      {
+        "key": "D",
+        "text": "P1,112,000"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand Depreciation",
+        "text": "Depreciation reduces the value by a percentage each year. After 1 year, value = original × (1 - depreciation rate)."
+      },
+      {
+        "rung": 2,
+        "title": "Compute Depreciation Amount",
+        "text": "8% of P1,200,000 = 0.08 × 1,200,000 = P96,000."
+      },
+      {
+        "rung": 3,
+        "title": "Subtract from Original",
+        "text": "P1,200,000 - P96,000 = P1,104,000."
+      },
+      {
+        "rung": 4,
+        "title": "Match with Options",
+        "text": "P1,104,000 is option C. Option A (P1,084,000) would be if you subtracted P116,000 (9.67%). Option B (P1,096,000) if you subtracted P104,000 (8.67%). Option D (P1,112,000) if you subtracted P88,000 (7.33%)."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "P1,084,000. This results from subtracting P116,000, which is 9.67% of the original. A common mistake is miscalculating 8% as 0.8% (0.008 × 1,200,000 = 9,600) and then subtracting incorrectly, or using 10% - 2% confusion.",
+        "trap_type": "percentage_miscalculation"
+      },
+      "B": {
+        "text": "P1,096,000. This comes from subtracting P104,000, which is 8.67% of the original. Possibly the student computed 8% of 1,200,000 as 96,000 but then subtracted 104,000 (maybe added 8,000 by mistake).",
+        "trap_type": "subtraction_error"
+      },
+      "C": {
+        "text": "Correct! Depreciation = 0.08 × 1,200,000 = 96,000. Value = 1,200,000 - 96,000 = 1,104,000.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "P1,112,000. This results from subtracting P88,000, which is 7.33% of the original. A student might incorrectly compute 8% as 0.8% (0.008 × 1,200,000 = 9,600) and then subtract 9,600? No, that gives 1,190,400. More likely they used 8% of 1,100,000 = 88,000.",
+        "trap_type": "wrong_base"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Depreciation after 1 year: Value = Original × (1 - rate). Compute the depreciation amount first, then subtract. Double-check your percentage multiplication.",
+    "blueprint_id": "Asset Depreciation",
+    "deconstruct_text": "Step 1: The building's value decreases by 8% each year. After 1 year, the value is the original minus 8% of the original.\nStep 2: Compute 8% of P1,200,000: 0.08 × 1,200,000 = P96,000.\nStep 3: Subtract from original: P1,200,000 - P96,000 = P1,104,000.\n\nWhy the distractors are wrong:\n- P1,084,000: If you mistakenly used 9.67% (e.g., 8% + 1.67% from misreading), you'd subtract 116,000.\n- P1,096,000: If you subtracted 104,000 (maybe you computed 8% of 1,300,000 = 104,000).\n- P1,112,000: If you subtracted 88,000 (8% of 1,100,000 = 88,000, using wrong base).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-001",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A water reservoir for a barangay can be filled by Pump A in 4 hours and by Pump B in 6 hours. How long if both pumps work together?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.4 hours"
+      },
+      {
+        "key": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "key": "C",
+        "text": "5.0 hours"
+      },
+      {
+        "key": "D",
+        "text": "10.0 hours"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Find Individual Rates",
+        "text": "Pump A fills 1/4 of the reservoir per hour. Pump B fills 1/6 per hour. Combined rate = 1/4 + 1/6."
+      },
+      {
+        "rung": 2,
+        "title": "Add the Fractions",
+        "text": "1/4 + 1/6 = 3/12 + 2/12 = 5/12 of the reservoir per hour."
+      },
+      {
+        "rung": 3,
+        "title": "Invert for Total Time",
+        "text": "Time = 1 / (combined rate) = 1 / (5/12) = 12/5 = 2.4 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Wrong Options",
+        "text": "2.5 hours (B) is the average of 4 and 6 divided by 2? Actually (4+6)/2=5, half is 2.5, a common fallacy. 5.0 hours (C) is the average. 10.0 hours (D) is the sum."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Combined rate = 1/4 + 1/6 = 5/12 per hour. Time = 12/5 = 2.4 hours.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "2.5 hours. This is the simple average of the two times: (4+6)/2 = 5, then divided by 2? Actually (4+6)/2 = 5, half is 2.5. The correct method uses rates, not times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "5.0 hours. This is the arithmetic mean of 4 and 6. Students often average the times, but work problems require adding rates, not averaging times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "D": {
+        "text": "10.0 hours. This is the sum of the two times (4+6). Some students think working together takes longer, but combined work always takes less time than either alone.",
+        "trap_type": "rate_addition_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For combined work: find each rate (job per hour), add them, then invert. Never average or add the times directly.",
+    "blueprint_id": "Combined Work Formula",
+    "deconstruct_text": "Step 1: Determine the rate of each pump. Pump A fills 1 reservoir in 4 hours → rate = 1/4 reservoir per hour. Pump B fills 1 reservoir in 6 hours → rate = 1/6 reservoir per hour.\nStep 2: Combined rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 reservoir per hour.\nStep 3: Time to fill 1 reservoir together = 1 / (5/12) = 12/5 = 2.4 hours.\n\nWhy the distractors are wrong:\n- 2.5 hours: Some students average the times: (4+6)/2 = 5, then divide by 2 again? Actually (4+6)/2 = 5, then half is 2.5. This is incorrect.\n- 5.0 hours: The simple average of 4 and 6. This ignores that rates add.\n- 10.0 hours: Adding the times (4+6). This would be correct if they worked sequentially, not together.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-002",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Maria is 24. She is twice as old as Ana was when Maria was as old as Ana is now. How old is Ana?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define Variables",
+        "text": "Let Ana's current age = A. The age difference between Maria and Ana is 24 - A. This difference is constant over time."
+      },
+      {
+        "rung": 2,
+        "title": "Express the Past Situation",
+        "text": "When Maria was as old as Ana is now (A years old), that was (24 - A) years ago. At that time, Ana was A - (24 - A) = 2A - 24 years old."
+      },
+      {
+        "rung": 3,
+        "title": "Set Up the Equation",
+        "text": "Maria now (24) is twice Ana's age at that past time: 24 = 2 × (2A - 24)."
+      },
+      {
+        "rung": 4,
+        "title": "Solve for A",
+        "text": "24 = 4A - 48 → 4A = 72 → A = 18. Check: Maria is 24, Ana is 18. Difference = 6. When Maria was 18 (6 years ago), Ana was 12. 24 = 2 × 12. Correct."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "12. This is Ana's age when Maria was 18 (6 years ago), not her current age. A student might mistakenly take that as the answer.",
+        "trap_type": "past_age_confusion"
+      },
+      "B": {
+        "text": "14. This might come from incorrectly solving the equation, e.g., 24 = 2(2A - 24) → 24 = 4A - 48 → 4A = 56 → A = 14 (subtracting 48 from 24 incorrectly).",
+        "trap_type": "algebraic_mistake"
+      },
+      "C": {
+        "text": "16. Possibly from 24 = 2(A - (24-A))? If you set up 24 = 2(A - (24-A)) = 2(2A-24) same as correct, but solving 24 = 4A - 48 → 4A = 64 → A = 16 (adding 48 to 24 incorrectly as 72? No, 24+48=72, so 16 is from 4A=64).",
+        "trap_type": "algebraic_mistake"
+      },
+      "D": {
+        "text": "Correct! Let Ana = A. Age difference = 24 - A. Past: Maria was A, Ana was A - (24-A) = 2A-24. Equation: 24 = 2(2A-24) → 24 = 4A-48 → 4A=72 → A=18.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In age problems with 'when X was as old as Y', use the constant age difference. Let the difference = d, then set up equations based on the given relationship.",
+    "blueprint_id": "Classic Age Puzzle",
+    "deconstruct_text": "Step 1: Let Ana's current age = A. Maria is 24, so the age difference is 24 - A (constant).\nStep 2: 'When Maria was as old as Ana is now' means Maria was A years old. That was (24 - A) years ago.\nStep 3: At that time, Ana's age was A - (24 - A) = 2A - 24.\nStep 4: Maria now (24) is twice that past age: 24 = 2(2A - 24).\nStep 5: Solve: 24 = 4A - 48 → 4A = 72 → A = 18.\n\nCheck: Ana is 18, Maria is 24. Difference = 6. When Maria was 18 (6 years ago), Ana was 12. 24 = 2 × 12. Correct.\n\nWhy the distractors are wrong:\n- 12: That's Ana's past age, not current.\n- 14: Algebraic error (4A = 56).\n- 16: Algebraic error (4A = 64).",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-003",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A father is 3 times as old as his son. In 12 years, he'll be twice as old. How old is the son now?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Define Variables",
+        "text": "Let son's current age = x. Then father's current age = 3x."
+      },
+      {
+        "rung": 2,
+        "title": "Express Future Ages",
+        "text": "In 12 years: son = x + 12, father = 3x + 12. The father will be twice as old: 3x + 12 = 2(x + 12)."
+      },
+      {
+        "rung": 3,
+        "title": "Solve the Equation",
+        "text": "3x + 12 = 2x + 24 → 3x - 2x = 24 - 12 → x = 12."
+      },
+      {
+        "rung": 4,
+        "title": "Verify",
+        "text": "Son now 12, father 36. In 12 years: son 24, father 48. 48 = 2 × 24. Correct. Option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. If son is 10, father is 30. In 12 years: son 22, father 42. 42 is not twice 22 (44). This might come from solving 3x+12 = 2x+12? That gives x=0, or misapplying the equation.",
+        "trap_type": "equation_setup_error"
+      },
+      "B": {
+        "text": "Correct! Let son = x, father = 3x. In 12 years: 3x+12 = 2(x+12) → 3x+12 = 2x+24 → x = 12.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "14. If son is 14, father is 42. In 12 years: son 26, father 54. 54 is not twice 26 (52). This could result from solving 3x+12 = 2x+24 but making an arithmetic error (e.g., 3x+12=2x+24 → x=12, not 14).",
+        "trap_type": "arithmetic_error"
+      },
+      "D": {
+        "text": "16. If son is 16, father is 48. In 12 years: son 28, father 60. 60 is not twice 28 (56). This might come from 3x+12 = 2(x+12) → 3x+12 = 2x+24 → x=12, not 16. Possibly misreading 'twice' as 'three times'?",
+        "trap_type": "arithmetic_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For age problems with future relationships, set up current ages, add the years, then write the future relationship equation. Solve carefully.",
+    "blueprint_id": "Father-Son Age Problem",
+    "deconstruct_text": "Step 1: Let son's current age = x. Father is 3 times as old, so father = 3x.\nStep 2: In 12 years: son = x + 12, father = 3x + 12.\nStep 3: At that time, father is twice as old as son: 3x + 12 = 2(x + 12).\nStep 4: Solve: 3x + 12 = 2x + 24 → 3x - 2x = 24 - 12 → x = 12.\nStep 5: Son is 12 now. Check: father 36, in 12 years son 24, father 48, 48 = 2×24.\n\nWhy the distractors are wrong:\n- 10: If son=10, father=30, in 12 years: 42 vs 22, not double.\n- 14: If son=14, father=42, in 12 years: 54 vs 26, not double.\n- 16: If son=16, father=48, in 12 years: 60 vs 28, not double.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-004",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Two employees can encode 1,500 forms in 6 hours together. Jose alone takes 10 hours. How long for Pedro alone?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "correct_option": "D",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Rates",
+        "text": "Together they complete 1/6 of the job per hour. Jose alone does 1/10 per hour. Pedro's rate is the difference."
+      },
+      {
+        "rung": 2,
+        "title": "Pedro's Rate",
+        "text": "Pedro's rate = 1/6 - 1/10. Find a common denominator: 30."
+      },
+      {
+        "rung": 3,
+        "title": "Compute",
+        "text": "1/6 = 5/30, 1/10 = 3/30. So Pedro's rate = (5-3)/30 = 2/30 = 1/15 of the job per hour."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "If Pedro does 1/15 per hour, he alone takes 15 hours. That's option D."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "12 hours. This is the simple average of 10 and 14 (a made-up number), not the correct work-rate calculation. The student might have guessed or averaged incorrectly.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "B": {
+        "text": "13 hours. This could come from incorrectly computing 1/6 + 1/10 = 8/30 = 4/15, then taking reciprocal as 15/4 = 3.75 and misinterpreting. Or from a miscalculation like 10+6=16, 16/2=8, then adding 5.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "C": {
+        "text": "14 hours. This might result from thinking Pedro's time is the sum of the two times (10+6=16) minus 2, or from a wrong formula like 1/(1/10 + 1/6) = 3.75, then rounding up incorrectly.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "D": {
+        "text": "Correct! Pedro's rate is 1/15 of the job per hour, so he takes 15 hours alone. Check: together rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6, matching the given 6 hours.",
+        "trap_type": null
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For work problems, use 1/together = 1/A + 1/B. Solve for the unknown rate, then invert to get time.",
+    "blueprint_id": "Finding Individual Work Rate",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Determine work rates.**\n- Together: 1 job in 6 hours → rate = 1/6 job per hour.\n- Jose alone: 1 job in 10 hours → rate = 1/10 job per hour.\n\n**Step 2: Find Pedro's rate.**\nPedro's rate = Combined rate − Jose's rate = 1/6 − 1/10.\nCommon denominator 30: 5/30 − 3/30 = 2/30 = 1/15 job per hour.\n\n**Step 3: Compute Pedro's time.**\nTime = 1 job ÷ (1/15 job per hour) = 15 hours.\n\n### ❌ Why Wrong Options Fail\n- **12 hours (A):** Simple average of 10 and 14? No logical basis. A common trap is averaging the two given times (10 and 6) to get 8, then adding 4 — but that's not valid.\n- **13 hours (B):** Might come from 1/(1/10 + 1/6) = 1/(8/30) = 30/8 = 3.75, then misreading as 13? Or from 10+6=16, 16-3=13.\n- **14 hours (C):** Possibly from 10+6=16, then subtracting 2, or from a wrong formula like (10×6)/(10+6)=60/16=3.75, then misinterpreting.\n\nAlways set up the rate equation carefully.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-005",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A car travels from City A to B at 60 km/h and returns at 40 km/h. Average speed for round trip?",
+    "options": [
+      {
+        "key": "A",
+        "text": "48 km/h"
+      },
+      {
+        "key": "B",
+        "text": "50 km/h"
+      },
+      {
+        "key": "C",
+        "text": "52 km/h"
+      },
+      {
+        "key": "D",
+        "text": "55 km/h"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "AVG Speed Formula",
+        "text": "Average speed = total distance / total time. You cannot simply average the two speeds because times differ."
+      },
+      {
+        "rung": 2,
+        "title": "Assume distance",
+        "text": "Pick a convenient distance for one way. Use the least common multiple of 60 and 40, which is 120 km."
+      },
+      {
+        "rung": 3,
+        "title": "Times",
+        "text": "Going time = 120/60 = 2 hours. Return time = 120/40 = 3 hours. Total distance = 240 km, total time = 5 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Compute",
+        "text": "Average speed = 240 km / 5 h = 48 km/h. That's option A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Average speed = total distance / total time. Using 120 km each way gives 240 km total, 5 hours total, so 48 km/h.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "50 km/h. This is the simple arithmetic mean of 60 and 40: (60+40)/2 = 50. That would be correct only if equal time was spent at each speed, but here distances are equal, not times.",
+        "trap_type": "simple_average_fallacy"
+      },
+      "C": {
+        "text": "52 km/h. This might come from a weighted average error, like (60×2 + 40×3)/5 = (120+120)/5 = 240/5 = 48, but miscalculated as 52. Or from (60+40)/2 + 2 = 52.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "D": {
+        "text": "55 km/h. Possibly from averaging 60 and 40 then adding 5, or from a wrong formula like (60×40)/(60+40) = 2400/100 = 24, then doubling to 48 and adding 7.",
+        "trap_type": "calculation_error_in_plausible_method"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Average speed = total distance / total time. NEVER average the speeds directly when distances are equal.",
+    "blueprint_id": "Average Speed Harmonic Mean",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Understand the formula.**\nAverage speed = total distance traveled / total time taken.\n\n**Step 2: Assume a distance.**\nSince the distance between A and B is unknown, pick a convenient number. Use the least common multiple of 60 and 40, which is 120 km for one way.\n\n**Step 3: Calculate times.**\n- Going: time = 120 km / 60 km/h = 2 hours.\n- Returning: time = 120 km / 40 km/h = 3 hours.\n- Total distance = 120 + 120 = 240 km.\n- Total time = 2 + 3 = 5 hours.\n\n**Step 4: Compute average speed.**\n240 km / 5 h = 48 km/h.\n\n### ❌ Why Wrong Options Fail\n- **50 km/h (B):** The classic trap — simply averaging 60 and 40. This would be correct only if the car spent equal time at each speed, but here distances are equal, so more time is spent at the slower speed.\n- **52 km/h (C):** No logical derivation; possibly a miscalculation of the weighted average.\n- **55 km/h (D):** Also a miscalculation; perhaps (60+40)/2 = 50, then adding 5.\n\nAlways use total distance / total time for average speed.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-006",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A courier drives to an agency at 50 km/h, arrives 10AM. At 60 km/h would arrive 9:30AM. Distance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "120 km"
+      },
+      {
+        "key": "B",
+        "text": "150 km"
+      },
+      {
+        "key": "C",
+        "text": "180 km"
+      },
+      {
+        "key": "D",
+        "text": "200 km"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Time Difference",
+        "text": "The faster speed saves 30 minutes = 0.5 hours. This time saving is key."
+      },
+      {
+        "rung": 2,
+        "title": "Equation",
+        "text": "Let d = distance. Time at 50 km/h = d/50, at 60 km/h = d/60. The difference is 0.5 hours: d/50 - d/60 = 0.5."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Find common denominator: (6d - 5d)/300 = 0.5 → d/300 = 0.5."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "Multiply both sides by 300: d = 150 km. That's option B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "120 km. This might come from assuming the time saved is 0.5 h and multiplying by 60 km/h to get 30 km, then adding to 90? Or from a wrong equation like d/60 = 0.5 → d=30, then multiplying by 4.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "B": {
+        "text": "Correct! d/50 - d/60 = 0.5 → d/300 = 0.5 → d = 150 km. Check: 150/50=3h, 150/60=2.5h, difference 0.5h.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "180 km. Possibly from d/50 = 3.6, d/60 = 3, difference 0.6, not 0.5. Or from multiplying 60 by 3 (since 3 hours at 60 km/h = 180 km) but that ignores the time difference.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "D": {
+        "text": "200 km. Might come from 50×4=200, assuming 4 hours travel time, but that doesn't match the 30-minute difference. Or from 60×3.33≈200, again not consistent.",
+        "trap_type": "calculation_error_in_plausible_method"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** When time saved is given, set up an equation: time1 - time2 = time saved. Solve for distance.",
+    "blueprint_id": "Speed Difference Time Saved",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Define variables.**\nLet d = distance from office to agency (in km).\n\n**Step 2: Express times.**\n- Time at 50 km/h: t₁ = d/50 hours.\n- Time at 60 km/h: t₂ = d/60 hours.\n- The difference is 30 minutes = 0.5 hours: t₁ - t₂ = 0.5.\n\n**Step 3: Set up equation.**\nd/50 - d/60 = 0.5\n\n**Step 4: Solve.**\nCommon denominator 300: (6d - 5d)/300 = 0.5 → d/300 = 0.5 → d = 150 km.\n\n**Step 5: Verify.**\nAt 50 km/h: 150/50 = 3 hours → arrives 10 AM (so started 7 AM).\nAt 60 km/h: 150/60 = 2.5 hours → arrives 9:30 AM. Correct.\n\n### ❌ Why Wrong Options Fail\n- **120 km (A):** If d=120, times are 2.4h and 2h, difference 0.4h, not 0.5.\n- **180 km (C):** Times 3.6h and 3h, difference 0.6h.\n- **200 km (D):** Times 4h and 3.33h, difference 0.67h.\n\nOnly 150 km gives exactly 0.5h difference.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-007",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "A 20L disinfectant has 30% bleach. How many L of pure bleach to add for 50% bleach?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 L"
+      },
+      {
+        "key": "B",
+        "text": "6 L"
+      },
+      {
+        "key": "C",
+        "text": "8 L"
+      },
+      {
+        "key": "D",
+        "text": "10 L"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Current Bleach",
+        "text": "Currently, 30% of 20 L is bleach: 0.30 × 20 = 6 L of pure bleach."
+      },
+      {
+        "rung": 2,
+        "title": "Let x=added bleach",
+        "text": "After adding x L of pure bleach, total bleach = 6 + x, total volume = 20 + x. We want (6+x)/(20+x) = 0.50."
+      },
+      {
+        "rung": 3,
+        "title": "Solve",
+        "text": "Multiply both sides by (20+x): 6+x = 10 + 0.5x → subtract 0.5x: 0.5x = 4 → x = 8."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "You need to add 8 L of pure bleach. Check: (6+8)/(20+8) = 14/28 = 0.50. Option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "4 L. This might come from thinking you need to increase bleach by 20% of 20 L = 4 L, but that ignores the volume increase. Or from 20×0.2=4.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "B": {
+        "text": "6 L. This is the current amount of bleach. Adding 6 L would give 12 L bleach in 26 L total = 46.15%, not 50%. A common mistake is to add the same amount as current bleach.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "C": {
+        "text": "Correct! Adding 8 L gives 14 L bleach in 28 L total = 50%.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "10 L. This might come from thinking you need to double the bleach (6 to 12) but miscalculating volume: 12/30=0.4, not 0.5. Or from 20×0.5=10, ignoring existing bleach.",
+        "trap_type": "calculation_error_in_plausible_method"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For mixture problems, set up (pure amount)/(total volume) = target concentration. Let x be the added pure substance.",
+    "blueprint_id": "Adding Bleach for Higher Concentration",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Find current bleach.**\n20 L × 30% = 6 L of pure bleach.\n\n**Step 2: Define variable.**\nLet x = liters of pure bleach to add.\n\n**Step 3: Set up equation.**\nAfter adding: total bleach = 6 + x, total volume = 20 + x.\nDesired concentration: (6 + x) / (20 + x) = 0.50.\n\n**Step 4: Solve.**\nMultiply both sides by (20 + x): 6 + x = 0.50(20 + x) = 10 + 0.5x.\nSubtract 0.5x: 0.5x = 4 → x = 8 L.\n\n**Step 5: Verify.**\nNew bleach = 6+8=14 L, new volume = 20+8=28 L, concentration = 14/28 = 0.50 = 50%.\n\n### ❌ Why Wrong Options Fail\n- **4 L (A):** Would give 10 L bleach in 24 L = 41.7%.\n- **6 L (B):** Would give 12 L bleach in 26 L = 46.2%.\n- **10 L (D):** Would give 16 L bleach in 30 L = 53.3%.\n\nOnly 8 L yields exactly 50%.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "num-word-008",
+    "subtopic_id": "word-problems-algebra",
+    "category_id": "numerical-ability",
+    "question_text": "Jose finishes a report in 5h, Pedro in 3h. Together, how long?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5"
+      },
+      {
+        "key": "B",
+        "text": "1.75"
+      },
+      {
+        "key": "C",
+        "text": "1.875"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Rates",
+        "text": "Jose's rate = 1/5 of the report per hour. Pedro's rate = 1/3 per hour. Combined rate = 1/5 + 1/3."
+      },
+      {
+        "rung": 2,
+        "title": "Combined",
+        "text": "Find common denominator: 1/5 = 3/15, 1/3 = 5/15. Combined = 8/15 of the report per hour."
+      },
+      {
+        "rung": 3,
+        "title": "Time",
+        "text": "Time = 1 job / (combined rate) = 1 / (8/15) = 15/8 hours."
+      },
+      {
+        "rung": 4,
+        "title": "Answer",
+        "text": "15/8 = 1.875 hours. That's option C."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "1.5 hours. This is the simple average of 5 and 3 divided by something? Actually (5+3)/2=4, then 1/4=0.25? No. 1.5 might come from (5×3)/(5+3)=15/8=1.875, but miscalculated as 1.5. Or from averaging 5 and 3 to get 4, then taking half?",
+        "trap_type": "simple_average_fallacy"
+      },
+      "B": {
+        "text": "1.75 hours. This could be from (5+3)/2=4, then 4/2=2, minus 0.25? Or from 1/(1/5+1/3)=15/8=1.875, but rounding down incorrectly.",
+        "trap_type": "calculation_error_in_plausible_method"
+      },
+      "C": {
+        "text": "Correct! Combined rate = 8/15 per hour, so time = 15/8 = 1.875 hours.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "2 hours. This might come from averaging 5 and 3 to get 4, then dividing by 2? Or from thinking together they take half the average time: (5+3)/2=4, half is 2. That's a common fallacy.",
+        "trap_type": "calculation_error_in_plausible_method"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For combined work, use 1/t = 1/a + 1/b. Never average the times.",
+    "blueprint_id": "Two-Person Combined Work",
+    "deconstruct_text": "### 📖 Step-by-Step Solution\n\n**Step 1: Determine individual rates.**\n- Jose: 1 report in 5 hours → rate = 1/5 report per hour.\n- Pedro: 1 report in 3 hours → rate = 1/3 report per hour.\n\n**Step 2: Find combined rate.**\nCombined rate = 1/5 + 1/3 = 3/15 + 5/15 = 8/15 report per hour.\n\n**Step 3: Calculate time together.**\nTime = 1 report ÷ (8/15 report per hour) = 15/8 hours = 1.875 hours.\n\n**Step 4: Convert if needed.**\n1.875 hours = 1 hour and 52.5 minutes.\n\n### ❌ Why Wrong Options Fail\n- **1.5 hours (A):** Might come from (5+3)/2=4, then 4/2=2, then subtract 0.5? No clear logic.\n- **1.75 hours (B):** Possibly from (5×3)/(5+3)=15/8=1.875, but miscomputed as 1.75.\n- **2 hours (D):** A common trap: average of 5 and 3 is 4, then half is 2. But work rates don't average that way.\n\nAlways use the reciprocal sum formula.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-021",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "In a government procurement, the ratio of office chairs to tables is 5:2. If there are 35 chairs, how many tables are there?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This is a ratio problem. The ratio 5:2 tells you the relationship between chairs and tables. For every 5 chairs, there are 2 tables. You know the actual number of chairs (35), so you need to find the actual number of tables that keeps that same relationship."
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "In any ratio problem, find the value of one part first. Divide the known quantity (35 chairs) by its ratio number (5). That gives you the value of one part."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "One part equals 35 divided by 5, which is 7. Now, tables correspond to 2 parts in the ratio. So multiply the value of one part (7) by the number of parts for tables (2)."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "You're just one step away. If one part is 7, and tables are 2 parts, then tables = 2 times 7. What is 2 times 7? That number is your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "10. This is a very common trap. You might have thought, 'The ratio is 5:2, so tables are 2/7 of the total.' But here, 35 is not the total—it's just the chairs. If you mistakenly treat 35 as the total, then 2/7 of 35 gives you 10. The key is to realize that 35 represents only the 5 parts for chairs, not the whole 7 parts.",
+        "trap_type": "fraction_of_total_misapplication"
+      },
+      "B": {
+        "text": "12. This one doesn't follow a clear logical path from the ratio. It might come from a small arithmetic slip, like dividing 35 by 5 to get 7, then multiplying by something close to 2 but not quite. Or perhaps you added 2 to 10 after falling for the first trap. Either way, 12 doesn't maintain the 5:2 ratio with 35.",
+        "trap_type": "incorrect_scaling_factor"
+      },
+      "C": {
+        "text": "14 is correct. Here's the clean way to see it: The ratio 5:2 means chairs are 5 parts and tables are 2 parts. Since 5 parts equal 35 chairs, one part is 35 divided by 5, which is 7. Tables are 2 parts, so 2 times 7 gives you 14. And 35:14 simplifies perfectly to 5:2.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "16. This might happen if you correctly found that one part is 7, but then thought tables were a bit more than 2 parts, or made a small addition error. Another possibility is that you tried to work backwards from the ratio but got confused. 16 doesn't fit because 35:16 doesn't simplify to 5:2.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "In ratio problems, always find the value of one part first by dividing the known quantity by its own ratio number. Then multiply that value by the other ratio number to get your answer. Don't treat the known quantity as the total unless the problem explicitly says so.",
+    "blueprint_id": "Direct Proportion — Procurement Ratio",
+    "deconstruct_text": "Let's walk through this together. The ratio of chairs to tables is 5:2. This is like saying, for every 5 chairs in the room, there are exactly 2 tables. Now, we know there are actually 35 chairs. So how do we scale that ratio up to real numbers?\n\nThink of the ratio as telling you how many 'parts' each item gets. Chairs get 5 parts, tables get 2 parts. The 35 chairs we have represent those 5 parts. So to find out what one single part is worth, we divide: 35 divided by 5 equals 7. That means each part in our ratio is equal to 7 actual items.\n\nNow, tables get 2 parts in the ratio. So the actual number of tables is 2 parts times 7 items per part, which is 14. That's our answer.\n\nHere's a mental trick to lock this in: whenever you see a ratio like a:b and you know the actual value for a, just divide that value by a to get the 'unit' of one part, then multiply by b. It's that simple. The most common mistake is treating the known number as the total of all parts combined, so always ask yourself: 'Does this number represent the whole, or just one piece of the ratio?'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

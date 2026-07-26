@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-log-406",
+    "category_id": "analytical-ability",
+    "subtopic_id": "logical-reasoning",
+    "question_text": "If a document is classified, then it requires a security clearance. Which of the following is logically equivalent to this statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If a document does not require a security clearance, then it is not classified."
+      },
+      {
+        "key": "B",
+        "text": "If a document requires a security clearance, then it is classified."
+      },
+      {
+        "key": "C",
+        "text": "If a document is not classified, then it does not require a security clearance."
+      },
+      {
+        "key": "D",
+        "text": "All documents that require a security clearance are classified."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about the relationship between a statement and its logical twin. There's one special transformation that always keeps the meaning exactly the same."
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The trick is called the contrapositive. For any 'If P then Q' statement, the contrapositive is 'If not Q then not P'. These two are always logically identical."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Here, P = 'document is classified' and Q = 'requires clearance'. So the contrapositive would be: If a document does NOT require clearance (not Q), then it is NOT classified (not P)."
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "Look for the option that flips both parts and negates them. That's option A. The others either swap without negating or negate without swapping."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This is the contrapositive: 'If not Q then not P.' It's the only option that keeps the original meaning intact. Think of it this way: if the original says 'classified documents always need clearance,' then any document that doesn't need clearance simply cannot be classified.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This is the converse—it swaps the parts without negating them. A smart student might think 'if it needs clearance, it must be classified,' but that's not what the original says. The original only guarantees that classified documents need clearance, not that clearance means classified. Many things could need clearance without being classified.",
+        "trap_type": "converse_confusion"
+      },
+      "C": {
+        "text": "This is the inverse—it negates both parts without swapping them. It says 'if not classified, then no clearance needed.' But the original doesn't say that unclassified documents can't need clearance. Maybe some unclassified documents also require clearance for other reasons. The inverse is a common trap because it sounds reasonable but isn't logically guaranteed.",
+        "trap_type": "inverse_confusion"
+      },
+      "D": {
+        "text": "This is just the converse dressed up in different words. 'All documents that require clearance are classified' means the same as 'if clearance, then classified.' Same trap as option B. The original only tells you about classified documents, not about all documents that need clearance.",
+        "trap_type": "converse_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The original statement is: 'If classified (P), then requires clearance (Q).' This is a one-way promise—it only tells you what happens when a document IS classified. It doesn't say anything about documents that aren't classified or about documents that need clearance.\n\nNow, the only statement that's logically identical is the contrapositive: 'If not Q, then not P.' That means: 'If a document does NOT require clearance, then it is NOT classified.' Why is this guaranteed? Because if it WERE classified, it would need clearance (by the original rule). So if it doesn't need clearance, it can't possibly be classified. That's airtight logic.\n\nHere's a mental trick I call the 'Flip and Negate' test. When you see an 'If P then Q' statement, ask yourself: Did the option flip the two parts AND negate both? If it only flipped (converse) or only negated (inverse), it's not equivalent. Only the flip-and-negate combo works.",
+    "next_time_rule": "For any 'If P then Q' statement, the only logically equivalent form is the contrapositive: 'If not Q then not P.' Use the 'Flip and Negate' test—both must happen. If only one happens, it's a trap.",
+    "blueprint_id": "B-1749",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

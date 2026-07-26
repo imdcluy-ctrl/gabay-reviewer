@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ver-vocab-009",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'DISSEMINATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceal"
+      },
+      {
+        "key": "B",
+        "text": "Withhold"
+      },
+      {
+        "key": "C",
+        "text": "Spread"
+      },
+      {
+        "key": "D",
+        "text": "Collect"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient",
+        "text": "This word is all about how information moves. Picture a teacher with a handful of seeds. Does she hide them, keep them in her pocket, gather more, or scatter them across the field? That action is the core meaning here."
+      },
+      {
+        "rung": 2,
+        "title": "Rule",
+        "text": "The word 'disseminate' comes from Latin roots meaning 'to sow seeds.' So, think of it as scattering seeds of information far and wide. The synonym must involve spreading or distributing broadly."
+      },
+      {
+        "rung": 3,
+        "title": "Apply",
+        "text": "Now look at your options. Which one means to scatter or distribute widely? 'Conceal' and 'Withhold' are about keeping things hidden or held back. 'Collect' is about gathering things together. Only one option matches the idea of scattering."
+      },
+      {
+        "rung": 4,
+        "title": "Nearly There",
+        "text": "Imagine a news agency that wants to 'disseminate' a press release. They would send it to every newspaper, TV station, and website. They would 'spread' it everywhere. That's your answer."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This is a tempting trap if you focus on the 'dis-' prefix and think it means 'not' or 'away,' leading you to guess the opposite of 'reveal.' But 'disseminate' isn't about revealing or hiding—it's about spreading. 'Conceal' means to hide, which is the exact opposite of scattering seeds of information.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Another antonym trap. 'Withhold' means to hold back or keep something from being released. A student might mistakenly think 'disseminate' involves keeping information controlled, but it actually means letting it flow freely. Think of it this way: you can't 'withhold' seeds you're trying to scatter.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct. 'Disseminate' means to spread or distribute widely, just like scattering seeds. In the civil service context, you'll often see this word used for distributing official information, policies, or research findings to the public.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "This is a classic mix-up between distributing and gathering. 'Collect' means to bring things together, while 'disseminate' means to send things out. If you're collecting seeds, you're doing the opposite of scattering them. Remember: disseminate = spread out, not round up.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "deconstruct_text": "Let's break this down in a way that sticks. The word 'disseminate' comes from the Latin 'disseminare'—'dis' meaning 'apart' and 'seminare' meaning 'to sow seeds.' So literally, it means to scatter seeds. When you disseminate information, you're scattering it far and wide so it reaches as many people as possible. Now look at the options: 'Conceal' (hide), 'Withhold' (hold back), and 'Collect' (gather) all involve keeping things contained or bringing them together. Only 'Spread' matches the idea of scattering outward. Here's a mental trick: think of a farmer sowing seeds in a field. That farmer is disseminating. If you remember that image, you'll never confuse this word with its opposites.",
+    "next_time_rule": "The 'Seed-Scatter' Test: When you see 'disseminate,' immediately picture someone scattering seeds. If the synonym involves hiding, holding back, or gathering, it's wrong. Only choose the word that means to spread or distribute widely.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

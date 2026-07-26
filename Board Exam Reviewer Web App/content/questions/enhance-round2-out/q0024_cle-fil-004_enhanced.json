@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-004",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Compare Code Original: 'PH-2026-8941-X' with Code Copy: 'PH-2026-8914-X'. Are they identical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, they are completely identical."
+      },
+      {
+        "key": "B",
+        "text": "No, the digits 41 and 14 are transposed."
+      },
+      {
+        "key": "C",
+        "text": "No, the prefix is different."
+      },
+      {
+        "key": "D",
+        "text": "No, the checksum letter is different."
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Relax muna! Compare the Codes",
+        "text": "Time pressure can trick you. Relax, then view both codes. Imagine verifying PWD ID numbers at the barangay; one typo means delayed aid."
+      },
+      {
+        "rung": 2,
+        "title": "Hatian ng Tatlong Chunks",
+        "text": "Split into prefix ('PH-2026-'), number group, and suffix ('-X'). Compare each. Sa sari-sari store, isa-isang tinitingnan ang listahan para walang m..."
+      },
+      {
+        "rung": 3,
+        "title": "Focus sa Gitnang Numero",
+        "text": "Prefix at suffix pareho. Ang difference nasa '8941' vs '8914'—parang nagkapalit ang huling dalawang digits, '41' naging '14'. Classic swap sa data ..."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot: Transposition Error",
+        "text": "The error is transposition. Piliin ang option na nagsasabing 'the digits 41 and 14 are transposed.' Yan ang tamang sagot, kaya piliin ang B."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because a quick glance can make the codes look identical, but the transposition of '41' to '14' is easy to miss.",
+        "trap_type": "oversight_error"
+      },
+      "B": {
+        "text": "Correct. The codes are not identical; '41' and '14' are transposed, exactly the clerical error this test checks for.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because the codes share the same prefix, but the difference is actually in the number group, not the prefix.",
+        "trap_type": "wrong_location_error"
+      },
+      "D": {
+        "text": "You might have chosen D because it's easy to assume the suffix differs, but both end with '-X'; the real error is in the middle digits.",
+        "trap_type": "wrong_location_error"
+      }
+    },
+    "next_time_rule": "Gamitin ang 'Pabaliktad' method: basahin code mula dulo, isa-isahin ang digits. Transpositions become obvious—parang pag-verify ng jeepney plate number!",
+    "blueprint_id": "Clerical Accuracy — Code Verification and Transposition Detection",
+    "deconstruct_text": "Isipin mo nasa Budget Office ka ng LGU, nagba- verify ka ng Purchase Order numbers. 'PH-2026-8941-X' at 'PH-2026-8914-X'—mukhang pareho pero may maliit na pagkakaiba. Hatiin natin sa tatlo: prefix, number, suffix.\n\nPrefix 'PH-2026-' pareho. Suffix '-X' pareho. Pero 'yung 8941 vs 8914, yung huling dalawang digit nagkapalit. Sa clerical work, isang typo lang, delayed na ang release.\n\nAng mental trick? Basahin mo pabaliktad, parang plate number ng jeep—'X-1498-6202-HP'—para bawat character makita mo nang isa-isa. Transpositions, mahuhuli mo agad.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

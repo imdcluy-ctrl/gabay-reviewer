@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-vanal-008",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "question_text": "SPEEDOMETER is to SPEED as THERMOMETER is to ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Heat"
+      },
+      {
+        "key": "B",
+        "text": "Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Mercury"
+      },
+      {
+        "key": "D",
+        "text": "Weather"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Kilalanin ang Ugnayan",
+        "text": "Sa speedometer, sinusukat nito ang speed. Ang relasyon ay 'instrumento' sa 'sinusukat'. Ano'ng sinusukat ng thermometer?"
+      },
+      {
+        "rung": 2,
+        "title": "Hiwalayin ang Magkakaugnay",
+        "text": "Init (heat) ay enerhiya, hindi sukat. Mercury ay laman. Weather ay pangkalahatan. Ang instrumento ay sumusukat ng tiyak na quantity."
+      },
+      {
+        "rung": 3,
+        "title": "Tutukan ang Sinusukat",
+        "text": "Gaya ng bilis na sinusukat ng speedometer, ang temperatura naman ang sinusukat ng thermometer. Iba-iba pero eksaktong parallel."
+      },
+      {
+        "rung": 4,
+        "title": "Tukuyin ang Tamang Sagot",
+        "text": "Tamang sagot: Temperatura. Ito ang tiyak na sukat, hindi init, mercury, o panahon."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because heat is often associated with temperature, but a thermometer measures temperature directly, not heat as e...",
+        "trap_type": "related_but_not_measured"
+      },
+      "B": {
+        "text": "Correct. A thermometer measures temperature, just as a speedometer measures speed.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "You might have chosen C because mercury is found in some thermometers, but it's the medium, not the measured quantity.",
+        "trap_type": "mechanism_vs_measurement"
+      },
+      "D": {
+        "text": "You might have chosen D because weather includes temperature, but a thermometer measures specifically temperature, not the broad condition.",
+        "trap_type": "overgeneralization"
+      }
+    },
+    "next_time_rule": "Sa instrument-measure analogy, hanapin lagi 'yung specific na sinusukat, hindi 'yung laman, sanhi, o pinakamasaklaw na kategorya. Isipin: ano'ng binabasa?",
+    "blueprint_id": "Instrument-Measure",
+    "deconstruct_text": "**Ate/Kuya’s Breakdown:** \n\n Isipin mo na lang: sa jeep, 'yung speedometer sa dashboard, ang sinusukat nito ay speed o bilis. So relasyon: instrumento → sinusukat na quantity. \n\n Ngayon, ang thermometer naman – tulad ng nakikita mo sa LGU health center pag may nagpapa-check ng lagnat – ang sinusukat talaga nito ay temperature, hindi 'yung init mismo (heat) o 'yung mercury sa loob o 'yung weather sa labas. Kaya nga ang sagot: Temperature. \n\n **Mental Trick:** Pag may instrument-measure analogy, isipin mo: “Ano ba ang binabasa ko dito?” ‘Yun ang tamang sagot, ‘di ‘yung laman o ‘yung pangkalahatang kategorya. \n\n **Watch-Out Zone: mechanism_vs_measurement** in action. 'Yung mercury (content) ay hind...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

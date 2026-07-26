@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-govt-100",
+    "subtopic_id": "philippine-government",
+    "category_id": "general-information",
+    "blueprint_id": "RA 7160 Local Government Code & Mandates Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Which government body is constitutionally mandated to audit all accounts pertaining to the revenue and expenditures of government agencies (COA, CSC, COMELEC)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Commission on Audit (COA)"
+      },
+      {
+        "key": "B",
+        "text": "Civil Service Commission (CSC)"
+      },
+      {
+        "key": "C",
+        "text": "Commission on Elections (COMELEC)"
+      },
+      {
+        "key": "D",
+        "text": "Department of Budget and Management (DBM)"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Think About the Core Job",
+        "text": "This question is asking which body is specifically in charge of checking the money—where it comes from and where it goes. Which agency's name or mandate screams 'financial watchdog'?"
+      },
+      {
+        "rung": 2,
+        "title": "The Three Commissions Rule",
+        "text": "The 1987 Constitution created three independent constitutional commissions: one for audits, one for civil service, and one for elections. Each has a completely different focus. Which one deals with accounts and expenditures?"
+      },
+      {
+        "rung": 3,
+        "title": "Match the Mandate to the Name",
+        "text": "Article IX-D of the Constitution gives the Commission on Audit (COA) the exclusive power to examine, audit, and settle all government accounts. The other commissions handle people (CSC) and votes (COMELEC). The DBM is an executive department, not a constitutional commission."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate and Confirm",
+        "text": "So, CSC handles hiring and promotions, COMELEC handles elections, and DBM prepares the budget but doesn't audit it. That leaves only one option that fits the audit mandate perfectly: COA."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The Commission on Audit (COA) is the constitutional body with the exclusive mandate to audit all government accounts, as stated in Article IX-D of the 1987 Constitution. Think of COA as the government's independent financial watchdog.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Not quite. The Civil Service Commission (CSC) is all about the people—hiring, promotions, and civil service rules. It's easy to mix up the three constitutional commissions, but remember: CSC handles personnel, not pesos.",
+        "trap_type": "agency_mandate_confusion"
+      },
+      "C": {
+        "text": "Close, but no. The Commission on Elections (COMELEC) focuses on elections, campaign finance, and voter registration. While it deals with some money matters related to campaigns, its main job is not auditing general government accounts.",
+        "trap_type": "agency_mandate_confusion"
+      },
+      "D": {
+        "text": "A common mix-up. The Department of Budget and Management (DBM) prepares the national budget and handles fiscal planning, but it's an executive department, not a constitutional commission. Auditing is a separate function that belongs solely to COA.",
+        "trap_type": "executive_vs_audit_agency_confusion"
+      }
+    },
+    "next_time_rule": "Remember the 'Three Cs' rule: COA counts the cash, CSC counts the careers, COMELEC counts the votes. If the question is about money and audits, your answer is always COA.",
+    "deconstruct_text": "Let's break this down in a way that sticks. The key is knowing the distinct roles of the three constitutional commissions created by the 1987 Constitution. Think of them as three separate departments in a company: one handles the money (COA), one handles the employees (CSC), and one handles the elections (COMELEC). The question specifically asks about auditing accounts—revenue and expenditures. That's the money department. So, right away, you can eliminate CSC and COMELEC because their mandates are about people and votes, not financial audits. Now, what about DBM? The Department of Budget and Management is indeed involved in government finances, but its role is to prepare the budget, not to audit it. Auditing is a check-and-balance function that must be independent, which is why it's given to a constitutional commission (COA) rather than an executive department. So, by process of elimination and by matching the mandate to the name, you land on COA. A quick mental trick: whenever you see 'audit,' 'accounts,' or 'expenditures,' immediately think of COA. It's the government's financial watchdog.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ver-gram-016",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "question_text": "Which sentence uses correct tense consistency?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The director approved the memo and said it was satisfactory."
+      },
+      {
+        "key": "B",
+        "text": "The director approved the memo and says it was satisfactory."
+      },
+      {
+        "key": "C",
+        "text": "The director approves the memo and said it is satisfactory."
+      },
+      {
+        "key": "D",
+        "text": "The director approved the memo and says it is satisfactory."
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Tense Consistency Rule",
+        "text": "Kapag dalawang kilos ay nangyari nang sabay at pinag-ugnay ng 'and', dapat pareho ang tense nila—past o present."
+      },
+      {
+        "rung": 2,
+        "title": "Kilalanin ang Tenses",
+        "text": "Sa A: 'approved' (past) at 'said' (past) – tugma. Sa B, C, D: naghalo ang past at present. Hanapin ang may parehong tense."
+      },
+      {
+        "rung": 3,
+        "title": "I-apply ang Rule",
+        "text": "Isipin: sabay nangyari ang pag-approve at pagsabi. Kaya past tense dapat ang dalawa. Walang dahilan para mag-shift."
+      },
+      {
+        "rung": 4,
+        "title": "Sagot",
+        "text": "A lang ang may parehong past tense: 'approved' at 'said'. 'Yan ang tama. Good job!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. Both 'approved' and 'said' are past tense, so the sentence maintains tense consistency.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "You might have chosen B because 'says' sounds natural, pero naghalo ang past at present, kaya mali.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "C": {
+        "text": "You might have chosen C kasi akala mo okay lang, pero 'approves' present at 'said' past, hindi tugma.",
+        "trap_type": "tense_and_number_mismatch"
+      },
+      "D": {
+        "text": "You might have chosen D dahil 'approved' past at 'says' present ang gamit—hindi consistent.",
+        "trap_type": "tense_and_number_mismatch"
+      }
+    },
+    "next_time_rule": "Kapag pinag-ugnay ng 'and' ang dalawang kilos na sabay nangyari, panatilihing pareho ang tense. Past + past, o present + present.",
+    "blueprint_id": "Tense Consistency",
+    "deconstruct_text": "Sa Barangay Pag-asa, inaprubahan ni Kapitan ang memo at sinabing satisfactory ito. Pareho silang nangyari noong nakaraang Lunes. Sa English, ang sabay na kilos sa past ay dapat parehong past tense.\n\nKapag may 'and' ang dalawang verb na sabay nangyari, kailangan match ang tense—parang mag-jowa, dapat sabay! Option A lang ang sumunod: 'approved' at 'said' parehong past. B, C, D naghalo.\n\nMental trick: Tandaan, 'pag past si Kapitan, past din ang sinabi niya. Wag paghaluin ang tenses para 'di malito. Consistency is key!",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

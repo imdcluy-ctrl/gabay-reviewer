@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ver-vocab-001",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MITIGATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intensify"
+      },
+      {
+        "key": "B",
+        "text": "Aggravate"
+      },
+      {
+        "key": "C",
+        "text": "Alleviate"
+      },
+      {
+        "key": "D",
+        "text": "Complicate"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Mitigate means to make something less severe, serious, or painful. Think of 'mitigation measures' in disaster management."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "The word 'alleviate' also means to make suffering or a problem less severe. Both share the Latin root 'levis' meaning light."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Intensify, aggravate, and complicate all mean to make worse or more severe — the opposite of mitigate. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'alleviate' matches the meaning of reduce severity. In civil service contexts, mitigation refers to lessening negative impacts."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Intensify' means to increase in strength or severity — the exact opposite of mitigate. A student might confuse the prefix 'mit-' with 'multi-' but the root is from Latin 'mitis' (gentle).",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Aggravate' means to make a problem worse, which is the opposite of mitigate. In legal contexts, aggravating factors increase liability, while mitigating factors reduce it.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Mitigate and alleviate both mean to make less severe. In government reports, 'mitigating measures' are steps to reduce risks, just as 'alleviate poverty' means to reduce poverty.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Complicate' means to make something more complex or difficult, not less severe. A student might think mitigation involves complex procedures, but the core meaning is reduction, not complication.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Mitigate = alleviate = reduce severity. Remember: 'Mitigate' and 'alleviate' both start with a soft 'm' or 'a' and mean to lighten a burden. Opposites like 'aggravate' and 'intensify' start with hard vowels.",
+    "blueprint_id": "Synonyms — Mitigate vs Alleviate",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Define 'mitigate'.**\nMitigate comes from Latin 'mitigare' (to soften). In English, it means to make less severe, serious, or painful.\n\n**Step 2: Compare each option.**\n- Intensify: to increase severity → opposite.\n- Aggravate: to make worse → opposite.\n- Alleviate: to make less severe → synonym.\n- Complicate: to make more complex → unrelated.\n\n**Step 3: Select the synonym.**\nOnly 'alleviate' shares the core meaning of reducing severity. In civil service contexts, 'mitigating circumstances' reduce penalties, just as 'alleviating measures' reduce hardship.\n\n### ❌ Why Distractors Fail\n- **Intensify:** A student might think mitigation involves intense effort, but the word means to lessen, not strengthen.\n- **Aggravate:** Common in legal texts as the antonym of mitigate; confusing the two is a frequent error.\n- **Complicate:** Mitigation can be complex, but the word itself means simplification of severity, not complexity.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-002",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'PRUDENT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reckless"
+      },
+      {
+        "key": "B",
+        "text": "Cautious"
+      },
+      {
+        "key": "C",
+        "text": "Hasty"
+      },
+      {
+        "key": "D",
+        "text": "Careless"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Prudent means showing care and thought for the future. Think of a 'prudent investor' who avoids risky stocks."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Cautious means being careful to avoid potential problems. Both imply wise restraint."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Reckless, hasty, and careless all describe a lack of caution — the opposite of prudent. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'cautious' matches the meaning of careful and wise. In government, 'prudent fiscal management' means spending cautiously."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Reckless' means without care for consequences — the direct opposite of prudent. A student might think both relate to action, but prudent is careful, reckless is careless.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! Prudent and cautious both mean exercising careful judgment. In civil service, a 'prudent official' is one who avoids unnecessary risks and makes wise decisions.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Hasty' means done with excessive speed, often leading to mistakes — the opposite of prudent. A student might confuse 'prudent' with 'prompt,' but prudence emphasizes care, not speed.",
+        "trap_type": "antonym_confusion"
+      },
+      "D": {
+        "text": "Incorrect. 'Careless' means not giving sufficient attention — the opposite of prudent. Prudent implies carefulness, so careless is an antonym.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Prudent = cautious = careful. Remember: 'Prudent' and 'cautious' both start with a consonant and imply wisdom. Opposites like 'reckless' and 'careless' start with 'r' or 'c' but have negative prefixes.",
+    "blueprint_id": "Synonyms — Prudent",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Define 'prudent'.**\nPrudent means acting with or showing care and thought for the future. It implies wisdom in practical matters.\n\n**Step 2: Compare each option.**\n- Reckless: without caution → opposite.\n- Cautious: careful to avoid danger → synonym.\n- Hasty: overly quick → opposite.\n- Careless: not careful → opposite.\n\n**Step 3: Select the synonym.**\nOnly 'cautious' shares the meaning of carefulness. In civil service, 'prudent decision-making' is synonymous with 'cautious decision-making.'\n\n### ❌ Why Distractors Fail\n- **Reckless:** A student might think both describe behavior, but prudent is positive, reckless is negative.\n- **Hasty:** Prudence sometimes requires speed, but the word emphasizes care over speed.\n- **Careless:** The prefix 'care-' might confuse, but 'careless' is the opposite of 'careful.'",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-003",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'MANDATORY'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Voluntary"
+      },
+      {
+        "key": "C",
+        "text": "Compulsory"
+      },
+      {
+        "key": "D",
+        "text": "Discretionary"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Mandatory means required by law, rule, or authority. Think of 'mandatory reporting' for government employees."
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Compulsory also means required by law or rules. Both imply no choice."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Opposites",
+        "text": "Optional, voluntary, and discretionary all imply choice — the opposite of mandatory. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'compulsory' matches the meaning of required. In civil service, 'mandatory training' is the same as 'compulsory training.'"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Optional' means left to one's choice — the opposite of mandatory. A student might confuse 'mandatory' with 'mandate' but optional is clearly an antonym.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Voluntary' means done by choice — the opposite of mandatory. In legal terms, mandatory obligations are binding, voluntary ones are not.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Mandatory and compulsory both mean required. In government, 'mandatory contributions' like SSS are compulsory payments.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Discretionary' means decided by individual judgment — the opposite of mandatory. A student might think both are official terms, but discretionary allows choice, mandatory does not.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Mandatory = compulsory = required. Remember: Both start with 'm' or 'c' and imply obligation. Opposites like 'optional' and 'voluntary' start with vowels and imply freedom.",
+    "blueprint_id": "Synonyms — Mandatory",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Define 'mandatory'.**\nMandatory means required by law, rule, or authority. It comes from Latin 'mandatum' (command).\n\n**Step 2: Compare each option.**\n- Optional: not required → opposite.\n- Voluntary: done by choice → opposite.\n- Compulsory: required by law → synonym.\n- Discretionary: based on judgment → opposite.\n\n**Step 3: Select the synonym.**\nOnly 'compulsory' shares the meaning of being required. In civil service, 'mandatory retirement age' is the same as 'compulsory retirement age.'\n\n### ❌ Why Distractors Fail\n- **Optional:** A student might think mandatory items are optional in some contexts, but the word itself means required.\n- **Voluntary:** Both relate to rules, but voluntary implies choice, mandatory implies force.\n- **Discretionary:** A student might confuse 'mandatory' with 'mandate' but discretionary is about personal choice.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-004",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the antonym of 'AMICABLE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Friendly"
+      },
+      {
+        "key": "B",
+        "text": "Harmonious"
+      },
+      {
+        "key": "C",
+        "text": "Hostile"
+      },
+      {
+        "key": "D",
+        "text": "Pleasant"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Amicable means having a spirit of friendliness and goodwill. Think of 'amicable settlement' in disputes."
+      },
+      {
+        "rung": 2,
+        "title": "Antonym",
+        "text": "The opposite of friendly is hostile. Hostile means unfriendly or antagonistic."
+      },
+      {
+        "rung": 3,
+        "title": "Eliminate Synonyms",
+        "text": "Friendly, harmonious, and pleasant are all synonyms of amicable — not antonyms. Cross them out."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'hostile' is the opposite. In legal contexts, an 'amicable divorce' is friendly, while a 'hostile takeover' is aggressive."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Friendly' is a synonym of amicable, not an antonym. A student might misread the question as asking for a synonym.",
+        "trap_type": "synonym_used"
+      },
+      "B": {
+        "text": "Incorrect. 'Harmonious' means forming a pleasing whole — similar to amicable. It is a synonym, not an antonym.",
+        "trap_type": "synonym_used"
+      },
+      "C": {
+        "text": "Correct! Hostile is the direct antonym of amicable. In civil service, 'amicable relations' between agencies are friendly, while 'hostile relations' are adversarial.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Pleasant' means giving pleasure — a synonym of amicable. A student might think pleasant is neutral, but it aligns with friendliness.",
+        "trap_type": "synonym_used"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** For antonym questions, first identify the word's meaning, then look for the opposite. Amicable = friendly → antonym = hostile. Remember: 'Ami-' suggests friend (like 'ami' in French), so the opposite is 'hostile.'",
+    "blueprint_id": "Antonyms — Amicable",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Define 'amicable'.**\nAmicable means characterized by friendliness and goodwill. It comes from Latin 'amicus' (friend).\n\n**Step 2: Identify the antonym.**\nThe opposite of friendly is unfriendly or hostile. Options A, B, and D are all synonyms.\n\n**Step 3: Select the antonym.**\nOnly 'hostile' means unfriendly. In government, 'amicable negotiations' are cooperative; 'hostile negotiations' are confrontational.\n\n### ❌ Why Distractors Fail\n- **Friendly:** A student might not read carefully and pick a synonym.\n- **Harmonious:** Similar to amicable, both imply agreement.\n- **Pleasant:** While not exact synonym, it shares positive connotation.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-005",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'UBIQUITOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rare"
+      },
+      {
+        "key": "B",
+        "text": "Scarce"
+      },
+      {
+        "key": "C",
+        "text": "Everywhere"
+      },
+      {
+        "key": "D",
+        "text": "Hidden"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Ubiquitous means present, appearing, or found everywhere. Think of 'ubiquitous smartphones' in modern life."
+      },
+      {
+        "rung": 2,
+        "title": "Eliminate Opposites",
+        "text": "Rare, scarce, and hidden all mean not common or not easily found — the opposite of ubiquitous. Cross them out."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "If something is ubiquitous, it is everywhere. In government, 'ubiquitous corruption' means corruption is widespread."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Only 'everywhere' matches the meaning. The word comes from Latin 'ubique' meaning everywhere."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Rare' means not common — the opposite of ubiquitous. A student might think both describe frequency, but ubiquitous means common everywhere.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Scarce' means insufficient in quantity — the opposite of ubiquitous. In economics, scarce resources are limited, while ubiquitous resources are abundant.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Ubiquitous means everywhere. In civil service, 'ubiquitous technology' refers to technology present in all offices.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Hidden' means concealed — the opposite of ubiquitous. Something ubiquitous is visible everywhere, not hidden.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Ubiquitous = everywhere. Remember: 'Ubi-' sounds like 'you be' — you be everywhere. Opposites like 'rare' and 'scarce' suggest limited presence.",
+    "blueprint_id": "Vocabulary — Ubiquitous",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n**Step 1: Define 'ubiquitous'.**\nUbiquitous means existing or being everywhere at the same time. It comes from Latin 'ubique' (everywhere).\n\n**Step 2: Compare each option.**\n- Rare: not common → opposite.\n- Scarce: limited → opposite.\n- Everywhere: present in all places → synonym.\n- Hidden: concealed → opposite.\n\n**Step 3: Select the correct meaning.**\nOnly 'everywhere' matches. In civil service, 'ubiquitous surveillance' means monitoring is present in all areas.\n\n### ❌ Why Distractors Fail\n- **Rare:** A student might think ubiquitous things are rare because they are notable, but the word means common.\n- **Scarce:** Similar to rare, scarce implies limited availability.\n- **Hidden:** A student might confuse 'ubiquitous' with 'ubiquity' but hidden is the opposite.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-006",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'ADVERSE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Favorable"
+      },
+      {
+        "key": "B",
+        "text": "Beneficial"
+      },
+      {
+        "key": "C",
+        "text": "Unfavorable"
+      },
+      {
+        "key": "D",
+        "text": "Helpful"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "The word 'adverse' often appears in weather reports or legal contexts. Think of 'adverse conditions' — are they good or bad?"
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "If conditions are adverse, they are working against you. Which option means 'working against' or 'harmful'?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Unfavorable is the direct synonym. Favorable, beneficial, and helpful all mean the opposite — they are positive words."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Adverse = unfavorable, harmful, detrimental. The correct answer is 'Unfavorable'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Favorable' is an antonym of 'adverse'. A student might confuse the prefix 'ad-' as positive, but 'adverse' means opposing or harmful, not favorable.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Beneficial' is also an antonym. It means producing good results, the opposite of adverse. This trap catches those who guess based on vague familiarity.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Adverse = unfavorable, harmful, detrimental. This is the precise synonym.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Helpful' is another positive word, opposite of adverse. Students may pick it because it sounds neutral, but it does not match the meaning.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Adverse = unfavorable, harmful, detrimental. Remember: 'adverse' is negative, like 'adversary' (enemy).",
+    "blueprint_id": "Synonyms — Adverse",
+    "deconstruct_text": "Step 1: Define 'adverse'. It means harmful, unfavorable, or opposing. Common usage: 'adverse weather conditions' (bad weather), 'adverse reaction' (negative reaction).\nStep 2: Identify the synonym among the options. 'Unfavorable' directly matches the meaning.\nStep 3: Eliminate antonyms: 'Favorable', 'Beneficial', and 'Helpful' all have positive connotations, opposite of 'adverse'.\n\nWhy 'Favorable' is wrong: It is the direct antonym. A student might think 'ad-' means 'toward' and guess 'favorable', but 'adverse' comes from Latin 'adversus' meaning 'turned against'.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-007",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The auditor recommended that the municipal treasurer ___ the financial records.",
+    "options": [
+      {
+        "key": "A",
+        "text": "amend"
+      },
+      {
+        "key": "B",
+        "text": "amends"
+      },
+      {
+        "key": "C",
+        "text": "amended"
+      },
+      {
+        "key": "D",
+        "text": "amending"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Subjunctive",
+        "text": "The phrase 'recommended that' signals a special verb mood. In English, verbs of recommendation (recommend, suggest, insist) require the subjunctive mood."
+      },
+      {
+        "rung": 2,
+        "title": "Subjunctive Form",
+        "text": "In the subjunctive mood, the verb does not change for person or tense. It always uses the base form (infinitive without 'to'). For example: 'I recommend that he go' not 'goes'."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "The base form of the verb is 'amend'. So the correct answer is 'amend'."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "After 'recommend that', always use the base verb. 'Amend' is the base form. 'Amends' (third person singular), 'amended' (past tense), and 'amending' (present participle) are all incorrect in the subjunctive."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Recommended that' triggers the subjunctive mood, which requires the base form of the verb: 'amend'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Amends' is the third person singular present tense (e.g., 'he amends'). In the subjunctive, we do not add -s. The correct form is 'amend'.",
+        "trap_type": "mood_error"
+      },
+      "C": {
+        "text": "Incorrect. 'Amended' is past tense. The subjunctive mood uses the base form regardless of tense. Even if the main verb is past ('recommended'), the subjunctive verb remains base form.",
+        "trap_type": "mood_error"
+      },
+      "D": {
+        "text": "Incorrect. 'Amending' is a present participle. The subjunctive requires the base form, not a participle. This error might occur if a student thinks a continuous action is needed.",
+        "trap_type": "mood_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** After 'recommend that', use the base form of the verb (subjunctive). Remember: 'I recommend that he study' not 'studies'.",
+    "blueprint_id": "Vocabulary — Legal Terminology in Context",
+    "deconstruct_text": "Step 1: Identify the grammatical structure. The verb 'recommended' is followed by 'that', which introduces a noun clause. Verbs of recommendation (recommend, suggest, insist, demand) require the subjunctive mood in the that-clause.\nStep 2: Apply the subjunctive rule. In the subjunctive, the verb is always in its base form (infinitive without 'to'), regardless of the subject or tense. So 'the treasurer' (third person singular) does not take an -s.\nStep 3: Select the base form. Among the options, only 'amend' is the base form. 'Amends' (with -s), 'amended' (past), and 'amending' (participle) are all incorrect.\n\nWhy 'amends' is wrong: A student might think the subject 'treasurer' is third person singular and add -s, but the subjunctive overrides subject-verb agreement.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-008",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "The Civil Service Commission issued a MANDATORY directive. What does 'mandatory' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optional"
+      },
+      {
+        "key": "B",
+        "text": "Required"
+      },
+      {
+        "key": "C",
+        "text": "Suggested"
+      },
+      {
+        "key": "D",
+        "text": "Advisory"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Think about the word 'mandate'. A mandate is an official order or command. So 'mandatory' means something that must be done."
+      },
+      {
+        "rung": 2,
+        "title": "Answer",
+        "text": "Required is the synonym. Optional, suggested, and advisory all imply choice, which is the opposite of mandatory."
+      },
+      {
+        "rung": 3,
+        "title": "Apply to Scenario",
+        "text": "The CSC issued a directive. If it's mandatory, government employees must follow it. Which option means 'must be done'?"
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Mandatory = required, compulsory. The correct answer is 'Required'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Optional' is the antonym of 'mandatory'. A mandatory directive must be followed; an optional one can be ignored. This is a common confusion.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Correct! 'Mandatory' means required or compulsory, especially by law or rule.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "Incorrect. 'Suggested' implies a recommendation, not a requirement. A mandatory directive is not merely suggested; it is enforced.",
+        "trap_type": "synonym_error"
+      },
+      "D": {
+        "text": "Incorrect. 'Advisory' means giving advice or recommendations, not commands. An advisory is non-binding, while mandatory is binding.",
+        "trap_type": "synonym_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Mandatory = required, compulsory. Remember: 'mandate' = order, so 'mandatory' = must be done.",
+    "blueprint_id": "Vocabulary — Administrative Directives",
+    "deconstruct_text": "Step 1: Define 'mandatory'. It comes from 'mandate', meaning an official order. Therefore, 'mandatory' means required by authority; compulsory.\nStep 2: Match with options. 'Required' is the direct synonym. 'Optional' is the opposite. 'Suggested' and 'Advisory' imply non-binding recommendations.\nStep 3: Context clue: The CSC (Civil Service Commission) is a government body that enforces rules. A 'mandatory directive' is a rule that must be followed.\n\nWhy 'Optional' is wrong: A student might think 'mandatory' sounds like 'mandate' but confuse it with 'voluntary'. However, 'mandatory' leaves no choice.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-009",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What is the synonym of 'DISSEMINATE'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceal"
+      },
+      {
+        "key": "B",
+        "text": "Withhold"
+      },
+      {
+        "key": "C",
+        "text": "Spread"
+      },
+      {
+        "key": "D",
+        "text": "Collect"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 2,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Meaning",
+        "text": "Think of 'disseminate' in the context of information. When you disseminate information, you are sharing it widely. Which option means 'to share widely'?"
+      },
+      {
+        "rung": 2,
+        "title": "Synonym",
+        "text": "Spread is the direct synonym. Conceal and withhold mean to hide or keep secret, the opposite. Collect means to gather, not distribute."
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Disseminate = spread or distribute widely. The correct answer is 'Spread'."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Disseminate is often used in academic or official contexts: 'disseminate research findings'. It means to scatter or spread broadly."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Conceal' means to hide, the opposite of disseminate. A student might misread the prefix 'dis-' as negative, but 'disseminate' means to spread, not hide.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Withhold' means to hold back, also opposite. This trap catches those who think 'disseminate' involves keeping something, but it actually means releasing.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Correct! Disseminate = spread, distribute, circulate widely.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Collect' means to gather, the opposite action. Disseminate is about distribution, not collection. This is a common antonym trap.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Disseminate = spread or distribute widely. Remember: 'dis-' as in 'disperse' + 'seminate' (from Latin 'seminare' = to sow).",
+    "blueprint_id": "Vocabulary — Disseminate",
+    "deconstruct_text": "Step 1: Define 'disseminate'. It means to scatter or spread widely, especially information or knowledge. The root 'semin-' relates to seed (like 'seminar'), so 'disseminate' is like scattering seeds.\nStep 2: Identify the synonym. 'Spread' directly matches. 'Conceal', 'Withhold', and 'Collect' all involve keeping or gathering, the opposite.\nStep 3: Context: In civil service, 'disseminate' is used for distributing official information to the public.\n\nWhy 'Conceal' is wrong: A student might think 'dis-' means 'not' and guess 'conceal' as opposite of 'reveal', but 'disseminate' is about spreading, not revealing.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-010",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "question_text": "What does 'LITIGIOUS' mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Peaceful"
+      },
+      {
+        "key": "B",
+        "text": "Settlement-prone"
+      },
+      {
+        "key": "C",
+        "text": "Tending to sue"
+      },
+      {
+        "key": "D",
+        "text": "Arbitration"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Root",
+        "text": "The word 'litigious' comes from 'litigation', which means a lawsuit. So someone who is litigious is inclined to engage in lawsuits."
+      },
+      {
+        "rung": 2,
+        "title": "Meaning",
+        "text": "If a person is litigious, they are quick to take legal action. Which option describes a person who often sues?"
+      },
+      {
+        "rung": 3,
+        "title": "Answer",
+        "text": "Tending to sue is the correct meaning. 'Peaceful' is the opposite. 'Settlement-prone' means avoiding lawsuits. 'Arbitration' is a method of dispute resolution, not a personal trait."
+      },
+      {
+        "rung": 4,
+        "title": "Determine Correct Answer",
+        "text": "Litigious = inclined to initiate lawsuits. The correct answer is 'Tending to sue'."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Incorrect. 'Peaceful' is the antonym. A litigious person is not peaceful; they are quick to go to court. This trap catches those who guess based on sound similarity.",
+        "trap_type": "antonym_confusion"
+      },
+      "B": {
+        "text": "Incorrect. 'Settlement-prone' means inclined to settle disputes out of court, the opposite of litigious. A student might think 'litigious' relates to legal matters but confuse it with settlement.",
+        "trap_type": "distractor"
+      },
+      "C": {
+        "text": "Correct! 'Litigious' means tending to sue or take legal action. It describes a person or organization that frequently initiates lawsuits.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "Incorrect. 'Arbitration' is a noun meaning a method of resolving disputes outside court. 'Litigious' is an adjective describing a person's tendency. This trap confuses part of speech and meaning.",
+        "trap_type": "partial_answer_error"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Litigious = inclined to initiate lawsuits. Remember: 'litigation' = lawsuit, so 'litigious' = lawsuit-happy.",
+    "blueprint_id": "Vocabulary — Legal Terms",
+    "deconstruct_text": "Step 1: Define 'litigious'. It is an adjective meaning inclined to take legal action, especially to sue. The root is 'litig-' from Latin 'litigare' meaning to dispute.\nStep 2: Compare options. 'Tending to sue' is the direct definition. 'Peaceful' is opposite. 'Settlement-prone' is also opposite (settling vs. suing). 'Arbitration' is a related concept but not a synonym.\nStep 3: Context: In civil service, a 'litigious' employee might frequently file complaints or cases.\n\nWhy 'Settlement-prone' is wrong: A student might know that 'litigious' relates to law but incorrectly think it means resolving disputes amicably. Actually, it means the opposite — preferring court battles.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

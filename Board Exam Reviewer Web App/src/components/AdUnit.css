@@ -1,0 +1,55 @@
+/* AdUnit.css - 375px Mobile Responsive & Zero-CLS Styling */
+
+.gabay-ad-wrapper {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: var(--space-4, 1rem) 0;
+  padding: var(--space-3, 0.75rem);
+  background-color: var(--color-bg-card, #ffffff);
+  border: 1px dashed var(--color-border, #e2e8f0);
+  border-radius: var(--radius-xl, 1rem);
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  transition: border-color var(--transition-fast, 0.2s);
+}
+
+.gabay-ad-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary, #718096);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.gabay-ad-wrapper ins.adsbygoogle {
+  border-radius: var(--radius-md, 0.5rem);
+  overflow: hidden;
+}
+
+/* Post-Solution Footer Safe Navigation Margin */
+.gabay-ad-footer-safe {
+  margin-bottom: calc(var(--bottom-nav-height, 64px) + var(--space-4, 16px));
+}
+
+/* Scroll-Safe Session Complete Container */
+.scroll-safe-ad-box {
+  margin-top: var(--space-6, 1.5rem);
+  padding-top: var(--space-4, 1rem);
+  border-top: 1px dashed var(--color-border, #e2e8f0);
+}
+
+/* Fluid Breakpoints for 375px - 414px Mobile Viewports */
+@media (max-width: 414px) {
+  .gabay-ad-wrapper {
+    padding: var(--space-2, 0.5rem);
+    margin: var(--space-3, 0.75rem) 0;
+  }
+
+  .gabay-ad-label {
+    font-size: 0.6rem;
+  }
+}

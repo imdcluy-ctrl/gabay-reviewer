@@ -1,0 +1,707 @@
+[
+  {
+    "id": "num-ops-300",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "blueprint_id": "Civil Service Evaluation Average Score Variant 1",
+    "difficulty_level": 2,
+    "question_text": "A civil service applicant scored 80, 85, and 90 on three performance rating modules. What is the applicant's average score?",
+    "options": [
+      {
+        "key": "A",
+        "text": "85"
+      },
+      {
+        "key": "B",
+        "text": "255"
+      },
+      {
+        "key": "C",
+        "text": "80"
+      },
+      {
+        "key": "D",
+        "text": "90"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Average Formula",
+        "text": "The average is the sum of all scores divided by the number of scores. Here, we have three scores: 80, 85, and 90."
+      },
+      {
+        "rung": 2,
+        "title": "Sum the Scores",
+        "text": "Add the three scores: 80 + 85 = 165, then 165 + 90 = 255. The total sum is 255."
+      },
+      {
+        "rung": 3,
+        "title": "Divide by Number of Scores",
+        "text": "Now divide the sum (255) by the number of scores (3): 255 ÷ 3 = 85."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Correct Answer",
+        "text": "The average is 85, which corresponds to Option A. Option B (255) is the sum, not the average."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! Sum = 80 + 85 + 90 = 255. Average = 255 ÷ 3 = 85.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "255 is the total sum of the three scores, not the average. The student likely stopped after adding the scores without dividing by 3.",
+        "trap_type": "total_vs_average_confusion"
+      },
+      "C": {
+        "text": "80 is the lowest score in the set. The student may have mistakenly picked the first number or the minimum value instead of computing the average.",
+        "trap_type": "minimum_value_selected"
+      },
+      "D": {
+        "text": "90 is the highest score. The student may have selected the maximum value instead of calculating the mean.",
+        "trap_type": "maximum_value_selected"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** To find the average, always compute sum ÷ count. Avoid confusing the total sum with the average.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the formula:** Average = (Sum of all scores) ÷ (Number of scores).\n2. **Sum the scores:** 80 + 85 = 165; 165 + 90 = 255.\n3. **Divide by the count:** 255 ÷ 3 = 85.\n4. **Result:** The average score is 85.\n\n### ❌ Why the Distractors Fail\n- **255 (Option B):** This is the sum of the scores, not the average. A common mistake is to forget the division step.\n- **80 (Option C):** This is the first score or the minimum; selecting it shows a misunderstanding of the averaging process.\n- **90 (Option D):** This is the highest score; picking it indicates confusion between the maximum and the mean.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-gram-300",
+    "subtopic_id": "grammar-correct-usage",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Parallel Structure in Official Guidelines Variant 1",
+    "difficulty_level": 2,
+    "question_text": "Select the sentence that maintains proper parallel structure in official administrative writing:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The new department chief promises to streamline procurement, improve transparency, and upgrade office technology."
+      },
+      {
+        "key": "B",
+        "text": "The new department chief promises to streamline procurement, transparency improvement, and upgrading office technology."
+      },
+      {
+        "key": "C",
+        "text": "The new department chief promises streamlining procurement, to improve transparency, and upgraded office technology."
+      },
+      {
+        "key": "D",
+        "text": "The new department chief promises to streamline procurement, improves transparency, and technology upgrade."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify the List Structure",
+        "text": "The sentence contains a list of three items after 'promises to'. For parallel structure, all items must share the same grammatical form."
+      },
+      {
+        "rung": 2,
+        "title": "Check Option A's Form",
+        "text": "Option A uses three base verbs: 'streamline', 'improve', 'upgrade' — all following the implied 'to'. This is consistent."
+      },
+      {
+        "rung": 3,
+        "title": "Spot the Mismatch in Others",
+        "text": "Option B mixes an infinitive ('to streamline'), a noun ('improvement'), and a gerund ('upgrading'). Option C mixes a gerund, infinitive, and past participle. Option D mixes a base verb, third-person verb, and noun."
+      },
+      {
+        "rung": 4,
+        "title": "Select the Parallel Sentence",
+        "text": "Only Option A maintains parallel structure with all verbs in the same form. The correct answer is A."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! All three items are base verbs following 'to': (to) streamline, (to) improve, (to) upgrade.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Faulty parallelism: 'to streamline' (infinitive), 'transparency improvement' (noun phrase), and 'upgrading' (gerund) are not in the same form.",
+        "trap_type": "faulty_parallelism_mixed_parts_of_speech"
+      },
+      "C": {
+        "text": "Faulty parallelism: 'streamlining' (gerund), 'to improve' (infinitive), and 'upgraded' (past participle) are mismatched.",
+        "trap_type": "faulty_parallelism_verb_tenses"
+      },
+      "D": {
+        "text": "Faulty parallelism: 'to streamline' (infinitive), 'improves' (third-person singular), and 'technology upgrade' (noun phrase) are inconsistent.",
+        "trap_type": "faulty_parallelism_mixed_forms"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** In a series, all items must match in grammatical form (e.g., all infinitives, all gerunds, or all nouns).",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the rule:** Parallel structure requires items in a list to have the same grammatical form.\n2. **Analyze Option A:** The list is 'streamline procurement, improve transparency, and upgrade office technology'. All are base verbs following 'to'.\n3. **Analyze Option B:** 'to streamline' (infinitive), 'transparency improvement' (noun), 'upgrading' (gerund) — not parallel.\n4. **Analyze Option C:** 'streamlining' (gerund), 'to improve' (infinitive), 'upgraded' (past participle) — not parallel.\n5. **Analyze Option D:** 'to streamline' (infinitive), 'improves' (verb), 'technology upgrade' (noun) — not parallel.\n6. **Conclusion:** Only Option A is parallel.\n\n### ❌ Why the Distractors Fail\n- **Option B:** Mixes infinitive, noun, and gerund forms.\n- **Option C:** Mixes gerund, infinitive, and past participle.\n- **Option D:** Mixes infinitive, third-person verb, and noun phrase.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-300",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Governance Jargon — BUREAUCRACY",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Civil Service Reform Act aims to enhance <u>bureaucracy</u> across all municipal offices.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "administrative organization"
+      },
+      {
+        "key": "B",
+        "text": "secrecy"
+      },
+      {
+        "key": "C",
+        "text": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "arbitrary rule"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Context",
+        "text": "The sentence talks about enhancing something across municipal offices, implying a system or structure, not a negative trait."
+      },
+      {
+        "rung": 2,
+        "title": "Define 'Bureaucracy'",
+        "text": "In governance, 'bureaucracy' refers to the administrative system of government departments and officials."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Synonym",
+        "text": "The closest synonym among the options is 'administrative organization', which matches the neutral, structural meaning."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Distractors",
+        "text": "'Secrecy', 'stagnation', and 'arbitrary rule' have negative connotations that do not fit the context of enhancement."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Bureaucracy' means a system of administrative organization and government officials.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Secrecy' is an antonym of transparency, not a synonym for bureaucracy. It has a negative connotation that does not fit the context of enhancement.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Stagnation' implies lack of progress, which is a negative outcome often associated with bureaucracy but not its definition.",
+        "trap_type": "negative_context_trap"
+      },
+      "D": {
+        "text": "'Arbitrary rule' suggests decisions made without reason, which is a criticism of bureaucracy, not its meaning.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Bureaucracy' = administrative organization (the system of government departments and officials).",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the term:** 'Bureaucracy' refers to the administrative system of government departments and officials.\n2. **Context check:** The sentence aims to 'enhance bureaucracy', implying a neutral or positive improvement of the administrative structure.\n3. **Match with options:** 'Administrative organization' is the direct synonym.\n4. **Eliminate others:** 'Secrecy', 'stagnation', and 'arbitrary rule' are negative and not synonyms.\n\n### ❌ Why the Distractors Fail\n- **Secrecy (Option B):** Opposite of transparency; not related to administrative structure.\n- **Stagnation (Option C):** A possible negative effect, not the definition.\n- **Arbitrary rule (Option D):** A criticism, not a synonym.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-301",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Governance Jargon — DECENTRALIZATION",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Civil Service Reform Act aims to enhance <u>decentralization</u> across all municipal offices.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "devolution of power"
+      },
+      {
+        "key": "B",
+        "text": "secrecy"
+      },
+      {
+        "key": "C",
+        "text": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "arbitrary rule"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Context",
+        "text": "The sentence discusses enhancing something across municipal offices, suggesting a distribution of authority from central to local levels."
+      },
+      {
+        "rung": 2,
+        "title": "Define 'Decentralization'",
+        "text": "In governance, 'decentralization' means the transfer of power from a central authority to local or regional bodies."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Synonym",
+        "text": "The closest synonym is 'devolution of power', which exactly captures the transfer of authority."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Distractors",
+        "text": "'Secrecy', 'stagnation', and 'arbitrary rule' are unrelated or negative terms that do not match the meaning."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Decentralization' means the devolution of power from central to local government.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Secrecy' is unrelated to decentralization; it refers to concealment, not distribution of authority.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Stagnation' implies lack of movement, which is opposite to the dynamic process of decentralization.",
+        "trap_type": "negative_context_trap"
+      },
+      "D": {
+        "text": "'Arbitrary rule' suggests decisions made without reason, not the transfer of power.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Decentralization' = devolution of power (transfer of authority from central to local government).",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the term:** 'Decentralization' is the transfer of authority from a central government to local or regional administrations.\n2. **Context check:** Enhancing decentralization across municipal offices implies giving more power to local units.\n3. **Match with options:** 'Devolution of power' is the exact synonym.\n4. **Eliminate others:** 'Secrecy', 'stagnation', and 'arbitrary rule' are not related.\n\n### ❌ Why the Distractors Fail\n- **Secrecy (Option B):** Opposite of openness; not related to power distribution.\n- **Stagnation (Option C):** Implies inactivity, contrary to decentralization.\n- **Arbitrary rule (Option D):** Refers to capricious decision-making, not transfer of power.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-302",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Governance Jargon — TRANSPARENCY",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Civil Service Reform Act aims to enhance <u>transparency</u> across all municipal offices.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "openness"
+      },
+      {
+        "key": "B",
+        "text": "secrecy"
+      },
+      {
+        "key": "C",
+        "text": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "arbitrary rule"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Understand the Context",
+        "text": "The sentence aims to enhance something across municipal offices, implying a positive quality related to accountability."
+      },
+      {
+        "rung": 2,
+        "title": "Define 'Transparency'",
+        "text": "In governance, 'transparency' means operating in an open, clear, and accountable manner."
+      },
+      {
+        "rung": 3,
+        "title": "Find the Synonym",
+        "text": "The closest synonym is 'openness', which directly captures the idea of being open and visible."
+      },
+      {
+        "rung": 4,
+        "title": "Eliminate Distractors",
+        "text": "'Secrecy' is the opposite, while 'stagnation' and 'arbitrary rule' are unrelated negative terms."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Transparency' means openness and accountability in operations.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "'Secrecy' is the direct antonym of transparency; it means concealment, not openness.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "'Stagnation' implies lack of progress, which is unrelated to transparency.",
+        "trap_type": "negative_context_trap"
+      },
+      "D": {
+        "text": "'Arbitrary rule' suggests decisions made without reason, which is the opposite of transparent governance.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'Transparency' = openness (operating in a clear, visible, and accountable manner).",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Define the term:** 'Transparency' refers to the quality of being open, clear, and accountable.\n2. **Context check:** Enhancing transparency across offices means making operations visible to the public.\n3. **Match with options:** 'Openness' is the direct synonym.\n4. **Eliminate others:** 'Secrecy' is the opposite; 'stagnation' and 'arbitrary rule' are not synonyms.\n\n### ❌ Why the Distractors Fail\n- **Secrecy (Option B):** Direct antonym; means hiding information.\n- **Stagnation (Option C):** Implies inactivity, not related to openness.\n- **Arbitrary rule (Option D):** Suggests capriciousness, opposite of transparency.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  },
+  {
+    "id": "ver-vocab-303",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Governance Jargon — ACCOUNTABILITY",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Civil Service Reform Act aims to enhance <u>accountability</u> across all municipal offices.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "answerability"
+      },
+      {
+        "key": "B",
+        "text": "secrecy"
+      },
+      {
+        "key": "C",
+        "text": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "arbitrary rule"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze Context",
+        "text": "The phrase 'Civil Service Reform Act' and 'enhance across municipal offices' suggests a positive governance value, not a negative one."
+      },
+      {
+        "rung": 2,
+        "title": "Define Term",
+        "text": "'Accountability' in public administration means the obligation of officials to report, explain, and be answerable for their actions and decisions."
+      },
+      {
+        "rung": 3,
+        "title": "Match Direct Synonym",
+        "text": "The direct synonym of 'accountability' is 'answerability' — both refer to the duty to give an account of one's conduct."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A 'answerability' is the only choice that captures the core meaning of being held responsible for one's actions."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Accountability' means the obligation of public officials to report and justify their actions, which is exactly 'answerability'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Secrecy' is the opposite of accountability — it means concealment, not openness. A student might confuse 'accountability' with 'confidentiality' in government work, but the two are distinct.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Stagnation' means lack of activity or growth, which is unrelated to accountability. A student might associate 'reform' with overcoming stagnation, but the question asks for the meaning of the underlined word, not the effect of the act.",
+        "trap_type": "negative_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Arbitrary rule' means decision-making based on whim rather than law, which is the antithesis of accountability. A student might think 'accountability' relates to 'rule' but misses that accountability requires transparency, not arbitrariness.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'ACCOUNTABILITY' = answerability. Think of a public servant being called to 'account' for their actions — they must 'answer' for them.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the context:** The sentence discusses the 'Civil Service Reform Act' and 'enhancing accountability across municipal offices.' This is a governance context, so the word likely relates to responsible conduct.\n2. **Define the target word:** 'Accountability' in public administration is the obligation of officials to take responsibility for their actions, disclose results, and be subject to oversight.\n3. **Find the synonym:** The closest synonym is 'answerability' — both words describe the duty to provide an account or explanation.\n4. **Eliminate distractors:**\n   - 'Secrecy' is an antonym (accountability requires openness).\n   - 'Stagnation' is unrelated (accountability is about process, not progress).\n   - 'Arbitrary rule' is also an antonym (accountability implies rule of law, not whim).\n5. **Conclusion:** Option A 'answerability' is correct."
+  },
+  {
+    "id": "ver-vocab-304",
+    "subtopic_id": "vocabulary-synonyms",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Administrative Governance Jargon — COMPLIANCE",
+    "difficulty_level": 2,
+    "question_text": "Choose the word closest in meaning to the underlined term: 'The Civil Service Reform Act aims to enhance <u>compliance</u> across all municipal offices.'",
+    "options": [
+      {
+        "key": "A",
+        "text": "adherence"
+      },
+      {
+        "key": "B",
+        "text": "secrecy"
+      },
+      {
+        "key": "C",
+        "text": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "arbitrary rule"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Analyze Context",
+        "text": "The phrase 'Civil Service Reform Act' and 'enhance across municipal offices' suggests a positive governance value related to following rules."
+      },
+      {
+        "rung": 2,
+        "title": "Define Term",
+        "text": "'Compliance' means the action or fact of complying with a rule, law, or standard — essentially, following the rules."
+      },
+      {
+        "rung": 3,
+        "title": "Match Direct Synonym",
+        "text": "The direct synonym of 'compliance' is 'adherence' — both refer to the act of conforming to a requirement."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A 'adherence' is the only choice that captures the meaning of following rules or standards."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! 'Compliance' means the act of following rules or standards, which is synonymous with 'adherence'.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. 'Secrecy' is the opposite of compliance — compliance often requires transparency, not concealment. A student might confuse 'compliance' with 'confidentiality' in government work, but they are different concepts.",
+        "trap_type": "antonym_confusion"
+      },
+      "C": {
+        "text": "Incorrect. 'Stagnation' means lack of activity or growth, which is unrelated to compliance. A student might associate 'reform' with overcoming stagnation, but the question asks for the meaning of the underlined word.",
+        "trap_type": "negative_context_trap"
+      },
+      "D": {
+        "text": "Incorrect. 'Arbitrary rule' means decision-making based on whim rather than law, which is the opposite of compliance (which requires following established rules). A student might think 'compliance' relates to 'rule' but misses that compliance means obeying rules, not making them arbitrarily.",
+        "trap_type": "antonym_confusion"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** 'COMPLIANCE' = adherence. Remember: to 'comply' is to 'adhere' to a rule — both imply following a standard.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the context:** The sentence discusses the 'Civil Service Reform Act' and 'enhancing compliance across municipal offices.' This is a governance context, so the word likely relates to following rules.\n2. **Define the target word:** 'Compliance' means the action or fact of complying with a rule, law, or standard.\n3. **Find the synonym:** The closest synonym is 'adherence' — both words describe the act of conforming to a requirement.\n4. **Eliminate distractors:**\n   - 'Secrecy' is an antonym (compliance often requires openness).\n   - 'Stagnation' is unrelated (compliance is about rule-following, not progress).\n   - 'Arbitrary rule' is also an antonym (compliance implies following rules, not making them arbitrarily).\n5. **Conclusion:** Option A 'adherence' is correct."
+  },
+  {
+    "id": "ver-read-300",
+    "subtopic_id": "reading-comprehension",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Executive Summary Analysis Passage 1",
+    "difficulty_level": 2,
+    "question_text": "Read the passage: 'Executive Order No. 45 mandates all national government agencies to digitize 100% of front-line public transactions by the end of FY 2026. Agencies failing to meet the digital transition deadline will face a 10% reduction in discretionary operating budgets.'\n\nWhat is the consequence for agencies that fail to digitize by FY 2026?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A 10% reduction in discretionary operating budgets."
+      },
+      {
+        "key": "B",
+        "text": "Immediate termination of agency heads."
+      },
+      {
+        "key": "C",
+        "text": "A 50% increase in administrative fees."
+      },
+      {
+        "key": "D",
+        "text": "No consequence."
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Locate Penalty Provision",
+        "text": "Look for the sentence that starts with 'Agencies failing to meet...' — that's where the consequence is stated."
+      },
+      {
+        "rung": 2,
+        "title": "Extract Stated Penalty",
+        "text": "The passage explicitly says: 'will face a 10% reduction in discretionary operating budgets.' That is the only consequence mentioned."
+      },
+      {
+        "rung": 3,
+        "title": "Match Option",
+        "text": "Option A directly quotes the penalty: 'A 10% reduction in discretionary operating budgets.' No other option matches the text."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A is the only choice that is explicitly stated in the passage. Select it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! The passage explicitly states: 'Agencies failing to meet the digital transition deadline will face a 10% reduction in discretionary operating budgets.'",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. The passage does not mention termination of agency heads. This is an exaggerated consequence that a student might assume but is not supported by the text.",
+        "trap_type": "exaggerated_statement_distractor"
+      },
+      "C": {
+        "text": "Incorrect. The passage mentions a 10% reduction, not a 50% increase. A student might misread the number or confuse 'reduction' with 'increase', but the text clearly states the opposite.",
+        "trap_type": "false_number_distractor"
+      },
+      "D": {
+        "text": "Incorrect. The passage explicitly states a consequence (10% budget reduction), so 'no consequence' directly contradicts the text.",
+        "trap_type": "passage_contradiction"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Comprehension Accuracy: Rely strictly on explicitly stated facts in policy text. Do not infer consequences that are not directly mentioned.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Read the passage carefully:** The passage has two sentences. The first states the mandate (digitize 100% by FY 2026). The second states the consequence for non-compliance.\n2. **Identify the relevant part:** The question asks for the consequence of failing to digitize. This is directly addressed in the second sentence.\n3. **Extract the exact consequence:** 'Agencies failing to meet the digital transition deadline will face a 10% reduction in discretionary operating budgets.'\n4. **Match with options:** Option A is the only one that matches this exact statement.\n5. **Eliminate distractors:**\n   - Option B (termination) is not mentioned.\n   - Option C (50% increase) is a different number and direction.\n   - Option D (no consequence) contradicts the explicit statement.\n6. **Conclusion:** Option A is correct."
+  },
+  {
+    "id": "ver-vanal-300",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Institutional Head Analogy 1",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Department : Secretary :: Bureau : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Director"
+      },
+      {
+        "key": "B",
+        "text": "Clerk"
+      },
+      {
+        "key": "C",
+        "text": "Senator"
+      },
+      {
+        "key": "D",
+        "text": "Treasurer"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Hierarchy Relationship",
+        "text": "A Secretary is the executive head of a Department. The relationship is 'jurisdiction : executive head'."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Entity",
+        "text": "Now apply the same relationship to 'Bureau'. What is the executive head of a Bureau in the Philippine government?"
+      },
+      {
+        "rung": 3,
+        "title": "Match Head Official",
+        "text": "The executive head of a Bureau is a Director. For example, the Bureau of Internal Revenue is headed by a Commissioner (equivalent to Director in some contexts), but generally 'Director' is the correct term for a bureau head."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A 'Director' is the only choice that fits the executive head relationship. Select it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Secretary heads a Department, and a Director heads a Bureau. Both are executive heads of their respective jurisdictions.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A Clerk is a subordinate staff member, not the head of a Bureau. A student might pick 'Clerk' if they think of any office worker, but the analogy requires the executive head.",
+        "trap_type": "hierarchy_level_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Senator is a legislative official, not an executive head of a Bureau. This distractor tests whether the student confuses the executive branch with the legislative branch.",
+        "trap_type": "branch_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Treasurer is a financial officer, not the executive head of a Bureau. This distractor tests whether the student confuses a specific function with overall leadership.",
+        "trap_type": "function_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Executive Hierarchy Analogies: Jurisdiction → Executive Head. For government agencies, the head is typically: Department → Secretary, Bureau → Director, Office → Chief.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship:** The analogy is 'Department : Secretary'. A Secretary is the executive head of a Department. So the relationship is 'jurisdiction : executive head'.\n2. **Apply to the second pair:** We need the executive head of a Bureau. In the Philippine government structure, a Bureau is typically headed by a Director (e.g., Bureau of Internal Revenue is headed by a Commissioner, but the general term is Director).\n3. **Evaluate options:**\n   - Option A 'Director' matches the executive head role.\n   - Option B 'Clerk' is a subordinate, not a head.\n   - Option C 'Senator' is a legislative official, not an executive head.\n   - Option D 'Treasurer' is a specific financial role, not the overall head.\n4. **Conclusion:** Option A 'Director' is correct."
+  },
+  {
+    "id": "ver-vanal-301",
+    "subtopic_id": "verbal-analogies",
+    "category_id": "verbal-ability",
+    "blueprint_id": "Institutional Head Analogy 2",
+    "difficulty_level": 2,
+    "question_text": "Complete the analogy: Province : Governor :: City : __?__",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mayor"
+      },
+      {
+        "key": "B",
+        "text": "Clerk"
+      },
+      {
+        "key": "C",
+        "text": "Senator"
+      },
+      {
+        "key": "D",
+        "text": "Treasurer"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Identify Hierarchy Relationship",
+        "text": "A Governor is the executive head of a Province. The relationship is 'jurisdiction : executive head'."
+      },
+      {
+        "rung": 2,
+        "title": "Apply to Second Entity",
+        "text": "Now apply the same relationship to 'City'. Who is the executive head of a City in the Philippines?"
+      },
+      {
+        "rung": 3,
+        "title": "Match Head Official",
+        "text": "The executive head of a City is a Mayor. For example, the Mayor of Manila heads the city government."
+      },
+      {
+        "rung": 4,
+        "title": "Select Option A",
+        "text": "Option A 'Mayor' is the only choice that fits the executive head relationship. Select it."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! A Governor heads a Province, and a Mayor heads a City. Both are executive heads of their respective local government units.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "Incorrect. A Clerk is a subordinate staff member, not the head of a City. A student might pick 'Clerk' if they think of any office worker, but the analogy requires the executive head.",
+        "trap_type": "hierarchy_level_mismatch"
+      },
+      "C": {
+        "text": "Incorrect. A Senator is a legislative official at the national level, not the executive head of a City. This distractor tests whether the student confuses local executive with national legislative.",
+        "trap_type": "branch_mismatch"
+      },
+      "D": {
+        "text": "Incorrect. A Treasurer is a financial officer, not the executive head of a City. This distractor tests whether the student confuses a specific function with overall leadership.",
+        "trap_type": "function_mismatch"
+      }
+    },
+    "next_time_rule": "💡 **Key Takeaway:** Local Government Analogies: Jurisdiction → Executive Head. Province → Governor, City → Mayor, Barangay → Barangay Captain.",
+    "deconstruct_text": "### 📘 Step-by-Step Solution\n1. **Identify the relationship:** The analogy is 'Province : Governor'. A Governor is the executive head of a Province. So the relationship is 'jurisdiction : executive head'.\n2. **Apply to the second pair:** We need the executive head of a City. In the Philippine local government structure, a City is headed by a Mayor.\n3. **Evaluate options:**\n   - Option A 'Mayor' matches the executive head role.\n   - Option B 'Clerk' is a subordinate, not a head.\n   - Option C 'Senator' is a national legislative official, not a local executive.\n   - Option D 'Treasurer' is a specific financial role, not the overall head.\n4. **Conclusion:** Option A 'Mayor' is correct."
+  }
+]

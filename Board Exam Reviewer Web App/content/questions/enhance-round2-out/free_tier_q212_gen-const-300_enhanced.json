@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gen-const-300",
+    "subtopic_id": "philippine-constitution",
+    "category_id": "general-information",
+    "blueprint_id": "Bill of Rights Search Warrant Requirements Variant 1",
+    "difficulty_level": 3,
+    "question_text": "Under Article III, Section 2 of the 1987 Philippine Constitution, a search warrant or warrant of arrest can ONLY be issued upon a finding of probable cause determined personally by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Judge after examination under oath"
+      },
+      {
+        "key": "B",
+        "text": "A Police Precinct Commander"
+      },
+      {
+        "key": "C",
+        "text": "A City Prosecutor"
+      },
+      {
+        "key": "D",
+        "text": "The Department of Justice Secretary"
+      }
+    ],
+    "correct_option": "A",
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Orient Yourself",
+        "text": "This question is all about the Bill of Rights, specifically the rule that protects you from unreasonable searches. The Constitution wants to make sure no one can just barge into your home or arrest you without a very good reason checked by a neutral person. Who do you think that neutral person should be?"
+      },
+      {
+        "rung": 2,
+        "title": "The Simple Rule",
+        "text": "Article III, Section 2 says that probable cause must be determined 'personally by a judge after examination under oath.' The key words here are 'personally' and 'judge.' This power is given to the judiciary branch, not the executive branch."
+      },
+      {
+        "rung": 3,
+        "title": "Apply the Rule",
+        "text": "Now look at the options. Which one is a member of the judiciary? Police, prosecutors, and the DOJ Secretary are all part of the executive branch. Only a judge is from the judiciary. The Constitution specifically chose a judge to be the gatekeeper for warrants."
+      },
+      {
+        "rung": 4,
+        "title": "Almost There",
+        "text": "The correct answer is the only person who is both a judge and who must personally examine the complainant under oath. That's Option A. The other options are all executive officials who can apply for a warrant, but they can never issue one."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct! This is exactly what the Constitution says. A judge must personally determine probable cause after examining the complainant and witnesses under oath. This rule exists to protect your rights by making sure a neutral, independent judicial officer—not someone from the police or prosecution—decides if there's enough reason for a search or arrest.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "A Police Precinct Commander is a law enforcement officer in the executive branch. It's easy to think they might have this power since they're the ones who usually apply for warrants, but the Constitution deliberately gives the issuing power to a judge to prevent abuse. Police can ask for a warrant, but they can never grant one.",
+        "trap_type": "executive_vs_judicial_confusion"
+      },
+      "C": {
+        "text": "A City Prosecutor is a legal officer who conducts preliminary investigations and files cases in court. You might confuse their role with a judge because they both deal with legal matters, but prosecutors are part of the executive branch. They can determine probable cause for filing an information in court, but not for issuing a warrant—that's a judge's job alone.",
+        "trap_type": "prosecutional_power_confusion"
+      },
+      "D": {
+        "text": "The Department of Justice Secretary is the head of the executive department that oversees prosecutors. It's understandable to think a high-ranking official like the DOJ Secretary might have this power, but the Constitution is very clear: only a judge can issue a warrant. This separation of powers is a key protection against government overreach.",
+        "trap_type": "executive_vs_judicial_confusion"
+      }
+    },
+    "next_time_rule": "The 'Judge Only' Rule: When you see a question about who can issue a search warrant or warrant of arrest, remember that the Constitution gives this power exclusively to a judge. Think of it as a three-part test: (1) Is it a judge? (2) Did they personally determine probable cause? (3) Was it after an examination under oath? If all three are yes, it's valid. If any one is missing, the warrant is invalid.",
+    "deconstruct_text": "Let's break this down in a way that will stick with you. The 1987 Philippine Constitution, in Article III Section 2, is essentially saying: 'Your home, your body, your stuff—these are protected. No one can search or arrest you without a warrant, and that warrant can only come from a judge who has personally checked the evidence under oath.'\n\nThink of it like this: imagine you need a special pass to enter a secure building. The police can request the pass for you, but only the building's independent security manager (the judge) can actually issue it. The police can't just print their own passes, and neither can the prosecutor or the DOJ secretary. That's the system the Constitution set up to protect your rights.\n\nNow let's look at each wrong option to understand why a smart test-taker might pick them:\n\nOption B (Police Precinct Commander): You might think, 'Well, the police are the ones who need the warrant, so they should be able to issue it.' But that's exactly the problem—if the police could issue their own warrants, there would be no check on their power. The Constitution puts a judge in between to make sure the police have a really good reason.\n\nOption C (City Prosecutor): This is a common trap because prosecutors also deal with probable cause. But here's the distinction: prosecutors determine probable cause to file a case in court (that's for the preliminary investigation), while judges determine probable cause to issue a warrant (that's for the search or arrest). They're different jobs with different standards.\n\nOption D (DOJ Secretary): You might think, 'The DOJ is the highest legal authority, surely they can issue warrants.' But the Constitution doesn't care about rank—it cares about branch of government. The DOJ Secretary is still in the executive branch, and warrant-issuing power is reserved for the judiciary.\n\nHere's a mental trick to remember this forever: 'Warrants come from the black robe, not the blue uniform or the legal brief.' A judge wears a black robe. Police wear blue uniforms. Prosecutors and DOJ officials carry legal briefs. Only the black robe can issue a warrant.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

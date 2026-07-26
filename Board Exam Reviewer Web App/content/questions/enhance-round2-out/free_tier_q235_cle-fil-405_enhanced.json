@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-405",
+    "category_id": "clerical-ability",
+    "subtopic_id": "alphabetical-filing",
+    "question_text": "A personnel file contains alphanumeric codes associated with employees: A-101, B-202, A-102, C-301. How should these be filed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A-101, A-102, B-202, C-301"
+      },
+      {
+        "key": "B",
+        "text": "A-101, B-202, A-102, C-301"
+      },
+      {
+        "key": "C",
+        "text": "A-102, A-101, B-202, C-301"
+      },
+      {
+        "key": "D",
+        "text": "C-301, B-202, A-102, A-101"
+      }
+    ],
+    "correct_option": "A",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Hint 1",
+        "text": "Think about how you'd file a mix of letters and numbers in a cabinet. What comes first—the letter or the number?"
+      },
+      {
+        "rung": 2,
+        "title": "Hint 2",
+        "text": "The golden rule for alphanumeric filing: sort by the letter part first (alphabetically), then by the number part (numerically). It's like sorting names by last name, then first name."
+      },
+      {
+        "rung": 3,
+        "title": "Hint 3",
+        "text": "Look at the letter parts: A, B, C. Arrange them in alphabetical order first. That gives you A, A, B, C. Now, within the two A's, compare the numbers: 101 and 102. Which is smaller?"
+      },
+      {
+        "rung": 4,
+        "title": "Hint 4",
+        "text": "So the sequence is: all A's first (with 101 before 102), then B-202, then C-301. That's A-101, A-102, B-202, C-301."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "Correct. This follows the standard rule: sort by letter alphabetically (A, A, B, C), then by number ascending (101, 102, 202, 301). You've got it right.",
+        "trap_type": null
+      },
+      "B": {
+        "text": "This one jumps to B-202 before finishing all the A's. It's a common slip—you might have seen B-202 and placed it next without checking if there were more A's. Remember: all items starting with A must come before any starting with B.",
+        "trap_type": "letter_skip"
+      },
+      "C": {
+        "text": "This puts A-102 before A-101. It's easy to mix up the numbers when you're in a hurry, but 101 is smaller than 102. Think of it like page numbers: page 101 comes before page 102.",
+        "trap_type": "number_reversal"
+      },
+      "D": {
+        "text": "This is completely reversed—starting with C and ending with A. You might have accidentally read the list backwards or thought 'last in, first out.' But filing always goes from A to Z, not Z to A.",
+        "trap_type": "reverse_order"
+      }
+    },
+    "deconstruct_text": "Let's walk through this like you're actually filing papers. You have four codes: A-101, B-202, A-102, C-301. The first thing you do is ignore the numbers for a moment and look only at the letters. Sort those letters alphabetically: A, A, B, C. That tells you the A's come first, then B, then C. Now, within the A's, you have two codes: A-101 and A-102. Sort those by the number part, smallest to largest. Since 101 is less than 102, A-101 comes before A-102. So your final order is: A-101, A-102, B-202, C-301. Here's a mental trick to remember: think of it like sorting names in a phonebook. You'd sort by last name (the letter) first, and if two people share the same last name, you sort by first name (the number). Same idea here.",
+    "next_time_rule": "For alphanumeric codes, always file by the letter first (alphabetically), then by the number (numerically). It's like sorting names: last name first, then first name.",
+    "blueprint_id": "B-2375",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

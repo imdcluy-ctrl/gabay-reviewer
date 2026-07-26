@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ops-003",
+    "subtopic_id": "basic-operations",
+    "category_id": "numerical-ability",
+    "question_text": "What is 2^5?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "32"
+      },
+      {
+        "key": "D",
+        "text": "64"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Ano ba ibig sabihin ng ^?",
+        "text": "2^5 means 2 multiplied by itself 5 times: 2 x 2 x 2 x 2 x 2. Hindi 2 times 5."
+      },
+      {
+        "rung": 2,
+        "title": "Paano mag-multiply nang sunod-sunod?",
+        "text": "Start: 2×2=4; 4×2=8; 8×2=16; 16×2=32. Kada step, parami nang parami."
+      },
+      {
+        "rung": 3,
+        "title": "Mga karaniwang pagkakamali",
+        "text": "Huwag malito sa 2×5=10 o sa 5^2=25. Exponentiation ay paulit-ulit na multiplication, hindi simpleng times."
+      },
+      {
+        "rung": 4,
+        "title": "Double-check ang sagot",
+        "text": "Pagkatapos ng lahat, 32. Tumingin sa choices: C ang 32. Tama!"
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because you thought 2^5 is 2×5. Exponentiation is repeated multiplication, not just times.",
+        "trap_type": "order_of_operations_error"
+      },
+      "B": {
+        "text": "You might have chosen B because you swapped base and exponent, making it 5^2=25. But it's 2^5.",
+        "trap_type": "order_of_operations_error"
+      },
+      "C": {
+        "text": "Correct. 2×2×2×2×2 = 32.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because you multiplied six 2's instead of five, giving 64. Count factors: five '2's.",
+        "trap_type": "order_of_operations_error"
+      }
+    },
+    "next_time_rule": "Pag may exponent, multiply base sa sarili nang ilang beses ayon sa exponent. Huwag imultiply sa exponent mismo.",
+    "blueprint_id": "Exponent Computation",
+    "deconstruct_text": "Para ma-gets mo 'to, kunwari barangay captain magde-decide sa 5 ordinances, puwedeng yes o no. Ilang kombinasyon? Sagot: 2^5. I-compute ng ganito: 2 × 2 × 2 × 2 × 2. Step-by-step: 2 × 2 = 4; 4 × 2 = 8; 8 × 2 = 16; 16 × 2 = 32. Kaya 2^5 = 32.\n\n**Watch-Out Zone: order_of_operations_error** in action. 2^5 is not 2×5; iwasan ang pag...",
+    "is_free": false,
+    "language": "en",
+    "content_version": 3
+  }
+]

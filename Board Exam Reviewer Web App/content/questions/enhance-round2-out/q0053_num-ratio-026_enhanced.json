@@ -1,0 +1,74 @@
+[
+  {
+    "id": "num-ratio-026",
+    "subtopic_id": "ratio-proportion",
+    "category_id": "numerical-ability",
+    "question_text": "A DPWH crew of 6 workers can finish a road repair in 24 days. After 6 days, 2 more workers join. How many total days will the entire project take?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "19.5"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "correct_option": "C",
+    "difficulty_level": 3,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Worker-Days ang Sukat",
+        "text": "Isipin mo ang total work na kailangan bilang 'worker-days.' Multiply workers by days: 6 × 24 = 144 worker-days. 'Yan ang constant mo."
+      },
+      {
+        "rung": 2,
+        "title": "Bawasan ang Nagawa na",
+        "text": "Sa unang 6 days, may 6 workers kaya 6×6=36 worker-days na nagawa. Natitira: 144−36=108 worker-days."
+      },
+      {
+        "rung": 3,
+        "title": "Hatiin sa Bagong Crew",
+        "text": "Dumami ang workers sa 8. Kaya hatiin ang 108 sa 8 para makuha ang extra days: 108÷8=13.5. Ito ang karagdagang araw."
+      },
+      {
+        "rung": 4,
+        "title": "Idagdag ang Unang 6 Days",
+        "text": "Ang tanong: total days ng buong project. So 6 (naunang araw) + 13.5 = 19.5 days. 'Yan ang sagot."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "You might have chosen A because 16 seems right if you simply divide 24 by 1.5, missing the 6 days of already-done work.",
+        "trap_type": "partial_answer_error"
+      },
+      "B": {
+        "text": "You might have chosen B because 24-6=18, but this ignores that more workers speed up the remaining job.",
+        "trap_type": "proportion_type_error"
+      },
+      "C": {
+        "text": "Correct. Total 144 worker-days, after 36 done leaves 108, with 8 workers takes 13.5 more days, total 19.5 days.",
+        "trap_type": null
+      },
+      "D": {
+        "text": "You might have chosen D because an incorrect scaling factor was applied to the new crew size, underestimating the speedup.",
+        "trap_type": "incorrect_scaling_factor"
+      }
+    },
+    "next_time_rule": "Pag multi-stage work, find total worker-days muna. Subtract nagawa, then divide sa new crew size. Parang pizza: buo muna, then tira, then hati.",
+    "blueprint_id": "Inverse Proportion — Multi-Stage Work",
+    "deconstruct_text": "Tara, imagine natin na ikaw ang Barangay Captain sa isang road repair project. Isang DPWH crew ng 6 na workers ang kayang tapusin 'to in 24 days. So ang total work ay 6 × 24 = 144 worker-days. Fixed 'yan, parang budget ng barangay.\n\nPagkatapos ng 6 days, ang 6 workers ay nakagawa na ng 6×6=36 worker-days. So ang natitirang trabaho ay 144−36=108 worker-days. Kaya may 2 pang workers na dumating, making it 8 workers.\n\nNgayon, 8 workers na sila. Ang additional days = 108 ÷ 8 = 13.5 days. Huwag kalimutan ang unang 6 days. Kaya total project days = 6 + 13.5 = 19.5 days. Kaya ang sagot ay 19.5.\n\n**Watch-Out Zone: proportion_type_error** in play. Don't just subtract 24-6; use worker...",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]

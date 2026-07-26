@@ -1,0 +1,88 @@
+.journal-input-section {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  box-shadow: var(--shadow-sm);
+}
+
+.journal-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.journal-icon {
+  font-size: 1.25rem;
+}
+
+.journal-title {
+  font-size: var(--size-base);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.previous-notes-box {
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.prev-notes-label {
+  font-size: var(--size-xs);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.prev-note-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-2);
+}
+
+.prev-note-text {
+  font-size: var(--size-xs);
+  font-style: italic;
+  color: var(--color-text-primary);
+}
+
+.prev-note-date {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+.journal-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.journal-prompt-label {
+  font-size: var(--size-sm);
+  font-weight: 600;
+  color: var(--color-brand-teal);
+}
+
+.journal-textarea {
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.journal-textarea:focus {
+  outline: none;
+  border-color: var(--color-brand-teal);
+  box-shadow: 0 0 0 3px rgba(13, 115, 119, 0.1);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cle-fil-003",
+    "subtopic_id": "coding-spelling",
+    "category_id": "clerical-ability",
+    "question_text": "Which of the following words is correctly spelled?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accomodation"
+      },
+      {
+        "key": "B",
+        "text": "Accommodation"
+      },
+      {
+        "key": "C",
+        "text": "Acommodation"
+      },
+      {
+        "key": "D",
+        "text": "Accomadation"
+      }
+    ],
+    "correct_option": "B",
+    "difficulty_level": 1,
+    "hint_ladder": [
+      {
+        "rung": 1,
+        "title": "Look for the Double Letters",
+        "text": "This word has a tricky spelling because it has two sets of double consonants. Think about which letters might be doubled."
+      },
+      {
+        "rung": 2,
+        "title": "The 'cc' Rule",
+        "text": "The word starts with 'a', then immediately has a double 'c'. So it's 'acc...' Any option with only one 'c' is wrong."
+      },
+      {
+        "rung": 3,
+        "title": "The 'mm' Rule",
+        "text": "After the 'o', there should be a double 'm'. So it's '...ommod...' Any option with only one 'm' is wrong."
+      },
+      {
+        "rung": 4,
+        "title": "Check the Vowels Too",
+        "text": "The correct spelling has 'o' in the third syllable, not 'a'. So 'accommodation' is right. Look for the option that has both double 'cc', double 'mm', and the right vowels."
+      }
+    ],
+    "choice_explanations": {
+      "A": {
+        "text": "This one is missing an 'm'. The correct spelling has double 'mm', so 'accomodation' is a common mistake. It's easy to forget that second 'm' because the word sounds like it might only have one.",
+        "trap_type": "missing_double_letter"
+      },
+      "B": {
+        "text": "Perfect! This has both double 'cc' and double 'mm', plus the right vowels. You've got the correct spelling.",
+        "trap_type": null
+      },
+      "C": {
+        "text": "This one is missing a 'c'. The correct spelling starts with 'acc', not 'ac'. It's a sneaky error because the 'c' sound can feel like it's just one letter.",
+        "trap_type": "missing_double_letter"
+      },
+      "D": {
+        "text": "This has the right consonants but the wrong vowel. Instead of 'o' in the third syllable, it uses 'a'. So 'accomadation' is a vowel substitution error.",
+        "trap_type": "vowel_substitution_error"
+      }
+    },
+    "next_time_rule": "Think of the word 'accommodation' as having a 'double bed' for both 'c' and 'm' — two 'c's and two 'm's. If you remember that, you'll never miss it.",
+    "blueprint_id": "Clerical Ability — Standard Spelling Verification",
+    "deconstruct_text": "Let's break this down together. The word 'accommodation' is one of those tricky ones that trips people up because it has two pairs of double consonants. Here's a simple way to check: start from the beginning. After the 'a', you need double 'c' — so it's 'acc'. Then, after the 'o', you need double 'm' — so it's 'ommod'. The rest is straightforward: 'ation'. So the full correct spelling is 'accommodation'. Now look at each option: Option A has 'accomodation' — that's missing one 'm'. Option C has 'acommodation' — that's missing one 'c'. Option D has 'accomadation' — that swaps the 'o' for an 'a'. Only Option B has both double letters and the right vowels. A handy trick: imagine the word as a hotel room that needs a 'double bed' for both 'c' and 'm'. Two 'c's, two 'm's — that's the key.",
+    "is_free": true,
+    "language": "en",
+    "content_version": 3
+  }
+]
