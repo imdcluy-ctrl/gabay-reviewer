@@ -136,7 +136,7 @@ export const DeconstructionCard: React.FC<DeconstructionCardProps> = ({
         <div className="deconstruct-section step-focus-card">
           <div className="next-time-rule-card">
             <div className="ntr-header">
-              <span className="ntr-icon">💡</span>
+              <span className="ntr-icon">👋</span>
               <h4>Next-Time Rule (Step 3 of 3)</h4>
             </div>
             <p className="ntr-text">{question.next_time_rule}</p>

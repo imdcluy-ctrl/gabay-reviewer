@@ -40,7 +40,7 @@ export const HintLadder: React.FC<HintLadderProps> = ({
   return (
     <div className="hint-ladder-container" ref={containerRef}>
       <div className="hint-header">
-        <span className="hint-header-icon">💡</span>
+        <span className="hint-header-icon">👋</span>
         <h4 className="hint-header-title">Socratic Hint Scaffold</h4>
       </div>
 

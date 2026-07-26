@@ -112,7 +112,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
       {/* Sticky Bottom Actions */}
       <div className="qv-actions-sticky">
         <Button variant="secondary" size="md" onClick={onRequestHint}>
-          💡 Guide Me
+          👋 Guide Me
         </Button>
         <Button
           variant="primary"

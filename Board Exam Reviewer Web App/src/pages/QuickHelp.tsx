@@ -146,7 +146,7 @@ export const QuickHelp: React.FC = () => {
             className={`tab-btn ${activeTab === 'feedback' ? 'active' : ''}`}
             onClick={() => setActiveTab('feedback')}
           >
-            💡 Feedback
+            👋 Feedback
           </button>
         </div>
 
@@ -155,7 +155,7 @@ export const QuickHelp: React.FC = () => {
         ) : activeTab === 'faq' ? (
           <div className="faq-container">
             <Card className="help-hero-card">
-              <h2>💡 Welcome to Gabay Support</h2>
+              <h2>👋 Welcome to Gabay Support</h2>
               <p>Everything you need to master your Civil Service Examination review.</p>
             </Card>
 
@@ -204,7 +204,7 @@ export const QuickHelp: React.FC = () => {
                       value={category}
                       onChange={e => setCategory(e.target.value as any)}
                     >
-                      <option value="suggestion">💡 Feature Suggestion</option>
+                      <option value="suggestion">👋 Feature Suggestion</option>
                       <option value="bug">🐛 Bug / Typo Report</option>
                       <option value="question">❓ Question about Exam</option>
                       <option value="other">📝 Other Comment</option>

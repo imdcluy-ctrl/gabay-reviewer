@@ -55,7 +55,7 @@ export const CategoryPrimer: React.FC<CategoryPrimerProps> = ({ categoryId, onDi
         <p className="primer-body">{content.body}</p>
 
         <div className="primer-tip-box">
-          <span className="primer-tip-icon">💡</span>
+          <span className="primer-tip-icon">👋</span>
           <p className="primer-tip-text">
             <strong>Pro Tip:</strong> {content.tip}
           </p>

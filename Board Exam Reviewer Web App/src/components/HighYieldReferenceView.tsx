@@ -53,7 +53,7 @@ export const HighYieldReferenceView: React.FC = () => {
         {
           title: 'Subject-Verb Agreement Rules',
           formulas: [
-            { label: 'EACH Rule', rule: '💡 Ate/Kuya Tip: "EACH = 1 PERSON". Singular pronouns (each, everyone, anybody) ALWAYS take singular verbs (is, has, was).' },
+            { label: 'EACH Rule', rule: '👋 Ate/Kuya Tip: "EACH = 1 PERSON". Singular pronouns (each, everyone, anybody) ALWAYS take singular verbs (is, has, was).' },
             { label: 'Neither...Nor Rule', rule: 'The verb agrees with the NEAREST subject to it. (e.g. Neither the teacher nor the students WERE present.)' },
             { label: 'Inverted Sentence Rule', rule: 'In "There is/are..." sentences, find the real subject AFTER the verb.' },
             { label: 'Collective Nouns', rule: 'Singular if acting as 1 unit (The committee decides); Plural if members act individually.' },

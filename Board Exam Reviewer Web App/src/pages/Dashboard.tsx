@@ -186,7 +186,7 @@ export const Dashboard: React.FC = () => {
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <SoundToggle />
             <Button variant="secondary" size="sm" onClick={() => navigate('/help')}>
-              💡 Help
+              👋 Help
             </Button>
           </div>
         }      />
