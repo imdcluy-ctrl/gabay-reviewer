@@ -182,3 +182,66 @@
   margin-left: var(--space-2);
   vertical-align: middle;
 }
+
+/* Pro Upgrade Card */
+.pro-upgrade-card {
+  border: 2px solid var(--color-brand-gold) !important;
+  background: linear-gradient(135deg, rgba(245, 166, 35, 0.06), rgba(245, 166, 35, 0.02)) !important;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+}
+
+.pro-upgrade-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.pro-icon {
+  font-size: 2rem;
+}
+
+.pro-upgrade-header h3 {
+  font-size: var(--size-lg);
+  font-weight: 700;
+  color: var(--color-brand-gold);
+  margin: 0;
+}
+
+.pro-upgrade-header p {
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+  margin: 2px 0 0;
+}
+
+.pro-features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.pro-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.pro-check {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.pro-feature strong {
+  font-size: var(--size-xs);
+  color: var(--color-text-primary);
+  display: block;
+}
+
+.pro-feature p {
+  font-size: 0.6rem;
+  color: var(--color-text-muted);
+  margin: 1px 0 0;
+}
