@@ -20,6 +20,7 @@ import { useUserProfile } from '../hooks/useUserProfile';
 import { SoundToggle } from '../components/SoundToggle';
 import { useSound } from '../hooks/useSound';
 import { useXP } from '../hooks/useXP';
+import { useQOTD } from '../hooks/useQOTD';
 import { XP_VALUES } from '../lib/xp';
 import { XPNotification } from '../components/XPNotification';
 import { LevelUpModal } from '../components/LevelUpModal';
@@ -33,9 +34,13 @@ export const StudySession: React.FC = () => {
   const userId = profile?.id || 'guest';
 
   const searchParams = new URLSearchParams(location.search);
-  const sessionType = searchParams.get('session') === 'review' ? 'review' : 'practice';
+  const sessionType = searchParams.get('session') === 'review' ? 'review' : searchParams.get('session') === 'qotd' ? 'qotd' : 'practice';
 
   const categoryObj = CATEGORIES.find(c => c.id === categoryId);
+
+
+  const isQOTD = searchParams.get('session') === 'qotd';
+  const qotd = useQOTD();
 
   // Primer check (only for practice sessions)
   const [showPrimer, setShowPrimer] = useState<boolean>(false);
@@ -72,7 +77,7 @@ export const StudySession: React.FC = () => {
     handleKeepGoingFromBreak,
 
 
-  } = useStudySession(categoryId, sessionType);
+  } = useStudySession(categoryId, sessionType as 'practice' | 'review');
 
   // Sound effects for study session
   const sound = useSound();
@@ -99,6 +104,17 @@ export const StudySession: React.FC = () => {
           sound.play('achievement');
         }
       });
+      // QOTD bonus XP
+      if (isQOTD) {
+        xp.awardXp({ amount: 25, source: 'first_daily', questionId: currentQuestion.id }).then(result => {
+          setXpNotif({ amount: 25, source: 'first_daily' });
+          if (result.leveledUp) {
+            setShowLevelUp(true);
+            sound.play('achievement');
+          }
+        });
+        qotd.markAnswered();
+      }
     }
     if (state === 'complete' && prevStateRef.current !== 'complete') {
       sound.play('complete');

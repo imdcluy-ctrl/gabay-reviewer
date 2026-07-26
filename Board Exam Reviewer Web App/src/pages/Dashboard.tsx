@@ -12,6 +12,7 @@ import { Badge } from '../components/Badge';
 import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { SoundToggle } from '../components/SoundToggle';
+import { QOTDWidget } from '../components/QOTDWidget';
 import { useSound } from '../hooks/useSound';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
@@ -161,7 +162,10 @@ export const Dashboard: React.FC = () => {
           </div>
         </div>
 
-        {/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
+                {/* SECTION 1.5: Question of the Day */}
+        <QOTDWidget />
+
+{/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
         <Card className="hero-resume-card">
           <div className="hero-card-left">
             <span className="hero-badge">ðŸŽ¯ CONTINUE STUDYING</span>
