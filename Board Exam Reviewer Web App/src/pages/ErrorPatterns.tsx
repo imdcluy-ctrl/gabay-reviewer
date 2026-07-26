@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useLiveQuery } from 'dexie-react-hooks';
-import { db } from '../lib/db';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { Header } from '../components/Header';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
-import { ErrorDistributionWidget } from '../components/ErrorDistributionWidget';
-import { getGlobalDistribution } from '../lib/errorTagRepository';
-import { ERROR_TAG_META, type TagDistributionResult } from '../lib/errorTags';
+import { ERROR_TAG_META } from '../lib/errorTags';
 import './ErrorPatterns.css';
 
 export const ErrorPatterns: React.FC = () => {
@@ -40,20 +36,17 @@ export const ErrorPatterns: React.FC = () => {
           <ErrorPatternSummary localUserId={profile.id} />
         </Card>
 
-        <Card className="ep-section">
-          <h3>Error Distribution</h3>
-          <ErrorDistributionWidget localUserId={profile.id} />
-        </Card>
+        
 
         <Card className="ep-section">
           <h3>What Each Pattern Means</h3>
           <div className="ep-patterns-guide">
             {Object.entries(ERROR_TAG_META).map(([key, meta]) => (
               <div key={key} className="ep-pattern-item">
-                <span className="ep-pattern-emoji">{meta.emoji}</span>
+                <span className="ep-pattern-emoji">'❓'</span>
                 <div>
-                  <strong>{meta.label}</strong>
-                  <p>{meta.description}</p>
+                  <strong>{meta.labelEn}</strong>
+                  <p>{'No description available'}</p>
                 </div>
               </div>
             ))}

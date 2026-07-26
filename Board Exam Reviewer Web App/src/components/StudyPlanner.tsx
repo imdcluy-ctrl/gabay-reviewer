@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../lib/db';
 import { useUserProfile } from '../hooks/useUserProfile';
-import { useStreak } from '../hooks/useStreak';
 import { generateStudyPlan } from '../lib/studyPlanner';
 import { Card } from './Card';
 import { Button } from './Button';
@@ -17,7 +16,8 @@ export const StudyPlanner: React.FC = () => {
     () => profile ? db.attempts.where('local_user_id').equals(profile.id).toArray() : [],
     [profile?.id]
   );
-  const questions = useLiveQuery(() => db.questions.toArray()) || [];
+  const questionsResult = useLiveQuery(() => db.questions.toArray());
+  const questions = questionsResult || [];
 
   const plan = React.useMemo(() => {
     if (!attempts || !questions.length || !profile?.exam_date) return null;
@@ -28,8 +28,8 @@ export const StudyPlanner: React.FC = () => {
       const q = questions.find(q => q.id === a.question_id);
       if (!q) return;
       if (!catMap[q.category_id]) catMap[q.category_id] = { correct: 0, total: 0 };
-      catMap[q.category_id].total++;
-      if (a.is_correct) catMap[q.category_id].correct++;
+      catMap[q.category_id]!.total++;
+      if (a.is_correct) catMap[q.category_id]!.correct++;
     });
 
     const catAccuracies = Object.entries(catMap).map(([catId, data]) => ({

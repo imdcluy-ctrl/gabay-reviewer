@@ -40,7 +40,7 @@ const TARGET_ACCURACY = 85; // Target accuracy for passing
 export function generateStudyPlan(
   categoryAccuracies: { categoryId: string; accuracy: number; questionsAnswered: number }[],
   examDate: string | null,
-  totalQuestions: number,
+  _totalQuestions: number,
 ): StudyPlan | null {
   if (!examDate || categoryAccuracies.length === 0) return null;
 

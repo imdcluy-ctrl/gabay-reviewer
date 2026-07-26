@@ -33,7 +33,6 @@ export const MockExamLauncher: React.FC = () => {  const navigate = useNavigate(
   );
 
   const fullAttemptsUsed = fullAttempts?.filter(a => a.status === 'completed').length ?? 0;
-  const fullLimit = isPremium ? Infinity : 1;
   const fullExhausted = !isPremium && fullAttemptsUsed >= 1;
 
   const today = new Date().toLocaleDateString('en-CA');
