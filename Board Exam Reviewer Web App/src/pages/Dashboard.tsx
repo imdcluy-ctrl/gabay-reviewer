@@ -11,6 +11,8 @@ import { Button } from '../components/Button';
 import { Badge } from '../components/Badge';
 import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
+import { SoundToggle } from '../components/SoundToggle';
+import { useSound } from '../hooks/useSound';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
 import { FooterDisclaimer } from '../components/FooterDisclaimer';
 import { AdUnit } from '../components/AdUnit';
@@ -35,7 +37,7 @@ export const Dashboard: React.FC = () => {
   // Determine Continue Studying target category
   const getContinueCategory = () => {
     if (!questions || !attempts || attempts.length === 0) {
-      return { categoryId: 'numerical-ability', name: 'Numerical Ability — Ratio & Proportion' };
+      return { categoryId: 'numerical-ability', name: 'Numerical Ability â€” Ratio & Proportion' };
     }
 
     const wrongMap = new Map<string, number>();
@@ -54,12 +56,12 @@ export const Dashboard: React.FC = () => {
         const q = questions.find(item => item.id === qId);
         if (q) {
           const catObj = CATEGORIES.find(c => c.id === q.category_id);
-          return { categoryId: q.category_id, name: `${catObj?.name || 'Practice'} — Review Weak Items` };
+          return { categoryId: q.category_id, name: `${catObj?.name || 'Practice'} â€” Review Weak Items` };
         }
       }
     }
 
-    return { categoryId: 'numerical-ability', name: 'Numerical Ability — Practice Session' };
+    return { categoryId: 'numerical-ability', name: 'Numerical Ability â€” Practice Session' };
   };
 
   const continueCat = getContinueCategory();
@@ -83,13 +85,24 @@ export const Dashboard: React.FC = () => {
     const correctCount = attempts.filter(a => a.is_correct).length;
     return Math.min(100, Math.round((correctCount / attempts.length) * 100));
   }, [attempts]);
+  // Celebrate streak milestones with sound
+  const sound = useSound();
+  const prevStreakRef = React.useRef(currentStreak);
+  React.useEffect(() => {
+    const milestones = [3, 7, 14, 21, 30, 60, 100];
+    if (currentStreak > prevStreakRef.current && milestones.includes(currentStreak)) {
+      sound.play('achievement');
+    }
+    prevStreakRef.current = currentStreak;
+  }, [currentStreak]);
+
 
   const categoryIcons: Record<string, string> = {
-    'numerical-ability': '📐',
-    'verbal-ability': '📖',
-    'analytical-ability': '🧠',
-    'general-information': '🇵🇭',
-    'clerical-ability': '📁',
+    'numerical-ability': 'ðŸ“',
+    'verbal-ability': 'ðŸ“–',
+    'analytical-ability': 'ðŸ§ ',
+    'general-information': 'ðŸ‡µðŸ‡­',
+    'clerical-ability': 'ðŸ“',
   };
 
   return (
@@ -99,35 +112,37 @@ export const Dashboard: React.FC = () => {
         title="GABAY"
         subtitle="AI Exam Coach"
         rightAction={
-          <Button variant="secondary" size="sm" onClick={() => navigate('/help')}>
-            ❓ Help
-          </Button>
-        }
-      />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <SoundToggle />
+            <Button variant="secondary" size="sm" onClick={() => navigate('/help')}>
+              💡 Help
+            </Button>
+          </div>
+        }      />
 
       <main className="dashboard-content">
         {/* SECTION 1: Compact Student Header (15% Max Viewport Height) */}
         <div className="student-compact-header">
           <div className="student-greeting-row">
-            <h2>Magandang araw, {profile?.display_name || 'Kapatid'}! 👋</h2>
+            <h2>Magandang araw, {profile?.display_name || 'Kapatid'}! ðŸ‘‹</h2>
             <Badge variant={isPremium ? 'gold' : 'teal'}>
-              {isPremium ? '⚡ PRO ACCESS' : 'FREE TIER'}
+              {isPremium ? 'âš¡ PRO ACCESS' : 'FREE TIER'}
             </Badge>
           </div>
 
           <div className="glanceable-metrics-bar">
             <div className="metric-pill">
-              <span className="pill-icon">🔥</span>
+              <span className="pill-icon">ðŸ”¥</span>
               <span className="pill-val">{currentStreak}d Streak</span>
             </div>
             <div className="metric-pill-divider" />
             <div className="metric-pill">
-              <span className="pill-icon">⏱️</span>
+              <span className="pill-icon">â±ï¸</span>
               <span className="pill-val">{daysToExam !== null ? `${daysToExam}d to Exam` : 'Set Exam Date'}</span>
             </div>
             <div className="metric-pill-divider" />
             <div className="metric-pill">
-              <span className="pill-icon">📊</span>
+              <span className="pill-icon">ðŸ“Š</span>
               <span className="pill-val">{readinessPct}% Readiness</span>
             </div>
           </div>
@@ -136,11 +151,11 @@ export const Dashboard: React.FC = () => {
         {/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
         <Card className="hero-resume-card">
           <div className="hero-card-left">
-            <span className="hero-badge">🎯 CONTINUE STUDYING</span>
+            <span className="hero-badge">ðŸŽ¯ CONTINUE STUDYING</span>
             <h3 className="hero-title">{continueCat.name}</h3>
             <p className="hero-subtitle">
               {attempts && attempts.length > 0
-                ? `${attempts.length} questions completed • 1-tap to resume`
+                ? `${attempts.length} questions completed â€¢ 1-tap to resume`
                 : 'Start your first practice session today'}
             </p>
           </div>
@@ -150,17 +165,17 @@ export const Dashboard: React.FC = () => {
             className="hero-resume-btn"
             onClick={() => navigate(`/study/${continueCat.categoryId}`)}
           >
-            Resume Practice →
+            Resume Practice â†’
           </Button>
         </Card>
 
         {/* SECTION 2.5: Full Timed CSE Mock Simulation Launcher */}
         <Card className="mock-exam-launcher-card">
           <div className="mock-launcher-header">
-            <span className="mock-icon">⏱️</span>
+            <span className="mock-icon">â±ï¸</span>
             <div>
               <h3 className="mock-title">Full Timed CSE Mock Simulation</h3>
-              <p className="mock-sub">Real Civil Service Exam conditions (170 items • 3h 10m timer).</p>
+              <p className="mock-sub">Real Civil Service Exam conditions (170 items â€¢ 3h 10m timer).</p>
             </div>
           </div>
           <div className="mock-btn-row">
@@ -183,7 +198,7 @@ export const Dashboard: React.FC = () => {
 
         {/* SECTION 3: 4-Subject Quick Launcher Grid */}
         <div className="quick-launcher-section">
-          <h3 className="section-heading">📚 Practice Subjects</h3>
+          <h3 className="section-heading">ðŸ“š Practice Subjects</h3>
           <div className="category-launcher-grid">
             {CATEGORIES.map(cat => (
               <div
@@ -192,7 +207,7 @@ export const Dashboard: React.FC = () => {
                 onClick={() => navigate(`/study/${cat.id}`)}
               >
                 <div className="cat-card-top">
-                  <span className="cat-icon">{cat.icon || categoryIcons[cat.id] || '📝'}</span>
+                  <span className="cat-icon">{cat.icon || categoryIcons[cat.id] || 'ðŸ“'}</span>
                   <span className="cat-item-count">{getCategoryQuestionCount(cat.id)} items</span>
                 </div>
                 <h4 className="cat-name">{cat.name}</h4>
@@ -211,8 +226,8 @@ export const Dashboard: React.FC = () => {
               className="insights-drawer-toggle"
               onClick={() => setShowErrorInsights(!showErrorInsights)}
             >
-              <span>🧠 Metacognitive Error Patterns</span>
-              <span className="drawer-icon">{showErrorInsights ? '▲ Hide' : '▼ View'}</span>
+              <span>ðŸ§  Metacognitive Error Patterns</span>
+              <span className="drawer-icon">{showErrorInsights ? 'â–² Hide' : 'â–¼ View'}</span>
             </button>
             {showErrorInsights && (
               <div className="insights-drawer-content">
@@ -230,4 +245,7 @@ export const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
+
+
 

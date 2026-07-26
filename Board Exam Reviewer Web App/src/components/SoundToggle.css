@@ -1,0 +1,26 @@
+.sound-toggle-btn {
+  font-size: 1.2rem;
+  padding: 6px 8px;
+  border-radius: var(--radius-md);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sound-toggle-btn:hover {
+  background-color: var(--color-bg-secondary);
+  transform: scale(1.05);
+}
+
+.sound-toggle-btn:active {
+  transform: scale(0.92);
+}
+
+.sound-toggle-btn.muted {
+  opacity: 0.6;
+}

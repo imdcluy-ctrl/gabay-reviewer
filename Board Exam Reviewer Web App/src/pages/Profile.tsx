@@ -11,6 +11,7 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { PaywallBanner } from '../components/paywall/PaywallBanner';
 import { useEntitlement } from '../hooks/useEntitlement';
+import { SoundToggle } from '../components/SoundToggle';
 import './Profile.css';
 
 export const Profile: React.FC = () => {
@@ -35,7 +36,7 @@ export const Profile: React.FC = () => {
   return (
     <div className="profile-layout page-wrapper">
       <OfflineBanner />
-      <Header title="Profile" />
+      <Header title="Profile" rightAction={<SoundToggle />} />
 
       <main className="profile-content">
         {/* User Identity Card */}
@@ -125,4 +126,7 @@ export const Profile: React.FC = () => {
     </div>
   );
 };
+
+
+
 

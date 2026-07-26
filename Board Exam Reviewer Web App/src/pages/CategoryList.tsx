@@ -10,6 +10,7 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useEntitlement } from '../hooks/useEntitlement';
+import { SoundToggle } from '../components/SoundToggle';
 import { filterQuestionsForUser } from '../lib/entitlements';
 import './CategoryList.css';
 
@@ -50,7 +51,7 @@ export const CategoryList: React.FC = () => {
   return (
     <div className="category-list-layout page-wrapper">
       <OfflineBanner />
-      <Header title="Study Categories" subtitle="Select a section to practice" />
+      <Header title="Study Categories" subtitle="Select a section to practice" rightAction={<SoundToggle />} />
 
       <main className="category-list-content">
         <div className="category-grid">
@@ -105,4 +106,7 @@ export const CategoryList: React.FC = () => {
     </div>
   );
 };
+
+
+
 

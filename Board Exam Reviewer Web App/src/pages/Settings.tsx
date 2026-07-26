@@ -22,6 +22,36 @@ export const Settings: React.FC = () => {
   });
 
   const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [soundEnabled, setSoundEnabled] = useState<boolean>(() => {
+    try {
+      const raw = localStorage.getItem('gabay_sound_settings');
+      if (raw) return JSON.parse(raw).enabled ?? true;
+    } catch {}
+    return true;
+  });
+  const [soundVolume, setSoundVolume] = useState<number>(() => {
+    try {
+      const raw = localStorage.getItem('gabay_sound_settings');
+      if (raw) return JSON.parse(raw).volume ?? 0.6;
+    } catch {}
+    return 0.6;
+  });
+  const [quietMode, setQuietMode] = useState<boolean>(() => {
+    try {
+      const raw = localStorage.getItem('gabay_sound_settings');
+      if (raw) return JSON.parse(raw).quietMode ?? true;
+    } catch {}
+    return true;
+  });
+
+  const handleSaveSoundSettings = () => {
+    localStorage.setItem('gabay_sound_settings', JSON.stringify({
+      enabled: soundEnabled,
+      volume: soundVolume,
+      quietMode,
+    }));
+    showToast('Sound settings saved! ??');
+  };
 
   const showToast = (msg: string) => {
     setToastMsg(msg);
@@ -151,6 +181,54 @@ export const Settings: React.FC = () => {
           <ThemeToggle />
         </Card>
 
+        {/* 3.5 Sound Settings */}
+        <Card className="settings-section">
+          <h3>?? Sound Effects</h3>
+          <p className="settings-subtext">Audio feedback for answers, streaks, and achievements</p>
+          
+          <div className="sound-setting-row">
+            <span className="sound-setting-label">Sound Effects</span>
+            <label className="toggle-switch">
+              <input
+                type="checkbox"
+                checked={soundEnabled}
+                onChange={e => setSoundEnabled(e.target.checked)}
+              />
+              <span className="toggle-slider" />
+            </label>
+          </div>
+
+          <div className="sound-setting-row">
+            <span className="sound-setting-label">Volume</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value={Math.round(soundVolume * 100)}
+              onChange={e => setSoundVolume(Number(e.target.value) / 100)}
+              className="sound-volume-slider"
+              disabled={!soundEnabled}
+            />
+            <span className="sound-volume-val">{Math.round(soundVolume * 100)}%</span>
+          </div>
+
+          <div className="sound-setting-row">
+            <span className="sound-setting-label">?? Quiet Hours (10PM - 7AM)</span>
+            <label className="toggle-switch">
+              <input
+                type="checkbox"
+                checked={quietMode}
+                onChange={e => setQuietMode(e.target.checked)}
+                disabled={!soundEnabled}
+              />
+              <span className="toggle-slider" />
+            </label>
+          </div>
+
+          <Button variant="secondary" size="sm" onClick={handleSaveSoundSettings}>
+            Save Sound Settings
+          </Button>
+        </Card>
         {/* 4. Study Reminders */}
         <Card className="settings-section">
           <h3>Daily Study Reminder</h3>
@@ -192,3 +270,5 @@ export const Settings: React.FC = () => {
     </div>
   );
 };
+
+

@@ -17,6 +17,8 @@ import { Card } from '../components/Card';
 import { BackupNudge } from '../components/BackupNudge';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { useUserProfile } from '../hooks/useUserProfile';
+import { SoundToggle } from '../components/SoundToggle';
+import { useSound } from '../hooks/useSound';
 import './StudySession.css';
 
 export const StudySession: React.FC = () => {
@@ -64,7 +66,24 @@ export const StudySession: React.FC = () => {
     handleSkipToAnswer,
     handleResolveQuestion,
     handleKeepGoingFromBreak,
+
+
   } = useStudySession(categoryId, sessionType);
+
+  // Sound effects for study session
+  const sound = useSound();
+  React.useEffect(() => {
+    if (state === 'result' && currentQuestion) {
+      if (selectedOption === currentQuestion.correct_option) {
+        sound.play('correct');
+      } else {
+        sound.play('wrong');
+      }
+    }
+    if (state === 'complete') {
+      sound.play('complete');
+    }
+  }, [state]);
 
   if (showPrimer) {
     return (
@@ -82,6 +101,7 @@ export const StudySession: React.FC = () => {
         title={sessionType === 'review' ? 'Spaced Review Session' : (categoryObj?.name || 'Practice Session')}
         showBack
         onBack={() => navigate(-1)}
+        rightAction={<SoundToggle />}
       />
 
       <main className="study-main-content">
@@ -198,4 +218,7 @@ export const StudySession: React.FC = () => {
     </div>
   );
 };
+
+
+
 
