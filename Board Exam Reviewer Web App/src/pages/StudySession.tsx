@@ -19,6 +19,10 @@ import { OfflineBanner } from '../components/OfflineBanner';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { SoundToggle } from '../components/SoundToggle';
 import { useSound } from '../hooks/useSound';
+import { useXP } from '../hooks/useXP';
+import { XP_VALUES } from '../lib/xp';
+import { XPNotification } from '../components/XPNotification';
+import { LevelUpModal } from '../components/LevelUpModal';
 import './StudySession.css';
 
 export const StudySession: React.FC = () => {
@@ -72,17 +76,41 @@ export const StudySession: React.FC = () => {
 
   // Sound effects for study session
   const sound = useSound();
+  const xp = useXP();
+  const [xpNotif, setXpNotif] = useState<{ amount: number; source: string } | null>(null);
+  const [showLevelUp, setShowLevelUp] = useState(false);
+  const prevStateRef = React.useRef(state);
+
   React.useEffect(() => {
-    if (state === 'result' && currentQuestion) {
-      if (selectedOption === currentQuestion.correct_option) {
+    if (state === 'result' && currentQuestion && prevStateRef.current !== 'result') {
+      const isCorrect = selectedOption === currentQuestion.correct_option;
+      if (isCorrect) {
         sound.play('correct');
       } else {
         sound.play('wrong');
       }
+      // Award XP
+      const amount = isCorrect ? XP_VALUES.CORRECT_ANSWER : XP_VALUES.WRONG_ANSWER;
+      const source = isCorrect ? 'correct' : 'wrong';
+      xp.awardXp({ amount, source, questionId: currentQuestion.id }).then(result => {
+        setXpNotif({ amount, source });
+        if (result.leveledUp) {
+          setShowLevelUp(true);
+          sound.play('achievement');
+        }
+      });
     }
-    if (state === 'complete') {
+    if (state === 'complete' && prevStateRef.current !== 'complete') {
       sound.play('complete');
+      xp.awardXp({ amount: XP_VALUES.SESSION_COMPLETE, source: 'session_complete' }).then(result => {
+        setXpNotif({ amount: XP_VALUES.SESSION_COMPLETE, source: 'session_complete' });
+        if (result.leveledUp) {
+          setShowLevelUp(true);
+          sound.play('achievement');
+        }
+      });
     }
+    prevStateRef.current = state;
   }, [state]);
 
   if (showPrimer) {
@@ -207,6 +235,21 @@ export const StudySession: React.FC = () => {
         )}
       </main>
 
+
+      {xpNotif && (
+        <XPNotification
+          amount={xpNotif.amount}
+          source={xpNotif.source}
+          onComplete={() => setXpNotif(null)}
+        />
+      )}
+      {showLevelUp && xp.levelInfo && (
+        <LevelUpModal
+          level={xp.levelInfo.level}
+          title={xp.levelInfo.title}
+          onDismiss={() => setShowLevelUp(false)}
+        />
+      )}
       {showBreakOverlay && (
         <BreakSuggestion
           questionsAnswered={questionsAnswered}

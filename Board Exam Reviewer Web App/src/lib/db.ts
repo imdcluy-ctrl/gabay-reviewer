@@ -77,6 +77,8 @@ export interface LocalUserProfile {
   exam_level?: string;
   exam_date: string | null;
   target_score: number;
+  xp_total?: number;
+  level?: number;
   onboarding_completed?: boolean;
   created_at: string;
 
@@ -129,6 +131,17 @@ export interface ExamineeFeedback {
   created_at: string;
 }
 
+
+export interface XPHistoryRecord {
+  id: string;
+  local_user_id: string;
+  xp_amount: number;
+  source: 'correct' | 'wrong' | 'streak_bonus' | 'first_daily' | 'session_complete' | 'no_hints_bonus' | 'mock_complete' | 'achievement';
+  question_id?: string;
+  streak_multiplier?: number;
+  created_at: string;
+}
+
 class GabayDatabase extends Dexie {
   questions!: Table<LocalQuestion>;
   attempts!: Table<LocalAttempt>;
@@ -150,6 +163,7 @@ class GabayDatabase extends Dexie {
   checklist_progress!: Table<ChecklistProgressRecord>;
   user_entitlements!: Table<UserEntitlementRecord>;
   examinee_feedback!: Table<ExamineeFeedback>;
+  xp_history!: Table<XPHistoryRecord>;
 
   constructor() {
     super('gabay_db');
@@ -294,6 +308,32 @@ class GabayDatabase extends Dexie {
       user_entitlements: 'id, local_user_id, plan_type, is_premium, updated_at',
       examinee_feedback: 'id, user_id, category, status, created_at',
     });
+    // Version 8 Schema � XP & Leveling System
+    this.version(8).stores({
+      questions: 'id, category_id, subtopic, difficulty, is_free, status',
+      attempts: 'id, local_user_id, question_id, is_correct, session_type, attempted_at, synced_at',
+      journal_entries: 'id, local_user_id, question_id, created_at, synced_at',
+      review_state:
+        'id, local_user_id, question_id, [local_user_id+question_id], box_level, next_review_date, leech_count, is_leech, updated_at',
+      user_profile: 'id, auth_user_id, exam_target, exam_date, target_score, xp_total, level',
+      sync_queue: 'id, entity_name, action, created_at',
+      mock_exams: 'id, exam_type, title, total_questions, time_limit_minutes, status, version',
+      mock_exam_attempts:
+        'id, local_user_id, mock_exam_id, started_at, completed_at, score, percentage, passed, status, mode, integrity_flag, [local_user_id+mock_exam_id+status], time_remaining_seconds, current_question_index, section_times, leitner_injected_at',
+      mock_exam_answers:
+        'id, attempt_id, question_id, question_index, chosen_option, is_correct, time_spent_seconds, flagged, section_id, content_snapshot, created_at',
+      mock_exam_pauses: 'id, attempt_id, paused_at, resumed_at, duration_seconds',
+      mock_exam_injections:
+        'id, attempt_id, question_id, [attempt_id+question_id], box_from, box_to, leech_count_before, leech_count_after, error_type, injected_at',
+      error_tags:
+        '++id, local_user_id, attempt_id, question_id, [attempt_id+question_id], [local_user_id+question_id], tag, source, created_at, updated_at',
+      worry_dumps: '++id, local_user_id, created_at',
+      checklist_progress: '&key, local_user_id, updated_at',
+      user_entitlements: 'id, local_user_id, plan_type, is_premium, updated_at',
+      examinee_feedback: 'id, user_id, category, status, created_at',
+      xp_history: 'id, local_user_id, source, created_at',
+    });
+
 
     this.on('populate', async tx => {
       const { seedDefaultMockExams } = await import('./migrations/v3_mock_exams');

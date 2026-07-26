@@ -11,6 +11,8 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { PaywallBanner } from '../components/paywall/PaywallBanner';
 import { useEntitlement } from '../hooks/useEntitlement';
+import { useXP } from '../hooks/useXP';
+import { XPBadge } from '../components/XPBadge';
 import { SoundToggle } from '../components/SoundToggle';
 import './Profile.css';
 
@@ -18,6 +20,8 @@ export const Profile: React.FC = () => {
   const navigate = useNavigate();
   const { profile } = useUserProfile();
   const { currentStreak } = useStreak();
+  const xp = useXP();
+
   const { isPremium } = useEntitlement();
 
   const attempts = useLiveQuery(() =>
@@ -50,6 +54,15 @@ export const Profile: React.FC = () => {
           </div>
         </Card>
 
+
+        {/* XP Level Card */}
+        <XPBadge
+          level={xp.levelInfo.level}
+          title={xp.levelInfo.title}
+          progress={xp.progress}
+          totalXp={xp.totalXp}
+          size="lg"
+        />
         {/* Quick Stats Summary */}
         <div className="profile-stats-grid">
           <Card className="profile-stat-box">

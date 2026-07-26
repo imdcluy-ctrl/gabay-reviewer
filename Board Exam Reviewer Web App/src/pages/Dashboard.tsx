@@ -13,6 +13,8 @@ import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { SoundToggle } from '../components/SoundToggle';
 import { useSound } from '../hooks/useSound';
+import { useXP } from '../hooks/useXP';
+import { XPBadge } from '../components/XPBadge';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
 import { FooterDisclaimer } from '../components/FooterDisclaimer';
 import { AdUnit } from '../components/AdUnit';
@@ -95,6 +97,8 @@ export const Dashboard: React.FC = () => {
     }
     prevStreakRef.current = currentStreak;
   }, [currentStreak]);
+  const xp = useXP();
+
 
 
   const categoryIcons: Record<string, string> = {
@@ -128,6 +132,15 @@ export const Dashboard: React.FC = () => {
             <Badge variant={isPremium ? 'gold' : 'teal'}>
               {isPremium ? 'âš¡ PRO ACCESS' : 'FREE TIER'}
             </Badge>
+          </div>
+
+          <div className="dashboard-xp-row">
+            <XPBadge
+              level={xp.levelInfo.level}
+              title={xp.levelInfo.title}
+              progress={xp.progress}
+              totalXp={xp.totalXp}
+            />
           </div>
 
           <div className="glanceable-metrics-bar">
