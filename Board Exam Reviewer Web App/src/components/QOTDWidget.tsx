@@ -23,16 +23,16 @@ export const QOTDWidget: React.FC = () => {
     return (
       <Card className="qotd-card qotd-done">
         <div className="qotd-header">
-          <span className="qotd-icon">??</span>
+          <span className="qotd-icon">☀️</span>
           <div className="qotd-info">
             <h3 className="qotd-title">Question of the Day</h3>
-            <p className="qotd-subtitle">Done for today! ?</p>
+            <p className="qotd-subtitle">Done for today! ✅</p>
           </div>
         </div>
         <div className="qotd-streak-row">
           <span className="qotd-streak-label">QOTD Streak</span>
           <span className="qotd-streak-val">
-            {qotd.streak > 0 ? '?? ' + qotd.streak + ' day' + (qotd.streak > 1 ? 's' : '') : 'Start tomorrow!'}
+            {qotd.streak > 0 ? '🔥 ' + qotd.streak + ' day' + (qotd.streak > 1 ? 's' : '') : 'Start tomorrow!'}
           </span>
         </div>
       </Card>
@@ -42,12 +42,12 @@ export const QOTDWidget: React.FC = () => {
   return (
     <Card className="qotd-card qotd-active">
       <div className="qotd-header">
-        <span className="qotd-icon">??</span>
+        <span className="qotd-icon">☀️</span>
         <div className="qotd-info">
           <h3 className="qotd-title">Question of the Day</h3>
           <p className="qotd-subtitle">
             {qotd.question
-              ? 'From ' + qotd.categoryName + ' � +25 XP bonus'
+              ? 'From ' + qotd.categoryName + ' · +25 XP bonus'
               : 'No questions available'}
           </p>
         </div>
@@ -62,7 +62,7 @@ export const QOTDWidget: React.FC = () => {
             navigate('/study/' + qotd.question!.category_id + '?session=qotd&questionId=' + qotd.question!.id);
           }}
         >
-          {'Answer QOTD ? ?? +' + (qotd.streak > 0 ? qotd.streak : 0) + 'd streak'}
+          {'Answer QOTD → 🔥 +' + (qotd.streak > 0 ? qotd.streak : 0) + 'd streak'}
         </Button>
       )}
     </Card>

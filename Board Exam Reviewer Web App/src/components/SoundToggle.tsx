@@ -12,7 +12,7 @@ export const SoundToggle: React.FC = () => {
       aria-label={isMuted ? 'Unmute sounds' : 'Mute sounds'}
       title={isQuietHours ? 'Quiet hours active (10PM - 7AM)' : (isMuted ? 'Sound is muted' : 'Sound is on')}
     >
-      {isQuietHours ? '??' : isMuted ? '??' : '??'}
+      {isQuietHours ? '🌙' : isMuted ? '🔇' : '🔊'}
     </button>
   );
 };
