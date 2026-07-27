@@ -540,3 +540,100 @@
 .dashboard-xp-row .xp-badge .xp-total {
   font-size: 0.78rem;
 }
+
+/* Readiness Card */
+.readiness-card-wrapper {
+  margin-bottom: var(--space-4);
+}
+.readiness-card {
+  padding: var(--space-4);
+}
+.readiness-header h3 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--size-sm);
+  font-weight: 700;
+}
+.readiness-score-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+.readiness-score-main {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+.readiness-score-val {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-brand-teal);
+}
+.readiness-score-ci {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+.readiness-pass-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+}
+.readiness-message {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+.readiness-focus {
+  margin-top: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: rgba(245,166,35,0.08);
+  border: 1px solid rgba(245,166,35,0.2);
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+}
+
+.readiness-categories {
+  margin-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.readiness-cats-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+.readiness-cat-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.readiness-cat-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+.readiness-cat-val {
+  font-weight: 700;
+}
+.readiness-cat-bar-bg {
+  height: 5px;
+  background: var(--color-bg-secondary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.readiness-cat-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+}

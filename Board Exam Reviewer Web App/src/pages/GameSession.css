@@ -169,6 +169,18 @@
 }
 
 /* Freeze banner */
+.practice-banner {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: rgba(20,184,166,0.1);
+  border: 1px solid rgba(20,184,166,0.3);
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #14B8A6;
+  text-align: center;
+}
+
 .freeze-banner {
   margin-top: 12px;
   padding: 10px 14px;

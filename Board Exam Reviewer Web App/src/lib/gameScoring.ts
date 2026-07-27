@@ -83,3 +83,37 @@ export function shouldAwardFreeze(
 ): boolean {
   return settings.streakMilestones.includes(currentStreak);
 }
+
+/** Load saved freeze tokens from localStorage. */
+export function loadSavedFreezes(): number {
+  try { return Number(localStorage.getItem('gabay_freeze_tokens')) || 0; }
+  catch { return 0; }
+}
+
+/** Save freeze tokens to localStorage. */
+export function saveFreezeTokens(count: number): void {
+  localStorage.setItem('gabay_freeze_tokens', String(Math.max(0, count)));
+}
+
+/** Award a freeze token (capped at 3 max). */
+export function awardFreezeToken(current: number): number {
+  const updated = Math.min(current + 1, 3);
+  saveFreezeTokens(updated);
+  return updated;
+}
+
+/** Check if the daily restore is still available. */
+export function canRestoreToday(): boolean {
+  try {
+    const key = "gabay_streak_restore_date";
+    const today = new Date().toLocaleDateString("en-CA");
+    return localStorage.getItem(key) !== today;
+  } catch { return true; }
+}
+
+/** Mark restore as used for today. */
+export function markRestoreUsed(): void {
+  const today = new Date().toLocaleDateString("en-CA");
+  localStorage.setItem("gabay_streak_restore_date", today);
+}
+

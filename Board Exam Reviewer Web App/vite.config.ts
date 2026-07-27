@@ -16,6 +16,8 @@ export default defineConfig({
     VitePWA({
       // Build timestamp for cache busting
       registerType: 'autoUpdate',
+      // Force browser to always check network for SW file (bypasses 24h cache)
+      updateViaCache: 'none',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
         name: 'Gabay — AI Exam Coach',

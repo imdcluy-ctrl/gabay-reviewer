@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../lib/db';
 import { CATEGORIES } from '../lib/constants';
+import { collectReadinessData } from '../lib/readinessData';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useStreak } from '../hooks/useStreak';
 import { Header } from '../components/Header';
@@ -12,17 +13,15 @@ import { Badge } from '../components/Badge';
 import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { SoundToggle } from '../components/SoundToggle';
-import { QOTDWidget } from '../components/QOTDWidget';
+import { SWUpdateBadge } from '../components/SWUpdateBadge';
 import { useAchievements } from '../hooks/useAchievements';
 import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
-import { SnapshotScoreCard } from '../components/SnapshotScoreCard';
 import { MockExamLauncher } from '../components/MockExamLauncher';
 import { MasteryHeatmap } from '../components/MasteryHeatmap';
 import { ReviewCalendar } from '../components/ReviewCalendar';
 import { StudyPlanner } from '../components/StudyPlanner';
-import { calculateSnapshotScore } from '../lib/predictiveScore';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
@@ -126,20 +125,22 @@ export const Dashboard: React.FC = () => {
     const rawScore = bayesianEstimate + coverageBonus + difficultyBonus;
     return Math.min(100, Math.max(0, Math.round(rawScore * 100)));
   }, [attempts, questions]);
-  // Predictive CSE Score
-  const snapshotResult = React.useMemo(() => {
-    if (!attempts || !questions) return null;
-    const questionCategoryMap: Record<string, string> = {};
-    questions.forEach(q => { questionCategoryMap[q.id] = q.category_id; });
-    return calculateSnapshotScore(
-      attempts,
-      questionCategoryMap,
-      currentStreak,
-      daysToExam,
-      questions.length,
-    );
-  }, [attempts, questions, currentStreak, daysToExam]);
 
+
+  // Phase B Readiness Score
+  const [readiness, setReadiness] = React.useState(null);
+  const [readinessLoading, setReadinessLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    if (!profile?.id) return;
+    setReadinessLoading(true);
+    import("../lib/readinessData").then(m => m.collectReadinessData(profile.id)).then(inputs => {
+      import("../lib/readinessScore").then(m => {
+        setReadiness(m.calculateReadiness(inputs));
+        setReadinessLoading(false);
+      });
+    });
+  }, [profile?.id]);
 
   // Celebrate streak milestones with sound
   const sound = useSound();
@@ -184,7 +185,7 @@ export const Dashboard: React.FC = () => {
         subtitle="AI Exam Coach"
         rightAction={
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <SoundToggle />
+              <SWUpdateBadge /><SoundToggle />
             <Button variant="secondary" size="sm" onClick={() => navigate('/help')}>
               👋 Help
             </Button>
@@ -261,10 +262,42 @@ export const Dashboard: React.FC = () => {
           </Button>
         </Card>
 
-        {/* SECTION 2.25: Predictive Score Card */}
-        {snapshotResult && snapshotResult.trend !== "insufficient_data" && (
-          <SnapshotScoreCard result={snapshotResult} />
+{readiness && readiness.confidence !== "very_low" && !readinessLoading && (
+          <div className="readiness-card-wrapper">
+            <div className="card readiness-card">
+              <div className="readiness-header">
+                <h3>Your Practice Snapshot</h3>
+              </div>
+              <div className="readiness-score-row">
+                <div className="readiness-score-main">
+                  <span className="readiness-score-val">{readiness.score}%</span>
+                  <span className="readiness-score-ci">&#xb1;{readiness.confidenceInterval}%</span>
+                </div>
+                <div className="readiness-score-status">
+                  <span className="readiness-pass-badge" style={{
+                    background: readiness.score >= 80 ? "#22C55E" : "#F97316",
+                  }}>
+                    {readiness.score >= 80 ? "STRONG" : "GROWING"}
+                  </span>
+                </div>
+              </div>
+              <p className="readiness-message">{readiness.message}</p>
+              {readiness.weakestCategory && (
+                <div className="readiness-focus">
+                  <span>Focus area: <strong>{readiness.weakestCategory}</strong></span>
+                </div>
+              )}
+            </div>
+          </div>
         )}
+        {readinessLoading && (
+          <div className="readiness-card-wrapper">
+            <div className="card readiness-card">
+              <p style={{ color: "var(--color-text-secondary)", fontSize: "0.85rem" }}>Analyzing your practice data...</p>
+            </div>
+          </div>
+        )}
+
 
         {/* SECTION 2.5: Mock Exam Launchers (Full + Mini with attempt tracking) */}
         <MockExamLauncher />

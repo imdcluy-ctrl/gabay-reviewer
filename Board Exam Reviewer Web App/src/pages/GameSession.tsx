@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useEntitlement } from '../hooks/useEntitlement';
 import { useGameSession } from '../hooks/useGameSession';
-import { createInitialState, processAnswer, isGameOver, DEFAULT_STREAK_SETTINGS } from '../lib/gameScoring';
+import { createInitialState, processAnswer, isGameOver, DEFAULT_STREAK_SETTINGS, loadSavedFreezes, saveFreezeTokens, awardFreezeToken, canRestoreToday, markRestoreUsed } from '../lib/gameScoring';
 import { selectStreakQuestion, loadUsedToday, saveUsedToday } from '../lib/gameSelection';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
@@ -19,11 +19,17 @@ export const GameSession: React.FC = () => {
   const { bestStreak, alreadyPlayedToday, saveSession } = useGameSession();
   const userId = profile?.id || 'guest-device';
 
-  const [state, setState] = useState<DailyStreakState>(() => createInitialState(bestStreak));
+  const [state, setState] = useState<DailyStreakState>(() => {
+    const s = createInitialState(bestStreak);
+    s.freezesAvailable = loadSavedFreezes();
+    return s;
+  });
   const [question, setQuestion] = useState<LocalQuestion | null>(null);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [freezeActive, setFreezeActive] = useState(false);
+  const [showRestore, setShowRestore] = useState(false);
+  const [practiceMode, setPracticeMode] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(true);
   const usedToday = useRef(loadUsedToday());
@@ -47,7 +53,27 @@ export const GameSession: React.FC = () => {
 
   useEffect(() => { loadQuestion(); }, [loadQuestion]);
 
+  const handlePracticeAnswer = (key: string) => {
+    if (!question) return;
+    const correct = key === question.correct_option;
+    setSelectedOption(key);
+    setIsCorrect(correct);
+    setTimeout(() => {
+      loadQuestion();
+    }, 600);
+  };
+
+  const handleRestore = () => {
+    markRestoreUsed();
+    setState(prev => ({ ...prev, livesRemaining: 3, status: 'playing' }));
+    setShowRestore(false);
+  };
+
   const handleAnswer = (key: string) => {
+    if (practiceMode) {
+      handlePracticeAnswer(key);
+      return;
+    }
     if (selectedOption || !question) return;
     const correct = key === question.correct_option;
     setIsCorrect(correct);
@@ -64,6 +90,10 @@ export const GameSession: React.FC = () => {
       }
 
       if (isGameOver(next)) {
+        if (state.livesRemaining <= 0 && canRestoreToday()) {
+          setShowRestore(true);
+          return;
+        }
         setShowResult(true);
         saveSession({
           localUserId: userId,
@@ -101,6 +131,57 @@ export const GameSession: React.FC = () => {
               Back to Dashboard
             </Button>
           </Card>
+        </main>
+      </div>
+    );
+  }
+
+  if (showRestore) {
+    return (
+      <div className="streak-game-layout page-wrapper">
+        <main className="streak-result-container">
+          <div style={{ maxWidth: '400px', width: '100%', textAlign: 'center', padding: '32px 24px', background: 'var(--color-bg-card)', borderRadius: '16px', border: '1px solid var(--color-border)' }}>
+            <span style={{ fontSize: '3rem', display: 'block', marginBottom: '12px' }}>🔥</span>
+            <h2>Don" + "'t Give Up!</h2>
+            <p style={{ color: 'var(--color-text-secondary)', marginBottom: '20px', lineHeight: 1.5 }}>You ran out of lives but you can continue once today.<br />Keep going!</p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              <button
+                onClick={handleRestore}
+                style={{ padding: '14px 24px', background: 'linear-gradient(135deg, #F97316, #EA580C)', color: '#fff', border: 'none', borderRadius: '12px', fontWeight: 700, cursor: 'pointer', fontSize: '1rem' }}
+              >
+                Continue 🚀
+              </button>
+              <button
+                onClick={() => {
+                  setShowRestore(false);
+                  setPracticeMode(true);
+                }}
+                style={{ padding: '12px 24px', background: 'rgba(20,184,166,0.1)', color: '#14B8A6', border: '1.5px solid rgba(20,184,166,0.3)', borderRadius: '12px', fontWeight: 600, cursor: 'pointer', fontSize: '0.9rem' }}
+              >
+                Practice Unscored 📝
+              </button>
+              <button
+                onClick={() => {
+                  setShowRestore(false);
+                  setShowResult(true);
+                  saveSession({
+                    localUserId: userId,
+                    date: new Date().toLocaleDateString('en-CA'),
+                    finalStreak: state.bestStreakEver,
+                    totalCorrect: state.totalCorrect,
+                    totalAnswered: state.totalAnswered,
+                    score: state.score,
+                    freezesUsed: 0,
+                    freezesEarned: state.freezesAvailable,
+                    durationSeconds: 0,
+                  });
+                }}
+                style={{ padding: '12px 24px', background: 'transparent', color: 'var(--color-text-secondary)', border: '1.5px solid var(--color-border)', borderRadius: '12px', fontWeight: 600, cursor: 'pointer', fontSize: '0.9rem' }}
+              >
+                End Session
+              </button>
+            </div>
+          </div>
         </main>
       </div>
     );
@@ -198,6 +279,11 @@ export const GameSession: React.FC = () => {
             })}
           </div>
 
+          {practiceMode && (
+            <div className="practice-banner">
+              📝 Practice mode — score unaffected
+            </div>
+          )}
           {freezeActive && (
             <div className="freeze-banner">
               🧊 Freeze used! Streak continues.
