@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card } from './Card';
 import { Button } from './Button';
 import { useQOTD } from '../hooks/useQOTD';
+import { analytics } from '../lib/analytics';
+import { EVENTS } from '../lib/events';
 import './QOTDWidget.css';
 
 export const QOTDWidget: React.FC = () => {
   const navigate = useNavigate();
   const qotd = useQOTD();
+
+  useEffect(() => {
+    if (!qotd.loading) {
+      analytics.track(EVENTS.QOTD_VIEWED, { answeredToday: qotd.answeredToday, streak: qotd.streak });
+    }
+  }, [qotd.loading, qotd.answeredToday, qotd.streak]);
 
   if (qotd.loading) {
     return (

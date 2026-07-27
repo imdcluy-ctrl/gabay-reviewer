@@ -6,6 +6,8 @@ import { useStreak } from './useStreak';
 import { useEntitlement } from '../hooks/useEntitlement';
 import { filterQuestionsForUser } from '../lib/entitlements';
 import { CATEGORIES } from '../lib/constants';
+import { analytics } from '../lib/analytics';
+import { EVENTS } from '../lib/events';
 
 const QOTD_LAST_KEY = 'gabay_qotd_last';
 const QOTD_STREAK_KEY = 'gabay_qotd_streak';
@@ -222,6 +224,8 @@ export function useQOTD(): QOTDState & { markAnswered: () => void } {
     saveStreak(newStreak);
     setQotdStreak(newStreak);
     setAnsweredToday(true);
+
+    analytics.track(EVENTS.QOTD_ANSWERED, { streak: newStreak, category: question?.category_id });
   }, [question]);
 
   return {

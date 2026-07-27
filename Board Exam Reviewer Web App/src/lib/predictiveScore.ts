@@ -1,5 +1,5 @@
-export interface PredictiveResult {
-  predictedScore: number;
+export interface SnapshotResult {
+  snapshotScore: number;
   confidenceInterval: number;
   trend: "improving" | "stable" | "declining" | "insufficient_data";
   confidence: "low" | "medium" | "high";
@@ -24,16 +24,16 @@ interface CategoryMap {
   [questionId: string]: string;
 }
 
-export function calculatePredictiveScore(
+export function calculateSnapshotScore(
   attempts: Attempt[],
   questionCategoryMap: CategoryMap,
   currentStreak: number,
   daysUntilExam: number | null,
   _totalQuestionsAnswered: number,
-): PredictiveResult {
+): SnapshotResult {
   if (attempts.length < 30) {
     return {
-      predictedScore: 0,
+      snapshotScore: 0,
       confidenceInterval: 0,
       trend: "insufficient_data",
       confidence: "low",
@@ -105,7 +105,7 @@ export function calculatePredictiveScore(
     : 0;
 
   const rawScore = categoryAdjustedScore + categoryCoverage * 0.03 + trendAdjustment + streakBonus - decayPenalty;
-  const predictedScore = Math.max(0, Math.min(100, Math.round(rawScore * 100)));
+  const snapshotScore = Math.max(0, Math.min(100, Math.round(rawScore * 100)));
 
   const confidenceInterval = attempts.length < 100 ? 8 :
     attempts.length < 300 ? 5 :
@@ -115,14 +115,14 @@ export function calculatePredictiveScore(
     attempts.length < 300 ? "medium" : "high";
 
   let message = "";
-  if (predictedScore >= 85) {
-    message = "You are on track to PASS with a high score! Keep up the great work.";
-  } else if (predictedScore >= 75) {
-    message = "You are likely to PASS! Focus on your weak areas to boost your score further.";
-  } else if (predictedScore >= 60) {
-    message = "You are close to passing range. Targeted practice on weak subjects will help.";
+  if (snapshotScore >= 85) {
+    message = "Your practice accuracy is in a strong range. Keep up the great work.";
+  } else if (snapshotScore >= 75) {
+    message = "Your recent accuracy suggests you're building solid skills. Focus on weak areas to boost further.";
+  } else if (snapshotScore >= 60) {
+    message = "You're making progress. Targeted practice on weak subjects will help.";
   } else {
-    message = "Keep studying! Consistent practice will improve your predicted score.";
+    message = "Keep building your foundation. Consistent practice will improve your accuracy.";
   }
 
   if (daysUntilExam !== null && daysUntilExam <= 30) {
@@ -130,7 +130,7 @@ export function calculatePredictiveScore(
   }
 
   return {
-    predictedScore,
+    snapshotScore,
     confidenceInterval,
     trend,
     confidence,

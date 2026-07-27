@@ -331,6 +331,34 @@
   gap: 10px;
 }
 
+.streak-launcher-card {
+  border: 1.5px solid var(--color-streak-fire);
+  transition: all var(--transition-fast);
+}
+.streak-launcher-card:hover {
+  border-color: var(--color-brand-gold);
+  box-shadow: var(--shadow-md);
+}
+.streak-launcher-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-1);
+}
+.streak-launcher-icon {
+  font-size: 2rem;
+}
+.streak-launcher-info h3 {
+  margin: 0;
+  font-size: var(--size-base);
+  font-weight: 700;
+}
+.streak-launcher-info p {
+  margin: 2px 0 0;
+  font-size: var(--size-xs);
+  color: var(--color-text-secondary);
+}
+
 .section-heading {
   margin: 0;
   font-size: 0.95rem;

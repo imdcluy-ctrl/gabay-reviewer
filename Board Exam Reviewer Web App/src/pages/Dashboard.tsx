@@ -17,12 +17,12 @@ import { useAchievements } from '../hooks/useAchievements';
 import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
-import { PredictiveScoreCard } from '../components/PredictiveScoreCard';
+import { SnapshotScoreCard } from '../components/SnapshotScoreCard';
 import { MockExamLauncher } from '../components/MockExamLauncher';
 import { MasteryHeatmap } from '../components/MasteryHeatmap';
 import { ReviewCalendar } from '../components/ReviewCalendar';
 import { StudyPlanner } from '../components/StudyPlanner';
-import { calculatePredictiveScore } from '../lib/predictiveScore';
+import { calculateSnapshotScore } from '../lib/predictiveScore';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
 import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
@@ -127,11 +127,11 @@ export const Dashboard: React.FC = () => {
     return Math.min(100, Math.max(0, Math.round(rawScore * 100)));
   }, [attempts, questions]);
   // Predictive CSE Score
-  const predictiveResult = React.useMemo(() => {
+  const snapshotResult = React.useMemo(() => {
     if (!attempts || !questions) return null;
     const questionCategoryMap: Record<string, string> = {};
     questions.forEach(q => { questionCategoryMap[q.id] = q.category_id; });
-    return calculatePredictiveScore(
+    return calculateSnapshotScore(
       attempts,
       questionCategoryMap,
       currentStreak,
@@ -230,7 +230,15 @@ export const Dashboard: React.FC = () => {
         </div>
 
                 {/* SECTION 1.5: Question of the Day */}
-        <QOTDWidget />
+        <Card variant="interactive" className="streak-launcher-card" onClick={() => navigate('/streak')}>
+              <div className="streak-launcher-content">
+                <span className="streak-launcher-icon">🔥</span>
+                <div className="streak-launcher-info">
+                  <h3>Streak Challenge</h3>
+                  <p>Today's daily challenge — how many can you answer correctly?</p>
+                </div>
+              </div>
+            </Card>
 
 {/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
         <Card className="hero-resume-card">
@@ -254,8 +262,8 @@ export const Dashboard: React.FC = () => {
         </Card>
 
         {/* SECTION 2.25: Predictive Score Card */}
-        {predictiveResult && predictiveResult.trend !== "insufficient_data" && (
-          <PredictiveScoreCard result={predictiveResult} />
+        {snapshotResult && snapshotResult.trend !== "insufficient_data" && (
+          <SnapshotScoreCard result={snapshotResult} />
         )}
 
         {/* SECTION 2.5: Mock Exam Launchers (Full + Mini with attempt tracking) */}

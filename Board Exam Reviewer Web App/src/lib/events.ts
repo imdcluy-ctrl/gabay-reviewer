@@ -25,6 +25,11 @@ export const EVENTS = {
   BACKUP_NUDGE_DISMISSED: 'backup_nudge_dismissed',
   BACKUP_NUDGE_CONVERTED: 'backup_nudge_converted',
   BACKFILL_RUN: 'backfill_run',
+
+  // Phase B0 QOTD Baseline Instrumentation
+  QOTD_VIEWED: 'qotd_viewed',
+  QOTD_ANSWERED: 'qotd_answered',
+  QOTD_DONE_FOR_TODAY: 'qotd_done_for_today',
 } as const;
 
 export type EventName = (typeof EVENTS)[keyof typeof EVENTS];

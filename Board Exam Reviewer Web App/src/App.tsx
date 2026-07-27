@@ -27,6 +27,7 @@ const MockExamResults = React.lazy(() => import('./pages/MockExamResults'));
 const ExamReview = React.lazy(() => import('./pages/ExamReview'));
 const ExamHistory = React.lazy(() => import('./pages/ExamHistory'));
 const AnxietyHub = React.lazy(() => import('./pages/AnxietyHub'));
+const GameSession = React.lazy(() => import('./pages/GameSession'));
 const CheckoutReturn = React.lazy(() => import('./pages/CheckoutReturn').then(module => ({ default: module.CheckoutReturn })));
 
 const ProtectedDashboardRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -182,6 +183,14 @@ export function App() {
               <ProtectedDashboardRoute>
                 <MockExamSession />
               </ProtectedDashboardRoute>
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="/streak"
+          element={
+            <React.Suspense fallback={<div style={{ padding: '2rem', textAlign: 'center' }}>Loading Streak Mode...</div>}>
+              <GameSession />
             </React.Suspense>
           }
         />
