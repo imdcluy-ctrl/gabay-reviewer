@@ -63,8 +63,8 @@ for (let i = 0; i < 20; i++) {
 for (let i = 0; i < 25; i++) {
   const num = 200 + i;
   const originalPrice = 50000 + (i * 2000);
-  const disc1 = 10;
-  const disc2 = 5;
+  const _disc1 = 10;
+  const _disc2 = 5;
   const priceAfter1 = originalPrice * 0.90;
   const finalPrice = priceAfter1 * 0.95;
 

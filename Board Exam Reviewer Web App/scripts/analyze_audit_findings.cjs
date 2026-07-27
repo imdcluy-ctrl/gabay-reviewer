@@ -37,7 +37,7 @@ questions.forEach(q => {
   // Normalize stem: remove punctuation, lowercase, remove numbers to catch template clones
   let normalized = q.question_text
     .toLowerCase()
-    .replace(/[0-9,\.]+/g, '#') // replace numbers with #
+    .replace(/[0-9,.]+/g, '#') // replace numbers with #
     .replace(/[^\w\s#]/gi, '')  // remove punctuation
     .replace(/\s+/g, ' ')
     .trim();
@@ -50,7 +50,7 @@ questions.forEach(q => {
 
 console.log(`\n--- Duplication Report ---`);
 let heavilyDuplicatedGroups = 0;
-for (const [stem, ids] of Object.entries(duplicateStems)) {
+for (const [_stem, ids] of Object.entries(duplicateStems)) {
   if (ids.length > 1) {
     duplicateCount += (ids.length - 1);
     if (ids.length > 2) {

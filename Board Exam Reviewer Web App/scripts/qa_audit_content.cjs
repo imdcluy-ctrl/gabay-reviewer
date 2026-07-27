@@ -24,7 +24,7 @@ const stats = {
 
 const idSet = new Set();
 
-questions.forEach((q, idx) => {
+questions.forEach((q, _idx) => {
   // 1. Duplicate ID Check
   if (idSet.has(q.id)) {
     stats.duplicateIds.push(q.id);

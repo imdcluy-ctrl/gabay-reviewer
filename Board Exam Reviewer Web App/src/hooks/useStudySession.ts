@@ -78,6 +78,7 @@ export function useStudySession(categoryId: string, sessionType: 'practice' | 'r
       console.error('Error loading next question:', error);
       setState('complete');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- profile?.id covers profile changes
   }, [categoryId, profile?.id, sessionType, questionsAnswered]);
 
   useEffect(() => {

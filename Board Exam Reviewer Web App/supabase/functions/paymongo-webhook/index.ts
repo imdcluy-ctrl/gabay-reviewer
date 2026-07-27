@@ -1,9 +1,8 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-import { Buffer } from "https://deno.land/std@0.168.0/io/buffer.ts";
 
-const PAYMONGO_SECRET_KEY = Deno.env.get('PAYMONGO_SECRET_KEY') ?? '';
-const PAYMONGO_WEBHOOK_SECRET = Deno.env.get('PAYMONGO_WEBHOOK_SECRET') ?? '';
+const _PAYMONGO_SECRET_KEY = Deno.env.get('PAYMONGO_SECRET_KEY') ?? '';
+const _PAYMONGO_WEBHOOK_SECRET = Deno.env.get('PAYMONGO_WEBHOOK_SECRET') ?? '';
 
 serve(async (req) => {
   try {
@@ -12,7 +11,7 @@ serve(async (req) => {
       return new Response(JSON.stringify({ error: 'Method not allowed' }), { status: 405 });
     }
 
-    const signatureHeader = req.headers.get('paymongo-signature') || '';
+    const _signatureHeader = req.headers.get('paymongo-signature') || '';
     const rawBody = await req.text();
 
     // Verification step (simplified for Deno, in production use proper crypto validation with PAYMONGO_WEBHOOK_SECRET)
@@ -35,8 +34,7 @@ serve(async (req) => {
     // We only care about checkout_session.payment.paid for standard checkout
     if (event.type === 'checkout_session.payment.paid') {
       const sessionData = event.data;
-      const checkoutSessionId = sessionData.id; 
-      const referenceNumber = sessionData.attributes.reference_number;
+      const checkoutSessionId = sessionData.id;
       // We pass the user_id via metadata in PayMongo
       const userId = sessionData.attributes.metadata?.user_id;
 

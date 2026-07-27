@@ -23,7 +23,7 @@ export interface MockExamSection {
 
 export interface MockExam {
   id: string; // e.g. 'cse-professional-v1'
-  exam_type: 'professional' | 'subprofessional';
+  exam_type: 'professional' | 'subprofessional' | 'mini';
   title: string;
   total_questions: number;
   time_limit_minutes: number; // Single global timer

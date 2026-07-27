@@ -17,10 +17,10 @@ export const Achievements: React.FC = () => {
   };
 
   const categoryEmojis: Record<string, string> = {
-    progress: '??',
-    streak: '??',
-    mastery: '??',
-    special: '?',
+    progress: '📈',
+    streak: '🔥',
+    mastery: '🧠',
+    special: '🎖',
   };
 
   const categories = ['progress', 'streak', 'mastery', 'special'] as const;
@@ -34,7 +34,7 @@ export const Achievements: React.FC = () => {
       />
       <main className="achievements-content">
         <div className="achievements-summary">
-          <span className="achievements-summary-icon">??</span>
+          <span className="achievements-summary-icon">🏆</span>
           <div className="achievements-summary-text">
             <strong>{progress} / {total} Unlocked</strong>
             <div className="achievements-progress-bg">
@@ -68,7 +68,7 @@ export const Achievements: React.FC = () => {
                 ))}
                 {catLocked.map(a => (
                   <Card key={a.id} className="achievement-card locked">
-                    <span className="achievement-emoji locked-emoji">??</span>
+                    <span className="achievement-emoji locked-emoji">🔒</span>
                     <div className="achievement-info">
                       <strong className="achievement-name locked-name">{a.hidden ? '???' : a.title}</strong>
                       <p className="achievement-desc">{a.hidden ? 'Keep studying to discover this achievement!' : a.description}</p>

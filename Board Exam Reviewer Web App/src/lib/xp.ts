@@ -64,8 +64,8 @@ export function getXpProgress(currentLevel: number, totalXp: number): number {
 /** Get the level emoji */
 export function getLevelEmoji(level: number): string {
   const emojis: Record<number, string> = {
-    1: '??', 2: '??', 3: '??', 4: '??', 5: '?',
-    6: '??', 7: '??', 8: '??', 9: '??', 10: '??',
+    1: '🌱', 2: '📖', 3: '🔧', 4: '⚔️', 5: '🎯',
+    6: '👑', 7: '🏆', 8: '🔮', 9: '🌟', 10: '💎',
   };
-  return emojis[level] || '??';
+  return emojis[level] || '❓';
 }

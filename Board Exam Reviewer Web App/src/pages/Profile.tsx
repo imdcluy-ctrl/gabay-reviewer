@@ -84,59 +84,6 @@ export const Profile: React.FC = () => {
         {/* Pro Upgrade Section */}
         {!isPremium && (
           <Card className="pro-upgrade-card">
-            <div className="pro-upgrade-header">
-              <span className="pro-icon">{'🔒'}</span>
-              <div>
-                <h3>Upgrade to Gabay Pro</h3>
-                <p>Unlock full CSE exam preparation</p>
-              </div>
-            </div>
-
-            <div className="pro-features-grid">
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>Unlimited Mock Exams</strong>
-                  <p>Full 170-item and Mini 40-item sims</p>
-                </div>
-              </div>
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>Unlimited Mini Mocks</strong>
-                  <p>Quick 40-item practice, any time</p>
-                </div>
-              </div>
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>AI Tutor Walkthroughs</strong>
-                  <p>Step-by-step solution explanations</p>
-                </div>
-              </div>
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>Full Question Bank</strong>
-                  <p>2,910+ questions, all categories</p>
-                </div>
-              </div>
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>Priority Review Queue</strong>
-                  <p>Spaced repetition for all items</p>
-                </div>
-              </div>
-              <div className="pro-feature">
-                <span className="pro-check">{'✅'}</span>
-                <div>
-                  <strong>Advanced Analytics</strong>
-                  <p>Predictive scores, error patterns, heatmaps</p>
-                </div>
-              </div>
-            </div>
-
             <PaywallBanner onSuccess={() => navigate('/checkout/success')} />
           </Card>
         )}

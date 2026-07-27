@@ -49,7 +49,7 @@ export const Dashboard: React.FC = () => {
   // Determine Continue Studying target category
   const getContinueCategory = () => {
     if (!questions || !attempts || attempts.length === 0) {
-      return { categoryId: 'numerical-ability', name: 'Numerical Ability â€” Ratio & Proportion' };
+      return { categoryId: 'numerical-ability', name: 'Numerical Ability — Ratio & Proportion' };
     }
 
     const wrongMap = new Map<string, number>();
@@ -68,12 +68,12 @@ export const Dashboard: React.FC = () => {
         const q = questions.find(item => item.id === qId);
         if (q) {
           const catObj = CATEGORIES.find(c => c.id === q.category_id);
-          return { categoryId: q.category_id, name: `${catObj?.name || 'Practice'} â€” Review Weak Items` };
+          return { categoryId: q.category_id, name: `${catObj?.name || 'Practice'} — Review Weak Items` };
         }
       }
     }
 
-    return { categoryId: 'numerical-ability', name: 'Numerical Ability â€” Practice Session' };
+    return { categoryId: 'numerical-ability', name: 'Numerical Ability — Practice Session' };
   };
 
   const continueCat = getContinueCategory();
@@ -150,7 +150,7 @@ export const Dashboard: React.FC = () => {
       sound.play('achievement');
     }
     prevStreakRef.current = currentStreak;
-  }, [currentStreak]);
+  }, [currentStreak, sound]);
   const xp = useXP();
   const achievements = useAchievements();
   const [showStreakCelebration, setShowStreakCelebration] = React.useState(false);
@@ -169,11 +169,11 @@ export const Dashboard: React.FC = () => {
 
 
   const categoryIcons: Record<string, string> = {
-    'numerical-ability': 'ðŸ“',
-    'verbal-ability': 'ðŸ“–',
-    'analytical-ability': 'ðŸ§ ',
-    'general-information': 'ðŸ‡µðŸ‡­',
-    'clerical-ability': 'ðŸ“',
+    'numerical-ability': '📐',
+    'verbal-ability': '📖',
+    'analytical-ability': '🧠',
+    'general-information': '🇵🇭',
+    'clerical-ability': '📁',
   };
 
   return (
@@ -195,9 +195,9 @@ export const Dashboard: React.FC = () => {
         {/* SECTION 1: Compact Student Header (15% Max Viewport Height) */}
         <div className="student-compact-header">
           <div className="student-greeting-row">
-            <h2>Magandang araw, {profile?.display_name || 'Kapatid'}! ðŸ‘‹</h2>
+            <h2>Magandang araw, {profile?.display_name || 'Kapatid'}! 👋</h2>
             <Badge variant={isPremium ? 'gold' : 'teal'}>
-              {isPremium ? 'âš¡ PRO ACCESS' : 'FREE TIER'}
+              {isPremium ? '⚡ PRO ACCESS' : 'FREE TIER'}
             </Badge>
           </div>
 
@@ -207,22 +207,23 @@ export const Dashboard: React.FC = () => {
               title={xp.levelInfo.title}
               progress={xp.progress}
               totalXp={xp.totalXp}
+              size="lg"
             />
           </div>
 
           <div className="glanceable-metrics-bar">
             <div className="metric-pill">
-              <span className="pill-icon">ðŸ”¥</span>
+              <span className="pill-icon">🔥</span>
               <span className="pill-val">{currentStreak}d Streak</span>
             </div>
             <div className="metric-pill-divider" />
             <div className="metric-pill">
-              <span className="pill-icon">â±ï¸</span>
+              <span className="pill-icon">⏱️</span>
               <span className="pill-val">{daysToExam !== null ? `${daysToExam}d to Exam` : 'Set Exam Date'}</span>
             </div>
             <div className="metric-pill-divider" />
             <div className="metric-pill">
-              <span className="pill-icon">ðŸ“Š</span>
+              <span className="pill-icon">📊</span>
               <span className="pill-val">{readinessPct}% Readiness</span>
             </div>
           </div>
@@ -234,11 +235,11 @@ export const Dashboard: React.FC = () => {
 {/* SECTION 2: Hero Primary Action Card (Zero Scroll Resumption) */}
         <Card className="hero-resume-card">
           <div className="hero-card-left">
-            <span className="hero-badge">ðŸŽ¯ CONTINUE STUDYING</span>
+            <span className="hero-badge">🎯 CONTINUE STUDYING</span>
             <h3 className="hero-title">{continueCat.name}</h3>
             <p className="hero-subtitle">
               {attempts && attempts.length > 0
-                ? `${attempts.length} questions completed â€¢ 1-tap to resume`
+                ? `${attempts.length} questions completed • 1-tap to resume`
                 : 'Start your first practice session today'}
             </p>
           </div>
@@ -248,7 +249,7 @@ export const Dashboard: React.FC = () => {
             className="hero-resume-btn"
             onClick={() => navigate(`/study/${continueCat.categoryId}`)}
           >
-            Resume Practice â†’
+            Resume Practice →
           </Button>
         </Card>
 
@@ -262,7 +263,7 @@ export const Dashboard: React.FC = () => {
 
         {/* SECTION 3: 4-Subject Quick Launcher Grid */}
         <div className="quick-launcher-section">
-          <h3 className="section-heading">ðŸ“š Practice Subjects</h3>
+          <h3 className="section-heading">📚 Practice Subjects</h3>
           <div className="category-launcher-grid">
             {CATEGORIES.map(cat => (
               <div
@@ -271,7 +272,7 @@ export const Dashboard: React.FC = () => {
                 onClick={() => navigate(`/study/${cat.id}`)}
               >
                 <div className="cat-card-top">
-                  <span className="cat-icon">{cat.icon || categoryIcons[cat.id] || 'ðŸ“'}</span>
+                  <span className="cat-icon">{cat.icon || categoryIcons[cat.id] || '📝'}</span>
                   <span className="cat-item-count">{getCategoryQuestionCount(cat.id)} items</span>
                 </div>
                 <h4 className="cat-name">{cat.name}</h4>
@@ -304,8 +305,8 @@ export const Dashboard: React.FC = () => {
               className="insights-drawer-toggle"
               onClick={() => setShowErrorInsights(!showErrorInsights)}
             >
-              <span>ðŸ§  Metacognitive Error Patterns</span>
-              <span className="drawer-icon">{showErrorInsights ? 'â–² Hide' : 'â–¼ View'}</span>
+              <span>🧠 Metacognitive Error Patterns</span>
+              <span className="drawer-icon">{showErrorInsights ? '▲ Hide' : '▼ View'}</span>
             </button>
             {showErrorInsights && (
               <div className="insights-drawer-content">

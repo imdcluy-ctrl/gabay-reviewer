@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import * as Sentry from '@sentry/react'
 import './index.css'
 import App from './App.tsx'
+import { RootErrorBoundary } from './components/RootErrorBoundary'
 import { SWUpdateToast } from './components/SWUpdateToast'
 
 if (import.meta.env.VITE_SENTRY_DSN) {
@@ -21,9 +22,10 @@ if (import.meta.env.VITE_SENTRY_DSN) {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <SWUpdateToast />
-    <App />
+    <RootErrorBoundary>
+      <SWUpdateToast />
+      <App />
+    </RootErrorBoundary>
     <Analytics />
   </StrictMode>,
 )
-

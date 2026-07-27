@@ -54,7 +54,7 @@ qs.forEach(q => {
   catStats[cat].total++;
   
   const ceStr = JSON.stringify(q.choice_explanations || {});
-  const hlStr = JSON.stringify(q.hint_ladder || []);
+  const _hlStr = JSON.stringify(q.hint_ladder || []);
   
   let hasTemplateCE = TEMPLATE_PHRASES.some(p => ceStr.includes(p));
   let hasGenericHint = false;

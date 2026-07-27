@@ -76,7 +76,7 @@ export const Settings: React.FC = () => {
       notif.startReminderCheck(reminderTime);
     }
     return () => notif.stopReminderCheck();
-  }, []);
+  }, [reminderTime, notif]);
 
   const handleSetReminder = async () => {
     localStorage.setItem('gabay_reminder_time', reminderTime);

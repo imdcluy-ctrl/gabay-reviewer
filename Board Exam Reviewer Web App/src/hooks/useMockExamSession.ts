@@ -275,10 +275,13 @@ export function useMockExamSession(
     setSessionState('completed');
   };
 
+  const finalizeSubmissionRef = useRef(finalizeSubmission);
+  finalizeSubmissionRef.current = finalizeSubmission;
+
   const handleTimeout = useCallback(async () => {
     if (sessionState === 'completed' || sessionState === 'submitting') return;
     setSessionState('submitting');
-    await finalizeSubmission('auto_submitted');
+    await finalizeSubmissionRef.current('auto_submitted');
   }, [sessionState]);
 
   // Answer recording

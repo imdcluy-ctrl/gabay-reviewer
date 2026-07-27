@@ -23,7 +23,7 @@ let duplicateStems = {};
 questions.forEach(q => {
   let normalized = q.question_text
     .toLowerCase()
-    .replace(/[0-9,\.]+/g, '#')
+    .replace(/[0-9,.]+/g, '#')
     .replace(/[^\w\s#]/gi, '')
     .replace(/\s+/g, ' ')
     .trim();

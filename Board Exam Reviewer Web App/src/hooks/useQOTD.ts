@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../lib/db';
 import { useUserProfile } from './useUserProfile';
@@ -101,10 +101,12 @@ export function useQOTD(): QOTDState & { markAnswered: () => void } {
   const [loading, setLoading] = useState(true);
 
   const safeQuestions = questions || [];
+  const safeQuestionsRef = useRef(safeQuestions);
+  safeQuestionsRef.current = safeQuestions;
 
   // Compute weakest category
   const getWeakestCategory = useCallback((): string => {
-    const qs = safeQuestions;
+    const qs = safeQuestionsRef.current;
     if (!attempts || attempts.length === 0) {
       // Default to numerical-ability for new users
       return 'numerical-ability';
@@ -146,7 +148,8 @@ export function useQOTD(): QOTDState & { markAnswered: () => void } {
     }
 
     return worstCat;
-  }, [attempts, safeQuestions]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- ref provides stable access, length triggers recompute
+  }, [attempts, safeQuestions.length]);
 
   // Select QOTD question
   useEffect(() => {
@@ -184,6 +187,7 @@ export function useQOTD(): QOTDState & { markAnswered: () => void } {
     }
 
     setLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- safeQuestions derived from questions; answeredToday guards re-execution
   }, [answeredToday, questions, getWeakestCategory]);
 
   const markAnswered = useCallback(() => {

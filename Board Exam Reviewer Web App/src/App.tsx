@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useUserProfile } from './hooks/useUserProfile';
 import { useTheme } from './hooks/useTheme';
@@ -31,15 +31,34 @@ const CheckoutReturn = React.lazy(() => import('./pages/CheckoutReturn').then(mo
 
 const ProtectedDashboardRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { profile, isLoading } = useUserProfile();
+  const redirectCount = useRef(0);
+  const redirectKey = useRef('');
+
+  // Guard: prevent redirect loops � if we redirect to '/' and come back, allow max 1 redirect per route
+  useEffect(() => {
+    if (profile?.id) {
+      if (redirectKey.current !== profile.id) {
+        redirectCount.current = 0;
+        redirectKey.current = profile.id;
+      }
+    }
+  }, [profile?.id]);
 
   if (isLoading) {
     return <div style={{ padding: '2rem', textAlign: 'center' }}>Loading GABAY...</div>;
   }
 
   if (!profile?.onboarding_completed) {
+    redirectCount.current += 1;
+    // If we've already redirected once, show Welcome fallback instead of looping
+    if (redirectCount.current > 1) {
+      return <Welcome />;
+    }
     return <Navigate to="/" replace />;
   }
 
+  // Reset redirect counter on successful auth
+  redirectCount.current = 0;
   return <>{children}</>;
 };
 

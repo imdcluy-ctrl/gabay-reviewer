@@ -21,7 +21,7 @@ let prunedCount = 0;
 questions.forEach(q => {
   let normalized = q.question_text
     .toLowerCase()
-    .replace(/[0-9,\.]+/g, '#')
+    .replace(/[0-9,.]+/g, '#')
     .replace(/[^\w\s#]/gi, '')
     .replace(/\s+/g, ' ')
     .trim();
@@ -32,7 +32,7 @@ questions.forEach(q => {
   duplicateStems[normalized].push(q);
 });
 
-for (const [stem, group] of Object.entries(duplicateStems)) {
+for (const [_stem, group] of Object.entries(duplicateStems)) {
   // If only one question, keep it
   if (group.length === 1) {
     uniqueQuestions.push(group[0]);

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import posthog from 'posthog-js';
 
 import { createCheckoutSession } from '../../lib/paymongoClient';
@@ -53,7 +54,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ onClose }) => {
     }
   };
 
-  return (
+  return createPortal(
     <div className="checkout-overlay" role="dialog" aria-modal="true" ref={modalRef}>
       <div className="checkout-modal">
         {/* Header */}
@@ -178,6 +179,10 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ onClose }) => {
                   </li>
                   <li>
                     <span className="check-icon">✓</span>
+                    <span><strong>Unlimited Short Tests (40-Item)</strong> — Quick 40-item knowledge checks with unlimited retakes. Free tier gets 3 total (1 per day); Pro unlocks unrestricted access.</span>
+                  </li>
+                  <li>
+                    <span className="check-icon">✓</span>
                     <span><strong>Unlimited Daily Practice</strong> — No caps, no cooldowns. Practice as much as your day allows.</span>
                   </li>
                   <li>
@@ -203,5 +208,5 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ onClose }) => {
         </div>
       </div>
     </div>
-  );
+  , document.body);
 };

@@ -30,7 +30,7 @@ incoming.forEach(q => {
 
 // Reconstruct array preserving original order, then appending new ones
 const originalIds = seed.map(q => q.id);
-const newIds = incoming.map(q => q.id).filter(id => !seedMap.has(id) || !originalIds.includes(id));
+const _newIds = incoming.map(q => q.id).filter(id => !seedMap.has(id) || !originalIds.includes(id));
 
 const mergedArr = originalIds.map(id => seedMap.get(id));
 // Add any truly new IDs not in original

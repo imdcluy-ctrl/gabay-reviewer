@@ -82,6 +82,7 @@ export function useAchievements() {
       // Show the first new achievement
       setNewAchievement(newlyUnlocked[0]!);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- stats/unlockedIds are derived values that would cause infinite loops
   }, [totalAnswered, currentStreak, level, mockExamsPassed, qotdStreak]);
 
   const dismissAchievement = useCallback(() => {

@@ -4,7 +4,7 @@ import type { MockExamSection } from '../types/mockExam';
 
 export interface SelectionConfig {
   examId: string;
-  examType: 'professional' | 'subprofessional';
+  examType: 'professional' | 'subprofessional' | 'mini';
   sections: MockExamSection[];
   localUserId: string;
   isEntitled: boolean;

@@ -495,3 +495,20 @@
 .dashboard-xp-row .xp-badge {
   width: 100%;
 }
+
+.dashboard-xp-row .xp-badge .xp-level-emoji {
+  font-size: 2.2rem;
+}
+
+.dashboard-xp-row .xp-badge .xp-badge-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.dashboard-xp-row .xp-badge .xp-progress-bar-bg {
+  height: 7px;
+}
+
+.dashboard-xp-row .xp-badge .xp-total {
+  font-size: 0.78rem;
+}

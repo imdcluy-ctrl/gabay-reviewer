@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useMockExamSession } from '../hooks/useMockExamSession';
@@ -12,7 +12,34 @@ import { Button } from '../components/Button';
 import { CheckoutModal } from '../components/paywall/CheckoutModal';
 import './MockExamSession.css';
 
-export const MockExamSession: React.FC = () => {
+
+class MockExamErrorBoundary extends Component {
+  state = { error: null };
+  static getDerivedStateFromError(error) { return { error }; }
+  render() {
+    if (this.state.error) {
+      return React.createElement('div', {
+        style: { padding: '3rem', textAlign: 'center', fontFamily: 'Inter, sans-serif' }
+      },
+        React.createElement('h2', { style: { color: '#e74c3c' } }, 'Exam Session Error'),
+        React.createElement('pre', {
+          style: { background: '#f5f5f5', padding: '1rem', borderRadius: '8px', margin: '1rem auto', maxWidth: '600px', textAlign: 'left', overflow: 'auto', fontSize: '0.85rem' }
+        },
+          this.state.error.message,
+          '\n\n',
+          this.state.error.stack
+        ),
+        React.createElement('button', {
+          onClick: () => { window.location.href = '/dashboard'; },
+          style: { padding: '10px 24px', background: '#0D7377', color: '#fff', border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '1rem' }
+        }, 'Return to Dashboard')
+      );
+    }
+    return this.props.children;
+  }
+}
+
+const MockExamSessionInner: React.FC = () => {
   const { examId = 'cse-professional-v1' } = useParams<{ examId: string }>();
   const [searchParams] = useSearchParams();
   const mode = (searchParams.get('mode') as 'practice' | 'simulation') || 'practice';
@@ -341,5 +368,15 @@ export const MockExamSession: React.FC = () => {
     </div>
   );
 };
+
+
+export const MockExamSession: React.FC = () => {
+  return React.createElement(
+    MockExamErrorBoundary,
+    null,
+    React.createElement(MockExamSessionInner)
+  );
+};
+
 
 export default MockExamSession;

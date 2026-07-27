@@ -163,7 +163,7 @@ for (let i = 0; i < 20; i++) {
 // --------------------------------------------------------------------------
 for (let i = 0; i < 20; i++) {
   const num = 100 + i;
-  const letters = ["A", "C", "E", "G", "I"]; // +2 letter steps
+  const _letters = ["A", "C", "E", "G", "I"]; // +2 letter steps
 
   addQ({
     id: `ana-seq-${num}`,

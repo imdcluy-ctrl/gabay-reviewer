@@ -88,7 +88,7 @@ export const StudySession: React.FC = () => {
       notif.markStudiedToday();
     }
     resultStateRef2.current = state;
-  }, [state]);
+  }, [state, notif]);
 
 
   // Sound effects for study session
@@ -139,6 +139,7 @@ export const StudySession: React.FC = () => {
       });
     }
     prevStateRef.current = state;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state]);
 
   if (showPrimer) {

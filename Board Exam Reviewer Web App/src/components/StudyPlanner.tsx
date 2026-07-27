@@ -18,14 +18,17 @@ export const StudyPlanner: React.FC = () => {
   );
   const questionsResult = useLiveQuery(() => db.questions.toArray());
   const questions = questionsResult || [];
+  const questionsRef = React.useRef(questions);
+  questionsRef.current = questions;
 
   const plan = React.useMemo(() => {
-    if (!attempts || !questions.length || !profile?.exam_date) return null;
+    const qs = questionsRef.current;
+    if (!attempts || !qs.length || !profile?.exam_date) return null;
 
     // Calculate per-category accuracies
     const catMap: Record<string, { correct: number; total: number }> = {};
     attempts.forEach(a => {
-      const q = questions.find(q => q.id === a.question_id);
+      const q = qs.find(q => q.id === a.question_id);
       if (!q) return;
       if (!catMap[q.category_id]) catMap[q.category_id] = { correct: 0, total: 0 };
       catMap[q.category_id]!.total++;
@@ -38,8 +41,9 @@ export const StudyPlanner: React.FC = () => {
       questionsAnswered: data.total,
     }));
 
-    return generateStudyPlan(catAccuracies, profile.exam_date, questions.length);
-  }, [attempts, questions, profile?.exam_date]);
+    return generateStudyPlan(catAccuracies, profile.exam_date, qs.length);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- questions.length triggers recompute; ref provides stable access
+  }, [attempts, questions.length, profile?.exam_date]);
 
   if (!profile?.exam_date) {
     return (

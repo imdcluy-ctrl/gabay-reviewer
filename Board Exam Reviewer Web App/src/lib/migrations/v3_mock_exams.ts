@@ -86,6 +86,32 @@ export async function seedDefaultMockExams(dbOrTx: any): Promise<void> {
       created_at: now,
       updated_at: now,
     },
+    {
+      id: 'cse-mini-v1',
+      exam_type: 'mini',
+      title: 'CSE-PPT Short Test (40 Items)',
+      total_questions: 40,
+      time_limit_minutes: 45,
+      section_config: JSON.stringify([
+        {
+          section_id: 'all',
+          name: 'Mixed Subjects',
+          question_count: 40,
+          advisory_time_minutes: 45,
+          category_ids: [
+            'numerical-ability', 'ratio-proportion', 'percentage-interest', 'word-problems-algebra', 'number-series', 'basic-operations',
+            'verbal-ability', 'grammar-correct-usage', 'vocabulary-synonyms', 'reading-comprehension', 'verbal-analogies', 'sentence-completion',
+            'analytical-ability', 'logical-reasoning', 'data-interpretation', 'pattern-recognition', 'sequence-series',
+            'clerical-ability', 'alphabetical-filing', 'coding-spelling', 'clerical-operations', 'typing-speed-accuracy',
+            'general-information', 'philippine-constitution', 'ra-6713-code-of-conduct', 'philippine-government', 'current-events-environment', 'peace-human-rights',
+          ],
+        },
+      ]),
+      status: 'active',
+      version: 1,
+      created_at: now,
+      updated_at: now,
+    },
   ];
 
   if (dbOrTx.mock_exams) {

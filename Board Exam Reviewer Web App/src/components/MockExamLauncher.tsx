@@ -77,8 +77,8 @@ export const MockExamLauncher: React.FC = () => {  const navigate = useNavigate(
         <div className="mock-launcher-header">
           <span className="mock-icon">⚡</span>
           <div className="mock-launcher-info">
-            <h4 className="mock-name">Quick Mini Mock</h4>
-            <p className="mock-desc">40 items · ~45 min · Perfect for quick practice</p>
+            <h4 className="mock-name">Short Test</h4>
+            <p className="mock-desc">40 items · ~45 min · Quick knowledge check</p>
           </div>
           <span className="mock-badge-new">NEW</span>
         </div>
@@ -92,7 +92,7 @@ export const MockExamLauncher: React.FC = () => {  const navigate = useNavigate(
         )}
         <Button variant={miniExhausted ? "outline" : "primary"} size="md" fullWidth
           onClick={() => miniExhausted ? navigate('/profile') : navigate('/exam/cse-mini-v1')}>
-          {miniExhausted ? "Unlock More →" : "Start Mini Mock (40 Items)"}
+          {miniExhausted ? "Unlock More →" : "Start Short Test (40 Items)"}
         </Button>
       </Card>
     </div>

@@ -1,8 +1,7 @@
 import assert from 'node:assert/strict';
-import { normalizeAnswer, mapMockExamAnswers, mapPracticeAttempts } from '../src/lib/deepAnalytics/mappers';
+import { normalizeAnswer, mapPracticeAttempts } from '../src/lib/deepAnalytics/mappers';
 import { CONTENT_HEALTH_CONFIG } from '../src/lib/deepAnalytics/config';
 import type { LocalQuestion, LocalAttempt } from '../src/lib/db';
-import type { MockExamAnswer } from '../src/types/mockExam';
 
 console.log('🧪 Running Deep Analytics Pipeline Unit Tests (Phase 5.5)...\n');
 

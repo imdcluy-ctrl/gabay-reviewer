@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const _fs = require('fs');
+const _path = require('path');
 
 // Chunk 2A: Numerical Ability (120 Questions)
 // Range: 100-series (e.g. num-ratio-100 to num-ratio-119, num-pct-100 to num-pct-124, num-word-100 to num-word-124, num-nseries-100 to num-nseries-124, num-ops-100 to num-ops-124)
