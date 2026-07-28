@@ -11,7 +11,10 @@ import { OfflineBanner } from '../components/OfflineBanner';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useEntitlement } from '../hooks/useEntitlement';
 import { SoundToggle } from '../components/SoundToggle';
+import { MasteryHeatmap } from '../components/MasteryHeatmap';
+
 import { filterQuestionsForUser } from '../lib/entitlements';
+
 import './CategoryList.css';
 
 export const CategoryList: React.FC = () => {
@@ -101,6 +104,15 @@ export const CategoryList: React.FC = () => {
           })}
         </div>
       </main>
+
+      {profile?.id && (
+        <div style={{ padding: '0 var(--space-4)', maxWidth: 600, margin: '0 auto', width: '100%' }}>
+          <h3 style={{ fontSize: 'var(--size-lg)', fontWeight: 700, marginBottom: 'var(--space-3)', color: 'var(--color-text-primary)' }}>
+            Mastery Map
+          </h3>
+          <MasteryHeatmap compact />
+        </div>
+      )}
 
       <BottomNav />
     </div>

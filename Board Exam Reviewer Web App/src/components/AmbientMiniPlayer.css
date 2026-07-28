@@ -1,0 +1,312 @@
+/* When ambient player is visible, add extra bottom padding to page content */
+html[data-ambient-active="true"] .page-wrapper {
+  padding-bottom: var(--ambient-bottom-padding, calc(var(--bottom-nav-height) + 56px));
+}
+
+
+/* ── Ambient Mini Player ──────────────────────────────── */
+.ambient-mini-player {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: var(--color-bg-card);
+  border-top: 1px solid var(--color-border);
+  z-index: 45;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  animation: slideUpFade 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-3);
+  gap: var(--space-2);
+}
+
+.ambient-mini-player.exiting {
+  animation: slideUpFade 0.2s cubic-bezier(0.4, 0, 0.2, 1) reverse forwards;
+}
+
+/* ── Player Controls ─────────────────────────────────── */
+
+.ambient-play-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  border: none;
+  background-color: var(--color-brand-teal);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), background-color var(--transition-fast);
+  font-size: 1rem;
+}
+
+.ambient-play-btn:hover {
+  background-color: var(--color-brand-teal-light);
+  transform: scale(1.05);
+}
+
+.ambient-play-btn:active {
+  transform: scale(0.92);
+}
+
+.ambient-skip-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  border: none;
+  background-color: transparent;
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  font-size: 0.85rem;
+}
+
+.ambient-skip-btn:hover {
+  color: var(--color-text-primary);
+  transform: scale(1.1);
+}
+
+.ambient-skip-btn:active {
+  transform: scale(0.92);
+}
+
+/* ── Track Info ──────────────────────────────────────── */
+
+.ambient-track-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.ambient-track-title {
+  font-size: var(--size-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+}
+
+.ambient-track-artist {
+  font-size: var(--size-xs);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+}
+
+/* ── Volume ──────────────────────────────────────────── */
+
+.ambient-volume-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+.ambient-volume-icon {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.ambient-volume-slider {
+  width: 72px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  outline: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.ambient-volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-brand-teal);
+  cursor: pointer;
+  border: 2px solid var(--color-bg-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.ambient-volume-slider:active::-webkit-slider-thumb {
+  transform: scale(1.15);
+}
+
+/* ── Attribution Button ──────────────────────────────── */
+
+.ambient-attribution-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  border: none;
+  background-color: transparent;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+
+/* ── Close / Disable Button ──────────────────────────── */
+
+.ambient-close-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  border: none;
+  background-color: transparent;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  opacity: 0.6;
+}
+
+.ambient-close-btn:hover {
+  color: var(--color-incorrect);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  transition: color var(--transition-fast);
+}
+
+.ambient-attribution-btn:hover {
+  color: var(--color-brand-teal);
+}
+
+/* ── Attribution Popover ─────────────────────────────── */
+
+.ambient-attribution-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.ambient-attribution-panel {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  width: 100%;
+  max-width: 400px;
+  max-height: 60vh;
+  padding: var(--space-5);
+  box-shadow: var(--shadow-xl);
+  animation: slideInBottom 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.ambient-attribution-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ambient-attribution-header h3 {
+  font-size: var(--size-lg);
+  font-weight: 700;
+}
+
+.ambient-attribution-close {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  border: none;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color var(--transition-fast);
+}
+
+.ambient-attribution-close:hover {
+  background-color: var(--color-border);
+}
+
+.ambient-attribution-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.ambient-attribution-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  background-color: var(--color-bg-secondary);
+  font-size: var(--size-sm);
+}
+
+.ambient-attribution-item-icon {
+  font-size: 0.7rem;
+  color: var(--color-brand-teal);
+  flex-shrink: 0;
+}
+
+.ambient-attribution-item-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.ambient-attribution-item-title {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.ambient-attribution-item-artist {
+  color: var(--color-text-secondary);
+  font-size: var(--size-xs);
+}
+
+.ambient-attribution-footer {
+  font-size: var(--size-xs);
+  color: var(--color-text-muted);
+  text-align: center;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+/* ── Fade in keyframe ────────────────────────────────── */
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

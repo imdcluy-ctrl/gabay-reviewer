@@ -637,3 +637,99 @@
   border-radius: 10px;
   transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
 }
+.readiness-where-to-focus {
+  margin-top: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 12px;
+}
+.readiness-wtf-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.readiness-wtf-icon { font-size: 1rem; }
+.readiness-wtf-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+}
+.readiness-wtf-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.readiness-wtf-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.readiness-wtf-cat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.readiness-wtf-cat-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+}
+.readiness-wtf-cat-pct {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+.readiness-wtf-rec {
+  font-size: 0.7rem;
+  color: var(--color-brand-teal);
+  font-weight: 600;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.readiness-about {
+  margin-top: 12px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 10px;
+}
+.readiness-about-summary {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+.readiness-about-summary:hover {
+  color: var(--color-brand-teal);
+}
+.readiness-about-content {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+.readiness-about-content ul {
+  padding-left: 16px;
+  margin: 6px 0;
+}
+.readiness-about-content li {
+  margin-bottom: 3px;
+}
+.readiness-about-content p {
+  margin: 0 0 4px;
+}
+.readiness-disclaimer {
+  margin-top: 8px;
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+  line-height: 1.4;
+}

@@ -19,12 +19,8 @@ import { AchievementToast } from '../components/AchievementToast';
 import { useSound } from '../hooks/useSound';
 import { StreakCelebration } from '../components/StreakCelebration';
 import { MockExamLauncher } from '../components/MockExamLauncher';
-import { MasteryHeatmap } from '../components/MasteryHeatmap';
-import { ReviewCalendar } from '../components/ReviewCalendar';
-import { StudyPlanner } from '../components/StudyPlanner';
 import { useXP } from '../hooks/useXP';
 import { XPBadge } from '../components/XPBadge';
-import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
 import { FooterDisclaimer } from '../components/FooterDisclaimer';
 import { AdUnit } from '../components/AdUnit';
 import { useEntitlement } from '../hooks/useEntitlement';
@@ -37,7 +33,6 @@ export const Dashboard: React.FC = () => {
   const { currentStreak } = useStreak();
   const { isPremium } = useEntitlement();
 
-  const [showErrorInsights, setShowErrorInsights] = useState(false);
 
   const rawQuestions = useLiveQuery(() => db.questions.toArray()) || [];
   const questions = filterQuestionsForUser(rawQuestions, isPremium);
@@ -91,40 +86,7 @@ export const Dashboard: React.FC = () => {
   }, [profile?.exam_date]);
 
   // Calculate Bayesian-adjusted readiness score
-  const READINESS_PRIOR_WEIGHT = 30;  // Conservative prior weight
-  const READINESS_PRIOR_RATE = 0.50;  // Assume 50% prior (no knowledge)
-
-  const readinessPct = React.useMemo(() => {
-    if (!attempts || attempts.length === 0) return 0;
-
-    // Bayesian-adjusted overall accuracy
-    const totalCorrect = attempts.filter(a => a.is_correct).length;
-    const totalAnswered = attempts.length;
-    const bayesianEstimate =
-      (totalCorrect + READINESS_PRIOR_WEIGHT * READINESS_PRIOR_RATE) /
-      (totalAnswered + READINESS_PRIOR_WEIGHT);
-
-    // Category coverage bonus: up to +10% for attempting all 4 categories
-    const categoriesCovered = new Set(
-      attempts
-        .map(a => a.question_id)
-        .map(qId => questions.find(q => q.id === qId)?.category_id)
-        .filter(Boolean)
-    ).size;
-    const totalCategories = 4; // numerical, verbal, analytical, clerical
-    const coverageBonus = Math.min(categoriesCovered / totalCategories, 1) * 0.10;
-
-    // Difficulty bonus: harder questions contribute more
-    const avgDifficulty = attempts.reduce((sum, a) => {
-      const q = questions.find(q => q.id === a.question_id);
-      return sum + (q?.difficulty || 1);
-    }, 0) / Math.max(totalAnswered, 1);
-    const difficultyBonus = Math.max(0, (avgDifficulty - 1) / 2) * 0.05;
-
-    // Combine: base + coverage + difficulty, capped at 0-100%
-    const rawScore = bayesianEstimate + coverageBonus + difficultyBonus;
-    return Math.min(100, Math.max(0, Math.round(rawScore * 100)));
-  }, [attempts, questions]);
+    
 
 
   // Phase B Readiness Score
@@ -225,7 +187,7 @@ export const Dashboard: React.FC = () => {
             <div className="metric-pill-divider" />
             <div className="metric-pill">
               <span className="pill-icon">📊</span>
-              <span className="pill-val">{readinessPct}% Readiness</span>
+              <span className="pill-val">{readiness && readiness.confidence !== "very_low" ? readiness.score + "%" : "---"}</span>
             </div>
           </div>
         </div>
@@ -284,10 +246,73 @@ export const Dashboard: React.FC = () => {
               <p className="readiness-message">{readiness.message}</p>
               {readiness.weakestCategory && (
                 <div className="readiness-focus">
+                <div className="readiness-focus">
                   <span>Focus area: <strong>{readiness.weakestCategory}</strong></span>
+                </div>
+              {readiness.weakestCategory && readiness.categories && (
+                <div className="readiness-where-to-focus">
+                  <div className="readiness-wtf-header">
+                    <span className="readiness-wtf-icon">&#x1F4A1;</span>
+                    <span className="readiness-wtf-title">Where to focus</span>
+                  </div>
+              <details className="readiness-about">
+                <summary className="readiness-about-summary">About this score</summary>
+                <div className="readiness-about-content">
+                  <p>This readiness estimate is calculated from your practice data only. It is not a guarantee or prediction of your official CSE exam result. Scores are based on weighted analysis of your study sessions, mock exams, and short tests using a Bayesian statistical model.</p>
+                  <ul>
+                    <li>At least 100 weighted practice attempts are needed before an estimate is shown</li>
+                    <li>Mock exams carry 3x weight, short tests 2x, and study sessions 1x</li>
+                    <li>Your results may vary on exam day based on many factors</li>
+                  </ul>
+                </div>
+              </details>
+              <div className="readiness-disclaimer">
+                <span>This is an independent practice tool. Not affiliated with the Civil Service Commission.</span>
+              </div>
+                  <div className="readiness-wtf-categories">
+                    {readiness.categories
+                      .filter(c => c.weightedTotal >= 5)
+                      .sort((a, b) => a.accuracy - b.accuracy)
+                      .slice(0, 2)
+                      .map(cat => {
+                        const pct = Math.round(cat.accuracy * 100);
+                        const label = cat.categoryId;
+                        return (
+                          <div key={cat.categoryId} className="readiness-wtf-row">
+                            <div className="readiness-wtf-cat">
+                              <span className="readiness-wtf-cat-name">{label}</span>
+                              <span className="readiness-wtf-cat-pct">{pct}%</span>
+                            </div>
+                            <div className="readiness-wtf-rec">
+                              {pct < 50
+                                ? "Review fundamentals first"
+                                : pct < 70
+                                  ? "Practice more items"
+                                  : "Maintain with review"}
+                            </div>
+                          </div>
+                        );
+                      })}
+                  </div>
+                </div>
+              )}
                 </div>
               )}
             </div>
+              <details className="readiness-about">
+                <summary className="readiness-about-summary">About this score</summary>
+                <div className="readiness-about-content">
+                  <p>This readiness estimate is calculated from your practice data only. It is not a guarantee or prediction of your official CSE exam result. Scores are based on weighted analysis of your study sessions, mock exams, and short tests using a Bayesian statistical model.</p>
+                  <ul>
+                    <li>At least 100 weighted practice attempts are needed before an estimate is shown</li>
+                    <li>Mock exams carry 3x weight, short tests 2x, and study sessions 1x</li>
+                    <li>Your results may vary on exam day based on many factors</li>
+                  </ul>
+                </div>
+              </details>
+              <div className="readiness-disclaimer">
+                <span>This is an independent practice tool. Not affiliated with the Civil Service Commission.</span>
+              </div>
           </div>
         )}
         {readinessLoading && (
@@ -325,37 +350,6 @@ export const Dashboard: React.FC = () => {
         {/* SECTION 4: Pre-allocated Non-Intrusive Ad Slot */}
         <AdUnit slotId="7447186651" format="fluid" layoutKey="-fb+5w+4e-db+86" minHeight="90px" />
 
-                {/* SECTION 4.1: Smart Study Planner */}
-        <StudyPlanner />
-
-        {/* SECTION 4.25: Spaced Review Calendar */}
-        <ReviewCalendar />
-
-        {/* SECTION 4.5: Mastery Heatmap */}
-        {profile?.id && (
-          <div className="quick-launcher-section">
-            <h3 className="section-heading">Mastery Map</h3>
-            <MasteryHeatmap compact />
-          </div>
-        )}
-
-{/* SECTION 5: Collapsible Metacognitive Error Insights Drawer */}
-        {profile?.id && (
-          <div className="insights-drawer-wrapper">
-            <button
-              className="insights-drawer-toggle"
-              onClick={() => setShowErrorInsights(!showErrorInsights)}
-            >
-              <span>🧠 Metacognitive Error Patterns</span>
-              <span className="drawer-icon">{showErrorInsights ? '▲ Hide' : '▼ View'}</span>
-            </button>
-            {showErrorInsights && (
-              <div className="insights-drawer-content">
-                <ErrorPatternSummary localUserId={profile.id} />
-              </div>
-            )}
-          </div>
-        )}
       </main>
 
             {achievements.newAchievement && (

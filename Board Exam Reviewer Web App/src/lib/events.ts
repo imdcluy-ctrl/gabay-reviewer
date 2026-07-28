@@ -30,6 +30,18 @@ export const EVENTS = {
   QOTD_VIEWED: 'qotd_viewed',
   QOTD_ANSWERED: 'qotd_answered',
   QOTD_DONE_FOR_TODAY: 'qotd_done_for_today',
+
+  // Phase A4 — Streak Mode Engagement Metrics
+  STREAK_SESSION_STARTED: 'streak_session_started',
+  STREAK_QUESTION_ANSWERED: 'streak_question_answered',
+  STREAK_QUESTION_CORRECT: 'streak_question_correct',
+  STREAK_QUESTION_WRONG: 'streak_question_wrong',
+  STREAK_FREEZE_USED: 'streak_freeze_used',
+  STREAK_MILESTONE_REACHED: 'streak_milestone_reached',
+  STREAK_SESSION_COMPLETED: 'streak_session_completed',
+  STREAK_RESTORE_USED: 'streak_restore_used',
+  STREAK_PRACTICE_MODE_ENTERED: 'streak_practice_mode_entered',
+  STREAK_DAILY_PARTICIPATION: 'streak_daily_participation',
 } as const;
 
 export type EventName = (typeof EVENTS)[keyof typeof EVENTS];

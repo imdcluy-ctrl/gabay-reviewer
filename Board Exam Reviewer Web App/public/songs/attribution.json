@@ -1,0 +1,85 @@
+{
+  "description": "Ambient music tracks licensed for free use in Gabay CSE Reviewer. All tracks sourced from Free To Use Music (freetouse.com).",
+  "tracks": [
+    {
+      "file": "Avanti - Mindwave (freetouse.com).opus",
+      "title": "Mindwave",
+      "artist": "Avanti",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Aventure - A Beautiful Garden (freetouse.com).opus",
+      "title": "A Beautiful Garden",
+      "artist": "Aventure",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Aylex - Meditation (freetouse.com).opus",
+      "title": "Meditation",
+      "artist": "Aylex",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Chill Pulse - Neon Sunset (freetouse.com).opus",
+      "title": "Neon Sunset",
+      "artist": "Chill Pulse",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Lukrembo - Apple Tree (freetouse.com).opus",
+      "title": "Apple Tree",
+      "artist": "Lukrembo",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "massobeats - familiar places (freetouse.com).opus",
+      "title": "familiar places",
+      "artist": "massobeats",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "massobeats - hillside (freetouse.com).opus",
+      "title": "hillside",
+      "artist": "massobeats",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "massobeats - peach prosecco (freetouse.com).opus",
+      "title": "peach prosecco",
+      "artist": "massobeats",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Moavii - Downtown (freetouse.com).opus",
+      "title": "Downtown",
+      "artist": "Moavii",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    },
+    {
+      "file": "Moavii - Midnight Bliss (freetouse.com).opus",
+      "title": "Midnight Bliss",
+      "artist": "Moavii",
+      "year": 2024,
+      "source": "Free To Use Music (freetouse.com)",
+      "license": "Free to use with attribution"
+    }
+  ]
+}

@@ -10,6 +10,16 @@ import { Button } from '../components/Button';
 import { Header } from '../components/Header';
 import type { DailyStreakState } from '../types/game';
 import type { LocalQuestion } from '../lib/db';
+import {
+  trackStreakSessionStarted,
+  trackStreakQuestionAnswered,
+  trackStreakFreezeUsed,
+  trackStreakMilestoneReached,
+  trackStreakSessionCompleted,
+  trackStreakRestoreUsed,
+  trackStreakPracticeModeEntered,
+} from '../lib/streakMetrics';
+import { AdUnit } from '../components/AdUnit';
 import './GameSession.css';
 
 export const GameSession: React.FC = () => {
@@ -53,6 +63,11 @@ export const GameSession: React.FC = () => {
 
   useEffect(() => { loadQuestion(); }, [loadQuestion]);
 
+  // Track session started on first mount
+  useEffect(() => {
+    trackStreakSessionStarted();
+  }, []);
+
   const handlePracticeAnswer = (key: string) => {
     if (!question) return;
     const correct = key === question.correct_option;
@@ -67,6 +82,7 @@ export const GameSession: React.FC = () => {
     markRestoreUsed();
     setState(prev => ({ ...prev, livesRemaining: 3, status: 'playing' }));
     setShowRestore(false);
+    trackStreakRestoreUsed();
   };
 
   const handleAnswer = (key: string) => {
@@ -79,6 +95,15 @@ export const GameSession: React.FC = () => {
     setIsCorrect(correct);
     setSelectedOption(key);
 
+    // Track the answer
+    trackStreakQuestionAnswered(correct, state.currentStreak);
+
+    // Track milestone reached (5, 10, 25, 50, 100, etc.)
+    const streakAfter = state.currentStreak + (correct ? 1 : 0);
+    if (correct && DEFAULT_STREAK_SETTINGS.streakMilestones.includes(streakAfter)) {
+      trackStreakMilestoneReached(streakAfter);
+    }
+
     setTimeout(() => {
       const next = processAnswer(state, correct, DEFAULT_STREAK_SETTINGS);
       setState(next);
@@ -87,6 +112,7 @@ export const GameSession: React.FC = () => {
         setFreezeActive(false);
       } else if (state.freezesAvailable > 0) {
         setFreezeActive(true);
+        trackStreakFreezeUsed(state.currentStreak);
       }
 
       if (isGameOver(next)) {
@@ -95,6 +121,15 @@ export const GameSession: React.FC = () => {
           return;
         }
         setShowResult(true);
+        // Track completed session
+        trackStreakSessionCompleted({
+          finalStreak: next.bestStreakEver,
+          totalAnswered: next.totalAnswered,
+          totalCorrect: next.totalCorrect,
+          freezesUsed: next.livesRemaining < 3 ? 1 : 0, // approximation: life lost = freeze or mistake
+          score: next.score,
+          durationSeconds: 0,
+        });
         saveSession({
           localUserId: userId,
           date: new Date().toLocaleDateString('en-CA'),
@@ -131,6 +166,7 @@ export const GameSession: React.FC = () => {
               Back to Dashboard
             </Button>
           </Card>
+          <AdUnit slotId="7447186651" format="fluid" layoutKey="-fb+5w+4e-db+86" minHeight="60px" label="SPONSORED" />
         </main>
       </div>
     );
@@ -214,6 +250,7 @@ export const GameSession: React.FC = () => {
               Back to Dashboard
             </Button>
           </Card>
+          <AdUnit slotId="7447186651" format="fluid" layoutKey="-fb+5w+4e-db+86" minHeight="60px" label="SPONSORED" />
         </main>
       </div>
     );

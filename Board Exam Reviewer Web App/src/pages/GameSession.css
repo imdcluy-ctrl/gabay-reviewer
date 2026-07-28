@@ -197,9 +197,11 @@
 .streak-done-container, .streak-result-container {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 24px;
+  gap: 16px;
 }
 
 .streak-done-card, .streak-result-card {

@@ -10,6 +10,8 @@ import { Button } from '../components/Button';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { useNotifications } from '../hooks/useNotifications';
+import { useAmbientMusic } from '../hooks/useAmbientMusic';
+
 import './Settings.css';
 
 export const Settings: React.FC = () => {
@@ -45,6 +47,8 @@ export const Settings: React.FC = () => {
     } catch {}
     return true;
   });
+  const ambient = useAmbientMusic();
+
 
   const handleSaveSoundSettings = () => {
     localStorage.setItem('gabay_sound_settings', JSON.stringify({
@@ -239,6 +243,32 @@ export const Settings: React.FC = () => {
             Save Sound Settings
           </Button>
         </Card>
+        {/* 3.6 Ambient Music */}
+        <Card className="settings-section">
+          <h3>🎵 Ambient Music</h3>
+          <p className="settings-subtext">Lofi / chill background music while you study</p>
+          <div className="sound-setting-row">
+            <span className="sound-setting-label">Ambient Music</span>
+            <label className="toggle-switch">
+              <input type="checkbox" checked={ambient.settings.enabled} onChange={e => ambient.setEnabled(e.target.checked)} />
+              <span className="toggle-slider" />
+            </label>
+          </div>
+          <div className="sound-setting-row">
+            <span className="sound-setting-label">Volume</span>
+            <input type="range" min="0" max="100" value={Math.round(ambient.settings.volume * 100)} onChange={e => ambient.setVolume(Number(e.target.value) / 100)} className="sound-volume-slider" disabled={!ambient.settings.enabled} />
+            <span className="sound-volume-val">{Math.round(ambient.settings.volume * 100)}%</span>
+          </div>
+          {ambient.settings.enabled && (
+            <div className="sound-setting-row">
+              <span className="sound-setting-label">Now Playing: {ambient.currentTrack.title} — {ambient.currentTrack.artist}</span>
+              <button className="ambient-play-btn" onClick={ambient.togglePlay} style={{ width: 32, height: 32, fontSize: '0.8rem' }} aria-label={ambient.isPlaying ? 'Pause' : 'Play'}>
+                {ambient.isPlaying ? '⏸' : '▶'}
+              </button>
+            </div>
+          )}
+        </Card>
+
         {/* 4. Study Reminders */}
         <Card className="settings-section">
           <h3>Daily Study Reminder</h3>

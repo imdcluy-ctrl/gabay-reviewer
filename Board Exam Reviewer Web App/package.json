@@ -13,6 +13,7 @@
     "content:validate": "npx tsx scripts/validate-content.ts",
     "content:seed": "npx tsx scripts/generate-seed.ts",
     "content:generate": "npx tsx scripts/generate-ai-content.ts",
+    "backtest:readiness": "npx tsx scripts/backtest-readiness.ts",
     "test:lighthouse": "npx @lhci/cli autorun",
     "test:a11y": "npx @axe-core/cli http://localhost:4173"
   },

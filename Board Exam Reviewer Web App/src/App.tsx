@@ -21,6 +21,7 @@ import { AdminDashboard } from './pages/AdminDashboard';
 import { Achievements } from './pages/Achievements';
 import { ErrorPatterns } from './pages/ErrorPatterns';
 import { QuickHelp } from './pages/QuickHelp';
+import { AmbientMiniPlayer } from './components/AmbientMiniPlayer';
 
 const MockExamSession = React.lazy(() => import('./pages/MockExamSession'));
 const MockExamResults = React.lazy(() => import('./pages/MockExamResults'));
@@ -224,6 +225,7 @@ export function App() {
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <AmbientMiniPlayer />
     </BrowserRouter>
   );
 }

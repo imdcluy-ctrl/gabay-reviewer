@@ -8,6 +8,8 @@ import { Card } from '../components/Card';
 import { Button } from '../components/Button';
 import { BottomNav } from '../components/BottomNav';
 import { OfflineBanner } from '../components/OfflineBanner';
+import { ReviewCalendar } from '../components/ReviewCalendar';
+import { ErrorPatternSummary } from '../components/ErrorPatternSummary';
 import './ReviewQueue.css';
 
 export const ReviewQueue: React.FC = () => {
@@ -152,6 +154,25 @@ export const ReviewQueue: React.FC = () => {
           </div>
         </div>
       </main>
+
+      {/* Review Calendar - Spaced repetition overview */}
+      <div style={{ padding: '0 var(--space-4)', maxWidth: 600, margin: '0 auto', width: '100%' }}>
+        <ReviewCalendar />
+      </div>
+
+      {/* Error Pattern Insights */}
+      {profile?.id && (
+        <div style={{ padding: '0 var(--space-4)', maxWidth: 600, margin: '0 auto', width: '100%' }}>
+          <details style={{ marginBottom: 'var(--space-4)' }}>
+            <summary style={{ cursor: 'pointer', fontSize: 'var(--size-sm)', fontWeight: 600, color: 'var(--color-text-secondary)', padding: 'var(--space-2) 0' }}>
+              🧠 Metacognitive Error Patterns
+            </summary>
+            <div style={{ marginTop: 'var(--space-2)' }}>
+              <ErrorPatternSummary localUserId={profile.id} />
+            </div>
+          </details>
+        </div>
+      )}
 
       <BottomNav />
     </div>
