@@ -12,7 +12,7 @@ if %errorlevel% neq 0 (
 )
 echo [OK] Files staged
 echo.
-git commit -m "Update: fix icons, modal portal, compact upgrade card"
+git commit -m "Deploy: %date% %time%"
 if %errorlevel% neq 0 (
   echo [ERROR] git commit failed
   pause
