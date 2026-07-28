@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../lib/db';
 import { CATEGORIES } from '../lib/constants';
-import { collectReadinessData } from '../lib/readinessData';
+
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useStreak } from '../hooks/useStreak';
 import { Header } from '../components/Header';
@@ -90,7 +90,7 @@ export const Dashboard: React.FC = () => {
 
 
   // Phase B Readiness Score
-  const [readiness, setReadiness] = React.useState(null);
+  const [readiness, setReadiness] = React.useState<any>(null);
   const [readinessLoading, setReadinessLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -271,10 +271,10 @@ export const Dashboard: React.FC = () => {
               </div>
                   <div className="readiness-wtf-categories">
                     {readiness.categories
-                      .filter(c => c.weightedTotal >= 5)
-                      .sort((a, b) => a.accuracy - b.accuracy)
+                      .filter((c: any) => c.weightedTotal >= 5)
+                      .sort((a: any, b: any) => a.accuracy - b.accuracy)
                       .slice(0, 2)
-                      .map(cat => {
+                      .map((cat: any) => {
                         const pct = Math.round(cat.accuracy * 100);
                         const label = cat.categoryId;
                         return (
@@ -331,7 +331,7 @@ export const Dashboard: React.FC = () => {
         <div className="quick-launcher-section">
           <h3 className="section-heading">📚 Practice Subjects</h3>
           <div className="category-launcher-grid">
-            {CATEGORIES.map(cat => (
+            {CATEGORIES.map((cat: any) => (
               <div
                 key={cat.id}
                 className="category-launcher-card"

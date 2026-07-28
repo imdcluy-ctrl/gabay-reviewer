@@ -45,7 +45,7 @@ export const AmbientMiniPlayer: React.FC = () => {
       ? 'calc(var(--bottom-nav-height) + 56px)'
       : '56px';
     document.documentElement.style.setProperty('--ambient-bottom-padding', offset);
-    return () => document.documentElement.style.removeProperty('--ambient-bottom-padding');
+    return () => { document.documentElement.style.removeProperty('--ambient-bottom-padding'); };
   }, [hasBottomNav]);
 
   // Don't render anything if ambient is disabled

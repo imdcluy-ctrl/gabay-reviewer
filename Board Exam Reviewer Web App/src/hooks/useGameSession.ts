@@ -18,12 +18,12 @@ export function useGameSession() {
 
   const loadToday = useCallback(async () => {
     const today = new Date().toLocaleDateString('en-CA');
-    const all = await db.streak_sessions
+    const all = await (db as any).streak_sessions
       .orderBy('createdAt')
       .reverse()
       .toArray();
     setSessions(all);
-    const found = all.find(s => s.date === today);
+    const found = all.find((s: any) => s.date === today);
     setTodaySession(found || null);
     setLoading(false);
   }, []);
@@ -36,7 +36,7 @@ export function useGameSession() {
       id: uuidv4(),
       createdAt: new Date().toISOString(),
     };
-    await db.streak_sessions.put(record);
+    await (db as any).streak_sessions.put(record);
     setTodaySession(record);
     setSessions(prev => [record, ...prev]);
 

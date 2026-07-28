@@ -8,7 +8,8 @@ const PASS_THRESHOLD = 80;       // CSE passing = 80%+ (136/170)
 const MIN_WEIGHTED_QUESTIONS = 100; // Minimum before showing any score
 const MIN_CATEGORIES = 2;        // Must have attempted at least 2 categories
 const MIN_CATEGORY_ATTEMPTS = 10; // At least 10 weighted in each category
-const DECAY_HALF_LIFE_DAYS = 90; // Evidence older than 90 days is half-weighed
+
+
 
 const CATEGORY_ORDER = [
   'numerical-ability',
@@ -59,7 +60,7 @@ export function calculateReadiness(inputs: ReadinessInputs): ReadinessResult {
 
   // 4. Category coverage check
   const catsWithData = categories.filter(c => c.weightedTotal >= MIN_CATEGORY_ATTEMPTS);
-  const categoryCoverageRatio = catsWithData.length / Math.min(categories.length, 4);
+  // const _categoryCoverageRatio = catsWithData.length / Math.min(categories.length, 4);
 
   // 5. Gate: enough data?
   if (totalWeighted < MIN_WEIGHTED_QUESTIONS || catsWithData.length < MIN_CATEGORIES) {

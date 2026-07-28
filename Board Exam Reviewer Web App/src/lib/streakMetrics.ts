@@ -106,7 +106,7 @@ export interface StreakEngagementStats {
 export async function computeStreakEngagementStats(
   userId: string,
 ): Promise<StreakEngagementStats> {
-  const sessions = await db.streak_sessions
+  const sessions = await (db as any).streak_sessions
     .where('localUserId')
     .equals(userId)
     .toArray();
@@ -124,7 +124,7 @@ export async function computeStreakEngagementStats(
   }
 
   const avgFinalStreak = Math.round(
-    sessions.reduce((sum, s) => sum + s.finalStreak, 0) / totalSessions,
+    sessions.reduce((sum: number, s: any) => sum + s.finalStreak, 0) / totalSessions,
   );
 
   const dates = loadParticipationDates();

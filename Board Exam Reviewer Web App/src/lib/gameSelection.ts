@@ -1,6 +1,5 @@
-import { db, type LocalQuestion } from './db';
+import { db } from './db';
 import type { StreakQuestion, BlendSource, StreakBlend } from '../types/game';
-import type { MockExamAttempt } from '../types/mockExam';
 
 /** Select a single question for the streak game using the configured blend.
  *  Falls back through tiers: blend source -> any unused -> any question. */
@@ -43,7 +42,7 @@ export async function selectStreakQuestion(
       const attemptedIds = new Set(attempts.map(a => a.question_id));
       const unseenPool = unused.filter(q => !attemptedIds.has(q.id));
       if (unseenPool.length > 0) {
-        const pick = unseenPool[Math.floor(Math.random() * unseenPool.length)];
+        const pick = unseenPool[Math.floor(Math.random() * unseenPool.length)]!;
         return { questionId: pick.id, categoryId: pick.category_id, blendSource: 'unseen' };
       }
       // fall through to random
@@ -53,7 +52,7 @@ export async function selectStreakQuestion(
       if (weakCat) {
         const weakPool = unused.filter(q => q.category_id === weakCat);
         if (weakPool.length > 0) {
-          const pick = weakPool[Math.floor(Math.random() * weakPool.length)];
+          const pick = weakPool[Math.floor(Math.random() * weakPool.length)]!;
           return { questionId: pick.id, categoryId: pick.category_id, blendSource: 'weak_category' };
         }
       }
@@ -68,7 +67,7 @@ export async function selectStreakQuestion(
       const wrongIds = wrongAttempts.map(a => a.question_id);
       const reviewPool = unused.filter(q => wrongIds.includes(q.id));
       if (reviewPool.length > 0) {
-        const pick = reviewPool[Math.floor(Math.random() * reviewPool.length)];
+        const pick = reviewPool[Math.floor(Math.random() * reviewPool.length)]!;
         return { questionId: pick.id, categoryId: pick.category_id, blendSource: 'spaced_review' };
       }
       break;

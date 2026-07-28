@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useUserProfile } from '../hooks/useUserProfile';
 import { useEntitlement } from '../hooks/useEntitlement';
 import { useGameSession } from '../hooks/useGameSession';
-import { createInitialState, processAnswer, isGameOver, DEFAULT_STREAK_SETTINGS, loadSavedFreezes, saveFreezeTokens, awardFreezeToken, canRestoreToday, markRestoreUsed } from '../lib/gameScoring';
+import { createInitialState, processAnswer, isGameOver, DEFAULT_STREAK_SETTINGS, loadSavedFreezes, canRestoreToday, markRestoreUsed } from '../lib/gameScoring';
 import { selectStreakQuestion, loadUsedToday, saveUsedToday } from '../lib/gameSelection';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
@@ -17,7 +17,6 @@ import {
   trackStreakMilestoneReached,
   trackStreakSessionCompleted,
   trackStreakRestoreUsed,
-  trackStreakPracticeModeEntered,
 } from '../lib/streakMetrics';
 import { AdUnit } from '../components/AdUnit';
 import './GameSession.css';

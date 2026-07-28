@@ -13,9 +13,9 @@ import { CheckoutModal } from '../components/paywall/CheckoutModal';
 import './MockExamSession.css';
 
 
-class MockExamErrorBoundary extends Component {
+class MockExamErrorBoundary extends Component<{ children: React.ReactNode }, { error: any }> {
   state = { error: null };
-  static getDerivedStateFromError(error) { return { error }; }
+  static getDerivedStateFromError(error: unknown) { return { error }; }
   render() {
     if (this.state.error) {
       return React.createElement('div', {
@@ -25,9 +25,9 @@ class MockExamErrorBoundary extends Component {
         React.createElement('pre', {
           style: { background: '#f5f5f5', padding: '1rem', borderRadius: '8px', margin: '1rem auto', maxWidth: '600px', textAlign: 'left', overflow: 'auto', fontSize: '0.85rem' }
         },
-          this.state.error.message,
+          (this.state.error as any).message,
           '\n\n',
-          this.state.error.stack
+          (this.state.error as any).stack
         ),
         React.createElement('button', {
           onClick: () => { window.location.href = '/dashboard'; },
@@ -35,7 +35,7 @@ class MockExamErrorBoundary extends Component {
         }, 'Return to Dashboard')
       );
     }
-    return this.props.children;
+    return (this.props as any).children;
   }
 }
 
