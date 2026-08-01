@@ -19,7 +19,7 @@ export function mapMockExamAnswers(
     const snap = ans.content_snapshot;
 
     const subjectArea = snap?.category_id || q?.category_id;
-    const subtopic = snap?.subtopic || q?.subtopic;
+    const subtopic = snap?.subtopic || q?.subtopic || q?.subtopic_id || 'General';
     const correctAnswer = snap?.correct_option || q?.correct_option;
 
     if (!subjectArea || !subtopic || !correctAnswer || !ans.chosen_option) {
@@ -67,7 +67,7 @@ export function mapPracticeAttempts(
     unifiedAnswers.push({
       questionId: att.question_id,
       subjectArea: q.category_id,
-      subtopic: q.subtopic,
+      subtopic: q.subtopic || q.subtopic_id || 'General',
       selectedAnswer: att.chosen_option,
       correctAnswer: q.correct_option,
       isCorrect: normSelected === normCorrect,

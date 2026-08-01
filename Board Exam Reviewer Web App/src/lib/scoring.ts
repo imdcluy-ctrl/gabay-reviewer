@@ -97,7 +97,9 @@ export function generateSubtopicDiagnostics(answers: MockExamAnswer[]): Subtopic
   const subtopicMap = new Map<string, { category_id: string; total: number; correct: number }>();
 
   for (const a of answers) {
-    const key = a.content_snapshot.subtopic;
+    // Old attempts may have been snapshotted before `subtopic` was normalized from
+    // `subtopic_id`; never key on undefined (fixes results-page `.replace()` crash).
+    const key = a.content_snapshot.subtopic || 'General';
     const existing = subtopicMap.get(key) || {
       category_id: a.content_snapshot.category_id,
       total: 0,

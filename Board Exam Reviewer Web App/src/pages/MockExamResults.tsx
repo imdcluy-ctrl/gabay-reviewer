@@ -136,7 +136,7 @@ export const MockExamResults: React.FC = () => {
               <div>
                 <h3 style={{ color: 'var(--color-brand-teal)', margin: 0, fontSize: '1rem' }}>🎯 Recommended Targeted Practice</h3>
                 <p style={{ margin: '0.25rem 0 0 0', fontSize: '0.88rem', color: 'var(--color-text-secondary)' }}>
-                  Your lowest accuracy was in <strong>{lowestSubtopic.subtopic.replace('-', ' ')}</strong> ({Math.round(lowestSubtopic.accuracy_ratio * 100)}%). Launch a 10-item drill to master it now.
+                  Your lowest accuracy was in <strong>{lowestSubtopic.subtopic ? lowestSubtopic.subtopic.replace(/-/g, ' ') : 'this topic'}</strong> ({Math.round(lowestSubtopic.accuracy_ratio * 100)}%). Launch a 10-item drill to master it now.
                 </p>
               </div>
               <Button variant="primary" size="md" onClick={() => navigate(`/study/${lowestSubtopic.category_id || 'verbal-ability'}`)}>

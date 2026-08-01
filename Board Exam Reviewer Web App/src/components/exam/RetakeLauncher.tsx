@@ -76,7 +76,8 @@ export const RetakeLauncher: React.FC<RetakeLauncherProps> = ({
         userId,
         mockExamId,
         mode,
-        outcome.selection.questions
+        outcome.selection.questions,
+        true // Retakes always supersede any stale in-progress attempt
       );
       onLaunch(attempt.id);
     } catch (err: any) {

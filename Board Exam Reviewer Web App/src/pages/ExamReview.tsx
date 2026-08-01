@@ -123,7 +123,7 @@ export const ExamReview: React.FC = () => {
   const mockQuestion: LocalQuestion | null = snapshot ? {
     id: currentAnswer.question_id,
     category_id: snapshot.category_id,
-    subtopic: snapshot.subtopic,
+    subtopic: snapshot.subtopic || 'General',
     difficulty: 3,
     is_free: true,
     blueprint_id: `CSE-${snapshot.category_id.toUpperCase()}`,

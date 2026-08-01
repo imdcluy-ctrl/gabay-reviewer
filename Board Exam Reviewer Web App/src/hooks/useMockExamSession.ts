@@ -80,6 +80,14 @@ export function useMockExamSession(
       const parsedSections: MockExamSection[] = JSON.parse(examDef.section_config || '[]');
       setSections(parsedSections);
 
+      // Discard stale truncated attempts assembled from a small question bank (INV-016b),
+      // so users can't stay locked into a 5-question exam after the bank is refreshed.
+      await MockExamPersistence.abandonTruncatedAttempts(
+        localUserId,
+        examDef.id,
+        Math.ceil((examDef.total_questions || 170) * 0.5)
+      );
+
       // Check for active resumable attempt (INV-016)
       const activeAttempt = await MockExamPersistence.loadResumableAttempt(localUserId, examDef.id);
       if (activeAttempt) {
@@ -156,7 +164,8 @@ export function useMockExamSession(
               localUserId,
               targetExamId,
               mode,
-              sampleQuestions
+              sampleQuestions,
+              !shouldResume // "Start Fresh Attempt" supersedes any stale in-progress attempt
             );
           } else {
             const msg = 'message' in selectResult ? selectResult.message : 'Insufficient questions to assemble exam.';
@@ -169,7 +178,8 @@ export function useMockExamSession(
             localUserId,
             targetExamId,
             mode,
-            selectResult.questions
+            selectResult.questions,
+            !shouldResume // "Start Fresh Attempt" supersedes any stale in-progress attempt
           );
         }
       }

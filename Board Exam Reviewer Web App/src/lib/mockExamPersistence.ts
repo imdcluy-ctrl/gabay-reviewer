@@ -42,16 +42,61 @@ export class MockExamPersistence {
     return latest;
   }
 
+  // INV-016b: Abandon in-progress attempts that were assembled from a stale/truncated
+  // question bank (e.g. a 5-question exam created while the on-device bank was tiny).
+  // Because createAttempt writes ALL answer rows up front, an attempt whose answer-row
+  // count is far below the exam target is unambiguous evidence of a stale attempt that
+  // would otherwise lock the user into a truncated exam forever.
+  static async abandonTruncatedAttempts(
+    userId: string,
+    examId: string,
+    minimumQuestionCount: number
+  ): Promise<void> {
+    const activeAttempts = await db.mock_exam_attempts
+      .where('[local_user_id+mock_exam_id+status]')
+      .anyOf([
+        [userId, examId, 'in_progress'],
+        [userId, examId, 'paused'],
+      ])
+      .toArray();
+
+    for (const attempt of activeAttempts) {
+      const answerCount = await db.mock_exam_answers
+        .where('attempt_id')
+        .equals(attempt.id)
+        .count();
+
+      if (answerCount < minimumQuestionCount) {
+        await db.mock_exam_attempts.update(attempt.id, { status: 'abandoned' });
+        console.warn(
+          `[Gabay] Abandoned truncated mock exam attempt ${attempt.id} (${answerCount} rows < ${minimumQuestionCount} expected).`
+        );
+      }
+    }
+  }
+
   // Create attempt with full content_snapshot per question (INV-016, INV-019, M6)
+  // `forceNew` lets "Start Fresh Attempt" (and retakes) truly supersede an existing
+  // non-terminal attempt instead of silently resuming the stale one.
   static async createAttempt(
     userId: string,
     examId: string,
     mode: 'practice' | 'simulation',
-    selectedQuestions: LocalQuestion[]
+    selectedQuestions: LocalQuestion[],
+    forceNew: boolean = false
   ): Promise<MockExamAttempt> {
-    const existing = await this.loadResumableAttempt(userId, examId);
-    if (existing) {
-      return existing; // INV-016: Return existing attempt if non-terminal exists
+    if (!forceNew) {
+      const existing = await this.loadResumableAttempt(userId, examId);
+      if (existing) {
+        return existing; // INV-016: Return existing attempt if non-terminal exists
+      }
+    } else {
+      // Supersede any existing active attempt for this exam (INV-016 single-active guard)
+      const existingActive = await this.loadResumableAttempt(userId, examId);
+      if (existingActive) {
+        await db.mock_exam_attempts.update(existingActive.id, { status: 'abandoned' });
+        console.log(`[Gabay] Superseded previous in-progress attempt ${existingActive.id} with a fresh attempt.`);
+      }
     }
 
     const exam = await db.mock_exams.get(examId);
@@ -92,7 +137,7 @@ export class MockExamPersistence {
         hint_ladder: q.hint_ladder.map(h => `${h.title}: ${h.text}`),
         deconstruction: q.deconstruct_text,
         trap_type: q.choice_explanations?.[q.correct_option]?.trap_type || null,
-        subtopic: q.subtopic,
+        subtopic: q.subtopic || q.subtopic_id || 'General',
         category_id: q.category_id,
         content_version: q.version || 1,
       };
